@@ -1,0 +1,298 @@
+{
+  "id": "maserati_f136yg_47",
+  "name": "Maserati F136 YG 4.7 L V8 (Quattroporte S, 2008-2010)",
+  "induction": "naturally aspirated",
+  "summary": "The long-stroke 4.7 L version of the Maserati cross-plane F136, with a 60-degree intake cam phaser; 430 CV (425 hp US) at 7000 rpm and 490 N m at 4750 in the Quattroporte S.",
+  "fields": {
+    "variant": {
+      "value": "F136 YG, Quattroporte S (M139 R / M139IQ), 2008-2010",
+      "unit": null,
+      "source": "https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf",
+      "note": "Academy p. 15 MY09 M139 range: 'Quattroporte S (M139IQ) 430 [HP] 4.7 automatic YG'. Chosen over the Sport GT S (F136 YH, 440 HP) because the Quattroporte S has the standard exhaust; the Sport GT S's bypass-valve silencers and filterless intake are things this model cannot switch. Wikipedia lists F136 YG for the Quattroporte S 2008-2010."
+    },
+    "cylinders": {
+      "value": 8,
+      "unit": null,
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "'8 - 90 V'"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf"
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf"
+    },
+    "bore_mm": {
+      "value": 94.0,
+      "unit": "mm",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p. 226, Quattroporte S: 94x84.5."
+    },
+    "stroke_mm": {
+      "value": 84.5,
+      "unit": "mm",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf"
+    },
+    "displacement_cc": {
+      "value": 4691,
+      "unit": "cc",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "compression_ratio": {
+      "value": 11.02,
+      "unit": ":1",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p. 226, Quattroporte S: '11.02'. The Academy gives 11.25:1 for the F136 YK (GranTurismo MC Stradale), a different variant."
+    },
+    "firing_order": {
+      "value": "1-8-6-2-7-3-4-5",
+      "unit": null,
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p. 226 'Ignition sequence: 1-8-6-2-7-3-4-5', listed for both versions. Inference, not read on a page: the manuals give the order but no cylinder-numbering diagram was opened. Numbering is taken as 1-4 on one bank and 5-8 on the other, front to back. This is the only common numbering under which 1-8-6-2-7-3-4-5 is a valid cross-plane order (each bank then fires at 90-180-270-180, and cylinders n and n+4 share a crank pin); with alternating numbering (odd one bank, even the other) the order would put three consecutive firings on one bank. Which bank is 1-4 is not known and does not change the model."
+    },
+    "crank": {
+      "value": "cross-plane (90-degree)",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Ferrari_F136_engine",
+      "note": "As for the 4.2: Wikipedia F136 infobox; consistent with the factory firing order. Also stated for the Quattroporte V specifically: Wikipedia, Maserati Quattroporte (fifth-generation section): the Quattroporte V's F136 engines had 'a crossplane crankshaft, four valves per cylinder driven by two overhead camshafts per bank and continuous variable valve timing on the intake side'; F136S in DuoSelect cars, dry sump."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "unit": "deg",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "Engine-wide even 90; per bank 270-180-90-180 (our derivation)."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf"
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "cam_timing_check": {
+      "value": "intake valve lift 0.60 +/- 0.08 mm at 25 deg after TDC; exhaust valve lift 0.60 +/- 0.08 mm at TDC",
+      "unit": null,
+      "source": "https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf",
+      "note": "Academy p. 15 (also pp. 27, 30, 38), F136 YG. Workshop cam-setting values, not durations; reading the intake value as the phaser's rest position is ours. Read from the Wayback Machine copy http://web.archive.org/web/20220327103955/https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf (original host refused connections)."
+    },
+    "variable_valve_timing": {
+      "value": "intake cams only, continuously variable, 60 crank degrees (30 cam degrees)",
+      "unit": null,
+      "source": "https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf",
+      "note": "Academy p. 13: 'The F136YG and F136YH engines of the Quattroporte S and Quattroporte Sport GT S are equipped with new valve timing control devices allowing total timing variation of 30 (60 engine actuation).' Intake-only is also stated for the Quattroporte V's engines by Wikipedia, Maserati Quattroporte (fifth-generation section): the Quattroporte V's F136 engines had 'a crossplane crankshaft, four valves per cylinder driven by two overhead camshafts per bank and continuous variable valve timing on the intake side'; F136S in DuoSelect cars, dry sump."
+    },
+    "redline_rpm": {
+      "value": 7600,
+      "unit": "rpm",
+      "source": "https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf",
+      "note": "Academy p. 15 (MY09 Quattroporte, ZF 6HP26 section): 'peak power available up to the highest engine speeds (7,600 rpm)'. Taken as the rev limit; that reading is ours."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "peak_power_kw": {
+      "value": 317,
+      "unit": "kW",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p. 226, 'Maximum power (EC) kW 317, HP 425' at 7,000 r.p.m. (US manual). The Academy and Wikipedia give 430 HP/PS (316 kW)."
+    },
+    "peak_power_rpm": {
+      "value": 7000,
+      "unit": "rpm",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf"
+    },
+    "peak_torque_nm": {
+      "value": 490,
+      "unit": "Nm",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p. 226, 'Maximum torque (EC) Nm 490, kgm 50' at 4,750 r.p.m. Wikipedia and Autozine (361 lbft) agree."
+    },
+    "peak_torque_rpm": {
+      "value": 4750,
+      "unit": "rpm",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf"
+    },
+    "intake_type": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found. The Academy says the Sport GT S differs from the Quattroporte S by 'a modification to the intake and exhaust system', with no filter on the air-flow meter, but does not describe the manifold."
+    },
+    "header_type": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "standard exhaust without bypass valves; quad round tailpipes",
+      "unit": null,
+      "source": "https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf",
+      "note": "Academy p. 14: the Sport GT S, 'like the GranTurismo S', has a racing exhaust with bypass valves in the rear silencers; this is not said of the Quattroporte S (that the S has none is our reading). Quad round tailpipes: Wikipedia, Maserati Quattroporte. Manifold layout, crossover and pipe sizes not found."
+    },
+    "lubrication": {
+      "value": "wet sump",
+      "unit": null,
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p. 227."
+    },
+    "engine_management": {
+      "value": "Bosch Motronic ME9.1.1",
+      "unit": null,
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf"
+    }
+  },
+  "missing": [
+    "rod_length_mm",
+    "valve diameters",
+    "cam lift and duration",
+    "phaser position under load",
+    "idle_rpm",
+    "intake runner length, diameter and plenum",
+    "throttle diameter",
+    "header type, primary and secondary dimensions, crossover",
+    "exhaust pipe diameter",
+    "cylinder numbering diagram"
+  ],
+  "sources": [
+    {
+      "url": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "what": "Maserati Quattroporte owner's manual, US edition, M139 (book dated 1 September 2008, 2009 model year), hosted by the Maserati Club UK (a ManualsLib download). Manufacturer document: technical specifications p. 226 for the 4.2 (M139 A) and 4.7 (M139 R) versions."
+    },
+    {
+      "url": "https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf",
+      "what": "Maserati Academy, 'Maserati Range Technical Updates', July 2012, training documentation for the Maserati service network (cited by Wikipedia's F136 article). Read from the Wayback Machine copy http://web.archive.org/web/20220327103955/https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf because the original host refused connections; manufacturer document."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ferrari_F136_engine",
+      "what": "Wikipedia, Ferrari F136 engine: variant table (engine codes, years, power, torque, sump type) sourced to the Maserati Academy, and the cross-plane statement."
+    },
+    {
+      "url": "https://w.autozine.org/Archive/Maserati/old/Quattroporte_V.html",
+      "what": "Autozine (Mark Wan), Quattroporte V review: Quattroporte S 430 hp at 7000 rpm, 361 lbft at 4750 rpm."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Maserati_Quattroporte",
+      "what": "Wikipedia, Maserati Quattroporte: fifth-generation engine paragraph (cross-plane crank, intake-side continuous variable valve timing, F136S dry sump in DuoSelect cars); quad round tailpipes on the standard cars; Sport GT S bypass-valve exhaust."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "Maserati Quattroporte S (2009)",
+      "unit": "",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "US owner's manual, M139, 2009 model year, covering the Quattroporte (4.2) and Quattroporte S (4.7, F136 YG)."
+    },
+    "curb_kg": {
+      "value": 2010,
+      "unit": "kg",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p.231. Quote: \"Empty vehicle weight (with tanks filled, tools and accessories) 4,425 lb (2.010 kg)\", same for both versions. No driver."
+    },
+    "gear_count": {
+      "value": 6,
+      "unit": "",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p.227. Quote: \"Six forward speeds and one reverse.\""
+    },
+    "gears": {
+      "value": [
+        4.171,
+        2.34,
+        1.521,
+        1.143,
+        0.867,
+        0.691
+      ],
+      "unit": "",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p.227. Quote: \"1st gear 4.171 14.77 / 2nd gear 2.340 8.28 / 3rd gear 1.521 5.38 / 4th gear 1.143 4.05 / 5th gear 0.867 3.07 / 6th gear 0.691 2.45\" (gearbox ratio, total reduction)."
+    },
+    "final_drive": {
+      "value": 3.54,
+      "unit": "",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p.228. Quote: \"Differential reduction ratio 13/46 = 3.54\". Consistent with the total reductions above (4.171 x 3.54 = 14.77)."
+    },
+    "tyre": {
+      "value": "285/35 ZR 19",
+      "unit": "",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p.229, rear. Quote: \"rear ... 10.5”J x 19” (+) 285/35 ZR19\"; the S column lists only 19 and 20 inch, both marked \"+ Wheel rims available on request\". Taking 19 inch as standard is our inference (smallest S size)."
+    },
+    "wheel_radius_m": {
+      "value": 0.334,
+      "unit": "m",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "Estimated (ours): rolling radius taken as 98% of the unloaded radius computed from the tyre size (rim diameter / 2 + section width x aspect ratio)."
+    },
+    "top_speed_kmh": {
+      "value": 280,
+      "unit": "km/h",
+      "source": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "note": "p.231. Quote: \"Maximum speed ... Version Quattroporte S ... 280 174\" (km/h, mph)."
+    },
+    "driven": {
+      "value": "rear",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/Maserati_Quattroporte",
+      "note": "English Wikipedia, 'Maserati Quattroporte' (read 2026-11-17), infobox fifth generation (Pininfarina, Ken Okuyama) layout: Front-mid-engine, rear-wheel-drive."
+    }
+  }
+}

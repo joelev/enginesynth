@@ -1,0 +1,84 @@
+{
+  "name": "vw_07k_25_cbta",
+  "label": "Volkswagen 2.5 L inline-five (07K)",
+  "generic": false,
+  "family": "five",
+  "based_on": "Volkswagen 2.5 L inline-five, engine code CBTA/CBUA (07K), 2008-2014",
+  "layout": "inline",
+  "bore": 0.0825,
+  "stroke": 0.0928,
+  "rod": 0.144,
+  "cr": 9.5,
+  "firing": [
+    0,
+    144,
+    576,
+    288,
+    432
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "cam": {
+    "at_lift": 0,
+    "ivo": 8,
+    "ivc": 48,
+    "evo": 46,
+    "evc": 6,
+    "in_lift": 0.009,
+    "ex_lift": 0.0085
+  },
+  "runner_len": 0.4,
+  "primary_len": [
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "redline": 6300,
+  "idle": 700,
+  "published": {
+    "power_kw": 125,
+    "power_rpm": 5700,
+    "torque_nm": 240,
+    "torque_rpm": 4250
+  },
+  "sources": [
+    {
+      "url": "https://static.nhtsa.gov/odi/tsbs/2012/MC-10069847-3639.pdf",
+      "what": "Volkswagen 'Jetta SportWagen Quick Reference Specification Book', December 2012, filed with NHTSA. Manufacturer document: engine data table for CBTA/CBUA (output, torque, bore, stroke, compression), crankshaft, piston and valve dimensions."
+    },
+    {
+      "url": "https://workshop-manuals.com/volkswagen/new_beetle/l5-2.5l_(bpr)/maintenance/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/",
+      "what": "Online copy of the factory manual page 'Firing Order: Specifications' for the 2007 VW New Beetle 2.5 (BPR)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines",
+      "what": "Wikipedia list; its 07K entry covers the turbocharged TT RS / RS 3 engine (not usable for output or cams), used here only for the family's firing interval and layout."
+    },
+    {
+      "url": "https://mymotorlist.com/engines/volkswagen/ea855/bgp/",
+      "what": "Third-party page on the earlier BGP version; used only for the comparison figure in a note."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, firing order 1-2-4-5-3 (from the manual for the earlier BPR version of the same engine), 144 degree firing interval (stated for the turbocharged engine of the same family), four valves per cylinder, single throttle and fixed plenum manifold, published output. The 72-degree crank pin spacing is assumed by convention. Estimated, not sourced: rod length, valve diameters (the factory table found lists the exhaust valve as larger than the intake and the researcher marked both unconfirmed, so they are left to the derived defaults), valve lifts, all cam timing, intake runner length, exhaust primary length, redline, idle. Everything else is left to the derived defaults (runner and throttle diameters, plenum, one five-into-one manifold, pipes, muffler, flywheel). Not modelled: the intake cam adjuster (the cam is fixed).",
+  "vehicle": {
+    "name": "Volkswagen Golf 2.5 two-door (Mk6, US, 2010)",
+    "kind": "car",
+    "curb_kg": 1346,
+    "gear_count": 5,
+    "gears": [
+      3.78,
+      2.12,
+      1.36,
+      1.03,
+      0.77
+    ],
+    "final_drive": 3.65,
+    "wheel_radius_m": 0.3173,
+    "tyre": "195/65 R15 H",
+    "top_speed_kmh": 201,
+    "notes": "All values from Volkswagen of America's 2010 US Golf press kit, 2.5 L (170 hp, 125 kW at 5700 rpm, 240 Nm at 4250, firing order 1-2-4-5-3) with the 5-speed manual (code HGR). The Golf was chosen over the Jetta because VW published a full, consistent table for it; the 2011 Jetta pre-launch sheet's manual ratios look copied from another gearbox. The sheet does not print the engine code; CBTA is the engine research's identification. Top speed is electronically limited (125 mph, converted). wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "front"
+  }
+}

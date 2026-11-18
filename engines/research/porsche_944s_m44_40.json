@@ -1,0 +1,342 @@
+{
+  "id": "porsche_944s_m44_40",
+  "name": "Porsche M44/40 2.5 L 16-valve inline-four (944 S, 1987-1988)",
+  "induction": "naturally aspirated",
+  "summary": "A large-bore (100 mm), short-stroke 2.5 L four with a 928 S4-derived four-valve head and two counter-rotating balance shafts, breathing through a magnesium intake tract and two two-into-one manifolds (cylinders 1+4 and 2+3) that merge into one pipe. With the 1-3-4-2 order each manifold carries two pulses evenly spaced 360 degrees apart, and the single pipe carries one pulse every 180 degrees. The balance shafts cancel second-order shaking forces mechanically; they do not change the gas flow, so they have no counterpart in a gas-dynamics model.",
+  "fields": {
+    "variant": {
+      "value": "M44/40, 2479 cc, 944 S (European and US), model year 1987 onward; succeeded by the 3.0 L M44/41 in the 944 S2 for model year 1989",
+      "unit": null,
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Porsche factory Workshop Manual, Volume IA 'Engine, 16 valves' (PDF, technical data pages printed XIII 1987): 'TYPE 944 S (16-VALVE ENGINES) - '87 MODELS ONWARD', 'Internal engine designation M 44/40'. The same volume gives the 944 S2 'Model 89' as 'M 44.41 (3.0 l)'. The end of 944 S production (1988 model year) is from a search-result excerpt of Pelican Parts' 944 model table (https://www.pelicanparts.com/944/tech_specs/944_model.htm), which lists M44/40 for 1987 and 1988 cars; that page was not opened directly. Stuttcars (https://www.stuttcars.com/?p=417309) gives the 944 S years as 1987 to 1988 and the engine as M44/40 with Motronic and dual knock sensors."
+    },
+    "cylinders": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Number of cylinders 4'."
+    },
+    "layout": {
+      "value": "inline",
+      "unit": null,
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Type 4-cylinder, 4-stroke in-line spark ignition engine with two balance shafts'. Front-mounted, inclined, transaxle car."
+    },
+    "bore_mm": {
+      "value": 100.0,
+      "unit": "mm",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Bore mm/in. 100/3.94'."
+    },
+    "stroke_mm": {
+      "value": 78.9,
+      "unit": "mm",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Stroke mm/in. 78.9/3.11'."
+    },
+    "displacement_cc": {
+      "value": 2479,
+      "unit": "cc",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Displacement (actual) cc/in.3 2479/151'. Bore and stroke give 2478.7 cc (my calculation)."
+    },
+    "rod_length_mm": {
+      "value": 150.0,
+      "unit": "mm",
+      "source": "https://928-944parts.com/en/products/h-beam-connecting-rod-924s-944-928-turbo-set-of-4",
+      "note": "Weak source: an aftermarket H-beam replacement rod set listed for all 2.5 L 944 engines, centre-to-centre 150 mm; a Wössner replacement-rod listing (https://www.design911.co.uk/p/w-ssner-steel-connecting-rods-porsche-944---968-cup--s2--s/) gives 'Length C/C: 150.00mm'. Both were read only as search-result excerpts, not opened. Replacement rods are made to the stock length, but no Porsche document giving the rod length was found; the factory manual gives only bush, pin and journal diameters."
+    },
+    "compression_ratio": {
+      "value": 10.9,
+      "unit": ":1",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Compression ratio 10.9 : 1'. Same figure for European and US cars (the manual prints US values in parentheses where they differ and gives none here)."
+    },
+    "firing_order": {
+      "value": "1-3-4-2",
+      "unit": null,
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual, Electrical system: 'Firing sequence 1-3-4-2'. The pages read do not state which end is cylinder 1; the camshaft-setting procedure works on 'cylinder 1' at the distributor (front, belt) end, which agrees with the usual front-to-rear numbering, but that is my reading, not a stated fact. Single bank."
+    },
+    "crank": {
+      "value": "Flat-plane four-throw crankshaft (pins 1 and 4 together, 2 and 3 together, 180 degrees apart), forged, five main bearings, plus two balance shafts turning at twice crank speed",
+      "unit": null,
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Sourced: 'Crankshaft Forged, 5 bearings', 'Balance shafts Forged', 'Balance-shaft drive Toothed belt'. The flat-plane pin layout is not stated; it is the only layout that gives the sourced 1-3-4-2 order with even 180-degree intervals and is assumed. Twice-crank-speed balance shafts are the Lanchester arrangement Porsche used in the 944 (not stated in the pages read; assumption). Balance shafts move no gas and are not modelled."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "unit": "crank deg",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Derived (my reasoning) from the sourced firing order on a flat-plane four-stroke four; not printed in the manual."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Valve arrangement 2 intake, 2 exhaust overhead V'; 'Valve timing Two overhead camshafts, hydraulic bucket tappets'; 'Camshaft drive Toothed belt and internal chain' (belt to the exhaust cam, chain between the cams)."
+    },
+    "intake_valve_dia_mm": {
+      "value": 37.0,
+      "unit": "mm",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual page 15-132, 'Valve dimensions 944 S As from Model 87 Engine type M 44.40': intake a 37 mm, b 6.97 mm, c 114.7 mm, 45 degrees. The text does not label a, b and c; reading a as head diameter, b as stem diameter and c as length is my inference from the values. Seat width 1.5 mm intake (same manual, per a page-reading helper)."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 33.0,
+      "unit": "mm",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Same table: exhaust a 33 mm, b 6.94 mm, c 113.7 mm, 45 degrees (a as head diameter is my inference). Seat width 1.8 mm."
+    },
+    "ivo_btdc": {
+      "value": -4,
+      "unit": "deg",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Intake opens 4° after TDC' (so -4 BTDC). Camshaft specification page 15-112b states the timing is at '1 mm stroke, zero play' (1 mm valve lift, hydraulic tappets). Camshafts 944.105.277.04 (intake) and 944.105.275.04 (exhaust)."
+    },
+    "ivc_abdc": {
+      "value": 40,
+      "unit": "deg",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "'Intake closes 40° after BDC', at 1 mm lift."
+    },
+    "evo_bbdc": {
+      "value": 36,
+      "unit": "deg",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "'Exhaust opens 36° before BDC', at 1 mm lift."
+    },
+    "evc_atdc": {
+      "value": -4,
+      "unit": "deg",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "'Exhaust closes 4° before TDC' (so -4 ATDC), at 1 mm lift. Both valves are shut at TDC at 1 mm lift: no overlap at that lift. The setting check (page 15-103) is 1.4 +/- 0.1 mm intake lift on cylinder 1 at TDC after the timing marks, so the lobes are open below 1 mm at TDC."
+    },
+    "intake_duration_deg": {
+      "value": 216,
+      "unit": "deg",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "My sum of the factory events at 1 mm lift: -4 + 180 + 40."
+    },
+    "exhaust_duration_deg": {
+      "value": 212,
+      "unit": "deg",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "My sum: 36 + 180 - 4, at 1 mm lift."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found in the factory manual. Rennlist threads, which return 403 to automated reading, show in search excerpts figures for 8-valve 944 and 928 S4 cams only (about 9 to 12 mm); none is recorded."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": 6840,
+      "unit": "rpm",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Max. perm. engine speed rpm 6840' (the governed maximum). Stuttcars gives 'higher 6,800 rpm rev limit' (https://www.stuttcars.com/?p=417309). The tachometer red-line marking was not found."
+    },
+    "idle_rpm": {
+      "value": 840,
+      "unit": "rpm",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual, fuel system test values: 'Idle speed ... 840 +- 40' with and without catalytic converter; idle is regulated by the DME's rotary idle controller and is not adjustable."
+    },
+    "peak_power_kw": {
+      "value": 140,
+      "unit": "kW",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Max. engine output to 80/1269/EC kW/PS 140/190 - 135/184 Australia'; 'Net power, SAE J 1349 kW/HP 140/188'. So 190 PS (EC/DIN-style metric) and 188 hp SAE net are the same 140 kW. A search excerpt of Pelican Parts' table labels the 188 figure 'DIN'; the factory labels it SAE J 1349. Motor Sport, November 1986: '190 bhp at 6,000 rpm, whether or not it's fitted with a catalytic converter, with maximum torque of 169.6 lb-ft at 4,300 rpm' (via a fetch summariser)."
+    },
+    "peak_power_rpm": {
+      "value": 6000,
+      "unit": "rpm",
+      "source": "https://www.mirari.fr/w28t"
+    },
+    "peak_torque_nm": {
+      "value": 230,
+      "unit": "Nm",
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'Max. torque to 80/1269/EC Nm/kpm 230/23.5 - 225/22.9 Australia'; 'Net torque, SAE J 1349 Nm/lbft 230/170'."
+    },
+    "peak_torque_rpm": {
+      "value": 4300,
+      "unit": "rpm",
+      "source": "https://www.mirari.fr/w28t"
+    },
+    "intake_type": {
+      "value": "single throttle and air-flow meter, magnesium intake tract derived from the 928 S4; whether it has the 928 S4's two-stage resonance flap system is not established",
+      "unit": null,
+      "source": "https://www.stuttcars.com/?p=417309",
+      "note": "Stuttcars (944 S page, read through a fetch summariser): 'magnesium intake tract/passages' derived from the 928 S4. Motor Sport, November 1986 (https://www.motorsportmagazine.com/archive/article/november-1986/46/new-cars-porsche-928s4-and-944s/), in its 928 S4 section, describes a magnesium manifold 'achieving two-stage resonance charging ... two resonance chambers each connected by a long and a short pipe, the shorter one containing a vacuum operated flap. The resonances peak at 3,000 rpm and 4,000 rpm', and says the four-valve head is 'shared with the 944S'; it does not say the 944 S has that manifold (quotes via a fetch summariser, not checked against the page by eye). A parts-catalogue search excerpt (design911, not opened) lists a resonance-flap part in a 944 S 2.5 L 16V intake manifold kit, which suggests but does not establish a flap on this engine. Its switching point was not found. The factory manual confirms an air-flow sensor ('Air Flow Controlled Fuel Injection', DME) and a single throttle valve housing."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. A Rennlist search excerpt mentions '15-inch' stock runners in a simulation of a later S2-type intake; not this engine and not read; not recorded."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": "two double-wall two-into-one manifolds (cylinders 1+4 and 2+3), a branch pipe joining them, then primary muffler (or catalytic converter), 1st and 2nd secondary mufflers",
+      "unit": null,
+      "source": "https://www.mirari.fr/w28t",
+      "note": "Factory manual: 'EXHAUST SYSTEM Standard 2 double-wall manifolds, branch pipe to primary muffler, 1st and 2nd secondary mufflers. Option: M298 or M299 and USA and Australia as standard, catalytic converter instead of primary muffler.' Which cylinders each manifold serves is from a parts-catalogue excerpt for the 1989 944, 'EXHAUST MANIFOLD - CYLINDERS 1 AND 4', part 94411112705 (https://eurospares.co.uk/Porsche/944/944_(1989)/PartDiagrams/202-005/EXHAUST_SYSTEM_-_CATALYST, search excerpt, not opened); not confirmed for the 944 S specifically."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "With catalytic converter (US, Australia, options M298/M299): heated oxygen sensor and three-way converter in place of the primary muffler.",
+      "unit": null,
+      "source": "https://www.mirari.fr/w28t"
+    }
+  },
+  "missing": [
+    "cam lift (intake and exhaust); the factory manual gives timing at 1 mm lift but no peak lift",
+    "rod length from a Porsche document (150 mm from aftermarket replacement rods only)",
+    "intake runner lengths and diameters, plenum or resonance-chamber volumes, throttle diameter",
+    "exhaust manifold primary length and diameter, pipe and muffler dimensions",
+    "tachometer red-line marking (the factory maximum permissible speed 6840 rpm is used)",
+    "whether the 944 S intake has the 928 S4's two-stage resonance flap, and if so its switching point",
+    "a period road test's description of the engine's sound"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mirari.fr/w28t",
+      "what": "Porsche AG Workshop Manual, Volume IA 'Engine, 16 valves' for the 944 S (M 44/40) and 944 S2 (M 44.41), technical data printed XIII 1987, repair groups printed 1987 to 1991; a PDF of the factory manual (from manualslib, 'As webpage by http://www.9ss1.dk/porsche944'). Bore, stroke, displacement, compression, EC and SAE power and torque, maximum engine speed, balance shafts, cam drive, valve timing at 1 mm lift, valve dimensions, firing order, idle speed, exhaust system. Manufacturer document."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/article/november-1986/46/new-cars-porsche-928s4-and-944s/",
+      "what": "Motor Sport magazine, November 1986, 'New Cars: Porsche 928S-4 and 944S': 944 S power and torque; the two-stage resonance magnesium intake described in the 928 S4 section only. Period source, read through a fetch summariser."
+    },
+    {
+      "url": "https://www.stuttcars.com/?p=417309",
+      "what": "Stuttcars 944 S page: years 1987-1988, M44/40, 6,800 rpm rev limit, magnesium intake tract and revised exhaust derived from the 928 S4. Enthusiast reference, read through a fetch summariser."
+    },
+    {
+      "url": "https://www.pelicanparts.com/944/tech_specs/944_model.htm",
+      "what": "Pelican Parts 944 model table: M44/40 for 1987 and 1988 cars. Read only through a search excerpt. A direct fetch returned 403."
+    },
+    {
+      "url": "https://928-944parts.com/en/products/h-beam-connecting-rod-924s-944-928-turbo-set-of-4",
+      "what": "Aftermarket rod set for all 2.5 L 944 engines, 150 mm centre to centre. Search excerpt only; weak source for the stock rod length."
+    },
+    {
+      "url": "https://www.design911.co.uk/p/w-ssner-steel-connecting-rods-porsche-944---968-cup--s2--s/",
+      "what": "Wössner replacement rods, 'Length C/C: 150.00mm'. Search excerpt only."
+    },
+    {
+      "url": "https://eurospares.co.uk/Porsche/944/944_(1989)/PartDiagrams/202-005/EXHAUST_SYSTEM_-_CATALYST",
+      "what": "Parts diagram for the 1989 944 listing 'EXHAUST MANIFOLD - CYLINDERS 1 AND 4'. Search excerpt only; used for the manifold pairing."
+    }
+  ],
+  "vehicle": {
+    "name": "Porsche 944 S (1987)",
+    "fields": {
+      "curb_kg": {
+        "value": 1280,
+        "unit": "kg",
+        "source": "https://www.mirari.fr/w28t",
+        "note": "Porsche Technical Data, Type 944 S, '87 models onward (printed XIII 1987): 'WEIGHTS - to DIN 700 20 - Curb weight Standard ... Total kg/lbs 1280/2822'; sports package 1240."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://itslimitlezz.github.io/944-Hub/manual/reference/information",
+        "note": "083D five-speed. Excellence (https://www.excellence-mag.com/resources/specs/284): 'Transmission Options 5-speed manual'."
+      },
+      "gears": {
+        "value": [
+          3.5,
+          2.059,
+          1.4,
+          1.034,
+          0.829
+        ],
+        "source": "https://itslimitlezz.github.io/944-Hub/manual/reference/information",
+        "note": "944-Hub 'Codes & Specs' (community reference): '083D AGP 944 S (1987 -1988) ... 10:35 (3.500) 17:35 (2.059) 25:35 (1.400) 29:30 (1.034) 35:29 (0.829) 12:42 (3.500) 9:35 (3.889) No LSD'. Two tooth counts are printed inverted; the decimals are used. Not a Porsche document; Porsche's transmission manual was not readable online."
+      },
+      "final_drive": {
+        "value": 3.889,
+        "source": "https://itslimitlezz.github.io/944-Hub/manual/reference/information",
+        "note": "Same row: '9:35 (3.889)'. Community reference."
+      },
+      "wheel_radius_m": {
+        "value": 0.3173,
+        "unit": "m",
+        "source": "https://www.excellence-mag.com/resources/specs/284",
+        "note": "Calculated by me from the tyre size 195/65 R15 (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "195/65 R15",
+        "source": "https://www.excellence-mag.com/resources/specs/284",
+        "note": "Excellence magazine specification page: 'Wheel Size Rear 15 x 7 ... Tire Size Rear 195/65VR-15' (front the same). Its 4290 mm length is the US-bumper figure, so it probably describes the US car. Porsche's tyre approval list for 944/944 S 1987-91 (https://static.nhtsa.gov/odi/tsbs/2021/MC-10198946-0001.pdf) includes '195/65 R15 (FA, RA) 7Jx15' among several approved sizes. No European brochure size found."
+      },
+      "top_speed_kmh": {
+        "value": 228,
+        "unit": "km/h",
+        "source": "https://www.mirari.fr/w28t",
+        "note": "'PERFORMANCE Maximum speed km/h/mph 228/142'. Motor Sport, November 1986 (https://www.motorsportmagazine.com/archive/article/november-1986/46/new-cars-porsche-928s4-and-944s/): 'a claimed top speed of 142 mph'."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Porsche_944",
+        "note": "English Wikipedia, 'Porsche 944' (read 2026-11-17), infobox layout: Front-engine, rear-wheel-drive layout."
+      }
+    },
+    "missing": [
+      "gear ratios and final drive from a Porsche document",
+      "European brochure tyre size"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mirari.fr/w28t",
+        "what": "Porsche AG Workshop Manual, Volume IA 'Engine, 16 valves', technical data for the Type 944 S (16-valve engines), '87 models onward, printed XIII 1987: DIN weights and maximum speed. Same document the engine research uses."
+      },
+      {
+        "url": "https://itslimitlezz.github.io/944-Hub/manual/reference/information",
+        "what": "944-Hub 'Codes & Specs', a community 944 reference: gearbox codes with tooth counts and ratios for the 944 S 083D. Enthusiast source."
+      },
+      {
+        "url": "https://www.excellence-mag.com/resources/specs/284",
+        "what": "Excellence magazine (Porsche enthusiast magazine) specification page for the 944 S: tyre and wheel sizes. Probably US data."
+      },
+      {
+        "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10198946-0001.pdf",
+        "what": "Porsche tyre approval document for 944 / 944 S 1987-1991, filed with NHTSA: approved sizes. Cross-check."
+      }
+    ]
+  }
+}

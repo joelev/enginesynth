@@ -1,0 +1,1 @@
+{ "engine": "v8_flat", "mode": "dyno", "duration": 3.0, "quality": "draft", "throttle": [[0,0.6]], "rpm": [[0,2500],[3,2500]] }

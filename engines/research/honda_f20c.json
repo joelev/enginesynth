@@ -1,0 +1,379 @@
+{
+  "id": "honda_f20c",
+  "name": "Honda F20C 2.0 L DOHC VTEC inline-four (Honda S2000 AP1, Japanese specification 11.7:1, 1999 on)",
+  "induction": "naturally aspirated",
+  "summary": "A short-stroke (87 x 84 mm) 2.0 L four with roller-follower VTEC on both cams, switching from the low-speed lobes to the high-speed lobes at 5850 rpm and running to a 9000 rpm limit, the highest-revving production car four of its time (mean piston speed 25.2 m/s at 9000 rpm per Honda). It breathes through independent straight runners from a small plenum and a 4-2-1 stainless header. Honda's own torque curve is flat to 5000 rpm and then climbs to its peak at 7500 rpm, so most of its output and noise comes above 6000 rpm.",
+  "fields": {
+    "variant": {
+      "value": "F20C as fitted to the Honda S2000 AP1, Japanese specification (compression 11.7:1), on sale from 15 April 1999; the AP1's 2.0 L engine ran to the 2003 model year in the US, after which the 2.2 L F22C1 (stroke 90.7 mm) replaced it there",
+      "unit": null,
+      "source": "https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/",
+      "note": "Honda's engine-history page gives the 15 April 1999 launch. The VTEC-history page (https://www.honda.co.jp/sportscar/vtec_history/F20C/) says the 2.2 L F22C followed in 2005 in Japan; American Honda's 2004 introduction (https://hondanews.com/en-US/releases/release-2c0843879cac0aea75c877004c34c4a9-2004-honda-s2000-introduction-part) is the US change, per a search excerpt only (not opened). Everything in this file is about the 2.0 L F20C, not the F22C1."
+    },
+    "cylinders": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "note": "Honda Japan spec table: '水冷直列4気筒縦置' (water-cooled inline four, longitudinal)."
+    },
+    "layout": {
+      "value": "inline",
+      "unit": null,
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "note": "Longitudinal, mounted behind the front axle (https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/)."
+    },
+    "bore_mm": {
+      "value": 87.0,
+      "unit": "mm",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "note": "'内径×行程（mm） 87.0×84.0'. Same in Honda R&D Technical Review Table 1 ('ø87 × 84mm', https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf) and American Honda's 2001 release ('87 mm bore X 84 mm stroke', https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain)."
+    },
+    "stroke_mm": {
+      "value": 84.0,
+      "unit": "mm",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html"
+    },
+    "displacement_cc": {
+      "value": 1997,
+      "unit": "cc",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "note": "'総排気量 1,997'. 87 x 87 x 84 x pi/4 x 4 = 1997.4 cc (my calculation)."
+    },
+    "rod_length_mm": {
+      "value": 153,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Honda_F20C_engine",
+      "note": "Wikipedia F20C section, 'Rod length: 153 mm', no citation on that line. An enthusiast PDF says the same (https://www.s2000.club/OM/Honda%20F20C%20engine.pdf). Not found in a Honda document."
+    },
+    "compression_ratio": {
+      "value": 11.7,
+      "unit": ":1",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "note": "Japanese specification. The US car is 11:1 ('11:1 compression ratio', American Honda 2001 release, https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain). Honda's engine-history page credits the narrow valve angle and compact chamber for the 11.7 ratio (https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/)."
+    },
+    "firing_order": {
+      "value": "1-3-4-2",
+      "unit": null,
+      "source": "https://workshop-manuals.com/honda/s2000/l4-1997cc_2.0l_dohc_(vtec)_mfi/maintenance/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/",
+      "note": "Third-party reproduction of 2001 S2000 2.0 L service data, a diagram titled 'Firing Order : 1-3-4-2' with cylinder 1 nearest 'Front of Vehicle' and 4 at the rear. Not a Honda page. Single bank."
+    },
+    "crank": {
+      "value": "Flat-plane four-throw crankshaft assumed (pins 1 and 4 together, 2 and 3 together), forged steel; no balance shafts",
+      "unit": null,
+      "source": "https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf",
+      "note": "Sourced: forged S48C-type crankshaft with manganese added, and the balance shaft deleted ('バランサシャフトを廃止した'), both in the technical review. The flat-plane pin layout is not stated; it is the only layout that gives the sourced order with even 180-degree firing, and is assumed."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "unit": "crank deg",
+      "source": "https://workshop-manuals.com/honda/s2000/l4-1997cc_2.0l_dohc_(vtec)_mfi/maintenance/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/",
+      "note": "Derived (my reasoning) from the firing order on a flat-plane four-stroke four."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "note": "'DOHC チェーン･ギア駆動 吸気2 排気2' (DOHC, chain and gear drive, 2 intake, 2 exhaust). Roller rocker arms with the VTEC pin inside the roller shaft (https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf)."
+    },
+    "valve_angle_deg": {
+      "value": "26 intake / 25 exhaust (F20B: 28 / 28)",
+      "unit": "deg",
+      "source": "https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/",
+      "note": "'F20C型では吸気側26度／排気側25度'. American Honda gives the included angle as 51 degrees (https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain)."
+    },
+    "intake_valve_dia_mm": {
+      "value": 36.0,
+      "unit": "mm",
+      "source": "https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf",
+      "note": "Fig. 16 legend 'F20C (ø36 × 2)' against 'F20B (ø34 × 2)'; text: intake and exhaust valve diameters each enlarged 2 mm over the F20B. Honda's engine-history page: '吸気バルブ径は36mm' (https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/)."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 31.0,
+      "unit": "mm",
+      "source": "https://www.s2000.club/OM/Honda%20F20C%20engine.pdf",
+      "note": "Weak: an enthusiast PDF with no sources ('intake 36mm, exhaust 31 mm'). Honda says only that the exhaust valve is 2 mm larger than the F20B's (https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf); the F20B exhaust valve size was not found, so the 31 mm cannot be checked against Honda."
+    },
+    "intake_lift_mm_high": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found in a Honda document. Figures seen: 12.65 mm in the enthusiast PDF (https://www.s2000.club/OM/Honda%20F20C%20engine.pdf); 12.15 mm and 11.53 mm in s2ki.com forum posts seen only as search excerpts (s2ki blocks automated reading). They disagree and none is reliable; the definition's 12.5 mm is an estimate."
+    },
+    "exhaust_lift_mm_high": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found in a Honda document. Same pages give 11.66, 11.1 and 11.13 mm; none recorded."
+    },
+    "intake_duration_deg_high": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found. The enthusiast PDF gives '300/298 deg' without saying at what lift; a forum excerpt gives 247/243 deg at 1 mm. Neither is recorded."
+    },
+    "cam_low": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Low-speed cam: no lift, duration or timing found anywhere."
+    },
+    "cam_switch_rpm": {
+      "value": 5850,
+      "unit": "rpm",
+      "source": "https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/",
+      "note": "'5850〜9000rpmという広い回転域をハイバルブタイミング域に設定' (high-valve-timing range set at 5850 to 9000 rpm). Same on the VTEC-history page (https://www.honda.co.jp/sportscar/vtec_history/F20C/). American Honda's 2001 release says both 'around 6000 rpm (depending on throttle position)' and 'changeover point to be set at a relatively low 5850 rpm' (https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain). Wikipedia says 5500 to 6000 depending on ECU triggers."
+    },
+    "redline_rpm": {
+      "value": 9000,
+      "unit": "rpm",
+      "source": "https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/",
+      "note": "Maximum permissible engine speed '最高許容回転数は9000rpm'. American Honda: '9000 rpm rev limit' and 'its 9000 rpm redline' (https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain). The technical review's Table 1 gives 'Red-zone engine revolution 8 800rpm' (https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf), which I read as where the tachometer red zone starts. Wikipedia gives a 9150 rpm rev limit and an 8800 rpm maximum; the fuel-cut speed was not found in a Honda document."
+    },
+    "idle_rpm": {
+      "value": 800,
+      "unit": "rpm",
+      "source": "https://workshop-manuals.com/honda/s2000/l4-1997cc_2.0l_dohc_(vtec)_mfi/maintenance/tune-up_and_engine_performance_checks/idle_speed/system_information/specifications/",
+      "note": "'Idle speed with headlights and radiator fan off, In Neutral 800 +/- 50 rpm', third-party reproduction of 2001 US S2000 2.0 L service data. Japanese idle not found."
+    },
+    "peak_power_kw": {
+      "value": 184,
+      "unit": "kW",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "note": "'184［250］/8,300', net (the table marks it '*' = ネット値, net). US: 240 hp at 8300 rpm (https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain), 179 kW (my conversion). Honda R&D Table 1: 250PS/8 300rpm."
+    },
+    "peak_power_rpm": {
+      "value": 8300,
+      "unit": "rpm",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html"
+    },
+    "peak_torque_nm": {
+      "value": 218,
+      "unit": "Nm",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "note": "'218［22.2］/7,500', net. US: 153 lb-ft at 7500 rpm (https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain), 207 N m (my conversion)."
+    },
+    "peak_torque_rpm": {
+      "value": 7500,
+      "unit": "rpm",
+      "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html"
+    },
+    "torque_curve_nm": {
+      "value": {
+        "2000": 165,
+        "2500": 176,
+        "3000": 182,
+        "3500": 185,
+        "4000": 186,
+        "4500": 186,
+        "5000": 188,
+        "5500": 194,
+        "6000": 203,
+        "6500": 207,
+        "7000": 212,
+        "7500": 217,
+        "8000": 214,
+        "8250": 212,
+        "8500": 202,
+        "8750": 190
+      },
+      "unit": "Nm",
+      "source": "https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf",
+      "note": "My reading of the F20C (red) torque curve in Fig. 15 'Engine performance', by pixel position against the printed axes at 200 dpi; reading error about +/-2 N m. The same reading gives 185 kW at 8250 rpm against the stated 184 kW, and 217 N m at 7500 against 218. The curve has no abrupt step at the VTEC changeover; it is flat from 3500 to 5000 rpm and rises smoothly from about 5000 rpm to the peak."
+    },
+    "intake_type": {
+      "value": "plenum, single throttle body, independent straight-port runners (one per cylinder), no variable length; manifold volume reduced to that of a 1.6 L engine for throttle response",
+      "unit": null,
+      "source": "https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf",
+      "note": "'可変長型のインテークマニホールドなどは採用せず ... 独立ストレートポート型のインテークマニホールドを採用した'. Air cleaner module behind the radiator. American Honda: '5.5-liter expansion chamber, a low-resistance, conical axial-flow air filter and a main resonator', then 'four large-section, tuned intake runners' (https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain)."
+    },
+    "intake_manifold_volume_l": {
+      "value": 2.25,
+      "unit": "L",
+      "source": "https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf",
+      "note": "My reading of Fig. 18 'Intake manifold volume': the final F20C design sits at about 2.25 L (preliminary design about 2.53 L). Runner length and diameter are not given."
+    },
+    "airbox_volume_l": {
+      "value": 5.5,
+      "unit": "L",
+      "source": "https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain",
+      "note": "'a large, 5.5-liter expansion chamber'."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "throttle_dia_mm": {
+      "value": 62.5,
+      "unit": "mm",
+      "source": "https://www.s2000.club/OM/Honda%20F20C%20engine.pdf",
+      "note": "Weak: enthusiast PDF without sources ('Throttle body diameter is 62.5 mm'). Not found in a Honda document."
+    },
+    "header_type": {
+      "value": "4-2-1, large-diameter stainless steel tubing, double-pipe manifold",
+      "unit": null,
+      "source": "https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain",
+      "note": "'a 4-into-2-into-1 design'. The technical review lists a 'Double-pipe exhaust manifold' among the new technologies (https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf). Which cylinders pair in the first merge is not stated; 1+4 and 2+3 (360 degrees apart with this firing order) is assumed."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "Metal-honeycomb catalyst (400 cpsi, 1 L) with 42 percent less pressure drop than a ceramic one; then a pre-chamber and two main silencers with a 'U-turn' pipe arrangement; electric-pump secondary air into each exhaust port during warm-up.",
+      "unit": null,
+      "source": "https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain",
+      "note": "Catalyst figures from the technical review, Table 3 and Fig. 22 (https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf)."
+    },
+    "cam_drive": {
+      "value": "Silent chain from the crankshaft to an idler gear, then scissor gears to both camshafts",
+      "unit": null,
+      "source": "https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf"
+    },
+    "flywheel": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Honda says only 'low-mass flywheel' (https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain); the enthusiast PDF's 6.5 kg is unsourced and not used."
+    }
+  },
+  "missing": [
+    "low-speed cam profile (lift, duration, timing): not found in any source",
+    "high-speed cam timing and lift from a Honda source (only conflicting enthusiast and forum figures)",
+    "exhaust_valve_dia_mm from a Honda source (Honda gives only '+2 mm over F20B')",
+    "rod_length_mm from a Honda source (Wikipedia, uncited)",
+    "firing order and idle from a Honda-branded document (only a third-party reproduction of service data)",
+    "runner_length_mm and runner_dia_mm",
+    "throttle_dia_mm from a Honda source",
+    "header primary and secondary lengths and diameters; exhaust pipe diameters",
+    "fuel-cut speed (9000 rpm is Honda's permissible maximum; Wikipedia's 9150 rpm is cited to pages not opened)",
+    "idle speed for the Japanese car",
+    "crank layout (flat-plane assumed, not stated)"
+  ],
+  "sources": [
+    {
+      "url": "https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf",
+      "what": "Honda R&D Technical Review Vol. 11 No. 1 (April 1999), 'Development of a High-power and Low-emission Engine for the HONDA S2000', Akimoto, Ueshima, Kawaguchi, Amakawa, Matsumoto, Nakamura, Sato (Honda Tochigi R&D). Table 1 specification, Fig. 15 power and torque curves, Fig. 16 valve sizes, Fig. 18 intake manifold volume, catalyst data. Read in full as text and figures from the PDF. Manufacturer engineering paper."
+    },
+    {
+      "url": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "what": "Honda Japan archived S2000 specification table for the model sold May 1999 to August 2001 (LA-AP1): engine type, bore and stroke, compression, net power and torque. Type-approval figures."
+    },
+    {
+      "url": "https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/",
+      "what": "Honda Japan engine-technology article 'F20C型 S2000専用に開発した超高回転VTECエンジン' (2025): development history, 9000 rpm permissible speed, 5850-9000 rpm high-cam range, valve sizes and angles, intake and exhaust description."
+    },
+    {
+      "url": "https://www.honda.co.jp/sportscar/vtec_history/F20C/",
+      "what": "Honda Japan 'SPORTS DRIVE WEB' VTEC-history page for the F20C: 1999 S2000 spec table and the 5850-9000 rpm high-cam range."
+    },
+    {
+      "url": "https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain",
+      "what": "American Honda press release 'Honda S2000 -- Powertrain', 22 February 2001: US ratings, 11:1 compression, 9000 rpm limit, VTEC changeover, intake chamber, 4-2-1 manifold and silencers."
+    },
+    {
+      "url": "https://workshop-manuals.com/honda/s2000/l4-1997cc_2.0l_dohc_(vtec)_mfi/maintenance/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/",
+      "what": "workshop-manuals.com, third-party reproduction of 2001 S2000 2.0 L service data: firing order diagram. Not a Honda page."
+    },
+    {
+      "url": "https://workshop-manuals.com/honda/s2000/l4-1997cc_2.0l_dohc_(vtec)_mfi/maintenance/tune-up_and_engine_performance_checks/idle_speed/system_information/specifications/",
+      "what": "Same site: idle speed specification for the 2001 S2000 2.0 L. Not a Honda page."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Honda_F20C_engine",
+      "what": "Wikipedia, Honda F20C engine: rod length (uncited) and secondary cross-checks only."
+    },
+    {
+      "url": "https://www.s2000.club/OM/Honda%20F20C%20engine.pdf",
+      "what": "s2000.club PDF 'Honda F20C engine', an enthusiast article with no sources: exhaust valve, throttle body and cam figures. Low credibility."
+    }
+  ],
+  "vehicle": {
+    "name": "Honda S2000 (AP1, Japan, 1999)",
+    "fields": {
+      "curb_kg": {
+        "value": 1240,
+        "unit": "kg",
+        "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+        "note": "'車両重量 (kg) 1,240' for the S2000 (typeV 1,260; with navigation 1,250 / 1,270). Japanese type-approval vehicle weight; no driver is my reading of the Japanese convention, not stated on the page."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html"
+      },
+      "gears": {
+        "value": [
+          3.133,
+          2.045,
+          1.481,
+          1.161,
+          0.97,
+          0.81
+        ],
+        "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+        "note": "'変速比 1速 3.133 2速 2.045 3速 1.481 4速 1.161 5速 0.970 6速 0.810 後退 2.800'."
+      },
+      "final_drive": {
+        "value": 4.756,
+        "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+        "note": "Page: '減速比（1次/2次） 1.160/4.100'. 4.756 = 1.160 x 4.100, my calculation. The 4.100 alone is the differential ratio."
+      },
+      "wheel_radius_m": {
+        "value": 0.3157,
+        "unit": "m",
+        "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+        "note": "Calculated by me from the tyre size 225/50 R16 92V (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "225/50 R16 92V",
+        "source": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+        "note": "'タイヤ（前・後） 前：205/55R16 89V 後：225/50R16 92V'. Rear (driven) size used."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Honda_S2000",
+        "note": "English Wikipedia, 'Honda S2000' (read 2026-11-17), infobox layout: Front mid-engine, rear-wheel-drive."
+      }
+    },
+    "missing": [
+      "top speed of the Japanese car (Honda Europe's 241 km/h is for the 240 PS European car: https://hondanews.eu/eu/en/media/pressreleases/34329/honda-s2000-99)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+        "what": "Honda Japan archived specification table for the S2000 announced May 1999 (LA-AP1, F20C, 184 kW [250 PS] at 8300 rpm), the variant the engine definition models; type-approval values."
+      },
+      {
+        "url": "https://hondanews.eu/eu/en/media/pressreleases/34329/honda-s2000-99",
+        "what": "Honda Europe press release 'Honda S2000 '99', 1 May 1999: European car (240 PS), 'top speed is 241 km/h', 'Kerb weight is just 1260 kg'. Different market and rating; recorded as a lead only."
+      }
+    ]
+  }
+}

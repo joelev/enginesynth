@@ -1,0 +1,316 @@
+{
+  "id": "porsche_m97_21",
+  "name": "Porsche M97.21 3.4 L flat-six (987 Cayman S 2006-2008, 987 Boxster S 2007-2008)",
+  "induction": "naturally aspirated",
+  "summary": "An even-firing boxer six (one firing every 120 crank degrees, alternating between the two banks) breathing through a two-stage resonance intake and a separate exhaust tract for each three-cylinder bank, so each bank's pipe carries three evenly spaced pulses per cycle. VarioCam Plus changes intake cam phase and switches intake lift between a small and a large lobe, which changes the intake note with load.",
+  "fields": {
+    "variant": {
+      "value": "M97.21, 3,387 cc, as fitted to the 2006-2008 Cayman S and 2007-2008 Boxster S (987.1)",
+      "unit": null,
+      "source": "https://www.auto-data.net/en/porsche-cayman-987c-s-3.4-295hp-6693",
+      "note": "Porsche's brochures and press text never print the engine code. The code-to-car link is from spec aggregators (auto-data.net: 'Engine Model/Code M97.21'; https://mymotorlist.com/engines/porsche/m97-21/: 'The 3.4-liter boxer Porsche M97.21 engine was produced ... from 2005 to 2009 and was installed on ... the Cayman S coupe or Boxster S cabriolet in the back of 987'). Published engine figures are identical for the Cayman S and Boxster S, so sources for either car are used below."
+    },
+    "cylinders": {
+      "value": 6,
+      "unit": null,
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: 'Mid-mounted, water-cooled, horizontally opposed six-cylinder with aluminum-alloy block, heads and pistons. Integrated dry-sump lubrication.'"
+    },
+    "layout": {
+      "value": "flat (boxer)",
+      "unit": null,
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf",
+      "note": "Technical data table: 'Type Boxer'. Mounted amidships with the belt/pulley end toward the front of the car and the flywheel/gearbox toward the rear."
+    },
+    "bank_angle_deg": {
+      "value": 180,
+      "unit": "deg",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Derived from 'horizontally opposed'; no source prints the number."
+    },
+    "bore_mm": {
+      "value": 96.0,
+      "unit": "mm",
+      "source": "https://www.topspeed.com/cars/porsche/2007-porsche-boxter-s-ar25885.html",
+      "note": "Reprint of Porsche's 2007 Boxster S press text. Quote: 'While stroke remains unchanged at 78 millimetres or 3.07\", bore is now 96 millimetres or 3.78\", as in the Carrera engine.' Porsche's own US 2006 Cayman S brochure (https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf) gives 'Bore/Stroke 3.78/3.07 in.', which converts to 96.0 / 78.0 mm."
+    },
+    "stroke_mm": {
+      "value": 78.0,
+      "unit": "mm",
+      "source": "https://www.topspeed.com/cars/porsche/2007-porsche-boxter-s-ar25885.html",
+      "note": "Same quote as bore_mm. US brochure: 3.07 in = 78.0 mm."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found on any page that could be opened. LN Engineering's rod pages (CP-Carrillo, Pauter, K1, JE Boostline rods for M96/M97) and Rennlist threads all returned HTTP 403. The workshop-manual page for the connecting rod (https://workshop-manuals.com/porsche/cayman_s_(987)/f6-3.4l/engine_cooling_and_exhaust/engine/cylinder_block_assembly/connecting_rod_engine/component_information/specifications/) gives only bolt tightening. Unverified lead only: a search-result summary of a retailer listing for Carrillo's 996/997 3.6/3.8 L rods mentioned 141.99 mm centre-to-centre; that is a different-stroke M96/M97 engine and the page was not read, so nothing is recorded."
+    },
+    "compression_ratio": {
+      "value": 11.1,
+      "unit": ":1",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: 'Compression Ratio 11.1:1'. The factory-data workshop manual reproduction agrees: 'Compression ratio ... 11.1 : 1 (+/- 0.3)' (https://workshop-manuals.com/porsche/cayman_s_(987)/f6-3.4l/engine_cooling_and_exhaust/engine/compression_check/system_information/specifications/). Disagreement: Porsche's international 2007 Boxster brochure lists the Boxster S at 'Compression ratio 11.0 :1' (https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf)."
+    },
+    "displacement_cc": {
+      "value": 3387,
+      "unit": "cc",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf",
+      "note": "Quote: 'Displacement 2,687 cm3 3,387 cm3' (Boxster / Boxster S). US Cayman S brochure: '3.4 liters (3,387 cc)'. Wikipedia and auto-data.net print 3,386 cc; the bore and stroke give 3,387.5 cc (my calculation)."
+    },
+    "firing_order": {
+      "value": "1-6-2-4-3-5",
+      "unit": null,
+      "source": "https://gtsparkplugs.com/firing-order-porsche-boxster.html",
+      "note": "Weak source: an enthusiast/parts-vendor page, not a Porsche document; no factory text giving the firing order could be opened. Quote: 'The Porsche Boxster and Cayman Firing order (Zuendfolge) it is 1-6-2-4-3-5'. Numbering comes from the page's diagram (https://gtsparkplugs.com/images/porsche-boxster-firing-order-840x.jpg), which shows the engine as installed with the belt/pulley end labelled 'Front of Car': cylinders 1, 2, 3 run front to rear along one bank and 4, 5, 6 front to rear along the other, with 1 and 4 at the pulley (front) end and 3 and 6 at the flywheel (rear) end. The diagram is drawn looking rearward from the front of the engine with 1-2-3 on the viewer's left, which puts bank 1-3 on the car's right-hand side and bank 4-6 on the left; that left/right reading is my interpretation of the picture, not a labelled fact. The order alternates banks every firing (1,6,2,4,3,5 = bank A, B, A, B, A, B) and matches one of the two patterns Wikipedia lists for flat-sixes, 'R1-L3-R2-L1-R3-L2' (https://en.wikipedia.org/wiki/Firing_order)."
+    },
+    "crank": {
+      "value": "Boxer crankshaft: six individual crank pins (each rod on its own pin), opposed pairs 1/4, 2/5, 3/6 with pins 180 deg apart, the three pairs spaced 120 deg apart. Derived, not quoted for this engine.",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Flat_engine",
+      "note": "No M97-specific description of the crankshaft was found; this is derived from the general boxer definition plus the sourced firing order. Quotes: 'the boxer configuration, where each piston has its own separate crankpin' (Flat engine) and 'The most common type of flat-six engine is the boxer-six engine, where each pair of opposed cylinders moves inwards and outwards at the same time' (https://en.wikipedia.org/wiki/Flat-six_engine). Porsche's brochure confirms the engine is a 'Boxer' and mentions a 'Crankshaft bearing bridge' but gives no pin layout or main bearing count."
+    },
+    "firing_intervals_deg": {
+      "value": [120, 120, 120, 120, 120, 120],
+      "unit": "crank deg",
+      "source": "https://en.wikipedia.org/wiki/Flat-six_engine",
+      "note": "Even firing. General statement, not M97-specific: 'the overlapping of the power strokes of the different cylinders (with a firing interval of 120 degrees in a four-stroke engine)'. Derived from that plus the firing order 1-6-2-4-3-5: each three-cylinder bank fires every 240 deg (bank 1-3 in the order 1, 2, 3; bank 4-6 in the order 6, 4, 5), and the two banks interleave 120 deg apart. No Porsche document stating the interval was found."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: 'Dual overhead camshafts, four valves per cylinder with VarioCam Plus variable-valve timing system'. Hydraulic lash adjustment: 'Valve clearance ... Hydraulic valve clearance compensation' (https://workshop-manuals.com/porsche/cayman_s_(987)/f6-3.4l/engine_cooling_and_exhaust/engine/cylinder_head_assembly/valve_clearance/system_information/specifications/)."
+    },
+    "intake_valve_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found. Parts catalogues opened (design911) list valve head diameters only for the 2.7 L and the later 9A1 engines."},
+    "exhaust_valve_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Low-lift stage of VarioCam Plus: no figure found for this engine. Porsche's brochures describe the mechanism but give no millimetres."
+    },
+    "intake_lift_mm_high": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "High-lift stage: no figure found for this engine."
+    },
+    "exhaust_lift_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found. Exhaust cams are fixed (no phasing, no lift switching) per the brochure description of VarioCam Plus as acting 'on the intake side'."},
+    "intake_duration_deg": {"value": null, "unit": "crank deg", "source": null, "note": "Not found."},
+    "exhaust_duration_deg": {"value": null, "unit": "crank deg", "source": null, "note": "Not found."},
+    "ivo_btdc": {"value": null, "unit": "crank deg", "source": null, "note": "Not found (no factory valve timing table located)."},
+    "ivc_abdc": {"value": null, "unit": "crank deg", "source": null, "note": "Not found."},
+    "evo_bbdc": {"value": null, "unit": "crank deg", "source": null, "note": "Not found."},
+    "evc_atdc": {"value": null, "unit": "crank deg", "source": null, "note": "Not found."},
+    "cam_phasing_range_deg": {
+      "value": null,
+      "unit": "crank deg",
+      "source": null,
+      "note": "Not found on a page that was read. Unverified lead only: a web-search summary attributed 'a vane-type actuator with a range of 40 degrees' to an article about the 2007 Boxster, but the article could not be located among the pages opened."
+    },
+    "cam_switch_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "No switch speed published; lift is map-controlled by load, speed and temperature. See variable_valve_system."
+    },
+    "variable_valve_system": {
+      "value": "VarioCam Plus on the intake camshafts only: continuous cam phasing by an electro-hydraulic rotary vane adjuster on each intake cam, plus two-stage intake lift through switchable bucket tappets (inner lifter on a small lobe, outer ring on a pair of large lobes, locked together by a pin for high lift). Cold start: high lift, retarded. Medium revs and light load: low lift, advanced. Full power: high lift, advanced.",
+      "unit": null,
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quotes: 'VarioCam Plus combines variable-valve timing with two-stage lift on the intake side', 'Each of these 12 tappets consists of concentric lifters which can be locked together by means of a pin. The inner lifter is actuated by a small cam lobe', 'an electro-hydraulically operated rotary vane adjuster, located at the head of each intake camshaft', 'For maximum power and torque, the lift is raised and the timing is advanced.' The 2007 press text adds that the cylinder heads and VarioCam Plus 'come in full from the 911 Carrera' (https://www.topspeed.com/cars/porsche/2007-porsche-boxter-s-ar25885.html), and Wikipedia says the heads are from the 997 S 3.8 (M97.01) (https://en.wikipedia.org/wiki/Porsche_987), so lift and timing figures published for the 997 Carrera heads would be the nearest proxy; none were recorded here."
+    },
+    "redline_rpm": {
+      "value": 7300,
+      "unit": "rpm",
+      "source": "https://www.auto-data.net/en/porsche-cayman-987c-s-3.4-295hp-6693",
+      "note": "Weak source: spec aggregator, not a Porsche document. Quote: 'Maximum engine speed 7300 rpm.' Another aggregator agrees (https://www.automoli.com/au/vehicles/porsche/cayman/cayman-987c-1532/: 'Maximum engine speed 7300'). Whether this is the tachometer redline or the fuel-cut speed is not stated."
+    },
+    "idle_rpm": {"value": null, "unit": "rpm", "source": null, "note": "Not found."},
+    "peak_power_kw": {
+      "value": 217,
+      "unit": "kW",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf",
+      "note": "Quote (technical data, Boxster S): 'Max. power (DIN) 180 kW (245 bhp) 217 kW (295 bhp) at rpm 6,500 6,250'. US Cayman S brochure: '295 hp @ 6250 rpm (SAE)'."
+    },
+    "peak_power_rpm": {
+      "value": 6250,
+      "unit": "rpm",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf",
+      "note": "Same quote as peak_power_kw."
+    },
+    "peak_torque_nm": {
+      "value": 340,
+      "unit": "Nm",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf",
+      "note": "Quote: 'Max. torque 273 Nm 340 Nm at rpm 4,600 - 6,000 4,400 - 6,000'. US Cayman S brochure: '251 lb.-ft. @ 4400-6000 rpm (SAE)' (251 lb-ft = 340 Nm). Disagreement: https://www.supercars.net/blog/2006-porsche-cayman-s/ lists '345.73 nm / 255 ft lbs @ 4200-4600 rpm', which no Porsche document supports."
+    },
+    "peak_torque_rpm": {
+      "value": 4400,
+      "unit": "rpm",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf",
+      "note": "Start of a flat plateau: maximum torque is quoted as held from 4,400 to 6,000 rpm."
+    },
+    "intake_type": {
+      "value": "single electronic throttle into a twin-plenum, two-stage resonance manifold: a twin-flow intake pipe feeds one plenum per bank, and a resonance pipe with a switchable valve links the two plenums",
+      "unit": null,
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: 'In the Cayman S, breathing is optimized by a twin-flow intake pipe, with valves that open and close at predefined engine speeds. A resonance pipe connecting the twin plenum chambers is used to alter the geometry within the manifold.' The brochure's engine cutaway labels '18. Electronically controlled throttle valve', '19. Resonance intake manifold', '22. Resonance valve'; the international Boxster brochure's control diagram lists both a 'Resonance valve in intake manifold' and a 'Twin-flow valve in intake manifold'. The switching speeds are not published."
+    },
+    "resonance_flap_switch_rpm": {"value": null, "unit": "rpm", "source": null, "note": "Not found; brochures say only 'predefined engine speeds'."},
+    "runner_length_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "runner_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "throttle_dia_mm": {
+      "value": 74,
+      "unit": "mm",
+      "source": "https://flat6motorsports.com/blogs/news/an-in-depth-look-at-the-m97-engine-06-08-cayman-s",
+      "note": "Weak source: a parts vendor's blog describing an upgrade, not a Porsche document. Quote: 'The increased diameter of the throttle body from 74mm to 82mm'."
+    },
+    "header_type": {
+      "value": "one exhaust manifold per bank (three cylinders each); the two banks stay in separate tracts through their own catalytic converters. Collector geometry (3-into-1 or otherwise) and primary dimensions are not documented in the sources read.",
+      "unit": null,
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: 'Two headers direct the exhaust gases through a twin-tract layout, to reduce back pressure.'"
+    },
+    "primary_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "primary_length_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "exhaust_pipe_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "exhaust_notes": {
+      "value": "Per bank: manifold with a primary catalytic converter at its outlet, then that bank's own pipe to a rear silencer; the two silencers are cross-linked and each also houses a secondary catalyst (four catalysts in all); outlets merge into one central tailpipe unit (dual-tube tip on the S). Oxygen sensors before and after each primary catalyst. An optional factory sports exhaust has a switchable sound mode.",
+      "unit": null,
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf",
+      "note": "Quotes from the international 2007 Boxster brochure: 'Both Boxster models have a stainless steel exhaust system featuring a separate tract for each of the two cylinder banks. The exhaust gas is passed through twin cross-linked silencers before exiting the car through a shared tailpipe unit. A system of four oxygen sensors - one before and one after each of the two pre-catalytic converters - provides separate monitoring'. US Cayman S brochure: 'The gases then pass through a twin-silencer unit before exiting the car' and 'Four catalytic converters'. Location of the catalysts from a parts vendor's blog (weak): 'the primary catalysts that sit on the header or exhaust manifold flanges' and 'a set of secondary catalysts that are integrated into the muffler housings' (https://flat6motorsports.com/blogs/news/an-in-depth-look-at-the-m97-engine-06-08-cayman-s). Where and how the cross-link between the two silencers is made, and all pipe diameters, are not documented."
+    }
+  },
+  "missing": [
+    "rod_length_mm (aftermarket rod maker and engine builder pages returned HTTP 403; not in brochures or the workshop-manual pages read)",
+    "intake_lift_mm and intake_lift_mm_high (both VarioCam Plus lift stages) and exhaust_lift_mm",
+    "cam_phasing_range_deg (intake cam adjustment range)",
+    "all cam timing: ivo_btdc, ivc_abdc, evo_bbdc, evc_atdc, intake_duration_deg, exhaust_duration_deg, and the lift they would be measured at",
+    "intake_valve_dia_mm, exhaust_valve_dia_mm",
+    "a Porsche-published firing order, cylinder numbering and crankshaft description (firing order is from an enthusiast page; crank layout and intervals are derived from general boxer-six sources)",
+    "redline / rev limiter from a Porsche document (7300 rpm is from spec aggregators only)",
+    "idle_rpm",
+    "resonance flap and twin-flow valve switching speeds, runner_length_mm, runner_dia_mm; throttle diameter from a Porsche source",
+    "primary_dia_mm, primary_length_mm, exhaust_pipe_dia_mm, collector geometry, cross-link position",
+    "cam_switch_rpm (lift switching is map-based; no speed published)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "what": "Porsche Cars North America sales brochure for the 2006 Cayman S (scan hosted by Stuttcars). Manufacturer document: specification page (displacement, SAE power and torque, bore/stroke in inches, compression) and prose descriptions of the engine, resonance intake, VarioCam Plus and exhaust."
+    },
+    {
+      "url": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_int-Boxster_2007-1.pdf",
+      "what": "Porsche international sales brochure for the 2007 Boxster and Boxster S (scan hosted by Stuttcars). Manufacturer document: metric technical data table for the 3.4 L Boxster S (cm3, kW, Nm, compression) and exhaust and intake descriptions."
+    },
+    {
+      "url": "https://www.topspeed.com/cars/porsche/2007-porsche-boxter-s-ar25885.html",
+      "what": "TopSpeed article reproducing Porsche's press text for the 2007 Boxster S; the only page read that gives bore and stroke in millimetres in Porsche's wording."
+    },
+    {
+      "url": "https://workshop-manuals.com/porsche/cayman_s_(987)/f6-3.4l/engine_cooling_and_exhaust/engine/compression_check/system_information/specifications/",
+      "what": "Free online reproduction of workshop data for the 2008 Cayman S 3.4 (factory-derived service data). Used for compression ratio and hydraulic valve clearance compensation; its engine pages are mostly torque values and images, with no cam, valve or rod dimensions in text."
+    },
+    {
+      "url": "https://gtsparkplugs.com/firing-order-porsche-boxster.html",
+      "what": "Enthusiast/vendor page with a firing-order diagram for the Boxster and Cayman. Only openable source for firing order and cylinder numbering; not a manufacturer document."
+    },
+    {
+      "url": "https://www.auto-data.net/en/porsche-cayman-987c-s-3.4-295hp-6693",
+      "what": "Spec aggregator page for the 2005-2009 Cayman S 3.4. Used for the engine code M97.21 and the 7300 rpm maximum engine speed; also lists bore 96 mm, stroke 78 mm, 11.1:1, 340 Nm at 4400-6000 rpm."
+    },
+    {
+      "url": "https://www.automoli.com/au/vehicles/porsche/cayman/cayman-987c-1532/",
+      "what": "Second spec aggregator; agrees on 96 x 78 mm, 11.1:1 and 7300 rpm maximum engine speed."
+    },
+    {
+      "url": "https://mymotorlist.com/engines/porsche/m97-21/",
+      "what": "Engine database entry for the M97.21: 3387 cc, 96 x 78 mm, 11.1:1, 295 hp, 340 Nm, hydraulic lifters, chain drive, VarioCam Plus. Third-party summary."
+    },
+    {
+      "url": "https://flat6motorsports.com/blogs/news/an-in-depth-look-at-the-m97-engine-06-08-cayman-s",
+      "what": "Parts vendor blog on the 2006-2008 Cayman S engine. Used for the 74 mm stock throttle body and the positions of the primary and secondary catalysts. Vendor source."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flat-six_engine",
+      "what": "Wikipedia article on flat-six engines; general statements on boxer-six piston motion and the 120-degree firing interval."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flat_engine",
+      "what": "Wikipedia article on flat engines; general statement that a boxer has a separate crankpin for each piston."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Firing_order",
+      "what": "Wikipedia article on firing order; lists the two firing-order patterns used by flat-six engines, one of which matches 1-6-2-4-3-5 under the numbering above."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Porsche_987",
+      "what": "Wikipedia article on the 987 Boxster/Cayman; origin of the 3.4 L engine and its 997 S cylinder heads, model years, 3,386 cc figure."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "Porsche Cayman S (987, 2006)",
+      "unit": "",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Porsche Cars North America 2006 Cayman S brochure; the M97.21 3.4 L engine of this def. Chosen because it is the first car with this engine and has a maker spec table. The 2007-2008 Boxster S has the same engine."
+    },
+    "curb_kg": {
+      "value": 1340,
+      "unit": "kg",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: \"Curb Weight 2,954 lbs. / 3,042 lbs. with Tiptronic S\" (manual; 2,954 lb = 1,340 kg, conversion ours). Porsche AG international brochure edition 05/06 (https://www.stuttcars.com/wp-content/uploads/2021/05/Cayman-987.1-2006-05-EN.pdf): \"Unladen weight (DIN) ... 1,350 kg/1,390 kg\" and \"Unladen weight (EC)* ... 1,425 kg/1,465 kg\" for the Cayman S manual/Tiptronic; EC includes 68 kg driver and 7 kg luggage."
+    },
+    "gear_count": {
+      "value": 6,
+      "unit": "",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: \"Drivetrain Rear-wheel drive, six-speed manual or optional five-speed Tiptronic S\"."
+    },
+    "gears": {
+      "value": [
+        3.31,
+        1.95,
+        1.41,
+        1.13,
+        0.97,
+        0.82
+      ],
+      "unit": "",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: \"Gear Ratio Manual Tiptronic S / 1st gear 3.31 3.66 / 2nd gear 1.95 2.00 / 3rd gear 1.41 1.41 / 4th gear 1.13 1.00 / 5th gear 0.97 0.74 / 6th gear 0.82 —\". The 2007 US Cayman brochure (https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman_2007.pdf) lists the same Cayman S manual ratios."
+    },
+    "final_drive": {
+      "value": 3.875,
+      "unit": "",
+      "source": "https://www.carspecs.us/cars/2006/porsche/cayman",
+      "note": "SECONDARY. carspecs.us 2006 Cayman S manual: \"Final Drive Axle Ratio 3.88\"; Porsche Club GB forum post https://www.porscheclubgb.com/forum/threads/5-6-speed-gearbox-differences.161261/post-161261 : \"Final drive: 3.875:1\" (unsourced). No final drive in the 2006 or 2007 US brochures or the 05/06 international brochure. Check (ours): 3.875 x 0.82 on this tyre gives about 7,070 rpm at 275 km/h, below the 7,300 rpm limit."
+    },
+    "tyre": {
+      "value": "265/40 ZR 18",
+      "unit": "",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Quote: \"Tires Standard: 235/40 ZR 18 front, 265/40 ZR 18 rear\". International 05/06 brochure agrees: \"Rear: 265/40 ZR 18\"."
+    },
+    "wheel_radius_m": {
+      "value": 0.328,
+      "unit": "m",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Porsche_US-Cayman-S_2006.pdf",
+      "note": "Estimated (ours): rolling radius taken as 98% of the unloaded radius computed from the tyre size (rim diameter / 2 + section width x aspect ratio)."
+    },
+    "top_speed_kmh": {
+      "value": 275,
+      "unit": "km/h",
+      "source": "https://www.stuttcars.com/wp-content/uploads/2021/05/Cayman-987.1-2006-05-EN.pdf",
+      "note": "Quote: \"Top speed ... 275 km/h (171 mph)/ 267 km/h (166 mph)\" (Cayman S manual/Tiptronic). US 2006 brochure: \"Top Track Speed Manual: 171 mph\"."
+    },
+    "driven": {
+      "value": "rear",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman",
+      "note": "English Wikipedia, 'Porsche Boxster and Cayman' (read 2026-11-17), infobox layout: Rear mid-engine, rear-wheel drive."
+    }
+  }
+}

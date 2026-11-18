@@ -1,0 +1,399 @@
+{
+  "id": "subaru_ej253",
+  "name": "Subaru EJ253 2.5 L SOHC flat-four with i-AVLS (US-market 2006 Legacy / Outback 2.5i, factory manual engine family 'H4SO')",
+  "induction": "naturally aspirated",
+  "summary": "A boxer four that fires evenly every 180 crank degrees but fires both cylinders of one bank back to back (right, right, left, left), so any exhaust that merges each bank before joining the other gives the uneven 'Subaru rumble'. This variant also runs one intake valve per cylinder on a very short low-lift profile at low load (i-AVLS), which changes intake sound between modes.",
+  "fields": {
+    "variant": {
+      "value": "USDM 2006 Legacy/Outback 2.5i, SOHC 16-valve with intake i-AVLS (two-profile intake valve)",
+      "unit": null,
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "All geometry and timing below is from the 2006 USDM Legacy factory service manual (section ME(H4SO)) unless stated. The manual calls the engine '2.5 L' / H4SO and never prints the code 'EJ253'; the identification of the 2005-2012 North American Legacy/Outback 2.5 SOHC as EJ253 is from Wikipedia (https://en.wikipedia.org/wiki/Subaru_EJ_engine). Other EJ253 years differ in cam data: see the notes on evo_bbdc and ivc_abdc."
+    },
+    "cylinders": {
+      "value": 4,
+      "unit": null,
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Quote: 'Horizontally opposed, liquid cooled, 4-cylinder, 4-stroke gasoline engine'."
+    },
+    "layout": {
+      "value": "flat (boxer)",
+      "unit": null,
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Manual says 'Horizontally opposed'. 'Boxer' (opposed pistons move in and out together) is from https://www.australiancar.reviews/?p=52486: 'horizontally-opposed (or 'boxer') four-cylinder petrol engine'."
+    },
+    "bank_angle_deg": {
+      "value": 180,
+      "unit": "deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Derived from 'Horizontally opposed'; no source prints the number 180."
+    },
+    "bore_mm": {
+      "value": 99.5,
+      "unit": "mm",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Quote: 'Bore x Stroke mm (in) 99.5 x 79.0 (3.917 x 3.110)'."
+    },
+    "stroke_mm": {
+      "value": 79.0,
+      "unit": "mm",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Quote: 'Bore x Stroke mm (in) 99.5 x 79.0 (3.917 x 3.110)'."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not in the factory manual pages read (General Description, Connecting Rod). Unverified lead only: web-search result summaries of aftermarket rod listings (Manley, K1, Wiseco/Boostline for 'EJ20/EJ25') describe 130.5 mm (5.137 in) as the standard centre-to-centre length, but every one of those vendor pages refused to load in this session, so no value is recorded. Those listings are also for the turbo EJ20/EJ25 family rather than the EJ253 by name."
+    },
+    "compression_ratio": {
+      "value": 10.0,
+      "unit": ":1",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Quote: 'Compression ratio 10.0'. Disagreement: https://www.australiancar.reviews/?p=52486 (Australian-delivered EJ253) and https://en.wikipedia.org/wiki/Subaru_EJ_engine both say 10.1:1. The factory manual is trusted for this US variant."
+    },
+    "displacement_cc": {
+      "value": 2457,
+      "unit": "cc",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Quote: 'Piston displacement cm3 (cu in) 2,457 (150)'."
+    },
+    "firing_order": {
+      "value": "1-3-2-4",
+      "unit": null,
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Quote: 'Ignition order 1->3->2->4'. Numbering and banks, from the Valve Clearance section of the same manual (https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/8%20Valve%20Clearance.pdf): 'When inspecting #1 and #3 cylinders: ... spark plugs RH side' and 'When inspecting #2 and #4 cylinders: ... spark plugs (LH side)'. So #1 and #3 are on the right-hand bank, #2 and #4 on the left-hand bank, and the bank sequence is R-R-L-L. Which of #1/#3 (and #2/#4) is nearer the front (timing-belt end) versus the flywheel is NOT stated in the text read; it is shown only in drawings. Wikipedia agrees on the order: 'All Subaru EJ engines have a 1-3-2-4 firing order'."
+    },
+    "crank": {
+      "value": "Boxer crank with four individual crank pins (one per rod), five main bearings. Derived pin phasing: #1 and #2 reach TDC together (same crank angle, opposite banks, 360 deg apart in the cycle); #3 and #4 reach TDC together 180 crank degrees later.",
+      "unit": null,
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/8%20Valve%20Clearance.pdf",
+      "note": "The pin phasing is derived from this factory-manual sentence, not quoted as a crank description: 'By rotating the crank pulley clockwise every 180 deg from the state that #1 cylinder piston is on the top dead center of compression stroke, #3, #2 and #4 cylinder pistons come to the top dead center of compression stroke in this order.' Individual pins per rod is the general boxer definition from https://en.wikipedia.org/wiki/Flat_engine: 'the boxer configuration, where each piston has its own separate crankpin' (not an EJ-specific statement). Five main bearings from https://www.australiancar.reviews/?p=52486: 'The crankcase for the EJ253 engine had five main bearings'. The manual gives crank pin outer diameter 51.984-52.000 mm and crank journal 59.992-60.008 mm."
+    },
+    "firing_intervals_deg": {
+      "value": [180, 180, 180, 180],
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/8%20Valve%20Clearance.pdf",
+      "note": "Even firing, in the order 1(RH)-3(RH)-2(LH)-4(LH). Quote: 'By rotating the crank pulley clockwise every 180 deg ... #3, #2 and #4 cylinder pistons come to the top dead center of compression stroke in this order.' Derived consequence for sound (my derivation, not a quoted figure): seen from one bank's exhaust, its two cylinders fire 180 deg apart and then nothing for 540 deg; cylinders 360 deg apart are the cross-bank pairs 1+2 and 3+4."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Quote: 'Belt driven Single overhead camshaft 4 valve cylinder'. One camshaft per bank, valves driven through rocker arms."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Head diameter is not in the factory manual specification table (it lists stem diameter 5.950-5.965 mm, overall length 120.6 mm, head edge thickness). Unverified lead only: a search-result summary of a DNJ replacement valve kit for EJ251/252/253 mentioned a 36 mm intake head; the page returned HTTP 429 and was not read."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not in the factory manual table (stem 5.945-5.960 mm, overall length 121.7 mm). Unverified lead only: the same unread DNJ kit listing was summarised as 31.4 mm exhaust head."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Valve lift is not published in the manual. Only cam lobe heights and base circle are given (see cam_lobe_height_* fields); valve lift also depends on the rocker arm ratio, which was not found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not published; see cam_lobe_height_exhaust_mm."
+    },
+    "cam_base_circle_dia_mm": {
+      "value": 34.0,
+      "unit": "mm",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/19%20Camshaft.pdf",
+      "note": "Quote: 'Cam base circle diameter A: Intake 34.00 mm (1.3386 in) Exhaust 34.00 mm (1.3386 in)'."
+    },
+    "cam_lobe_height_intake_constant_mm": {
+      "value": [40.075, 40.175],
+      "unit": "mm",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Standard range for the lobe of the intake valve that does not switch. Derived lobe lift (height minus 34.00 base circle, my calculation): 6.08-6.18 mm at the cam, before rocker ratio."
+    },
+    "cam_lobe_height_intake_low_mm": {
+      "value": [35.182, 35.282],
+      "unit": "mm",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Low-speed lobe of the switching intake valve. Derived lobe lift: 1.18-1.28 mm at the cam. The 2010 Forester data (https://pictures.dealer.com/subarucarnettc/8aa6dd4d0a0e0ca22537e820ca55b339.pdf) gives a different low-speed lobe, 35.496-35.596 mm."
+    },
+    "cam_lobe_height_intake_high_mm": {
+      "value": [40.315, 40.415],
+      "unit": "mm",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "High-speed lobe of the switching intake valve. Derived lobe lift: 6.32-6.42 mm at the cam."
+    },
+    "cam_lobe_height_exhaust_mm": {
+      "value": [40.088, 40.188],
+      "unit": "mm",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Derived lobe lift: 6.09-6.19 mm at the cam. The 2010 Forester data gives a smaller exhaust lobe, 39.289-39.389 mm."
+    },
+    "ivo_btdc": {
+      "value": 0,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Switching intake valve on its LOW-speed profile. Quote: 'Intake valve timing ... Low speed Open BTDC 0 deg Close ABDC -50 deg'. The lift at which Subaru measures these timings is not stated (unknown checking lift)."
+    },
+    "ivc_abdc": {
+      "value": -50,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Switching intake valve on its LOW-speed profile; negative means it closes 50 deg BEFORE bottom dead centre. Checking lift not stated. The 2010 Forester data sheet (https://pictures.dealer.com/subarucarnettc/8aa6dd4d0a0e0ca22537e820ca55b339.pdf) prints 'ABDC - 10 deg' for the same row, consistent with its taller low-speed lobe; that is a later variant."
+    },
+    "intake_duration_deg": {
+      "value": 130,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Derived from the quoted timing (0 + 180 - 50), not a quoted figure. Low-speed profile of the switching valve only; checking lift unknown."
+    },
+    "ivo_btdc_high": {
+      "value": 14,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Switching intake valve on its HIGH-speed profile. Quote: 'High speed Open BTDC 14 deg Close ABDC 62 deg'. Checking lift not stated."
+    },
+    "ivc_abdc_high": {
+      "value": 62,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "High-speed profile. Checking lift not stated."
+    },
+    "intake_duration_deg_high": {
+      "value": 256,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Derived from the quoted timing (14 + 180 + 62), not a quoted figure. Checking lift unknown."
+    },
+    "ivo_btdc_constant": {
+      "value": 0,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "The second intake valve of each cylinder, which does not switch. Quote: 'Constant Open BTDC 0 deg Close ABDC 58 deg'. Checking lift not stated."
+    },
+    "ivc_abdc_constant": {
+      "value": 58,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Non-switching intake valve. Derived duration 238 deg (0 + 180 + 58). Checking lift unknown."
+    },
+    "evo_bbdc": {
+      "value": 46,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Quote: 'Exhaust valve timing Open BBDC46 deg Close ATDC14 deg'. Checking lift not stated. Variant difference: the 2010 Forester 2.5 data sheet (https://pictures.dealer.com/subarucarnettc/8aa6dd4d0a0e0ca22537e820ca55b339.pdf) gives 'Open BBDC 30 deg, Close ATDC 14 deg' with a smaller exhaust lobe."
+    },
+    "evc_atdc": {
+      "value": 14,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Checking lift not stated."
+    },
+    "exhaust_duration_deg": {
+      "value": 240,
+      "unit": "crank deg",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Derived from the quoted timing (46 + 180 + 14), not a quoted figure. Checking lift unknown."
+    },
+    "cam_switch_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "No switch speed found. https://www.australiancar.reviews/?p=52486 says only: 'Based on engine load, driving requirements and atmospheric conditions, the ECM would determine which camshaft lift profile to engage.'"
+    },
+    "variable_valve_system": {
+      "value": "i-AVLS: one intake valve per cylinder switches between a low-lift and a high-lift lobe by locking the two intake rocker arms together with oil pressure; the other intake valve and both exhaust valves are fixed. No cam phasing.",
+      "unit": null,
+      "source": "https://www.australiancar.reviews/?p=52486",
+      "note": "Quote: 'one intake valve for each cylinder which could utilise a low lift camshaft lobe profile or a high lift camshaft lobe profile' and 'At high engine speeds, the rocker arms of each cylinder's two intake valves were locked together such that high-profile camshaft lobe acted on both of them.' Technical-review site describing Australian-delivered engines; the three timing rows in the US factory manual match this description."
+    },
+    "redline_rpm": {
+      "value": 6200,
+      "unit": "rpm",
+      "source": "https://www.cars101.com/subaru/legacy/legacy2006.html",
+      "note": "Weak source: cars101.com is a dealer-run archive of Subaru model-year specifications, not a Subaru document. Quote from the 2006 Legacy 2.5i column: 'Compression 10:1 Redline 6200'. Fuel cut speed not found."
+    },
+    "idle_rpm": {
+      "value": 650,
+      "unit": "rpm",
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "note": "Manual transmission, no load: '650+/-100 (No load)'. Automatic: 700+/-100. Both: 850+/-100 with A/C on."
+    },
+    "peak_power_kw": {
+      "value": 130.5,
+      "unit": "kW",
+      "source": "https://www.cars101.com/subaru/legacy/legacy2006.html",
+      "note": "Converted from 175 hp (x 0.7457). Quote: 'Horsepower 175@6000rpm, torque 169@4,400 rpm'. Dealer-run spec archive. Disagreements: https://en.wikipedia.org/wiki/Subaru_EJ_engine gives the 2006 i-AVLS engine as 175 hp (130 kW) at 5600 rpm; the 2010 Forester data sheet (https://pictures.dealer.com/subarucarnettc/8aa6dd4d0a0e0ca22537e820ca55b339.pdf) lists the 'existing engine' (SOHC + intake i-AVLS, 10.0:1) as '127 (170)/6,000' kW (HP)/rpm, which is the later, lower published rating for the same basic engine."
+    },
+    "peak_power_rpm": {
+      "value": 6000,
+      "unit": "rpm",
+      "source": "https://www.cars101.com/subaru/legacy/legacy2006.html",
+      "note": "Wikipedia says 5600 rpm for this output; the Subaru-derived 2010 Forester sheet says 6000 rpm for the 'existing' i-AVLS engine, so 6000 is kept."
+    },
+    "peak_torque_nm": {
+      "value": 229,
+      "unit": "Nm",
+      "source": "https://www.cars101.com/subaru/legacy/legacy2006.html",
+      "note": "Converted from 169 lb-ft (x 1.3558 = 229.1). Wikipedia gives 229 Nm (169 lb-ft) at 4400 rpm; the 2010 Forester sheet lists the existing engine at '230 (23.5, 170)/4, 400' N.m (kgf-m, ft-lb)/rpm."
+    },
+    "peak_torque_rpm": {
+      "value": 4400,
+      "unit": "rpm",
+      "source": "https://www.cars101.com/subaru/legacy/legacy2006.html",
+      "note": "Three sources agree on 4400 rpm."
+    },
+    "intake_type": {
+      "value": "single throttle body into a plenum-type aluminium intake manifold, with a tumble generator valve (butterfly) upstream of each intake port",
+      "unit": null,
+      "source": "https://www.australiancar.reviews/?p=52486",
+      "note": "Quote: 'The EJ253 engine was also fitted with a Tumble Generator Valve (TGV) upstream of each intake port. At low intake air speeds a butterfly valve would close'. Aluminium manifold from cars101 ('Aluminum alloy intake manifold') and from the same review ('The aluminium intake manifold was replaced with a resin-based plastic manifold' on later models). 'Single throttle body into a plenum' is my reading of those descriptions, not a quoted phrase."
+    },
+    "runner_length_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "runner_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "throttle_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "header_type": {
+      "value": null,
+      "unit": null,
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/EXHAUST%20EXH4SO/1%20General%20Description.pdf",
+      "note": "Not determinable from what was read. The factory exhaust component drawing (figure EX-02139) shows a one-piece 'Front exhaust pipe' bolted to a two-port flange on each cylinder head, with the pipes from the two heads meeting at a single 'Front catalytic converter'. It does not show primary lengths or state whether they are equal, so equal versus unequal length for this US 2.5i is unconfirmed. See exhaust_notes for what general sources say."
+    },
+    "primary_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "primary_length_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "exhaust_pipe_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "exhaust_notes": {
+      "value": "Factory layout (2006 US Legacy, from the parts list of the manual drawing): front exhaust pipe (both heads) -> front catalytic converter -> center exhaust pipe with rear catalytic converter -> rear exhaust pipe with a chamber (resonator) -> split to two mufflers, RH and LH. The rumble mechanism in general terms: when the two cylinders of each bank are merged first, the evenly spaced 180-degree firing becomes uneven pulses in each branch; pairing cylinders that fire 360 degrees apart (1+2 and 3+4, which are on opposite banks) needs long cross-engine pipes and removes most of the burble.",
+      "unit": null,
+      "source": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/EXHAUST%20EXH4SO/1%20General%20Description.pdf",
+      "note": "Parts list quote: '(3) Chamber (4) Rear exhaust pipe ... (8) Muffler (RH) (9) Muffler (LH) ... (13) Center exhaust pipe (14) Rear catalytic converter ... (19) Front catalytic converter ... (23) Front exhaust pipe'. Rumble mechanism from https://en.wikipedia.org/wiki/Flat-four_engine: 'Traditionally, the exhausts from the two cylinders on each bank were merged, with the resulting uneven exhaust pulses causing a characteristic \"flat-four burble\" exhaust sound. The other common exhaust configuration (such as used by Subaru since the mid-2000s) is to pair the cylinders with a firing interval offset of 360 degrees'. Sources disagree on the detail: https://en.wikipedia.org/wiki/Subaru_EJ_engine instead attributes the rumble to 'the longer exhaust runners on cylinders 2 and 4'. Subaru's own 2003 Japanese press release for the then-new Legacy (https://web.archive.org/web/20160515173706/http://www.fhi.co.jp/news/03_04_06/03_05_23b.htm) announces an equal-length, equal-interval exhaust system ('等長等爆エキゾーストシステム') for that Japanese-market range; whether the US 2.5i SOHC front pipe is equal length was not confirmed by any page read."
+    }
+  },
+  "missing": [
+    "rod_length_mm (vendor pages giving 130.5 mm for EJ20/EJ25 would not load; not in factory manual pages read)",
+    "intake_valve_dia_mm and exhaust_valve_dia_mm (not in factory manual table; parts listing would not load)",
+    "intake_lift_mm, exhaust_lift_mm and their _high variants at the valve (only cam lobe heights and base circle published; rocker arm ratio not found)",
+    "lift at which the factory valve timing is measured",
+    "cam_switch_rpm (i-AVLS switch point; described only as load- and condition-dependent)",
+    "header_type, primary_dia_mm, primary_length_mm: whether the stock US 2.5i front exhaust pipe is equal or unequal length and which cylinders pair first",
+    "exhaust_pipe_dia_mm",
+    "throttle_dia_mm, runner_length_mm, runner_dia_mm",
+    "which end of each bank is cylinder #1 (front/timing-belt end or flywheel end) as text; shown only in drawings",
+    "fuel-cut / rev limiter speed (only a tachometer redline of 6200 rpm from a dealer archive)"
+  ],
+  "sources": [
+    {
+      "url": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "what": "Subaru factory service manual, 2006 USDM Legacy, section ME(H4SO) General Description (hosted copy of the Subaru PDF). Specification table: bore, stroke, displacement, compression, valve timing for the three intake profiles and exhaust, idle speed, ignition order, cam lobe heights. Manufacturer document; most trusted source here."
+    },
+    {
+      "url": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/8%20Valve%20Clearance.pdf",
+      "what": "Same factory manual, Valve Clearance section. States which cylinders are on the RH and LH sides and that successive cylinders reach compression TDC every 180 degrees of crank rotation in the order 1, 3, 2, 4."
+    },
+    {
+      "url": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/19%20Camshaft.pdf",
+      "what": "Same factory manual, Camshaft section. Cam base circle diameter and lobe heights."
+    },
+    {
+      "url": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/EXHAUST%20EXH4SO/1%20General%20Description.pdf",
+      "what": "Same factory manual, Exhaust section EX(H4SO). Exploded drawing and parts list of the stock exhaust; no dimensions."
+    },
+    {
+      "url": "https://pictures.dealer.com/subarucarnettc/8aa6dd4d0a0e0ca22537e820ca55b339.pdf",
+      "what": "Printout of service-data specifications for the 2010 Subaru Forester 2.5 L (Mitchell ProDemand reproduction of Subaru data, hosted by a dealer). Used to show how a later EJ253 differs (exhaust opening, low-speed intake lobe) and for Subaru's kW and N.m ratings of the i-AVLS engine."
+    },
+    {
+      "url": "https://www.cars101.com/subaru/legacy/legacy2006.html",
+      "what": "Dealer-run archive of Subaru US model-year specifications, 2006 Legacy page. Source for 175 hp at 6000 rpm, 169 lb-ft at 4400 rpm and 6200 rpm redline. Not a Subaru document."
+    },
+    {
+      "url": "https://www.australiancar.reviews/?p=52486",
+      "what": "Australian Car Reviews technical article on the EJ253 (Australian-delivered engines). Description of i-AVLS, tumble generator valves, five main bearings; gives 10.1:1 compression and firing order 1-3-2-4."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Subaru_EJ_engine",
+      "what": "Wikipedia article on the EJ family. Used to tie the EJ253 code to the North American Legacy/Outback and for the alternative power and compression figures."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flat-four_engine",
+      "what": "Wikipedia article on flat-four engines; referenced explanation of the burble from merging each bank's exhaust and of Subaru's later 360-degree pairing."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flat_engine",
+      "what": "Wikipedia article on flat engines; general definition that a boxer gives each piston its own crankpin."
+    },
+    {
+      "url": "https://web.archive.org/web/20160515173706/http://www.fhi.co.jp/news/03_04_06/03_05_23b.htm",
+      "what": "Archived Fuji Heavy Industries (Subaru) press release of 2003-05-23 for the new Japanese-market Legacy, in Japanese; announces the equal-length, equal-interval exhaust system."
+    }
+  ],
+  "vehicle": {
+    "name": "Subaru Legacy 2.5i sedan (US, 2006)",
+    "fields": {
+      "curb_kg": {
+        "value": 1474,
+        "unit": "kg",
+        "source": "https://xr793.com/wp-content/uploads/2017/03/2006-Subaru-Legacy.pdf",
+        "note": "'Base curb weight (manual/automatic)', 2.5i and 2.5i Special Edition sedan: '3,250 lbs./ 3,295 lbs.'. Converted by me (1474.2 kg)."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://xr793.com/wp-content/uploads/2017/03/2006-Subaru-Legacy.pdf",
+        "note": "'Manual transmission Standard fully synchronized 5-speed manual'."
+      },
+      "gears": {
+        "value": [
+          3.45,
+          2.06,
+          1.45,
+          1.09,
+          0.78
+        ],
+        "source": "https://www.carspecs.us/cars/2006/subaru/legacy-sedan/62050",
+        "note": "carspecs.us 2006 Legacy 2.5i sedan manual: 'First Gear Ratio 3.45 Second 2.06 Third 1.45 Fourth 1.09 Fifth 0.78 ... Reverse Ratio 3.33'. Aggregator, rounded. Lead not read directly: http://www.cars101.com/subaru/legacy/legacy2006.html (dealer-run archive; refused automated fetch)."
+      },
+      "final_drive": {
+        "value": 3.9,
+        "source": "https://www.carspecs.us/cars/2006/subaru/legacy-sedan/62050",
+        "note": "'Final Drive Axle Ratio 3.90'."
+      },
+      "wheel_radius_m": {
+        "value": 0.3184,
+        "unit": "m",
+        "source": "https://xr793.com/wp-content/uploads/2017/03/2006-Subaru-Legacy.pdf",
+        "note": "Calculated by me from the tyre size 205/50 R17 89H (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "205/50 R17 89H",
+        "source": "https://xr793.com/wp-content/uploads/2017/03/2006-Subaru-Legacy.pdf",
+        "note": "'Wheels 17 x 7.0-inch 5-spoke aluminum-alloy', 'Tires 205/50 R17 89H M+S all-season' (2.5i column). All four wheels driven."
+      },
+      "driven": {
+        "value": "all",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Subaru_Legacy_(fourth_generation)",
+        "note": "English Wikipedia, 'Subaru Legacy (fourth generation)' (read 2026-11-17), infobox layout: All-wheel drive."
+      }
+    },
+    "missing": [
+      "gear ratios from a Subaru document",
+      "top speed"
+    ],
+    "sources": [
+      {
+        "url": "https://xr793.com/wp-content/uploads/2017/03/2006-Subaru-Legacy.pdf",
+        "what": "Subaru of America 2006 Legacy brochure (PDF, created August 2005), hosted on the xr793.com brochure archive: curb weights, gearbox, wheels and tyres by trim."
+      },
+      {
+        "url": "https://www.carspecs.us/cars/2006/subaru/legacy-sedan/62050",
+        "what": "carspecs.us, 2006 Subaru Legacy sedan 2.5i manual: rounded gear ratios, final drive, curb weight 3250 lb. Dealer-data aggregator."
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.1016,
+  "stroke": 0.0729,
+  "rod": 0.13090000000000002,
+  "cr": 10.0,
+  "firing": [
+    0.0,
+    270.0,
+    450.0,
+    180.0,
+    90.0,
+    360.0,
+    540.0,
+    630.0
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.045200000000000004,
+  "ex_valve_d": 0.0368,
+  "in_lift": 0.0117,
+  "ex_lift": 0.0117,
+  "ivo": 45.0,
+  "ivc": 85.0,
+  "evo": 85.0,
+  "evc": 45.0,
+  "itb": true,
+  "runner_len": 0.37,
+  "runner_d": 0.0475,
+  "primary_d": 0.041299999999999996,
+  "merge": "none",
+  "secondary_len": 0.45,
+  "secondary_d": 0.07,
+  "muffler_len": 0.0,
+  "tail_len": 0.35,
+  "tail_d": 0.07,
+  "redline": 7500.0,
+  "idle": 1000.0,
+  "generic": false,
+  "family": "V8",
+  "based_on": "Ford 289 small-block V8, GT40 Mk I competition specification (1965)",
+  "published": {
+    "power_kw": 283,
+    "power_rpm": 6500,
+    "torque_nm": 447,
+    "torque_rpm": 5500
+  },
+  "sources": [
+    {
+      "url": "https://supercarnostalgia.com/blog/ford-gt40-mk1-65",
+      "what": "Supercar Nostalgia guide to the GT40 Mk I (1965). Bore, stroke, displacement, 10.0:1, 380 bhp at 6500, 330 lb-ft at 5500, Webers."
+    },
+    {
+      "url": "https://museum.revsinstitute.org/?p=1030",
+      "what": "Revs Institute museum page for its GT40 Mk I. 90-degree pushrod V8, four Webers, 390 hp at 7000 rpm."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ford_small_block_engine",
+      "what": "Wikipedia, Ford small block engine. 289 bore and stroke, firing order, HiPo section."
+    },
+    {
+      "url": "https://www.cartechbooks.com/techtips/ford-small-block-general-data-and-specifications",
+      "what": "CarTech Books excerpt, 'Ford Small-Block General Data and Specifications'. Valve sizes for all 289 heads, HiPo details."
+    },
+    {
+      "url": "https://www.fordmuscle.com/tech-stories/rekreating-the-famed-ford-289-k-code-v8-part-i",
+      "what": "FordMuscle K-code rebuild article, part I. HiPo cam lift and advertised duration, 271 hp at 6000, 312 lb-ft at 3400, valve sizes."
+    },
+    {
+      "url": "https://www.fordmuscle.com/?p=7304",
+      "what": "FordMuscle K-code article, part II. Le Mans cam part number and lobe lift."
+    },
+    {
+      "url": "https://www.enginefacts.com/ford289/",
+      "what": "enginefacts.com 289 table. Firing order and ratings per variant."
+    },
+    {
+      "url": "https://burnsstainless.com/blogs/articles-1/bundle-of-snakes-180-degree-headers-1",
+      "what": "Burns Stainless (race exhaust fabricator) article on bundle-of-snakes 180-degree headers. How the crossover works and why."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Crossplane",
+      "what": "Wikipedia, Crossplane. Per-bank intervals; GT40 bundle of snakes collecting 180-degree intervals in each branch."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Firing_order",
+      "what": "Wikipedia, Firing order. Ford's per-bank sequential numbering."
+    },
+    {
+      "url": "https://web.archive.org/web/2id_/https://www.gt40s.com/threads/header-primary-lengths.10934/",
+      "what": "Archived gt40s.com forum thread 'Header Primary Lengths'. Forum posts: unequal-length primaries on most GT40 headers; 1 5/8 in replica primaries."
+    },
+    {
+      "url": "https://www.streetmusclemag.com/?p=7978",
+      "what": "Street Muscle magazine, 'Inside Ford's New 5.2L Shelby GT350 Engine'. Used here only as a second source for Ford's V8 cylinder numbering (1-4 on the right bank, 5-8 on the left)."
+    }
+  ],
+  "name": "ford_289_gt40",
+  "label": "Ford 289 V8, GT40 Mk I race engine, ordinary per-bank headers",
+  "primary_len": [
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75
+  ],
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "notes": "Sourced: bore, stroke, 10.0:1 compression (competition engine), firing order 1-5-4-2-6-3-7-8, cross-plane crank, two valves per cylinder, four twin-choke Weber 48 IDA carburettors (one barrel per cylinder, entered as individual throttles), 380 bhp at 6500 rpm and 330 lb-ft at 5500 rpm. Cylinder numbering (1-4 front to rear on the right bank, 5-8 on the left): Wikipedia's Firing order article says Ford numbers each bank in sequence, with cylinder 1 on the right bank flagged citation-needed there; Street Muscle's Ford V8 article independently calls cylinders 1 and 2 right-bank cylinders in Ford numbering. Taken from the production 289, not confirmed for the race engine: valve diameters (all production 289 heads), 11.7 mm lift and 310 degrees advertised duration (K-code High Performance cam), 41.3 mm primary diameter (a replica 180-degree header, forum source). Estimated, not sourced: rod length, where the cam lobes sit (symmetrical timing assumed), intake tract length and diameter, primary length, collector and outlet pipe sizes (open, unsilenced), rev limit, idle speed. Left to the simulator's defaults: collector volume, flywheel inertia. This version has ordinary 4-into-1 headers, one per bank, for comparison with ford_289_gt40_180; the GT40 itself is best known with the cross-over headers of that definition. Also estimates: friction_scale, heat_q, burn_scale (the simulator's friction, heat-release and burn-rate scales), set with the other estimated fields so that simulated torque and power come near the published figures; no sourced number was changed. The published output belongs to the car with cross-over headers.",
+  "friction_scale": 0.83,
+  "heat_q": 2580000.0,
+  "burn_scale": 0.95,
+  "vehicle": {
+    "name": "Ford GT40 Mk I (1965)",
+    "kind": "race car",
+    "curb_kg": 907,
+    "gear_count": 5,
+    "gears": [
+      2.42,
+      1.47,
+      1.09,
+      0.96,
+      0.85
+    ],
+    "final_drive": 3.33,
+    "wheel_radius_m": 0.335,
+    "tyre": "7.00 x 15 Goodyear (rear)",
+    "top_speed_kmh": 306,
+    "notes": "ZF DS25 five-speed transaxle. Gear ratios from Motor Sport's 1966 test of a GT40 it called identical to the Group 4 racers; final drive 3.33 is one of the two offered (4.22 or 3.33), chosen by us because only it fits the published in-gear maxima (204 mph in 5th). Weight 2,000 lb from the period spec, dry or wet not stated (2,440 lb at scrutineering per another source). Top speed is the period estimate of 190 mph on the Mulsanne. Estimated: rolling radius of the 7.00-15 cross-ply, taking the section height as 85% of its width, then 98% for deflection.",
+    "driven": "rear"
+  }
+}

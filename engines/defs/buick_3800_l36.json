@@ -1,0 +1,124 @@
+{
+  "name": "buick_3800_l36",
+  "label": "Buick 3800 Series II 3.8 L V6 (even-fire)",
+  "generic": false,
+  "family": "V6",
+  "based_on": "Buick 3800 Series II L36, 1995-2005",
+  "layout": "v",
+  "bank_angle": 90,
+  "bore": 0.09652,
+  "stroke": 0.08636,
+  "rod": 0.15,
+  "cr": 9.4,
+  "firing": [
+    0,
+    600,
+    480,
+    360,
+    240,
+    120
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.0457,
+  "ex_valve_d": 0.0366,
+  "cam": {
+    "at_lift": 0.00203,
+    "ivo": -21,
+    "ivc": 23,
+    "evo": 30,
+    "evc": -18,
+    "in_lift": 0.01048,
+    "ex_lift": 0.01037
+  },
+  "runner_len": 0.4,
+  "primary_len": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "groups": [
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      5
+    ]
+  ],
+  "merge": "y",
+  "redline": 5900,
+  "idle": 650,
+  "friction_scale": 1.1,
+  "heat_q": 2300000,
+  "published": {
+    "power_kw": 153,
+    "torque_nm": 312
+  },
+  "sources": [
+    {
+      "url": "https://3800wiki.com/engine_details/generalspecs",
+      "what": "3800wiki general mechanical specifications, stated as copied from a 1998 Camaro (L36) service manual. Bore, stroke, CR, firing order, lobe lift."
+    },
+    {
+      "url": "https://3800wiki.com/performance/enginemods/valvetrain/camshafts",
+      "what": "3800wiki camshaft comparison table (enthusiast-maintained). Stock duration at .050."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "what": "Wikipedia, Buick V6 engine. Split-pin crank, numbering, Series II changes, power."
+    },
+    {
+      "url": "https://s3-us-west-2.amazonaws.com/ejc-guidebook2/GM/3_8_L36.HTML",
+      "what": "EJC Performance parts guidebook page for the GM 3.8 Series II. Valve head diameters."
+    },
+    {
+      "url": "https://wbodytech.com/wiki/engines/buick-3800-v6/",
+      "what": "W-body enthusiast wiki; power range and intake description."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/V6_engine",
+      "what": "Wikipedia, V6 engine: 30-degree split pins give even 120-degree intervals on a 90-degree V6."
+    }
+  ],
+  "notes": "Sourced: 90 degree bank angle, bore, stroke, compression ratio, firing order 1-6-5-4-3-2 with cylinders 1-3-5 on the left bank, split crank pins 30 degrees apart giving even 120 degree firing, one intake and one exhaust valve per cylinder with their diameters (exhaust figure is for pre-2003 engines), cam lobe lifts (6.55 and 6.48 mm), cam durations at 0.050 in lifter rise (182 and 192 degrees, from an enthusiast table), published peak power and torque. The speeds of the published peaks were not found, so `engsim validate` has nothing to run at; compare against the peaks of a dyno sweep. Estimated, not sourced: rod length, rocker ratio (1.6 assumed, which sets the valve lifts and the valve lift at which the durations apply), cam lobe centres (112 degrees intake, 114 exhaust), intake runner length, exhaust manifold branch length, redline, idle, friction_scale and heat_q (tuned). Everything else is left to the derived defaults (runner and throttle diameters, plenum, pipes, muffler, flywheel). Not modelled: the balance shaft.",
+  "vehicle": {
+    "name": "Buick LeSabre Custom (2000)",
+    "kind": "car",
+    "curb_kg": 1618,
+    "gear_count": 4,
+    "gears": [
+      2.921,
+      1.568,
+      1.0,
+      0.705
+    ],
+    "final_drive": 2.86,
+    "wheel_radius_m": 0.341,
+    "tyre": "P215/70R15",
+    "notes": "The LeSabre was the best-selling car with the L36; the Custom is the base trim. Four-speed 4T65-E automatic (the only gearbox offered), modelled as fixed ratios with a clutch; torque-converter multiplication is not modelled. Gear ratios are the 4T65-E's published ratios from Wikipedia; a spec database gives 0.75 for fourth instead of 0.705. Final drive, tyre and curb weight are from a spec database (carspecs.us) for the 2000 LeSabre Custom; the Gran Touring package had a different axle ratio and 16-inch tyres. wheel_radius_m is my calculation from the tyre size (unloaded radius). Top speed omitted: the only published figure (105 mph) is for a LeSabre Limited with the Gran Touring package.",
+    "driven": "front"
+  }
+}

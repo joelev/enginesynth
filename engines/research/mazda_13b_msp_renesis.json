@@ -1,0 +1,267 @@
+{
+  "id": "mazda_13b_msp_renesis",
+  "name": "Mazda 13B-MSP Renesis, high-power 6-port (RX-8, 2003 launch specification, 177 kW)",
+  "induction": "naturally aspirated",
+  "summary": "Two-rotor Wankel with both intake and exhaust ports in the side housings, so there is no intake/exhaust overlap and the exhaust opens late (50 deg BBDC against 75 deg on the older peripheral-exhaust 13B). Three intake ports per rotor are staged by valves as revs rise, up to a 9,000 rpm redline.",
+  "fields": {
+    "cylinders": {
+      "value": 2,
+      "unit": "rotors",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Table 1: displacement 654 x 2. In-line 2-rotor, longitudinal per the workshop manual."
+    },
+    "layout": {
+      "value": "rotary",
+      "unit": null,
+      "source": "https://www.foxed.ca/rx7manual/2003mazdarx8/esicont/en/srvc/html/BHE010002000T04.html",
+      "note": "Engine type 'Rotary', 'In-line 2-rotor, longitudinal', combustion chamber 'Bathtub'."
+    },
+    "displacement_cc": {
+      "value": 1308,
+      "unit": "cc",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "654 cc x 2 rotors (one chamber per rotor counted)."
+    },
+    "eccentricity_mm": {
+      "value": 15,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Table 1 row 'Eccentricity x Generating Radius x Width (mm)': 15 x 105 x 80."
+    },
+    "rotor_radius_mm": {
+      "value": 105,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Generating radius, Table 1."
+    },
+    "rotor_width_mm": {
+      "value": 80,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Width, Table 1."
+    },
+    "compression_ratio": {
+      "value": 10.0,
+      "unit": ":1",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Same in the workshop manual."
+    },
+    "intake_port_type": {
+      "value": "side intake, three ports per rotor (primary, secondary, auxiliary)",
+      "unit": null,
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "High-power version only has the auxiliary port; the standard-power 4-port engine has primary and secondary only."
+    },
+    "exhaust_port_type": {
+      "value": "side exhaust, two exhaust ports per rotor (one in each side housing)",
+      "unit": null,
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Text: 'The exhaust ports are located at both sides and the two exhaust ports between the front and the rear rotors are connected but the exhaust port insert is used to separate the path.'"
+    },
+    "intake_primary_open_atdc": {
+      "value": 3,
+      "unit": "deg ATDC",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Degrees of eccentric-shaft rotation. Both sources give the same figure (SAE 2004-01-1790 Table 1 and the 2003 RX-8 workshop manual engine specifications)."
+    },
+    "intake_primary_close_abdc": {
+      "value": 65,
+      "unit": "deg ABDC",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Degrees of eccentric-shaft rotation. Both sources give the same figure (SAE 2004-01-1790 Table 1 and the 2003 RX-8 workshop manual engine specifications). Standard-power engine: 60."
+    },
+    "intake_secondary_open_atdc": {
+      "value": 12,
+      "unit": "deg ATDC",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Degrees of eccentric-shaft rotation. Both sources give the same figure (SAE 2004-01-1790 Table 1 and the 2003 RX-8 workshop manual engine specifications)."
+    },
+    "intake_secondary_close_abdc": {
+      "value": 36,
+      "unit": "deg ABDC",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Degrees of eccentric-shaft rotation. Both sources give the same figure (SAE 2004-01-1790 Table 1 and the 2003 RX-8 workshop manual engine specifications). Standard-power engine: 45."
+    },
+    "intake_auxiliary_open_atdc": {
+      "value": 38,
+      "unit": "deg ATDC",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Degrees of eccentric-shaft rotation. Both sources give the same figure (SAE 2004-01-1790 Table 1 and the 2003 RX-8 workshop manual engine specifications). High-power engine only."
+    },
+    "intake_auxiliary_close_abdc": {
+      "value": 80,
+      "unit": "deg ABDC",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Degrees of eccentric-shaft rotation. Both sources give the same figure (SAE 2004-01-1790 Table 1 and the 2003 RX-8 workshop manual engine specifications). High-power engine only."
+    },
+    "exhaust_open_bbdc": {
+      "value": 50,
+      "unit": "deg BBDC",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Degrees of eccentric-shaft rotation. Both sources give the same figure (SAE 2004-01-1790 Table 1 and the 2003 RX-8 workshop manual engine specifications). Standard-power engine: 40."
+    },
+    "exhaust_close_btdc": {
+      "value": 3,
+      "unit": "deg BTDC",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Degrees of eccentric-shaft rotation. Both sources give the same figure (SAE 2004-01-1790 Table 1 and the 2003 RX-8 workshop manual engine specifications). Closes before TDC, so intake/exhaust overlap is zero (paper's comparison table: overlap 0 deg vs 16 deg for the peripheral-exhaust engine)."
+    },
+    "peak_power_kw": {
+      "value": 177,
+      "unit": "kW",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "High-power Renesis. Standard-power: 147 kW at 7200 rpm. Wikipedia's RX-8 page lists US-market 6-port cars at 231-232 hp at 8,200-8,500 rpm (lower than 177 kW = 237 hp)."
+    },
+    "peak_power_rpm": {
+      "value": 8500,
+      "unit": "rpm",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf"
+    },
+    "peak_torque_nm": {
+      "value": 216,
+      "unit": "N·m",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Standard-power: 222 N·m at 5000 rpm."
+    },
+    "peak_torque_rpm": {
+      "value": 5500,
+      "unit": "rpm",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf"
+    },
+    "redline_rpm": {
+      "value": 9000,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/Mazda_RX-8",
+      "note": "Wikipedia, North American 6-speed manual: '9,000 rpm (redline limited)'; 4-port cars 7,500 rpm. The SAE paper says only that the two versions have different allowable engine speeds, and analyses the apex seal at 9000 rpm."
+    },
+    "intake_type": {
+      "value": "single electronic throttle into a variable-length, staged manifold (S-DAIS: Sequential Dynamic Air Intake System) with four valve sets: SSV (secondary shutter), VFAD (variable fresh air duct), APV (auxiliary port valve), VDI (variable dynamic-effect intake)",
+      "unit": null,
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf"
+    },
+    "intake_valve_switch_rpm": {
+      "value": {
+        "SSV": 3750,
+        "VFAD": 5500,
+        "APV": 6000,
+        "VDI": 7250
+      },
+      "unit": "rpm",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Read from Fig. 13 'S-DAIS Valve Control': the axis is labelled 3750, 5500, 6000, 7250 and the valves are listed SSV, VFAD, APV, VDI in that order of opening. The pairing of each valve with its rpm is my reading of a figure, not a table; treat as approximate."
+    },
+    "exhaust_notes": {
+      "value": "Side exhaust ports feed a dual-wall exhaust manifold; exhaust port inserts separate front and rear rotor flows in the shared intermediate housing.",
+      "unit": null,
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "From Table 2 and Fig. 9. No pipe dimensions given."
+    },
+    "engine_weight_kg": {
+      "value": 112,
+      "unit": "kg",
+      "source": "https://en.wikipedia.org/wiki/Mazda_Wankel_engine",
+      "note": "Wikipedia: with standard attachments, without fluids."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found on a page opened."
+    }
+  },
+  "missing": [
+    "idle_rpm",
+    "crank phasing of the two rotors and firing interval (not stated on any page opened; 180 deg is the usual two-rotor arrangement but is unsourced here)",
+    "port areas / port-open-area curves (shown only as an unscaled figure, Fig. 8)",
+    "intake runner lengths and diameters",
+    "throttle_dia_mm",
+    "exhaust manifold and pipe dimensions",
+    "rotor recess (combustion pocket) volume"
+  ],
+  "sources": [
+    {
+      "url": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "what": "SAE paper 2004-01-1790, 'Developed Technologies of the New Rotary Engine (RENESIS)', Ohkubo et al., Mazda Motor Corporation (archived copy). Table 1 gives geometry, compression ratio and all port timings for both versions alongside the 13B-REW."
+    },
+    {
+      "url": "https://www.foxed.ca/rx7manual/2003mazdarx8/esicont/en/srvc/html/BHE010002000T04.html",
+      "what": "2003 Mazda RX-8 workshop manual, engine specifications page (hosted on an enthusiast site). Port timing table matches the SAE paper."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mazda_RX-8",
+      "what": "Wikipedia, Mazda RX-8: market variants, power and redlines."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mazda_Wankel_engine",
+      "what": "Wikipedia, Mazda Wankel engine: family geometry (105 mm radius, 15 mm offset, 80 mm 13B rotor width) and engine weight."
+    }
+  ],
+  "vehicle": {
+    "name": "Mazda RX-8 six-speed manual (US, 2004)",
+    "fields": {
+      "curb_kg": {
+        "value": 1374,
+        "unit": "kg",
+        "source": "https://www.carspecs.us/cars/2004/mazda/rx-8/14684",
+        "note": "'2004 Mazda RX-8 Manual ... Horsepower 238 hp ... Curb weight 3,029 lbs.' Converted by me (1373.9 kg). Aggregator; standard not stated."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://www.carspecs.us/cars/2004/mazda/rx-8/14684",
+        "note": "'6-speed manual transmission w/OD & short-throw shifter'."
+      },
+      "gears": {
+        "value": [
+          3.76,
+          2.269,
+          1.645,
+          1.187,
+          1.0,
+          0.843
+        ],
+        "source": "https://xr793.com/wp-content/uploads/2022/10/2004-Mazda-RX-8-Specs-UK.pdf",
+        "note": "Mazda UK specifications, December 2003, 'Mazda RX-8 (230)' column: 'Gear ratios: 1st 3.760 ... 2nd 2.269 ... 3rd 1.645 ... 6th 0.843 ... Rev. 3.564'. Mazda Australia 2004 (https://xr793.com/wp-content/uploads/2023/04/2004-Mazda-RX-8-AUS.pdf) gives the same set. US car: carspecs.us rounds to 3.76 / 2.27 / 1.65 / 1.19 / 1.00 / 0.84. Same gearbox in the US is an inference from that agreement."
+      },
+      "final_drive": {
+        "value": 4.444,
+        "source": "https://xr793.com/wp-content/uploads/2022/10/2004-Mazda-RX-8-Specs-UK.pdf",
+        "note": "'Final gear ratio 4.444 4.444'. Mazda Australia: 'Final drive 4.444/4.300' (manual/auto). carspecs.us US manual: 'Final Drive Axle Ratio 4.44'."
+      },
+      "wheel_radius_m": {
+        "value": 0.3298,
+        "unit": "m",
+        "source": "https://www.carspecs.us/cars/2004/mazda/rx-8/14684",
+        "note": "Calculated by me from the tyre size 225/45 R18 (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "225/45 R18",
+        "source": "https://www.carspecs.us/cars/2004/mazda/rx-8/14684",
+        "note": "'Front Tire Size P225/45R18 Rear Tire Size P225/45R18'. Mazda UK: 'Tyres and wheels: 225/45 R18 with 18x8JJ aluminium wheels'."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Mazda_RX-8",
+        "note": "English Wikipedia, 'Mazda RX-8' (read 2026-11-17), infobox layout: Front mid-engine, rear-wheel-drive."
+      }
+    },
+    "missing": [
+      "a Mazda North America document for the 2004 RX-8 weight and ratios",
+      "US top speed"
+    ],
+    "sources": [
+      {
+        "url": "https://www.carspecs.us/cars/2004/mazda/rx-8/14684",
+        "what": "carspecs.us, 2004 Mazda RX-8 manual (238 hp): curb weight, rounded ratios, final drive, tyres. Dealer-data aggregator."
+      },
+      {
+        "url": "https://xr793.com/wp-content/uploads/2022/10/2004-Mazda-RX-8-Specs-UK.pdf",
+        "what": "Mazda UK 'RX-8 specifications' sheet (RX8_A4spc_18603_UK, December 2003), on the xr793.com brochure archive: gear ratios, final drive, tyres for the 231 PS manual car."
+      },
+      {
+        "url": "https://xr793.com/wp-content/uploads/2023/04/2004-Mazda-RX-8-AUS.pdf",
+        "what": "Mazda Australia 2004 RX-8 brochure (177 kW manual), same archive: ratios and final drive. Cross-check."
+      }
+    ]
+  }
+}

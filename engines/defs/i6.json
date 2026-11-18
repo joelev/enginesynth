@@ -1,0 +1,109 @@
+{
+  "name": "i6",
+  "label": "3.0 L inline-six",
+  "layout": "inline",
+  "bank_angle": 0.0,
+  "bore": 0.084,
+  "stroke": 0.0896,
+  "rod": 0.135,
+  "cr": 10.5,
+  "firing": [
+    0.0,
+    480.0,
+    240.0,
+    600.0,
+    120.0,
+    360.0
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ivo": 16.0,
+  "ivc": 56.0,
+  "evo": 54.0,
+  "evc": 14.0,
+  "in_valve_d": 0.031920000000000004,
+  "ex_valve_d": 0.02688,
+  "in_lift": 0.010214400000000002,
+  "ex_lift": 0.0088704,
+  "itb": false,
+  "runner_len": 0.3,
+  "runner_d": 0.0378,
+  "plenum_vol": 0.0035751063017343074,
+  "throttle_d": 0.06904207704228205,
+  "snorkel_len": 0.45,
+  "snorkel_d": 0.07249418089439615,
+  "airbox_vol": 0.0055751063017343075,
+  "primary_len": [
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45
+  ],
+  "primary_d": 0.03612,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "collector_vol": 0.0004479255251445256,
+  "secondary_len": 0.6,
+  "secondary_d": 0.05,
+  "merge": "y",
+  "mid_len": 0.8,
+  "mid_d": 0.063,
+  "muffler_len": 0.5,
+  "muffler_d": 0.17,
+  "muffler_fric": 0.3,
+  "tail_len": 0.5,
+  "tail_d": 0.06,
+  "tail_flare_d": 0.0,
+  "inertia": 0.1693776575433577,
+  "redline": 7200.0,
+  "idle": 750.0,
+  "friction_scale": 1.0,
+  "heat_q": 2500000.0,
+  "kind": "piston",
+  "ecc": 0.0,
+  "rotor_r": 0.0,
+  "rotor_w": 0.0,
+  "rotor_phase": [],
+  "port_in": [
+    0.0,
+    0.0
+  ],
+  "port_ex": [
+    0.0,
+    0.0
+  ],
+  "port_in_area": 0.0,
+  "port_ex_area": 0.0,
+  "burn_scale": 1.0,
+  "generic": true,
+  "family": "six",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for this layout, not measurements of a real one."
+}

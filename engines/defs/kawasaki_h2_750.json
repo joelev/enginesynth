@@ -1,0 +1,114 @@
+{
+  "name": "kawasaki_h2_750",
+  "label": "Kawasaki H2 Mach IV 750 two-stroke triple",
+  "kind": "two_stroke",
+  "layout": "inline",
+  "bore": 0.071,
+  "stroke": 0.063,
+  "rod": 0.126,
+  "cr": 12.0,
+  "firing": [
+    0.0,
+    120.0,
+    240.0
+  ],
+  "generic": false,
+  "family": "two-stroke",
+  "based_on": "Kawasaki H2 Mach IV 750 (1972)",
+  "sources": [
+    {
+      "url": "https://magazine.cycleworld.com/article/1972/2/1/kawasakis-750-cc-h2-r-road-racer",
+      "what": "Cycle World, February 1972, 'Kawasaki's 750-cc H2-R Road Racer': quotes the standard H2 inlet, transfer and exhaust timing and corrected compression ratio while describing the racer."
+    },
+    {
+      "url": "https://issues.cycleworld.com/article/1975/3/1/kawasaki-mach-iv-h2-750",
+      "what": "Cycle World, March 1975 road test, 'Kawasaki Mach IV H2 750': crank layout, transfer ports, carburettors, muffler changes."
+    },
+    {
+      "url": "https://mcnews.com.au/?p=413195",
+      "what": "MCNews.com.au feature with a 1972 H2 specification table: bore, stroke, carburettors, power, torque."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_H2_Mach_IV",
+      "what": "Wikipedia, Kawasaki H2 Mach IV: infobox figures and model-year changes."
+    },
+    {
+      "url": "http://kawatriple.com/performance/discussion/h2_porting.html",
+      "what": "kawatriple.com archived forum discussion on H2 porting: the only page found giving stock port durations in degrees. Forum."
+    },
+    {
+      "url": "https://cyclechaos.com/wiki/H2_SERIES",
+      "what": "CycleChaos H2 model history: shop manual numbers, 'piston valve' induction."
+    }
+  ],
+  "published": {
+    "power_kw": 55.0,
+    "power_rpm": 6800.0,
+    "torque_nm": 77.4,
+    "torque_rpm": 6500.0
+  },
+  "notes": "Sourced: bore, stroke, three cylinders with crankpins 120 degrees apart, piston-port induction, 30 mm carburettors (used as the intake runner diameter), three separate pipes, claimed power and torque. Port timing is from Cycle World, February 1972, which gives the standard engine's figures as 'inlet and transfer port timing ... 75 and 58 degrees' and an exhaust port at '93' degrees without stating reference points. The researcher read these as exhaust opening 93 degrees after TDC (174 degrees duration), transfers opening 58 degrees before BDC (122 after TDC, 116 duration) and a piston-port inlet open 75 degrees either side of TDC; that reading is an interpretation, not a factory table. A Kawasaki triples forum quotes stock durations of 178, 118 and 150 degrees, and the 1973-on H2A had changed port timing. Compression: the sourced figure is 7.5:1 corrected (measured from exhaust-port closing). The simulator takes the full-stroke ratio, so cr 12.0 is that figure converted with the 93-degree exhaust closing point and the estimated rod length: 1 + 6.5 / 0.59. Other pages give 7.0 to 7.3 without stating a convention. Firing: even 120-degree intervals follow from the crank; which cylinder follows which was not found, so the order 1-2-3 here is an assumption (each cylinder has its own pipe, so it does not change the simulated sound). Estimated, not sourced: rod length, exhaust, transfer and inlet port areas, crankcase compression ratio, intake length, redline, idle speed, flywheel inertia, friction scale. The expansion chambers are fitted, not sourced: their lengths were chosen so the simulated torque peak falls near 6600 rpm, between the published torque peak (6500) and power peak (6800). The real 1972 pipes' dimensions were not found, and their silencers are not modelled. Known gap: simulated peak torque is about 14% below the claimed figure (67 N·m near 6600 rpm against 77.4 at 6500) and peak power about 16% below (46 kW near 6600-6700 rpm against 55 at 6800).",
+  "itb": true,
+  "runner_len": 0.14,
+  "runner_d": 0.03,
+  "ex_port_open": 93.0,
+  "tr_port_open": 122.0,
+  "port_ex_area": 0.00125,
+  "tr_port_area": 0.0012,
+  "port_in_area": 0.001,
+  "induction": "piston",
+  "in_window": [
+    75.0,
+    75.0
+  ],
+  "crankcase_cr": 1.5,
+  "chamber": [
+    [
+      0.207,
+      0.04,
+      0.042
+    ],
+    [
+      0.522,
+      0.042,
+      0.105
+    ],
+    [
+      0.167,
+      0.105,
+      0.105
+    ],
+    [
+      0.271,
+      0.105,
+      0.024
+    ],
+    [
+      0.25,
+      0.024,
+      0.024
+    ]
+  ],
+  "redline": 8000.0,
+  "idle": 1200.0,
+  "inertia": 0.03,
+  "friction_scale": 0.6,
+  "vehicle": {
+    "name": "Kawasaki H2 750 Mach IV (1972)",
+    "kind": "motorcycle",
+    "curb_kg": 217,
+    "gear_count": 5,
+    "gears": [
+      2.1667,
+      1.4737,
+      1.1111,
+      0.92,
+      0.8095
+    ],
+    "final_drive": 5.875,
+    "wheel_radius_m": 0.3302,
+    "tyre": "4.00-18",
+    "top_speed_kmh": 193,
+    "notes": "curb_kg is estimated: Cycle World's 465 lb curb weight with half a tank, plus the other half (2.25 US gal). The period source gives overall ratios only (12.75 / 8.64 / 6.53 / 5.42 / 4.76). The internal ratios (aggregator), the 60:32 primary (unverified forum figure), Kawasaki's stock 15T front sprocket and a 47T rear reproduce all five within 0.3%. top_speed_kmh is Cycle World's measured 119.72 mph. wheel_radius_m is calculated from the tyre size, taking a 4.00 in bias tyre's section height as equal to its width."
+  }
+}

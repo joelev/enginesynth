@@ -1,0 +1,262 @@
+{
+  "id": "toyota_4a_ge",
+  "name": "Toyota 4A-GE 1.6 L 16-valve twin-cam inline-four, first generation 'big port' with T-VIS, European specification without catalyst (10.0:1), AE86 Corolla Coupe GT / GTi, 1983 on",
+  "induction": "naturally aspirated",
+  "summary": "An oversquare (81 x 77 mm) 1.6 L iron-block four with a four-valve aluminium head, belt-driven twin cams acting directly on bucket tappets, and Toyota's T-VIS intake: two runners per cylinder, one of each pair shut by a butterfly at low speed and opened in the mid-range. It peaks at 6600 rpm and runs to a 7500 rpm redline through a 4-2-1 exhaust manifold, so most of its output and noise comes between 4500 and 7500 rpm.",
+  "fields": {
+    "variant": {
+      "value": "First-generation ('big port', T-VIS) 4A-GE in European form: no catalytic converter, compression 10.0:1, D-Jetronic (manifold-pressure) injection, rated 91 kW / 124 DIN-PS at 6600 rpm and 142 N m at 5200 rpm, in the AE86 Corolla 1600 Coupe GTi (Austria, brochure dated 20 November 1983) and Corolla GT coupe (UK and Europe)",
+      "unit": null,
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "Chosen because it is the only 4A-GE rating found with a net (DIN) standard, both peak speeds and its own compression ratio in one factory-distributed document (the Austrian importer Ernst Frey's brochure, page 4-5 'Technische Beschreibung'). The Japanese 4A-GEU rating (130 PS at 6600, 15.2 kg m at 5200) is gross (https://ateupwithmotor.com/model-histories/ae86-corolla-levin-sprinter-trueno/2/); the US 4A-GE (9.4:1, catalyst, air-flow meter) is 112 hp SAE net and 97 lb-ft, but no opened page gave its torque speed. Ate Up With Motor confirms the European engine's 10.0:1 and 124 PS DIN / 105 lb-ft (142 N m) and that it 'lacked most of the emission-control equipment ... including the catalytic converter' (https://ateupwithmotor.com/model-histories/ae86-corolla-levin-sprinter-trueno/3/)."
+    },
+    "cylinders": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "'Wassergekuehlter 4-Zylinder-Otto-Reihenmotor ... 16 Ventilen (4 pro Zylinder)'."
+    },
+    "layout": {
+      "value": "inline",
+      "unit": null,
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "'Reihenmotor'. Longitudinal in the AE86."
+    },
+    "bore_mm": {
+      "value": 81.0,
+      "unit": "mm",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "'Hubraum: 1587 ccm, Bohrung und Hub: 81,0 x 77,0 mm'. Same in Toyota's 'All About the Toyota Twin Cam' (1984, English edition), p. 14 spec table '81x77' (http://www.3sgte.com/page_16.htm)."
+    },
+    "stroke_mm": {
+      "value": 77.0,
+      "unit": "mm",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/"
+    },
+    "displacement_cc": {
+      "value": 1587,
+      "unit": "cc",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "81 x 81 x 77 x pi/4 x 4 = 1587.1 cc (my calculation)."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found in a Toyota or period document. A Tomei aftermarket H-beam rod set for the 4A-G(Z) is listed as '122.00mm (STD/1.8)', seen only as a search-result title (https://www.evasivemotorsports.com/store/product/tomei-forged-h-beam-connecting-rod-set-toyota-4a-gz-12200mm-std18/), not opened. The definition uses 122 mm as an estimate on that basis."
+    },
+    "compression_ratio": {
+      "value": 10.0,
+      "unit": ":1",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "'Verdichtung: 10,0  Oktanbedarf: 98 ROZ'. Japanese 4A-GEU and US engines: 9.4 (Toyota 'All About the Toyota Twin Cam', p. 14, http://www.3sgte.com/page_16.htm; Ate Up With Motor part 3)."
+    },
+    "firing_order": {
+      "value": "1-3-4-2",
+      "unit": null,
+      "source": "https://workshop-manuals.com/toyota/corolla_sport_rwd/l4-1587cc_1.6l_dohc_(4a-ge)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/firing_order_1452cc_1587cc_2v_rwd/",
+      "note": "Third-party reproduction of 1986 US Corolla Sport RWD (4A-GE) service data, diagram '4-CYL. FIRING ORDER: 1 3 4 2' with cylinder 1 at 'FRONT OF CAR'. The page is titled for the 1452/1587 cc RWD engines generally; it sits in the 4A-GE section. Toyota's 1989 4A-FE/4A-GE repair manual gives 'The ignition order is 1-3-4-2' in its 4A-FE description (https://apps.techcollege.dk/autoqr/vhb/Motor/Toyota%204A-FE%20V%C3%A6rkstedsh%C3%A5ndbog.pdf, EM-3). Not a Toyota page for this exact engine."
+    },
+    "crank": {
+      "value": "Forged steel, five main bearings; flat-plane four-throw layout assumed (pins 1 and 4 together, 2 and 3 together)",
+      "unit": null,
+      "source": "https://ateupwithmotor.com/model-histories/ae86-corolla-levin-sprinter-trueno/2/",
+      "note": "'fortified with a forged steel crankshaft'. Toyota: the crankshaft 'was changed from a cast to a forged item' during development ('All About the Toyota Twin Cam', p. 15, http://www.3sgte.com/page_17.htm). Brochure: 'Fuenffach gelagerte Kurbelwelle' (five main bearings). The pin layout is not stated; flat-plane is the only layout that gives the sourced order with even firing, and is assumed."
+    },
+    "firing_intervals_deg": {
+      "value": [180, 180, 180, 180],
+      "unit": "crank deg",
+      "source": "https://workshop-manuals.com/toyota/corolla_sport_rwd/l4-1587cc_1.6l_dohc_(4a-ge)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/firing_order_1452cc_1587cc_2v_rwd/",
+      "note": "Derived (my reasoning) from the firing order on a flat-plane four-stroke four."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "http://www.3sgte.com/page_17.htm",
+      "note": "Toyota 'All About the Toyota Twin Cam' p. 15: '2 intake valves, and 2 exhaust valves', 'Valve included angle of 50 deg.', valves 'directly operated by the camshafts' (p. 14). This is an English edition of a 1984 Toyota publication hosted on an enthusiast site."
+    },
+    "intake_valve_dia_mm": {
+      "value": 29.5,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/2012/http://www.billzilla.org/4agstock.htm",
+      "note": "Enthusiast page (Bill Sherwood, Australia), '16v 4AGE heads specifications ... Inlet valve diameter - 29.5mm, Exhaust valve diameter - 25.5mm'. Same figures in Wikipedia's 4A-GE table, uncited (https://en.wikipedia.org/wiki/Toyota_A_engine). Not found in a Toyota document. An aftermarket replacement intake valve for the 4A-GEC is listed with a 30.5 mm head (search excerpt only)."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 25.5,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/2012/http://www.billzilla.org/4agstock.htm",
+      "note": "As above. Not found in a Toyota document."
+    },
+    "cam_timing": {
+      "value": {"ivo_btdc": 9, "ivc_abdc": 51, "evo_bbdc": 51, "evc_atdc": 9, "duration_deg": 240, "lift_mm": 7.56},
+      "unit": "deg / mm",
+      "source": "https://web.archive.org/web/2012/http://www.billzilla.org/4agstock.htm",
+      "note": "Enthusiast table 'Cam Timings - (Japanese spec)', row ''Big port'': inlet 9 BTDC / 51 ABDC, 240 deg, 7.56 mm; exhaust 51 BBDC / 9 ATDC, 240 deg, 7.56 mm. Club4AG's camshaft chart agrees: '240 deg, 7.56mm, 9 deg BTDC (Stock - max lift @ 111 deg), 51 deg BBDC ... Stock 4AGEU used on AE86 and AW11. P/N Intake 13501-16010. Ex. 13502-16010' (https://club4ag.com/tech-data/tech-specs/camshaft-comparison-chart-4a-ge-16-valve/). Neither says at what lift the events are measured; Club4AG's text says 4A-G cam durations are normally 'advertised'. Both list 232 deg / 7.1 mm as the later small-port and 4A-GZE cam. Wikipedia's table gives 7.1 mm for all 16-valve engines, uncited, which conflicts. Not found in a Toyota document."
+    },
+    "variable_intake": {
+      "value": "T-VIS (Toyota Variable Induction System): a pair of independent intake runners for each cylinder, one of each pair with a butterfly ('intake control valve'); closed at low and mid speeds, opened above a set engine speed by a vacuum actuator under ECU control",
+      "unit": null,
+      "source": "http://www.3sgte.com/page_13.htm",
+      "note": "Toyota 'All About the Toyota Twin Cam', p. 11 (described on the 1G-GEU; the 4A-GE uses the same system). Opening speed differs by source: 4650 rpm (Ate Up With Motor part 2, https://ateupwithmotor.com/model-histories/ae86-corolla-levin-sprinter-trueno/2/), 4400 rpm (Bill Sherwood, https://web.archive.org/web/2012/http://www.billzilla.org/4agstock2.htm, who adds that power is the same open or closed at that speed), about 4200 rpm (Wikipedia, cited to the same Toyota booklet). No Toyota figure found."
+    },
+    "redline_rpm": {
+      "value": 7500,
+      "unit": "rpm",
+      "source": "https://ateupwithmotor.com/model-histories/ae86-corolla-levin-sprinter-trueno/3/",
+      "note": "'full use of the engine's 7,500-rpm redline'. Consumer Guide (US GT-S): 'the redline was a sky-high 7500 revs' (https://blog.consumerguide.com/1985-1987-toyota-corolla-gt-s/). Motor Sport's 1985 test of the FWD Corolla GT: 'revs freely up to 7,600 rpm' (https://www.motorsportmagazine.com/archive/article/august-1985/46/road-test-toyota-corolla-gt/). Fuel-cut speed not found."
+    },
+    "idle_rpm": {
+      "value": 800,
+      "unit": "rpm",
+      "source": "https://workshop-manuals.com/toyota/corolla_sport_rwd/l4-1587cc_1.6l_dohc_(4a-ge)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/idle_speed/system_information/specifications/",
+      "note": "'4A-GE engine Base idle 800 rpm', third-party reproduction of 1986 US service data. European idle not found."
+    },
+    "peak_power_kw": {
+      "value": 91,
+      "unit": "kW",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "'max. Leistung: 91 kW/124 DIN-PS bei 6600 U/min.' (DIN 70020, net). The same brochure's small power-curve graphic is labelled '88/6600' kW and '138/5200' N m, which disagrees with its own text; the text is used. US: 112 hp SAE net (84 kW) at 6600 rpm (Ate Up With Motor part 3; Consumer Guide). Japan: 130 PS gross at 6600."
+    },
+    "peak_power_rpm": {
+      "value": 6600,
+      "unit": "rpm",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/"
+    },
+    "peak_torque_nm": {
+      "value": 142,
+      "unit": "Nm",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "'max. Drehmoment: 142 Nm bei 5200 U/min.'"
+    },
+    "peak_torque_rpm": {
+      "value": 5200,
+      "unit": "rpm",
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/"
+    },
+    "torque_curve_shape": {
+      "value": {"1200": 0.74, "2000": 0.81, "3000": 0.90, "4000": 0.96, "5000": 1.0, "5500": 1.0, "6000": 0.98, "6500": 0.94, "7000": 0.86},
+      "unit": "fraction of peak torque",
+      "source": "http://www.3sgte.com/page_17.htm",
+      "note": "My reading, by pixel position against the printed axes, of the torque curve in the 'Engine performance curve' on p. 15 of Toyota's 'All About the Toyota Twin Cam' (Japanese 4A-GEU, gross JIS rating, 9.4:1, peak 15.2 kgm at 5200 rpm), expressed as a fraction of its peak; reading error about +/-0.02. The curve rises smoothly with no visible step where T-VIS opens. It is a gross curve for a different compression ratio, so it is used only as a shape guide for the European engine, not as a target."
+    },
+    "intake_type": {
+      "value": "plenum with a single throttle body at the front, two runners per cylinder (T-VIS), D-Jetronic manifold-pressure metering in the European and Japanese engines",
+      "unit": null,
+      "source": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+      "note": "Brochure: 'Elektronische Benzineinspritzung (System D-Jetronic), Luftmengenmessung mittels Drucksensor'. Throttle at the front on RWD engines (Bill Sherwood page 2)."
+    },
+    "throttle_dia_mm": {
+      "value": 55,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/2012/http://www.billzilla.org/4agstock2.htm",
+      "note": "Enthusiast page: 'The inlet throttle butterfly is 55mm in diameter'. Not found in a Toyota document."
+    },
+    "runner_length_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "runner_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "header_type": {
+      "value": "4-2-1 cast/tubular manifold",
+      "unit": null,
+      "source": "https://web.archive.org/web/2012/http://www.billzilla.org/4agstock2.htm",
+      "note": "Enthusiast page: 'The factory exhaust manifold ... They are a 4-2-1 design'. Pairing not stated; 1+4 and 2+3 (360 degrees apart with this firing order) is assumed."
+    },
+    "primary_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "primary_length_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "exhaust_pipe_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "years": {
+      "value": "First-generation 4A-GE May 1983 to May 1987; European AE86 Corolla GT from late 1983",
+      "unit": null,
+      "source": "http://www.3sgte.com/page_16.htm",
+      "note": "Toyota chronology, p. 14: 'May 1983 4A-GEU newly released, fitted to Corolla Levin/Sprinter Trueno'. End of first generation May 1987 per Wikipedia (https://en.wikipedia.org/wiki/Toyota_A_engine), not checked against Toyota."
+    }
+  },
+  "missing": [
+    "cam timing and lift from a Toyota document (two enthusiast pages agree on 9/51/51/9, 240 deg, 7.56 mm; the lift at which the events are measured is not stated)",
+    "valve diameters from a Toyota document",
+    "rod length from any primary source (aftermarket rod length only, from a search excerpt)",
+    "T-VIS opening speed from a Toyota document (4200, 4400 and 4650 rpm all quoted)",
+    "intake runner, plenum and exhaust dimensions",
+    "European idle speed and fuel-cut speed",
+    "US torque-peak speed (not used)"
+  ],
+  "sources": [
+    {"url": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/", "what": "Scan of the Austrian Toyota Corolla 1600 Coupe GTi brochure (Toyota importer Ernst Frey OHG, dated 20.11.83), page 4-5 'Technische Beschreibung': 4A-GE, 1587 cc, 81.0 x 77.0 mm, compression 10.0, 98 RON, 91 kW / 124 DIN-PS at 6600, 142 N m at 5200, D-Jetronic, five-bearing crank, belt-driven twin cams. Factory-distributed sales literature, hosted on an enthusiast club site; read from the full-size page image."},
+    {"url": "http://www.3sgte.com/page_16.htm", "what": "Toyota, 'All About the Toyota Twin Cam' (1984; English edition scanned and hosted on 3sgte.com), p. 14-15 (pages page_16.htm and page_17.htm): 4A-GEU spec table (81x77, 9.4, 130 PS/6600 and 15.2 kgm/5200 gross), chronology, 50-degree valve angle, four valves, forged crank, full-load curve; p. 11 (page_13.htm) T-VIS description. Manufacturer publication."},
+    {"url": "https://ateupwithmotor.com/model-histories/ae86-corolla-levin-sprinter-trueno/2/", "what": "Ate Up With Motor, AE86 history part 2 (Aaron Severson): 4A-GE sidebar, T-VIS opening at 4650 rpm, gross JDM rating. Researched automotive history."},
+    {"url": "https://ateupwithmotor.com/model-histories/ae86-corolla-levin-sprinter-trueno/3/", "what": "Ate Up With Motor, AE86 part 3: European engine 10.0:1, no catalyst, 124 PS DIN and 105 lb-ft (142 N m); US 112 hp SAE net and 97 lb-ft; 7500 rpm redline."},
+    {"url": "https://workshop-manuals.com/toyota/corolla_sport_rwd/l4-1587cc_1.6l_dohc_(4a-ge)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/firing_order_1452cc_1587cc_2v_rwd/", "what": "Third-party reproduction of 1986 US Corolla Sport RWD 4A-GE service data: firing order diagram. Not a Toyota page."},
+    {"url": "https://workshop-manuals.com/toyota/corolla_sport_rwd/l4-1587cc_1.6l_dohc_(4a-ge)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/idle_speed/system_information/specifications/", "what": "Same site: 4A-GE base idle 800 rpm (1986 US)."},
+    {"url": "https://web.archive.org/web/2012/http://www.billzilla.org/4agstock.htm", "what": "Bill Sherwood's 'Stock 4AGE' pages (Australian enthusiast, archived 2012): valve sizes, cam timing table (Japanese spec), and on page 2 (4agstock2.htm) the 55 mm throttle, T-VIS at 4400 rpm and the 4-2-1 manifold. Enthusiast source, no references given."},
+    {"url": "https://club4ag.com/tech-data/tech-specs/camshaft-comparison-chart-4a-ge-16-valve/", "what": "Club4AG camshaft comparison chart (Richard White, 2000): stock AE86/AW11 cam 240 deg, 7.56 mm, IVO 9 BTDC, EVO 51 BBDC, Toyota part numbers. Enthusiast source."},
+    {"url": "https://en.wikipedia.org/wiki/Toyota_A_engine", "what": "Wikipedia, Toyota A engine: generation dates, market ratings table (uncited), valve sizes and lift (uncited). Cross-check only."},
+    {"url": "https://blog.consumerguide.com/1985-1987-toyota-corolla-gt-s/", "what": "Consumer Guide 'Cheap Wheels' on the US GT-S: 112 hp at 6600 rpm, 97 lb-ft, 7500 rpm redline."},
+    {"url": "https://www.motorsportmagazine.com/archive/article/august-1985/46/road-test-toyota-corolla-gt/", "what": "Motor Sport, August 1985 road test of the FWD Corolla GT with the same engine: 119 bhp, 103 lb ft at 5000, revs to 7600. Different car and rating; cross-check only."}
+  ],
+  "vehicle": {
+    "name": "Toyota Corolla 1600 Coup\u00e9 GTi (AE86, Austria, 1983)",
+    "fields": {
+      "curb_kg": {
+        "value": 970,
+        "unit": "kg",
+        "source": "https://www.aeu86.org/wp-content/gallery/ae86-brochure-toyota-corolla-coupe-gti-1983-11/toyota-corolla-brochure-austria-1983-11-20-page-04-05.jpg",
+        "note": "Brochure table, page 4-5: 'Eigengewicht kg 970' (also 'Zul\u00e4ssiges Gesamtgewicht 1345'). The weighing standard is not printed. The German brochure of December 1983 gives 'Leergewicht 955' for the two-door notchback 'Corolla Coup\u00e9 GT 16 V' (https://www.aeu86.org/ae86-brochures/german-ae86-brochure-toyota-corolla-coupe-gt-1983-12/), a different body."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://www.aeu86.org/wp-content/gallery/ae86-brochure-toyota-corolla-coupe-gti-1983-11/toyota-corolla-brochure-austria-1983-11-20-page-04-05.jpg",
+        "note": "'vollsynchronisiertes F\u00fcnfganggetriebe'."
+      },
+      "gears": {
+        "value": [
+          3.587,
+          2.022,
+          1.384,
+          1.0,
+          0.861
+        ],
+        "source": "https://www.aeu86.org/wp-content/gallery/ae86-brochure-toyota-corolla-coupe-gti-1983-11/toyota-corolla-brochure-austria-1983-11-20-page-04-05.jpg",
+        "note": "'Untersetzungsverh\u00e4ltnisse 1. Gang 3,587, 2. Gang 2,022, 3. Gang 1,384, 4. Gang 1,000, 5. Gang 0,861'; 'Retourgang 3,484'. Read off the scan."
+      },
+      "final_drive": {
+        "value": 4.3,
+        "source": "https://www.aeu86.org/wp-content/gallery/ae86-brochure-toyota-corolla-coupe-gti-1983-11/toyota-corolla-brochure-austria-1983-11-20-page-04-05.jpg",
+        "note": "'Triebachsuntersetzung 4,300'."
+      },
+      "wheel_radius_m": {
+        "value": 0.2946,
+        "unit": "m",
+        "source": "https://www.aeu86.org/wp-content/gallery/ae86-brochure-toyota-corolla-coupe-gti-1983-11/toyota-corolla-brochure-austria-1983-11-20-page-04-05.jpg",
+        "note": "Calculated by me from the tyre size 185/70 R13 84H (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "185/70 R13 84H",
+        "source": "https://www.aeu86.org/wp-content/gallery/ae86-brochure-toyota-corolla-coupe-gti-1983-11/toyota-corolla-brochure-austria-1983-11-20-page-04-05.jpg",
+        "note": "'Reifen und Felgen: 185/70 R 13 84 H auf 5,5J x13 Stahlblechfelgen'. Same size front and rear."
+      },
+      "top_speed_kmh": {
+        "value": 195,
+        "unit": "km/h",
+        "source": "https://www.aeu86.org/wp-content/gallery/ae86-brochure-toyota-corolla-coupe-gti-1983-11/toyota-corolla-brochure-austria-1983-11-20-page-04-05.jpg",
+        "note": "'H\u00f6chstgeschwindigkeit km/h 195'. The German brochure also gives 195. A community page (https://www.aeu86.org/?p=142) says 200 km/h; not used."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Toyota_AE86",
+        "note": "English Wikipedia, 'Toyota AE86' (read 2026-11-17), infobox layout: Front-engine, rear-wheel drive."
+      }
+    },
+    "missing": [
+      "weighing standard for the curb weight"
+    ],
+    "sources": [
+      {
+        "url": "https://www.aeu86.org/ae86-brochures/ae86-brochure-toyota-corolla-coupe-gti-1983-11/",
+        "what": "Scan of the Austrian Toyota Corolla 1600 Coup\u00e9 GTi brochure (importer Ernst Frey OHG, dated 20.11.83). The technical table on page 4-5 (image linked per field) gives weight, gear ratios, final drive, tyres and top speed, with the engine line '91 kW/124 DIN-PS bei 6600 U/min', the variant the engine definition models. The same brochure is the engine research's main source."
+      },
+      {
+        "url": "https://www.aeu86.org/ae86-brochures/german-ae86-brochure-toyota-corolla-coupe-gt-1983-12/",
+        "what": "German brochure, December 1983, Corolla Coup\u00e9 GT 16 V (two-door notchback): same ratios and top speed, 955 kg, 185/70 HR 13. Cross-check."
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+{ "engine": "v8_cross", "mode": "dyno", "duration": 12.5, "quality": "final",
+  "throttle": [[0,1.0]], "rpm": [[0,3000],[12.5,3000]],
+  "tele_mode": "realtime", "tele_rate": 10000, "tele_t0": 2.0, "tele_t1": 2.0599, "tele_spm": 60,
+  "mix_intake": 0.6, "mix_block": 2.0 }

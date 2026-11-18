@@ -1,0 +1,155 @@
+{
+  "name": "porsche_carrera_gt_v10",
+  "label": "Porsche Carrera GT 5.7 L V10 (68\u00b0, firing 68\u00b0/76\u00b0)",
+  "layout": "v",
+  "bank_angle": 68.0,
+  "bore": 0.098,
+  "stroke": 0.076,
+  "rod": 0.14,
+  "cr": 12.0,
+  "firing": [
+    0.0,
+    288.0,
+    432.0,
+    576.0,
+    144.0,
+    68.0,
+    356.0,
+    500.0,
+    644.0,
+    212.0
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "ivo": 26.0,
+  "ivc": 68.0,
+  "evo": 64.0,
+  "evc": 24.0,
+  "itb": false,
+  "runner_len": 0.33,
+  "runner_d": 0.045,
+  "primary_len": [
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68
+  ],
+  "primary_d": 0.0415,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.6,
+  "secondary_d": 0.07,
+  "tail_d": 0.07,
+  "redline": 8400.0,
+  "idle": 900.0,
+  "generic": false,
+  "family": "V10",
+  "based_on": "Porsche Carrera GT 5.7 L V10, type 980/01 (2003-2006)",
+  "published": {
+    "power_kw": 450,
+    "power_rpm": 8000,
+    "torque_nm": 590,
+    "torque_rpm": 5750
+  },
+  "sources": [
+    {
+      "url": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+      "what": "Porsche Newsroom article (28 Sep 2025) with a technical data table for the Carrera GT. Manufacturer."
+    },
+    {
+      "url": "https://www.excellence-mag.com/resources/specs/259",
+      "what": "Excellence magazine (Porsche specialist) spec table: bore, stroke, max rpm."
+    },
+    {
+      "url": "https://autozine.org/Archive/Porsche/classic/CarreraGT.html",
+      "what": "Autozine technical review of the Carrera GT; single-author enthusiast site, source of the 68/76 firing statement."
+    },
+    {
+      "url": "https://www.kfz-tech.de/Engl/Hersteller/Porsche/V10Porsche.htm",
+      "what": "kfz-tech.de (German automotive engineering teaching site) note on the Carrera GT V10: shared crank pins with unequal intervals."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Porsche_V10_engine",
+      "what": "English Wikipedia Porsche V10 engine page; bore, stroke, redline."
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Porsche_Carrera_GT",
+      "what": "German Wikipedia Carrera GT page; valvetrain description."
+    },
+    {
+      "url": "https://supercarnostalgia.com/blog/porsche-carrera-gt",
+      "what": "Supercar Nostalgia guide; noted only for its contradictory rod-material sentence."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression, 68-degree bank, two rods per crank pin, four valves per cylinder, 8400 rpm maximum, fixed-length intake with inlet funnels. The 68/76-degree firing alternation rests on a single enthusiast source (Autozine); no Porsche document stating it was found, though it is what a 68-degree bank with five shared pins 72 degrees apart must give. The firing ORDER and cylinder numbering were not found: the order used (1-6-5-10-2-7-3-8-4-9, cylinders 1-5 on one bank) is assumed. Estimated, not sourced: rod length, valve diameters and lifts, cam timing and duration (variable intake timing on the real engine; one fixed timing is used), a plenum intake with one throttle (the throttle arrangement was not found), runner sizes, exhaust layout (5-into-1 per bank, no cross-over) and all its sizes, idle speed. Left to the simulator's defaults: plenum, throttle and airbox, collector volume, muffler, flywheel inertia. Also estimates: friction_scale, heat_q, burn_scale (the simulator's friction, heat-release and burn-rate scales), set with the other estimated fields so that simulated torque and power come near the published figures; no sourced number was changed.",
+  "in_valve_d": 0.038,
+  "ex_valve_d": 0.032100000000000004,
+  "in_lift": 0.0116,
+  "ex_lift": 0.009800000000000001,
+  "friction_scale": 0.9,
+  "heat_q": 2580000.0,
+  "burn_scale": 0.95,
+  "vehicle": {
+    "name": "Porsche Carrera GT (2004)",
+    "kind": "car",
+    "curb_kg": 1380,
+    "gear_count": 6,
+    "gears": [
+      3.2,
+      1.87,
+      1.36,
+      1.07,
+      0.9,
+      0.75
+    ],
+    "final_drive": 4.44,
+    "wheel_radius_m": 0.347,
+    "tyre": "335/30 ZR 20 (rear)",
+    "top_speed_kmh": 330,
+    "notes": "Six-speed manual. Curb weight and top speed from Porsche; gear ratios, final drive and tyre from auto motor und sport's test data (carspecs.us agrees). Estimated: rolling radius from the tyre size.",
+    "driven": "rear"
+  }
+}

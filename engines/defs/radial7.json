@@ -1,0 +1,97 @@
+{
+  "name": "radial7",
+  "label": "11 L seven-cylinder radial",
+  "layout": "radial",
+  "bore": 0.13,
+  "stroke": 0.118,
+  "rod": 0.25,
+  "cr": 6.3,
+  "firing": [
+    0.0,
+    411.428571429,
+    102.857142857,
+    514.285714286,
+    205.714285714,
+    617.142857143,
+    308.571428571
+  ],
+  "bank": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "slot": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "bank_dirs": [
+    0.0,
+    308.571428571,
+    257.142857143,
+    205.714285714,
+    154.285714286,
+    102.857142857,
+    51.428571429
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "ivo": 18,
+  "ivc": 62,
+  "evo": 60,
+  "evc": 20,
+  "groups": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ]
+  ],
+  "primary_len": [
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "merge": "none",
+  "secondary_len": 0.12,
+  "muffler_len": 0.0,
+  "tail_len": 0.12,
+  "runner_len": 0.34,
+  "redline": 2400,
+  "idle": 550,
+  "generic": true,
+  "family": "radial",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for an air-cooled aircraft radial of this size, not measurements of a real one. Even firing 1-3-5-7-2-4-6 on one crank pin; every rod is treated as running straight from that pin (no master-and-link rod geometry).",
+  "secondary_d": 0.06,
+  "tail_d": 0.06
+}

@@ -1,0 +1,108 @@
+{
+  "name": "triumph_daytona_675",
+  "label": "Triumph Daytona 675 inline-triple (2006-2008)",
+  "generic": false,
+  "family": "triple",
+  "based_on": "Triumph Daytona 675 674.8 cc inline-three, 2006-2008 (up to VIN 381274)",
+  "layout": "inline",
+  "bore": 0.074,
+  "stroke": 0.0523,
+  "rod": 0.105,
+  "cr": 12.65,
+  "firing": [
+    0.0,
+    240.0,
+    480.0
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.0305,
+  "ex_valve_d": 0.0255,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 27.49,
+    "ivc": 51.49,
+    "evo": 43.09,
+    "evc": 23.09,
+    "in_lift": 0.00925,
+    "ex_lift": 0.0085
+  },
+  "itb": true,
+  "throttle_d": 0.044,
+  "runner_len": 0.22,
+  "runner_d": 0.044,
+  "primary_len": [
+    0.55,
+    0.55,
+    0.55
+  ],
+  "primary_d": 0.038,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.3,
+  "secondary_d": 0.06,
+  "muffler_len": 0.4,
+  "muffler_d": 0.15,
+  "tail_len": 0.1,
+  "tail_d": 0.06,
+  "inertia": 0.03,
+  "redline": 14000.0,
+  "idle": 1200.0,
+  "friction_scale": 0.6,
+  "heat_q": 2700000.0,
+  "published": {
+    "power_kw": 91.9,
+    "power_rpm": 12500.0,
+    "torque_nm": 72.0,
+    "torque_rpm": 11750.0
+  },
+  "sources": [
+    {
+      "url": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "what": "Triumph Motorcycles 'Service Manual - Daytona 675, Street Triple and Street Triple R' (an uploaded copy marked as downloaded from a manuals search engine), Full Specification pages 1.26-1.33 and sections 5, 6 and 10: bore, stroke, displacement, compression, cylinder numbering, firing order, power and torque by VIN range, valve head diameters, valve lift, cam timing at 1 mm lift, rev limiter, idle speed, throttle bodies, exhaust layout and butterfly valve, balancer shaft. Manufacturer document; read directly through the page's text layer."
+    },
+    {
+      "url": "https://issues.cycleworld.com/article/2006/1/1/three-spirit",
+      "what": "Cycle World, January 2006, 'Three Spirit' (Daytona 675 launch): 74 x 52.3 mm, 12.7:1, revs to 14,000 rpm, 123 crank horsepower, 53 lb-ft, 44 lb-ft at 4000 rpm. Period magazine; read directly."
+    },
+    {
+      "url": "https://www.visordown.com/reviews/motorbike/daytona-675-2006-2012-review",
+      "what": "Visordown review of the 2006-2012 Daytona 675 with spec table (74 x 52.3 mm, 12.65:1, 124 bhp at 12,500 rpm, 53 ft-lb at 11,750 rpm) and 'rev limiter, which kicks in just over 14,000rpm'. Read directly."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Big-bang_firing_order",
+      "what": "Wikipedia, firing-order table: four-stroke even-firing I3, 120-degree crank, 240-240-240, examples include the Triumph Street Triple and Speed Triple."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Triumph_Daytona_675",
+      "what": "Wikipedia, Triumph Daytona 675: model history (2009 remap and rev-limit increase, 2013 new engine), ram-air and twin-injector intake, under-seat exhaust before 2013."
+    }
+  ],
+  "notes": "Modelled variant: the first Daytona 675 engine as built up to VIN 381274 (the 2006 to 2008 model years). The 2009 revision (128 PS at 12,600 rpm, slightly different exhaust cam timing) and the 2013 engine (76 x 49.6 mm) are not modelled. Sourced from Triumph's service manual for the Daytona 675 and Street Triple: inline-three, bore 74.0 mm, stroke 52.3 mm, 674.8 cc, compression 12.65:1, firing order 1-2-3 (cylinder 1 at the left), four valves per cylinder, valve head diameters 30.5 mm intake and 25.5 mm exhaust, valve lift 9.25 mm intake and 8.5 mm exhaust, cam timing at 1 mm lift (intake opens 27.49 deg before TDC and closes 51.49 deg after BDC; exhaust opens 43.09 deg before BDC and closes 23.09 deg after TDC), electronic rev limiter 14,000 rpm (used as redline), idle 1200 rpm, published crank power 125 PS (91.9 kW) at 12,500 rpm and torque 72 N m at 11,750 rpm, one throttle body per cylinder fed from an airbox, three header pipes joined into one pipe with a catalyst in the down pipe and one silencer. Period press (Cycle World, Visordown) gives the same dimensions, power, torque and 14,000 rpm limit. The 120-degree crank (even 240-degree firing) is from Wikipedia's firing-order table, which names the Street Triple, a model with this engine; `engsim pins` confirms the definition fires evenly every 240 deg. Estimated, not sourced: rod length (105 mm, about twice the stroke), throttle bore and intake length and diameter (44 mm; 0.22 m from trumpet to valve, fitted), header primary length (0.55 m, fitted) and diameter (38 mm), the pipe after the collector, silencer and tail-pipe dimensions (widened from the derived defaults, which choked the single silencer at 0.36 bar back-pressure), airbox (derived default), flywheel inertia (0.03 kg m^2). Fit: friction_scale 0.6 (the bottom of its allowed range), heat_q 2.7e6 (the top of its range) and burn_scale 0.7, the same settings the library's other high-revving motorcycle engines use. They are at the limits because the model's friction rises with the square of engine speed regardless of stroke, which overstates friction for a short-stroke engine at 12,000 rpm (README, 'known model flaws'). With mid-range factors (0.8, 2.5e6, 1.0) the model makes about 50 N m and 61 kW at the published speeds (about -30 percent). With the factors at their limits it makes 66 N m at 11,750 rpm (-8 percent) and 84 kW at 12,500 rpm (-9 percent): a known gap, outside the 6 percent target. The simulated curve also has a second hump of about 68 N m near 6000 rpm from the intake and header resonances; Triumph quotes only the peak and about 60 N m at 4000 rpm (the model gives 52). Idle settles near 1300 rpm against the 1200 rpm target, the library's known high idle for small engines with individual throttles. Not modelled: the exhaust butterfly valve in the header assembly (its schedule is not published and the format has no variable restriction), ram air, the secondary-air injection, the catalyst separately from the silencer, and the balancer shaft, which moves no gas.",
+  "burn_scale": 0.7,
+  "vehicle": {
+    "name": "Triumph Daytona 675 (2006)",
+    "kind": "motorcycle",
+    "curb_kg": 190,
+    "gear_count": 6,
+    "gears": [
+      2.6154,
+      1.8571,
+      1.5652,
+      1.35,
+      1.2381,
+      1.1364
+    ],
+    "final_drive": 5.428,
+    "wheel_radius_m": 0.3149,
+    "tyre": "180/55 ZR17",
+    "top_speed_kmh": 249,
+    "notes": "curb_kg is MOTORRAD's measured full-tank weight from its 2006 test (Triumph gives only 165 kg dry). Gearing is from the 2007-08 owner's handbook, confirmed for bikes up to VIN 381274 by the service manual; the 2006 bike is in that range. final_drive is primary 85:46 x chain 47:16. top_speed_kmh is Cycle World's 155 mph from a 2006 comparison test, which does not say whether it was measured (MOTORRAD lists 260 km/h with an unexplained asterisk). wheel_radius_m is calculated from the tyre size."
+  }
+}

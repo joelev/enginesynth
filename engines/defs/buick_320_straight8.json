@@ -1,0 +1,111 @@
+{
+  "name": "buick_320_straight8",
+  "label": "Buick 320 straight-eight (Roadmaster)",
+  "generic": false,
+  "family": "eight",
+  "based_on": "Buick 320 cu in Fireball straight-eight, Series 70 Roadmaster, 1950 Dynaflow rating",
+  "layout": "inline",
+  "bore": 0.08731,
+  "stroke": 0.10954,
+  "rod": 0.20955,
+  "cr": 7.2,
+  "firing": [
+    0,
+    180,
+    450,
+    630,
+    270,
+    90,
+    540,
+    360
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.04524,
+  "ex_valve_d": 0.03651,
+  "cam": {
+    "at_lift": 0,
+    "ivo": 14,
+    "ivc": 58,
+    "evo": 54,
+    "evc": 18,
+    "in_lift": 0.00881,
+    "ex_lift": 0.00884
+  },
+  "runner_len": 0.35,
+  "runner_d": 0.0349,
+  "throttle_d": 0.042,
+  "primary_len": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "primary_d": 0.036,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 1.6,
+  "secondary_d": 0.054,
+  "tail_len": 0.9,
+  "tail_d": 0.0508,
+  "redline": 4400,
+  "idle": 450,
+  "published": {
+    "power_kw": 113.3,
+    "power_rpm": 3600,
+    "torque_nm": 379.6,
+    "torque_rpm": 2000
+  },
+  "sources": [
+    {
+      "url": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf",
+      "what": "Scan of the 1948-49 Buick Shop Manual, Group 2 (Engine), on the Old Car Manual Project. Manufacturer service manual: general specifications, dimensions and fits tables for Series 40-50 and Series 70, valve timing check. Fractions were read from the page images because the PDF's text layer garbles them."
+    },
+    {
+      "url": "https://www.hometownbuick.com/?p=25468",
+      "what": "Hometown Buick '1950 Buick Specifications' page, a transcription of Buick's 1950 specification tables by series: horsepower, torque, compression, valves, manifold and exhaust data."
+    },
+    {
+      "url": "https://teambuick.com/reference/buick_8_engine_specs.php",
+      "what": "Team Buick reference page, 'directly compiled from the original 1952 Buick service manual' for the 263 and 320, plus contributor-supplied blueprint figures (rod length, bore pitch)."
+    },
+    {
+      "url": "https://teambuick.com/reference/tune_up_specs.php",
+      "what": "Team Buick tune-up table by year: idle speed, firing order."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Buick_straight-8_engine",
+      "what": "Wikipedia overview: displacement table by year, 1952 ratings."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, rod length, compression ratio (1950 Dynaflow), firing order, one intake and one exhaust valve per cylinder with their diameters and lifts, intake manifold diameter (runner_d), single exhaust outlet, tail pipe diameter (2 in, an outside diameter), idle, published output. The published figures are gross (bare engine) ratings, so the model should sit a little under them. The crank pin layout is not published; it follows from the firing order with even 90 degree intervals, which is assumed. Which end is cylinder 1 is not stated. Estimated, not sourced: all cam timing (only one check point on the exhaust lobe is published), intake runner length, carburettor throttle bore (tuned), exhaust manifold branch length and diameter, exhaust pipe diameter and lengths, redline. Everything else is left to the derived defaults (plenum, airbox, muffler, flywheel). Not modelled: the siamesed intake ports (four ports for eight cylinders); each cylinder has its own runner here.",
+  "vehicle": {
+    "name": "Buick Roadmaster Riviera sedan, Model 72R (1950)",
+    "kind": "car",
+    "curb_kg": 1914,
+    "gear_count": 2,
+    "gears": [
+      1.82,
+      1.0
+    ],
+    "final_drive": 3.909,
+    "tyre": "8.00-15",
+    "notes": "Dynaflow automatic (standard on the Roadmaster), modelled as two fixed ratios with a clutch: Low 1.82 (planetary) and Drive 1.00. The real car started in Drive through a torque converter with 2.25:1 multiplication at stall, which is not modelled; Low was for steep grades and was not to be selected above 40 mph. Final drive is the Model 72's standard 43:11 axle. The weight (4,220 lb) is from two reference listings that do not say whether it is shipping or curb weight. wheel_radius_m and top speed omitted (not found).",
+    "driven": "rear"
+  }
+}

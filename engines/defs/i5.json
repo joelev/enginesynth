@@ -1,0 +1,102 @@
+{
+  "name": "i5",
+  "label": "2.5 L inline-five",
+  "layout": "inline",
+  "bank_angle": 0.0,
+  "bore": 0.0825,
+  "stroke": 0.0928,
+  "rod": 0.144,
+  "cr": 10.0,
+  "firing": [
+    0.0,
+    144.0,
+    576.0,
+    288.0,
+    432.0
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "ivo": 16.0,
+  "ivc": 56.0,
+  "evo": 54.0,
+  "evc": 14.0,
+  "in_valve_d": 0.03135,
+  "ex_valve_d": 0.026400000000000003,
+  "in_lift": 0.010032000000000001,
+  "ex_lift": 0.008712000000000001,
+  "itb": false,
+  "runner_len": 0.3,
+  "runner_d": 0.037125000000000005,
+  "plenum_vol": 0.002976439127790578,
+  "throttle_d": 0.06299671026109832,
+  "snorkel_len": 0.45,
+  "snorkel_d": 0.06614654577415324,
+  "airbox_vol": 0.004976439127790578,
+  "primary_len": [
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45
+  ],
+  "primary_d": 0.035475,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  ],
+  "collector_vol": 0.0004476439127790578,
+  "secondary_len": 1.2,
+  "secondary_d": 0.06504609943148013,
+  "merge": "none",
+  "mid_len": 0.8,
+  "mid_d": 0.06504609943148013,
+  "muffler_len": 0.5,
+  "muffler_d": 0.17,
+  "muffler_fric": 0.3,
+  "tail_len": 0.5,
+  "tail_d": 0.059493383626353785,
+  "tail_flare_d": 0.0,
+  "inertia": 0.15441097819476446,
+  "redline": 7200.0,
+  "idle": 850.0,
+  "friction_scale": 1.0,
+  "heat_q": 2500000.0,
+  "kind": "piston",
+  "ecc": 0.0,
+  "rotor_r": 0.0,
+  "rotor_w": 0.0,
+  "rotor_phase": [],
+  "port_in": [
+    0.0,
+    0.0
+  ],
+  "port_ex": [
+    0.0,
+    0.0
+  ],
+  "port_in_area": 0.0,
+  "port_ex_area": 0.0,
+  "burn_scale": 1.0,
+  "generic": true,
+  "family": "five",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for this layout, not measurements of a real one."
+}

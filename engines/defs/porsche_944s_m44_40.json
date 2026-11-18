@@ -1,0 +1,114 @@
+{
+  "name": "porsche_944s_m44_40",
+  "label": "Porsche M44/40 2.5 L 16-valve inline-four (944 S)",
+  "generic": false,
+  "family": "inline-four",
+  "based_on": "Porsche M44/40 2.5 L 16-valve inline-four, 944 S, 1987-1988",
+  "layout": "inline",
+  "bore": 0.1,
+  "stroke": 0.0789,
+  "rod": 0.15,
+  "cr": 10.9,
+  "firing": [
+    0,
+    540,
+    180,
+    360
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.037,
+  "ex_valve_d": 0.033,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": -4,
+    "ivc": 40,
+    "evo": 36,
+    "evc": -4,
+    "in_lift": 0.009,
+    "ex_lift": 0.0085
+  },
+  "runner_len": 0.44,
+  "primary_len": [
+    0.4,
+    0.4,
+    0.4,
+    0.4
+  ],
+  "primary_d": 0.04,
+  "groups": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "merge": "y",
+  "secondary_len": 0.4,
+  "secondary_d": 0.048,
+  "mid_d": 0.055,
+  "redline": 6840,
+  "idle": 840,
+  "friction_scale": 0.9,
+  "heat_q": 2370000,
+  "published": {
+    "power_kw": 140,
+    "power_rpm": 6000,
+    "torque_nm": 230,
+    "torque_rpm": 4300
+  },
+  "sources": [
+    {
+      "url": "https://www.mirari.fr/w28t",
+      "what": "Porsche AG Workshop Manual, Volume IA 'Engine, 16 valves' for the 944 S (M 44/40) and 944 S2 (M 44.41), technical data printed XIII 1987, repair groups printed 1987 to 1991; a PDF of the factory manual (from manualslib, 'As webpage by http://www.9ss1.dk/porsche944'). Bore, stroke, displacement, compression, EC and SAE power and torque, maximum engine speed, balance shafts, cam drive, valve timing at 1 mm lift, valve dimensions, firing order, idle speed, exhaust system. Manufacturer document."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/article/november-1986/46/new-cars-porsche-928s4-and-944s/",
+      "what": "Motor Sport magazine, November 1986, 'New Cars: Porsche 928S-4 and 944S': 944 S power and torque; the two-stage resonance magnesium intake described in the 928 S4 section only. Period source, read through a fetch summariser."
+    },
+    {
+      "url": "https://www.stuttcars.com/?p=417309",
+      "what": "Stuttcars 944 S page: years 1987-1988, M44/40, 6,800 rpm rev limit, magnesium intake tract and revised exhaust derived from the 928 S4. Enthusiast reference, read through a fetch summariser."
+    },
+    {
+      "url": "https://www.pelicanparts.com/944/tech_specs/944_model.htm",
+      "what": "Pelican Parts 944 model table: M44/40 for 1987 and 1988 cars. Read only through a search excerpt. A direct fetch returned 403."
+    },
+    {
+      "url": "https://928-944parts.com/en/products/h-beam-connecting-rod-924s-944-928-turbo-set-of-4",
+      "what": "Aftermarket rod set for all 2.5 L 944 engines, 150 mm centre to centre. Search excerpt only; weak source for the stock rod length."
+    },
+    {
+      "url": "https://www.design911.co.uk/p/w-ssner-steel-connecting-rods-porsche-944---968-cup--s2--s/",
+      "what": "W\u00f6ssner replacement rods, 'Length C/C: 150.00mm'. Search excerpt only."
+    },
+    {
+      "url": "https://eurospares.co.uk/Porsche/944/944_(1989)/PartDiagrams/202-005/EXHAUST_SYSTEM_-_CATALYST",
+      "what": "Parts diagram for the 1989 944 listing 'EXHAUST MANIFOLD - CYLINDERS 1 AND 4'. Search excerpt only; used for the manifold pairing."
+    }
+  ],
+  "notes": "Sourced from Porsche's factory workshop manual for the 16-valve engine: bore, stroke, compression ratio, four valves per cylinder, intake and exhaust valve diameters (37 and 33 mm; reading the manual's unlabelled dimension a as head diameter is an inference), cam timing at 1 mm valve lift (intake opens 4 deg after TDC, closes 40 deg after BDC; exhaust opens 36 deg before BDC, closes 4 deg before TDC), firing order 1-3-4-2, maximum permissible engine speed 6840 rpm (used as redline), idle 840 rpm, published power and torque (140 kW / 190 PS at 6000 rpm and 230 N m at 4300 rpm; the same 140 kW is 188 hp SAE J1349 net), and the exhaust layout (two two-into-one manifolds joined by a branch pipe, then a primary muffler or catalytic converter and two secondary mufflers). Pairing cylinders 1+4 and 2+3 in the manifolds is from a parts-catalogue entry, not a Porsche document. Rod length 150 mm is from aftermarket replacement rods, not a Porsche document. A flat-plane crank is assumed (it is the only layout that gives the sourced order with even firing). Estimated, not sourced: cam lift (9.0 mm intake, 8.5 mm exhaust; the manual gives timing but no lift), intake runner length and diameter (440 mm, 52 mm), header primary and secondary lengths and diameters, exhaust pipe diameter, throttle diameter, plenum, airbox, mufflers and tail pipe (derived defaults), flywheel inertia (derived default), friction_scale 0.9 and heat_q 2.37e6 (tuned). The cam lifts, runner length and diameter and heat_q were fitted to the published torque and power. Not modelled: any variable intake. The 944 S has a magnesium intake derived from the 928 S4, whose manifold Motor Sport (1986) describes as two-stage resonance with a vacuum-operated flap; no source opened says the 944 S version has the flap, and no switching point was found. One fixed runner length is used, so the model has a single intake resonance. The two balance shafts move no gas and have no effect on the simulated sound. The catalytic converter is not modelled separately from the mufflers.",
+  "runner_d": 0.052,
+  "vehicle": {
+    "name": "Porsche 944 S (1987)",
+    "kind": "car",
+    "curb_kg": 1280,
+    "gear_count": 5,
+    "gears": [
+      3.5,
+      2.059,
+      1.4,
+      1.034,
+      0.829
+    ],
+    "final_drive": 3.889,
+    "wheel_radius_m": 0.3173,
+    "tyre": "195/65 R15",
+    "top_speed_kmh": 228,
+    "notes": "Curb weight (DIN 70020, standard car) and top speed are from Porsche's workshop-manual technical data for the 944 S. The gear ratios and final drive (083D gearbox) are from a community reference, not a Porsche document. The tyre size is from a magazine specification page that appears to describe the US car; Porsche's tyre approval for the 944 S lists the same size. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "rear"
+  }
+}

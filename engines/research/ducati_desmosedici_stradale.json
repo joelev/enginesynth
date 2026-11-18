@@ -1,0 +1,305 @@
+{
+  "id": "ducati_desmosedici_stradale",
+  "name": "Ducati Desmosedici Stradale 1103 cc 90-degree V4 (Panigale V4 / V4 S, 2018)",
+  "induction": "naturally aspirated",
+  "summary": "A 90-degree V4 whose two crank pins are offset 70 degrees, so the cylinders fire in two close pairs (0-90, then 290-380 crank degrees): it sounds like a very fast, doubled-up V-twin rather than an even four. Revs to 14,000 rpm with a counter-rotating crank.",
+  "fields": {
+    "cylinders": {
+      "value": 4,
+      "source": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review",
+      "note": "'1,103 cm3 4-cylinder 90-degree V engine'."
+    },
+    "layout": {
+      "value": "V (90-degree V4, two cylinders per bank, banks front and rear; engine rotated rearward 42 degrees in the chassis)",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "note": "'Desmosedici Stradale is designed to be banked rearward 42 deg, just like the Ducati engines used in MotoGP.'"
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review"
+    },
+    "bore_mm": {
+      "value": 81.0,
+      "unit": "mm",
+      "source": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review",
+      "note": "'Bore x stroke 81 x 53.5 mm'. Same in the Panigale V4 spec sheet (https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf)."
+    },
+    "stroke_mm": {
+      "value": 53.5,
+      "unit": "mm",
+      "source": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review"
+    },
+    "displacement_cc": {
+      "value": 1103,
+      "unit": "cc",
+      "source": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review"
+    },
+    "rod_length_mm": {
+      "value": 101.8,
+      "unit": "mm",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "note": "Ducati press release, verbatim: 'The pistons are coupled to forged steel con rods with a centre-to-centre of 101.8 mm.'"
+    },
+    "compression_ratio": {
+      "value": 14.0,
+      "unit": ":1",
+      "source": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review",
+      "note": "'Compression ratio 14:1'."
+    },
+    "firing_order": {
+      "value": "front alternator-side, rear alternator-side, front clutch-side, rear clutch-side (at 0, 90, 290, 380 crank degrees)",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "note": "Ducati press release (September 2017), reproduced verbatim: 'A combination of 70 deg crank pin offset and 90-degree V layout generates what Ducati calls a \"Twin Pulse\" firing order because it's as if the engine were reproducing the firing sequence of a twin-cylinder. The distinctiveness lies in the fact that the two left-hand cylinders fire closely together, as do the two right-hand ones. In the timing chart, the ignition points are, then, at 0, 90, 290 and 380 deg.' and 'if we imagine a cycle starting from 0 deg, the first cylinder to fire is the front one on the alternator side. After just 90 deg of rotation, the rear cylinder on the same side fires. There then follows an interval in which the engine generates no drive torque until the two cylinders on the clutch side fire, again just 90 deg apart.' Ducati's release names cylinders by position, not number. It pairs 'left-hand' with the pair that fires first only by implication (alternator side = left is my inference; the release does not say which side the alternator is on). Bennetts' interview with Ducati's engine team lists '1 - 0 degrees, 2 - 90 degrees, 3 - 290 degrees, 4 - 380 degrees' (https://www.bennetts.co.uk/bikesocial/news-and-views/features/bikes/ducati-panigale_v4_engine_secrets), which numbers cylinders in firing order but does not say where each sits. Ducati's workshop cylinder numbering was not found."
+    },
+    "crank": {
+      "value": "two crank pins offset 70 degrees; each pin carries one front-bank and one rear-bank rod (left pair on one pin, right pair on the other); counter-rotating (turns opposite to the wheels), three main bearings, with a jackshaft to reverse drive",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "note": "Verbatim: 'the crankshaft rotates on three supports and is made of nitrided steel with crank pins ground twice over and offset at 70 deg as on the Desmosedici engines that compete in MotoGP.' and 'The counterrotating crankshaft has advantages during both acceleration and braking. Of course, this layout demands the addition of the so-called 'jackshaft''. Technical data list: 'Counter-rotating crankshaft with crank pins offset at 70 deg'. That each pin carries a front/rear pair from one side is implied by the 90-degree spacing within each side's pair, not stated in so many words. No balance shaft ('evens up first order forces naturally without having to resort to a balancing countershaft')."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        90,
+        200,
+        90,
+        340
+      ],
+      "unit": "crank deg",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "note": "Derived from the quoted ignition points 0, 90, 290, 380 deg (differences 90, 200, 90, then 720 - 380 = 340 back to the first cylinder). The ignition points themselves are quoted from Ducati: 'In the timing chart, the ignition points are, then, at 0, 90, 290 and 380 deg.' Consistent with the geometry: 90 deg within a pair from the bank angle, and 290 = 360 - 70 from the pin offset."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "source": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review",
+      "note": "Desmodromic; 'part chain, part gear timing with dual overhead camshaft, 4 valves per cylinder'. Four camshafts, sixteen valves."
+    },
+    "intake_valve_dia_mm": {
+      "value": 34.0,
+      "unit": "mm",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "note": "Verbatim: 'valve diameters are 34 mm diameter on intakes and 27.5 mm on exhausts, values decidedly on the high side given the 81 mm bore.'"
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 27.5,
+      "unit": "mm",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/"
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not published in any source read. Ducati says only that the desmo system 'allows the steep cam profiles and radical cam timings'."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "crank deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "crank deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "ivo_btdc": {
+      "value": null,
+      "unit": "crank deg",
+      "source": null,
+      "note": "Not found; no cam timing at any lift is published in the sources read."
+    },
+    "ivc_abdc": {
+      "value": null,
+      "unit": "crank deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "evo_bbdc": {
+      "value": null,
+      "unit": "crank deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "evc_atdc": {
+      "value": null,
+      "unit": "crank deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": 14000,
+      "unit": "rpm",
+      "source": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review",
+      "note": "Press release wording, not a stated limiter figure: 'an engine that revs as high as 14,000 rpm'. Motorcycle.com's report of the same release says 'its 14000 rpm limit' (https://blog.motorcycle.com/manufacturer/ducati/ducati-desmosedici-stradale-v-4-engine-revealed.html). The production Panigale V4 limiter setting (possibly higher in top gear) was not found on a page read."
+    },
+    "peak_power_kw": {
+      "value": 157.5,
+      "unit": "kW",
+      "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+      "note": "Ducati Panigale V4 specification sheet (PDF hosted by a US retailer): '157.5 kW (214 hp) @ 13,000 rpm'. The September 2017 engine release gave the looser 'Maximum power exceeds 155 kW (210 hp) at 13,000 rpm' (https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review)."
+    },
+    "peak_power_rpm": {
+      "value": 13000,
+      "unit": "rpm",
+      "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf"
+    },
+    "peak_torque_nm": {
+      "value": 124.0,
+      "unit": "Nm",
+      "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+      "note": "Spec sheet: '124.0 Nm (91.5 lb-ft) @ 10,000 rpm'. Engine release: 'Maximum torque exceeds 120 Nm (12.2 kgm) from 8,750 to 12,250 rpm' (https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review), i.e. a flat plateau, useful for checking the model's torque curve shape. Bennetts quotes Ducati as saying torque 'is at its peak from 9000 - 11,750rpm'."
+    },
+    "peak_torque_rpm": {
+      "value": 10000,
+      "unit": "rpm",
+      "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf"
+    },
+    "intake_type": {
+      "value": "individual throttles: four oval ride-by-wire throttle bodies with two-stage variable-height intake horns, two injectors per cylinder, 12.8 litre airbox in the V",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "note": "Verbatim: 'takes in air through four oval throttle bodies (52 mm diameter equivalent), connected to variable-height air intake horns' and 'the system consists of two stages: a fixed horn on the throttle body and a mobile one that is moved along steel guides by an electric motor. When the latter is lowered, it comes into contact with the short horn, geometrically lengthening the duct. When raised, the fluid dynamics involve only the fixed lower horn'. Airbox: 'a large airbox (12.8 litres)'. Each bank's throttles have their own motor. Switch rpm and the two horn lengths are not published."
+    },
+    "throttle_dia_mm": {
+      "value": 52.0,
+      "unit": "mm",
+      "source": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "note": "Oval bore; 52 mm is Ducati's stated circular-equivalent diameter ('52 mm diameter equivalent'). Actual axes not given."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Two lengths (short fixed horn; long with the mobile horn lowered); neither length nor the switch-over rpm is published in the sources read."
+    },
+    "header_type": {
+      "value": "4-2-1-2",
+      "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+      "note": "Panigale V4 spec sheet: '4-2-1-2 system, with 2 catalytic converters and 2 lambda probes'."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "4-2-1-2 system with two catalytic converters and two lambda probes.",
+      "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+      "note": "Only the layout string and catalyst count are sourced. Which cylinders are paired at the 4-2 stage (same side or same bank) is not stated, and it matters for the sound: flag as unknown."
+    }
+  },
+  "missing": [
+    "all cam data: intake/exhaust lift, duration, opening and closing angles (nothing published at any lift)",
+    "Ducati's cylinder numbering and a statement of which side (left/right) is the alternator side",
+    "exhaust pipe diameters and lengths, and which cylinders are paired at the 4-2 junction",
+    "intake horn lengths in the short and long positions, and the rpm/load at which they switch",
+    "production rev limiter setting per gear (only 'revs as high as 14,000 rpm' found)",
+    "idle_rpm",
+    "throttle bore actual axes; intake port/runner diameter",
+    "included valve angle"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mcnews.com.au/ducati-panigale-v4/2/",
+      "what": "MCNews.com.au reproduction of Ducati's long Desmosedici Stradale technical press release (September 2017). Manufacturer text reproduced by a motorcycle news site: rod length, crank pin offset, firing points, valve sizes, intake system."
+    },
+    {
+      "url": "https://www.totalmotorcycle.com/motorcycles/2018/2018-ducati-desmosedici-stradale-v4-engine-review",
+      "what": "Total Motorcycle reproduction of the same Ducati press release including the 'Main technical data' list (bore, stroke, compression, power, torque, 14,000 rpm). Used to cross-check MCNews; the firing-order and 101.8 mm passages appear identically."
+    },
+    {
+      "url": "https://blog.motorcycle.com/manufacturer/ducati/ducati-desmosedici-stradale-v-4-engine-revealed.html",
+      "what": "Motorcycle.com news report on the engine unveiling; independently restates 70 deg offset, firing points 0/90/290/380 and which cylinders fire when."
+    },
+    {
+      "url": "https://www.cycleonline.com.au/2017/09/08/ducati-unveils-motogp-inspired-desmosedici-stradale-v4-engine/",
+      "what": "CycleOnline reproduction of the short version of the Ducati release; cross-check of power, torque, counter-rotating crank and 70 deg offset."
+    },
+    {
+      "url": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+      "what": "Ducati Panigale V4 / V4 S / Speciale specification sheet (PDF), hosted by a US parts retailer. Manufacturer data for the production bike: 157.5 kW, 124 Nm, 4-2-1-2 exhaust."
+    },
+    {
+      "url": "https://www.bennetts.co.uk/bikesocial/news-and-views/features/bikes/ducati-panigale_v4_engine_secrets",
+      "what": "Bennetts BikeSocial interview with Ducati's engine development staff; gives the firing points against cylinder numbers 1-4 and the torque plateau."
+    }
+  ],
+  "vehicle": {
+    "name": "Ducati Panigale V4 (base), 2018 model year",
+    "chosen_because": "The engine definition is the 2018 Desmosedici Stradale of the Panigale V4 / V4 S; the base Panigale V4 is the bike that introduced it.",
+    "fields": {
+      "curb_kg": {
+        "value": 198,
+        "unit": "kg",
+        "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+        "quote": "Dry weight 175 kg (386 lb) ... Kerb weight 198 kg (436 lb)",
+        "note": "Ducati specification sheet for the Panigale V4 / V4 S / V4 Speciale (PDF created October 2017, hosted by a US parts retailer), V4 column. The sheet does not define what kerb weight includes."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+        "quote": "Gearbox 6 speed with Ducati Quick Shift (DQS) up/down EVO"
+      },
+      "gears": {
+        "value": [
+          2.7143,
+          2.1176,
+          1.7368,
+          1.5238,
+          1.3636,
+          1.25
+        ],
+        "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+        "quote": "Ratio 1=38/14 2=36/17 3=33/19 4=32/21 5=30/22 6=30/24",
+        "note": "Same for all three versions."
+      },
+      "final_drive": {
+        "value": 4.6125,
+        "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+        "quote": "Primary drive Straight cut gears; Ratio 1.80:1 ... Final drive Chain; Front sprocket 16; Rear sprocket 41",
+        "note": "My calculation: 1.80 x (41/16). Primary tooth counts not found (the owner's manual host refused automated access), so the 1.80 is as rounded by Ducati."
+      },
+      "tyre": {
+        "value": "200/60 ZR17",
+        "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+        "quote": "Rear tyre Pirelli Diablo Supercorsa SP 200/60 ZR17"
+      },
+      "wheel_radius_m": {
+        "value": 0.3359,
+        "unit": "m",
+        "source": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+        "note": "My calculation, not published: unloaded geometric radius from the nominal size (rim diameter / 2 + section width x aspect ratio). The loaded rolling radius is a few percent smaller."
+      },
+      "top_speed_kmh": {
+        "value": 306,
+        "unit": "km/h",
+        "source": "https://young-machine.com/2018/09/23/12988/",
+        "quote": "こちらも1万4500rpmでレブリミットに当たり ... 【DUCATI PANIGALE V4S】実速度を示すQSTARZは306km/hをマーク",
+        "note": "Young Machine (Japan), 23 Sep 2018, oval-course test against the BMW S1000RR: the V4 S hit the 14,500 rpm limiter and the QSTARZ GPS logger 'which shows true speed' recorded 306 km/h. Measured, but on the V4 S; inference: the base V4 shares engine and gearing and the run was limiter-bound. Ducati publishes no top speed."
+      }
+    },
+    "missing": [],
+    "sources": [
+      {
+        "url": "https://www.jpcycles.com/assets/0002/1363/Ducati_Panigale_V4_specs.pdf",
+        "what": "Ducati specification sheet, Panigale V4 / V4 S / V4 Speciale, 2018 model year: weights, gearing, tyres."
+      },
+      {
+        "url": "https://young-machine.com/2018/09/23/12988/",
+        "what": "Young Machine top-speed test, Panigale V4 S vs S1000RR, 23 Sep 2018: GPS-measured top speed."
+      }
+    ]
+  }
+}

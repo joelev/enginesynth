@@ -1,0 +1,152 @@
+{
+  "name": "chevrolet_lt1_350_1970",
+  "label": "Chevrolet LT-1 350 small-block V8 (1970 Corvette)",
+  "generic": false,
+  "family": "V8",
+  "based_on": "Chevrolet 350 LT-1 (RPO LT1), 1970 Corvette, 370 hp SAE gross",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.1016,
+  "stroke": 0.088392,
+  "rod": 0.14478,
+  "cr": 11.0,
+  "firing": [
+    0,
+    630,
+    270,
+    180,
+    450,
+    360,
+    540,
+    90
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.051308,
+  "ex_valve_d": 0.04064,
+  "cam": {
+    "at_lift": 0.001905,
+    "ivo": 5,
+    "ivc": 57,
+    "evo": 63,
+    "evc": 11,
+    "in_lift": 0.01104,
+    "ex_lift": 0.011557
+  },
+  "itb": false,
+  "throttle_d": 0.0856,
+  "runner_len": 0.45,
+  "runner_d": 0.048,
+  "primary_len": [
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "primary_d": 0.042,
+  "groups": [
+    [
+      0,
+      2,
+      4,
+      6
+    ],
+    [
+      1,
+      3,
+      5,
+      7
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 1.2,
+  "secondary_d": 0.0635,
+  "muffler_len": 0,
+  "tail_d": 0.0635,
+  "redline": 6500,
+  "idle": 900,
+  "friction_scale": 1.0,
+  "heat_q": 2400000,
+  "published": {
+    "power_kw": 276,
+    "power_rpm": 6000,
+    "torque_nm": 515,
+    "torque_rpm": 4000
+  },
+  "sources": [
+    {
+      "url": "https://over-drive-magazine.com/2025/04/04/1970-corvette-fact-sheet/",
+      "what": "Over-Drive Magazine 1970 Corvette fact sheet, LT1 entry: 4.00 x 3.48 in, 11.00:1, 370 hp at 6000 rpm, 380 lb-ft at 4000 rpm, mechanical lifters, camshaft 317/346 degrees with 96 degrees overlap, lift 0.4586/0.4850 in, Holley 780 cfm 3972121, forged crank, 4-bolt mains, aluminium intake, low-restriction exhaust. Enthusiast publication."
+    },
+    {
+      "url": "https://corvettestory.com/specs/1970-Corvette-specs-options.php",
+      "what": "corvettestory.com 1970 Corvette specifications: bore and stroke, 11.0:1, 1.5:1 rockers, LT1 370 hp at 6000 and 380 lb-ft at 4000, firing order 1-8-4-3-6-5-7-2. Enthusiast reference."
+    },
+    {
+      "url": "https://my1970z28.com/COPO/engine.htm",
+      "what": "1970 Camaro Z/28 restoration site (same LT-1 engine): cam 3972178, lifts including 0.024/0.030 in lash, 2.02/1.60 in valves, high-rise dual-plane intake, 780 cfm Holley with 1.686 in bores."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chevrolet_LT-1",
+      "what": "Wikipedia, Chevrolet LT-1: 11.0:1, Holley 780, solid lifters, 370 hp (Corvette) and 360 hp (Camaro) both gross, no difference between the engines."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation)",
+      "what": "Wikipedia, Chevrolet small-block: firing order, 5.7 in rod, 2.5 in outlet ram's-horn manifolds on the Corvette LT-1, 6500 rpm redline."
+    },
+    {
+      "url": "https://www.enginelabs.com/engine-tech/engine/firing-order-swaps-whats-best-for-your-engine/",
+      "what": "EngineLabs (2017): GM cylinder numbering, left bank forward, alternating front to rear."
+    },
+    {
+      "url": "https://www.corvetteforum.com/forums/c3-tech-performance/1669059-lt1-cam-specs.html",
+      "what": "CorvetteForum thread (2007): 242/254 degrees at 0.050 in and 116 degree lobe separation for the LT-1 cam. Forum posts, not GM."
+    },
+    {
+      "url": "https://ateupwithmotor.com/automotive-terms/47-gross-versus-net-horsepower.html",
+      "what": "Ate Up With Motor: SAE gross ratings were taken with free-flowing headers, no mufflers and no accessories."
+    }
+  ],
+  "notes": "Modelled variant: the 1970 Corvette LT-1 (RPO LT1), 11.0:1, rated 370 hp (276 kW) at 6000 rpm and 380 lb-ft (515 N m) at 4000 rpm SAE gross. The Camaro Z/28 had the same engine rated 360 hp, which a Wikipedia footnote (citing Gunnell's Standard Catalog of Corvette) puts down to its log exhaust manifolds and points ignition; it is not modelled separately. Sourced: bore 4.00 in, stroke 3.48 in, compression 11.0, two valves per cylinder with 1.5:1 rockers, 2.02 in intake and 1.60 in exhaust valves (a Z/28 restoration site), firing order 1-8-4-3-6-5-7-2, cylinder numbering odd on the left bank and even on the right (a general statement about GM V8s, applied here), forged steel crank, the factory cam figures (317 degrees intake and 346 degrees exhaust advertised duration, 96 degrees overlap, 0.4586 and 0.4850 in lift including 0.024 and 0.030 in lash), a 780 cfm Holley four-barrel with four 1.686 in bores (entered as one 85.6 mm throttle of equal area, my calculation) on a high-rise dual-plane aluminium manifold, 2.5 in outlet cast-iron manifolds, 6500 rpm redline (used as the limit; no rev limiter is described), published power and torque. Rod length 5.7 in is Wikipedia's figure for all small-blocks except the 400, not a statement about the LT-1. A cross-plane crank is inferred (the only layout giving the sourced order with even firing). Valve lifts are entered net of the lash (11.04 and 11.56 mm), which is my reading of 'includes lash'. Cam as entered: 242 degrees intake and 254 degrees exhaust at 0.050 in lifter rise (1.905 mm valve lift at 1.5:1) on a 116 degree lobe separation, from a CorvetteForum post, not a GM document; the lobes are placed straight up (intake centreline 116 degrees after TDC), which is an estimate: GM's advertised figures give durations and overlap but not where the lobes sit. The simulator's lift curve cannot reproduce both the 0.050 in durations and the much longer advertised ones (it gives about 297 degrees seat to seat for the intake against 317 advertised); the 0.050 in figures were kept because they govern most of the flow. Exhaust as modelled: short primaries for the cast manifolds into one collector per bank, then two separate open 2.5 in pipes with no mufflers. SAE gross ratings were taken with free-flowing headers and no mufflers (Ate Up With Motor), so the fit is to an open exhaust; with the simulator's default mufflers the model fell 20% short of the published torque. The car's own mufflers, pipe lengths and any balance pipe were not found and are not modelled. Estimated, not sourced: cam lobe positions, idle 900 rpm, intake runner length and diameter (0.45 m and 48 mm; the long runner was fitted to put the torque peak at 4000 rpm), plenum and airbox (derived defaults), primary length and diameter, collector, pipe length, flywheel inertia (derived default). friction_scale 1.0 and heat_q 2.4e6 were tuned with the runner and primary lengths to the published torque and power; no sourced number was changed. Not modelled: the dual-plane manifold's two separate plenum halves (the simulator has one plenum), the carburettor's vacuum secondaries and accelerator pump (the throttle is a plain butterfly of equal area), the air cleaner, accessories.",
+  "vehicle": {
+    "name": "Chevrolet Corvette LT-1 sport coupe (1970, M21 four-speed)",
+    "kind": "car",
+    "curb_kg": 1490,
+    "gear_count": 4,
+    "gears": [
+      2.2,
+      1.64,
+      1.27,
+      1.0
+    ],
+    "final_drive": 3.7,
+    "wheel_radius_m": 0.3335,
+    "tyre": "F70-15",
+    "notes": "The LT-1 was not offered with the automatic; it came with the M21 close-ratio four-speed (standard axle 3.70) or the M20 wide-ratio four-speed (2.52/1.88/1.46/1.00, standard axle 3.55). No production split between the two was found, so the M21 is my choice. Curb weight is the 1970 sport coupe's published curb weight, not a figure specific to the LT-1. wheel_radius_m is from the 82.5 in circumference of a reproduction of the original Goodyear F70-15 for 1970-72 Corvettes (a mounted, inflated tyre), not a factory figure. Top speed omitted (not found).",
+    "driven": "rear"
+  }
+}

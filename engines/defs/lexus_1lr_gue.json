@@ -1,0 +1,161 @@
+{
+  "name": "lexus_1lr_gue",
+  "label": "Lexus LFA 4.8 L V10 (1LR-GUE, even-firing 72\u00b0)",
+  "layout": "v",
+  "bank_angle": 72.0,
+  "bore": 0.088,
+  "stroke": 0.079,
+  "rod": 0.14200000000000002,
+  "cr": 12.0,
+  "firing": [
+    0.0,
+    288.0,
+    432.0,
+    576.0,
+    144.0,
+    72.0,
+    360.0,
+    504.0,
+    648.0,
+    216.0
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "ivo": 24.0,
+  "ivc": 67.0,
+  "evo": 61.0,
+  "evc": 35.0,
+  "itb": true,
+  "runner_len": 0.285,
+  "runner_d": 0.052,
+  "primary_len": [
+    0.88,
+    0.88,
+    0.88,
+    0.88,
+    0.88,
+    0.88,
+    0.88,
+    0.88,
+    0.88,
+    0.88
+  ],
+  "primary_d": 0.039,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 0.6,
+  "secondary_d": 0.06,
+  "mid_len": 0.7,
+  "mid_d": 0.065,
+  "tail_d": 0.065,
+  "redline": 9000.0,
+  "idle": 1000.0,
+  "generic": false,
+  "family": "V10",
+  "based_on": "Lexus 1LR-GUE 4.8 L V10, LFA (2010-2012)",
+  "published": {
+    "power_kw": 412,
+    "power_rpm": 8700,
+    "torque_nm": 480,
+    "torque_rpm": 7000
+  },
+  "sources": [
+    {
+      "url": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "what": "Toyota-hosted 2011 Lexus LFA owner's manual (US). Manufacturer document; has the engine specification table."
+    },
+    {
+      "url": "https://web.archive.org/web/20100211113226/http://www2.toyota.co.jp/en/news/09/10/1021.html",
+      "what": "Toyota global press release of 21 Oct 2009 announcing the LFA (archived). Manufacturer; power, torque, intake and exhaust description."
+    },
+    {
+      "url": "https://motor-fan.jp/article/13602/",
+      "what": "Motor Fan (Japanese technical magazine) article on the 1LR-GUE crankshaft with dimensions and the shared-pin layout."
+    },
+    {
+      "url": "https://motor-fan.jp/article/1395343/",
+      "what": "Motor Fan engine profile of the 1LR-GUE; states the bank angle was chosen for even firing; spec table."
+    },
+    {
+      "url": "https://www.australiancar.reviews/?p=52363",
+      "what": "australiancar.reviews engine article; secondary summary of Lexus technical material (valvetrain, intake, exhaust)."
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BBLR%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3",
+      "what": "Japanese Wikipedia article on the LR engine; more mechanical detail than the English page, but unreferenced in places."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Toyota_LR_engine",
+      "what": "English Wikipedia Toyota LR engine page; used only for the 9,500 rpm fuel cut and the 6,800 rpm torque figure."
+    },
+    {
+      "url": "https://www.km77.com/coches/lexus/lfa/2010/coupe/informacion/lexus-lfa-motor-y-bastidor-informacion-tecnica",
+      "what": "km77 (Spanish car magazine) technical description of the LFA; exhaust valve behaviour."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression, 72-degree bank with five shared crank pins and even 72-degree firing, four valves per cylinder, ten individual throttles, equal-length exhaust manifolds into a dual exhaust, 9000 rpm maximum. The firing ORDER and cylinder numbering were not found: the order used (1-6-5-10-2-7-3-8-4-9, cylinders 1-5 on one bank) is assumed; any order that fires evenly with shared pins gives the same pulse spacing, and with equal-length pipes the choice does not change the modelled sound. Estimated, not sourced: rod length, valve diameters and lifts, cam timing and duration (dual variable timing on the real engine; one fixed timing is used), intake tract length and diameter, exhaust primary and pipe sizes, the cross-over between banks, idle speed. The surge tank the real throttles breathe from is not modelled: individual throttles open to the air here. Left to the simulator's defaults: collector volume, muffler, flywheel inertia. Also estimates: friction_scale, heat_q, burn_scale (the simulator's friction, heat-release and burn-rate scales), set with the other estimated fields so that simulated torque and power come near the published figures; no sourced number was changed.",
+  "in_valve_d": 0.0356,
+  "ex_valve_d": 0.028800000000000003,
+  "in_lift": 0.0119,
+  "ex_lift": 0.00965,
+  "friction_scale": 0.7,
+  "heat_q": 2700000.0,
+  "burn_scale": 0.85,
+  "vehicle": {
+    "name": "Lexus LFA (2011)",
+    "kind": "car",
+    "curb_kg": 1480,
+    "gear_count": 6,
+    "gears": [
+      3.231,
+      2.188,
+      1.609,
+      1.233,
+      0.97,
+      0.795
+    ],
+    "final_drive": 4.302,
+    "wheel_radius_m": 0.339,
+    "tyre": "305/30 ZR 20 (rear)",
+    "top_speed_kmh": 325,
+    "notes": "Six-speed ASG robotised transaxle. All figures from Lexus's 2011 owner's manual. The final drive is the product of the published front counter gear (1.259) and differential (3.417); the multiplication is ours, and it reproduces the manual's maximum speeds in each gear. Estimated: rolling radius from the tyre size.",
+    "driven": "rear"
+  }
+}

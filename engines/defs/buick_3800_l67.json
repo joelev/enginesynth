@@ -1,0 +1,179 @@
+{
+  "name": "buick_3800_l67",
+  "label": "Buick 3800 Series II L67 3.8 L V6, supercharged (Eaton M90)",
+  "generic": false,
+  "family": "V6",
+  "based_on": "GM 3800 Series II L67 supercharged V6 with the Generation III Eaton M90, 1998-2003 rating (Regal GS, Grand Prix GTP, Park Avenue Ultra, Bonneville SSEi)",
+  "layout": "v",
+  "bank_angle": 90,
+  "bore": 0.09652,
+  "stroke": 0.08636,
+  "rod": 0.15,
+  "cr": 8.5,
+  "firing": [
+    0,
+    600,
+    480,
+    360,
+    240,
+    120
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.0457,
+  "ex_valve_d": 0.0366,
+  "cam": {
+    "at_lift": 0.00203,
+    "ivo": -24,
+    "ivc": 26,
+    "evo": 31,
+    "evc": -19,
+    "in_lift": 0.01049,
+    "ex_lift": 0.01049
+  },
+  "runner_len": 0.21,
+  "plenum_vol": 0.002,
+  "primary_len": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "groups": [
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      5
+    ]
+  ],
+  "merge": "y",
+  "redline": 6000,
+  "idle": 650,
+  "friction_scale": 1.1,
+  "heat_q": 2200000,
+  "boost": {
+    "kind": "roots",
+    "induction": "supercharged (Eaton M90 Roots blower)",
+    "displacement": 0.0014748,
+    "drive_ratio": 1.895,
+    "rotors": 2,
+    "lobes": 3,
+    "helix": 60,
+    "throttle": "before",
+    "inlet_vol": 0.0005,
+    "drag": 0.94,
+    "boost_bar": 0.55,
+    "boost_rpm": 5200,
+    "bypass": {}
+  },
+  "published": {
+    "power_kw": 179,
+    "power_rpm": 5200,
+    "torque_nm": 380,
+    "torque_rpm": 3600
+  },
+  "sources": [
+    {
+      "url": "https://www.theautochannel.com/vehicles/new/1997info/presskits/buick/powrtrns.html",
+      "what": "GM's 1997 Buick powertrain press kit, reposted by The Auto Channel: L67 output, compression, bore and stroke, maximum engine speed."
+    },
+    {
+      "url": "https://theautochannel.com/vehicles/new/reviews/1998/solo9812.html",
+      "what": "1998 Buick Regal GS review with a specification box (240 hp at 5200, 280 lb-ft at 3600)."
+    },
+    {
+      "url": "https://theautochannel.com/vehicles/new/reviews/2001/solo0039.html",
+      "what": "2001 Buick Regal GS review with a specification box (same figures, 3791 cc)."
+    },
+    {
+      "url": "https://xlr-net.com/knowledgebase/print.php?id=62",
+      "what": "GM TechLink 'Supercharging Explained' reposted on an owners' site: rotors, upstream throttle, bypass valve, whine."
+    },
+    {
+      "url": "https://personalcare.manualsonline.com/manuals/mfg/buick/1999_park_avenue.html?p=270",
+      "what": "GM 1999 Buick Park Avenue owner's manual page on the supercharged engine's bypass."
+    },
+    {
+      "url": "https://3800wiki.com/engine_details/superchargers",
+      "what": "3800wiki (enthusiast): M90 generation, 3.8 in pulley, about 8 psi."
+    },
+    {
+      "url": "https://www.therangerstation.com/tech/eaton-m62-m90-m112-superchargers/",
+      "what": "Enthusiast page on Eaton M-series blowers: M90 displacement per revolution, generation history."
+    },
+    {
+      "url": "https://www.grandprixforums.com/general-tech-discussion/96680-what-is-the-diameter.html",
+      "what": "Forum thread: owner's measurement of the crank pulley and computed drive ratio (low confidence)."
+    },
+    {
+      "url": "https://3800wiki.com/performance/enginemods/valvetrain/camshafts",
+      "what": "3800wiki cam comparison table: stock L67 durations, lobe lift, LSA."
+    },
+    {
+      "url": "https://3800wiki.com/engine_details/engine_internals",
+      "what": "3800wiki: L67 rods and pistons compared with the L36."
+    },
+    {
+      "url": "https://3800wiki.com/engine_details/heads",
+      "what": "3800wiki: Series II intake valve size (1.80 in)."
+    },
+    {
+      "url": "https://3800wiki.com/engine_details/generalspecs",
+      "what": "3800wiki: L36 service manual transcription (layout, firing order), shared with the L67 by assumption."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "what": "Wikipedia, Buick V6 engine: split-pin crank; L67 Series II with Gen III M90, 3.8 in pulley, CR 8.5."
+    },
+    {
+      "url": "https://musclecarclub.com/ultimate-buick-3800-engine-guide/",
+      "what": "Enthusiast guide: supercharged 3800s had no factory intercooler."
+    },
+    {
+      "url": "https://patents.google.com/patent/US7997885B2/en",
+      "what": "Roots-type blower patent (CareFusion): pulses six times per revolution, alternating between two three-lobed rotors."
+    }
+  ],
+  "notes": "Supercharged (Eaton M90 Roots blower, throttle before it, bypass valve, no intercooler); see engines/research/buick_3800_l67.json. Sourced: bore, stroke, compression ratio 8.5, 6000 rpm maximum engine speed (used as the limiter) and 240 hp at 5200 / 280 lb-ft at 3600 (1998-2003 rating; GM's 1997 press kit gives the torque at 3200) from GM and review pages; one intake and one exhaust valve, 1.80 in intake valve (all Series II), cam durations 182/192 at 0.050 in, 0.258 in lobe lift and 115 degree lobe separation (enthusiast table); M90 displacement 90 cu in (1.4748 L) per revolution, two rotors of three lobes with a 60 degree twist (GM TechLink, generic to its Eaton units), 3.8 in blower pulley, throttle before the blower, a vacuum-operated bypass, no intercooler. From a forum measurement only: the crank pulley (7.16 to 7.25 in), so the drive ratio 1.895 is an inference. Boost: about 8 psi (enthusiast wiki, no rpm), used only as a check; the model gives 5.8 psi at 3600 rpm and 7.0 at 5200. Shared with the L36 by assumption: layout, split-pin crank, firing order 1-6-5-4-3-2, exhaust valve size, exhaust manifolds and pipes. Estimated, not sourced: rod length (the source says only that L67 rods are shorter than the L36's; the L36's 0.15 m estimate is kept), rocker ratio 1.6 (sets valve lift and the lift the durations apply at), cam centrelines (115 on both lobes), intake runner length (the M90 sits on the lower intake in the vee, so a runner runs from the blower outlet plenum just above the vee down to its port, 0.16 m across and about 0.11 m down plus 10% for bends: 0.21 m; the fit fell from 378 to 366 N m at 3,600 rpm and from 174 to 170 kW at 5,200, and was left there because heat_q is already at the bottom of its range; 0.30 m would fit 371 N m and 172 kW, and no runner length between 0.21 and 0.4 m is sourced), lower intake plenum (2 L; 1.2 to 3 L made no difference to the fit) and blower inlet (0.5 L) volumes, throttle diameter and everything else left to the derived defaults, idle 650, friction_scale 1.1 and heat_q 2.2e6 (tuned: heat_q is the one field moved to fit). Blower internals estimated (derived defaults in sim/src/spec.rs): port areas, clearance leakage (0.65 cm^2, so the blower's volumetric efficiency is about 0.9 at speed, in line with Wikipedia's 'above 90%' for Roots blowers), 3% carry-back through the mesh, mechanical efficiency 0.92, bypass valve size and its opening between -40 and -10 kPa manifold pressure; shaft drag 0.94 N m, set so that bypassed friction is GM TechLink's 'approximately one-half horsepower' at 2000 engine rpm (the article gives no speed). Not modelled: knock-limited spark retard (the spark follows burn duration as on every engine here), heating of the charge by the blower case, sound radiated by the blower housing, the balance shaft.",
+  "vehicle": {
+    "name": "Buick Regal GS (1998)",
+    "kind": "car",
+    "curb_kg": 1631,
+    "gear_count": 4,
+    "gears": [
+      2.921,
+      1.568,
+      1.0,
+      0.705
+    ],
+    "final_drive": 2.93,
+    "wheel_radius_m": 0.3382,
+    "tyre": "P225/60R16",
+    "top_speed_kmh": 174,
+    "notes": "Four-speed 4T65-E HD automatic (the only gearbox), modelled as fixed ratios with a clutch; torque-converter multiplication is not modelled. Gear ratios are the 4T65-E's published ratios (Wikipedia; a spec database for this car gives 2.92/1.57/1.00/0.71). Final drive 2.93 and tyre size are from a spec database for the 1998 Regal GS; curb weight and the 108 mph top speed are from a period review's specification box (the spec database gives 3,562 lb). The 108 mph figure is probably a governed limit (my inference). wheel_radius_m is my calculation from the tyre size (unloaded radius).",
+    "driven": "front"
+  }
+}

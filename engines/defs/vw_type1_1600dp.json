@@ -1,0 +1,166 @@
+{
+  "name": "vw_type1_1600dp",
+  "label": "Volkswagen Beetle 1600 dual-port air-cooled flat-four",
+  "based_on": "Volkswagen Type 1 1600 dual-port (1584 cc, European 50 PS, engine code AD/AS), Beetle 1302 S / 1303 S, 1970-1980",
+  "family": "flat",
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.0855,
+  "stroke": 0.069,
+  "rod": 0.137,
+  "cr": 7.5,
+  "firing": [
+    0.0,
+    540.0,
+    360.0,
+    180.0
+  ],
+  "bank": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "slot": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.035,
+  "ex_valve_d": 0.032,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 7.5,
+    "ivc": 37.0,
+    "evo": 44.5,
+    "evc": 4.0,
+    "in_lift": 0.00846,
+    "ex_lift": 0.00798
+  },
+  "itb": false,
+  "throttle_d": 0.034,
+  "runner_len": 0.3,
+  "runner_d": 0.033,
+  "plenum_vol": 0.0003,
+  "primary_len": [
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "primary_d": 0.032,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "collector_vol": 0.002,
+  "merge": "none",
+  "secondary_len": 0.05,
+  "secondary_d": 0.035,
+  "muffler_len": 0.0,
+  "tail_len": 0.28,
+  "tail_d": 0.027,
+  "redline": 5000.0,
+  "idle": 875.0,
+  "published": {
+    "power_kw": 37.0,
+    "power_rpm": 4000.0,
+    "torque_nm": 106.0,
+    "torque_rpm": 2800.0
+  },
+  "friction_scale": 1.2,
+  "heat_q": 2200000.0,
+  "burn_scale": 1.35,
+  "generic": false,
+  "sources": [
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1303-profile-19598",
+      "what": "Volkswagen Newsroom (Volkswagen Classic) engine-versions table for the Beetle 1303; manufacturer source for displacement, power and torque."
+    },
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1302-profile-19595",
+      "what": "Volkswagen Newsroom engine-versions table for the Beetle 1302/1302 S; same 1584 cc figures."
+    },
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-12001200l-profile-19586",
+      "what": "Volkswagen Newsroom engine-versions table for the 1200/1200L; lists a conflicting 103 Nm at 2,000 rpm for the 1600 (1973-1975)."
+    },
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-beetle-kaefer-1303-profile-19597",
+      "what": "Volkswagen Newsroom vehicle-data page for the 1303; engine type and position."
+    },
+    {
+      "url": "http://www.kfz-tech.de/Engl/Herstellerdaten/VW/VW_1970_1600_Karmann-Ghia_Coup%c3%a9.htm",
+      "what": "kfz-tech.de manufacturer-data sheet, 1970 VW 1600 Karmann-Ghia Coupe (same 37 kW 1584 cc engine): bore, stroke, compression, power, torque. Reference site, not a factory document."
+    },
+    {
+      "url": "https://www.coolairvw.co.uk/vw-info/beetle/engine-codes",
+      "what": "Cool Air VW (UK parts retailer) Beetle engine-code table: code letters, dates and HP."
+    },
+    {
+      "url": "https://www.thesamba.com/vw/archives/info/Engine_Blueprint_Specifications_Worksheet.pdf",
+      "what": "Engine Blueprint Specifications Worksheet PDF in TheSamba.com archives: firing order and valve lash for the Type 1 engine."
+    },
+    {
+      "url": "https://www.oocities.org/vwresource/muffler",
+      "what": "OoCities mirror of Rob and Dave's Aircooled Volkswagen Pages (vw-resource.com) muffler page: stock exhaust layout and cylinder numbering diagram. Long-standing enthusiast reference."
+    },
+    {
+      "url": "https://www.oocities.org/vwresource/jets",
+      "what": "OoCities mirror of Rob and Dave's carburettor jets page: 1971-1974 34 PICT-3 specification table."
+    },
+    {
+      "url": "https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html",
+      "what": "TheSamba.com forum archive thread: post listing stock cam timing at 1 mm lift for 1300-1600 engines, and compression-ratio change dates. Forum post, no factory citation."
+    },
+    {
+      "url": "https://thesamba.com/vw/forum/archive/index.php/o-t--t-289342--.html",
+      "what": "TheSamba.com forum archive thread on stock 1600 dual-port rod length. Forum."
+    },
+    {
+      "url": "https://www.webcamshafts.com/pages_vehicles/automobile/volkswagen/670.html",
+      "what": "Web Cam Inc. catalogue page for the VW Type 1; 'Stock' regrind row with valve lift and durations. Cam vendor."
+    },
+    {
+      "url": "https://www.jbugs.com/product/043101355UC.html",
+      "what": "JBugs listing for a new stock-type dual-port head; valve sizes. Parts vendor."
+    },
+    {
+      "url": "https://www.cip1.ca/c24-113-129-031-kc/",
+      "what": "CIP1 listing for a reproduction Solex 34 PICT-3; throttle bore and venturi. Parts vendor."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flat-four_engine",
+      "what": "Wikipedia Flat-four engine: general crank/firing-interval description."
+    },
+    {
+      "url": "https://www.oocities.org/vwresource/valve_adjust",
+      "what": "OoCities mirror of Rob and Dave's valve adjustment page: 0.006 in clearance recommendation for the 1600."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio 7.5, flat-four layout, firing order 1-4-3-2 with cylinders 1 and 2 on the right bank, even 180-degree firing, rod length 137 mm (forum), two valves per cylinder, valve diameters 35/32 mm (parts vendor), valve lift (cam vendor's stock regrind figures), valve timing at 1 mm lift (forum post), 34 mm throttle bore, four equal-length exhaust pipes into one muffler box, published power and torque (European 50 PS rating). Estimated, not sourced: redline (5000 rpm) and idle (875 rpm); intake manifold runner length (0.30 m) and diameter (33 mm), manifold volume, air cleaner; exhaust primary length (0.30 m) and diameter (32 mm), muffler box volume (4 L, modelled as the collector), tailpipe (the two peashooter tailpipes are one outlet of 27 mm); flywheel inertia; friction_scale 1.2, heat_q 2.2e6 and burn_scale 1.35, all three at or near the end of their allowed range. They are at the limit because the format cannot describe the carburettor's 26 mm venturi (sourced), which is the real restriction on this engine; without it the model made 51% too much power, and friction, heat release, a slow burn and a small tailpipe were used to bring it down.",
+  "vehicle": {
+    "name": "Volkswagen 1302 S (1972)",
+    "kind": "car",
+    "curb_kg": 870,
+    "gear_count": 4,
+    "gears": [
+      3.8,
+      2.06,
+      1.26,
+      0.89
+    ],
+    "final_drive": 4.125,
+    "tyre": "5.60-15",
+    "top_speed_kmh": 130,
+    "notes": "All figures are from Volkswagen's August 1971 instruction manual for the 1302 / 1302 S (1972 model year), four-speed manual gearbox. The manual does not define 'unladen weight'. wheel_radius_m omitted: no published rolling radius for the 5.60-15 tyre was found. A 2016 auto motor und sport test of a 1972 1302 LS gives fourth as 0.86.",
+    "driven": "rear"
+  }
+}

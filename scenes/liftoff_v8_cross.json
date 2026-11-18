@@ -1,0 +1,4 @@
+{"engine": "v8_cross", "mode": "drive", "duration": 16.0, "quality": "live96+W", "start_rpm": 2200, "tele_mode": "strobe",
+ "liftoff_pops": 1.0,
+ "drive": {"mass": 1650, "wheel_r": 0.33, "final_drive": 3.4, "gears": [3.0, 1.95, 1.4, 1.1, 0.9, 0.75], "shift_rpm": 6500, "shift_time": 0.18, "start_gear": 1},
+ "throttle": [[0, 0.15], [0.8, 0.15], [1.0, 1.0], [8.0, 1.0], [8.05, 0.0], [11.0, 0.0], [11.2, 1.0], [13.0, 1.0], [13.05, 0.0], [16, 0.0]]}

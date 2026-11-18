@@ -1,0 +1,193 @@
+{
+  "name": "maserati_f154_38tt",
+  "label": "Maserati 3.8 L twin-turbo V8 (F154 AM, Quattroporte GTS, cross-plane)",
+  "generic": false,
+  "family": "V8",
+  "based_on": "Maserati F154 AM 3.8 L twin-turbocharged V8, Quattroporte VI (M156) GTS, 2013-2016 (530 PS)",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.0865,
+  "stroke": 0.0808,
+  "rod": 0.145,
+  "cr": 9.5,
+  "firing": [
+    0,
+    630,
+    450,
+    180,
+    90,
+    360,
+    540,
+    270
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "primary_len": [
+    0.2,
+    0.115,
+    0.115,
+    0.2,
+    0.2,
+    0.115,
+    0.115,
+    0.2
+  ],
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "merge": "none",
+  "redline": 7200,
+  "idle": 700,
+  "boost": {
+    "kind": "turbo",
+    "induction": "twin-turbocharged (two parallel turbos, one per bank), twin intercooled",
+    "boost_bar": 0.9,
+    "intercooler": {},
+    "turbo": {
+      "count": 2,
+      "match_rpm": 3500,
+      "surge_ratio": 2.5,
+      "choke_ratio": 1.6,
+      "turbine_area": 0.00028,
+      "wg_d": 0.028,
+      "wg_crack_bar": 0.5,
+      "wg_span_bar": 0.4,
+      "boost_control": true,
+      "bov": "vent",
+      "whistle": 1.0,
+      "charge_pipes": [
+        [
+          0.8,
+          0.0508
+        ],
+        [
+          0.9,
+          0.0508
+        ]
+      ]
+    }
+  },
+  "published": {
+    "power_kw": 390,
+    "power_rpm": 6800,
+    "torque_nm": 650,
+    "torque_rpm": 2000
+  },
+  "mid_d": 0.06,
+  "tail_d": 0.06,
+  "muffler_d": 0.09,
+  "muffler_zeta": 0.3,
+  "sources": [
+    {
+      "url": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "what": "Supercars.net '2013 Maserati Quattroporte' (Editorial Team, undated, footer 2021). Text closely follows the January 2013 NAIAS launch material (quotes Maserati's Centro Stile head; spec table noted 'released at 2013 NAIAS'). Main source for turbos, intercoolers, cam phasers, injection, exhaust valves and power/torque. Not confirmed as a verbatim press release."
+    },
+    {
+      "url": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "what": "Autoblog.it 2013 Quattroporte test drive with full Italian spec table: bore, stroke, compression, wet sump, five main bearings, chain drive, 200 bar injection, 7200 rpm, overboost range. Cited by Wikipedia."
+    },
+    {
+      "url": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "what": "Maserati Quattroporte Owner's Manual, publication no. 910042611, 1st edition 05/2019 (third-party host of Maserati's PDF; covers 3.8 V8, 3.0 V6 and diesel). Technical data table, fuel requirement, drive-mode table (boost and exhaust sound per mode). Later GTS, not the 2013 car."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/article/april-2014/63/ferrari-takes-turbo-route/",
+      "what": "Motor Sport magazine, April 2014, on the Ferrari California T engine: Ferrari's flat-plane crank against Maserati's '90-degree crank', and 3855 cc against Maserati's 3799 cc."
+    },
+    {
+      "url": "https://api.goodwood.com/grr/columnists/andrew-frankel/thank-frankel-its-friday-two-cars-that-have-better-ferrari-v8s-than-any-ferrari2",
+      "what": "Goodwood Road & Racing, Andrew Frankel column, 13 April 2018: the Levante Trofeo's Ferrari-built V8 has a cross-plane crank (90 degrees between throws) and sounds like a traditional V8."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1648416/000119312515346154/d61094dex101.htm",
+      "what": "SEC filing, Ferrari N.V. F-1 Exhibit 10.1: Executive Supply Agreement between Ferrari S.p.A. and Maserati S.p.A. (10 December 2014), naming the M156 V8 'F154AM', start of production November 2012."
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10182587-9999.pdf",
+      "what": "Maserati Aftersales Diagnostic Sheet MAS002310 (BOL 20-11), 5 October 2020, 'Turbocharger anomalies', M157/M156/M161 gasoline engines (filed with NHTSA). Vacuum wastegates via wastegate modulator, boost measured upstream of the throttle valve, two MAF sensors and air boxes, catalytic converter V-clamped to the turbo."
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/tsbs/2025/MC-11021165-0001.pdf",
+      "what": "Maserati Diagnostic Sheet MAS004832, 31 July 2025, 'Misfire Warning Light on Single Bank', M156/M157/M161 V6 and V8 (filed with NHTSA). Misfire-code table giving V8 cylinders 1-4 on bank 1 and 5-8 on bank 2; V8 labour operations naming RH and LH intake manifolds and a central compensator."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ferrari_F154_engine",
+      "what": "Wikipedia, Ferrari F154 engine. Used as a lead: F154 AM code, ratings of later Maserati versions, the uncited cross-plane and wet-sump statement, IHI for the Ferrari version."
+    },
+    {
+      "url": "https://muchboost.com/product/m161-3-8-v8-hybrid-twin-turbo-upgrade-maserati-levante-gts-levante-trofeo-quattroporte-gts/",
+      "what": "MuchBoost (aftermarket turbo upgrader) product page: stock turbos 'based on the original IHI Turbochargers', factory numbers IHI 818255 / 818254, fitment includes Quattroporte GTS 530HP. Commercial source, not Maserati."
+    },
+    {
+      "url": "https://www.goauto.com.au/car-reviews/maserati/quattroporte/gts/2014-01-29/28360.html",
+      "what": "GoAuto review, Quattroporte GTS, 29 January 2014 (Daniel Gardner): sound description, 7000 rpm red line as observed by the reviewer."
+    },
+    {
+      "url": "https://carindia.in/maserati-quattroporte-gts-first-drive-review/2/",
+      "what": "Car India first drive, Quattroporte GTS 3.8 V8, 13 October 2017 (Jim Gorde): critical sound description."
+    },
+    {
+      "url": "https://www.autoscout24.at/informieren/testberichte/maserati/quattroporte/erster-test-maserati-quattroporte-gts/",
+      "what": "AutoScout24 Austria first test, Quattroporte GTS, 25 May 2013 (Thomas Weiss): Ferrari-built, peak power 6,500-6,800 rpm, sound."
+    }
+  ],
+  "notes": "Twin-turbocharged: two parallel turbos, one per bank, each with its own air-to-air intercooler; see engines/research/maserati_f154_38tt.json. Sourced: bore 86.5 and stroke 80.8 mm (3,799 cc), compression 9.5, 90-degree V8 with a cross-plane crank (Motor Sport, April 2014: Maserati's 'conventional V8 ... with its 90-degree crank' against the Ferrari California T's flat-plane version; Goodwood, 2018, on the same family in the Levante Trofeo), four valves per cylinder, the 7,200 rpm maximum engine speed, 390 kW (530 PS) at 6,800 rpm and 650 N m from 2,000 to 4,000 rpm (2013 launch figures; 710 N m on overboost from 2,250 to 3,500 rpm in Sport, not modelled), two parallel turbochargers, one per bank of four, with the turbine housings cast into the exhaust manifolds, two air-to-air intercoolers (one per turbo), wastegates worked by vacuum through a modulator under closed-loop control of the pressure ahead of the throttle (Maserati diagnostic sheet MAS002310, which covers the V6 and V8 together), two air filter boxes and two air-flow meters (same sheet), cylinders 1 to 4 on bank 1 and 5 to 8 on bank 2 (Maserati diagnostic sheet MAS004832). Assumed, not sourced: the firing order. None was found for the Maserati engine; 1-5-4-8-6-3-7-2, the usual cross-plane order for this bank numbering, is used. With equal primaries into one collector per bank, every cross-plane order gives each bank the same uneven 180-270-180-90 pattern, so the choice only relabels cylinders. Which side bank 1 sits on is not known (here it is the code's bank 1). Inferred: one throttle feeding both banks (the service sheet speaks of the throttle valve in the singular, for V6 and V8 together). Estimated, not sourced: rod 145 mm, valve diameters and lifts (derived defaults), a fixed cam with seat-to-seat events intake opening 10 before TDC and closing 40 after BDC, exhaust opening 45 before BDC and closing 8 after TDC (the real engine has continuously variable phasing on both cams, which the model cannot represent), intake runners 0.36 m, plenum, throttle, airboxes, exhaust primaries into one collector per bank, sized as the cast manifold's own runners (each turbo tight under its bank's ports at mid-bank, so a runner's length is its offset along the bank, 53 or 158 mm at a bore pitch of 1.22 bores, and a 0.09 m drop from port face to turbine flange, plus 10% for the bends: 0.115 m for the two middle cylinders of each bank and 0.20 m for the two end ones), idle 700 rpm, and the boost target of 0.9 bar gauge (no published boost figure was found, so the boost is an estimate). Turbochargers (IHI per an aftermarket supplier only; wheel sizes and maps not found), all estimated or fitted: compressor sized by the derivation rules for half the engine at 3,500 rpm (46.8 mm wheel), map width surge at 1/2.5 and choke at 1.6 times the design flow (at 1/2.0 the two compressors split at 1,500 rpm full throttle, one carrying 0.044 kg/s and the other 0.024 kg/s in surge: the static instability of parallel compressors near their surge line, not reported for this engine), turbine nozzle area 2.8 cm^2 per turbo (fitted so the 650 N m arrives by 2,000 rpm; 2.7 before the repackaging, raised so the power at 6,800 rpm stays within 3% with the shorter manifold; 2.9 matched the old 380 kW but left the boost at 1,800 rpm still swinging 5.5% in the curve check), wastegate 28 mm per turbo, actuator cracking at 0.5 bar and fully open 0.4 bar above that (a wide span so the ECU's loop, not the spring, holds the target; the model's actuator is boost-referenced with an ECU bleed, the real one vacuum-driven), electronic boost control on, inertia and bearing loss derived, intercoolers derived (effectiveness 0.7). Charge pipes (estimated from the packaging): 0.80 m from each compressor to its intercooler and 0.90 m from the intercooler to the throttle, 50.8 mm bore: the intercoolers sit low and wide of the radiators (sourced), taken as 0.55 m ahead of the engine's front face, about 0.75 m forward of the compressors, and the throttle at the front of the intake in the vee. Each bank's turbine is twin-scroll on the real engine; how the four cylinders pair onto the two scrolls was not found, so each turbine here has one entry fed by its bank's collector. Blow-off: routing not found (a reviewer hears 'a loud whoosh' as boost is 'vented'); default used, venting to the air, one valve per turbo; whistle stand-in at the default gain 1.0. Exhaust after each turbine (estimated, following the Audi RR's fix so the turbine outlets sit near 20 to 30 kPa at full power): 60 mm pipes, a 90 mm muffler and a muffler exit loss coefficient of 0.3 per bank, two separate outlets (the real car has a catalyst on each turbo outlet, pneumatic bypass valves in each bank's pipe and four tailpipes; whether the banks join was not found; the valves are not modelled). No knock-limited retard is set. The model holds one boost target at all speeds, so its torque plateau continues past 4,000 rpm (about 690 N m at 5,500) where the real engine's falls toward 548 N m at 6,800; the ECU's boost map by speed is not modelled.",
+  "ivo": 10,
+  "ivc": 40,
+  "evo": 45,
+  "evc": 8,
+  "runner_len": 0.36,
+  "vehicle": {
+    "name": "Maserati Quattroporte GTS (VI, 2013)",
+    "kind": "car",
+    "curb_kg": 1900,
+    "gear_count": 8,
+    "gears": [
+      4.71,
+      3.14,
+      2.11,
+      1.67,
+      1.28,
+      1.0,
+      0.84,
+      0.67
+    ],
+    "final_drive": 2.93,
+    "wheel_radius_m": 0.347,
+    "tyre": "285/35 ZR 20 (rear)",
+    "top_speed_kmh": 307,
+    "notes": "Eight-speed ZF automatic. Secondary sources (period test data, spec databases); Maserati's own pages refuse automated access. Final drive 2.93 is disputed (one database gives 4.10). Estimated: rolling radius from the tyre size.",
+    "driven": "rear"
+  }
+}

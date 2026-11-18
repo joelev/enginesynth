@@ -1,0 +1,150 @@
+{
+  "name": "citroen_2cv_602",
+  "label": "Citroën 2CV 6 602 cc air-cooled flat-twin (M 28/1, 29 ch DIN)",
+  "based_on": "Citroën flat-twin type M 28/1, plate A 06/635, 602 cc (74 x 70 mm, 8.5:1, 29 ch DIN at 5750 rpm, two-stage Solex 26/35 CSIC), 2CV 6 September 1978 to July 1990",
+  "family": "flat",
+  "generic": false,
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.074,
+  "stroke": 0.07,
+  "rod": 0.13,
+  "cr": 8.5,
+  "firing": [
+    0.0,
+    360.0
+  ],
+  "bank": [
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.04,
+  "ex_valve_d": 0.034,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 8,
+    "ivc": 49.25,
+    "evo": 50,
+    "evc": 8,
+    "in_lift": 0.0085,
+    "ex_lift": 0.0085
+  },
+  "itb": false,
+  "groups": [
+    [
+      0,
+      1
+    ]
+  ],
+  "merge": "none",
+  "throttle_d": 0.0319,
+  "runner_len": 0.35,
+  "runner_d": 0.032,
+  "plenum_vol": 0.0001,
+  "primary_len": [
+    0.85,
+    0.85
+  ],
+  "primary_d": 0.035,
+  "collector_vol": 0.0015,
+  "secondary_len": 2.0,
+  "secondary_d": 0.04,
+  "mid_len": 0.0,
+  "mid_d": 0.038,
+  "muffler_len": 0.4,
+  "muffler_d": 0.12,
+  "muffler_fric": 0.3,
+  "tail_len": 0.2,
+  "tail_d": 0.035,
+  "inertia": 0.06,
+  "redline": 6250.0,
+  "idle": 800.0,
+  "friction_scale": 1.2,
+  "heat_q": 2200000.0,
+  "burn_scale": 1.0,
+  "published": {
+    "power_kw": 21.3,
+    "power_rpm": 5750.0,
+    "torque_nm": 39.0,
+    "torque_rpm": 3500.0
+  },
+  "sources": [
+    {
+      "url": "https://infos-club.mehariclub.com/?p=3949",
+      "what": "Méhari Club Cassis (2CV and Méhari parts supplier and engine rebuilder, which runs one of the historic 2CV engine-renovation lines), article 'Evolution : depuis la 2 CV A jusqu'à la 2 CV 6, tous les moteurs bicylindres de 1949 à 1990', 25 May 2020: every engine type with dates, bore and stroke, compression and ratings. Club history, no factory document cited."
+    },
+    {
+      "url": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "what": "French Wikipedia, 'Moteur bicylindre boxer Citroën' (formerly 'Moteur de Citroën 2CV'), revision 241039053: construction (two-bearing built-up crankshaft, gear-driven central camshaft, pushrods, hemispherical heads), wasted-spark ignition, exhaust layouts and a table of every engine type. Its table cites no sources."
+    },
+    {
+      "url": "https://www.retro-design.fr/fr/content/11-fiche-technique-2cv4-2cv6",
+      "what": "Retro-Design, 'Fiche technique 2CV4 - 2CV6': engine table with type codes, plates, compression, DIN power and torque per period. Retailer, not a factory document."
+    },
+    {
+      "url": "https://www.autotitre.com/fiche-technique/Citro%C3%ABn/2CV/6/1979-1979",
+      "what": "Autotitre fiche technique, Citroën 2CV 6 1979: bore, stroke, compression, power and torque. Database, no source given."
+    },
+    {
+      "url": "https://www.kfz-tech.de/Engl/Hersteller/Citroen/Citroen2CVM.htm",
+      "what": "kfz-tech.de, 'Citroën 2 CV (engine)': description of the engine (central camshaft under the crank, pushrods, common intake tube with the carburettor in the middle, needle-bearing rods on a crankshaft supplied complete, large flywheel). Reference site."
+    },
+    {
+      "url": "https://a.storyblok.com/f/332646/x/b009300d92/citroen-2cv-a-modelle-kundendienst-werkstatt-de.pdf",
+      "what": "Citroën Kundendienst 'Technische Information' bulletins for the A-models (2CV, Dyane, Méhari, Ami), German-language factory service bulletins of the 1970s and 1980s bound in one scan: carburettor types and settings per engine (A 79/1, M 28/1, M 28), idle speeds."
+    },
+    {
+      "url": "https://citroenclassic.org.au/wordpress/wp-content/uploads/2025/07/2CV-Workshop-Revision-6.pdf",
+      "what": "Graeme Dennes, '2CV Workshop, Revision 6' (Citroën Classic Owners Club of Australia, 2025): ignition timing for the M 28/1 quoting Citroën's repair manual 8161, and a worked example using the M 28/1's inlet closing angle and approximate rod length. Club technical writer; the inlet closing figure's own source is not given."
+    },
+    {
+      "url": "http://cms.ice.be/files/76/multitool-en-f.pdf",
+      "what": "ICE (Belgian 2CV specialist), 'Multi-tool 2CV / Visa' instructions: camshaft timing check, quoting Citroën's recommended lobe centre of 108 degrees for a standard camshaft."
+    },
+    {
+      "url": "https://point-relais.mehariclub.com/?p=1563",
+      "what": "Méhari Club Cassis, 'Des arbres à cames neufs à nouveau disponibles' (11 September 2018): the 602 cc camshaft (shared by M 28 and M 28/1), its lobe lift and gear drive."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/page/july-1975/29",
+      "what": "Motor Sport magazine, July 1975, page 29, 'Citroen's Ugly Duckling, the 2CV6': period road test with the UK 2CV 6's rating."
+    },
+    {
+      "url": "https://www.mecatechnic.com/en-GB/p/inlet-valves-for-2cv-with-602cc-engine-02-1970-07-1990-per-pair_CV10741",
+      "what": "Mecatechnic (parts retailer), inlet valves for the 2CV 602 cc engine 02/1970 to 07/1990: head diameter. Vendor."
+    },
+    {
+      "url": "https://www.mecatechnic.com/en-GB/p/exhaust-valve-for-602cc-engine-for-2cv-and-derivatives-34x87-1x8-5mm_CV10744",
+      "what": "Mecatechnic, exhaust valve for the 602 cc engine, 34 x 87.1 x 8.5 mm, OEM 95536027: head diameter. Vendor."
+    },
+    {
+      "url": "https://www.mehariclub.com/en/1009100--under-gearbox-exhaust",
+      "what": "Méhari Club Cassis, under-gearbox exhaust crossbox for the second-generation 602 cc engine: what it joins and where the gases go next. Vendor."
+    }
+  ],
+  "notes": "Sourced: type M 28/1, plate A 06/635 (2CV 6, September 1978 to July 1990); bore 74 mm, stroke 70 mm, compression 8.5:1, rod about 130 mm (club writer's 'approx.' figure), valve heads 40 mm inlet and 34 mm exhaust (parts vendors), inlet closing 49.25 degrees after BDC (club writer, measuring lift and source not given; kept as given), two-stage Solex 26/35 CSIC, idle 800 rpm (club writer 800-850; factory bulletins 750 to 800 ± 50), 29 ch DIN (21.3 kW) at 5750 rpm, 39 N·m (4.0 m.kg) at 3500 rpm (Retro-Design, Autotitre; no factory torque figure found), exhaust through heat exchangers into a crossbox under the gearbox, then one outlet to a silencer and the rear of the car. Layout (sourced, French Wikipedia and Méhari Club Cassis): air-cooled boxer flat-twin, crankshaft with two throws at 180 degrees so both pistons reach top dead centre together and move in and out together, even firing every 360 degrees (wasted-spark ignition fires both plugs every turn; the cylinder on its exhaust stroke wastes its spark), one valve each side in hemispherical heads, central gear-driven camshaft with pushrods, one carburettor in the middle of a common intake tube. Not modelled: the wasted spark itself (the model fires only the cylinder on compression; the other spark has no effect on a real engine either), the carburettor venturi as a separate restriction, the fan, the heater ducting. Throttle diameter 31.9 mm is the area of the two venturis of the 26/35 CSIC (21 and 24 mm) as listed in a factory bulletin for the M 28 (Ami 8, Dyane 6), not for the A 06/635 itself; the two stages open in sequence on the real carburettor and together here. Estimated, not sourced: inlet opening and both exhaust events (8 degrees before TDC, 50 before BDC, 8 after TDC), valve lift 8.5 mm (the cam lobe lifts 6.237 mm; the rocker ratio is not known), intake tube length (0.35 m) and bore (32 mm), head and heat-exchanger pipe length (0.85 m, fitted) and bore (35 mm), crossbox volume (1.5 L, modelled as the collector), pipe to the rear silencer (2.0 m x 40 mm), silencer and tailpipe, flywheel inertia, redline 6250 rpm. friction_scale 1.2 and heat_q 2.2e6 are both at the ends of their allowed range; at default values the model made about 6% too much torque and 30% too much power. Simulated (live96): 40 N·m at 3500 rpm (+4%), 21.5 kW at 5750 rpm (+1%); simulated power still rises slightly, to 22.1 kW at 6250 rpm.",
+  "vehicle": {
+    "name": "Citroën 2CV6 Club (1980)",
+    "kind": "car",
+    "curb_kg": 600,
+    "gear_count": 4,
+    "gears": [
+      5.202,
+      2.656,
+      1.785,
+      1.315
+    ],
+    "final_drive": 4.125,
+    "wheel_radius_m": 0.2865,
+    "tyre": "125 SR 15",
+    "top_speed_kmh": 115,
+    "notes": "Gear ratios, final drive (8:33), kerb weight, tyre and rolling circumference are from Citroën's factory workshop manual (January 1983; gearbox table '2 CV 6: ab 2/1970'); Autocar's 1975 test of a 2CV 6 gives the same ratios. The factory kerb weight (600 kg from February 1970) is not split between the 2CV 4 and 2CV 6; Autocar weighed 601 kg with oil, water and half a tank. Top speed 115 km/h is French Wikipedia's figure for the 29 ch 602 cc car; no factory or road-test figure for the 1979-90 car was found (Autocar measured 111 km/h on the earlier engine).",
+    "driven": "front"
+  }
+}

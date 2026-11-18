@@ -1,0 +1,138 @@
+{
+  "name": "citroen_2cv_435",
+  "label": "Citroën 2CV 4 435 cc air-cooled flat-twin (24 ch DIN)",
+  "based_on": "Citroën flat-twin type A 79/1 (plate AYA 2), 435 cc (68.5 x 59 mm, 8.5:1, 24 ch DIN / 26 ch SAE at 6750 rpm), 2CV 4 1970-1979 (Dyane from 1968)",
+  "family": "flat",
+  "generic": false,
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.0685,
+  "stroke": 0.059,
+  "rod": 0.11,
+  "cr": 8.5,
+  "firing": [
+    0.0,
+    360.0
+  ],
+  "bank": [
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.039,
+  "ex_valve_d": 0.034,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 3,
+    "ivc": 49.25,
+    "evo": 50,
+    "evc": 3,
+    "in_lift": 0.0085,
+    "ex_lift": 0.0085
+  },
+  "itb": false,
+  "groups": [
+    [
+      0,
+      1
+    ]
+  ],
+  "merge": "none",
+  "throttle_d": 0.028,
+  "runner_len": 0.35,
+  "runner_d": 0.03,
+  "plenum_vol": 0.0001,
+  "primary_len": [
+    0.8,
+    0.8
+  ],
+  "primary_d": 0.035,
+  "collector_vol": 0.0015,
+  "secondary_len": 2.0,
+  "secondary_d": 0.04,
+  "mid_len": 0.0,
+  "mid_d": 0.035,
+  "muffler_len": 0.4,
+  "muffler_d": 0.12,
+  "muffler_fric": 0.3,
+  "tail_len": 0.2,
+  "tail_d": 0.035,
+  "inertia": 0.045,
+  "redline": 7000.0,
+  "idle": 800.0,
+  "friction_scale": 1.15,
+  "heat_q": 2200000.0,
+  "burn_scale": 1.0,
+  "published": {
+    "power_kw": 17.65,
+    "power_rpm": 6750.0,
+    "torque_nm": 28.0,
+    "torque_rpm": 4000.0
+  },
+  "sources": [
+    {
+      "url": "https://infos-club.mehariclub.com/?p=3949",
+      "what": "Méhari Club Cassis (2CV and Méhari parts supplier and engine rebuilder, which runs one of the historic 2CV engine-renovation lines), article 'Evolution : depuis la 2 CV A jusqu'à la 2 CV 6, tous les moteurs bicylindres de 1949 à 1990', 25 May 2020: every engine type with dates, bore and stroke, compression and ratings. Club history, no factory document cited."
+    },
+    {
+      "url": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "what": "French Wikipedia, 'Moteur bicylindre boxer Citroën' (formerly 'Moteur de Citroën 2CV'), revision 241039053: construction (two-bearing built-up crankshaft, gear-driven central camshaft, pushrods, hemispherical heads), wasted-spark ignition, exhaust layouts and a table of every engine type. Its table cites no sources."
+    },
+    {
+      "url": "https://www.retro-design.fr/fr/content/11-fiche-technique-2cv4-2cv6",
+      "what": "Retro-Design, 'Fiche technique 2CV4 - 2CV6': engine table with type codes, plates, compression, DIN power and torque per period. Retailer, not a factory document."
+    },
+    {
+      "url": "https://www.kfz-tech.de/Engl/Hersteller/Citroen/Citroen2CVM.htm",
+      "what": "kfz-tech.de, 'Citroën 2 CV (engine)': description of the engine (central camshaft under the crank, pushrods, common intake tube with the carburettor in the middle, needle-bearing rods on a crankshaft supplied complete, large flywheel). Reference site."
+    },
+    {
+      "url": "https://a.storyblok.com/f/332646/x/b009300d92/citroen-2cv-a-modelle-kundendienst-werkstatt-de.pdf",
+      "what": "Citroën Kundendienst 'Technische Information' bulletins for the A-models (2CV, Dyane, Méhari, Ami), German-language factory service bulletins of the 1970s and 1980s bound in one scan: carburettor types and settings per engine (A 79/1, M 28/1, M 28), idle speeds."
+    },
+    {
+      "url": "http://cms.ice.be/files/76/multitool-en-f.pdf",
+      "what": "ICE (Belgian 2CV specialist), 'Multi-tool 2CV / Visa' instructions: camshaft timing check, quoting Citroën's recommended lobe centre of 108 degrees for a standard camshaft."
+    },
+    {
+      "url": "https://www.mehariclub.com/en/1012811--inlet-valve-435cc/",
+      "what": "Méhari Club Cassis, inlet valve 435 cc: head 39 mm, stem 8 mm, length 89.5 mm. Vendor."
+    },
+    {
+      "url": "https://www.mehariclub.com/en/1012812--exhaust-valve-435cc-or-602cc/",
+      "what": "Méhari Club Cassis, exhaust valve 435 cc or 602 cc: 34 mm. Vendor."
+    },
+    {
+      "url": "https://www.mehariclub.com/en/1009100--under-gearbox-exhaust",
+      "what": "Méhari Club Cassis, under-gearbox exhaust crossbox for the second-generation 602 cc engine: what it joins and where the gases go next. Vendor."
+    },
+    {
+      "url": "https://www.mehariclub.com/en/2cv/engine/exhaust/?page=1",
+      "what": "Méhari Club Cassis exhaust parts list: clamp for the secondary exhaust pipe 2CV 01/1950 to 07/1972, 32 mm. Vendor."
+    }
+  ],
+  "notes": "Sourced: type A 79/1 (plate AYA 2), a development of the 425 type A 79/0; bore 68.5 mm, stroke 59 mm, compression 8.5:1, valve heads 39 mm inlet and 34 mm exhaust (parts vendors), Solex 34 PICS with a 28 mm venturi (factory service bulletin; the venturi is used as the throttle diameter), idle 800 rpm (bulletin, 800 ± 50), 24 ch DIN (17.65 kW) at 6750 rpm (Méhari Club Cassis, Retro-Design), 28 N·m at 4000 rpm (Retro-Design only), exhaust pipes through heat exchangers into a crossbox under the gearbox, then one pipe to a rear silencer. Layout (sourced, French Wikipedia and Méhari Club Cassis): air-cooled boxer flat-twin, crankshaft with two throws at 180 degrees so both pistons reach top dead centre together and move in and out together, even firing every 360 degrees (wasted-spark ignition fires both plugs every turn; the cylinder on its exhaust stroke wastes its spark), one valve each side in hemispherical heads, central gear-driven camshaft with pushrods, one carburettor in the middle of a common intake tube. Not modelled: the wasted spark itself (the model fires only the cylinder on compression; the other spark has no effect on a real engine either), the carburettor venturi as a separate restriction, the fan, the heater ducting. Estimated, not sourced: rod length (110 mm), cam timing and lift (borrowed the 602's estimate: inlet closing 49.25 degrees after BDC from a club writer, the other events and the 8.5 mm lift guessed), intake tube length (0.35 m) and bore (30 mm), head and heat-exchanger pipe length (0.80 m, fitted: it places the torque peak at 4000 rpm) and bore (35 mm), crossbox volume (1.5 L, modelled as the collector), pipe to the rear silencer (2.0 m x 40 mm), silencer and tailpipe, flywheel inertia, redline 7000 rpm. friction_scale 1.15 and heat_q 2.2e6 (heat release at the bottom of its range). The simulated torque peak at 4000 rpm is a pipe resonance (about 24 N·m at 3000 rpm and 27 at 5000); the real curve's shape is not published. Simulated (live96): 29 N·m at 4000 rpm (+5%), 18.0 kW at 6750 rpm (+2%).",
+  "vehicle": {
+    "name": "Citroën 2CV 4 (1975)",
+    "kind": "car",
+    "curb_kg": 600,
+    "gear_count": 4,
+    "gears": [
+      6.961,
+      3.553,
+      2.133,
+      1.473
+    ],
+    "final_drive": 4.125,
+    "wheel_radius_m": 0.2865,
+    "tyre": "125 SR 15",
+    "top_speed_kmh": 102,
+    "notes": "Gear ratios, final drive (8:33), kerb weight, tyre and rolling circumference are from Citroën's factory workshop manual (gearbox table '2 CV 4: 2/1970 - 9/1979'); a 1984 Citroën homologation report gives the same ratios. The factory kerb weight (600 kg from February 1970) is not split between the 2CV 4 and 2CV 6; citroenet gives 560 kg. Top speed is citroenet's 1970 figure.",
+    "driven": "front"
+  }
+}

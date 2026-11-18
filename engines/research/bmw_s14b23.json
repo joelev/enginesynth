@@ -1,0 +1,377 @@
+{
+  "id": "bmw_s14b23",
+  "name": "BMW S14B23 2.3 L 16-valve inline-four with catalytic converter (E30 M3, 195 PS, 1986-1989)",
+  "induction": "naturally aspirated",
+  "summary": "A short-stroke (93.4 x 84 mm) 2.3 L four on the M10 iron block with a four-valve twin-cam head (Wikipedia: 'essentially a shortened BMW S38 cylinder head'), breathing through individual throttles: two throttle bodies, each with two butterflies, one butterfly per cylinder. With the even 1-3-4-2 order the exhaust carries one pulse every 180 degrees; each intake runner sees its own cylinder only, so the intake sound is four separate trumpets rather than a plenum.",
+  "fields": {
+    "variant": {
+      "value": "S14B23 with catalytic converter ('mit Kat.'), 2302 cc, 10.5:1, 143 kW / 195 PS at 6750 rpm, 230 N m at 4750 rpm, E30 M3 1986-1989",
+      "unit": null,
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "note": "Chosen because two BMW documents agree on every figure for it: the BMW repair-manual technical data (TIS, reproduced at workshop-manuals.com) and BMW's own dealer brochure 'BMW Praxis' of 9/86 (scanned at s14.ctmnet.de, page 13: 'mit Kat. ... 143/195 6750 ... 230 4750 ... 10,5/bleifrei Super'). For the version without catalyst the two disagree: the brochure gives 147 kW / 200 PS at 6750 rpm and 240 N m at 4750, the TIS 147 kW at 6900 rpm and 245 N m at 4750. The TIS also gives a permitted maximum speed (7250 rpm) for the catalyst version only. Years 1986-1989 for the 143 kW rating are from Wikipedia's version table (https://en.wikipedia.org/wiki/BMW_S14). Not modelled: the 147 kW non-catalyst engine, the 158 kW 1989-1991 catalyst engine, the 162 kW Evolution (11.0:1, TIS 'E 2' page https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/2_td__engine_in_general_s14_m3_e_2/) and the 2.5 L S14B25."
+    },
+    "cylinders": {
+      "value": 4,
+      "unit": "count",
+      "source": "http://www.s14.ctmnet.de/0067/0067_13.htm",
+      "note": "Brochure: 'Zylinder/Arbeitsverfahren/Gemischaufbereitung 4-4V/Otto/Motronic'."
+    },
+    "layout": {
+      "value": "inline",
+      "unit": null,
+      "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST501%20New%20Engine%20Technology%20%28Archive%201%29/02_Engine%20Diagnosis.pdf",
+      "note": "BMW training document draws the S14 as an in-line four, cylinder 1 at the front of the vehicle."
+    },
+    "bore_mm": {
+      "value": 93.4,
+      "unit": "mm",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "note": "TIS: 'Bore mm 93.4'. Brochure: 'Hub/Bohrung mm 84/93,4'."
+    },
+    "stroke_mm": {
+      "value": 84.0,
+      "unit": "mm",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "note": "TIS: 'Stroke mm 84.0'; crankshaft page: 'Crankshaft throw mm 84 +0.1' (https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/21__crankshaft_with_bearing/5_td__crankshaft_and_bearings_s14_m3/)."
+    },
+    "displacement_cc": {
+      "value": 2302,
+      "unit": "cc",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "note": "TIS: 'Effective displacement cm3 2302'. Bore and stroke give 2302.1 cc (my calculation)."
+    },
+    "rod_length_mm": {
+      "value": 144.0,
+      "unit": "mm",
+      "source": "http://www.s14.ctmnet.de/0067/0067_11.htm",
+      "note": "BMW Praxis brochure 9/86, crankshaft caption: 'Die neue geschmiedete Kurbelwelle mit acht Gegengewichten ist fünffach gelagert und hat einen Hub von 84 mm. Die Pleuellänge zwischen den beiden Augen beträgt 144 mm.' (read from the scanned page image). Aftermarket replacement rods are also sold at 144 mm (https://store.langracing.com/products/carrillo-s14-connecting-rod-144mm-set-of-4)."
+    },
+    "compression_ratio": {
+      "value": 10.5,
+      "unit": ":1",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "note": "TIS: 'Compression ratio :1 10.5' (one value for both versions). Brochure: '10,5/bleifrei Super' with catalyst."
+    },
+    "firing_order": {
+      "value": "1-3-4-2",
+      "unit": null,
+      "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST501%20New%20Engine%20Technology%20%28Archive%201%29/02_Engine%20Diagnosis.pdf",
+      "note": "BMW of North America training module 'Engine Diagnosis' (ST501, 2005/2006), 'Cylinder Arrangement and Firing Order': 'M10, M42, M44, S14 Firing Order 1-3-4-2', diagram numbering cylinders 1 to 4 from the front of the vehicle. Single bank. motor-car.net's service-specification table for the 'BMW M3 3 Series (E30) S14B23 2.3L' also gives 'Firing order 1-3-4-2' (https://www.motor-car.net/bmw-engines/item/16083-s14-engine)."
+    },
+    "crank": {
+      "value": "forged, five main bearings, eight counterweights; flat-plane four-throw (assumed)",
+      "unit": null,
+      "source": "http://www.s14.ctmnet.de/0067/0067_11.htm",
+      "note": "Brochure: 'geschmiedete Kurbelwelle mit acht Gegengewichten ist fünffach gelagert'. The flat-plane pin layout is not stated; it is the only one that gives 1-3-4-2 with even firing and is assumed."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "unit": "crank deg",
+      "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST501%20New%20Engine%20Technology%20%28Archive%201%29/02_Engine%20Diagnosis.pdf",
+      "note": "Derived (my reasoning) from the order on a flat-plane four."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "http://www.s14.ctmnet.de/0067/0067_13.htm",
+      "note": "Brochure '4-4V'; twin overhead camshafts driven by a duplex roller chain (page 12 of the same brochure, 'zwei obenliegende Nockenwellen, die von einer Doppelrollenkette angetrieben werden')."
+    },
+    "intake_valve_dia_mm": {
+      "value": 37.0,
+      "unit": "mm",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/34__valves_with_springs/1_td__valves_with_springs_s14/",
+      "note": "TIS valves page: 'Plate Ø (dimension \"T\") Intake mm 37 -0.1'. Valve seat outer diameter intake 36.6 mm (https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/12__cylinder_head_with_cover/4_td__cylinder_head_with_valve_seat_cover_s14/). motor-car.net (enthusiast history page, https://www.motor-car.net/bmw-engines/item/16083-s14-engine) says 'The inlet valve bore of the adopted cylinder head increases to 37.5 mm and inclines 18°' and gives 32 mm exhaust valves at 20°; its 37.5 mm is described as a bore, not a valve head, and the BMW TIS figure (37 mm) is used."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 32.0,
+      "unit": "mm",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/34__valves_with_springs/1_td__valves_with_springs_s14/",
+      "note": "TIS: 'Exhaust mm 32 -0.1'. Valve seat outer diameter exhaust 31.4 mm."
+    },
+    "intake_lift_mm": {
+      "value": 10.7,
+      "unit": "mm",
+      "source": "https://www.turnermotorsport.com/BMW-E30-M3/c-41-bmw-camshafts",
+      "note": "WEAK: a search-engine excerpt of Turner Motorsport's camshaft listing, describing a Schrick cam: 'The intake cam is 284 degree (stock is 246) with 11.5mm lift (stock is 10.7)'. The page itself returns 403 to automated reading and was not opened. No BMW figure found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_duration_deg": {
+      "value": 246,
+      "unit": "deg",
+      "source": "https://www.turnermotorsport.com/BMW-E30-M3/c-41-bmw-camshafts",
+      "note": "WEAK: same excerpt, 'stock is 246'. The measuring lift is not stated."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "ivo_btdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "No BMW valve timing found. The TIS technical-data pages for the camshaft give bearing dimensions only."
+    },
+    "ivc_abdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "evo_bbdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "evc_atdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "tappets": {
+      "value": "mechanical bucket tappets, 37.5 mm bores, valve clearance 0.26-0.35 mm cold",
+      "unit": null,
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/12__cylinder_head_with_cover/5_td__cylinderhead_with_cover_timing_case_s14/",
+      "note": "TIS: 'Bucket tappets Bore Ø mm 37.5'; valve clearance from the valves page."
+    },
+    "redline_rpm": {
+      "value": 7250,
+      "unit": "rpm",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "note": "TIS: 'Perm. top speed with catalytic converter rpm 7250' (used as the limiter). The same page gives 'Perm. continuous rating ... rpm 6900' for both versions. The brochure says the engine has reserves to '7000 Touren'. The tachometer red-line marking was not found."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found for the M3. An enthusiast specification page for the S14B20 (320iS, the 2.0 L sister engine) gives 'Idle speed (RPM) 880 (+/- 50)' (https://www.bmwe21.net/?p=173); used only as an estimate."
+    },
+    "peak_power_kw": {
+      "value": 143,
+      "unit": "kW",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "note": "TIS: 'Power with catalytic converter kW at rpm 143/6750'. Brochure: '143/195 6750' (kW/PS). Rating standard not stated in either; 1986 German practice was DIN 70020 (my inference)."
+    },
+    "peak_power_rpm": {
+      "value": 6750,
+      "unit": "rpm",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/"
+    },
+    "peak_torque_nm": {
+      "value": 230,
+      "unit": "Nm",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "note": "TIS: 'Max. torque with catalytic converter Nm rpm 230/4750'. Brochure: '230 4750'."
+    },
+    "peak_torque_rpm": {
+      "value": 4750,
+      "unit": "rpm",
+      "source": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/"
+    },
+    "intake_type": {
+      "value": "individual throttles: two throttle bodies, each with two butterflies (one per cylinder), fed from an air-flow meter",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/BMW_S14",
+      "note": "Wikipedia, citing the BMW M Registry FAQ: 'Two separate throttle bodies are used, each incorporating two throttle butterfly plates.' Motronic with an air-flow meter: the bmwe21.net 320iS page lists the air flow meter '0280203028 / 13 62 1 307 486 Same as M3' (https://www.bmwe21.net/?p=173). The airbox volume and runner lengths were not found."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found: no source opened describes the production exhaust manifold (4-into-1 or 4-2-1) or its pipe sizes. Searches returned only aftermarket headers."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "Catalytic converter version ('schadstoffarm' emissions class in the brochure); runs on unleaded Super.",
+      "unit": null,
+      "source": "http://www.s14.ctmnet.de/0067/0067_13.htm"
+    }
+  },
+  "missing": [
+    "BMW valve timing and cam lift (only a weak retailer excerpt for the intake cam: 246 deg, 10.7 mm)",
+    "exhaust cam data",
+    "idle speed for the M3 (the 320iS S14B20 figure, 880 rpm, is used as an estimate)",
+    "intake runner length and diameter, throttle diameter, airbox volume",
+    "exhaust manifold layout, primary and pipe lengths and diameters",
+    "tachometer red-line marking",
+    "the rating standard of the power figures"
+  ],
+  "sources": [
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "what": "BMW AG TIS repair-manual technical data, 'Engine In General, S14, M3' (issue status 12/2007), reproduced at workshop-manuals.com: bore, stroke, displacement, compression, power and torque with and without catalyst, permitted speeds. Manufacturer data on a third-party site."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/2_td__engine_in_general_s14_m3_e_2/",
+      "what": "Same TIS, 'Engine in General S14 / M3 E 2' (Evolution): 11.0:1, 162 kW at 6750, 245 N m at 4750. Used only to rule out that variant."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/34__valves_with_springs/1_td__valves_with_springs_s14/",
+      "what": "Same TIS, 'Valves with Springs, S14': valve head diameters 37 and 32 mm, valve clearance."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/12__cylinder_head_with_cover/4_td__cylinder_head_with_valve_seat_cover_s14/",
+      "what": "Same TIS, 'Cylinder Head With Valve Seat Cover, S14': seat outer diameters 36.6 and 31.4 mm."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/12__cylinder_head_with_cover/5_td__cylinderhead_with_cover_timing_case_s14/",
+      "what": "Same TIS, 'Cylinderhead with cover timing case S14': 37.5 mm bucket tappet bores."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/21__crankshaft_with_bearing/5_td__crankshaft_and_bearings_s14_m3/",
+      "what": "Same TIS, 'Crankshaft and Bearings S14 / M3': crankshaft throw 84 mm."
+    },
+    {
+      "url": "http://www.s14.ctmnet.de/0067/0067_11.htm",
+      "what": "BMW dealer brochure 'BMW Praxis: Vom Rennsport für die Serie: M3', Stand 9/86, scanned page 11 of 32 (image http://www.s14.ctmnet.de/0067/11.jpg): forged five-bearing crank, 84 mm stroke, 144 mm rod length. Manufacturer document on an enthusiast archive; read from the image."
+    },
+    {
+      "url": "http://www.s14.ctmnet.de/0067/0067_13.htm",
+      "what": "Same brochure, page 13 (image http://www.s14.ctmnet.de/0067/13.jpg): table 'Für Kenner: die Daten des M3-Motors' with and without catalyst."
+    },
+    {
+      "url": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST501%20New%20Engine%20Technology%20%28Archive%201%29/02_Engine%20Diagnosis.pdf",
+      "what": "BMW of North America technical training, ST501 'Engine Diagnosis' (print 03/05, revised 03/06), on the Internet Archive: S14 firing order 1-3-4-2, cylinder 1 at the front."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BMW_S14",
+      "what": "Wikipedia BMW S14: version table and years; two throttle bodies with two butterflies each (cites the BMW M Registry)."
+    },
+    {
+      "url": "https://www.turnermotorsport.com/BMW-E30-M3/c-41-bmw-camshafts",
+      "what": "Turner Motorsport camshaft listing for the E30 M3; read only as a search-engine excerpt ('stock is 246', 'stock is 10.7'); the page returns 403. Weak."
+    },
+    {
+      "url": "https://www.bmwe21.net/?p=173",
+      "what": "bmwe21.net 320iS (S14B20) specification page: idle 880 +/- 50 rpm for the 2.0 L sister engine; air-flow meter shared with the M3. Enthusiast page."
+    },
+    {
+      "url": "https://store.langracing.com/products/carrillo-s14-connecting-rod-144mm-set-of-4",
+      "what": "Lang Racing: Carrillo S14 connecting rod, 144 mm. Aftermarket; corroborates the brochure's rod length."
+    },
+    {
+      "url": "https://www.motor-car.net/bmw-engines/item/16083-s14-engine",
+      "what": "motor-car.net S14 page: history text (37.5 mm inlet valve bore at 18 deg, 32 mm exhaust valves at 20 deg) and a service-specification table for the S14B23 (10.5:1, Motronic ML3.1, firing order 1-3-4-2). Enthusiast site; corroboration only."
+    }
+  ],
+  "vehicle": {
+    "name": "BMW M3 (E30) with catalytic converter (Europe, 1987)",
+    "fields": {
+      "curb_kg": {
+        "value": 1200,
+        "unit": "kg",
+        "source": "http://www.s14.ctmnet.de/0067/0067_20.htm",
+        "note": "Table 'die technischen Daten auf einen Blick', catalyst column: 'Leergewicht 1200 kg'. Standard not printed."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "http://www.s14.ctmnet.de/0067/0067_21.htm",
+        "note": "'5-Gang-Sportgetriebe'."
+      },
+      "gears": {
+        "value": [
+          3.72,
+          2.4,
+          1.77,
+          1.26,
+          1.0
+        ],
+        "source": "http://www.s14.ctmnet.de/0067/0067_21.htm",
+        "note": "'Seriengetriebeübersetzung I/II/III 3,72:1/2,40:1/1,77:1; IV/V/R 1,26:1/1,00:1/4,23:1'. auto motor und sport test data for a 195 PS car built 04/1988 (https://www.auto-motor-und-sport.de/test/bmw-m3-e30/technische-daten/) agree: 'Übersetzungen I. 3,72 II. 2,40 III. 1,77 IV. 1,26 V. 1,00 R. 4,23'."
+      },
+      "final_drive": {
+        "value": 3.25,
+        "source": "http://www.s14.ctmnet.de/0067/0067_21.htm",
+        "note": "'Hinterachsübersetzung, Sportgetriebe 3,25:1'. auto motor und sport: 'Achsantrieb 3,25:1'. US cars: 4.10 per E30 Zone wiki (https://www.e30zone.net/e30wiki/index.php?title=M3), community source."
+      },
+      "wheel_radius_m": {
+        "value": 0.3033,
+        "unit": "m",
+        "source": "http://www.s14.ctmnet.de/0067/0067_21.htm",
+        "note": "Calculated by me from the tyre size 205/55 VR15 (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "205/55 VR15",
+        "source": "http://www.s14.ctmnet.de/0067/0067_21.htm",
+        "note": "'Reifendimension 205/55 VR 15; Raddimension 7 J x 15; Material Alu-Guß'. Same front and rear (auto motor und sport: '205/55 R 15 V / 205/55 R 15 V')."
+      },
+      "top_speed_kmh": {
+        "value": 230,
+        "unit": "km/h",
+        "source": "http://www.s14.ctmnet.de/0067/0067_21.htm",
+        "note": "'Höchstgeschwindigkeit 230 km/h' with catalyst (235 km/h without)."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/BMW_M3",
+        "note": "English Wikipedia, 'BMW M3' (read 2026-11-17), infobox layout: Front-engine, rear-wheel-drive (all-wheel drive only from 2021)."
+      }
+    },
+    "missing": [
+      "weighing standard"
+    ],
+    "sources": [
+      {
+        "url": "http://www.s14.ctmnet.de/0067/0067_20.htm",
+        "what": "BMW dealer presentation 'M3 Vorstellung von 1986' (BMW Praxis, Stand 9/86, internal use), scanned page 20 (image http://www.s14.ctmnet.de/0067/20.jpg): dimensions, weight and engine, catalyst column (143 kW/195 PS)."
+      },
+      {
+        "url": "http://www.s14.ctmnet.de/0067/0067_21.htm",
+        "what": "Same document, page 21 (image http://www.s14.ctmnet.de/0067/21.jpg): gearbox ratios, final drive, performance, wheels and tyres."
+      },
+      {
+        "url": "https://www.auto-motor-und-sport.de/test/bmw-m3-e30/technische-daten/",
+        "what": "auto motor und sport technical data for a tested E30 M3 (195 PS, built 04/1988 to 08/1989): ratios, final drive and tyres. Cross-check."
+      }
+    ]
+  }
+}

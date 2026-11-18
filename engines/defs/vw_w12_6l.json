@@ -1,0 +1,152 @@
+{
+  "name": "vw_w12_6l",
+  "label": "Volkswagen / Audi 6.0 L W12 (A8 L, naturally aspirated)",
+  "layout": "w",
+  "bank_dirs": [
+    -43.5,
+    -28.5,
+    28.5,
+    43.5
+  ],
+  "bore": 0.084,
+  "stroke": 0.09016800000000001,
+  "rod": 0.164,
+  "cr": 11.0,
+  "firing": [
+    0.0,
+    480.0,
+    240.0,
+    600.0,
+    120.0,
+    360.0,
+    420.0,
+    180.0,
+    660.0,
+    300.0,
+    540.0,
+    60.0
+  ],
+  "bank": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    3,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": -8.0,
+    "ivc": 38.0,
+    "evo": 33.0,
+    "evc": 2.0,
+    "in_lift": 0.01,
+    "ex_lift": 0.01
+  },
+  "itb": false,
+  "runner_len": 0.4,
+  "runner_d": 0.04,
+  "primary_len": [
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "primary_d": 0.038,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 1.2,
+  "secondary_d": 0.06,
+  "tail_d": 0.06,
+  "redline": 6500.0,
+  "idle": 560.0,
+  "generic": false,
+  "family": "W",
+  "based_on": "Volkswagen Group 6.0 L W12, Audi A8 L W12 code BSB (2004 on)",
+  "published": {
+    "power_kw": 335,
+    "power_rpm": 6200,
+    "torque_nm": 580,
+    "torque_rpm": 4000
+  },
+  "sources": [
+    {
+      "url": "https://mofler.com/uploads/attachments/monthly_2019_12/Audi%206.0L%20W12%20Engine%20in%20the%20Audi%20A8L.pdfd33ec6d41e247e3a9b5f5483d7e68b1a",
+      "what": "Audi of America self-study programme 921403, 'The 6.0L W12 Engine in the Audi A8L' (2004), on an enthusiast file host. Manufacturer training document: technical data, crank drawing, valve timing table."
+    },
+    {
+      "url": "https://www.thedrive.com/uploads/2023/08/02/SSP_248.pdf",
+      "what": "Volkswagen self-study programme 248, 'The W engine concept' (W8 and W12), hosted by The Drive. Manufacturer training document: specifications table, split-pin rule, intake and exhaust layout."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines",
+      "what": "English Wikipedia list of Volkswagen Group petrol engines, WR12 section; used for the disagreeing stroke, compression and power figures."
+    }
+  ],
+  "notes": "Sourced (Audi and Volkswagen self-study programmes): bore, stroke (90.168 mm, VW's figure; Audi prints 90.27), 11.0:1 compression, four rows of three cylinders (15 degrees between the rows of a bank, 72 degrees between banks), firing order 1-12-5-8-3-10-6-7-2-11-4-9 with cylinders 1-6 in bank 1 and 7-12 in bank 2, even 60-degree firing on six crank pins each split by 12 degrees (engsim pins shows each pair 12 degrees apart), four valves per cylinder, valve timing at 1 mm lift, 560 rpm idle, plenum intake, exhaust layout. Valve timing: both cams are continuously variable (intake over 52 crank degrees, exhaust over 22) and the simulator has one fixed timing, so one position inside the sourced range is used: intake 35 degrees back from fully advanced (opens 8 degrees after TDC, closes 38 after BDC at 1 mm), exhaust fully retarded (opens 33 before BDC, closes 2 after TDC at 1 mm). The durations at 1 mm are the sourced ones for the odd-numbered cylinders; where on the range the cams sit is an estimate and was tuned. Not expressible in this format, so left out: the cylinders are offset 12.5 mm from the crank axis and the even-numbered cylinders have 5 degrees different intake-closing and exhaust-opening timing to compensate (the odd cylinders' timing is used for all twelve; because the offset is missing, the crank-pin angles implied for the even rows are 15 degrees away from the real crank's evenly spaced 120 degrees); two plenums with a throttle each (one plenum and throttle here); each row's 3-into-1 manifold joining its bank's other manifold downstream (entered as one 6-into-1 per bank, two separate outlets, which keeps each tailpipe's pulse spacing right). Estimated, not sourced: rod length, peak valve lift (10 mm), valve diameters (defaults), which row of each bank is the inner one (odd cylinders assumed inner), runner and throttle sizes, all exhaust pipe sizes, rev limit. Left to the simulator's defaults: valve diameters, plenum, throttle and airbox, collector volume, muffler, flywheel inertia. The estimated fields were set so that simulated torque and power come near the published figures; no sourced number was changed.",
+  "vehicle": {
+    "name": "Audi A8 L W12 quattro (D3, 2005)",
+    "kind": "car",
+    "curb_kg": 2145,
+    "gear_count": 6,
+    "gears": [
+      4.171,
+      2.34,
+      1.521,
+      1.143,
+      0.867,
+      0.691
+    ],
+    "final_drive": 3.317,
+    "wheel_radius_m": 0.336,
+    "tyre": "255/40 R 19 (all four; four-wheel drive)",
+    "top_speed_kmh": 209,
+    "notes": "Six-speed Tiptronic automatic. All figures from Audi of America's 2005 technical specification sheet (US curb weight). The top speed is the US electronic limit (130 mph); the European car is limited to 250 km/h. Four-wheel drive is not modelled here. Estimated: rolling radius from the tyre size.",
+    "driven": "all"
+  }
+}

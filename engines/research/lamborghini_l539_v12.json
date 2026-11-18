@@ -1,0 +1,322 @@
+{
+  "id": "lamborghini_l539_v12",
+  "name": "Lamborghini L539 6.5 L V12 (Aventador LP 700-4, 2011 specification)",
+  "induction": "naturally aspirated",
+  "summary": "A 60-degree, 6.5 L, short-stroke (95 x 76.4 mm) four-valve V12 with variable inlet and exhaust valve timing and a variable intake (two flaps, several channels and a bypass behind four throttle valves), revving to 8350 rpm. The exhaust is four three-into-one manifolds with pre-catalysts, then two main catalysts and a casing with two mufflers switched by valves. Even firing every 60 degrees; each three-into-one collects cylinders 240 degrees apart.",
+  "fields": {
+    "variant": {
+      "value": "L539 as launched in the Aventador LP 700-4 (Geneva, March 2011): 515 kW / 700 hp at 8250 rpm, 690 N m at 5500 rpm, 11.8:1, maximum engine speed 8350 rpm",
+      "unit": null,
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Lamborghini press kit 'Lamborghini Aventador LP 700-4' (Automobili Lamborghini S.p.A., 28 pages; the PDF carries no print date; it is the launch press kit, its contents list 'Technical data' on page 25). The Aventador S of late 2016 raised output to 740 hp with modified VVT and VIS and the maximum revs from 8350 to 8500 rpm (GTspirit report of the Aventador S release, https://gtspirit.com/2016/12/19/official-2017-lamborghini-aventador-s/); later versions (SV, S, SVJ, Ultimae) are not modelled."
+    },
+    "cylinders": {
+      "value": 12,
+      "unit": "count",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Technical data: 'Type V12, 60°, MPI'."
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'a V12 with a classic cylinder bank angle of 60 degrees'."
+    },
+    "bank_angle_deg": {
+      "value": 60,
+      "unit": "deg",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'V12, 60°, MPI'."
+    },
+    "bore_mm": {
+      "value": 95.0,
+      "unit": "mm",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'bore diameter measures 95 millimeters and stroke 76.4 millimeters'; technical data 'Ø 95 mm x 76,4 mm'."
+    },
+    "stroke_mm": {
+      "value": 76.4,
+      "unit": "mm",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf"
+    },
+    "displacement_cc": {
+      "value": 6498,
+      "unit": "cc",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'Displacement is 6,498 cm' (sic) and technical data '6498 cc'. Bore and stroke give 6497.6 cc (my calculation). Cylinder spacing 103.5 mm."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. The press kit says only that the con-rods are forged steel."
+    },
+    "compression_ratio": {
+      "value": 11.8,
+      "unit": ":1",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Technical data: 'Compression ratio 11.8 ± 0.2'; text: 'At 11.8:1, the compression ratio is extremely high.'"
+    },
+    "firing_order": {
+      "value": "1-12-4-9-2-11-6-7-3-10-5-8",
+      "unit": null,
+      "source": "https://kfz-tech.de/Engl/Buchprojekte/Lamborghini/LamborghiniV121.htm",
+      "note": "kfz-tech.de (German technical encyclopedia): 'Firing order of a Lamborghini Aventador 1 12 4 9 2 11 6 7 3 10 5 8'. Supersportiva (Lamborghini enthusiast site, https://supersportiva.com/?p=397) gives the same order as 'The firing order of a Lamborghini V12' and says Lamborghini prints the order ('Ordine di accensione') on its engines. No Lamborghini document was found, and neither page states the cylinder numbering. ASSUMED: cylinders 1-6 on one bank and 7-12 on the other, each numbered from the front. With that numbering the order is an even-firing 60-degree V12 on a conventional six-throw crank (cylinders 1+7, 2+8 ... 6+12 sharing pins, each bank following the inline-six pattern 1-4-2-6-3-5). kfz-tech also says the Aventador's crankshaft 'is cranked differently'; the order it prints is a relabelling of 1-7-4-10-2-8-6-12-3-9-5-11 (exchange 7..12 for 12..7), so no unusual crank is needed to explain it (my reasoning)."
+    },
+    "crank": {
+      "value": "forged, nitride-hardened, 24.6 kg; pin layout not published (conventional six-throw, pins shared by opposite cylinders, assumed)",
+      "unit": null,
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'the forged and nitride-hardened crankshaft, which weighs in at 24.6 kilograms'."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "unit": "crank deg",
+      "source": "https://kfz-tech.de/Engl/Buchprojekte/Lamborghini/LamborghiniV121.htm",
+      "note": "Derived (my reasoning) from the order and 60-degree bank angle with shared pins."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'The two four-valve cylinder heads'."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "ivo_btdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found. 'Inlet and outlet valve timing is electronically controlled' (press kit); technical data 'Valve gear: Variable valve timing electronically controlled'. The phasing range was not found."
+    },
+    "ivc_abdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "evo_bbdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "evc_atdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": 8350,
+      "unit": "rpm",
+      "source": "https://gtspirit.com/2016/12/19/official-2017-lamborghini-aventador-s/",
+      "note": "GTspirit, reporting Lamborghini's Aventador S release (December 2016): 'the maximum engine revs have been increased from 8,350 to 8,500 rpm'. Ward's (\"https://www.wardsauto.com/news/archive-wards-lamborghini-soon-to-unleash-updated-aventador-s/789702/\"): 'increasing maximum safe engine revs from 8,350 to 8,500 rpm'. Lamborghini's own release could not be opened (lambocars.com returns 403). The LP 700-4 press kit gives no maximum speed; it says 'The maximum piston speed at 8,250 rpm is only 21 meters per second'."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "peak_power_kw": {
+      "value": 515,
+      "unit": "kW",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'700 HP (515 kW) at 8.250 rpm' (technical data); emission class EURO 5 - LEV 2. The rating standard is not stated."
+    },
+    "peak_power_rpm": {
+      "value": 8250,
+      "unit": "rpm",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf"
+    },
+    "peak_torque_nm": {
+      "value": 690,
+      "unit": "Nm",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'690 Nm at 5.500 rpm'."
+    },
+    "peak_torque_rpm": {
+      "value": 5500,
+      "unit": "rpm",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf"
+    },
+    "intake_type": {
+      "value": "plenum-type variable intake behind four throttle valves: 'two flaps, several channels and one bypass'",
+      "unit": null,
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'From the outside, the V12 is dominated by its intake system - which incorporates four individual throttle valves. Life inside the black housing is also extremely complex - the optimum intake path for any given load and engine speed is facilitated by two flaps, several channels and one bypass.' The flap switching speeds, runner lengths and throttle diameters were not found."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": "hydro-formed, thermally insulated three-into-one manifolds (four, each with a close-coupled pre-catalyst), then two main catalysts and a casing with two mufflers (one low-volume, one high-volume) selected by valves",
+      "unit": null,
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "'The hydro-formed and thermally insulated three-into-one system incorporates four pre-catalytic converters close to the engine and two main catalytic converters shortly before the muffler. The casing incorporates two separate mufflers - one low-volume, one high-volume. Regulated by valves controlled via the engine management'. Which three cylinders share a manifold is not stated; three adjacent cylinders of one bank is my inference from four pre-catalysts on a two-bank engine. Engine width including the exhaust manifold 848 mm."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "lubrication": {
+      "value": "dry sump, eight scavenge pumps",
+      "unit": null,
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Not represented in a gas-dynamics model."
+    },
+    "engine_mass_kg": {
+      "value": 235,
+      "unit": "kg",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Dimensions 665 mm high including intake, 848 mm wide including exhaust manifold, 784 mm long."
+    }
+  },
+  "missing": [
+    "valve sizes, lifts and timing, and the cam phasing ranges",
+    "the variable intake's flap switching speeds and runner lengths",
+    "throttle diameters",
+    "rod length",
+    "exhaust pipe sizes and which cylinders share each three-into-one",
+    "idle speed",
+    "a Lamborghini document giving the firing order and cylinder numbering",
+    "Lamborghini's own statement of the 8350 rpm limit (only press reports of the Aventador S release were readable)"
+  ],
+  "sources": [
+    {
+      "url": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "what": "Automobili Lamborghini press kit 'Lamborghini Aventador LP 700-4' (launch, 2011), 28-page PDF on Lamborghini's newsmarket press site: engine chapter (L539, 60-degree V12, bore, stroke, displacement, compression, valve timing control, dry sump, intake with four throttle valves and two flaps, three-into-one exhaust with four pre-catalysts, power and torque) and technical data table. Manufacturer document."
+    },
+    {
+      "url": "https://gtspirit.com/2016/12/19/official-2017-lamborghini-aventador-s/",
+      "what": "GTspirit report of Lamborghini's Aventador S release, 19 December 2016: maximum engine revs raised from 8350 to 8500 rpm, VVT and VIS modified. Motoring press; quotes the release."
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-wards-lamborghini-soon-to-unleash-updated-aventador-s/789702/",
+      "what": "Ward's Auto on the Aventador S: 'maximum safe engine revs from 8,350 to 8,500 rpm'. Trade press."
+    },
+    {
+      "url": "https://kfz-tech.de/Engl/Buchprojekte/Lamborghini/LamborghiniV121.htm",
+      "what": "kfz-tech.de Lamborghini V12 page: Aventador firing order 1-12-4-9-2-11-6-7-3-10-5-8. Technical encyclopedia, no source given."
+    },
+    {
+      "url": "https://supersportiva.com/?p=397",
+      "what": "Supersportiva: Lamborghini V12 firing order 1-12-4-9-2-11-6-7-3-10-5-8 and the practice of printing it on the engine. Enthusiast site."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "Lamborghini Aventador LP 700-4 coupe (2011)",
+      "unit": "",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Lamborghini launch press kit; the L539 V12 in its first car."
+    },
+    "curb_kg": {
+      "value": 1853,
+      "unit": "kg",
+      "source": "https://autotk.com/lamborghini/aventador/2012",
+      "note": "SECONDARY. autotk 2012 LP700-4 coupe: \"Curb weight 4085.00 lbs\" (1,853 kg). Wikipedia (lead only) gives the same 4,085 lb from Car and Driver \"with fluids, US\" and 1,731 kg \"with fluids, Eur\" from Motor Trend; neither magazine page could be read. Press kit: \"Dry weight 1575 Kg\"."
+    },
+    "gear_count": {
+      "value": 7,
+      "unit": "",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Quote: \"7 speed ISR, shifting characteristic depending on drive select mode\"."
+    },
+    "gears": {
+      "value": null,
+      "unit": "",
+      "source": "https://www.motormatchup.com/catalog/Lamborghini/Aventador/2012/Lp700_4-2DR-AWD-Coupe",
+      "note": "NOT READ. Search summaries give 3.91, 2.44, 1.81, 1.46, 1.19, 0.97, 0.89 for this page, which returned HTTP 429. Lambocars (403) is said to list 0.844 for 7th on its LP 780-4 Ultimae page. The press kit has no ratios. Lamborghini's technical data PDF at https://www.autoblog.gr/wp-content/uploads/2011/02/lamborghini_aventador_lp_700-4_-_technical_data.pdf returned 403. Omitted rather than taken from snippets."
+    },
+    "final_drive": {
+      "value": 2.86,
+      "unit": "",
+      "source": "https://autotk.com/lamborghini/aventador/2012",
+      "note": "SECONDARY. Quote: \"Axle ratio 2.86\" (LP700-4 2dr All-wheel Drive Coupe)."
+    },
+    "tyre": {
+      "value": "335/30 ZR 20",
+      "unit": "",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Rear. Quote: \"Pirelli 255/35 ZR19 – 335/30 ZR20\"."
+    },
+    "wheel_radius_m": {
+      "value": 0.347,
+      "unit": "m",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Estimated (ours): rolling radius taken as 98% of the unloaded radius computed from the tyre size (rim diameter / 2 + section width x aspect ratio)."
+    },
+    "top_speed_kmh": {
+      "value": 350,
+      "unit": "km/h",
+      "source": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "note": "Quote: \"top speed of 350 km/h (217 mph)\"."
+    },
+    "driven": {
+      "value": "all",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+      "note": "English Wikipedia, 'Lamborghini Aventador' (read 2026-11-17), infobox layout: Mid-engine, all-wheel-drive."
+    }
+  }
+}

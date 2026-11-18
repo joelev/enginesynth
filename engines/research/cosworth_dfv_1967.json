@@ -1,0 +1,301 @@
+{
+  "id": "cosworth_dfv_1967",
+  "name": "Ford Cosworth DFV 3.0 L V8, Formula One, 1967 specification",
+  "induction": "naturally aspirated",
+  "summary": "A 3.0 L, 90-degree V8 with a flat-plane crank, so each bank fires every 180 degrees like a four-cylinder engine, with four valves per cylinder, gear-driven twin overhead cams per bank, Lucas mechanical port injection through eight individual inlet trumpets in the vee and a tuned exhaust on the outside of each bank. In 1967 it gave about 405 hp at 9000 rpm, held there by an electronic governor; its long-duration cams (320 degrees) made it come 'on cam' sharply at about 6500 rpm.",
+  "fields": {
+    "variant": {
+      "value": "DFV as raced in 1967 (Lotus 49, debut Dutch Grand Prix, 4 June 1967): 405 hp at 9000 rpm, 245 lb-ft at 8500 rpm, governor at 9000 rpm, 4-2-1 exhaust per bank",
+      "unit": null,
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "Derek Taulbut, 'The Unique Cosworth Story' (Grand Prix Engine Development 1906-2000, grandprixengines.co.uk), compiled from Blunsden's 'Power to Win' (1983), Blunsden and Phipps' 'Such Sweet Thunder' (1971), Cosworth's 1979 data sheet and period Autocar and Motor articles, with Michael Costin's help. 1967 is chosen because Taulbut gives that year's power, torque, exhaust system and valve gear and says valve sizes, lifts and timing were unchanged until 1978. Bore and stroke never changed (Taulbut: 'without change of bore and stroke or major castings')."
+    },
+    "cylinders": {
+      "value": 8,
+      "unit": "count",
+      "source": "https://en.wikipedia.org/wiki/Cosworth_DFV",
+      "note": "'The engine is a 90 degree, 2,993 cc V8'."
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Cosworth_DFV"
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://en.wikipedia.org/wiki/Cosworth_DFV"
+    },
+    "bore_mm": {
+      "value": 85.6742,
+      "unit": "mm",
+      "source": "https://www.grandprixengines.co.uk/Note_75B.pdf",
+      "note": "'Cosworth's own data sheets (191) gave B = 3.373\" (85.6742 mm) and S = 2.550\" (64.77) but then put swept volume at 182.64 cubic inches (2993 cc) when the listed B & S correspond to 182.285 cubic inches (2987.1 cc).' Wikipedia's infobox gives the same 85.6742 x 64.77 mm; its text gives 85.67 x 64.90 mm (2993 cc). Other figures seen: 85.7 x 64.8 (EngineLabs, vintagepaparazzi). The Cosworth data-sheet figures are used."
+    },
+    "stroke_mm": {
+      "value": 64.77,
+      "unit": "mm",
+      "source": "https://www.grandprixengines.co.uk/Note_75B.pdf"
+    },
+    "displacement_cc": {
+      "value": 2987,
+      "unit": "cc",
+      "source": "https://www.grandprixengines.co.uk/Note_75B.pdf",
+      "note": "From the bore and stroke; Cosworth quoted 2993 cc (see bore note)."
+    },
+    "rod_length_mm": {
+      "value": 132.8,
+      "unit": "mm",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "Taulbut: 'Connecting rod length, being 'free' in this instance, was increased so that CRL/S = 2.05'. 2.05 x 64.77 = 132.8 mm (my calculation; the ratio is rounded, so the length is good to about 0.3 mm)."
+    },
+    "compression_ratio": {
+      "value": 11.0,
+      "unit": ":1",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "'With R = 11, as for the FVA, the combustion chamber was reduced by 6.4% from 39.9 to 37.3cc'."
+    },
+    "firing_order": {
+      "value": "1-8-3-6-4-5-2-7",
+      "unit": null,
+      "source": "https://www.enginelabs.com/engine-tech/engine/firing-order-swaps-whats-best-for-your-engine/",
+      "note": "'Cosworth started out using 1-8-3-6-4-5-2-7 with the original 3.0-liter DFV'. The same article says Cosworth's later 2.4 L V8 'featured a right-bank forward block that was numbered similar to a Ford V8' (1-4 down one bank, 5-8 down the other). That numbering is not stated for the DFV; I infer it, because with 1-4 on one bank and 5-8 on the other this order alternates banks every 90 degrees and runs 1-3-4-2 within each bank, as a flat-plane crank requires, while GM-style alternate numbering would put cylinders 1 and 3 (fired consecutively) on the same bank 90 degrees apart, which a flat-plane crank cannot do."
+    },
+    "crank": {
+      "value": "Flat-plane four-throw crankshaft, forged, nitrided; each throw carries one rod from each bank side by side (banks staggered)",
+      "unit": null,
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "'KD chose a flat crank for tuned exhaust simplicity'; materials table 'Crankshaft En40B Nitrided. Forged.' Motor Sport: 'The use of a flat plane crank, which gave an even firing order, greatly simplified the exhaust layout' (https://www.motorsportmagazine.com/articles/racing-tech/cosworth-dfv-the-greatest-racing-engine-ever-made)."
+    },
+    "firing_intervals_deg": {
+      "value": [90, 90, 90, 90, 90, 90, 90, 90],
+      "unit": "crank deg",
+      "source": "https://www.enginelabs.com/engine-tech/engine/firing-order-swaps-whats-best-for-your-engine/",
+      "note": "Derived from the order and the flat crank (my reasoning): even 90 degrees overall, 180 degrees within each bank."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://en.wikipedia.org/wiki/Cosworth_DFV",
+      "note": "'32-valve, DOHC, four-valves per cylinder'. Valve included angle 32 degrees, inlet port downdraught 35 degrees (Taulbut)."
+    },
+    "intake_valve_dia_mm": {
+      "value": 33.53,
+      "unit": "mm",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "In the 1978 entry: 'For the first time, IVD was increased from 1.32\" (33.53mm) to 1.36\" (34.54) ... but EVD remained unchanged at 1.14\" (28, 96) (later it was enlarged to 1.25\" (31.75) possibly in 1982 (59)). Valve lift and timing also remained unchanged (191).' So 1.32 in intake and 1.14 in exhaust held from 1967 to 1977. Search results also showed 34.5 / 29 mm attributed to the DFV on unidentified spec pages (not opened); 34.5 mm is the post-1978 intake size."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 28.96,
+      "unit": "mm",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "1.14 in (see intake note)."
+    },
+    "intake_lift_mm": {
+      "value": 10.2,
+      "unit": "mm",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "Taulbut gives the FVA's inlet lift ('IVL was only 1.9% smaller (10.2mm v 10.4)', comparing the FVA with the Climax FPF) and says of the DFV 'Valve sizes, lifts and timings were all as FVA'. Applying the FVA figure to the DFV is his statement; whether 10.2 mm is gross or net of clearance is not said."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. The definition's 10.0 mm is an estimate."
+    },
+    "valve_timing": {
+      "value": "IVO 58 BTDC, IVC 82 ABDC, EVO 82 BBDC, EVC 58 ATDC (320 degrees each, 116 degrees overlap)",
+      "unit": "deg",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "For the FVA: 'Valve timing was 'standard' Cosworth: 58/82 // 82/58.' Elsewhere 'IOD was 10.3% longer (320 degrees v 290)'. For the DFV: 'Valve sizes, lifts and timings were all as FVA', and in 1978 'Valve lift and timing also remained unchanged' (citing Cosworth's 1979 data sheet). The lift or clearance at which the events are measured is not given. Reading 58/82 // 82/58 as IVO/IVC // EVO/EVC is my reading of the conventional order; it is symmetrical, so the alternative reading gives the same numbers."
+    },
+    "redline_rpm": {
+      "value": 9000,
+      "unit": "rpm",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "1967: 'the engine had to be limited by its new electronic governor to 9,000 RPM and about 400 HP'. The governor faded out the ignition 'over 160 RPM towards a preset limit, avoiding an abrupt cut'. Reset to 10,000 rpm in 1969. Taulbut's more detailed account is used."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found. The definition's 3000 rpm is an estimate."
+    },
+    "peak_power_kw": {
+      "value": 302,
+      "unit": "kW",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "'1967: 405 HP @ 9,000 RPM'; Note 85 calls it 'the 405 HP at 9000 RPM which was being quoted by Cosworth' (https://www.grandprixengines.co.uk/Note_85.pdf). Wikipedia gives 408 bhp at 9000 rpm. 405 hp = 302 kW (my conversion, taking hp as bhp). Bench figure, no standard stated; Taulbut also lists 415 hp at 9500 rpm for 1968."
+    },
+    "peak_power_rpm": {
+      "value": 9000,
+      "unit": "rpm",
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf"
+    },
+    "peak_torque_nm": {
+      "value": 332,
+      "unit": "Nm",
+      "source": "https://www.grandprixengines.co.uk/Note_85.pdf",
+      "note": "'The correct figure for the 1967 DFV, released in 1983, was actually 245 lb ft @ 8500 RPM (59), equal to 203 psi (14.0 Bar)', citing Blunsden's 'Power to Win' (1983). 245 lb-ft = 332 N m (my conversion). Taulbut calls the 270 lb-ft at 7000 rpm in Ford's April 1967 announcement 'a misleading piece of data'; that figure is the one Wikipedia gives ('270 ft-lbf (370 N-m) of torque at 7,000 rpm') and EngineLabs attributes to Road & Track. The 245 figure is used."
+    },
+    "peak_torque_rpm": {
+      "value": 8500,
+      "unit": "rpm",
+      "source": "https://www.grandprixengines.co.uk/Note_85.pdf"
+    },
+    "torque_curve_shape": {
+      "value": "Comes 'on cam' at about 6500 rpm with a sharp rise in power; useful range about 2500 rpm",
+      "unit": null,
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "'As the engine came 'on cam' at 6,500 RPM with a sharp rise there in the power curve - Jimmy Clark likened it to a 'second engine' cutting in - the useful range was only 2,500 RPM'. Note 85: 'No power curve was published then for the DFV'."
+    },
+    "intake_type": {
+      "value": "Individual inlet trumpets in the vee, one per cylinder, with Lucas mechanical port fuel injection (shuttle metering distributor, mechanically driven pump)",
+      "unit": null,
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "'As on the FVA, the by-now-conventional Lucas port injection system was fitted but with a mechanically-driven, instead of the previous electrically-driven, pump'.; which year's throttles that describes is not said. Taulbut: 'Inlet trumpet lengths had already been increased for slow circuits' (1968), so trumpet length varied by circuit."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found; varied by circuit (see intake_type)."
+    },
+    "header_type": {
+      "value": "Per bank 4-into-2-into-1: primaries 15 in, secondaries 15 in, tail pipe 30 in (60 in overall)",
+      "unit": null,
+      "source": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "note": "'The exhaust system was the same as on the FVA (ie 4-2-1) 60\" (1.52 m) overall'; for the FVA 'respectively 15\", 15\" and a plain tail pipe 30\" long ((191) for the later DFV)'. 'The primary-plus-secondary pipe lengths (15\" + 15\" (0.76m)) are estimated to have been tuned to about 7,500 RPM'. From Monza 1968 an alternative 4-into-1 with 30.5 in primaries and a 27 in tail was used on fast circuits. Exhausts leave the outside of each bank; inlets are in the vee (vintagepaparazzi: 'The former were on top of the engine'). Which cylinders pair at the first merge is not stated; 1+4 and 2+3 (360 degrees apart) is assumed."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. Taulbut says only that the primary gave 'a geometrical expansion ratio from the twin exhaust ports of about 1.7'."
+    },
+    "exhaust_open_duration_deg": {
+      "value": 320,
+      "unit": "deg",
+      "source": "https://www.grandprixengines.co.uk/Note_83.pdf",
+      "note": "Note 83 (exhaust resonant speed): 'EOD = 320 and LX = 2.8\"' for the DFV, with the 1967 '4-2-1' system 'LEX 15\" + 15\"' resonating at '7520' rpm by Jack Williams's formula. LX is the exhaust port length inside the head, 2.8 in (71 mm)."
+    },
+    "weight": {
+      "value": 168,
+      "unit": "kg",
+      "source": "https://en.wikipedia.org/wiki/Cosworth_DFV",
+      "note": "Infobox dry weight. Not used by the model."
+    },
+    "years": {
+      "value": "1967-1983 in Formula One; this file describes 1967",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Cosworth_DFV"
+    }
+  },
+  "missing": [
+    "the lift or clearance at which the 58/82 // 82/58 timing is measured",
+    "exhaust valve lift",
+    "inlet trumpet and port length and diameter (varied by circuit)",
+    "throttle type in 1967",
+    "exhaust primary, secondary and tail pipe diameters",
+    "idle speed",
+    "a published 1967 torque or power curve (Taulbut: none was published)",
+    "cylinder numbering for the DFV stated directly (inferred from the firing order and flat crank)",
+    "which cylinders pair at the first merge of the 4-2-1"
+  ],
+  "sources": [
+    {
+      "url": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "what": "Derek S. Taulbut, 'The Unique Cosworth Story' (Eg. 47, Grand Prix Engine Development 1906-2000), with Michael Costin's help: FVA and DFV design, compression, rod/stroke ratio, valve angle, valve sizes and their 1978 change, valve timing 58/82 // 82/58 and inlet lift via the FVA, 1967 exhaust 4-2-1 15/15/30 in, governor, year-by-year power. Cites Blunsden 'Power to Win' (1983), Blunsden and Phipps 'Such Sweet Thunder' (1971), Cosworth data sheet (1979), Autocar 22 June 1967, Automobile Engineer March 1968."
+    },
+    {
+      "url": "https://www.grandprixengines.co.uk/Note_75B.pdf",
+      "what": "Taulbut, Note 75B 'DFV swept volume': bore and stroke from Cosworth's own data sheets and the 2987/2993 cc discrepancy."
+    },
+    {
+      "url": "https://www.grandprixengines.co.uk/Note_85.pdf",
+      "what": "Taulbut, Note 85 'Peak torque to top-power RPM ratio for DFV': 1967 torque 245 lb-ft at 8500 rpm (from Blunsden 1983) against the 270 lb-ft at 7000 rpm of Ford's April 1967 announcement; 405 hp at 9000 quoted by Cosworth."
+    },
+    {
+      "url": "https://www.grandprixengines.co.uk/Note_83.pdf",
+      "what": "Taulbut, Note 83 'Exhaust resonant speed': DFV exhaust open duration 320 degrees, port length 2.8 in, pipe lengths by year (1967 4-2-1 15 + 15 in)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cosworth_DFV",
+      "what": "Wikipedia, Cosworth DFV: 90-degree V8, bore and stroke (infobox and text differ), 32 valves, 408 bhp at 9000 rpm and 270 lb-ft at 7000 rpm, weight, years."
+    },
+    {
+      "url": "https://www.enginelabs.com/engine-tech/engine/firing-order-swaps-whats-best-for-your-engine/",
+      "what": "EngineLabs, 'Firing Order Swaps' (Mike Magda, 2017): DFV firing order 1-8-3-6-4-5-2-7; Cosworth's Ford-style cylinder numbering on its later V8."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/articles/racing-tech/cosworth-dfv-the-greatest-racing-engine-ever-made",
+      "what": "Motor Sport, 'Cosworth DFV: the greatest racing engine ever made': flat-plane crank for even firing and simple exhaust, 32-degree included valve angle."
+    },
+    {
+      "url": "https://vintagepaparazzi.com/?p=40309",
+      "what": "Vintage Paparazzi reprint of a Classic Car Book page: inlets on top in the vee, exhausts outside, flat crank operating each bank as a straight-four for exhaust tuning, 85.7 x 64.8 mm, 11.0:1, 408 bhp at 9000 rpm."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "Lotus 49 (1967)",
+      "unit": "",
+      "source": "https://www.motorsportmagazine.com/archive/page/july-1967/26",
+      "note": "Motor Sport, July 1967, on the Lotus 49 and its DFV; the 1967 car, before the 1968 49B's Hewland gearbox."
+    },
+    "curb_kg": {
+      "value": 500,
+      "unit": "kg",
+      "source": "https://forums.autosport.com/topic/219201-weight-balance-of-the-lotus-49-and-other-race-cars",
+      "note": "DRY. Post #3 citing David Hodges, \"Lotus 49\": \"'67 49: 1102lb\" (500 kg). Motor Sport August 2024 driving test of R10: \"just over 500kg\". Others: Wikipedia 501 kg, sportscardigest 1168.4 lb, kfz-tech \"500-540 kg + driver\". Post #34 (Haynes-based, his own calculation): \"Total Weights: 1562 / 1102\" (with fluids and driver / dry)."
+    },
+    "gear_count": {
+      "value": 5,
+      "unit": "",
+      "source": "https://forums.autosport.com/topic/219201-weight-balance-of-the-lotus-49-and-other-race-cars",
+      "note": "Post #26 transcribing the Haynes manual's 1967 specification: \"Type: ZF Type 5 DS 12\". Motor Sport July 1967: \"The 5-speed gearbox is over-hung from the rear of the engine\" and \"The ZF gearbox has the latest differential...\"."
+    },
+    "gears": {
+      "value": [
+        2.15,
+        1.62,
+        1.31,
+        1.12,
+        1.0
+      ],
+      "unit": "",
+      "source": "https://www.motorsportmagazine.com/archive/article/july-1967/28/dutch-grand-prix-5/",
+      "note": "ESTIMATED (ours); no published set. Ratios were changed per circuit by swapping whole ZF units: \"During the lunch break both cars had the gearbox changed, for similar ones with different ratios.\" Set built so that, with the final drive below, 5th reaches the Zandvoort speed-trap figure at 9,000 rpm and each upshift from 9,000 rpm lands at 6,800-8,000 rpm. Only gear x final drive is meaningful."
+    },
+    "final_drive": {
+      "value": 4.15,
+      "unit": "",
+      "source": "https://www.motorsportmagazine.com/archive/article/july-1967/28/dutch-grand-prix-5/",
+      "note": "ESTIMATED (ours). Overall top ratio from the speed trap: \"Hill and Gurney fastest at 165 m.p.h.\" (265.5 km/h), taken at the 9,000 rpm governor on a 0.325 m radius: 9,000 / 2,167 wheel rpm = 4.15, with 5th set to 1.00."
+    },
+    "tyre": {
+      "value": null,
+      "unit": "",
+      "source": "https://forums.autosport.com/topic/219201-weight-balance-of-the-lotus-49-and-other-race-cars",
+      "note": "UNCONFIRMED. Post #26 (Haynes transcription): rear \"6.00/6.50-15\" on 12.00J x 15 wheels, Firestone; looks garbled next to the front's 4.75/10.30-15. Omitted. The def records only \"Firestone, 15-inch rim (rear; size unconfirmed)\"."
+    },
+    "wheel_radius_m": {
+      "value": 0.325,
+      "unit": "m",
+      "source": "https://forums.autosport.com/topic/219201-weight-balance-of-the-lotus-49-and-other-race-cars",
+      "note": "ESTIMATED (ours): about a 26 in (0.65 m) rear tyre diameter assumed for a 1967 Formula One Firestone on a 15 in rim; the size as transcribed from Haynes (\"6.00/6.50-15\") looks garbled and was not used."
+    },
+    "top_speed_kmh": {
+      "value": null,
+      "unit": "",
+      "source": "https://www.motorsportmagazine.com/archive/article/july-1967/28/dutch-grand-prix-5/",
+      "note": "NOT FOUND as a top speed. Speed trap at Zandvoort 1967: \"Hill and Gurney fastest at 165 m.p.h.\" (266 km/h)."
+    },
+    "driven": {
+      "value": "rear",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/Lotus_49",
+      "note": "English Wikipedia, 'Lotus 49' (read 2026-11-17), infobox engine position: mid-mounted; Hewland-Lotus 5-speed gearbox. The article gives the engine position, not the driven wheels; rear-wheel drive is our reading (every Formula One car of the period drove its rear wheels)."
+    }
+  }
+}

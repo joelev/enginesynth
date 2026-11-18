@@ -1,0 +1,266 @@
+{
+  "id": "mazda_13b_fc_na",
+  "name": "Mazda 13B six-port, naturally aspirated (RX-7 FC Series 5, 1989-1991, 160 hp)",
+  "induction": "naturally aspirated",
+  "summary": "Two-rotor Wankel with side intake ports and a peripheral exhaust port in the rotor housing. The exhaust opens early (75 deg BBDC) and stays open 48 deg past TDC, overlapping the intake, which gives the older 13B its harder, pulsing exhaust note compared with the Renesis.",
+  "fields": {
+    "cylinders": {
+      "value": 2,
+      "unit": "rotors",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "'2 rotors, longitudinal'."
+    },
+    "layout": {
+      "value": "rotary",
+      "unit": null,
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Type 'Rotary engine', combustion chamber 'Bathtub'."
+    },
+    "displacement_cc": {
+      "value": 1308,
+      "unit": "cc",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "654 x 2 (40.0 x 2 cu in)."
+    },
+    "eccentricity_mm": {
+      "value": 15,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "SAE 2004-01-1790 Table 1 gives 15 x 105 x 80 mm for the peripheral-exhaust 13B-REW, the same block family; Wikipedia states nearly all Mazda production rotaries share 105 mm radius and 15 mm offset. Not stated in the FC manual page itself."
+    },
+    "rotor_radius_mm": {
+      "value": 105,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "Generating radius; see eccentricity note."
+    },
+    "rotor_width_mm": {
+      "value": 80,
+      "unit": "mm",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Rotor housing width 79.970-80.010 mm; rotor width at apex 79.800-79.850 mm."
+    },
+    "compression_ratio": {
+      "value": 9.7,
+      "unit": ":1",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Non-turbo, 1989 on (Series 5). Wikipedia gives the same 9.7:1 for Series 5; earlier Series 4 (1986-88) engines differ and were not checked."
+    },
+    "intake_port_type": {
+      "value": "side intake, three ports per rotor (primary, secondary, auxiliary; '6PI')",
+      "unit": null,
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "The manual lists primary, secondary and auxiliary timings for the non-turbo engine. Wikipedia: the 13B-DEI 'features both the 6PI and DEI systems'."
+    },
+    "exhaust_port_type": {
+      "value": "peripheral exhaust port",
+      "unit": null,
+      "source": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "note": "SAE 2004-01-1790 describes the previous RE's exhaust port as peripheral, 'mounted at the rotor housings'."
+    },
+    "intake_primary_open_atdc": {
+      "value": 32,
+      "unit": "deg ATDC",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Degrees of eccentric-shaft rotation, from the 1989 RX-7 workshop manual Technical Data section, page TD-2, column 'RE 13B (NON-TURBO)'. Read from a scanned page image. SAE 2004-01-1790 Fig. 7 also labels '13B (RX-7 NA)' as IO=32 deg ATDC."
+    },
+    "intake_primary_close_abdc": {
+      "value": 40,
+      "unit": "deg ABDC",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Degrees of eccentric-shaft rotation, from the 1989 RX-7 workshop manual Technical Data section, page TD-2, column 'RE 13B (NON-TURBO)'. Read from a scanned page image."
+    },
+    "intake_secondary_open_atdc": {
+      "value": 32,
+      "unit": "deg ATDC",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Degrees of eccentric-shaft rotation, from the 1989 RX-7 workshop manual Technical Data section, page TD-2, column 'RE 13B (NON-TURBO)'. Read from a scanned page image."
+    },
+    "intake_secondary_close_abdc": {
+      "value": 30,
+      "unit": "deg ABDC",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Degrees of eccentric-shaft rotation, from the 1989 RX-7 workshop manual Technical Data section, page TD-2, column 'RE 13B (NON-TURBO)'. Read from a scanned page image."
+    },
+    "intake_auxiliary_open_atdc": {
+      "value": 45,
+      "unit": "deg ATDC",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Degrees of eccentric-shaft rotation, from the 1989 RX-7 workshop manual Technical Data section, page TD-2, column 'RE 13B (NON-TURBO)'. Read from a scanned page image. Auxiliary ports are opened by actuator valves at higher rpm; the opening rpm was not found."
+    },
+    "intake_auxiliary_close_abdc": {
+      "value": 80,
+      "unit": "deg ABDC",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Degrees of eccentric-shaft rotation, from the 1989 RX-7 workshop manual Technical Data section, page TD-2, column 'RE 13B (NON-TURBO)'. Read from a scanned page image."
+    },
+    "exhaust_open_bbdc": {
+      "value": 75,
+      "unit": "deg BBDC",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Degrees of eccentric-shaft rotation, from the 1989 RX-7 workshop manual Technical Data section, page TD-2, column 'RE 13B (NON-TURBO)'. Read from a scanned page image. Same for turbo."
+    },
+    "exhaust_close_atdc": {
+      "value": 48,
+      "unit": "deg ATDC",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Degrees of eccentric-shaft rotation, from the 1989 RX-7 workshop manual Technical Data section, page TD-2, column 'RE 13B (NON-TURBO)'. Read from a scanned page image. Same for turbo. With intake opening at 32 deg ATDC this is 16 deg of overlap, matching the 16 deg quoted for the peripheral-exhaust engine in SAE 2004-01-1790."
+    },
+    "peak_power_kw": {
+      "value": 119.3,
+      "unit": "kW",
+      "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+      "note": "'119.3 kw / 160.0 bhp @ 7000 rpm' for the 1989 RX-7 GTUs (naturally aspirated). Enthusiast spec site, not a Mazda document; Wikipedia's RX-7 page gives the same 160 hp for the Series 5 13B-DEI without an rpm. The Series 4 (1986-88) engine was 146 PS at 6500 rpm and 187 N·m at 3500 rpm per Wikipedia."
+    },
+    "peak_power_rpm": {
+      "value": 7000,
+      "unit": "rpm",
+      "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/"
+    },
+    "peak_torque_nm": {
+      "value": 189.8,
+      "unit": "N·m",
+      "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+      "note": "'189.8 nm / 140.0 ft lbs @ 4000 rpm'."
+    },
+    "peak_torque_rpm": {
+      "value": 4000,
+      "unit": "rpm",
+      "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/"
+    },
+    "redline_rpm": {
+      "value": 8000,
+      "unit": "rpm",
+      "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+      "note": "Enthusiast spec site; not confirmed in a Mazda document."
+    },
+    "idle_rpm": {
+      "value": 750,
+      "unit": "rpm",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Page TD-5: 750 +/- 25 rpm (test connector grounded; A/T in N)."
+    },
+    "intake_type": {
+      "value": "plenum with two-stage three-barrel throttle body; dynamic-effect intake (DEI) plus six-port induction",
+      "unit": null,
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Throttle body 'Horizontal-draft (2 stages, 3 barrel)' from TD-5; DEI/6PI from Wikipedia. Wikipedia describes the related Dynamic Effect Intake as a two-level intake box using resonance from the opening and closing intake ports."
+    },
+    "throttle_dia_mm": {
+      "value": {
+        "primary": 45,
+        "secondary": "45 x 2"
+      },
+      "unit": "mm",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Page TD-5, throat diameter."
+    },
+    "compression_pressure_kpa_min": {
+      "value": 589,
+      "unit": "kPa at 250 rpm",
+      "source": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "note": "Minimum cranking compression, for sanity-checking a model."
+    }
+  },
+  "missing": [
+    "crank phasing / firing interval (unsourced; 180 deg between rotors is usual)",
+    "rpm at which the auxiliary (6PI) ports and the variable intake valve open",
+    "intake runner lengths and diameters",
+    "exhaust port dimensions and exhaust system layout (manifold, pipe diameter)",
+    "manufacturer source for power, torque and redline",
+    "Series 4 (1986-88) port timings, if they differ"
+  ],
+  "sources": [
+    {
+      "url": "https://www.foxed.ca/rx7manual/manuals/tech/1989%20RX7%20TECHNICAL%20DATA.pdf",
+      "what": "Mazda 1989 RX-7 workshop manual, Technical Data section (scanned PDF hosted on an enthusiast manual archive). Page TD-2 has compression ratio and port timing for turbo and non-turbo; TD-5 has throttle and idle data."
+    },
+    {
+      "url": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "what": "SAE 2004-01-1790 (Mazda): geometry of the 13B family and a cross-check of the NA 13B intake opening (32 deg ATDC)."
+    },
+    {
+      "url": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+      "what": "supercars.net specification page for the 1989 RX-7 GTUs: power, torque, redline. Enthusiast site."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mazda_RX-7",
+      "what": "Wikipedia, Mazda RX-7: Series 5 naturally aspirated engine 160 hp, 9.7:1."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mazda_Wankel_engine",
+      "what": "Wikipedia, Mazda Wankel engine: 13B variants (RESI, DEI), Series 4 output."
+    }
+  ],
+  "vehicle": {
+    "name": "Mazda RX-7 GTUs (FC, US, 1989)",
+    "fields": {
+      "curb_kg": {
+        "value": 1259,
+        "unit": "kg",
+        "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+        "note": "'curb weight 1259 kg / 2775 lbs'. Enthusiast site. rx7club table (https://www.rx7club.com/2nd-generation-specific-1986-1992-17/1986-1991-fc3s-specifications-history-552354/): '1989 GTUs 2,725' lb (1236 kg); base 1989-91 5-speed NA 2,857 lb."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+        "note": "'transmission 5-Speed Manual'."
+      },
+      "gears": {
+        "value": [
+          3.48,
+          2.0,
+          1.37,
+          1.0,
+          0.76
+        ],
+        "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+        "note": "'gear ratios 3.48:1, 2.00:1, 1.37:1, 1.00:1, 0.76:1'. Enthusiast site; the rx7club table gives '1989-91 5-speed (LSD)/13B 3.67 ... 2.22 ... 1.43 ... 1.00 ... 0.76' with 4.30 (unsourced forum post). Weak."
+      },
+      "final_drive": {
+        "value": 4.3,
+        "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+        "note": "'final drive 4.30:1'. Wikipedia (https://en.wikipedia.org/wiki/Mazda_RX-7): 'a GTUs-only 4.300 viscous-type limited-slip differential (all other FC LSD's were 4.100)'. rx7.com (https://rx7.com/store/rx7/fcdrivetrain_rearend.html): 'the 4.30 final drive gear comes from the rare GTUs models'."
+      },
+      "wheel_radius_m": {
+        "value": 0.316,
+        "unit": "m",
+        "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+        "note": "Calculated by me from the tyre size 205/55 VR16 (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "205/55 VR16",
+        "source": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+        "note": "'front tires 205/55VR-16 rear tires 205/55VR-16'. Wikipedia: GTUs '16-inch wheels, 205/55VR tyres'."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Mazda_RX-7",
+        "note": "English Wikipedia, 'Mazda RX-7' (read 2026-11-17), infobox layout: Front mid-engine, rear-wheel-drive."
+      }
+    },
+    "missing": [
+      "any Mazda document, workshop manual or period road test for the 1989-91 naturally aspirated FC",
+      "top speed (only an estimate, about 130 mph, and an unsourced forum figure of 135 mph)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.supercars.net/blog/1989-mazda-rx-7-gtus/",
+        "what": "supercars.net, '1989 Mazda RX-7 GTUs': enthusiast specification page (160 bhp at 7000 rpm, the engine research's power source): weight, ratios, final drive, tyres."
+      },
+      {
+        "url": "https://www.rx7club.com/2nd-generation-specific-1986-1992-17/1986-1991-fc3s-specifications-history-552354/",
+        "what": "rx7club.com forum thread '1986 - 1991 FC3S: Specifications and History': unsourced tables of ratios, weights and performance by model. Cross-check; conflicts noted."
+      },
+      {
+        "url": "https://rx7.com/store/rx7/fcdrivetrain_rearend.html",
+        "what": "rx7.com (Rotary Performance, RX-7 parts seller): FC final drive ratios by model. Cross-check."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mazda_RX-7",
+        "what": "Wikipedia, Mazda RX-7: GTUs differential and tyres. Cross-check."
+      }
+    ]
+  }
+}

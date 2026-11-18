@@ -1,0 +1,113 @@
+{
+  "name": "triumph_bonneville_865",
+  "label": "Triumph Bonneville 865 cc 360° parallel twin (T100)",
+  "based_on": "Triumph Bonneville T100 865 cc air-cooled parallel twin, carburetted, 2005-2007",
+  "family": "twin",
+  "layout": "inline",
+  "bore": 0.09,
+  "stroke": 0.068,
+  "rod": 0.1215,
+  "cr": 9.2,
+  "firing": [
+    0.0,
+    360.0
+  ],
+  "in_valve_d": 0.031,
+  "ex_valve_d": 0.026,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 4.0,
+    "ivc": 48.0,
+    "evo": 33.0,
+    "evc": 7.0,
+    "in_lift": 0.0095,
+    "ex_lift": 0.0094
+  },
+  "itb": true,
+  "runner_len": 0.24,
+  "runner_d": 0.036,
+  "primary_len": [
+    0.694,
+    0.694
+  ],
+  "primary_d": 0.035,
+  "groups": [
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.2,
+  "secondary_d": 0.038,
+  "muffler_len": 0.45,
+  "muffler_d": 0.09,
+  "tail_len": 0.1,
+  "tail_d": 0.032,
+  "inertia": 0.05,
+  "redline": 8000.0,
+  "idle": 1000.0,
+  "published": {
+    "power_kw": 47.1,
+    "power_rpm": 7250.0,
+    "torque_nm": 68.0,
+    "torque_rpm": 6000.0
+  },
+  "friction_scale": 0.8,
+  "heat_q": 2500000.0,
+  "generic": false,
+  "sources": [
+    {
+      "url": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "what": "Scan of the Triumph factory service manual for carburetted Bonneville, T100, America, Speedmaster, Thruxton and Scrambler (listed by the host as the 2006 service manual; 482 pages, RAR containing one PDF). Hosted on a third-party manuals mirror, but it is Triumph's own document. Pages read as images: 1.26-1.29 (865 cc T100/Speedmaster full specification), 1.31 (Scrambler/Thruxton), 9.46 (header pipes). Primary source for geometry, valves, cam timing, limiter, carburettors, balance pipe."
+    },
+    {
+      "url": "https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf",
+      "what": "Triumph owner's handbook for Bonneville, Bonneville SE, T100, Thruxton, Scrambler (EFI models), publication 3851479 issue 1, copyright 06.2013, hosted on triumphmotorcycles.co.uk. Specifications pp. 109-113. Manufacturer document, but its T100 column prints a 270° firing angle and it gives 10.2:1 compression, both at odds with other sources."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=93",
+      "what": "Carburettor-era Triumph Bonneville owner's handbook on ManualsLib (104 pages), page 93: T100 865 cc, 64 PS @ 7,250 rpm, 68 Nm @ 6,000 rpm, 9.2:1, left to right, firing order 1-2. Read through a text extraction; used only as corroboration."
+    },
+    {
+      "url": "https://www.totalmotorcycle.com/motorcycles/2012models/2012-Triumph-Bonneville.htm",
+      "what": "Total Motorcycle reprint of Triumph's 2012 Bonneville press specifications: '360º firing interval', 90 x 68 mm, 68PS/50 kW @ 7500 rpm, 68 Nm @ 5800 rpm."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Triumph_Bonneville_T100",
+      "what": "Wikipedia, Triumph Bonneville T100: infobox lists the 865 cc engine as a 360° parallel twin, 90 x 68 mm."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Triumph_Bonneville",
+      "what": "Wikipedia, Triumph Bonneville: carburettor/EFI changeover years and silencer styles."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Straight-twin_engine",
+      "what": "Wikipedia, Straight-twin engine: general description of 360-degree and 180-degree crank behaviour and firing intervals."
+    },
+    {
+      "url": "https://www.webcamshafts.com/pages_vehicles/motorcycle/triumph/2653.html",
+      "what": "Web Cam aftermarket cam listing titled 'Triumph Bonneville 865 (T 100) (360°) DOHC 8v'. Performance grinds only, no stock data; used only as another '360°' label, no values taken."
+    }
+  ],
+  "notes": "Sourced (Triumph service manual, carburetted T100): bore, stroke, compression ratio, parallel twin with a 360-degree crank, firing order 1-2 at even 360-degree intervals, four valves per cylinder, valve diameters 31/26 mm, valve lift 9.5/9.4 mm, valve timing at 1 mm lift, rev limiter 8000 rpm (used as the redline), idle 1000 rpm, one carburettor per cylinder, one header and silencer per cylinder, published power and torque. Estimated, not sourced: rod length (121.5 mm, from an unopened aftermarket listing); intake length (0.24 m) and diameter (36 mm, inferred from the carburettor's name, Keihin CVK 36); header length (0.69 m) and diameter (35 mm), silencer and tailpipe dimensions; flywheel inertia; friction_scale 0.8. Not modelled: the balance pipe between the two headers (the format has no cross-connection short of a full merge), so the two exhausts are fully separate.",
+  "vehicle": {
+    "name": "Triumph Bonneville T100 (2005)",
+    "kind": "motorcycle",
+    "curb_kg": 216,
+    "gear_count": 5,
+    "gears": [
+      2.7333,
+      1.9474,
+      1.5455,
+      1.2917,
+      1.0741
+    ],
+    "final_drive": 4.1613,
+    "wheel_radius_m": 0.3199,
+    "tyre": "130/80-17",
+    "notes": "Carburetted 865 cc T100. curb_kg is estimated: the handbook's 200 kg dry plus 16.6 L of fuel and 4.5 L of oil (Triumph's 2005 press figure is 205 kg dry; the later fuel-injected T100 handbook gives 230 kg wet). final_drive is primary 108:62 x chain 43:18. No period top speed was found. wheel_radius_m is calculated from the tyre size."
+  }
+}

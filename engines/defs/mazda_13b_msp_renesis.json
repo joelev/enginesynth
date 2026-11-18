@@ -1,0 +1,107 @@
+{
+  "name": "mazda_13b_msp_renesis",
+  "label": "Mazda 13B-MSP Renesis 1.3 L two-rotor (RX-8, side exhaust ports)",
+  "layout": "rotary",
+  "kind": "wankel",
+  "cr": 10.0,
+  "firing": [
+    0.0,
+    360.0,
+    720.0,
+    180.0,
+    540.0,
+    900.0
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "ecc": 0.015,
+  "rotor_r": 0.105,
+  "rotor_w": 0.08,
+  "rotor_phase": [
+    0.0,
+    180.0
+  ],
+  "port_in": [
+    543.0,
+    890.0
+  ],
+  "port_ex": [
+    220.0,
+    537.0
+  ],
+  "redline": 9000.0,
+  "idle": 800.0,
+  "itb": false,
+  "runner_len": 0.34,
+  "runner_d": 0.046,
+  "primary_len": [
+    0.45,
+    0.45
+  ],
+  "primary_d": 0.05,
+  "secondary_len": 1.3,
+  "secondary_d": 0.066,
+  "tail_d": 0.066,
+  "port_in_area": 0.0019,
+  "port_ex_area": 0.0014,
+  "burn_scale": 1.25,
+  "heat_q": 2600000.0,
+  "inertia": 0.09,
+  "generic": false,
+  "family": "rotary",
+  "based_on": "Mazda 13B-MSP Renesis, high-power six-port (RX-8, 2003 launch specification)",
+  "sources": [
+    {
+      "url": "https://web.archive.org/web/20160310162247/http://www.rotaryeng.net/New-rotary-eng.pdf",
+      "what": "SAE paper 2004-01-1790, 'Developed Technologies of the New Rotary Engine (RENESIS)', Mazda (archived copy): rotor geometry, compression ratio, port timing, power and torque."
+    },
+    {
+      "url": "https://www.foxed.ca/rx7manual/2003mazdarx8/esicont/en/srvc/html/BHE010002000T04.html",
+      "what": "2003 Mazda RX-8 workshop manual, engine specifications: the same port timing table."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mazda_RX-8",
+      "what": "Wikipedia, Mazda RX-8: 9,000 rpm redline for the six-port manual car."
+    }
+  ],
+  "published": {
+    "power_kw": 177.0,
+    "power_rpm": 8500.0,
+    "torque_nm": 216.0,
+    "torque_rpm": 5500.0
+  },
+  "notes": "Sourced: rotor geometry, compression ratio, port timing, redline, power and torque. Port timing is the published table converted to shaft degrees after a chamber's firing top dead centre: exhaust opens 50 before bottom centre (270 - 50 = 220) and closes 3 before top centre (540 - 3 = 537); the intake window runs from the primary port opening 3 after top centre (540 + 3 = 543) to the auxiliary port closing 80 after bottom centre (810 + 80 = 890). Exhaust shuts 6 degrees before intake opens, so there is no overlap. Not expressible here: the real engine has three intake ports per rotor with their own timings (primary 3 to 65, secondary 12 to 36, auxiliary 38 to 80) brought in by valves at about 3750 and 6000 rpm, and a variable-length intake; this definition has one window with all ports open and one fixed runner, so it is the engine in its high-speed state at every speed. Assumed, not sourced: the two rotors 180 degrees apart (the usual two-rotor arrangement; no page opened states it). Estimated, not sourced: idle speed, port flow areas, intake runner length and diameter, plenum, throttle and airbox sizes (derived defaults), every exhaust dimension (primaries, pipe, muffler, tailpipe), flywheel inertia, burn duration scale and the heat release value (tuned, with runner length, port areas and exhaust diameters, toward the published output).",
+  "vehicle": {
+    "name": "Mazda RX-8 six-speed manual (US, 2004)",
+    "kind": "car",
+    "curb_kg": 1374,
+    "gear_count": 6,
+    "gears": [
+      3.76,
+      2.269,
+      1.645,
+      1.187,
+      1.0,
+      0.843
+    ],
+    "final_drive": 4.444,
+    "wheel_radius_m": 0.3298,
+    "tyre": "225/45 R18",
+    "notes": "The US six-speed car (238 hp at 8500 rpm, 159 lb-ft at 5500) matches the 177 kW, 216 Nm high-power Renesis the engine definition models. Curb weight (3029 lb, converted) is from a dealer-data aggregator. Gear ratios and final drive are Mazda's published figures for the high-power manual car in the UK and Australia; the US aggregator gives the same ratios rounded. Tyres the same size front and rear. No US top speed found (Mazda UK gives 146 mph for its 231 PS car). wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "rear"
+  }
+}

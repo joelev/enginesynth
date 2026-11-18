@@ -1,0 +1,88 @@
+{
+  "name": "flat8",
+  "label": "3.0 L flat-eight, racing, open megaphones",
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.085,
+  "stroke": 0.066,
+  "rod": 0.13,
+  "cr": 10.5,
+  "firing": [
+    0.0,
+    270.0,
+    450.0,
+    540.0,
+    360.0,
+    630.0,
+    90.0,
+    180.0
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3
+  ],
+  "ivo": 40.0,
+  "ivc": 78.0,
+  "evo": 76.0,
+  "evc": 36.0,
+  "itb": true,
+  "runner_len": 0.2,
+  "runner_d": 0.042,
+  "primary_len": [
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55
+  ],
+  "primary_d": 0.04,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.3,
+  "secondary_d": 0.065,
+  "muffler_len": 0.0,
+  "tail_len": 0.35,
+  "tail_d": 0.065,
+  "tail_flare_d": 0.1,
+  "inertia": 0.06,
+  "redline": 9000.0,
+  "idle": 1400.0,
+  "friction_scale": 0.8,
+  "generic": true,
+  "family": "flat",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for this layout, not measurements of a real one. A boxer: opposed pistons on separate crank pins 180 degrees apart, the four pairs on a two-plane (90-degree) crank, firing evenly every 90 degrees. Each bank has its own 4-into-1 megaphone, so each side fires unevenly (270-180-90-180) as a cross-plane V8's banks do. The layout and firing order are invented, not taken from any real flat-eight."
+}

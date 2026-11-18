@@ -1,0 +1,301 @@
+{
+  "id": "lexus_1lr_gue",
+  "name": "Lexus 1LR-GUE 4.8 L V10 (LFA, 2010-2012)",
+  "induction": "naturally aspirated",
+  "summary": "A 72-degree V10 with one shared crank pin per cylinder pair, so it fires evenly every 72 degrees. Ten individual throttles, a tuned surge tank, equal-length exhaust manifolds and a 9,000 rpm limit give it the smooth, high-pitched wail it is known for.",
+  "fields": {
+    "cylinders": {
+      "value": 10,
+      "unit": null,
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Owner's manual: '10-cylinders, 72 deg V type'."
+    },
+    "bank_angle_deg": {
+      "value": 72,
+      "unit": "deg",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf"
+    },
+    "bore_mm": {
+      "value": 88.0,
+      "unit": "mm",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf"
+    },
+    "stroke_mm": {
+      "value": 79.0,
+      "unit": "mm",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. Rods are forged titanium (australiancar.reviews, ja.wikipedia)."
+    },
+    "compression_ratio": {
+      "value": 12.0,
+      "unit": ":1",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf"
+    },
+    "displacement_cc": {
+      "value": 4805,
+      "unit": "cc",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf"
+    },
+    "firing_order": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found on any page opened. Cylinder numbering and bank assignment also not found."
+    },
+    "crank": {
+      "value": "One crank pin carries one piston from each bank (five shared pins, no split pins). Forged, nitrided Ni-Cr-Mo steel, fully counterweighted. Main journal 62 mm x 24 mm, pin 45 mm x 31 mm, stroke 79 mm, mass 18,670 g.",
+      "unit": null,
+      "source": "https://motor-fan.jp/article/13602/",
+      "note": "Motor Fan article on the 1LR-GUE crankshaft, citing the maker Aichi Steel. Material from ja.wikipedia. Pin phase angles are not printed; with a 72-degree bank and shared pins, even firing requires pins 72 degrees apart in firing sequence (my inference from the stated even firing)."
+    },
+    "firing_intervals_deg": {
+      "value": "even, 72",
+      "unit": null,
+      "source": "https://motor-fan.jp/article/1395343/",
+      "note": "Motor Fan: the 72-degree bank angle was chosen to give evenly spaced firing. 720/10 = 72 is my arithmetic. en.wikipedia's Lexus LFA page also calls it even-firing."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "40-valve DOHC, rocker-arm type. Titanium intake and exhaust valves; rocker lever ratio about 1; included valve angle about 25 degrees (ja.wikipedia)."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found. Dual VVT-i (intake and exhaust phasing) per australiancar.reviews."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": 9000,
+      "unit": "rpm",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Owner's manual 'Maximum Engine Speed 9,000 rpm'. en.wikipedia adds a fuel cut-off at 9,500 rpm (https://en.wikipedia.org/wiki/Toyota_LR_engine), which I could not confirm in a Toyota document."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found as a specification."
+    },
+    "peak_power_kw": {
+      "value": 412,
+      "unit": "kW",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "SAE net; 560 PS."
+    },
+    "peak_power_rpm": {
+      "value": 8700,
+      "unit": "rpm",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf"
+    },
+    "peak_torque_nm": {
+      "value": 480,
+      "unit": "N·m",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf"
+    },
+    "peak_torque_rpm": {
+      "value": 7000,
+      "unit": "rpm",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Sources disagree: the US owner's manual and Motor Fan say 7,000 rpm; Toyota's 21 Oct 2009 launch release and en.wikipedia say 6,800 rpm (https://web.archive.org/web/20100211113226/http://www2.toyota.co.jp/en/news/09/10/1021.html). 90% of peak torque is available from 3,700 to 9,000 rpm (both Toyota documents)."
+    },
+    "intake_type": {
+      "value": "individual throttles (10 electronically controlled throttle bodies) fed from an acoustically tuned surge tank; short runners with curled air funnels inside the surge tank; dual intake path that switches from a primary inlet port to dual ports at higher speed",
+      "unit": null,
+      "source": "https://web.archive.org/web/20100211113226/http://www2.toyota.co.jp/en/news/09/10/1021.html",
+      "note": "Throttles and tuned surge tank from Toyota's release; funnel detail from ja.wikipedia; port switching from australiancar.reviews."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": "equal-length manifold runners, one manifold per bank (5-into-1 is not stated), into an equal-length dual exhaust",
+      "unit": null,
+      "source": "https://web.archive.org/web/20100211113226/http://www2.toyota.co.jp/en/news/09/10/1021.html",
+      "note": "Toyota: 'Equal-length exhaust manifolds combined with an equal-length dual exhaust system routed through a multistage titanium main muffler'."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "Titanium dual-stage rear silencer with a valve; above about 3,000 rpm the valve opens and the sound-deadening chambers are bypassed.",
+      "unit": null,
+      "source": "https://www.australiancar.reviews/?p=52363",
+      "note": "Same 3,000 rpm valve behaviour described by km77 (https://www.km77.com/coches/lexus/lfa/2010/coupe/informacion/lexus-lfa-motor-y-bastidor-informacion-tecnica)."
+    }
+  },
+  "missing": [
+    "firing_order and cylinder numbering",
+    "rod_length_mm",
+    "intake_valve_dia_mm",
+    "exhaust_valve_dia_mm",
+    "intake_lift_mm",
+    "exhaust_lift_mm",
+    "cam durations and opening/closing angles",
+    "VVT-i phasing range",
+    "idle_rpm",
+    "runner, throttle and exhaust primary dimensions"
+  ],
+  "sources": [
+    {
+      "url": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "what": "Toyota-hosted 2011 Lexus LFA owner's manual (US). Manufacturer document; has the engine specification table."
+    },
+    {
+      "url": "https://web.archive.org/web/20100211113226/http://www2.toyota.co.jp/en/news/09/10/1021.html",
+      "what": "Toyota global press release of 21 Oct 2009 announcing the LFA (archived). Manufacturer; power, torque, intake and exhaust description."
+    },
+    {
+      "url": "https://motor-fan.jp/article/13602/",
+      "what": "Motor Fan (Japanese technical magazine) article on the 1LR-GUE crankshaft with dimensions and the shared-pin layout."
+    },
+    {
+      "url": "https://motor-fan.jp/article/1395343/",
+      "what": "Motor Fan engine profile of the 1LR-GUE; states the bank angle was chosen for even firing; spec table."
+    },
+    {
+      "url": "https://www.australiancar.reviews/?p=52363",
+      "what": "australiancar.reviews engine article; secondary summary of Lexus technical material (valvetrain, intake, exhaust)."
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A8%E3%82%BF%E3%83%BBLR%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3",
+      "what": "Japanese Wikipedia article on the LR engine; more mechanical detail than the English page, but unreferenced in places."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Toyota_LR_engine",
+      "what": "English Wikipedia Toyota LR engine page; used only for the 9,500 rpm fuel cut and the 6,800 rpm torque figure."
+    },
+    {
+      "url": "https://www.km77.com/coches/lexus/lfa/2010/coupe/informacion/lexus-lfa-motor-y-bastidor-informacion-tecnica",
+      "what": "km77 (Spanish car magazine) technical description of the LFA; exhaust valve behaviour."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "Lexus LFA (2011)",
+      "unit": "",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "2011 LFA owner's manual (US), technical information pp.108-112; the 1LR-GUE's only car."
+    },
+    "curb_kg": {
+      "value": 1480,
+      "unit": "kg",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Quote: \"Curb Weight 1,480 kg-1,590 kg*\" / \"*: Figures vary according to equipment and destination.\" Lower bound used. Toyota's 2009 release (https://global.toyota/en/detail/308263) gives \"Vehicle weight\" \"1,480 kg.\" Wikipedia's 1,614 kg was not verified."
+    },
+    "gear_count": {
+      "value": 6,
+      "unit": "",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Quote: \"Transaxle Type ASG (Automated Sequential Gearbox)\", \"Transaxle Model RB60M\"."
+    },
+    "gears": {
+      "value": [
+        3.231,
+        2.188,
+        1.609,
+        1.233,
+        0.97,
+        0.795
+      ],
+      "unit": "",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Quote: \"Transaxle Gear Ratios 1st 3.231 ... 6th 0.795\" (2nd 2.188, 3rd 1.609, 4th 1.233, 5th 0.970)."
+    },
+    "final_drive": {
+      "value": 4.302,
+      "unit": "",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Quotes: \"Front Counter Gear Ratio* 1.259\" and \"Differential Gear Ratio 3.417\". 1.259 x 3.417 = 4.302 (ours). Check (ours): at 9,000 rpm this gives about 83 km/h in 1st, matching the manual's \"1st 83 km/h\" maximum permissible speed; without the counter gear it would not."
+    },
+    "tyre": {
+      "value": "305/30 ZR 20",
+      "unit": "",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Quote: \"Tire Size Front 265/35ZR20 (95Y) Rear 305/30ZR20 (99Y)\"."
+    },
+    "wheel_radius_m": {
+      "value": 0.339,
+      "unit": "m",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Estimated (ours): rolling radius taken as 98% of the unloaded radius computed from the tyre size (rim diameter / 2 + section width x aspect ratio)."
+    },
+    "top_speed_kmh": {
+      "value": 325,
+      "unit": "km/h",
+      "source": "https://assets.sia.toyota.com/publications/en/om-s/OM77021U/pdf/11LFA_OM77021U_101207.pdf",
+      "note": "Quote: \"Max. Speed 325 km/h\"."
+    },
+    "driven": {
+      "value": "rear",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/Lexus_LFA",
+      "note": "English Wikipedia, 'Lexus LFA' (read 2026-11-17), infobox layout: Front mid-engine, rear-wheel-drive."
+    }
+  }
+}

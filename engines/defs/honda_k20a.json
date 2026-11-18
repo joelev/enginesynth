@@ -1,0 +1,125 @@
+{
+  "name": "honda_k20a",
+  "label": "Honda K20A 2.0 L inline-four (i-VTEC, Integra Type R)",
+  "generic": false,
+  "family": "inline-four",
+  "based_on": "Honda K20A, Integra TYPE R (DC5), Japanese specification (11.5:1), 2001-2004",
+  "layout": "inline",
+  "bore": 0.086,
+  "stroke": 0.086,
+  "rod": 0.139,
+  "cr": 11.5,
+  "firing": [
+    0,
+    540,
+    180,
+    360
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.035,
+  "ex_valve_d": 0.03,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 5,
+    "ivc": 40,
+    "evo": 35,
+    "evc": 0,
+    "in_lift": 0.0069,
+    "ex_lift": 0.0065
+  },
+  "cam_high": {
+    "at_lift": 0.00127,
+    "ivo": 22,
+    "ivc": 42,
+    "evo": 48,
+    "evc": 10,
+    "in_lift": 0.012,
+    "ex_lift": 0.0105
+  },
+  "cam_switch_rpm": 6000,
+  "runner_len": 0.3,
+  "runner_d": 0.044,
+  "throttle_d": 0.064,
+  "primary_len": [
+    0.4,
+    0.4,
+    0.4,
+    0.4
+  ],
+  "primary_d": 0.04,
+  "groups": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "merge": "y",
+  "secondary_len": 0.35,
+  "secondary_d": 0.048,
+  "mid_d": 0.057,
+  "redline": 8400,
+  "idle": 750,
+  "friction_scale": 0.75,
+  "heat_q": 2650000,
+  "published": {
+    "power_kw": 162,
+    "power_rpm": 8000,
+    "torque_nm": 206,
+    "torque_rpm": 7000
+  },
+  "sources": [
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/06.html",
+      "what": "Honda press fact book, Integra (July 2001), engine page: TYPE R engine (fine-sand cast ports, 20-degree intake seat cut, single-runner equal-length short intake manifold, enlarged throttle, stainless dual exhaust manifold, silencer with a pressure-opened valve, compression 11.5, 8400 rpm permissible) and its net full-throttle power and torque curve, read off the printed figure. Manufacturer document."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/07.html",
+      "what": "Same fact book, i-VTEC page: TYPE R VTEC switches timing and lift on both intake and exhaust at high speed; VTC varies intake cam phase continuously with speed and load; table with 8400 rpm maximum, 220 PS at 8000, 21.0 kg m at 7000, VTEC changeover 6000 rpm, 86.0 x 86.0 mm, 1998 cc, 11.5."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+      "what": "Same fact book, specification table (LA-DC5): K20A, inline four, DOHC chain drive, 2 intake and 2 exhaust valves, 1998 cc, 86.0 x 86.0 mm, compression 11.5, net 162 kW [220 PS] at 8000 rpm and 206 N m [21.0 kg m] at 7000 rpm."
+    },
+    {
+      "url": "https://global.honda/en/technical-review/PDF/012-2/012-2_45e.pdf",
+      "what": "Honda R&D Technical Review Vol. 12 No. 2 (2000), 'Development of New 2.0L Lean-burn Engine': base K20A valves 35 mm intake and 30 mm exhaust, i-VTEC and VTC, dual exhaust manifold with a partition plate at the merge. About the base engine."
+    },
+    {
+      "url": "https://www.hondata.com/tech-rsx-vtec-vtc",
+      "what": "Hondata technical note on the US RSX K20A2/K20A3: intake cam advance by up to 50 degrees with VTC. Different variant; used only for the VTC range."
+    },
+    {
+      "url": "https://workshop-manuals.com/acura/rsx/l4-2.0l_(vtec)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/",
+      "what": "Third-party reproduction of 2002 Acura RSX (K20A3) service data: firing order 1-3-4-2. Not a Honda page and not the TYPE R engine."
+    },
+    {
+      "url": "https://www.hybrid-racing.com/products/manley-h-beam-connecting-rods-k20a-k20z",
+      "what": "Aftermarket K20A2/K20Z replacement rods listed at 139 mm centre to centre. Search excerpt only; weak source for the stock rod length."
+    }
+  ],
+  "notes": "Modelled variant: the K20A of the Japanese Integra TYPE R (DC5) as launched in July 2001, compression 11.5:1, rated 162 kW (220 PS) net at 8000 rpm and 206 N m (21.0 kg m) net at 7000 rpm, VTEC changeover 6000 rpm, maximum permissible 8400 rpm. It is chosen because Honda's own fact book gives all of these for this engine and prints its net full-throttle curve, so the fit can be checked across the speed range. The 2004 update (11.7:1, 225 PS, 21.9 kg m at 6100, changeover 5800 rpm) and the EP3 Civic TYPE R's 215 PS K20A are not modelled. Sourced from Honda documents: bore 86.0 mm, stroke 86.0 mm, 1998 cc, compression 11.5, four valves per cylinder, published power and torque, VTEC on both cams with changeover at 6000 rpm, maximum permissible 8400 rpm (used as redline and limiter; Wikipedia's 8600 rpm limiter is uncited), a single-runner equal-length short intake manifold with no variable length, and a stainless dual exhaust manifold (two pairs merged; pairing 1+4 and 2+3 is assumed). From Honda's paper on the base K20A: 35 mm intake and 30 mm exhaust valves; that the TYPE R keeps them is my inference (Honda lists its TYPE R head changes and larger valves are not among them). Sourced from non-Honda pages: firing order 1-3-4-2 (RSX K20A3 service data, assumed the same) and rod length 139 mm (aftermarket rods). A flat-plane crank is assumed. Estimated, not sourced: both cam profiles. Honda publishes neither. The low-cam lifts (6.9 mm intake, 6.5 mm exhaust) and high-cam lifts (12.0 and 10.5 mm) are the figures a forum post attributes to a TYPE R spec sheet, and the high-cam durations (244 and 238 degrees at 0.050 in, set as at_lift 1.27 mm) are those another forum post gives; both were seen only as search excerpts and are leads, not sources. All four cam timings, the throttle (64 mm; Honda says only that it is larger than the iS's), runner length and diameter, header primary and secondary sizes, exhaust pipe diameter, idle speed (750 rpm), plenum, airbox, mufflers, tail pipe and flywheel inertia (derived defaults) are estimates. Fit: the low-cam timing, the high-cam timing, heat_q 2.65e6 and friction_scale 0.75 were fitted to Honda's net curve read off the fact book figure (about 191 N m at 2900 rpm, 185 at 3700 to 4500, rising from about 5000 rpm to 206 at 7000, 193 at 8000). The model stays within about 6 percent of that reading from 2000 to 8400 rpm; it is up to 6 percent high around 3700 and 5300 rpm. VTC: the K20A varies the intake cam's phase continuously (by up to 50 degrees on US K20A engines) with speed and load. The definition format has two fixed cam profiles and no phase control, so VTC is approximated by fixing each profile's intake timing at a phase meant to stand for its full-throttle setting: the low cam's intake events as given for below 6000 rpm, the high cam's for above. What this cannot represent: the overlap and intake-closing changes VTC makes at part throttle and idle (internal EGR, idle stability), and any change of phase with speed within each cam range, so the low-speed curve's shape comes from wave tuning and the fixed timing, not from a phase map. Also not modelled: the pressure-opened valve in the silencer (the mufflers are the derived defaults, always open).",
+  "vehicle": {
+    "name": "Honda Integra Type R (DC5, Japan, 2001)",
+    "kind": "car",
+    "curb_kg": 1170,
+    "gear_count": 6,
+    "gears": [
+      3.266,
+      2.13,
+      1.517,
+      1.212,
+      0.972,
+      0.78
+    ],
+    "final_drive": 4.764,
+    "wheel_radius_m": 0.3126,
+    "tyre": "215/45 ZR17",
+    "notes": "All values from Honda's July 2001 press fact book specification table (LA-DC5, 6-speed manual TYPE R column). Curb weight is the car without air conditioning; with air conditioning it is 1180 kg. No published top speed was found. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "front"
+  }
+}

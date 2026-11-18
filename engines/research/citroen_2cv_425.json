@@ -1,0 +1,311 @@
+{
+  "id": "citroen_2cv_425",
+  "name": "Citroën 2CV flat-twin type A 53, 425 cc (16 DIN-PS / 18 ch SAE at 5000 rpm), 2CV AZ / AZAM, February 1963 to February 1970",
+  "induction": "naturally aspirated",
+  "summary": "The 375 bored from 62 to 66 mm; this is its 1963 A 53 evolution with new cylinders, pistons, rods, heads and a Solex 28 with a 22 mm venturi, giving about 16 DIN-PS at 5000 rpm through an under-gearbox silencer and a second silencer under the body.",
+  "fields": {
+    "cylinders": {
+      "value": 2,
+      "unit": "count",
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "'deux cylindres à plat ou flat-twin de type boxer' (two cylinders flat, a boxer flat-twin)."
+    },
+    "layout": {
+      "value": "flat",
+      "unit": null,
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "Boxer flat-twin, air-cooled, aluminium crankcase, finned cast-iron cylinders: 'bloc-moteur en alliage d'aluminium, cylindres en fonte munis d'ailettes de refroidissement, refroidi par air forcé'."
+    },
+    "bank_angle_deg": {
+      "value": 180,
+      "unit": "deg",
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "Opposed cylinders ('à plat')."
+    },
+    "crank": {
+      "value": "two crank throws at 180 degrees; both pistons reach top dead centre together and move in and out together (boxer); two main bearings; crankshaft built up of five pressed steel pieces with the connecting rods captive",
+      "unit": null,
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "'doté d'un vilebrequin à deux paliers'; 'Le vilebrequin est constitué de cinq pièces en acier frettées incluant les bielles ... l'embiellage est indémontable' (the crankshaft is five shrink-fitted steel pieces including the rods; the rod assembly cannot be taken apart). That both pistons are at TDC at once is from the ignition section: at each spark 'un cylindre étant alors au point mort haut de compression ... l'autre en opposition de phase, tombant en fin d'échappement' (one cylinder at TDC on compression, the other at the end of its exhaust stroke). That the pistons move toward and away from each other together: Méhari Club Cassis on the breather, 'lorsque les pistons reviennent l'un vers l'autre ... lorsque ces mêmes pistons s'éloignent' (https://infos-club.mehariclub.com/?p=3949). Rods on needle bearings, crankshaft supplied with its two rods: kfz-tech.de (https://www.kfz-tech.de/Engl/Hersteller/Citroen/Citroen2CVM.htm)."
+    },
+    "firing_order": {
+      "value": "1-2",
+      "unit": null,
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "Two cylinders firing alternately; the article names no cylinder numbering."
+    },
+    "firing_intervals_deg": {
+      "value": 360,
+      "unit": "deg crank",
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "Even: each cylinder fires once per two turns and the two reach firing TDC one turn apart, from the crank description above. Ignition is wasted spark: 'une étincelle est commandée à chaque tour du vilebrequin dans les deux chambres de combustion' (a spark in both chambers every crankshaft revolution), from one breaker worked by a two-lobed cam on the camshaft nose and a coil with two high-tension outputs ('une came à deux bossages en bout de l'arbre à cames ... La bobine à deux sorties haute tension')."
+    },
+    "valvetrain": {
+      "value": "two valves per cylinder in a V in hemispherical aluminium heads; one central camshaft below the crankshaft, gear-driven with an anti-backlash gear; tappets, pushrods and rockers",
+      "unit": null,
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "'arbre à cames central sous le vilebrequin entraîné par une distribution par pignons, culbuteurs actionnés par tiges, culasses en aluminium ... avec chambres hémisphériques, deux soupapes en tête'; 'synchronisé au vilebrequin par un engrenage avec rattrapage de jeu'. kfz-tech.de: 'The cam shaft was mounted underneath the crankshaft, driving the valves via push rods and rocker arms' (https://www.kfz-tech.de/Engl/Hersteller/Citroen/Citroen2CVM.htm)."
+    },
+    "valves_per_cylinder": {
+      "value": 2,
+      "unit": "count",
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "'deux soupapes en tête par culasse'."
+    },
+    "intake_type": {
+      "value": "one carburettor in the middle of a common intake tube feeding both heads",
+      "unit": null,
+      "source": "https://www.kfz-tech.de/Engl/Hersteller/Citroen/Citroen2CVM.htm",
+      "note": "'the flanges for the common intake tube ... On top of it, in the middle, the carburettor was mounted'. Runner length and bore not found."
+    },
+    "cooling": {
+      "value": "forced air from a fan on the crankshaft nose, plus an oil cooler",
+      "unit": null,
+      "source": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "note": "'refroidissement ... à air pulsé par une turbine ... placée directement en bout d'arbre moteur'; 'un radiateur d'huile frontal'."
+    },
+    "cam_lobe_centre": {
+      "value": 108,
+      "unit": "deg (Citroën's recommended lobe centre for a standard camshaft; which lobe and from which TDC not stated)",
+      "source": "http://cms.ice.be/files/76/multitool-en-f.pdf",
+      "note": "'Citroën recommended 108° for a standard 2CV camshaft (Original camshaft only).' The tool measures the lobe at 0.90 mm below full lift on each side. Not used to place the model's cam, because the lobe it refers to is not stated."
+    },
+    "variant": {
+      "value": "type A 53, February 1963 to February 1970 (2CV AZ, AZAM; AZU van until 1967)",
+      "unit": null,
+      "source": "https://infos-club.mehariclub.com/?p=3949",
+      "note": "'En février 1963, Citroën améliore encore le moteur de la 2 CV ... Cylindres, pistons, embiellage, culasses, tubulure et carburateurs sont nouveaux !' (new cylinders, pistons, rods, heads, manifold and carburettors). The 425 ran from September 1954 with ratings of 12 ch (1954), 13.5 ch at 4200 rpm (October 1961, compression 7.2 to 7.5), 15 ch at 4500 rpm (April 1962), then the A 53; the A 79/0 of 1967 (21 ch SAE at 5450 rpm, 7.75:1) went to the Dyane and the AZU van. The A 53 is chosen because it is the longest-lived 2CV saloon 425 and its rating has two independent sources."
+    },
+    "bore_mm": {
+      "value": 66.0,
+      "unit": "mm",
+      "source": "https://infos-club.mehariclub.com/?p=3949",
+      "note": "'L'alésage x course en vigueur depuis septembre 1954, soit 66 x 62 mm' (bore x stroke in force since September 1954, 66 x 62 mm). Autotitre 2CV AZL: '66.0 x 62.0 mm' (https://www.autotitre.com/fiche-technique/Citro%C3%ABn/2CV/AZL/1962-1967)."
+    },
+    "stroke_mm": {
+      "value": 62.0,
+      "unit": "mm",
+      "source": "https://infos-club.mehariclub.com/?p=3949",
+      "note": "As above."
+    },
+    "displacement_cc": {
+      "value": 425,
+      "unit": "cc",
+      "source": "https://infos-club.mehariclub.com/?p=3949",
+      "note": "66 x 62 mm x 2 = 424.3 cc (my arithmetic). ADAC lists 421 ccm (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/2cv/1generation/350117/)."
+    },
+    "compression_ratio": {
+      "value": 7.5,
+      "unit": ":1",
+      "source": "https://infos-club.mehariclub.com/?p=3949",
+      "note": "The A 53 'conserve la cylindrée de 425 cm3 et le taux de compression de 7,5'. French Wikipedia: '6,2 puis 7 dep fin55 puis 7,5 dep 63' (https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053); Retro-Design 7,5:1 (https://www.retro-design.fr/en/content/10-data-sheet-2cv-before-1970)."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found."
+    },
+    "cam_timing": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "No valve timing found for this engine."
+    },
+    "carburettor": {
+      "value": "Solex 28 CBI (with idle brake) or 28 IBC (without), 22 mm venturi",
+      "unit": null,
+      "source": "https://infos-club.mehariclub.com/?p=3949",
+      "note": "'La maison Solex fournit maintenant des carburateurs 28 CBI (avec frein de ralenti) et 28 IBC (sans frein de ralenti) avec une buse de 22.' (buse = venturi). Retro-Design gives 'Solex 28BCI' (https://www.retro-design.fr/en/content/10-data-sheet-2cv-before-1970)."
+    },
+    "throttle_dia_mm": {
+      "value": 28,
+      "unit": "mm (carburettor nominal size)",
+      "source": "https://infos-club.mehariclub.com/?p=3949",
+      "note": "From the type name; venturi 22 mm."
+    },
+    "venturi_dia_mm": {
+      "value": 22,
+      "unit": "mm",
+      "source": "https://infos-club.mehariclub.com/?p=3949",
+      "note": "'avec une buse de 22'."
+    },
+    "peak_power_kw": {
+      "value": 11.8,
+      "unit": "kW (16 DIN-PS)",
+      "source": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/2cv/1generation/350117/",
+      "note": "ADAC, 2CV 03/63 to 09/71: '12 kW (16 PS) / 25 Nm', 'Leistung maximal bei U/min 5000'. Méhari Club Cassis gives the A 53 as '18 à 5 000 tr/mn' in SAE horsepower (the A 79/0 'délivre 21 ch SAE à 5 450 tr/mn au lieu de 18 à 5 000 tr/mn', https://infos-club.mehariclub.com/?p=3949). Retro-Design gives '16ch Din to 4200trs/min – 27Nm to 2500trs/min' (https://www.retro-design.fr/en/content/10-data-sheet-2cv-before-1970), at different speeds. The DIN figure is used; 16 PS = 11.8 kW."
+    },
+    "peak_power_rpm": {
+      "value": 5000,
+      "unit": "rpm",
+      "source": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/2cv/1generation/350117/",
+      "note": "ADAC 5000 U/min; Méhari Club Cassis 5000 tr/mn (SAE rating)."
+    },
+    "peak_torque_nm": {
+      "value": 25.0,
+      "unit": "N·m",
+      "source": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/2cv/1generation/350117/",
+      "note": "'Drehmoment 25 Nm', 'Drehmoment maximal bei U/min 3500'."
+    },
+    "peak_torque_rpm": {
+      "value": 3500,
+      "unit": "rpm",
+      "source": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/2cv/1generation/350117/",
+      "note": "ADAC."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "short pipes from the heads to a silencer under the gearbox, then a secondary pipe to a second, suspended silencer under the body",
+      "unit": null,
+      "source": "https://www.mecatechnic.com/en-GB/secondary-under-body-silencer-for-citroen-2cv-azam_CV11453.htm",
+      "note": "Secondary under-body silencer for the AZAM, September 1966 to September 1967, '77cm long', 'fixed under the body by 2 rubber rings'. Secondary pipe clamp '2CV (01/1950 - 07/1972 – 32 mm diameter)' (https://www.mehariclub.com/en/2cv/engine/exhaust/?page=1). French Wikipedia groups the 375 and 425 with the short system ending in a transverse silencer under the gearbox (https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053). Pipe lengths not found."
+    }
+  },
+  "missing": [
+    "rod length",
+    "valve diameters and lift",
+    "valve timing",
+    "intake tube length and bore",
+    "exhaust pipe lengths, silencer volumes",
+    "idle speed",
+    "maximum engine speed",
+    "flywheel inertia"
+  ],
+  "sources": [
+    {
+      "url": "https://infos-club.mehariclub.com/?p=3949",
+      "what": "Méhari Club Cassis (2CV and Méhari parts supplier and engine rebuilder, which runs one of the historic 2CV engine-renovation lines), article 'Evolution : depuis la 2 CV A jusqu'à la 2 CV 6, tous les moteurs bicylindres de 1949 à 1990', 25 May 2020: every engine type with dates, bore and stroke, compression and ratings. Club history, no factory document cited."
+    },
+    {
+      "url": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "what": "French Wikipedia, 'Moteur bicylindre boxer Citroën' (formerly 'Moteur de Citroën 2CV'), revision 241039053: construction (two-bearing built-up crankshaft, gear-driven central camshaft, pushrods, hemispherical heads), wasted-spark ignition, exhaust layouts and a table of every engine type. Its table cites no sources."
+    },
+    {
+      "url": "https://www.retro-design.fr/en/content/10-data-sheet-2cv-before-1970",
+      "what": "Retro-Design (French 2CV parts retailer), data sheet '2CV before 1970': engine table with DIN power and torque per period. Retailer, not a factory document."
+    },
+    {
+      "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/2cv/1generation/350117/",
+      "what": "ADAC (German automobile club) Autokatalog, Citroën 2CV 03/63 to 09/71: power, torque and their speeds."
+    },
+    {
+      "url": "https://www.autotitre.com/fiche-technique/Citro%C3%ABn/2CV/AZL/1962-1967",
+      "what": "Autotitre fiche technique, Citroën 2CV AZL 1962-1967: bore, stroke, compression. Database, no source given."
+    },
+    {
+      "url": "https://www.kfz-tech.de/Engl/Hersteller/Citroen/Citroen2CVM.htm",
+      "what": "kfz-tech.de, 'Citroën 2 CV (engine)': description of the engine (central camshaft under the crank, pushrods, common intake tube with the carburettor in the middle, needle-bearing rods on a crankshaft supplied complete, large flywheel). Reference site."
+    },
+    {
+      "url": "http://cms.ice.be/files/76/multitool-en-f.pdf",
+      "what": "ICE (Belgian 2CV specialist), 'Multi-tool 2CV / Visa' instructions: camshaft timing check, quoting Citroën's recommended lobe centre of 108 degrees for a standard camshaft."
+    },
+    {
+      "url": "https://www.mecatechnic.com/en-GB/secondary-under-body-silencer-for-citroen-2cv-azam_CV11453.htm",
+      "what": "Mecatechnic, secondary under-body silencer for the 2CV AZAM, September 1966 to September 1967, 77 cm long. Vendor."
+    },
+    {
+      "url": "https://www.mehariclub.com/en/2cv/engine/exhaust/?page=1",
+      "what": "Méhari Club Cassis exhaust parts list: clamp for the secondary exhaust pipe 2CV 01/1950 to 07/1972, 32 mm. Vendor."
+    }
+  ],
+  "vehicle": {
+    "name": "Citroën 2CV AZAM (1966)",
+    "fields": {
+      "curb_kg": {
+        "value": 535,
+        "unit": "kg",
+        "source": "https://a.storyblok.com/f/332646/x/1e712f6246/57-18200-854-1-2cv.pdf",
+        "note": "Factory technical data, 2CV column: 'Leergewicht, fahrbereit ... 535 bis 2/1970 ... 600 ab 2/1970' (kerb weight, ready to drive: 535 kg up to February 1970, 600 kg from February 1970). citroenet's AZA/AZAM row gives 'weight 495 kg' (https://www.citroenet.org.uk/passenger-cars/michelin/2cv/a-series.html), the same as its 1949 figure."
+      },
+      "gear_count": {
+        "value": 4,
+        "source": "https://a.storyblok.com/f/332646/x/1e712f6246/57-18200-854-1-2cv.pdf",
+        "note": "Gearbox table '2 CV: 11/1964 - 2/1970', gears 1 to 4 and R."
+      },
+      "gears": {
+        "value": [
+          7.41,
+          3.572,
+          2.133,
+          1.473
+        ],
+        "unit": "",
+        "source": "https://a.storyblok.com/f/332646/x/1e712f6246/57-18200-854-1-2cv.pdf",
+        "note": "'1 19 : 28 x 14 : 33 x 15 : 32 (7,410) ... 26,863 ... 4,020; 2 19 : 28 x 22 : 25 x 15 : 32 (3,572) ... 12,950 ... 8,339; 3 15 : 32 (2,133) ... 7,733 ... 13,966; 4 19 : 28 (1,473) ... 5,342 ... 20,217' (gearbox ratio, overall ratio, km/h per 1000 rpm). French Wikipedia's AZA row agrees on the gearbox ratios (https://fr.wikipedia.org/wiki/Bo%C3%AEte_de_vitesses_(2CV)). Cars built February 1963 to November 1964 are not covered by this table."
+      },
+      "final_drive": {
+        "value": 3.625,
+        "unit": "",
+        "source": "https://a.storyblok.com/f/332646/x/1e712f6246/57-18200-854-1-2cv.pdf",
+        "note": "'Achsübersetzung 8: 29 (3,625)'."
+      },
+      "wheel_radius_m": {
+        "value": 0.2865,
+        "unit": "m",
+        "source": "https://a.storyblok.com/f/332646/x/1e712f6246/57-18200-854-1-2cv.pdf",
+        "note": "Factory gearbox tables: 'Getriebeübersetzung: gültig für Fahrzeuge mit Reifengröße 125 SR 15, dynamischer Abrollumfang 1800 mm' (ratios valid for 125 SR 15 tyres, dynamic rolling circumference 1800 mm). Radius = 1.8 m / 2 pi, my conversion; a published rolling circumference."
+      },
+      "tyre": {
+        "value": "125 x 380",
+        "source": "https://www.citroenet.org.uk/passenger-cars/michelin/2cv/a-series.html",
+        "note": "'2 CV Type AZA, AZAM ... 125 x 380 Michelin X'. Front-wheel drive. The factory manual's tables use 125 SR 15 (381 mm rim, same nominal size)."
+      },
+      "top_speed_kmh": {
+        "value": 95,
+        "unit": "km/h",
+        "source": "https://www.citroenet.org.uk/passenger-cars/michelin/2cv/a-series.html",
+        "note": "AZA/AZAM row, '95 kph'. French Wikipedia's model table gives 96 km/h for the 425 cc AZ of 1965-72 (https://fr.wikipedia.org/wiki/Citro%C3%ABn_2_CV)."
+      },
+      "driven": {
+        "value": "front",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Citroën_2CV",
+        "note": "English Wikipedia, 'Citroën 2CV' (read 2026-11-17), infobox layout: Front-engine, front-wheel-drive (also a dual-engine four-wheel-drive version)."
+      }
+    },
+    "missing": [],
+    "sources": [
+      {
+        "url": "https://a.storyblok.com/f/332646/x/1e712f6246/57-18200-854-1-2cv.pdf",
+        "what": "Citroën Reparaturhandbuch Nr. 854 Band 1, January 1983, 'A-Modelle ab 1963' (German factory workshop manual, scan distributed by Der Franzose GmbH): kerb weights, gearbox tables (section A.330-00) with gearbox, final-drive and overall ratios and km/h per 1000 rpm on 125 SR 15 tyres of 1800 mm rolling circumference."
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Bo%C3%AEte_de_vitesses_(2CV)",
+        "what": "French Wikipedia 'Boîte de vitesses (2CV)': gear-ratio table per model (ratios as output/input, final drive, km/h per 1000 rpm). The article is tagged as needing sources."
+      },
+      {
+        "url": "https://www.citroenet.org.uk/passenger-cars/michelin/2cv/a-series.html",
+        "what": "Citroënët 2CV A-series table: AZA/AZAM engine, tyres, weight, maximum speed."
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Citro%C3%ABn_2_CV",
+        "what": "French Wikipedia 'Citroën 2 CV': model table with maximum speeds."
+      }
+    ]
+  }
+}

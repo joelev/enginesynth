@@ -1,0 +1,134 @@
+{
+  "name": "bmw_s14b23",
+  "label": "BMW S14 2.3 L 16-valve inline-four (E30 M3)",
+  "generic": false,
+  "family": "inline-four",
+  "based_on": "BMW S14B23 with catalytic converter, E30 M3, 1986-1989 (195 PS)",
+  "layout": "inline",
+  "bore": 0.0934,
+  "stroke": 0.084,
+  "rod": 0.144,
+  "cr": 10.5,
+  "firing": [
+    0,
+    540,
+    180,
+    360
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.037,
+  "ex_valve_d": 0.032,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 10,
+    "ivc": 56,
+    "evo": 54,
+    "evc": 12,
+    "in_lift": 0.0107,
+    "ex_lift": 0.0107
+  },
+  "itb": true,
+  "runner_len": 0.42,
+  "runner_d": 0.046,
+  "primary_len": [
+    0.75,
+    0.75,
+    0.75,
+    0.75
+  ],
+  "primary_d": 0.04,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "merge": "none",
+  "redline": 7250,
+  "idle": 880,
+  "friction_scale": 0.8,
+  "heat_q": 2600000,
+  "published": {
+    "power_kw": 143,
+    "power_rpm": 6750,
+    "torque_nm": 230,
+    "torque_rpm": 4750
+  },
+  "sources": [
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/1_td__engine_in_general_s14_m3/",
+      "what": "BMW AG TIS repair-manual technical data, 'Engine In General, S14, M3' (issue status 12/2007), reproduced at workshop-manuals.com: bore, stroke, displacement, compression, power and torque with and without catalyst, permitted speeds. Manufacturer data on a third-party site."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/0__engine_general/2_td__engine_in_general_s14_m3_e_2/",
+      "what": "Same TIS, 'Engine in General S14 / M3 E 2' (Evolution): 11.0:1, 162 kW at 6750, 245 N m at 4750. Used only to rule out that variant."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/34__valves_with_springs/1_td__valves_with_springs_s14/",
+      "what": "Same TIS, 'Valves with Springs, S14': valve head diameters 37 and 32 mm, valve clearance."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/12__cylinder_head_with_cover/4_td__cylinder_head_with_valve_seat_cover_s14/",
+      "what": "Same TIS, 'Cylinder Head With Valve Seat Cover, S14': seat outer diameters 36.6 and 31.4 mm."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/12__cylinder_head_with_cover/5_td__cylinderhead_with_cover_timing_case_s14/",
+      "what": "Same TIS, 'Cylinderhead with cover timing case S14': 37.5 mm bucket tappet bores."
+    },
+    {
+      "url": "https://workshop-manuals.com/bmw/3_series_e30/m3_s14_sal/3_technical_data/11__engine_(s14)/21__crankshaft_with_bearing/5_td__crankshaft_and_bearings_s14_m3/",
+      "what": "Same TIS, 'Crankshaft and Bearings S14 / M3': crankshaft throw 84 mm."
+    },
+    {
+      "url": "http://www.s14.ctmnet.de/0067/0067_11.htm",
+      "what": "BMW dealer brochure 'BMW Praxis: Vom Rennsport für die Serie: M3', Stand 9/86, scanned page 11 of 32 (image http://www.s14.ctmnet.de/0067/11.jpg): forged five-bearing crank, 84 mm stroke, 144 mm rod length. Manufacturer document on an enthusiast archive; read from the image."
+    },
+    {
+      "url": "http://www.s14.ctmnet.de/0067/0067_13.htm",
+      "what": "Same brochure, page 13 (image http://www.s14.ctmnet.de/0067/13.jpg): table 'Für Kenner: die Daten des M3-Motors' with and without catalyst."
+    },
+    {
+      "url": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST501%20New%20Engine%20Technology%20%28Archive%201%29/02_Engine%20Diagnosis.pdf",
+      "what": "BMW of North America technical training, ST501 'Engine Diagnosis' (print 03/05, revised 03/06), on the Internet Archive: S14 firing order 1-3-4-2, cylinder 1 at the front."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BMW_S14",
+      "what": "Wikipedia BMW S14: version table and years; two throttle bodies with two butterflies each (cites the BMW M Registry)."
+    },
+    {
+      "url": "https://www.turnermotorsport.com/BMW-E30-M3/c-41-bmw-camshafts",
+      "what": "Turner Motorsport camshaft listing for the E30 M3; read only as a search-engine excerpt ('stock is 246', 'stock is 10.7'); the page returns 403. Weak."
+    },
+    {
+      "url": "https://www.bmwe21.net/?p=173",
+      "what": "bmwe21.net 320iS (S14B20) specification page: idle 880 +/- 50 rpm for the 2.0 L sister engine; air-flow meter shared with the M3. Enthusiast page."
+    },
+    {
+      "url": "https://store.langracing.com/products/carrillo-s14-connecting-rod-144mm-set-of-4",
+      "what": "Lang Racing: Carrillo S14 connecting rod, 144 mm. Aftermarket; corroborates the brochure's rod length."
+    }
+  ],
+  "notes": "Modelled variant: the S14B23 with catalytic converter (E30 M3, 1986-1989), 10.5:1, rated 143 kW (195 PS) at 6750 rpm and 230 N m at 4750 rpm. It is chosen because BMW's repair-manual technical data (TIS) and BMW's 1986 dealer brochure agree on all its figures; for the 147 kW engine without catalyst they disagree (brochure 200 PS at 6750 and 240 N m, TIS 147 kW at 6900 and 245 N m), and the TIS gives a permitted maximum speed (7250 rpm) for the catalyst version only. Sourced from BMW documents: bore 93.4 mm, stroke 84 mm, 2302 cc, compression 10.5, four valves per cylinder, valve head diameters 37 and 32 mm (TIS), rod length 144 mm (1986 brochure), firing order 1-3-4-2 with cylinder 1 at the front (BMW training document), permitted top speed 7250 rpm with catalyst (used as limiter and redline), published power and torque. Individual throttles (two throttle bodies with two butterflies each) are from Wikipedia citing the BMW M Registry. A flat-plane crank is assumed (the only layout that gives the sourced order with even firing). Estimated, not sourced: the whole cam timing and the exhaust lift (no BMW figure was found; the intake lobe is set to 10.7 mm lift and 246 degrees at 1 mm lift, the stock figures quoted in a retailer excerpt that could not be opened, and the exhaust is made the same), intake trumpet length and diameter (420 mm, 46 mm), the exhaust manifold layout (a single 4-into-1 with 750 mm primaries of 40 mm is used; the production manifold's layout was not found), idle 880 rpm (the figure for the 2.0 L S14B20 sister engine), everything else left to derived defaults (collector, pipes, muffler, flywheel inertia). friction_scale 0.8 and heat_q 2.6e6 were tuned, both inside their ranges and away from the limits. Runner length, primary length, friction_scale and heat_q were fitted to the published torque and power. Not modelled: the air-flow meter and airbox ahead of the throttles (each throttle draws from open air here), the catalytic converter as a separate element, and the tachometer red line (not found). Idle settles about 60 rpm above target, the known small-throttle idle limit of individual-throttle engines. Simulated power is still rising slightly above 6750 rpm (about 147 kW at 7100), where BMW's rating puts the peak at 6750.",
+  "vehicle": {
+    "name": "BMW M3 (E30) with catalytic converter (Europe, 1987)",
+    "kind": "car",
+    "curb_kg": 1200,
+    "gear_count": 5,
+    "gears": [
+      3.72,
+      2.4,
+      1.77,
+      1.26,
+      1.0
+    ],
+    "final_drive": 3.25,
+    "wheel_radius_m": 0.3033,
+    "tyre": "205/55 VR15",
+    "top_speed_kmh": 230,
+    "notes": "All values from BMW's dealer presentation 'M3 Vorstellung' (BMW Praxis, 9/86), 'mit Katalysator' column: the European car with the Getrag five-speed 'Sportgetriebe' (dog-leg first, direct fifth). North American cars had an overdrive five-speed and a 4.10 final drive (community source), not modelled here. The weight is BMW's 'Leergewicht'; whether it is to DIN is my inference. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "rear"
+  }
+}

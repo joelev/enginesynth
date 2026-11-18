@@ -1,0 +1,323 @@
+{
+  "id": "ducati_1098_testastretta",
+  "name": "Ducati Testastretta Evoluzione 1099 cc 90-degree L-twin (Ducati 1098 / 1098 S, 2007-2008)",
+  "induction": "naturally aspirated",
+  "summary": "A 90-degree twin with both rods on one crank pin, so the two cylinders fire 270 and then 450 crank degrees apart: a loping, uneven big-twin beat. Very large 104 mm bores, desmodromic valves, a 2-1-2 exhaust with a long single section and twin under-seat silencers.",
+  "fields": {
+    "cylinders": {
+      "value": 2,
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+      "note": "Ducati 2008 Superbike spec sheet: 'L-Twin cylinder, 4 valve per cylinder Desmodromic, liquid cooled'."
+    },
+    "layout": {
+      "value": "V (90-degree 'L-twin', front cylinder near horizontal, rear near vertical)",
+      "source": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=101",
+      "note": "Owner's manual: 'Longitudinal 90 deg \"L\" twin cylinder, four-stroke.'"
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=101"
+    },
+    "bore_mm": {
+      "value": 104.0,
+      "unit": "mm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+      "note": "'Bore x Stroke 104x64.7mm'. Same in owner's manual (https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=101)."
+    },
+    "stroke_mm": {
+      "value": 64.7,
+      "unit": "mm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf"
+    },
+    "displacement_cc": {
+      "value": 1099,
+      "unit": "cc",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf"
+    },
+    "rod_length_mm": {
+      "value": 124.0,
+      "unit": "mm",
+      "source": "https://www.ducatiforum.co.uk/goto/post?id=1605728",
+      "note": "WEAK: forum only, and stitched from two posts in one thread. One poster: 'The 999r rods are the same eye to eye as 1098 748 848 and pretty much all other water cooled ducati before panigale, except the 749R and 1198 1098R, which are longer and shorter respectively.' Another: 'A few engines use 124mm eye to eye' / '124 is a good size for a lot of ducatis'. No post states '1098 = 124 mm' in one sentence. A vendor listing (spoolimports.com/psr5318, Carrillo rod set for 996/998/999/1098S) appeared in search results with 124 mm centre-to-centre but the page returned an error and was not read. No Ducati document found."
+    },
+    "compression_ratio": {
+      "value": 12.5,
+      "unit": ":1",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+      "note": "Spec sheet '12.5:1'; owner's manual gives '12.5 +/- 0.5:1'."
+    },
+    "firing_order": {
+      "value": "horizontal (front) cylinder, then vertical (rear) cylinder 270 crank degrees later",
+      "source": "https://www.ducatiforum.co.uk/goto/post?id=1159147",
+      "note": "Forum source quoting the Ducati workshop manual's reference position; no manufacturer page states the order outright. The workshop manual quote in the thread: 'Position the crankshaft so that the piston of the horizontal cylinder is at TDC of its power stroke.' A forum member then: 'When the vertical piston is at TDC on its firing stroke the pullies will have moved 135 degs counter-cw from the marks (270 on the crank).' Thread is about the 848 (same Testastretta Evoluzione family and timing layout as the 1098); applied to the 1098 by family, not stated for it. Ducati calls the cylinders horizontal and vertical; no cylinder numbers were found on a page read."
+    },
+    "crank": {
+      "value": "single shared crank pin (both connecting rods side by side on one pin), 90-degree V",
+      "source": "https://www.slashgear.com/2290714/l-twin-vs-other-v-twin-motorcycle-engine-cylinder-layout-differences/",
+      "note": "General-interest article, not a Ducati document: 'The 90-degree layout with the shared crankpin means that firing intervals are spaced at the 270-degree and 450-degree rotations of the crankshaft.' No balance shaft is mentioned in any source read; crank rotation direction not stated in any source read (list as missing)."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        270,
+        450
+      ],
+      "unit": "crank deg",
+      "source": "https://motorcyclemojo.com/2014/09/crankshafts-and-firing-orders/",
+      "note": "Starting from the horizontal cylinder: horizontal -> vertical 270, vertical -> horizontal 450. Quoted (Motorcycle Mojo technical column, about 270-degree parallel twins and 90-degree V-twins): 'the second cylinder fires 270 degrees after the first, and then the crankshaft must turn an additional 450 degrees before the first cylinder fires again (270 + 450 = 720). The power pulses are spaced exactly as they are on a 90-degree V-twin, such as on a Ducati'. Which cylinder leads comes from the forum thread cited under firing_order."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+      "note": "Desmodromic: 4 opening and 4 closing rockers, two overhead camshafts per head, belt driven (owner's manual)."
+    },
+    "intake_valve_dia_mm": {
+      "value": 42.0,
+      "unit": "mm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-press.pdf",
+      "note": "Ducati 2008 Superbike press kit: 'racing size 'R' valves (42mm inlet, 34mm exhaust), operated by radical 'R' derived camshafts'."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 34.0,
+      "unit": "mm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-press.pdf"
+    },
+    "intake_lift_mm": {
+      "value": 11.8,
+      "unit": "mm",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "Third-party tuner's table of factory cam specs (bikeboy.org, Brad Black, an Australian Ducati dyno tuner), not a Ducati document. The table does not print its measuring lift; the same author's cam-timing article (https://bikeboy.org/camtime4v.html) says 'Generally, all the Ducati specs are given at 1.00mm lift', so 1 mm lift is the presumed convention, not confirmed for this row. Verbatim 1098 row (inlet opening, inlet closing, exhaust opening, exhaust closing, inlet duration, exhaust duration, inlet lift, exhaust lift, inlet C/L, exhaust C/L): '1098| 15| 58| 60| 20| 253| 260| 11.8| 10.6| 111.5| 110'. The Ducati workshop manual figure could not be opened in this session."
+    },
+    "exhaust_lift_mm": {
+      "value": 10.6,
+      "unit": "mm",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "Same table and caveats as intake_lift_mm."
+    },
+    "intake_duration_deg": {
+      "value": 253,
+      "unit": "crank deg",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "Presumed at 1 mm lift (see intake_lift_mm note). Table value; equals 15 + 180 + 58."
+    },
+    "exhaust_duration_deg": {
+      "value": 260,
+      "unit": "crank deg",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "Presumed at 1 mm lift. Table value; equals 60 + 180 + 20."
+    },
+    "ivo_btdc": {
+      "value": 15,
+      "unit": "crank deg",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "Third-party tuner's table of factory cam specs (bikeboy.org, Brad Black, an Australian Ducati dyno tuner), not a Ducati document. The table does not print its measuring lift; the same author's cam-timing article (https://bikeboy.org/camtime4v.html) says 'Generally, all the Ducati specs are given at 1.00mm lift', so 1 mm lift is the presumed convention, not confirmed for this row. Verbatim 1098 row (inlet opening, inlet closing, exhaust opening, exhaust closing, inlet duration, exhaust duration, inlet lift, exhaust lift, inlet C/L, exhaust C/L): '1098| 15| 58| 60| 20| 253| 260| 11.8| 10.6| 111.5| 110'. The Ducati workshop manual figure could not be opened in this session."
+    },
+    "ivc_abdc": {
+      "value": 58,
+      "unit": "crank deg",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "Presumed at 1 mm lift; see ivo_btdc note."
+    },
+    "evo_bbdc": {
+      "value": 60,
+      "unit": "crank deg",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "Presumed at 1 mm lift; see ivo_btdc note."
+    },
+    "evc_atdc": {
+      "value": 20,
+      "unit": "crank deg",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "Presumed at 1 mm lift; see ivo_btdc note. Same page reports a real bike measured well off spec: 'delivered with 117.5/106 on the vertical cylinder and 115.5/107 on the horizontal cylinder' (inlet/exhaust centrelines) against a spec of 111.5/110."
+    },
+    "redline_rpm": {
+      "value": 10700,
+      "unit": "rpm",
+      "source": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=101",
+      "note": "Owner's manual performance data: 'Max rotation speed, rpm: 10,700'. This is the manual's maximum engine speed, taken here as the limit; the tachometer red zone and the limiter cut point were not found separately."
+    },
+    "peak_power_kw": {
+      "value": 119.3,
+      "unit": "kW",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+      "note": "Ducati spec sheet: '160hp - 119.3kw @ 9750rpm' (asterisked in the sheet; the footnote text is not in the PDF). DISAGREES with the owner's manual, which gives '113 kW ... at 9,750 rpm', 'crankshaft, 95/1/EC' (https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=101). The 113 kW figure is the homologation measurement; 119.3 kW is the marketing claim."
+    },
+    "peak_power_rpm": {
+      "value": 9750,
+      "unit": "rpm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf"
+    },
+    "peak_torque_nm": {
+      "value": 123.0,
+      "unit": "Nm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+      "note": "Spec sheet: '12,5kgm - 123Nm @ 8000 giri/min / 90.4lb-ft 123Nm @ 8000rpm'. Owner's manual gives '116 Nm @ 8,000 rpm' (95/1/EC) (https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=101)."
+    },
+    "peak_torque_rpm": {
+      "value": 8000,
+      "unit": "rpm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf"
+    },
+    "intake_type": {
+      "value": "individual throttles: one elliptical throttle body per cylinder, one 12-hole injector each, fed from an airbox",
+      "source": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=102",
+      "note": "Owner's manual: 'MARELLI indirect electronic injection', 'Injectors per cylinder: 1', 'Holes per injector: 12'. Spec sheet: 'Marelli electronic fuel injection, elliptical throttle bodies'."
+    },
+    "throttle_dia_mm": {
+      "value": 60.0,
+      "unit": "mm",
+      "source": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=102",
+      "note": "Owner's manual: 'Throttle body diameter: 60 mm.' The bore is elliptical, so this is a nominal or equivalent diameter; the actual ellipse axes were not found. The press kit garbles the unit: 'the cross-section of the elliptical throttle bodies has been increased from the 1098's 60 sq. mm to 63.9 sq. mm' (for the 1098 R). Press kit also claims 'a 30% increase in air flow over conventional throttle bodies'."
+    },
+    "header_type": {
+      "value": "2-1-2 (two headers merge into one pipe, then split to twin under-seat silencers)",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-press.pdf",
+      "note": "Press kit: 'symmetrical 2-1-2 layout that uses 52mm-57mm diameter tubing with wall thickness reduced by 30% to 0.8mm (.030in). The system terminates with Ducati's trademark twin under-seat silencers'. Spec sheet adds catalytic converter and lambda probe, twin stainless steel mufflers."
+    },
+    "primary_dia_mm": {
+      "value": 52.0,
+      "unit": "mm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-press.pdf",
+      "note": "Press kit says '52mm-57mm diameter tubing' without saying which section is which. Assigning 52 mm to the headers and 57 mm to the later section is my reading, not stated. Wall 0.8 mm, so inner diameters are about 1.6 mm smaller if these are outer diameters (not stated)."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": 57.0,
+      "unit": "mm",
+      "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-press.pdf",
+      "note": "See primary_dia_mm note: the larger of the two quoted tube diameters; its position in the system is my assumption."
+    },
+    "exhaust_notes": {
+      "value": "Catalysed 2-1-2 system; long single collector section between the two headers and the twin under-seat stainless silencers.",
+      "source": "https://bikeboy.org/1098withtermi70mm.html",
+      "note": "The 'long single pipe section' description is the tuner's (bikeboy.org): 'Specifically the long single pipe section, as opposed to the twin pipes with good crossover from the 996 and 998 style chassis.' Header and collector lengths are not published anywhere I could read."
+    }
+  },
+  "missing": [
+    "Ducati workshop manual valve timing at 1 mm lift (the manual exists on manualmachine.com and Scribd but both refused access; cam figures here come from a tuner's table)",
+    "rod_length_mm from a manufacturer or vendor page (124 mm is forum hearsay)",
+    "crank rotation direction (forward, same sense as the wheels, is the norm for this engine but no page read states it)",
+    "cylinder numbering convention (Ducati uses horizontal/vertical; numbers not found)",
+    "idle_rpm",
+    "runner_length_mm, runner_dia_mm (intake tract and velocity stack dimensions)",
+    "primary_length_mm, collector and silencer dimensions",
+    "actual major/minor axes of the elliptical throttle bore",
+    "included valve angle (press kit only says it was reduced)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+      "what": "Ducati's own 2008 Superbike technical specification sheet (848, 1098, 1098 S, 1098 R), PDF titled SBK08_TechSpec.xls, hosted by a German motorcycle news site. Manufacturer document."
+    },
+    {
+      "url": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-press.pdf",
+      "what": "Ducati's 2008 Superbike press kit text (same host). Manufacturer document: valve diameters, throttle bodies, exhaust layout and tube diameters."
+    },
+    {
+      "url": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=101",
+      "what": "Ducati 1098 owner's manual, page 101 (engine and performance data), as transcribed by a manuals site. Manufacturer document; read through a page summary, so quotes are as the summary returned them."
+    },
+    {
+      "url": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=102",
+      "what": "Ducati 1098 owner's manual, page 102 (spark plugs, fuel system, throttle body diameter)."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/617307/Ducati.html?page=100",
+      "what": "Ducati 1098 Tricolore use and maintenance manual, page 100; cross-check of bore, stroke, compression, 113 kW, 116 Nm and 10,700 rpm. Not used as a primary source."
+    },
+    {
+      "url": "https://bikeboy.org/1098withtermi70mm.html",
+      "what": "bikeboy.org (Brad Black, Australian Ducati tuner): table of 998 / 998S / 999R / 1098 cam specs and measured as-delivered timing. Third party, well regarded among Ducati tuners, not a factory document."
+    },
+    {
+      "url": "https://bikeboy.org/camtime4v.html",
+      "what": "Same author's four-valve cam timing article; source for the statement that Ducati cam specs are given at 1.00 mm lift."
+    },
+    {
+      "url": "https://www.ducatiforum.co.uk/goto/post?id=1159147",
+      "what": "ducatiforum.co.uk thread on finding firing TDC on an 848; quotes the workshop manual and gives vertical cylinder firing 270 crank degrees after horizontal. Forum."
+    },
+    {
+      "url": "https://www.ducatiforum.co.uk/goto/post?id=1605728",
+      "what": "ducatiforum.co.uk thread identifying Ducati rods by eye-to-eye length. Forum; only source found for rod length."
+    },
+    {
+      "url": "https://motorcyclemojo.com/2014/09/crankshafts-and-firing-orders/",
+      "what": "Motorcycle Mojo magazine technical column on crankshafts and firing orders; states the 270/450 spacing of a 90-degree V-twin such as a Ducati."
+    },
+    {
+      "url": "https://www.slashgear.com/2290714/l-twin-vs-other-v-twin-motorcycle-engine-cylinder-layout-differences/",
+      "what": "SlashGear explainer on the L-twin; states shared crank pin and 270/450 intervals. General-interest, weak but explicit."
+    }
+  ],
+  "vehicle": {
+    "name": "Ducati 1098 (base), 2007 model year",
+    "chosen_because": "The engine definition is the Testastretta Evoluzione of the 1098 / 1098 S (2007-2008); the base 1098 is the bike that introduced it.",
+    "fields": {
+      "curb_kg": {
+        "value": 199,
+        "unit": "kg",
+        "source": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=99",
+        "quote": "Running order without fuel: 188 kg (1098); 186 kg (1098S). Running order without fluids and battery: 173 kg (1098); 171 kg (1098S).",
+        "note": "Estimate, my calculation: 188 kg + 15.5 L x 0.74 kg/L = 199.5 kg (199 used). Tank from owner's manual p100 (https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=100): 'Unleaded fuel with 95 fuel octane rating (at least) 15.5 dm3 (litres).' Ducati's data sheet gives 173 kg dry."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+        "quote": "Cambio / Gearbox 6 marce / 6 speed"
+      },
+      "gears": {
+        "value": [
+          2.4667,
+          1.7647,
+          1.4,
+          1.1818,
+          1.0435,
+          0.9583
+        ],
+        "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+        "quote": "1st 37/15, 2a 30/17, 3a 28/20, 4a 26/22, 5a 24/23, 6a 23/24",
+        "note": "Ducati 2008 Superbike data sheet, 1098 column (identical for the 1098 S). The owner's manual p103 gives the same, inverted: 'Total gear ratios: 1st 15/37 2nd 17/30 3rd 20/28 4th 22/26 5th 23/24 6th 24/23' (https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=103)."
+      },
+      "final_drive": {
+        "value": 4.6708,
+        "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf ; https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=103",
+        "quote": "Trasmissione primaria / Primary ... Straight cut gears, Ratio 1.84:1; Catena; Pignone 15; Corona 38 / Chain; Front sprocket 15; Rear sprocket 38 (data sheet). 'Final drive ratio: 32/59.' (owner's manual p103, which labels the primary this way)",
+        "note": "My calculation: (59/32) x (38/15). 59/32 = 1.844 matches the sheet's 1.84:1."
+      },
+      "tyre": {
+        "value": "190/55 ZR17",
+        "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+        "quote": "Pneumatico posteriore / Rear tyre 190/55 ZR17",
+        "note": "Owner's manual p104 agrees: 'Rear Radial tube less tyre. Size: 190/55-ZR17.' (https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=104)"
+      },
+      "wheel_radius_m": {
+        "value": 0.3204,
+        "unit": "m",
+        "source": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+        "note": "My calculation, not published: unloaded geometric radius from the nominal size (rim diameter / 2 + section width x aspect ratio). The loaded rolling radius is a few percent smaller."
+      },
+      "top_speed_kmh": {
+        "value": 280,
+        "unit": "km/h",
+        "source": "https://magazine.cycleworld.com/article/2007/6/1/2007-ducati-1098s",
+        "quote": "our bike ripped past the radar gun at 174 mph on the rev limiter in sixth, clearly undergeared. The 1098 has two more teeth on the rear sprocket (38 vs. 36)",
+        "note": "Cycle World road test, June 2007, of the 1098 S (174 mph = 280 km/h). Measured, but on the S, not the base 1098; inference: the base bike shares engine and gearing, and the run was limiter-bound, so the figure applies. Ducati publishes no top speed."
+      }
+    },
+    "missing": [],
+    "sources": [
+      {
+        "url": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+        "what": "Ducati's 2008 Superbike technical data sheet (848 / 1098 / 1098 S / 1098 R), PDF created October 2007, hosted by a German motorcycle news site. Its 1098 column agrees with the owner's manual on every gearing, tyre and weight figure."
+      },
+      {
+        "url": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=99",
+        "what": "Ducati 1098 / 1098 S owner's manual, as transcribed by manualsonline (pp.99, 100, 103, 104): weights, capacities, transmission, tyres."
+      },
+      {
+        "url": "https://magazine.cycleworld.com/article/2007/6/1/2007-ducati-1098s",
+        "what": "Cycle World road test of the 2007 Ducati 1098 S, June 2007 issue: measured top speed."
+      }
+    ]
+  }
+}

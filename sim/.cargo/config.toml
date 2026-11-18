@@ -1,0 +1,3 @@
+# Build output goes to a folder ending in .nosync (ignored by git and skipped by some file-sync tools).
+[build]
+target-dir = "target.nosync"

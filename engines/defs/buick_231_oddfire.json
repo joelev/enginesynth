@@ -1,0 +1,122 @@
+{
+  "name": "buick_231_oddfire",
+  "label": "Buick 231 V6, odd-fire (1975-77)",
+  "generic": false,
+  "family": "V6",
+  "based_on": "Buick 231 cu in V6, odd-fire, 1975 to early 1977",
+  "layout": "v",
+  "bank_angle": 90,
+  "bore": 0.09652,
+  "stroke": 0.08636,
+  "rod": 0.151,
+  "cr": 8.0,
+  "firing": [
+    0,
+    630,
+    480,
+    390,
+    240,
+    150
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.0413,
+  "ex_valve_d": 0.0362,
+  "cam": {
+    "at_lift": 0,
+    "ivo": 12,
+    "ivc": 52,
+    "evo": 50,
+    "evc": 14,
+    "in_lift": 0.0095,
+    "ex_lift": 0.0095
+  },
+  "runner_len": 0.25,
+  "throttle_d": 0.044,
+  "primary_len": [
+    0.15,
+    0.15,
+    0.15,
+    0.15,
+    0.15,
+    0.15
+  ],
+  "primary_d": 0.036,
+  "groups": [
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      5
+    ]
+  ],
+  "merge": "y",
+  "mid_d": 0.048,
+  "tail_d": 0.045,
+  "redline": 4800,
+  "idle": 600,
+  "friction_scale": 1.2,
+  "heat_q": 2200000,
+  "published": {
+    "power_kw": 82,
+    "torque_nm": 237
+  },
+  "sources": [
+    {
+      "url": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "what": "1975 Buick Chassis Service Manual, section 6A (engine), hosted by TeamBuick. Factory document: bore/stroke, CR, numbering, firing order, valve head diameters, rocker ratio."
+    },
+    {
+      "url": "https://jeepster-commando.com/?p=317",
+      "what": "jeepster-commando.com 'Understanding the odd-fire V6'. Enthusiast article with a step-by-step crank-angle table for the 225/231 odd-fire; source of the interval sequence and pin positions."
+    },
+    {
+      "url": "https://ateupwithmotor.com/model-histories/buick-special-skylark-rover-v8-3800-v6-history/",
+      "what": "Ate Up With Motor history of the Buick V6, with a bibliography. 150/90 intervals, 8.0:1, 110 hp / 175 lb-ft, even-fire arriving during 1977."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "what": "Wikipedia: shared-pin description, 1977 split-pin change."
+    },
+    {
+      "url": "https://www.nmr.mgh.harvard.edu/~reese/BuickV6CastingNumbersandInternalSpecs.pdf",
+      "what": "Casting-number compilation: 1975-76 231 listed as odd-fire, straight rod pin crank; 1977 listed in both odd-fire and even-fire rows."
+    }
+  ],
+  "notes": "Sourced: 90 degree bank angle, bore, stroke, compression ratio, firing order 1-6-5-4-3-2 with cylinders 1-3-5 on the left bank, three shared crank pins 120 degrees apart, firing intervals 150-90-150-90-150-90, one intake and one exhaust valve per cylinder with their diameters, two-barrel carburettor on a plenum manifold, one log manifold per bank joined into a single exhaust, published peak power and torque (SAE net, 1975). The speeds of the published peaks were not found, so `engsim validate` has nothing to run at; compare against the peaks of a dyno sweep. Estimated, not sourced: rod length, valve lifts, all cam timing, carburettor throttle area, intake runner length, exhaust manifold branch length and diameter, exhaust pipe and tail pipe diameters, redline, idle, friction_scale and heat_q (tuned; both sit at the weak end of their ranges, for a 1975 emissions-era engine). Everything else is left to the derived defaults (runner diameter, plenum, pipe lengths, muffler, flywheel).",
+  "vehicle": {
+    "name": "Buick Skyhawk hatchback coupe (1975)",
+    "kind": "car",
+    "curb_kg": 1270,
+    "gear_count": 3,
+    "gears": [
+      2.52,
+      1.52,
+      1.0
+    ],
+    "final_drive": 2.56,
+    "tyre": "BR78-13",
+    "notes": "The Skyhawk's only engine was the 231 V6. A four-speed manual was standard and the Turbo Hydra-matic 350 automatic optional; no production split was found, and the automatic is modelled on my assumption that it was the commoner choice in a 1975 Buick (the four-speed's ratios were not found either). Automatic modelled as fixed ratios with a clutch; torque-converter multiplication is not modelled. Axle 2.56 is Buick's standard for the Skyhawk 231 with either gearbox. Curb weight is Wikipedia's rounded 2,800 lb for the 1975-80 Skyhawk, not a 1975 factory figure. wheel_radius_m and top speed omitted (not found).",
+    "driven": "rear"
+  }
+}

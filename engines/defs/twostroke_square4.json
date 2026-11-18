@@ -1,0 +1,64 @@
+{
+  "name": "twostroke_square4",
+  "label": "500 cc square-four two-stroke, disc valves",
+  "kind": "two_stroke",
+  "layout": "inline",
+  "bore": 0.056,
+  "stroke": 0.0506,
+  "rod": 0.105,
+  "cr": 12.5,
+  "firing": [
+    0.0,
+    180.0,
+    180.0,
+    0.0
+  ],
+  "generic": true,
+  "family": "two-stroke",
+  "notes": "Invented square-four with rotary disc valves and four separate expansion chambers. The cylinders fire in pairs, two together and the other two 180 degrees later, which is the pattern published for the Suzuki RG500 Gamma; its bore and stroke (56 x 50.6 mm, https://en.wikipedia.org/wiki/Suzuki_RG500) are used only as a starting size. That engine's port and disc timings were not found, so this is not a model of it, and sources disagree on which of its cylinders form a pair. Compression ratio, rod length, port timings, disc timing, port areas, crankcase ratio, intake and pipe dimensions, redline, idle and flywheel are typical values chosen by Claude, not taken from any engine. No exhaust power valve. The definition format has no way to say the cylinders sit on two geared crankshafts; they are listed as an inline four whose cylinders 1 and 4 and cylinders 2 and 3 move together, which gives the same gas flow.",
+  "itb": true,
+  "runner_len": 0.09,
+  "runner_d": 0.028,
+  "ex_port_open": 85.0,
+  "tr_port_open": 117.0,
+  "port_ex_area": 0.0009,
+  "tr_port_area": 0.001,
+  "port_in_area": 0.0008,
+  "induction": "disc",
+  "in_window": [
+    130.0,
+    60.0
+  ],
+  "crankcase_cr": 1.5,
+  "chamber": [
+    [
+      0.125,
+      0.036,
+      0.038
+    ],
+    [
+      0.42,
+      0.038,
+      0.095
+    ],
+    [
+      0.125,
+      0.095,
+      0.095
+    ],
+    [
+      0.2,
+      0.095,
+      0.021
+    ],
+    [
+      0.2,
+      0.021,
+      0.021
+    ]
+  ],
+  "redline": 10000.0,
+  "idle": 1300.0,
+  "inertia": 0.012,
+  "friction_scale": 0.6
+}

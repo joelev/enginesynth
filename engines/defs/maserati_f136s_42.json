@@ -1,0 +1,149 @@
+{
+  "name": "maserati_f136s_42",
+  "label": "Maserati 4.2 L V8 (Quattroporte V, F136 S, cross-plane)",
+  "generic": false,
+  "family": "V8",
+  "based_on": "Maserati F136 S 4.2 L V8, Quattroporte V DuoSelect, 2004-2008",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.092,
+  "stroke": 0.0798,
+  "rod": 0.14,
+  "cr": 11.1,
+  "firing": [
+    0,
+    270,
+    450,
+    540,
+    630,
+    180,
+    360,
+    90
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.035,
+  "ex_valve_d": 0.03,
+  "cam": {
+    "at_lift": 0.0006,
+    "ivo": 15,
+    "ivc": 60,
+    "evo": 70,
+    "evc": 0,
+    "in_lift": 0.0105,
+    "ex_lift": 0.0095
+  },
+  "itb": false,
+  "runner_len": 0.42,
+  "runner_d": 0.044,
+  "primary_len": [
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7
+  ],
+  "primary_d": 0.04,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.8,
+  "secondary_d": 0.07,
+  "tail_d": 0.07,
+  "redline": 7500,
+  "idle": 750,
+  "friction_scale": 0.9,
+  "heat_q": 2600000.0,
+  "burn_scale": 0.92,
+  "published": {
+    "power_kw": 294,
+    "power_rpm": 7000,
+    "torque_nm": 451,
+    "torque_rpm": 4500
+  },
+  "sources": [
+    {
+      "url": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/quattroporte_automatic_2009.pdf",
+      "what": "Maserati Quattroporte owner's manual, US edition, M139 (book dated 1 September 2008, 2009 model year), hosted by the Maserati Club UK (a ManualsLib download). Manufacturer document: technical specifications p. 226 for the 4.2 (M139 A) and 4.7 (M139 R) versions."
+    },
+    {
+      "url": "https://www.maseraticlub.co.uk/wp-content/uploads/2018/04/4200_coupe.pdf",
+      "what": "Maserati 4200 Coupe owner's manual (type code M138, F136 R engine), hosted by the Maserati Club UK (a ManualsLib download). Manufacturer document: engine technical specifications pp. 178-179."
+    },
+    {
+      "url": "https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf",
+      "what": "Maserati Academy, 'Maserati Range Technical Updates', July 2012, training documentation for the Maserati service network (cited by Wikipedia's F136 article). Read from the Wayback Machine copy http://web.archive.org/web/20220327103955/https://academy.maserati.com/wbt/upload/lmsIveco-1564/011704-Product_Update_Course_EN.pdf because the original host refused connections; manufacturer document."
+    },
+    {
+      "url": "https://www.maserati.com/us/en/brand/maserati-classic-cars/quattroporte/quattroporte-v-duoselect",
+      "what": "Maserati's own heritage page for the Quattroporte V DuoSelect: production years, displacement, engine configuration, maximum power."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ferrari_F136_engine",
+      "what": "Wikipedia, Ferrari F136 engine: variant table (engine codes, years, power, torque, sump type) sourced to the Maserati Academy, and the cross-plane statement."
+    },
+    {
+      "url": "https://w.autozine.org/Archive/Maserati/old/Quattroporte_V.html",
+      "what": "Autozine (Mark Wan), Quattroporte V review and spec tables: DuoSelect 332 lbft, torque peak 4500 rpm before the 2007 Automatica."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Maserati_Quattroporte",
+      "what": "Wikipedia, Maserati Quattroporte: fifth-generation engine paragraph (cross-plane crank, intake-side continuous variable valve timing, F136S dry sump in DuoSelect cars); quad round tailpipes on the standard cars; Sport GT S bypass-valve exhaust."
+    }
+  ],
+  "notes": "Sourced: 4244 cc, 90-degree V8, four valves per cylinder, dry sump, 400 CV (294 kW) at 7000 rpm (Maserati heritage page) and 451 N m at 4500 rpm (Wikipedia's Maserati Academy table; Autozine); cross-plane crank and intake-side variable timing (Wikipedia, Quattroporte and F136 articles). Taken from Maserati documents for the sibling 4.2 engines, not for F136 S itself (inference): bore and stroke 92 x 79.8 mm (2009 Quattroporte and 4200 Coupe manuals), compression 11.1:1 (11.11 in the Coupe manual, 11.058 in the 2009 Quattroporte manual), firing order 1-8-6-2-7-3-4-5 (both manuals), intake-only variable timing with 50 crank degrees of range and the cam-setting values (Academy, F136 UC). The firing order 1-8-6-2-7-3-4-5 is Maserati's; the numbering (1-4 one bank, 5-8 the other, 1 and 5 sharing the front pin) is our inference, the only common numbering under which that order is a cross-plane order. The cam is entered at 0.6 mm valve lift. Exhaust closing at 0.6 mm is at TDC, from the Maserati Academy's workshop cam-setting values (F136 UC, the later 4.2). Those values put the intake at 0.6 mm lift 15 degrees after TDC with the phaser at rest; with 50 crank degrees of intake phasing the intake can open at 0.6 mm anywhere from 15 degrees after TDC to 35 degrees before TDC. The model has one fixed cam: the intake is entered opening 15 degrees before TDC at 0.6 mm (an estimate inside that range), so the phaser's effect on the torque curve is not represented. Redline 7500 rpm is an estimate (no figure found for the 4.2; Maserati gives 7600 for the 4.7). Estimated, not sourced: connecting-rod length (140 mm), valve diameters, cam lift (10.5 mm intake, 9.5 mm exhaust), cam durations, the fixed intake-cam position, intake runner length and diameter, exhaust primary length and diameter, the exhaust layout after the heads (entered as 4-into-1 per bank, each bank its own pipe to the rear with no crossover), pipe diameters, idle speed (750 rpm). Left to the simulator's defaults: plenum, throttle and airbox, collector volume, mufflers, flywheel inertia. Also estimates: friction_scale 0.9, heat_q 2.6e6 and burn_scale 0.92 (inside their allowed ranges, none at a limit), set with the cam, runner and primary figures so that simulated torque and power come near the published figures; no sourced number was changed. Not modelled: the intake phaser, any variable intake geometry (none found either way), catalytic converters as separate elements, and the DuoSelect gearbox.",
+  "vehicle": {
+    "name": "Maserati Quattroporte V DuoSelect (2007)",
+    "kind": "car",
+    "curb_kg": 1930,
+    "gear_count": 6,
+    "gears": [
+      3.29,
+      2.16,
+      1.61,
+      1.27,
+      1.03,
+      0.85
+    ],
+    "wheel_radius_m": 0.336,
+    "tyre": "285/40 ZR 18 (rear)",
+    "top_speed_kmh": 275,
+    "notes": "Six-speed DuoSelect robotised transaxle. Everything here is from secondary sources (Autozine, carspecs.us, km77); Maserati's own pages refuse automated access. Final drive omitted: not found (one unread listing is said to give 4.10). Estimated: rolling radius from the tyre size.",
+    "driven": "rear"
+  }
+}

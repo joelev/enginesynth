@@ -1,0 +1,157 @@
+{
+  "name": "lamborghini_52_v10",
+  "label": "Lamborghini 5.2 L V10 (Gallardo LP560-4, odd-firing 90\u00b0/54\u00b0)",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.0845,
+  "stroke": 0.0928,
+  "rod": 0.154,
+  "cr": 12.5,
+  "firing": [
+    0.0,
+    288.0,
+    432.0,
+    576.0,
+    144.0,
+    90.0,
+    378.0,
+    522.0,
+    666.0,
+    234.0
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "ivo": 19.0,
+  "ivc": 74.0,
+  "evo": 67.0,
+  "evc": 27.0,
+  "itb": false,
+  "runner_len": 0.28,
+  "runner_d": 0.0415,
+  "primary_len": [
+    0.28,
+    0.28,
+    0.28,
+    0.28,
+    0.28,
+    0.28,
+    0.28,
+    0.28,
+    0.28,
+    0.28
+  ],
+  "primary_d": 0.045,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 0.5,
+  "secondary_d": 0.055,
+  "mid_len": 0.6,
+  "mid_d": 0.07,
+  "tail_d": 0.07,
+  "redline": 8500.0,
+  "idle": 950.0,
+  "generic": false,
+  "family": "V10",
+  "based_on": "Lamborghini 5.2 L V10, Gallardo LP560-4 (2008-2013)",
+  "published": {
+    "power_kw": 412,
+    "power_rpm": 8000,
+    "torque_nm": 540,
+    "torque_rpm": 6500
+  },
+  "sources": [
+    {
+      "url": "https://www.evo.co.uk/lamborghini/gallardo/8876/lamborghini-gallardo-lp560-4-new-gallardo-v10-bends-design-rules",
+      "what": "evo magazine, March 2008, reporting Lamborghini technical director Maurizio Reggiani on the LP560-4 engine: crank change, firing intervals, compression, exhaust manifolds."
+    },
+    {
+      "url": "https://www.audi-mediacenter.com/en/the-new-audi-r8-updated-dynamics-for-the-high-performance-sports-car-11734/engine-11738",
+      "what": "Audi MediaCenter press text on the R8 V10 (same 5.2 FSI engine family built for Lamborghini and Audi): common-pin crank, 54/90 intervals, firing order. Manufacturer."
+    },
+    {
+      "url": "https://www.vaglinks.com/Docs/SSP/VWUSA.COM_SSP_923603_5.2lL_V10_FSI_Engine.pdf",
+      "what": "Audi of America self-study programme 923603 for the 5.2 V10 FSI in the S6/S8 (split-pin, even-firing sister engine): cylinder numbering, 18-degree split pin, bore and stroke. Manufacturer training document on a third-party host."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_V10",
+      "what": "English Wikipedia Lamborghini V10 page: dimensions and outputs by model."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines",
+      "what": "English Wikipedia list of Volkswagen Group petrol engines, V10 section: intake, valvetrain, outputs."
+    },
+    {
+      "url": "https://jalopnik.com/2097604/difference-between-even-firing-odd-firing-engines/",
+      "what": "Jalopnik explainer on even and odd firing; states the 5.2 Gallardo is 54/90 and the 5.0 was even 72."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, 12.5:1 compression, common-pin crank with firing intervals alternating 90 and 54 degrees, four valves per cylinder, plenum intake, exhaust manifolds that on each bank are a three-into-one and a two-into-one joined downstream. Firing order 1-6-5-10-2-7-3-8-4-9 (cylinders 1-5 right bank, 6-10 left) is Audi's for its version of the same engine; no Lamborghini-published order was found. Estimated, not sourced: rod length, valve diameters and lifts, cam timing and duration (all four cams are variable on the real engine; one fixed timing is used), runner and throttle sizes (two throttle bodies on the real engine; one of equivalent default size is used), which three cylinders of each bank share the three-into-one (the front three are assumed), all exhaust pipe sizes, rev limit, idle speed. The definition format has one merge level, so the join of each bank's two manifolds and whatever follows are entered as all four manifolds meeting at one cross-over with two outlets. Left to the simulator's defaults: plenum and airbox, collector volume, muffler, flywheel inertia. Also estimates: friction_scale, heat_q, burn_scale (the simulator's friction, heat-release and burn-rate scales), set with the other estimated fields so that simulated torque and power come near the published figures; no sourced number was changed.",
+  "in_valve_d": 0.033299999999999996,
+  "ex_valve_d": 0.028399999999999998,
+  "in_lift": 0.01175,
+  "ex_lift": 0.01,
+  "friction_scale": 0.8,
+  "heat_q": 2640000.0,
+  "burn_scale": 0.92,
+  "vehicle": {
+    "name": "Lamborghini Gallardo LP560-4 coupe (2008)",
+    "kind": "car",
+    "curb_kg": 1500,
+    "gear_count": 6,
+    "gears": [
+      3.31,
+      2.05,
+      1.46,
+      1.14,
+      0.94,
+      0.78
+    ],
+    "final_drive": 3.08,
+    "wheel_radius_m": 0.323,
+    "tyre": "295/30 ZR 19 (rear; four-wheel drive)",
+    "top_speed_kmh": 325,
+    "notes": "Six-speed manual (e-gear assumed to share ratios, unconfirmed). Tyre and top speed from Lamborghini (dry weight 1,410 kg). Curb weight, gear ratios and final drive from a US spec database only, and other listings disagree on the final drive (3.6, 4.62); treat the gearing as uncertain. Four-wheel drive is not modelled here. Estimated: rolling radius from the tyre size.",
+    "driven": "all"
+  }
+}

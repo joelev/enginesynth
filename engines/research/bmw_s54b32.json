@@ -1,0 +1,119 @@
+{
+  "id": "bmw_s54b32",
+  "name": "BMW S54B32 (E46 M3, 2000-2006)",
+  "induction": "naturally aspirated",
+  "summary": "3.2 L iron-block straight-six with six individual throttle housings fed from a common airbox plenum, 12 mm valve lift on both cams, double VANOS and an 8000 rpm limit; the individual throttles give a hard-edged induction rasp over the smooth six-cylinder exhaust.",
+  "fields": {
+    "cylinders": {"value": 6, "unit": "count", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "layout": {"value": "inline", "unit": null, "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "bore_mm": {"value": 87, "unit": "mm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "Bore spacing 91 mm."},
+    "stroke_mm": {"value": 91, "unit": "mm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "displacement_cc": {"value": 3246, "unit": "cc", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "rod_length_mm": {"value": 139, "unit": "mm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "Forged steel cracked rods; 21 mm wrist pin, 49 mm big-end journal."},
+    "compression_ratio": {"value": 11.5, "unit": ":1", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "crank": {"value": "Forged steel, 7 main bearings (60 mm), 12 counterweights, 49 mm rod journals", "unit": null, "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "Pin angles are not stated in the document."},
+    "valves_per_cylinder": {"value": 4, "unit": "count", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "DOHC, finger followers with shim adjustment."},
+    "intake_valve_dia_mm": {"value": 35, "unit": "mm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "6.0 mm stems."},
+    "exhaust_valve_dia_mm": {"value": 30.5, "unit": "mm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "Sodium-filled, 6.0 mm stems."},
+    "intake_lift_mm": {"value": 12, "unit": "mm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "Valve lift. The document says duration and lift (12 mm) of the lobes are the same on both camshafts."},
+    "exhaust_lift_mm": {"value": 12, "unit": "mm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "intake_lobe_centre_range_deg": {"value": "70 to 130", "unit": "deg (camshaft spread angle)", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "BMW 'spread angle' is the crank angle between TDC and maximum valve lift. VANOS moves the intake cam continuously over 60 deg; default mechanical stop is fully retarded (130 deg)."},
+    "exhaust_lobe_centre_range_deg": {"value": "83 to 128", "unit": "deg (camshaft spread angle)", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "VANOS moves the exhaust cam continuously over 45 deg; default mechanical stop is fully advanced (83 deg)."},
+    "redline_rpm": {"value": 8000, "unit": "rpm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "Listed as 'Maximum Engine RPM'. Wikipedia also gives an 8000 rpm redline. A tuning site (https://bmwtuning.co/bmw-s54-engine/) lists 7900 rpm."},
+    "peak_power_kw": {"value": 252, "unit": "kW", "source": "https://en.wikipedia.org/wiki/BMW_M54#S54", "note": "European E46 M3 (343 PS). US and Canada cars: 248 kW per Wikipedia; BMW's US training document gives 333 hp."},
+    "peak_power_rpm": {"value": 7900, "unit": "rpm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "peak_torque_nm": {"value": 365, "unit": "Nm", "source": "https://en.wikipedia.org/wiki/BMW_M54#S54", "note": "European E46 M3. US cars: 355 Nm per BMW's US training document."},
+    "peak_torque_rpm": {"value": 4900, "unit": "rpm", "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "intake_type": {"value": "individual throttles: six throttle housings operated by one electronic actuator, fed by a common plenum (airbox); idle air through a separate idle actuator and distribution pipe", "unit": null, "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"},
+    "header_type": {"value": "two stainless steel manifolds (cylinders split into two groups), each with an integral catalytic converter on US cars", "unit": null, "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "note": "Which cylinders feed which manifold is not stated in the text."},
+    "exhaust_notes": {"value": "E46 M3 exhaust is dual-channel as far as a single 40-litre half-shell rear silencer with four outlets.", "unit": null, "source": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf"}
+  },
+  "missing": [
+    "firing_order: no page opened states it for the S54 (search snippets showed 1-5-3-6-2-4 for other BMW sixes only)",
+    "intake_duration_deg and exhaust_duration_deg with the lift they are measured at (BMW gives only lift and lobe-centre range)",
+    "ivo/ivc/evo/evc event angles",
+    "throttle_dia_mm",
+    "runner_length_mm and runner_dia_mm (intake trumpets)",
+    "primary_dia_mm, primary_length_mm, exhaust_pipe_dia_mm",
+    "idle_rpm",
+    "crank pin angles (120 degree six assumed by convention, not stated)"
+  ],
+  "sources": [
+    {"url": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf", "what": "BMW of North America technical training document 'M Engines - S54B32' (ST041 M3 Complete Vehicle, driveline section), hosted on the Internet Archive. Manufacturer training material: technical data table, rods, valves, cams, VANOS, intake and exhaust description."},
+    {"url": "https://en.wikipedia.org/wiki/BMW_M54#S54", "what": "Wikipedia S54 section: market-specific power and torque figures and redline."},
+    {"url": "https://bmwtuning.co/bmw-s54-engine/", "what": "Tuning-site overview; consulted only for the disagreeing 7900 rpm redline figure."}
+  ],
+  "vehicle": {
+    "name": "BMW M3 coup\u00e9 (E46, Europe, 2001)",
+    "fields": {
+      "curb_kg": {
+        "value": 1495,
+        "unit": "kg",
+        "source": "https://nam3forum.com/forums/filedata/fetch?id=64089",
+        "note": "'Unladen weight to DIN ... M3 CSL 1385 | M3 Coup\u00e9 1495'. The US training document (https://archive.org/download/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/1%20M3%20Complete%20Vehicle.pdf) agrees: 'Curb Weight, DIN 1495 kg'."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/1%20M3%20Complete%20Vehicle.pdf",
+        "note": "'Gearbox Designation SG 6, Getrag D, S65420G'."
+      },
+      "gears": {
+        "value": [
+          4.227,
+          2.528,
+          1.669,
+          1.226,
+          1.0,
+          0.828
+        ],
+        "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/1%20M3%20Complete%20Vehicle.pdf",
+        "note": "'Gear ratio, 1st gear 4.227 ... 2nd 2.528 ... 3rd 1.669 ... 4th 1.226 ... 5th 1.00 ... 6th 0.828 ... reverse 3.746'. US document; same ratios for European cars is my inference."
+      },
+      "final_drive": {
+        "value": 3.62,
+        "source": "https://nam3forum.com/forums/filedata/fetch?id=64089",
+        "note": "BMW AG CSL manual technical data: 'Transmission M3 CSL M3 Sequential M gearbox (SMG) ... Final drive ratio 3.620:1'. The US document gives 'Rear Axle Differential Gear Ratio 3.64'. Which applies to the European manual car is not settled; 0.6 percent apart."
+      },
+      "wheel_radius_m": {
+        "value": 0.3306,
+        "unit": "m",
+        "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/4%20RunningGear.pdf",
+        "note": "Calculated by me from the tyre size 255/40 ZR18 (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "255/40 ZR18",
+        "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/4%20RunningGear.pdf",
+        "note": "US running-gear training module: 'The sizes are 225/45 ZR 18 on the front and 255/40 ZR 18 on the rear.' Rear (driven) size used; European fitment assumed the same."
+      },
+      "top_speed_kmh": {
+        "value": 250,
+        "unit": "km/h",
+        "source": "https://nam3forum.com/forums/filedata/fetch?id=64089",
+        "note": "'Maximum speed km/h 250', footnote 'Electronically limited'. US document: 'Top Speed 155mph (governed)'."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/BMW_M3",
+        "note": "English Wikipedia, 'BMW M3' (read 2026-11-17), infobox layout: Front-engine, rear-wheel-drive (all-wheel drive only from 2021)."
+      }
+    },
+    "missing": [
+      "a European BMW document giving the manual car's gear ratios, final drive and tyres"
+    ],
+    "sources": [
+      {
+        "url": "https://nam3forum.com/forums/filedata/fetch?id=64089",
+        "what": "BMW AG Aftersales Training, 'E46 M3 CSL' participant manual (2003, international): technical data table with M3 CSL and M3 coup\u00e9 columns."
+      },
+      {
+        "url": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/1%20M3%20Complete%20Vehicle.pdf",
+        "what": "BMW of North America technical training ST041 'M3 Complete Vehicle' (US): E46 M3 specifications table (gearbox, ratios, differential, DIN weight, governed top speed). Read through archive.org's text layer."
+      },
+      {
+        "url": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/4%20RunningGear.pdf",
+        "what": "Same training set, 'Running Gear' module: wheel and tyre sizes."
+      }
+    ]
+  }
+}

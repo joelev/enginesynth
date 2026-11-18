@@ -1,0 +1,136 @@
+{
+  "name": "honda_f20c",
+  "label": "Honda F20C 2.0 L inline-four (VTEC, S2000)",
+  "generic": false,
+  "family": "inline-four",
+  "based_on": "Honda F20C, Honda S2000 AP1, Japanese specification (11.7:1) as launched in 1999",
+  "layout": "inline",
+  "bore": 0.087,
+  "stroke": 0.084,
+  "rod": 0.153,
+  "cr": 11.7,
+  "firing": [
+    0,
+    540,
+    180,
+    360
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.036,
+  "ex_valve_d": 0.031,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 0,
+    "ivc": 58,
+    "evo": 35,
+    "evc": -5,
+    "in_lift": 0.008,
+    "ex_lift": 0.007
+  },
+  "cam_high": {
+    "at_lift": 0.001,
+    "ivo": 20,
+    "ivc": 50,
+    "evo": 55,
+    "evc": 15,
+    "in_lift": 0.0125,
+    "ex_lift": 0.0115
+  },
+  "cam_switch_rpm": 5850,
+  "runner_len": 0.32,
+  "runner_d": 0.05,
+  "plenum_vol": 0.0008,
+  "throttle_d": 0.0625,
+  "airbox_vol": 0.0055,
+  "primary_len": [
+    0.4,
+    0.4,
+    0.4,
+    0.4
+  ],
+  "primary_d": 0.042,
+  "groups": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "merge": "y",
+  "secondary_len": 0.3,
+  "secondary_d": 0.048,
+  "mid_d": 0.06,
+  "tail_d": 0.07,
+  "redline": 9000,
+  "idle": 800,
+  "friction_scale": 0.6,
+  "heat_q": 2650000,
+  "published": {
+    "power_kw": 184,
+    "power_rpm": 8300,
+    "torque_nm": 218,
+    "torque_rpm": 7500
+  },
+  "sources": [
+    {
+      "url": "https://global.honda/jp/technical-review/PDF/011-1/011-1_29.pdf",
+      "what": "Honda R&D Technical Review Vol. 11 No. 1 (April 1999), 'Development of a High-power and Low-emission Engine for the HONDA S2000' (Akimoto et al.): Table 1 (bore, stroke, displacement, 250 PS at 8300 rpm, 22.2 kgm at 7500 rpm, red zone 8800 rpm), Fig. 15 full-throttle power and torque curves, intake valves 36 mm x 2 and both valve sizes 2 mm larger than the F20B's, straight-port independent-runner intake manifold of about 2.25 L (Fig. 18), no variable intake, silent-chain and gear cam drive. Manufacturer engineering paper."
+    },
+    {
+      "url": "https://www.honda.co.jp/auto-archive/s2000/2001/shogen.html",
+      "what": "Honda Japan archived specification table for the S2000 (LA-AP1) sold May 1999 to August 2001: F20C, 1997 cc, 87.0 x 84.0 mm, compression 11.7, net 184 kW [250 PS] at 8300 rpm and 218 N m [22.2 kg m] at 7500 rpm, premium unleaded. Manufacturer type-approval figures."
+    },
+    {
+      "url": "https://global.honda/jp/tech/engine/car/F20C_S2000_vtec/",
+      "what": "Honda Japan engine-history article on the F20C: maximum permissible 9000 rpm, high-cam range 5850 to 9000 rpm, 36 mm intake valves, valve angles 26/25 deg, compression 11.7, independent straight intake manifold, large-diameter stainless exhaust manifold. Manufacturer page (2025)."
+    },
+    {
+      "url": "https://www.honda.co.jp/sportscar/vtec_history/F20C/",
+      "what": "Honda Japan VTEC-history page for the 1999 S2000: spec table and the 5850-9000 rpm high-valve-timing range, maximum permissible 9000 rpm. Manufacturer page."
+    },
+    {
+      "url": "https://hondanews.com/en-US/releases/release-5cf69ff7f30a01d81cc648004c34c870-honda-s2000-powertrain",
+      "what": "American Honda press release 'Honda S2000 -- Powertrain', 22 February 2001: US 240 hp at 8300 rpm, 153 lb-ft at 7500 rpm, 11:1 compression, 9000 rpm rev limit, VTEC changeover 5850 rpm (also 'around 6000 rpm, depending on throttle position'), 5.5-litre intake expansion chamber, 4-into-2-into-1 stainless manifold, pre-chamber and two main silencers. Manufacturer document."
+    },
+    {
+      "url": "https://workshop-manuals.com/honda/s2000/l4-1997cc_2.0l_dohc_(vtec)_mfi/maintenance/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/",
+      "what": "Third-party reproduction of 2001 S2000 2.0 L service data: firing order 1-3-4-2 with cylinder 1 at the front of the vehicle. Not a Honda page."
+    },
+    {
+      "url": "https://workshop-manuals.com/honda/s2000/l4-1997cc_2.0l_dohc_(vtec)_mfi/maintenance/tune-up_and_engine_performance_checks/idle_speed/system_information/specifications/",
+      "what": "Same site: idle speed 800 +/- 50 rpm in neutral (2001 US S2000 2.0 L). Not a Honda page."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Honda_F20C_engine",
+      "what": "Wikipedia F20C article: 153 mm rod length (no citation at that line). Used only for the rod length."
+    },
+    {
+      "url": "https://www.s2000.club/OM/Honda%20F20C%20engine.pdf",
+      "what": "Enthusiast-site PDF on the F20C: 31 mm exhaust valves, 62.5 mm throttle body, 153 mm rods, stock cam lift 12.65/11.66 mm. Low credibility, no sources given; used only where nothing better was found."
+    }
+  ],
+  "notes": "Modelled variant: the Japanese F20C (S2000 AP1 sold in Japan from April 1999), compression 11.7:1, rated 184 kW (250 PS) net at 8300 rpm and 218 N m (22.2 kg m) at 7500 rpm. It is chosen because Honda's own engineering paper prints the full-throttle power and torque curves for this specification, so the fit can be checked across the whole speed range and not only at the two peaks. The US engine has 11.0:1 compression and is rated 240 hp (179 kW) at 8300 rpm and 153 lb-ft (207 N m) at 7500 rpm with the same 9000 rpm limit; it is not modelled separately. Sourced from Honda documents: bore 87.0 mm, stroke 84.0 mm, 1997 cc, compression 11.7, four valves per cylinder, 36 mm intake valves, published power and torque, maximum permissible 9000 rpm (used as redline and limiter), VTEC changeover 5850 rpm, a 5.5-litre intake expansion chamber (used as airbox_vol; treating that chamber as the airbox is my reading), a 4-2-1 stainless exhaust manifold, an independent straight-runner intake with no variable length. Honda's paper gives a red zone of 8800 rpm on the tachometer; 9000 rpm is the engine's permissible maximum. Sourced from non-Honda pages: firing order 1-3-4-2 with cylinder 1 at the front (a third-party reproduction of 2001 service data) and idle 800 rpm (same site, US 2001 car); rod length 153 mm (Wikipedia, uncited); exhaust valves 31 mm and throttle 62.5 mm (an unsourced enthusiast PDF; Honda says only that the exhaust valves are 2 mm larger than the F20B's). A flat-plane crank is assumed: it is the only layout that gives the sourced order with even firing. Estimated, not sourced: the whole low-speed cam and the high-speed cam timing (Honda publishes neither; the high-cam lifts of 12.5 and 11.5 mm sit inside the 11.1 to 12.65 mm range quoted by aftermarket and enthusiast pages, none of them reliable), intake runner length and diameter, plenum volume (set so that plenum plus the manifold share of the runners is near the 2.25 L manifold volume read from Honda's Fig. 18; the split between manifold and head port is my assumption), header primary and secondary lengths and diameters, exhaust pipe and tail pipe diameters, everything else left to derived defaults (snorkel, collector, mufflers, flywheel inertia). friction_scale 0.6 (the bottom of the allowed range) and heat_q 2.65e6 were tuned. Fit: the low cam, high-cam timing and lift, runner length and diameter, friction_scale and heat_q were fitted to Honda's published curve (Fig. 15 of the 1999 technical review, read off the printed figure at 500 rpm steps): about 186 N m flat from 3500 to 5000 rpm, rising to the 218 N m peak at 7500 and falling to about 190 N m at 8750. Honda's curve shows no abrupt step at the VTEC changeover; the torque turns upward from about 5000 rpm and keeps rising, and the model follows it, with a dip of about 2 percent where the cams change at 5850 rpm. Not modelled: the throttle-dependent changeover Honda describes ('around 6000 rpm, depending on throttle position'); the model switches at 5850 rpm with the default 300 rpm hysteresis whatever the throttle. The metal-honeycomb catalyst and the pre-chamber are not modelled separately from the mufflers. The secondary-air pump runs only during warm-up and is not modelled.",
+  "vehicle": {
+    "name": "Honda S2000 (AP1, Japan, 1999)",
+    "kind": "car",
+    "curb_kg": 1240,
+    "gear_count": 6,
+    "gears": [
+      3.133,
+      2.045,
+      1.481,
+      1.161,
+      0.97,
+      0.81
+    ],
+    "final_drive": 4.756,
+    "wheel_radius_m": 0.3157,
+    "tyre": "225/50 R16 92V",
+    "notes": "All values from Honda Japan's specification table for the LA-AP1 sold May 1999 to August 2001. Honda lists the reduction as '1.160/4.100' (primary/secondary); final_drive is their product, 4.756, my calculation, so that gear x final_drive is the overall ratio. No top speed is published for the Japanese car; Honda Europe gave 241 km/h for the European 240 PS car (not used). wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "rear"
+  }
+}

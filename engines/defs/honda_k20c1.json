@@ -1,0 +1,255 @@
+{
+  "name": "honda_k20c1",
+  "label": "Honda K20C1 2.0 L inline-four, turbocharged (Civic Type R)",
+  "generic": false,
+  "family": "inline-four",
+  "based_on": "Honda K20C1 2.0 L DOHC VTEC turbocharged inline-four, Civic Type R (FK8), US specification, 2017-2021",
+  "layout": "inline",
+  "bore": 0.086,
+  "stroke": 0.0859,
+  "rod": 0.1437,
+  "cr": 9.8,
+  "firing": [
+    0,
+    540,
+    180,
+    360
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.035,
+  "ex_valve_d": 0.029,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 5,
+    "ivc": 40,
+    "evo": 30,
+    "evc": 0,
+    "in_lift": 0.0105,
+    "ex_lift": 0.0085
+  },
+  "cam_high": {
+    "at_lift": 0.001,
+    "ivo": 5,
+    "ivc": 40,
+    "evo": 48,
+    "evc": 12,
+    "in_lift": 0.0105,
+    "ex_lift": 0.01
+  },
+  "cam_switch_rpm": 5000,
+  "runner_len": 0.35,
+  "primary_len": [
+    0.16,
+    0.08,
+    0.08,
+    0.16
+  ],
+  "primary_d": 0.032,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "redline": 7000,
+  "idle": 750,
+  "boost": {
+    "kind": "turbo",
+    "induction": "turbocharged (MHI TD04), intercooled",
+    "boost_bar": 1.57,
+    "intercooler": {
+      "effectiveness": 0.7
+    },
+    "turbo": {
+      "match_rpm": 3000,
+      "d2": 0.058,
+      "scroll": "single",
+      "boost_control": true,
+      "bov": "recirc",
+      "whistle": 1.0,
+      "surge_ratio": 2.5,
+      "charge_pipes": [
+        [
+          1.0,
+          0.055
+        ],
+        [
+          0.8,
+          0.06
+        ]
+      ],
+      "wg_d": 0.038,
+      "wg_crack_bar": 1.0,
+      "wg_span_bar": 0.5,
+      "knock_retard": 9
+    }
+  },
+  "published": {
+    "power_kw": 228,
+    "power_rpm": 6500,
+    "torque_nm": 400,
+    "torque_rpm": 3500
+  },
+  "mid_len": 2.6,
+  "mid_d": 0.07,
+  "muffler_d": 0.11,
+  "muffler_zeta": 0.3,
+  "tail_len": 0.15,
+  "tail_d": 0.075,
+  "heat_q": 2450000,
+  "friction_scale": 1.0,
+  "sources": [
+    {
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/2017-civic-type-r-specifications-features",
+      "what": "Honda (American Honda Motor Co.) official 2017 Civic Type R specifications page: turbo model (Single-Scroll MHI TD04 with Internal Wastegate), 22.8 psi, 1,996 cc, 86.0 x 85.9, 9.8:1, 306 hp at 6500, 295 lb-ft at 2500-4500, 7,000 rpm redline, direct injection, gear ratios, final drive, curb weight, tyres, exhaust. Manufacturer document."
+    },
+    {
+      "url": "https://hondanews.com/releases/honda-civic-type-r-powertrain",
+      "what": "Honda US press kit, '2017 Honda Civic Type R - Powertrain' (14 June 2017): electric wastegate, 22.8 and 23.2 psi, intercooler, i-VTEC with intake and exhaust VTC and exhaust VTEC, sodium-filled exhaust valves, exhaust ports cast into the head, M12 plugs, forged crank and rods, triple outlet, spec and comparison tables. Manufacturer document."
+    },
+    {
+      "url": "https://hondanews.com/en-US/releases/release-acfe25287f7d481b93a0c0c020854e5e-honda-civic-type-r-overview",
+      "what": "Honda US press kit overview (2017): low-mass turbine, mono-scroll housing, centre outlet and sound, 'track top speed of approximately 170 mph'. Manufacturer document; only the first 100,000 characters were read."
+    },
+    {
+      "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/108909/2017-honda-civic-type-r1",
+      "what": "Honda Motor Europe press release '2017 Honda Civic Type R' (7 June 2017): 320 PS at 6500, 400 Nm at 2500-4500, electric wastegate, VTEC and Dual-VTC, air-to-air intercooler, triple exhaust with negative pressure in the centre pipe at mid load, 10% more exhaust flow, gear ratios, 1,380 kg, 245/30 R20, 272 km/h, 0-100 km/h 5.7 s. Manufacturer document, figures marked preliminary."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/CIVIC/201707/20170727_civic-typeR_p04.pdf",
+      "what": "Honda Japan press information (factbook), CIVIC TYPE R, July 2017, pages 4-5 technology digest: square bore and stroke, electric-wastegate turbo, straight exhaust pipe, +10 PS over the previous model. Manufacturer document (PDF read by text extraction)."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/CIVIC/201707/20170727_civic-typeR_p09.pdf",
+      "what": "Same press information, page 10 (powertrain): exhaust-side VTEC and its low/high cam strategy, VTC on intake and exhaust, mono-scroll turbo with electric wastegate, aluminium VTEC rockers, partially strengthened rods, light pistons, semi-counter 8-weight crank, aluminium block, manifold-less head."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/CIVIC/201707/20170727_civic-typeR_p10.pdf",
+      "what": "Same press information, page 11 (powertrain): two-piece water jacket, cooling-channel pistons, sodium-filled exhaust valves, triple exhaust with resonator, main pipes and centre tailpipe, and the full-load power and torque curve (235 kW / 400 N m) read for torque_curve_nm."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/CIVIC/201707/20170727_civic-typeR_p11.pdf",
+      "what": "Same press information, printed page 12: lightweight single-mass flywheel, lower final drive, rev-match system. (File names run one behind the printed page numbers: _p09 is page 10, _p10 is page 11, _p11 is page 12.)"
+    },
+    {
+      "url": "https://www.honda.co.jp/auto-archive/civic/type-r/2021/common/pdf/civictype-r_spec_list.pdf",
+      "what": "Honda Japan spec list for the UK-built CIVIC TYPE R sold in Japan (6BA-FK8, 2020-2021): engine type K20C, 1.995 L, 86.0 x 85.9 mm, 9.8, DOHC chain drive 2+2 valves, 235 kW / 6500, 400 N m / 2500-4500, PGM-FI, FF, gear ratios, final drive 4.111, 1,390 kg, 245/30ZR20 90Y. Type-approval figures."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/CIVIC_TYPE_R/201510/P12.pdf",
+      "what": "Honda Japan press information, CIVIC TYPE R (FK2), October 2015, page 12: K20C main technologies (manifold-less head, exhaust VTEC, intake and exhaust VTC, electric wastegate, air-cooled intercooler, 7-hole DI injector, two-bed catalyst directly below the head, semi-counter 8-weight crank). Same engine family, previous car; used where labelled."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/CIVIC_TYPE_R/201510/P13.pdf",
+      "what": "Same FK2 press information, page 13: VTC and VTEC control strategy, mono-scroll turbo with electric wastegate, actuator on the turbine housing, wastegate control (throttle fixed wide open, boost set by the wastegate)."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/CIVIC_TYPE_R/201510/P14.pdf",
+      "what": "Same FK2 press information, page 14: high-tumble ports, multi-stage direct injection, large intercooler near the front bumper opening, cooling measures."
+    },
+    {
+      "url": "https://global.honda/jp/tech/engine/car/K20C_civictyper_vtecturbo/",
+      "what": "Honda Motor Co. technology history page 'K20C型 CIVIC TYPE R ... VTEC TURBO' (13 November 2025): why mono-scroll, exhaust-only VTEC, Dual VTC, electric wastegate operation, exhaust manifold cast into the head, 20 MPa side injectors, FK8 exhaust revision to 320 PS, FL5 intercooler rows. Manufacturer document."
+    },
+    {
+      "url": "https://info.jepistons.com/comparing-hondas-new-k20c-head-to-the-last-ten-k20a-series-",
+      "what": "JE Pistons, 'Inside The Honda K20C1 (Type R) Cylinder Head With 4 Piston Racing' (Evan Perkins, 20 March 2018): VTEC on the exhaust side only, headifold, intake port ledge, beehive springs and aluminium roller rockers, valve float at about 7,300 rpm. Specialist (piston maker) article quoting an engine builder."
+    },
+    {
+      "url": "https://hondata.mobi/help/flashpro/fk2_fk2_notes.htm",
+      "what": "Hondata FlashPro 'Tuning Notes' for the FK2 and FK8 Civic Type R (Bosch ECU): factory rev limit 7000, fuel pump limit, VTEC exhaust only and its schedule, typical VTC ranges, AFM and IAT locations, no blow-off valves. Specialist reference from the main Honda ECU tuner."
+    },
+    {
+      "url": "https://hondata.mobi/help/flashpro/fk2_fk8.htm",
+      "what": "Hondata FlashPro page 'Civic Type R 2017-2021': logged channels including wastegate command and position, VTEC, knock retard."
+    },
+    {
+      "url": "https://support.haltech.com/portal/en/kb/articles/thomas-te",
+      "what": "Haltech (engine-management maker) knowledge-base article 'Honda K Series Engine': firing order 1-3-4-2 for the K20A/K24A family. Specialist reference; does not name the K20C."
+    },
+    {
+      "url": "https://workshop-manuals.com/acura/rsx/l4-2.0l_(vtec)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/",
+      "what": "Third-party reproduction of 2002 Acura RSX (K20A3) factory service data: firing order 1-3-4-2. Same engine family, not the K20C."
+    },
+    {
+      "url": "https://www.syvecs.com/downloads/Syvecs_FK2_Kit_Manual.pdf",
+      "what": "Syvecs (engine-management maker) plug-in ECU kit manual for the Type R FK2/FK8: OEM electric wastegate controllable, wastegate position input, VTEC output, injector driver list. Specialist document."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Honda_K_engine",
+      "what": "Wikipedia, Honda K engine: K20C1 row (9.8:1, 306-315 hp at 6500, redline and limiter 7000, VTEC on exhaust only, 8 mm crank offset). Mostly uncited; cross-check only."
+    },
+    {
+      "url": "https://perform27won.squarespace.com/blog/27won-civic-type-r-turbocharger-upgrade-design-blog-pt-1",
+      "what": "27WON (aftermarket turbo maker) design blog, 11 May 2022: stock MHI TD04 description and compressor and turbine wheel sizes. Specialist, not Honda or MHI."
+    },
+    {
+      "url": "https://dsportmag.com/?p=36670",
+      "what": "DSPORT magazine, 'Bad-Ass Bolt-On' (Michael Ferrara, 31 January 2025) on MHI's own upgrade turbo for the Type R: OEM compressor and turbine wheel sizes and trim."
+    },
+    {
+      "url": "https://www.bar-tek.com/honda-civic-type-r-recirculating-valve-forge",
+      "what": "Forge recirculating valve listing (bar-tek): the OEM valve is a diaphragm type bolted to the turbo. Aftermarket; weak."
+    },
+    {
+      "url": "https://www.full-race.com/store/turbosmart-honda-civic-type-r-fk8-and-fk2-kompact-supersonic-bov",
+      "what": "Turbosmart Kompact valve listing (Full-Race): replaces 'the factory plastic unit' on the FK8 and FK2. Aftermarket; weak."
+    },
+    {
+      "url": "https://www.kseriesparts.com/FER-F2396P.html",
+      "what": "Ferrea F2396P intake valve listing for the K20C1 (35 mm head). Aftermarket fitment data; weak."
+    },
+    {
+      "url": "https://www.kseriesparts.com/FER-F2394P.html",
+      "what": "Ferrea F2394P exhaust valve listing for the K20C1 (29 mm head, 'Stock size'). Aftermarket fitment data; weak."
+    },
+    {
+      "url": "https://4pistonracing.com/blogs/news/k20c1-camshaft-testing",
+      "what": "4 Piston Racing, 'K20C1 Camshaft Testing' (22 June 2021): no stock cam data; stock baseline pull to 6800 rpm; aftermarket cam gives a more audible VTEC changeover."
+    },
+    {
+      "url": "https://www.carthrottle.com/post/6-new-things-we-learned-about-the-fk8-honda-civic-type-r/",
+      "what": "CarThrottle (Matt Robinson, originally 2017): interview with assistant project leader Hideki Kakinuma on the three tailpipes."
+    },
+    {
+      "url": "https://www.evo.co.uk/reviews/19801/honda-civic-type-r-review-ignore-the-looks-this-is-an-astounding-hot-hatch",
+      "what": "evo, 'Used Honda Civic Type R (FK8, 2017-2022) review' (11 February 2025): exhaust sound, lag, hard rev cut, 0-62 and top speed. Road test."
+    },
+    {
+      "url": "https://www.pistonheads.com/news/ph-buying-guides/honda-civic-type-r-fk8-ph-used-buying-guide/44704",
+      "what": "PistonHeads, 'Honda Civic Type R (FK8) PH Used Buying Guide' (Tony Middlehurst, 19 September 2021): 'air rush' above 5000 rpm, triple exhaust, Active Sound Control from 2020. Road-test based guide."
+    },
+    {
+      "url": "https://www.carsguide.com.au/car-reviews/honda-civic-type-r-59599",
+      "what": "CarsGuide (Tim Robson, 16 October 2017), Australian FK8: off boost below 3500 rpm, torque near 3000, exhaust too quiet, 228 kW on 95 RON. Road test."
+    },
+    {
+      "url": "https://www.motor1.com/reviews/138654/2017-honda-civic-type-r/",
+      "what": "Motor1 review (9 March 2017) of the UK 310 hp car (FK2, same K20C1): turbo lag, wastegate hiss, droning engine note. Road test of the previous car; used only as labelled."
+    }
+  ],
+  "notes": "Modelled variant: the K20C1 of the US 2017 Civic Type R (FK8), 228 kW (306 hp SAE net) at 6500 rpm and 400 N m (295 lb-ft) from 2500 to 4500 rpm; Japan and Europe rate the same engine 235 kW. See engines/research/honda_k20c1.json. Sourced from Honda: bore 86.0 and stroke 85.9 mm, 1996 cc, compression 9.8, four valves per cylinder, the 7000 rpm redline (used as redline and limiter), boost 22.8 psi (gauge is our reading; Honda's own release also says 23.2 psi once), a single-scroll MHI TD04 with internal wastegate, worked by an electric actuator, an air-to-air intercooler low in the front, the exhaust manifold cast into the head, direct injection, VTEC on the exhaust cam only (the intake has one profile), VTC on both cams, a centre silencer with three outlets. Firing order 1-3-4-2, sourced only for the K-series family (factory RSX K20A3 data; Haltech's K-series article); nothing found names the K20C1. With equal runners for cylinders 1 and 4 and for 2 and 3 into one turbine, the only other flat-plane order (1-2-4-3) gives identical torque and power to four figures here, so the choice cannot change the sound in this model. Flat-plane crank assumed. Weak: valves 35 and 29 mm (an aftermarket maker's stock-size replacements for the K20C1). Exhaust-only VTEC: cam_high repeats the low cam's intake fields exactly, so only the exhaust events change at the switch. Honda switches by load as well as speed (low cam while boost builds; high cam at part-load cruise and at full output; Hondata), but this format switches by engine speed alone, so at part load the low cam stays below the switch speed. Estimated, not sourced: rod 143.7 mm (aftermarket rod listings seen only in search excerpts), all cam timing and lifts (intake 5/40 at 1 mm, 10.5 mm; low exhaust 30/0, 8.5 mm; high exhaust 48/12, 10.0 mm) with VTC fixed, the full-load VTEC switch at 5000 rpm (fitted: the low cam gave more torque below it), intake runners 0.35 m (fitted to Honda's curve) and the derived plenum and throttle, in-head exhaust runners 0.16 m for cylinders 1 and 4 and 0.08 m for 2 and 3 at 32 mm into one collector that is the turbine inlet, idle 750 rpm; turbo: compressor wheel 58 mm (an aftermarket maker's measurement of the stock wheel), sized for match_rpm 3000 (turbine nozzle 3.85 cm^2 derived), map width surge at 1/2.5 of design flow (narrower maps surged at 2500 rpm), electronic boost control holding 1.57 bar with the wastegate 38 mm and its actuator spring 1.0 to 1.5 bar (a stiffer derived spring made the controller hunt), the bypass valve recirculating (aftermarket listings describe a diaphragm valve on the turbo; whether it recirculates is inferred), intercooler effectiveness 0.7, charge pipes 1.0 m (turbo at the back of the transverse engine to the intercooler in the bumper) and 0.8 m (back up to the throttle) at 55 and 60 mm; knock-limited retard 9 degrees per bar above 1.4 bar absolute (no Honda figure); after the turbine 70 mm pipes 2.6 m long to a 110 mm centre silencer with muffler_zeta 0.3 and a 75 mm tail (turbine outlet about +29 kPa at 6500 rpm); heat_q 2.45e6 (mid-range), friction_scale 1.0. Whistle stand-in at the default 1.0. Not modelled: the triple outlet as three pipes (one tail stands for the two main pipes; the centre pipe's resonator and its negative-pressure effect are not represented), VTC phase changes with speed and load, the wastegate held open at light load, the ECU's torque limiting below full boost. Fit (engsim validate, live96, torque validated at 3500 rpm, the middle of Honda's 2500-4500 plateau): 402 against 400 N m (+0%) and 228 against 228 kW at 6500 rpm (+0%). Against Honda Japan's published full-load curve (the 235 kW rating) the model is within about 8% from 2000 to 7000 rpm (419 N m at 2500 and 428 at 3000 against about 396; 386 at 4000; 394 at 5500 against 376) and well under it at 1500 rpm (162 against about 210 N m), where the simulated turbo has not spooled. Boost holds 157 kPa from 2500 rpm. Spool: a full-throttle step at 3000 rpm reaches 90% of its boost in 1.23 s, at 2500 rpm in 2.79 s.",
+  "vehicle": {
+    "name": "Honda Civic Type R (FK8, US, 2017)",
+    "kind": "car",
+    "curb_kg": 1414,
+    "gear_count": 6,
+    "gears": [
+      3.625,
+      2.115,
+      1.529,
+      1.125,
+      0.911,
+      0.735
+    ],
+    "final_drive": 4.111,
+    "wheel_radius_m": 0.3275,
+    "tyre": "245/30 ZR20",
+    "top_speed_kmh": 272,
+    "driven": "front",
+    "notes": "Six-speed manual. Curb weight 3,117 lb (US Touring, Honda US specifications; 1414 kg is my conversion; Europe 1380 kg), gear ratios 3.625, 2.115, 1.529, 1.125, 0.911, 0.735 and final drive 4.111 (Honda US; Europe and Japan print 0.734 for sixth), tyres 245/30 ZR20 90Y (Honda US), front-wheel drive with a helical limited-slip differential, top speed 272 km/h (Honda Europe). Published 0-100 km/h: 5.7 s (Honda Europe). wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius."
+  }
+}

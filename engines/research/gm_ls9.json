@@ -1,0 +1,366 @@
+{
+  "id": "gm_ls9",
+  "name": "GM LS9 6.2 L supercharged V8 (Chevrolet Corvette ZR1, C6, 2009-2013)",
+  "induction": "supercharged (Eaton R2300 TVS Roots blower, four-lobe rotors, liquid-to-air charge cooler)",
+  "summary": "The LS3's 6.2 L cross-plane pushrod V8 (same bore, stroke, firing order and L92-type heads) with lower compression, titanium rods and a large four-lobe Eaton Roots blower in place of the intake manifold, its charge cooled by two bricks either side of the rotors. The cross-plane V8 burble with a blower whine at about 18.6 crank orders.",
+  "fields": {
+    "cylinders": {
+      "value": 8,
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/General_Motors_LS-based_small-block_engine",
+      "note": "V8 small-block family (Wikipedia, GM LS-based small-block engine)."
+    },
+    "layout": {
+      "value": "V, 90 degrees",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/General_Motors_LS-based_small-block_engine",
+      "note": "Same block family as the LS3 (gm_ls3 research)."
+    },
+    "bore_mm": {
+      "value": 103.25,
+      "unit": "mm",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release: 'Cast iron cylinder liners – measuring 4.06 inches (103.25 mm) in bore diameter'. corvettestory's spec table agrees (103.25 x 92 mm)."
+    },
+    "stroke_mm": {
+      "value": 92.0,
+      "unit": "mm",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release: 'a forged steel crankshaft that delivers the LS9's 3.62-inch (92 mm) stroke'."
+    },
+    "displacement_cc": {
+      "value": 6162,
+      "unit": "cc",
+      "source": "https://corvettestory.com/2009-Corvette-C6-ZR1-LS9-Engine-Supercharger-Four-Lobbed-Rotor-Horsepower-Torque-Curves-Gas-Guzzler-Tax-Specifications-Performance-Pricing-2.php",
+      "note": "6.2 L; 6162 cc is the LS3's figure from the same bore and stroke (my arithmetic gives 6,162 cc)."
+    },
+    "compression_ratio": {
+      "value": 9.1,
+      "unit": ":1",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release: 'titanium connecting rods and forged aluminum pistons, which, when combined with the cylinder heads, delivers a 9.1:1 compression ratio'. corvettestory: 9.1:1."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "Not found. GM release says only 'a set of titanium connecting rods'. The LS3's 154.9 mm (6.098 in, PSI Conversion) is used as an estimate."
+    },
+    "firing_order": {
+      "value": "1-8-7-2-6-5-4-3",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/General_Motors_LS-based_small-block_engine",
+      "note": "Wikipedia gives this order for the GM LS (Gen III/IV) family; no LS9-specific statement was found, so it is the family order, as for the LS3 in this library. Numbering as in the gm_ls3 research (chevygeek.com, cited by Wikipedia): odd cylinders 1-3-5-7 on the driver (left) side front to rear, even 2-4-6-8 on the passenger (right) side."
+    },
+    "crank": {
+      "value": "cross-plane, four throws at 90 degrees, each pin shared by one cylinder from each bank",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Crossplane",
+      "note": "Family layout, as in the gm_ls3 research."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "unit": "deg",
+      "source": "https://en.wikipedia.org/wiki/Crossplane",
+      "note": "Even 90 degrees engine-wide; uneven per bank (cross-plane)."
+    },
+    "valves_per_cylinder": {
+      "value": 2,
+      "unit": null,
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "One intake, one exhaust valve; pushrod valvetrain with LS3 lifters, rockers and springs (GM release)."
+    },
+    "intake_valve_dia_mm": {
+      "value": 55.0,
+      "unit": "mm",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release: 'titanium intake valves that measure 2.16 inches (55 mm) in diameter'."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 40.4,
+      "unit": "mm",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release: '1.59-inch (40.4 mm) hollow stem sodium-filled exhaust valves'."
+    },
+    "intake_lift_mm": {
+      "value": 14.1,
+      "unit": "mm",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release: 'a relatively low lift of 0.555-inch (14.1 mm) for both the intake and exhaust valves'. A Chevrolet Performance part listing for the LS9 cam gives 0.562 in; the engine's own release is used."
+    },
+    "exhaust_lift_mm": {
+      "value": 14.1,
+      "unit": "mm",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "Same sentence."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg at 0.050 in",
+      "source": null,
+      "note": "Not found on a page read for this file (the release calls it a 'low-overlap cam'). Estimate used: 211 deg intake, 230 deg exhaust at 0.050 in lifter rise with 122.5 deg lobe separation, the figures search excerpts attribute to Chevrolet Performance part 12638427 'LS9 camshaft' (pages not opened). Centred lobes (no advance) assumed."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg at 0.050 in",
+      "source": null,
+      "note": "See intake_duration_deg."
+    },
+    "rocker_ratio": {
+      "value": 1.7,
+      "unit": ":1",
+      "source": "https://psiconversion.com/tech/ls_guide/ls3.html",
+      "note": "The LS9 uses the LS3's rocker arms (GM release: 'the lifters, rocker arms and valve springs, of the LS3 engine'); the LS3's 1.7 is from the gm_ls3 research."
+    },
+    "variable_valve_timing": {
+      "value": null,
+      "unit": null,
+      "source": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/compact-powerhouse-inside-corvette-z06-lt4-engine.html",
+      "note": "Not stated for the LS9. The LT4 release lists 'continuously variable valve timing' among the LT4's new technologies; that the LS9 had none is an inference."
+    },
+    "redline_rpm": {
+      "value": 6600,
+      "unit": "rpm",
+      "source": "https://corvettestory.com/2009-Corvette-C6-ZR1-LS9-Engine-Supercharger-Four-Lobbed-Rotor-Horsepower-Torque-Curves-Gas-Guzzler-Tax-Specifications-Performance-Pricing-2.php",
+      "note": "Fuel shut-off at 6,600 rpm (corvettestory spec table; the ZR1's redline is 6,500). GM release: power 'in a wide arc to 6,600 rpm'. 6,600 is used as the limiter."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found; the LS3 definition's 650 estimate is reused."
+    },
+    "peak_power_kw": {
+      "value": 476,
+      "unit": "kW",
+      "source": "https://corvettestory.com/2009-Corvette-C6-ZR1-LS9-Engine-Supercharger-Four-Lobbed-Rotor-Horsepower-Torque-Curves-Gas-Guzzler-Tax-Specifications-Performance-Pricing-2.php",
+      "note": "638 hp at 6,500 rpm (SAE-certified rating, corvettestory spec table); 638 x 0.7457 = 475.8 kW, my conversion. The 2008 GM release targeted 620 hp before certification."
+    },
+    "peak_power_rpm": {
+      "value": 6500,
+      "unit": "rpm",
+      "source": "https://corvettestory.com/2009-Corvette-C6-ZR1-LS9-Engine-Supercharger-Four-Lobbed-Rotor-Horsepower-Torque-Curves-Gas-Guzzler-Tax-Specifications-Performance-Pricing-2.php"
+    },
+    "peak_torque_nm": {
+      "value": 819,
+      "unit": "Nm",
+      "source": "https://corvettestory.com/2009-Corvette-C6-ZR1-LS9-Engine-Supercharger-Four-Lobbed-Rotor-Horsepower-Torque-Curves-Gas-Guzzler-Tax-Specifications-Performance-Pricing-2.php",
+      "note": "604 lb-ft at 3,800 rpm (corvettestory spec table); 604 x 1.3558 = 819 N m, my conversion. Conflict: the preliminary GM release says 'Torque tops 585 lb.-ft. (793 Nm) at about the 4,000-rpm mark'; the final rating is used."
+    },
+    "peak_torque_rpm": {
+      "value": 3800,
+      "unit": "rpm",
+      "source": "https://corvettestory.com/2009-Corvette-C6-ZR1-LS9-Engine-Supercharger-Four-Lobbed-Rotor-Horsepower-Torque-Curves-Gas-Guzzler-Tax-Specifications-Performance-Pricing-2.php",
+      "note": "Preliminary release: about 4,000 rpm."
+    },
+    "torque_spread": {
+      "value": "90 percent of peak torque from 2,600 to 6,000 rpm; about 320 lb-ft at 1,000 rpm; about 300 hp at 3,000 rpm",
+      "unit": null,
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release (preliminary, before the 638 hp certification): 'The engine produces 90 percent of peak torque from 2,600 rpm to 6,000 rpm', 'approximately 300 horsepower (224 kW) at 3,000 rpm and nearly 320 lb.-ft. of torque (434 Nm) at only 1,000 rpm'."
+    },
+    "intake_type": {
+      "value": "supercharger case with integrated charge cooler replaces the intake manifold; single throttle",
+      "unit": null,
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release: 'this integrated design mounts to the engine in place of a conventional intake manifold'."
+    },
+    "throttle_dia_mm": {
+      "value": 87,
+      "unit": "mm",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "GM release: 'An 87-mm, single-bore throttle body is used to draw air into the engine. It is electronically controlled.'"
+    },
+    "throttle_position": {
+      "value": "before the supercharger (inference)",
+      "unit": null,
+      "source": "https://xlr-net.com/knowledgebase/print.php?id=62",
+      "note": "The LS9 release says only 'The air inlet and rotor drive pulley are positioned at the front of the supercharger.' GM TechLink 'Supercharging Explained' (generic, predates the LS9): 'GM North American supercharger applications use an upstream throttle body.' That the LS9 follows it is an inference."
+    },
+    "supercharger": {
+      "value": "Eaton R2300 TVS, Roots type, two four-lobe rotors with 160-degree helix",
+      "unit": null,
+      "source": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/compact-powerhouse-inside-corvette-z06-lt4-engine.html",
+      "note": "LT4 release comparison table, LS9 column: 'Type: ... R2300 TVS', 'Helix angle of rotors: ... 160 degrees'; text: 'Like the LS9's supercharger, the R1740 features a pair of four-lobe rotors, each with a 160-degree helix (twist)'. LS9 release: 'a new, large positive-displacement Roots-type supercharger – with a unique four-lobe design – developed for the engine by Eaton', 'sixth-generation design'."
+    },
+    "blower_displacement_l": {
+      "value": 2.296,
+      "unit": "L per rotor revolution",
+      "source": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/compact-powerhouse-inside-corvette-z06-lt4-engine.html",
+      "note": "LT4 release table: 'Displacement: ... 2296 cc per revolution'. LS9 release: '2.3-liter displacement'."
+    },
+    "blower_rotor_dims_mm": {
+      "value": "length 211, diameter 111.7, centre distance 75",
+      "unit": "mm",
+      "source": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/compact-powerhouse-inside-corvette-z06-lt4-engine.html",
+      "note": "LT4 release table, LS9 column: 'Rotor length: ... 8.3 inches (211 mm) Rotor diameter: ... 4.4 inches (111.7 mm) Center distance: ... 2.9 (75 mm)'. Not used by the simulator directly."
+    },
+    "drive_ratio": {
+      "value": 2.32,
+      "unit": "rotor / crank",
+      "source": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/compact-powerhouse-inside-corvette-z06-lt4-engine.html",
+      "note": "LT4 release table: 'Drive ratio: ... 2.32:1' and 'Maximum speed: ... 15,080 rpm' (2.32 x 6,500 = 15,080). corvettestory: pulley ratio 2.3:1, 15,300 rpm at 6,600 (2.32 x 6,600 = 15,312)."
+    },
+    "boost_psi": {
+      "value": 10.5,
+      "unit": "psi",
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "LS9 release: 'Maximum boost pressure is 10.5 psi (0.72 bar).' corvettestory: 'Boost maxes out at 10.5 psi'. Conflict: the later LT4 release's table gives 'Maximum boost: ... 9.7 psi / 0.67 bar' for the LS9. 10.5 psi (the LS9's own release) is used as the check; no rpm is given by either."
+    },
+    "intercooler": {
+      "value": "liquid-to-air, two bricks mounted longitudinally either side of the rotors",
+      "unit": null,
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "LS9 release: 'a liquid-to-air charge cooling system ... reducing the inlet air temperature by up to 60 degrees C', 'a pair of low-profile heat exchangers mounted longitudinally on either side of the supercharger'. corvettestory: Behr dual-brick. Core volume, pressure loss and effectiveness not published."
+    },
+    "bypass_valve": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not mentioned in the LS9 pages read. GM's Eaton applications use a bypass (GM TechLink, generic); one is modelled with derived settings, an estimate."
+    },
+    "exhaust_notes": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Manifolds, primary and pipe sizes not found for the ZR1; the LS3 definition's estimates are reused, with 76 mm pipes after the merge (estimate)."
+    },
+    "oiling": {
+      "value": "dry sump",
+      "unit": null,
+      "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "note": "Not modelled."
+    }
+  },
+  "missing": [
+    "cam durations and centrelines (only part-listing figures in search excerpts)",
+    "rod length",
+    "idle speed",
+    "boost against rpm",
+    "bypass valve and its settings",
+    "intercooler pressure loss and volume",
+    "intake runner length and plenum volume under the bricks",
+    "exhaust manifold and pipe sizes"
+  ],
+  "blocked_or_unreachable": "GM media and chevrolet.com refuse automated fetches and were not tried. The cam part listing on chevrolet.com was seen only as a search excerpt.",
+  "sources": [
+    {
+      "url": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "what": "GM's 2008 LS9 engine release reposted on conceptcarz.com: bore, stroke, compression, valves, lift, throttle, supercharger, charge cooler, preliminary torque curve, gearbox."
+    },
+    {
+      "url": "https://corvettestory.com/2009-Corvette-C6-ZR1-LS9-Engine-Supercharger-Four-Lobbed-Rotor-Horsepower-Torque-Curves-Gas-Guzzler-Tax-Specifications-Performance-Pricing-2.php",
+      "what": "Corvette: Year by Year (corvettestory.com) ZR1 LS9 page with GM's specification table: final ratings and their speeds, fuel shut-off, boost, pulley ratio, rotor speed."
+    },
+    {
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/compact-powerhouse-inside-corvette-z06-lt4-engine.html",
+      "what": "GM's 2015 LT4 release reposted on Corvette Action Center, with a table comparing the LT4 and LS9 superchargers (type, displacement, helix, rotor size, drive ratio, maximum speed and boost)."
+    },
+    {
+      "url": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+      "what": "GM's preliminary 2009 ZR1 specification table (Corvette Action Center): gear ratios, final drive, tyres, curb weight (est)."
+    },
+    {
+      "url": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press5.html",
+      "what": "GM's 2009 ZR1 press kit, LS9 page (Corvette Action Center): ZR1-specific gearing, charge cooler, air inlet at the front of the supercharger."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/General_Motors_LS-based_small-block_engine",
+      "what": "Wikipedia, GM LS-based small-block engine: family firing order."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Crossplane",
+      "what": "Wikipedia, Crossplane: per-bank interval pattern."
+    },
+    {
+      "url": "https://xlr-net.com/knowledgebase/print.php?id=62",
+      "what": "GM TechLink 'Supercharging Explained' reposted: upstream throttle body in GM's North American supercharger applications (generic)."
+    }
+  ],
+  "vehicle": {
+    "name": "Chevrolet Corvette ZR1 (C6, 2009)",
+    "fields": {
+      "curb_kg": {
+        "value": 1519,
+        "unit": "kg",
+        "source": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+        "note": "GM preliminary table: 'Curb weight (lb / kg): 3350 / 1519 (est)'. corvettestory's 2009 page also gives 3,350 lb."
+      },
+      "gear_count": {
+        "value": 6,
+        "unit": null,
+        "source": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+        "note": "GM release: 'Tremec TR6060 six-speed manual transmission, with a twin-disc clutch system'. Manual only."
+      },
+      "gears": {
+        "value": [
+          2.29,
+          1.61,
+          1.21,
+          1.0,
+          0.81,
+          0.67
+        ],
+        "unit": "",
+        "source": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+        "note": "GM preliminary table, 'close-ratio six-speed manual': 2.29 / 1.61 / 1.21 / 1.00 / 0.81 / 0.67, reverse 3.11. The ZR1 press kit: 'ZR1-specific gearing in the transmission provides a steep first-gear ratio' and top speed in sixth."
+      },
+      "final_drive": {
+        "value": 3.42,
+        "unit": "",
+        "source": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+        "note": "'Final drive ratio: 3.42'."
+      },
+      "tyre": {
+        "value": "P335/25ZR20",
+        "unit": null,
+        "source": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+        "note": "Rear; front P285/30ZR19 (GM preliminary table)."
+      },
+      "wheel_radius_m": {
+        "value": 0.3378,
+        "unit": "m",
+        "source": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+        "note": "Calculated by me from the rear tyre size (half the 20 in rim plus 335 mm x 0.25): the unloaded geometric radius."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C6)",
+        "note": "English Wikipedia, 'Chevrolet Corvette (C6)': front mid-engine, rear-wheel drive."
+      },
+      "top_speed_kmh": {
+        "value": 330,
+        "unit": "km/h",
+        "source": "https://corvettestory.com/specs/2009-Corvette-specs-options.php",
+        "note": "205 mph design top speed (corvettestory 2009 page); GM press kit: 'more than 200 mph'. Not used: the final drive is sourced."
+      }
+    },
+    "missing": [
+      "a final (not preliminary) GM curb weight"
+    ],
+    "sources": [
+      {
+        "url": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+        "what": "GM preliminary 2009 ZR1 specifications."
+      },
+      {
+        "url": "https://corvettestory.com/specs/2009-Corvette-specs-options.php",
+        "what": "Corvette: Year by Year, 2009 specifications (ZR1 weight, tyres, top speed)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C6)",
+        "what": "Wikipedia, Chevrolet Corvette (C6): layout."
+      }
+    ]
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "id": "vw_type1_1600dp",
+  "name": "Volkswagen Type 1 1600 dual-port air-cooled flat-four (1584 cc; European 50 PS engine code AD, Aug 1970-Jul 1973, continued as AS; Beetle 1302 S / 1303 S)",
+  "induction": "naturally aspirated",
+  "summary": "Low-revving, low-compression pushrod flat-four with even 180-degree firing, a single small carburettor on a long central manifold, and a stock muffler in which the four header pipes each end separately inside one expansion box feeding two small 'peashooter' tailpipes. The rear-cylinder headers cross over inside the muffler, which the source credits for part of the characteristic beat.",
+  "fields": {
+    "variant": {
+      "value": "European-market 50 PS (37 kW) 1584 cc twin/dual-port engine, code AD (08/1970-07/1973), as fitted to the 1302 S and 1303 S; code AS (08/1973-07/1980) is listed with the same 50 HP. US codes AE (08/1970-07/1971) and AH (08/1973-01/1974) are the same basic engine with different ratings.",
+      "unit": null,
+      "source": "https://www.coolairvw.co.uk/vw-info/beetle/engine-codes",
+      "note": "Engine-code page of a UK parts retailer (weak source for dates). Rows read: '1600cc AD TWIN PORT 08/1970-07/1973 50HP', '1600cc AE TWIN PORT 08/1970-07/1971 50HP', '1600cc AH TWIN PORT 08/1973-01/1974 48HP', '1600cc AS TWIN PORT 08/1973-07/1980 50HP'. The power, torque and compression figures in this file are the European 50 PS ratings, so they describe AD/AS, not the US AE/AH ratings. Rows were read through a page-summarising fetch, not a raw text read."
+    },
+    "cylinders": {
+      "value": 4,
+      "unit": null,
+      "source": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1303-profile-19598",
+      "note": "Volkswagen's 1303 vehicle-data page (https://www.volkswagen-newsroom.com/en/vehicle-data-beetle-kaefer-1303-profile-19597) reads 'Engine: Four-cylinder boxer, air-cooled'."
+    },
+    "layout": {
+      "value": "flat (boxer), air-cooled, rear-mounted longitudinal",
+      "unit": null,
+      "source": "https://www.volkswagen-newsroom.com/en/vehicle-data-beetle-kaefer-1303-profile-19597",
+      "note": "'Engine: Four-cylinder boxer, air-cooled | Engine position: Rear, longitudinal'"
+    },
+    "bank_angle_deg": {
+      "value": 180,
+      "unit": "deg",
+      "source": "https://en.wikipedia.org/wiki/Flat-four_engine",
+      "note": "Flat-four; horizontally opposed banks."
+    },
+    "bore_mm": {
+      "value": 85.5,
+      "unit": "mm",
+      "source": "http://www.kfz-tech.de/Engl/Herstellerdaten/VW/VW_1970_1600_Karmann-Ghia_Coup%c3%a9.htm",
+      "note": "kfz-tech.de manufacturer-data sheet for the 1970 VW 1600 Karmann-Ghia Coupe (same 1584 cc 37 kW engine): 'Displacement (Bore*stroke) 1.584 cm3 (85,5 mm * 69 mm)'. Wikipedia's Volkswagen air-cooled engine infobox also lists an 85.5 mm bore."
+    },
+    "stroke_mm": {
+      "value": 69.0,
+      "unit": "mm",
+      "source": "http://www.kfz-tech.de/Engl/Herstellerdaten/VW/VW_1970_1600_Karmann-Ghia_Coup%c3%a9.htm",
+      "note": "Same line: '(85,5 mm * 69 mm)'."
+    },
+    "displacement_cc": {
+      "value": 1584,
+      "unit": "cc",
+      "source": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1303-profile-19598",
+      "note": "Volkswagen Newsroom engine table: '1303 S | 1,584 | 37 / 50 / 4,000 | 106 / 2,800'."
+    },
+    "rod_length_mm": {
+      "value": 137.0,
+      "unit": "mm",
+      "source": "https://thesamba.com/vw/forum/archive/index.php/o-t--t-289342--.html",
+      "note": "FORUM SOURCE (TheSamba). Centre-to-centre. Quotes: 'Stock rod length is 5.394\".' / 'It is actually precisely 137mm.' / 'It should be for 1300/1500/1600 (stock 69mm stroke) rods. 1200 and type 4 were different.' A poster in the same thread says 'Even the factory manuals don't give that. They give all the diameters, but not the lenght.' No manufacturer source found."
+    },
+    "compression_ratio": {
+      "value": 7.5,
+      "unit": null,
+      "source": "http://www.kfz-tech.de/Engl/Herstellerdaten/VW/VW_1970_1600_Karmann-Ghia_Coup%c3%a9.htm",
+      "note": "'Compression ratio 7,5 : 1 (Petrol/gas)' for the 1970 37 kW 1600. A TheSamba forum post (https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html) says the ratio dropped in August 1972: 'the 1600cc engine decreased compression from 7.5:1 to 7.3:1 (via slightly dished pistons)'. So 7.5 applies to Aug 1970-Jul 1972 engines, 7.3 after (forum-sourced)."
+    },
+    "firing_order": {
+      "value": "1-4-3-2",
+      "unit": null,
+      "source": "https://www.thesamba.com/vw/archives/info/Engine_Blueprint_Specifications_Worksheet.pdf",
+      "note": "Engine blueprint worksheet hosted in TheSamba archives, General Specifications: 'Firing Order 1-4-3-2'. Cylinder numbering from https://www.oocities.org/vwresource/muffler (mirror of Rob and Dave's vw-resource pages), diagram 'Looking from the rear of the car: 4 (left rear) ... 2 (right rear) ... 3 (left front) ... 1 ( right front)'. So the right bank holds 1 (front) and 2 (rear), the left bank holds 3 (front) and 4 (rear); left/right as seen from behind the car, 'front means front of car'. Flywheel/clutch end is the front of the car: 'the fan belt is at the rear of the engine and the clutch is at the front'. Sequence by position: right-front, left-rear, left-front, right-rear."
+    },
+    "crank": {
+      "value": "Boxer crankshaft: opposed pistons run on separate crankpins (not shared), giving even firing. Exact pin angles and number of main bearings not found stated on an opened page.",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Flat-four_engine",
+      "note": "Wikipedia Flat-four engine: cylinders are offset from their opposite partner 'due to the distance between the crankpin journals'; firing interval 'evenly spaced at 180 degrees'. Read through a page-summarising fetch. The 180-degree pin spacing of a boxer four is general knowledge, not quoted from a VW source."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "unit": "deg",
+      "source": "https://en.wikipedia.org/wiki/Flat-four_engine",
+      "note": "Wikipedia Flat-four engine says the firing interval is 'evenly spaced at 180 degrees' (general statement about flat-fours, not VW-specific). With order 1-4-3-2 this gives 1 at 0, 4 at 180, 3 at 360, 2 at 540; bank sequence R-L-L-R derived from the sourced firing order and numbering."
+    },
+    "valves_per_cylinder": {
+      "value": 2,
+      "unit": null,
+      "source": "http://www.kfz-tech.de/Engl/Herstellerdaten/VW/VW_1970_1600_Karmann-Ghia_Coup%c3%a9.htm",
+      "note": "'Valves 2 per cylinder'; 'Camshaft in cylinder block, hanging valves (ohv)'."
+    },
+    "intake_valve_dia_mm": {
+      "value": 35.0,
+      "unit": "mm",
+      "source": "https://www.jbugs.com/product/043101355UC.html",
+      "note": "PARTS-VENDOR SOURCE, reproduction head (JBugs): 'Includes 35mm Intake Valves & 32mm Exhaust Valves in 8mm Bronze Valve Guides'. Other vendors (aapistons.com, design911.co.uk; seen in search results only, pages returned HTTP 429/402 and were not read) title the stock dual-port head '35.5x32'. Treat 35.0 vs 35.5 mm as unresolved; no factory source found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 32.0,
+      "unit": "mm",
+      "source": "https://www.jbugs.com/product/043101355UC.html",
+      "note": "Same JBugs listing: '32mm Exhaust Valves'. Vendor source."
+    },
+    "intake_lift_mm": {
+      "value": 8.46,
+      "unit": "mm",
+      "source": "https://www.webcamshafts.com/pages_vehicles/automobile/volkswagen/670.html",
+      "note": "CAM-VENDOR SOURCE. Web Cam Inc. 'Stock' regrind row ('Precision grind your cam to factory specifications'): 'VALVE LIFT .333/.314'. Converted from 0.333 in. Column is headed valve lift; rocker ratio for the stock row is not stated on the page. No factory lift figure found."
+    },
+    "exhaust_lift_mm": {
+      "value": 7.98,
+      "unit": "mm",
+      "source": "https://www.webcamshafts.com/pages_vehicles/automobile/volkswagen/670.html",
+      "note": "Same Web Cam 'Stock' row, converted from 0.314 in valve lift. Vendor source."
+    },
+    "intake_duration_deg": {
+      "value": 224.5,
+      "unit": "deg",
+      "source": "https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html",
+      "note": "Derived by me from the forum timing below (7.5 + 180 + 37), i.e. at 1 mm valve lift. Separately, Web Cam's 'Stock' row (https://www.webcamshafts.com/pages_vehicles/automobile/volkswagen/670.html) lists '250/250' advertised and '214/214' duration @ 0.050 in."
+    },
+    "exhaust_duration_deg": {
+      "value": 228.5,
+      "unit": "deg",
+      "source": "https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html",
+      "note": "Derived by me from the forum timing below (44.5 + 180 + 4), at 1 mm valve lift. Web Cam 'Stock' row: 250 advertised, 214 @ 0.050 in."
+    },
+    "ivo_btdc": {
+      "value": 7.5,
+      "unit": "deg",
+      "source": "https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html",
+      "note": "FORUM SOURCE (TheSamba, user SilverThing, 17 Jul 2025), no factory document cited. Measured 'at 1mm lift at the valve' per the post's opening line. Quote: '1300-1600 engines have the following specs (likely only due to the slightly higher rocker ratio): Intake Opens: 7 degrees 30 minutes BTDC ... Intake Closes: 37 degrees ABDC ... Exhaust Opens: 44 degrees 30 minutes BBDC ... Exhaust Closes: 4 degree ATDC'. The poster adds that cams changed 'from 3-bolt/rivet \"flat\" style to 4-rivet \"dished\" in August of 1971'. VW workshop data conventionally gives these timings with valve clearance set to 1 mm; the post words it as 1 mm lift at the valve."
+    },
+    "ivc_abdc": {
+      "value": 37.0,
+      "unit": "deg",
+      "source": "https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html",
+      "note": "Same forum post, at 1 mm lift at the valve: 'Intake Closes: 37 degrees ABDC'."
+    },
+    "evo_bbdc": {
+      "value": 44.5,
+      "unit": "deg",
+      "source": "https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html",
+      "note": "Same forum post, at 1 mm lift at the valve: 'Exhaust Opens: 44 degrees 30 minutes BBDC'."
+    },
+    "evc_atdc": {
+      "value": 4.0,
+      "unit": "deg",
+      "source": "https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html",
+      "note": "Same forum post, at 1 mm lift at the valve: 'Exhaust Closes: 4 degree ATDC'."
+    },
+    "valve_clearance_mm": {
+      "value": 0.15,
+      "unit": "mm",
+      "source": "https://www.thesamba.com/vw/archives/info/Engine_Blueprint_Specifications_Worksheet.pdf",
+      "note": "Running clearance (cold), not the timing-check clearance. Worksheet: 'Valve Lash Gap Intake .004-in.' and 'Valve Lash Gap Exhaust .006-in.' (0.10/0.15 mm). The vw-resource valve-adjustment page (https://www.oocities.org/vwresource/valve_adjust) says VW later recommended 0.006 in for the 1600; value given is that 0.006 in figure."
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "No factory maximum-rpm figure found on an opened page. Forum estimates seen only in search results (4000-5200 rpm) were not used. Peak power is at 4000 rpm."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found on an opened page."
+    },
+    "peak_power_kw": {
+      "value": 37,
+      "unit": "kW",
+      "source": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1303-profile-19598",
+      "note": "Manufacturer (Volkswagen Newsroom / Volkswagen Classic): '1303 S | 1,584 | 37 / 50 / 4,000 | 106 / 2,800' (kW / PS at rpm). Same figures for the 1302 S at https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1302-profile-19595. DIN rating. kfz-tech.de gives '37 kW (51 HP) at 4000 rpm'."
+    },
+    "peak_power_rpm": {
+      "value": 4000,
+      "unit": "rpm",
+      "source": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1303-profile-19598"
+    },
+    "peak_torque_nm": {
+      "value": 106,
+      "unit": "Nm",
+      "source": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1303-profile-19598",
+      "note": "'106 / 2,800' for 1302 S and 1303 S; kfz-tech.de agrees ('106 Nm at 2.800 rpm'). Disagreement: Volkswagen's own 1200/1200L page (https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-12001200l-profile-19586) lists the '1600 (1973-1975)' at '37 / 50 / 4,000 | 103 / 2,000'."
+    },
+    "peak_torque_rpm": {
+      "value": 2800,
+      "unit": "rpm",
+      "source": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1303-profile-19598"
+    },
+    "intake_type": {
+      "value": "single downdraught carburettor (Solex 34 PICT-3) on a central manifold feeding twin-port heads",
+      "unit": null,
+      "source": "https://www.oocities.org/vwresource/jets",
+      "note": "Rob and Dave's vw-resource jets page (oocities mirror): 'The 34PICT/3 carburetor is usually used on 1600cc or larger engines.' Manifold runner length and diameter not found."
+    },
+    "carb_venturi_dia_mm": {
+      "value": 26,
+      "unit": "mm",
+      "source": "https://www.oocities.org/vwresource/jets",
+      "note": "'1971-1974 34PICT/3 Carburetor | Venturi: 26mm | Power (Auxiliary) Fuel Jet: 60 | Main Jet: X127.5 | ... Air Correction Jet: 75Z (80Z for Ghia) | Pilot (Idle) Jet: 55'. Enthusiast reference site; the table is presented as stock specifications without naming the factory document."
+    },
+    "throttle_dia_mm": {
+      "value": 34,
+      "unit": "mm",
+      "source": "https://www.cip1.ca/c24-113-129-031-kc/",
+      "note": "PARTS-VENDOR SOURCE for a reproduction 34 PICT-3 (read through a page-summarising fetch): 'Engineered to authentic specs with a 34mm throttle bore, 26mm venturi'."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": "four separate equal-length header pipes, each ending open inside a single transverse muffler box (no merge collector); two tailpipes",
+      "unit": null,
+      "source": "https://www.oocities.org/vwresource/muffler",
+      "note": "Rob and Dave's vw-resource muffler page (oocities mirror): 'The standard muffler does have four equal-length pipes, but two of them hide inside the muffler itself (the rear cylinders). And in the standard muffler, each header pipe has it's own separate open end inside the muffler -- there is no smooth 4-into-1 plumbing.'"
+    },
+    "exhaust_notes": {
+      "value": "Front cylinders (1 right-front, 3 left-front) exhaust through pipes that run inside the heat exchangers (heater boxes), which serve as their headers, into the lower front inlets of the muffler. Rear cylinders (2 right-rear, 4 left-rear) bolt straight to the muffler's upper flanges; their headers are inside the muffler and cross over, so each rear cylinder vents near the opposite tailpipe. Gases mix in the muffler box (an open expansion chamber) and leave through two 'peashooter' tailpipes whose stuffing does the silencing. A small heat-riser pipe takes gas from the right-rear (#2) flange across to pre-heat the intake manifold.",
+      "unit": null,
+      "source": "https://www.oocities.org/vwresource/muffler",
+      "note": "Quotes: 'having the two front cylinders exhaust straight into the muffler (via the heat exchangers which are also the headers), but the two rear cylinders have headers internally in the muffler. The header pipes actually cross over inside, so the left rear vents close to the right tail pipe and vice versa. (This is part of the reason for the distinctive beat of the VW engine.)'; 'The stuffing in the peashooters is the actual muffler -- the \"muffler\" is just an open expansion box.' Enthusiast source describing the standard Beetle muffler generally, not a factory drawing."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found; source says only that the four are equal length."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Stock tailpipe diameter not found on an opened page (a 1-3/8 in figure appeared only in search-result snippets of parts listings)."
+    }
+  },
+  "missing": [
+    "redline_rpm (no factory figure)",
+    "idle_rpm",
+    "crank pin angles and main-bearing count from a VW-specific source",
+    "factory source for rod_length_mm (forum only)",
+    "factory source for cam timing and the exact measuring condition (forum only)",
+    "factory cam lift (cam-vendor regrind figure only)",
+    "factory valve head diameters (vendor listings disagree: 35 vs 35.5 mm intake)",
+    "runner_length_mm",
+    "runner_dia_mm",
+    "primary_dia_mm",
+    "primary_length_mm",
+    "exhaust_pipe_dia_mm (tailpipe)",
+    "US AE/AH power and torque ratings (not recorded; figures here are the European 50 PS AD/AS rating)",
+    "compression ratio from a factory source for the specific engine code"
+  ],
+  "sources": [
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1303-profile-19598",
+      "what": "Volkswagen Newsroom (Volkswagen Classic) engine-versions table for the Beetle 1303; manufacturer source for displacement, power and torque."
+    },
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-1302-profile-19595",
+      "what": "Volkswagen Newsroom engine-versions table for the Beetle 1302/1302 S; same 1584 cc figures."
+    },
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/engine-versions-beetle-kaefer-12001200l-profile-19586",
+      "what": "Volkswagen Newsroom engine-versions table for the 1200/1200L; lists a conflicting 103 Nm at 2,000 rpm for the 1600 (1973-1975)."
+    },
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/vehicle-data-beetle-kaefer-1303-profile-19597",
+      "what": "Volkswagen Newsroom vehicle-data page for the 1303; engine type and position."
+    },
+    {
+      "url": "http://www.kfz-tech.de/Engl/Herstellerdaten/VW/VW_1970_1600_Karmann-Ghia_Coup%c3%a9.htm",
+      "what": "kfz-tech.de manufacturer-data sheet, 1970 VW 1600 Karmann-Ghia Coupe (same 37 kW 1584 cc engine): bore, stroke, compression, power, torque. Reference site, not a factory document."
+    },
+    {
+      "url": "https://www.coolairvw.co.uk/vw-info/beetle/engine-codes",
+      "what": "Cool Air VW (UK parts retailer) Beetle engine-code table: code letters, dates and HP."
+    },
+    {
+      "url": "https://www.thesamba.com/vw/archives/info/Engine_Blueprint_Specifications_Worksheet.pdf",
+      "what": "Engine Blueprint Specifications Worksheet PDF in TheSamba.com archives: firing order and valve lash for the Type 1 engine."
+    },
+    {
+      "url": "https://www.oocities.org/vwresource/muffler",
+      "what": "OoCities mirror of Rob and Dave's Aircooled Volkswagen Pages (vw-resource.com) muffler page: stock exhaust layout and cylinder numbering diagram. Long-standing enthusiast reference."
+    },
+    {
+      "url": "https://www.oocities.org/vwresource/jets",
+      "what": "OoCities mirror of Rob and Dave's carburettor jets page: 1971-1974 34 PICT-3 specification table."
+    },
+    {
+      "url": "https://www.thesamba.com/vw/forum/archive/index.php/o-t--t-308441--start-180--index.html",
+      "what": "TheSamba.com forum archive thread: post listing stock cam timing at 1 mm lift for 1300-1600 engines, and compression-ratio change dates. Forum post, no factory citation."
+    },
+    {
+      "url": "https://thesamba.com/vw/forum/archive/index.php/o-t--t-289342--.html",
+      "what": "TheSamba.com forum archive thread on stock 1600 dual-port rod length. Forum."
+    },
+    {
+      "url": "https://www.webcamshafts.com/pages_vehicles/automobile/volkswagen/670.html",
+      "what": "Web Cam Inc. catalogue page for the VW Type 1; 'Stock' regrind row with valve lift and durations. Cam vendor."
+    },
+    {
+      "url": "https://www.jbugs.com/product/043101355UC.html",
+      "what": "JBugs listing for a new stock-type dual-port head; valve sizes. Parts vendor."
+    },
+    {
+      "url": "https://www.cip1.ca/c24-113-129-031-kc/",
+      "what": "CIP1 listing for a reproduction Solex 34 PICT-3; throttle bore and venturi. Parts vendor."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flat-four_engine",
+      "what": "Wikipedia Flat-four engine: general crank/firing-interval description."
+    },
+    {
+      "url": "https://www.oocities.org/vwresource/valve_adjust",
+      "what": "OoCities mirror of Rob and Dave's valve adjustment page: 0.006 in clearance recommendation for the 1600."
+    }
+  ],
+  "vehicle": {
+    "name": "Volkswagen 1302 S (1972)",
+    "fields": {
+      "curb_kg": {
+        "value": 870,
+        "unit": "kg",
+        "source": "https://www.thesamba.com/vw/archives/manuals/8_1971_beetle_1302/August_1971_1302_Beetle_Owners_Manual.pdf",
+        "note": "Printed p. 72: 'Unladen weight 870 kg (1918 lbs.)' (sedan). kfz-tech: 'Kerb weight 870/920* kg + driver' (http://www.kfz-tech.de/Engl/Hersteller/VW/VWKaefer13021970.htm)."
+      },
+      "gear_count": {
+        "value": 4,
+        "source": "https://www.thesamba.com/vw/archives/manuals/8_1971_beetle_1302/August_1971_1302_Beetle_Owners_Manual.pdf",
+        "note": "Printed p. 68: 'Baulk synchronized four-speed gearbox'."
+      },
+      "gears": {
+        "value": [
+          3.8,
+          2.06,
+          1.26,
+          0.89
+        ],
+        "unit": "",
+        "source": "https://www.thesamba.com/vw/archives/manuals/8_1971_beetle_1302/August_1971_1302_Beetle_Owners_Manual.pdf",
+        "note": "Printed p. 68 (PDF p. 69): 'Gear ratios 1st gear 3.80:1;2nd gear 2.06:1,3rd gear 1.26:1,4th gear 0.89:1, Reverse gear 3.61:1' (checked by me on the page image). auto motor und sport (https://www.auto-motor-und-sport.de/oldtimer/vw-kaefer-1302-ls-cabriolet-1972/technische-daten/): 'I. 3,80 II. 2,06 III. 1,26 IV. 0,86 R. 3,80'."
+      },
+      "final_drive": {
+        "value": 4.125,
+        "unit": "",
+        "source": "https://www.thesamba.com/vw/archives/manuals/8_1971_beetle_1302/August_1971_1302_Beetle_Owners_Manual.pdf",
+        "note": "'Final drive ratio for 1.6 liter engine 4.125:1, 1.3 liter engine 4.375:1'."
+      },
+      "wheel_radius_m": {
+        "value": null,
+        "unit": "m",
+        "source": null,
+        "note": "No published rolling radius found."
+      },
+      "tyre": {
+        "value": "5.60-15",
+        "source": "https://www.thesamba.com/vw/archives/manuals/8_1971_beetle_1302/August_1971_1302_Beetle_Owners_Manual.pdf",
+        "note": "Printed p. 70: 'Tires Normal (tubeless) 5.60-15 4 PR / Radial ply* (tubeless) 155 SR 15 ... * Optional extra'. Rear-wheel drive."
+      },
+      "top_speed_kmh": {
+        "value": 130,
+        "unit": "km/h",
+        "source": "https://www.thesamba.com/vw/archives/manuals/8_1971_beetle_1302/August_1971_1302_Beetle_Owners_Manual.pdf",
+        "note": "Printed p. 73: 'Maximum and cruising speed 130 km/h' for the 1.6 litre engine (VW Automatic 125 km/h). kfz-tech gives 125 km/h."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+        "note": "English Wikipedia, 'Volkswagen Beetle' (read 2026-11-17), infobox layout: Rear-engine, rear-wheel-drive."
+      }
+    },
+    "missing": [
+      "a published rolling radius",
+      "a separate check of the 1971 model year's gearing"
+    ],
+    "sources": [
+      {
+        "url": "https://www.thesamba.com/vw/archives/manuals/8_1971_beetle_1302/August_1971_1302_Beetle_Owners_Manual.pdf",
+        "what": "Volkswagen 'Instruction Manual VW 1302 / VW 1302 S', English edition, August 1971 (text 'based on the VW 1302 S'), scan on TheSamba: technical data pp. 68-73."
+      },
+      {
+        "url": "https://www.auto-motor-und-sport.de/oldtimer/vw-kaefer-1302-ls-cabriolet-1972/technische-daten/",
+        "what": "auto motor und sport, technical data of a 1972 VW 1302 LS Cabriolet (2016 test): disagreeing fourth gear."
+      },
+      {
+        "url": "http://www.kfz-tech.de/Engl/Hersteller/VW/VWKaefer13021970.htm",
+        "what": "kfz-tech.de 1302 data sheet: kerb weight, tyres, top speed."
+      }
+    ]
+  }
+}

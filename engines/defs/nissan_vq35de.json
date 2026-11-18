@@ -1,0 +1,118 @@
+{
+  "name": "nissan_vq35de",
+  "label": "Nissan VQ35DE 3.5 L V6 (350Z)",
+  "generic": false,
+  "family": "V6",
+  "based_on": "Nissan VQ35DE, 350Z base engine, 2003-2005",
+  "layout": "v",
+  "bank_angle": 60,
+  "bore": 0.0955,
+  "stroke": 0.0814,
+  "rod": 0.1442,
+  "cr": 10.3,
+  "firing": [
+    0,
+    120,
+    240,
+    360,
+    480,
+    600
+  ],
+  "bank": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.03715,
+  "ex_valve_d": 0.03135,
+  "cam": {
+    "at_lift": 0.0005,
+    "ivo": 2,
+    "ivc": 48,
+    "evo": 46,
+    "evc": 6,
+    "in_lift": 0.0095,
+    "ex_lift": 0.0092
+  },
+  "runner_len": 0.36,
+  "primary_len": [
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "groups": [
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      5
+    ]
+  ],
+  "merge": "y",
+  "redline": 6600,
+  "idle": 650,
+  "published": {
+    "power_kw": 214,
+    "power_rpm": 6200,
+    "torque_nm": 371,
+    "torque_rpm": 4800
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Nissan_VQ_engine",
+      "what": "Wikipedia, Nissan VQ engine. Bore, stroke, displacement, layout. Section is flagged as needing citations."
+    },
+    {
+      "url": "https://engine-specs.net/?p=2852",
+      "what": "engine-specs.net VQ35DE page. Third-party compilation that reads like service-manual data (tolerance ranges); source of rod length, valve diameters, firing order, durations."
+    },
+    {
+      "url": "https://www.motorreviewer.com/engine.php?engine_id=40",
+      "what": "motorreviewer.com VQ35DE page. Third-party; confirms rod length 144.2 mm and Rev-up 7000 rpm limit."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nissan_350Z",
+      "what": "Wikipedia, Nissan 350Z. Power and torque with rpm."
+    }
+  ],
+  "notes": "Sourced: 60 degree bank angle, bore, stroke, rod length (third-party), compression ratio (10.3, uncertain by 0.3 between versions), firing order 1-2-3-4-5-6, valve diameters, intake and exhaust durations (230 and 232 degrees, measuring lift not stated), plenum intake, published output. ASSUMED, not sourced: which cylinders are on which bank (odd on one, even on the other, which the firing order implies), the crank pin layout (six throws, each pair 60 degrees apart) and even 120 degree firing. Estimated, not sourced: the split of each published duration into opening and closing angles, the lift those durations are measured at (0.5 mm assumed), valve lifts, intake runner length, exhaust primary length, redline, idle. Everything else is left to the derived defaults (runner and throttle diameters, plenum, pipes, muffler, flywheel). Not modelled: intake cam phasing (the cam is fixed).",
+  "vehicle": {
+    "name": "Nissan 350Z base (Z33, US, 2003)",
+    "kind": "car",
+    "curb_kg": 1446,
+    "gear_count": 6,
+    "gears": [
+      3.794,
+      2.324,
+      1.624,
+      1.271,
+      1.0,
+      0.794
+    ],
+    "final_drive": 3.538,
+    "wheel_radius_m": 0.3334,
+    "tyre": "235/50 R17 96W",
+    "notes": "Base coup\u00e9 with the six-speed manual and 17-inch wheels (Performance, Touring and Track trims had 245/45 R18 rears). Every value is from a forum transcription of what appears to be Nissan's US specification sheet, cross-checked against a dealer-data aggregator; no Nissan document with these numbers was found. Curb weight 3188 lb, converted. No top speed found. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "rear"
+  }
+}

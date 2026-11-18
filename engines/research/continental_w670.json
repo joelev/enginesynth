@@ -1,0 +1,200 @@
+{
+  "id": "continental_w670",
+  "name": "Continental W670-6A / R-670-5 seven-cylinder radial (Boeing-Stearman PT-17), 220 hp",
+  "induction": "naturally aspirated",
+  "summary": "Seven-cylinder single-row air-cooled radial, direct drive, carburetted and confirmed unsupercharged. It fires every other cylinder (1-3-5-7-2-4-6) at even 102.9 deg intervals and turns only about 2,000 rpm, so the sound is a slow, loping bark through short stacks or a collector ring.",
+  "fields": {
+    "cylinders": {
+      "value": 7,
+      "unit": "cylinders",
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "Wilkinson 1945, p.87: '7 cylinders, 1-row radial, air cooled, direct drive, not supercharged, 4-cycle. A.T.C. 162.'"
+    },
+    "layout": {
+      "value": "radial",
+      "unit": null,
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "Single row."
+    },
+    "supercharger": {
+      "value": "none",
+      "unit": null,
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "Wilkinson 1945, p.87, W-670-M data page: 'Supercharger: None'; the W-670-6A (R-670-5) and W-670-K entries on the same page each say 'Direct drive. Not supercharged.' This is the confirmation required to include a radial. The same book says Kinner's five-cylinder K-5, B-5 and R-5 are also 'none of which are supercharged', if a five-cylinder alternative is wanted."
+    },
+    "bore_mm": {
+      "value": 130.2,
+      "unit": "mm",
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "5.125 in on the page (book rounds to 130 mm); converted by me. Same bore in the Radial Engines Ltd catalogue and the AEHS history."
+    },
+    "stroke_mm": {
+      "value": 117.5,
+      "unit": "mm",
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "4.625 in on the page (book rounds to 117 mm); converted by me."
+    },
+    "displacement_cc": {
+      "value": 10946,
+      "unit": "cc",
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "668 cu in (book: 10.9 litres); converted by me. AEHS gives 667.9 cu in."
+    },
+    "compression_ratio": {
+      "value": 5.4,
+      "unit": ":1",
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "W670-6A, -6N, -17, -11A (Radial Engines Ltd table of specifications); AEHS's table from Type Certificate 162 agrees. The W670-M is 6.1:1 (Wilkinson, AEHS)."
+    },
+    "firing_order": {
+      "value": "1-3-5-7-2-4-6",
+      "unit": null,
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "Radial Engines Ltd table of specifications; Wings of History museum page for the R-670-5 gives the same. Numbering convention is not stated on either page (the usual radial convention is No. 1 at top, numbered in the direction of rotation)."
+    },
+    "firing_intervals_deg": {
+      "value": 102.86,
+      "unit": "deg crank",
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "Not stated on the page: 720/7, my calculation from a single-throw crank and the firing order above. Even firing."
+    },
+    "crank": {
+      "value": "single throw, two-piece counterbalanced crankshaft in two ball bearings; one master rod on cylinder No. 1 carrying six link rods",
+      "unit": null,
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "Crankshaft from Wilkinson p.87. Master rod location '#1 cylinder' from the Radial Engines Ltd catalogue. Six link rods on knuckle pins is from the AEHS description of the A-70, the W670's direct predecessor."
+    },
+    "valves_per_cylinder": {
+      "value": 2,
+      "unit": "valves",
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "'1 inlet valve and 1 exhaust valve (sodium cooled) per cylinder actuated by push rods.' AEHS describes the predecessor A-70's enclosed valve gear as a double cam ring, tubular push rods and rocker arms."
+    },
+    "ivo_atdc": {
+      "value": 4,
+      "unit": "deg ATDC",
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "Catalogue wording: 'Intake opens @ 4 ATC', i.e. after top centre, not before. Measured with No. 1 cylinder valve clearance set to 0.124 in cold (a timing-check clearance; running clearance is 0.010 in cold), so real opening at running clearance is earlier. Source is an overhaul shop's mechanics handbook, not a Continental manual."
+    },
+    "ivc_abdc": {
+      "value": 21,
+      "unit": "deg ABDC",
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "At 0.124 in checking clearance; see ivo note."
+    },
+    "evo_bbdc": {
+      "value": 49,
+      "unit": "deg BBDC",
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "At 0.124 in checking clearance; see ivo note."
+    },
+    "evc_atdc": {
+      "value": 0,
+      "unit": "deg ATDC",
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "'Exhaust closes @ TDC', at 0.124 in checking clearance; see ivo note."
+    },
+    "valve_clearance_running_in": {
+      "value": 0.01,
+      "unit": "in (cold)",
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "Intake and exhaust."
+    },
+    "ignition_timing": {
+      "value": "right magneto 32 deg BTDC, left magneto 29 deg BTDC; two plugs per cylinder",
+      "unit": null,
+      "source": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "note": "AEHS gives the same magneto timing; two plugs per cylinder from Wilkinson."
+    },
+    "peak_power_kw": {
+      "value": 164,
+      "unit": "kW",
+      "source": "https://pilotfriend.com/aero_engines/engine_specs/Continental/2.htm",
+      "note": "220 hp; pilotfriend gives '220 hp (164 kw)'. Rating of 220 hp at 2,075 rpm (take-off and normal, sea level) is from Wilkinson for the W-670-6A (R-670-5), and matches the catalogue and Type Certificate 162 as quoted by AEHS. The Wings of History museum page says 225 hp at 2200 rpm for its R-670-5; Wikipedia's R-670-K entry is 225 hp at 2,175 rpm."
+    },
+    "peak_power_rpm": {
+      "value": 2075,
+      "unit": "rpm",
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "Rated (take-off and normal) speed; aircraft engines of this type have no separate redline, so use this as the maximum."
+    },
+    "redline_rpm": {
+      "value": 2075,
+      "unit": "rpm",
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "Rated maximum rpm for the -6A; 2,200 rpm for the 240 hp W670-M."
+    },
+    "cruise_rating": {
+      "value": "202 hp at 2,075 rpm",
+      "unit": null,
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "This cruise figure is for the W-670-M (240 hp at 2,200 take-off); given for scale only."
+    },
+    "bmep_max_psi": {
+      "value": 130,
+      "unit": "lb/sq in",
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "W-670-M at 240 hp."
+    },
+    "intake_type": {
+      "value": "single updraft Bendix-Stromberg NA-R6 carburettor feeding induction passages in the rear crankcase section and one intake pipe per cylinder; no blower",
+      "unit": null,
+      "source": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "note": "Carburettor from Wilkinson; venturi 1-15/16 in per AEHS (Type Certificate 162 table). Induction passages in the rear crankcase section are described by AEHS for the A-70 family."
+    },
+    "throttle_dia_mm": {
+      "value": 49.2,
+      "unit": "mm",
+      "source": "https://enginehistory.org/Piston/Continental/ConRad/ConRad.shtml",
+      "note": "Carburettor venturi diameter 1-15/16 in (not the throttle bore); converted by me."
+    },
+    "exhaust_notes": {
+      "value": "One exhaust port per cylinder; variants differ in front- or rear-facing exhausts. A Type Test report mentions an exhaust collector ring and individual exhaust stacks.",
+      "unit": null,
+      "source": "https://enginehistory.org/Piston/Continental/ConRad/ConRad.shtml",
+      "note": "No dimensions found."
+    },
+    "engine_dry_weight_lb": {
+      "value": 470,
+      "unit": "lb",
+      "source": "https://enginehistory.org/Piston/Continental/ConRad/ConRad.shtml",
+      "note": "W670-6A, from Type Certificate 162 table; the catalogue says approx. 485 lb."
+    }
+  },
+  "missing": [
+    "rod_length_mm (master rod and link rod lengths)",
+    "valve diameters and lifts",
+    "valve timing at running clearance, and from a Continental manual (the overhaul and operator manuals are sold by aircorpslibrary.com and were not readable)",
+    "peak_torque_nm and rpm (not published; torque at rating can be derived from 220 hp at 2,075 rpm)",
+    "idle_rpm",
+    "intake pipe length and diameter",
+    "exhaust stack length and diameter, collector ring dimensions",
+    "cylinder numbering convention and direction of rotation, from a page"
+  ],
+  "sources": [
+    {
+      "url": "https://archive.org/details/in.ernet.dli.2015.205336",
+      "what": "Paul H. Wilkinson, 'Aircraft Engines of the World 1945', scanned at the Internet Archive; W-670 data page (p.87) read from the OCR text. Standard reference; states 'Supercharger: None'."
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/617773f3073c364c0db973ff/636c03b419f72a2e19125382_Catalog.pdf",
+      "what": "Radial Engines, Ltd. (Guthrie, Oklahoma overhaul shop) 'Parts Catalog and Mechanics Handbook for Jacobs R755, Continental W670 & Lycoming R680', Summer 2020: table of specifications with firing order, master rod location and valve timing. Vendor document."
+    },
+    {
+      "url": "https://enginehistory.org/Piston/Continental/ConRad/ConRad.shtml",
+      "what": "Aircraft Engine Historical Society, 'Continental's Radial Aircraft Engines': construction history and a specification table transcribed from Type Certificate No. 162."
+    },
+    {
+      "url": "https://www.wingsofhistory.org/continental-r-670-5-radial-engine/",
+      "what": "Wings of History Air Museum page for its R-670-5: firing order and basic specifications."
+    },
+    {
+      "url": "https://pilotfriend.com/aero_engines/engine_specs/Continental/2.htm",
+      "what": "pilotfriend engine summary: 220 hp (164 kW), bore and stroke."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Continental_R-670",
+      "what": "Wikipedia, Continental R-670: variants and Jane's 1938 specifications (its supercharger line is blank, so it was not used as confirmation)."
+    }
+  ]
+}

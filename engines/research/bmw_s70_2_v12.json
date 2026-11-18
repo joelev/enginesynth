@@ -1,0 +1,273 @@
+{
+  "id": "bmw_s70_2_v12",
+  "name": "BMW S70/2 6.1 L V12 (McLaren F1, 1993-1998)",
+  "induction": "naturally aspirated",
+  "summary": "A 60-degree, 48-valve V12 with twelve individual throttles breathing from a carbon airbox just above the driver's head; even 60-degree firing gives the classic smooth V12 howl, with unusually loud induction noise.",
+  "fields": {
+    "cylinders": {
+      "value": 12,
+      "unit": null,
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf"
+    },
+    "bank_angle_deg": {
+      "value": 60,
+      "unit": "deg",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf"
+    },
+    "bore_mm": {
+      "value": 86.0,
+      "unit": "mm",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf"
+    },
+    "stroke_mm": {
+      "value": 87.0,
+      "unit": "mm",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "compression_ratio": {
+      "value": 11.0,
+      "unit": ":1",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf"
+    },
+    "displacement_cc": {
+      "value": 6064,
+      "unit": "cc",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf"
+    },
+    "firing_order": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found for the S70/2. motor-car.net gives 1-7-5-11-3-9-6-12-2-8-4-10 for the related two-valve BMW M70 V12 (https://www.motor-car.net/bmw-engines/item/16057-m70-engine); the S70/2 shares its layout and bore spacing but is a different engine, so this is a lead, not a sourced value. Cylinder numbering by bank not found."
+    },
+    "crank": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not described on any page opened. A 60-degree V12 normally has six shared crank pins at 120 degrees; not sourced for this engine."
+    },
+    "firing_intervals_deg": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not stated on any page opened. A 60-degree V12 with shared pins fires evenly every 60 degrees; this is general engine knowledge, not a sourced value for the S70/2."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf",
+      "note": "Chain-driven DOHC per bank with continuously variable inlet valve timing (VANOS-type phasing of the inlet cam). Heads based on the BMW S50 six (Wikipedia says S50B30, unixnerd says S50B32)."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": 7500,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/McLaren_F1",
+      "note": "Wikipedia: 'The engine's rev limiter is set at 7,500 rpm.'"
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "peak_power_kw": {
+      "value": 461,
+      "unit": "kW",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf",
+      "note": "627 PS."
+    },
+    "peak_power_rpm": {
+      "value": 7500,
+      "unit": "rpm",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf",
+      "note": "McLaren's specification sheet says 7,500 rpm; Wikipedia's McLaren F1 and BMW M70 pages say 7,400 rpm."
+    },
+    "peak_torque_nm": {
+      "value": 651,
+      "unit": "N·m",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf",
+      "note": "480 lb-ft. Wikipedia's McLaren F1 page says 650 N·m."
+    },
+    "peak_torque_rpm": {
+      "value": 5600,
+      "unit": "rpm",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf",
+      "note": "Wikipedia's BMW M70 table says 6,700 rpm, which disagrees with McLaren's own sheet and with its McLaren F1 page."
+    },
+    "intake_type": {
+      "value": "individual throttles: 12 single throttle valves, carbon composite airbox; no variable intake geometry; two injectors per cylinder (one near the valve for low rpm, one higher in the tract for high rpm)",
+      "unit": null,
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf",
+      "note": "Throttles and airbox from McLaren's sheet; injectors and the rejected variable geometry from Wikipedia."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "Four Inconel catalysts with individual lambda control.",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/McLaren_F1"
+    }
+  },
+  "missing": [
+    "firing_order and cylinder numbering",
+    "crank layout as a sourced statement",
+    "rod_length_mm",
+    "intake_valve_dia_mm",
+    "exhaust_valve_dia_mm",
+    "intake_lift_mm",
+    "exhaust_lift_mm",
+    "cam durations and timing",
+    "inlet cam phasing range",
+    "idle_rpm",
+    "intake trumpet and throttle dimensions",
+    "exhaust manifold layout and dimensions"
+  ],
+  "sources": [
+    {
+      "url": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf",
+      "what": "McLaren Automotive specification sheet 'McLaren F1 GT Roadcar', powertrain type S 70/2 (third-party host). Manufacturer; the GT uses the standard road-car engine."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/McLaren_F1",
+      "what": "English Wikipedia McLaren F1 page; rev limit, injection, catalysts."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BMW_M70",
+      "what": "English Wikipedia BMW M70 page, S70/2 section and version table."
+    },
+    {
+      "url": "https://www.unixnerd.co.uk/s70.html",
+      "what": "unixnerd.co.uk BMW V12 page; enthusiast site, used only for the head-origin disagreement."
+    },
+    {
+      "url": "https://www.motor-car.net/bmw-engines/item/16057-m70-engine",
+      "what": "motor-car.net BMW M70 page; firing order of the M70, not the S70/2."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "McLaren F1 (1994)",
+      "unit": "",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_ROADCAR-SPECIFICATION.pdf",
+      "note": "McLaren Automotive \"McLaren F1 Road Car - Specification\"; standard road car, not the GT or LM. The S70/2 of this def."
+    },
+    "curb_kg": {
+      "value": 1140,
+      "unit": "kg",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_ROADCAR-SPECIFICATION.pdf",
+      "note": "Quote: \"Kerb Weight 1140 / 2513 kg / lbs\". Convention not stated; Wikipedia (lead) calls 1,140 kg dry and gives 1,260 kg kerb, unverified; Autocar's 1994 test (paywalled, not read) is said to give 1,138 kg with half a tank."
+    },
+    "gear_count": {
+      "value": 6,
+      "unit": "",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_ROADCAR-SPECIFICATION.pdf",
+      "note": "Quote: \"All synchro constant mesh 6 Speed\"."
+    },
+    "gears": {
+      "value": [
+        3.23,
+        2.19,
+        1.71,
+        1.39,
+        1.16,
+        0.93
+      ],
+      "unit": "",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_ROADCAR-SPECIFICATION.pdf",
+      "note": "Quote: \"1st Gear Ratio 3.23/8.7 ... 2nd 2.19/12.7, 3rd 1.71/16.7, 4th 1.39/20.0, 5th 1.16/24.0, 6th Gear Ratio 0.93/30.0\". The second number reads as mph per 1,000 rpm (inference)."
+    },
+    "final_drive": {
+      "value": 2.93,
+      "unit": "",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_ROADCAR-SPECIFICATION.pdf",
+      "note": "DERIVED (ours). Published: \"Final Drive Ratio 2.37:1\", \"Transverse unit with high speed bevel gears and spur final drive\". With 2.37, 6th would give 38.0 mph per 1,000 rpm on this tyre against the sheet's 30.0; the shortfall is the same factor (about 1.24-1.27) in all six gears. Solving each gear's mph/1000 for the overall ratio with a 0.350 m rolling radius gives 2.87-2.95 (mean 2.93). Car and Driver 1994, via Wikipedia (not read): 221 mph at 7,500 rpm in 6th, i.e. 29.5 mph/1000, agreeing with the sheet."
+    },
+    "tyre": {
+      "value": "315/45 ZR 17",
+      "unit": "",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_ROADCAR-SPECIFICATION.pdf",
+      "note": "Quote: \"Rear Tyre 315/45 ZR 17\"."
+    },
+    "wheel_radius_m": {
+      "value": 0.35,
+      "unit": "m",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_ROADCAR-SPECIFICATION.pdf",
+      "note": "Estimated (ours): rolling radius taken as 98% of the unloaded radius computed from the tyre size (rim diameter / 2 + section width x aspect ratio)."
+    },
+    "top_speed_kmh": {
+      "value": 386,
+      "unit": "km/h",
+      "source": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_ROADCAR-SPECIFICATION.pdf",
+      "note": "Quote: \"Top Speed 386/240.1 km/h / mph\". This is the 1998 Ehra-Lessien record run with the rev limiter raised to 8,300 rpm (Wikipedia, lead: https://en.wikipedia.org/wiki/McLaren_F1)."
+    },
+    "driven": {
+      "value": "rear",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/McLaren_F1",
+      "note": "English Wikipedia, 'McLaren F1' (read 2026-11-17), infobox layout: Rear mid-engine, rear-wheel-drive."
+    }
+  }
+}

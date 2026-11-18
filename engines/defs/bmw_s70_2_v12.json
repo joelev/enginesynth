@@ -1,0 +1,163 @@
+{
+  "name": "bmw_s70_2_v12",
+  "label": "BMW S70/2 6.1 L V12 (McLaren F1)",
+  "layout": "v",
+  "bank_angle": 60.0,
+  "bore": 0.08600000000000001,
+  "stroke": 0.08700000000000001,
+  "rod": 0.14,
+  "cr": 11.0,
+  "firing": [
+    0.0,
+    480.0,
+    240.0,
+    600.0,
+    120.0,
+    360.0,
+    60.0,
+    540.0,
+    300.0,
+    660.0,
+    180.0,
+    420.0
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ivo": 22.0,
+  "ivc": 61.0,
+  "evo": 64.0,
+  "evc": 27.0,
+  "itb": true,
+  "runner_len": 0.355,
+  "runner_d": 0.0465,
+  "primary_len": [
+    0.43,
+    0.43,
+    0.43,
+    0.43,
+    0.43,
+    0.43,
+    0.43,
+    0.43,
+    0.43,
+    0.43,
+    0.43,
+    0.43
+  ],
+  "primary_d": 0.0427,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10,
+      11
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 0.5,
+  "secondary_d": 0.055,
+  "mid_len": 0.6,
+  "mid_d": 0.075,
+  "tail_d": 0.075,
+  "redline": 7500.0,
+  "idle": 900.0,
+  "generic": false,
+  "family": "V12",
+  "based_on": "BMW S70/2 6.1 L V12, McLaren F1 (1993-1998)",
+  "published": {
+    "power_kw": 461,
+    "power_rpm": 7500,
+    "torque_nm": 651,
+    "torque_rpm": 5600
+  },
+  "sources": [
+    {
+      "url": "https://www.allcarcentral.com/McLaren_pdf/McLAREN_F1_GT_ROADCAR-SPECIFICATION.pdf",
+      "what": "McLaren Automotive specification sheet 'McLaren F1 GT Roadcar', powertrain type S 70/2 (third-party host). Manufacturer; the GT uses the standard road-car engine."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/McLaren_F1",
+      "what": "English Wikipedia McLaren F1 page; rev limit, injection, catalysts."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BMW_M70",
+      "what": "English Wikipedia BMW M70 page, S70/2 section and version table."
+    },
+    {
+      "url": "https://www.unixnerd.co.uk/s70.html",
+      "what": "unixnerd.co.uk BMW V12 page; enthusiast site, used only for the head-origin disagreement."
+    },
+    {
+      "url": "https://www.motor-car.net/bmw-engines/item/16057-m70-engine",
+      "what": "motor-car.net BMW M70 page; firing order of the M70, not the S70/2."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression, 60-degree V12, four valves per cylinder, twelve individual throttles, 7500 rpm limit. The firing order is ASSUMED: none is published for the S70/2, nor its crank layout. A conventional even-firing 60-degree V12 is used (six shared pins 120 degrees apart, firing every 60 degrees) with the order 1-7-5-11-3-9-6-12-2-8-4-10, cylinders 1-6 on one bank, which is the order one source gives for the related two-valve BMW M70. Estimated, not sourced: rod length, valve diameters and lifts, cam timing and duration (variable inlet timing on the real engine; one fixed timing is used), intake trumpet length and diameter, the whole exhaust layout (four 3-into-1 manifolds into one cross-over, two outlets) and its sizes, idle speed. The carbon airbox the real throttles breathe from is not modelled: individual throttles open to the air here. Left to the simulator's defaults: collector volume, muffler, flywheel inertia. Also estimates: friction_scale, heat_q, burn_scale (the simulator's friction, heat-release and burn-rate scales), set with the other estimated fields so that simulated torque and power come near the published figures; no sourced number was changed.",
+  "in_valve_d": 0.0345,
+  "ex_valve_d": 0.0287,
+  "in_lift": 0.012,
+  "ex_lift": 0.01,
+  "friction_scale": 0.75,
+  "heat_q": 2700000.0,
+  "burn_scale": 0.87,
+  "vehicle": {
+    "name": "McLaren F1 (1994)",
+    "kind": "car",
+    "curb_kg": 1140,
+    "gear_count": 6,
+    "gears": [
+      3.23,
+      2.19,
+      1.71,
+      1.39,
+      1.16,
+      0.93
+    ],
+    "final_drive": 2.93,
+    "wheel_radius_m": 0.35,
+    "tyre": "315/45 ZR 17 (rear)",
+    "top_speed_kmh": 386,
+    "notes": "Six-speed manual. Curb weight, gear ratios, tyre and top speed from McLaren's specification sheet. Final drive 2.93 is OUR effective figure: McLaren's published 2.37 does not reproduce its own road speed per 1,000 rpm in any gear (it is about 1.24 times too tall, so a further reduction appears to be unpublished); 2.93 is solved from the sheet's mph per 1,000 rpm and the estimated rolling radius, and fits every gear within 2%. The 386 km/h top speed is the 1998 record run with the rev limit raised to 8,300 rpm; at the standard 7,500 rpm limit the car is geared for about 360 km/h. Estimated: rolling radius from the tyre size.",
+    "driven": "rear"
+  }
+}

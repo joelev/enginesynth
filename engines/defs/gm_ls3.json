@@ -1,0 +1,141 @@
+{
+  "name": "gm_ls3",
+  "label": "GM LS3 6.2 L V8 (Corvette C6, pushrod, cross-plane)",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.10325000000000001,
+  "stroke": 0.092,
+  "rod": 0.1549,
+  "cr": 10.7,
+  "firing": [
+    0.0,
+    270.0,
+    630.0,
+    540.0,
+    450.0,
+    360.0,
+    180.0,
+    90.0
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.055,
+  "ex_valve_d": 0.0404,
+  "cam": {
+    "at_lift": 0.002159,
+    "ivo": -15.0,
+    "ivc": 39.0,
+    "evo": 42.5,
+    "evc": -11.5,
+    "in_lift": 0.014,
+    "ex_lift": 0.013300000000000001
+  },
+  "itb": false,
+  "throttle_d": 0.09,
+  "runner_len": 0.33,
+  "runner_d": 0.052,
+  "primary_len": [
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "primary_d": 0.045,
+  "groups": [
+    [
+      0,
+      2,
+      4,
+      6
+    ],
+    [
+      1,
+      3,
+      5,
+      7
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 0.9,
+  "secondary_d": 0.064,
+  "mid_len": 0.9,
+  "mid_d": 0.064,
+  "tail_d": 0.064,
+  "redline": 6600.0,
+  "idle": 650.0,
+  "generic": false,
+  "family": "V8",
+  "based_on": "GM LS3 6.2 L V8, Chevrolet Corvette C6 (2008-2013)",
+  "published": {
+    "power_kw": 321,
+    "power_rpm": 5900,
+    "torque_nm": 575,
+    "torque_rpm": 4600
+  },
+  "sources": [
+    {
+      "url": "https://psiconversion.com/tech/ls_guide/ls3.html",
+      "what": "PSI Conversion LS3 swap guide. Vendor-compiled spec table (block, rotating assembly, heads, cam). Not GM, but detailed and consistent with GM crate-engine figures."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/General_Motors_LS-based_small-block_engine",
+      "what": "Wikipedia, GM LS-based small-block engine. Bore, displacement, CR, valve sizes, power, rev limit, firing order."
+    },
+    {
+      "url": "https://chevygeek.com/ls-firing-order/",
+      "what": "chevygeek.com LS firing order page (cited by Wikipedia). Cylinder numbering by bank."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Crossplane",
+      "what": "Wikipedia, Crossplane. Per-bank interval pattern of cross-plane V8s."
+    },
+    {
+      "url": "https://corvetteactioncenter.com/specs/c6/2008/ls3_page6.html",
+      "what": "Corvette Action Center technical article on the 2008 LS3 with GM engineer interviews. Rev limiter, valvetrain background."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, rod length, compression, firing order and bank numbering, valve diameters (one intake, one exhaust valve), peak valve lifts, cam durations (204/211 degrees at 0.050 in lifter rise) and 117-degree lobe separation, 90 mm throttle, 6600 rpm limit, 64 mm (2.5 in) exhaust pipe. The cam is entered at 2.159 mm valve lift, which is 0.050 in at the lifter times the sourced 1.7 rocker ratio (that multiplication is ours). Estimated, not sourced: where the lobes sit (intake centre 117 degrees after TDC, exhaust 117 before, i.e. no advance), intake runner length and diameter, exhaust primary length and diameter (short, for a cast manifold per bank), the X-merge and everything downstream of it except pipe diameter, idle speed. Left to the simulator's defaults: plenum and airbox volumes, collector volume, muffler, flywheel inertia. The estimated fields were set so that simulated torque and power come near the published figures; no sourced number was changed.",
+  "vehicle": {
+    "name": "Chevrolet Corvette coupe (C6, 2008, six-speed manual)",
+    "kind": "car",
+    "curb_kg": 1459,
+    "gear_count": 6,
+    "gears": [
+      2.66,
+      1.78,
+      1.3,
+      1.0,
+      0.74,
+      0.5
+    ],
+    "final_drive": 3.42,
+    "wheel_radius_m": 0.341,
+    "tyre": "P285/35ZR19",
+    "notes": "Modelled with the standard Tremec TR6060 six-speed manual (2.66/1.78/1.30/1.00/0.74/0.50, final drive 3.42), chosen over the 6L80 six-speed automatic that 54 percent of 2008 Corvettes had: the split is near even and the simulator models a clutch, not a torque converter (the automatic's 4.03/2.36/1.53/1.15/0.85/0.67 with a 2.56 final drive is kept in the research file as the alternative). Curb weight is the coupe figure from Corvette: Year by Year (another reference gives 3,179 lb). wheel_radius_m is a calculation from the rear tyre size (unloaded radius). Top speed omitted.",
+    "driven": "rear"
+  }
+}

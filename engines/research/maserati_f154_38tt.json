@@ -1,0 +1,367 @@
+{
+  "id": "maserati_f154_38tt",
+  "name": "Maserati 3.8 L twin-turbo V8, F154 AM (Quattroporte VI GTS, M156, 2013-2016, 530 PS)",
+  "induction": "turbocharged: two parallel twin-scroll turbochargers, one per bank, turbine housings cast into the exhaust manifolds; one air-to-air intercooler per bank; vacuum-actuated wastegates driven by a wastegate modulator; overboost function",
+  "status_note": "Researched by Claude (Opus 5.5), 2026-11-16. Web research only. Several primary pages (Stellantis/Maserati media, maserati.com, carsales, drive.com.au, FerrariChat) returned 403 and were not worked around.",
+  "summary": "A 3,799 cc (86.5 x 80.8 mm) 90-degree V8 designed by Maserati Powertrain and built by Ferrari in Maranello, but unlike every Ferrari road V8 it has a cross-plane crank (90-degree throws), so it fires evenly every 90 crank degrees overall while each bank fires unevenly, the classic American-style V8 rumble rather than the flat-plane Ferrari wail. Each bank's four cylinders feed their own twin-scroll turbine housing cast into the manifold, with a catalytic converter clamped straight onto each turbine outlet and pneumatic bypass flaps in each bank's pipe; reviewers report a deep bassy rumble at low revs, a turbo whistle at full boost, cracks on upshifts and a whoosh of vented boost, with the turbines taking the dry edge off the bark.",
+  "brief_figures_check": {
+    "530 PS at 6,800 rpm": "Confirmed for the 2013 launch GTS: '390kW (530 hp) of power at 6800rpm' (supercars.net, reproducing the 2013 launch text); autoblog.it 2013 test drive and Wikipedia agree. The Owner's Manual published 05/2019 (later GTS) prints '390 kW - 530 CV' at '6700 rpm'; see peak_power_rpm.",
+    "650 Nm at 2,000-4,000 rpm": "Confirmed: '650Nm of torque from 2000rpm to 4000rpm' (supercars.net); Wikipedia gives the same with citation to autoblog.it.",
+    "710 Nm with overboost": "Confirmed: overboost 'a 710 Nm ad un regime compreso tra 2250 e 3.500 giri/min' (autoblog.it, 2013). The 2019 manual lists 'Overboost torque (EC) 710 Nm - 72.4 kgm' with '2000 rpm'.",
+    "engine code F154AA / F154AB": "Not found. The Ferrari-Maserati supply agreement (SEC exhibit, 2014) names the M156 V8 'F154AM'. Wikipedia lists F154 AS and AQ for Levante versions."
+  },
+  "fields": {
+    "engine_code": {
+      "value": "F154AM",
+      "unit": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/1648416/000119312515346154/d61094dex101.htm",
+      "note": "Exhibit 10.1 to Ferrari's 2015 F-1 filing: English translation of the Executive Supply Agreement between Ferrari S.p.A. and Maserati S.p.A., 10 December 2014. Exhibit 1 lists the V8 as F154AM for model 'M156 (V8 engine and three versions of the V6 engine)', start of production November 2012; clause 2.1 calls it '154 AM'. Wikipedia (https://en.wikipedia.org/wiki/Ferrari_F154_engine) lists 'F154 AM' for the Quattroporte GTS (2013-2020) and cites this exhibit. The 'F154AA/AB' codes in the brief were not found in any source read."
+    },
+    "variant": {
+      "value": "Quattroporte VI (M156) GTS, launch version 2013-2016: 390 kW / 530 PS at 6,800 rpm, 650 Nm at 2,000-4,000 rpm, 710 Nm on overboost at 2,250-3,500 rpm",
+      "unit": null,
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "Chosen because the 2013 launch text (NAIAS, January 2013) is the most detailed technical description of the engine available, and the 2013 Italian test drive (autoblog.it) prints a full spec table for it. Context only: the later GTS (Owner's Manual 1st edition 05/2019) is also 390 kW / 530 CV, printed at 6,700 rpm. Wikipedia lists the Quattroporte/Ghibli Trofeo (2021) at 580 PS with 730 Nm at 2,250-5,000 rpm, the Levante GTS at 550 hp (US) / 530 PS (EU) at 6,250 rpm and the Levante Trofeo at 590 hp (US) / 580 PS (EU); US listings rate the Quattroporte GTS at 523 hp (cars.com, seen only as a search result title, not opened). Levante versions got 'new twin-scroll turbochargers' and revised heads, camshafts, pistons and rods (Levante GTS 2018 launch coverage, seen only in search summaries, not opened); none of these later tunes is used here."
+    },
+    "cylinders": {
+      "value": 8,
+      "unit": "count",
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "Maserati Quattroporte Owner's Manual, publication no. 910042611, 1st edition 05/2019 (a third-party copy of Maserati's document), Technical data: 'Cylinder number and position 8 - 90° V' for the Quattroporte GTS."
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "'8 - 90° V'. Wet sump: autoblog.it spec table 'Lubrificazione Carter umido'; Wikipedia: 'The Maserati version has a crossplane crankshaft and wet sump lubrication' (uncited on Wikipedia). Ferrari's versions are dry sump (Wikipedia)."
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "'8 - 90° V'. Also supercars.net spec table: 'Engine: 90º V8'."
+    },
+    "bore_mm": {
+      "value": 86.5,
+      "unit": "mm",
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "'Bore x stroke 86.5 x 80.8 mm' (Quattroporte GTS column). Same in autoblog.it ('Alesaggio e corsa 86.5mm x 80.8mm') and supercars.net ('a bore of 86.5mm and a stroke length of 80.8mm'). The V6 shares the 86.5 mm bore with an 84.5 mm stroke (same manual table)."
+    },
+    "stroke_mm": {
+      "value": 80.8,
+      "unit": "mm",
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "See bore_mm. Motor Sport (April 2014) notes the Ferrari California T version has a 'bespoke capacity (3855cc compared to Maserati's 3799cc)'."
+    },
+    "displacement_cc": {
+      "value": 3799,
+      "unit": "cc",
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "'Total displacement 3799 cu.cm'. Bore and stroke give 3798.6 cc (my arithmetic: 8 x pi/4 x 86.5^2 x 80.8 mm^3); Wikipedia prints 3,798.6 cc."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found in any source read."
+    },
+    "compression_ratio": {
+      "value": 9.5,
+      "unit": ":1",
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "'Compression ratio 9.5 : 1'. Same in autoblog.it 2013 ('Rapporto di compressione 9.5:1') and supercars.net ('a slightly lower compression ratio of 9.5:1')."
+    },
+    "crank": {
+      "value": "cross-plane (90-degree crank throws); five main bearings",
+      "unit": null,
+      "source": "https://www.motorsportmagazine.com/archive/article/april-2014/63/ferrari-takes-turbo-route/",
+      "note": "Motor Sport, April 2014, on the Ferrari California T engine: 'the Ferrari version of the V8 has a flat-plane crankshaft', set against 'a conventional V8 such as that used by Maserati, with its 90-degree crank', and the Ferrari engine is 'a development of the similarly configured V8 already seen in various Maseratis' (Maserati's 3799cc). Goodwood, Andrew Frankel, 13 April 2018 (https://api.goodwood.com/grr/columnists/andrew-frankel/thank-frankel-its-friday-two-cars-that-have-better-ferrari-v8s-than-any-ferrari2), on the Levante Trofeo's 3.8 V8 of the same family: 'the Maserati motor has a cross-plane crankshaft. This means there is a 90 degree angle between crankshaft throws rather than the 180 degrees more usually favoured by Ferrari'. Wikipedia states the same without a citation. Neither primary source is about the Quattroporte GTS by name; Motor Sport's statement covers the Maserati 3799 cc engine in general (2014, when the Quattroporte and Ghibli were its only applications). Five main bearings: autoblog.it spec table, 'Albero motore cinque cuscinetti di banco'. No Maserati document read states the crank type."
+    },
+    "firing_order": {
+      "value": null,
+      "unit": null,
+      "source": "https://static.nhtsa.gov/odi/tsbs/2025/MC-11021165-0001.pdf",
+      "note": "Firing order not found. Bank assignment is documented: Maserati Diagnostic Sheet MAS004832 (31 July 2025, all M156/M157/M161 V6 and V8) tabulates V8 misfire codes P0301-P0304 under Bank 1 and P0305-P0308 under Bank 2, so cylinders 1-4 are bank 1 and 5-8 are bank 2 (Ferrari-style numbering, one bank then the other). Which side (left or right) bank 1 is on was not found. Inference: with a cross-plane crank and this numbering, the order cannot be taken from Ferrari's flat-plane F154 (1-5-3-7-4-8-2-6 is the order FerrariChat posts give for flat-plane Ferrari V8s, seen only in a search-result summary; not verified, and not applicable here). FerrariChat threads that may discuss Maserati orders returned 403."
+    },
+    "firing_intervals_deg": {
+      "value": "inference: 90 degrees between successive firings for the engine as a whole; within each bank, uneven (for a standard cross-plane V8 the per-bank pattern is 90-180-270-180 in some rotation)",
+      "unit": "deg",
+      "source": "https://api.goodwood.com/grr/columnists/andrew-frankel/thank-frankel-its-friday-two-cars-that-have-better-ferrari-v8s-than-any-ferrari2",
+      "note": "inference from the cross-plane crank and 90-degree bank angle (geometry, not a published figure). Frankel describes the consequence: 'instead of sounding like two four-cylinder engines sharing a common crank ... it sounds like a traditional, thundering V8'. The exact per-bank sequence depends on the firing order, which was not found."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "'Number of valves per cylinder 4'. Manual: 'The timing system uses two overhead camshafts ... equipped with timing variator'; 'Timing chain'. autoblog.it: 'Distribuzione Doppia catena per albero a camme x bancata'. Launch text (supercars.net): hydraulically adjusted roller finger followers."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "cam_phasing": {
+      "value": "continuously variable on intake and exhaust, independently: four cam phasers (two per head); range not published",
+      "unit": null,
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "Launch text: 'high-tumble cylinder heads with four cam phasers', 'two continuous cam phasers for each cylinder head', 'it can advance or retard the inlet and exhaust valve timing independently in real time'. No range in degrees found."
+    },
+    "intake_duration_deg": {"value": null, "unit": "deg", "source": null, "note": "Not found."},
+    "exhaust_duration_deg": {"value": null, "unit": "deg", "source": null, "note": "Not found."},
+    "intake_lift_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "exhaust_lift_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "redline_rpm": {
+      "value": 7200,
+      "unit": "rpm",
+      "source": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "note": "autoblog.it 2013 spec table: 'Velocità massima di rotazione motore 7200 giri/min'. supercars.net spec table: 'redline: 7200'. GoAuto's 2014 review mentions 'its dizzy 7000rpm red-line' (reviewer's figure, https://www.goauto.com.au/car-reviews/maserati/quattroporte/gts/2014-01-29/28360.html). Launch text says Manual Sport mode will not upshift for the driver at the limiter; the 2019 manual's mode table lists 'Upshift rev. limiter ... Yes (No, when in M+/-)' for Sport."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found. The 2019 Owner's Manual mentions idle speed only in passing. It has a start-stop system (S&S in the drive-mode tables)."
+    },
+    "peak_power_kw": {
+      "value": 390,
+      "unit": "kW",
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "'390kW (530 hp) of power at 6800rpm' (the '530 hp' is the metric CV/PS figure). The 2019 manual: 'Maximum power output (EC) 390 kW - 530 CV'."
+    },
+    "peak_power_rpm": {
+      "value": 6800,
+      "unit": "rpm",
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "2013 launch figure: 'at 6800rpm'; Wikipedia agrees. The 2019 Owner's Manual (later GTS) prints '6700 rpm'. autoscout24.at's 2013 first test (Thomas Weiss, 25 May 2013, https://www.autoscout24.at/informieren/testberichte/maserati/quattroporte/erster-test-maserati-quattroporte-gts/): 'Die Maximalleistung liegt bei 6.500 bis 6.800 Touren an'."
+    },
+    "peak_torque_nm": {
+      "value": 650,
+      "unit": "Nm",
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "'650Nm of torque from 2000rpm to 4000rpm'. The 2019 manual: 'Peak torque (EC) 650 Nm - 66.3 kgm'. Overboost: see overboost."
+    },
+    "peak_torque_rpm": {
+      "value": "2000-4000",
+      "unit": "rpm",
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "Launch figure. The 2019 manual prints only '2000 rpm' for both normal and overboost torque, probably the start of the plateau (inference)."
+    },
+    "overboost": {
+      "value": "710 Nm at 2,250-3,500 rpm; available in Sport mode and in Normal mode with start-stop disabled; cancelled in I.C.E. mode (which runs 'Low boost')",
+      "unit": "Nm",
+      "source": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "note": "autoblog.it: 'può essere incrementata con la funzione overboost a 710 Nm ad un regime compreso tra 2250 e 3.500 giri/min'; I.C.E. mode 'annulla la funzione di overboost del turbocompressore'. supercars.net: 'can be overboosted to 710 Nm from 2250rpm to 3500rpm'. Mode table in the 2019 Owner's Manual (https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf): 'Engine boost: Normal boost' (NORMAL + S&S enabled), 'Overboost' (NORMAL + S&S disabled), 'Low boost' (I.C.E.), 'Overboost' (SPORT). No duration limit found."
+    },
+    "boost_bar": {
+      "value": null,
+      "unit": "bar",
+      "source": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10182587-9999.pdf",
+      "note": "No published boost pressure found. The 200 bar figure in launch material is fuel-injection pressure. Maserati Diagnostic Sheet MAS002310 (5 October 2020, M157/M156/M161 gasoline engines, V6 and V8) shows the control variable: the ECM compares 'the pressure measured upstream of the throttle valve with the requested value' and sets an underboost or overboost code when they differ by 'about 0,25 bar' for 3 s; it gives no target values."
+    },
+    "turbocharger": {
+      "value": "two parallel, low-inertia twin-scroll turbochargers, one per bank of four cylinders, turbine housings integrated into the exhaust manifolds; make reported as IHI by an aftermarket supplier only",
+      "unit": null,
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "Launch text: 'uses a pair of low-inertia, twin-scroll parallel turbos', 'two small parallel twin-scroll turbines, (one for each bank of four cylinders)', 'integrating the turbine housing into the exhaust manifold'. autoblog.it: 'due turbo twin-scroll paralleli (uno per bancata) a bassa inerzia'; Owner's Manual: 'Turbocharged with turbocompressor and related intercooler for each bank'. Make: MuchBoost, an aftermarket turbo upgrader (https://muchboost.com/product/m161-3-8-v8-hybrid-twin-turbo-upgrade-maserati-levante-gts-levante-trofeo-quattroporte-gts/), says its units 'are based on the original IHI Turbochargers', factory numbers 'IHI 818255' and 'IHI 818254', listing 'Maserati Quattroporte GTS - 530HP'; not confirmed by Maserati. Wikipedia names IHI only for the Ferrari version ('two parallel twin-scroll water-cooled turbochargers supplied by IHI'). Twin-scroll pairing of cylinders within each bank: not found."
+    },
+    "wastegate": {
+      "value": "vacuum-actuated wastegate on each turbo, controlled through a wastegate modulator (solenoid); closed-loop on pressure upstream of the throttle",
+      "unit": null,
+      "source": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10182587-9999.pdf",
+      "note": "Maserati Diagnostic Sheet MAS002310 (M157/M156/M161 gasoline engines, which covers the V6 too): 'DTC P0244 Turbocharger Wastegate Solenoid Performance'; 'Operate the Wastegate lever with vacuum'; 'Disconnect the wastegate vacuum system ... install the pump after the output of the wastegate modulator'; check that 'the wastegate valves ... move and close simultaneously'. The bulletin does not separate V6 and V8 hardware."
+    },
+    "bypass_valve": {
+      "value": null,
+      "unit": null,
+      "source": "https://www.goauto.com.au/car-reviews/maserati/quattroporte/gts/2014-01-29/28360.html",
+      "note": "Compressor bypass (blow-off) valve type and routing not found. GoAuto's 2014 review (Daniel Gardner) hears it: upshifts 'produced a rifle-like crack from the tailpipes and a loud whoosh' as 'the surplus boost pressure was vented'. That an audible whoosh means venting to atmosphere rather than recirculation is not established; the reviewer's 'vented' may be loose wording."
+    },
+    "intercooler": {
+      "value": "two air-to-air intercoolers, one per turbo/bank, mounted low and wide of the main radiators",
+      "unit": null,
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "'Each turbocharger is fed by its own air-to-air intercooler'; 'The Quattroporte has two intercoolers, each mounted low and wide of the main radiators'. The 2019 Owner's Manual: 'turbocompressor and related intercooler for each bank'. A 2020 Italian Motor1 article on the Ghibli Trofeo (580 PS) reportedly describes a single intercooler for that later tune (search summary only, https://it.motor1.com/news/438241/maserati-ghibli-trofeo-2021-motore-prestazioni/, not opened)."
+    },
+    "intake_type": {
+      "value": "plenum; inference: a single throttle valve fed by both turbos, with a separate intake manifold for each bank",
+      "unit": null,
+      "source": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10182587-9999.pdf",
+      "note": "MAS002310 refers to 'the pressure upstream of the throttle valve' (singular) and to 'the two MAF sensors' and 'the air filter boxes' (two inlet tracts, one per turbo). The bulletin covers V6 and V8 together, so the single throttle is an inference for the V8. Maserati Diagnostic Sheet MAS004832 (2025, https://static.nhtsa.gov/odi/tsbs/2025/MC-11021165-0001.pdf) lists V8 labour operations 'INTAKE MANIFOLD RH COMPLETE', 'INTAKE MANIFOLD LH. COMPLETE.' and 'CENTRAL COMPENSATOR', so each bank has its own intake manifold with a central part between them (function of the 'central compensator' not stated). Plenum volume, runner lengths and throttle diameter not found."
+    },
+    "injection": {
+      "value": "gasoline direct injection, 200 bar, seven-hole laser-drilled injectors, multiple injections",
+      "unit": "bar",
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "'200 bar direct fuel-injection system', 'seven holes laser drilled oriented holes injectors'. autoblog.it: 'Pressione di iniezione 200 Bar'. 2019 Owner's Manual: 'High-pressure (200 bar) direct fuel injection system'."
+    },
+    "exhaust_notes": {
+      "value": "turbine housings cast into the manifolds; a catalytic converter clamped directly to each turbo outlet (lambda sensor upstream of each bank's catalyst); pneumatic bypass valves in each bank's pipe; four tailpipes (two pairs of trapezoidal tips)",
+      "unit": null,
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "Launch text: 'controlled by pneumatic valves in the pipes of each bank'; Normal: 'the bypass valves are closed up to 4,200 rpm'; Sport: 'the exhaust valves are opened, giving the shortest possible high-energy route for the exhaust gases'; I.C.E. 'keeps the exhaust's Sport flaps closed until 5000rpm'; 'trapezoidal tips with two double pipes in polished steel'. autoblog.it: 'un sofisticato sistema di scarico a regolazione pneumatica delle valvole'. MAS002310 (2020): 'the V-Clamp in-between the turbocharger and the catalytic converter'; inspect the turbo shaft 'from the catalyst side'; lambda values 'upstream catalyst' for bank 1 and bank 2. 2019 Owner's Manual mode table: 'Exhaust sound: Low (Rev. Threshold)' in Normal, 'Low' in I.C.E., 'Always High' in Sport. Muffler layout, pipe diameters and whether the two banks are crossed over were not found."
+    },
+    "fuel_octane": {
+      "value": "95 RON minimum; 98 RON for best performance",
+      "unit": "RON",
+      "source": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "note": "2019 Owner's Manual: 'Premium unleaded fuel with no less than 95 RON/85 MON (91 CLC or AKI)'; 'For vehicle top performance, use unleaded gasoline with no less than 98 minimum octane rating.' This is the later manual; the 2013 requirement was not found separately."
+    },
+    "lubrication": {
+      "value": "wet sump; electrically controlled variable-displacement oil pump; 8.3 L oil with filter",
+      "unit": null,
+      "source": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "note": "autoblog.it: 'Lubrificazione Carter umido'. Launch text (supercars.net): 'a variable displacement oil pump that works under electrical control'. 2019 manual: 'Engine (V8): oil capacity 8,3 litres ... including filter cartridge'."
+    },
+    "design_and_build": {
+      "value": "designed by Maserati Powertrain, assembled by Ferrari at Maranello",
+      "unit": null,
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "'designed by Maserati Powertrain and assembled by Ferrari at Maranello'. autoscout24.at (2013): 'wird er von Ferrari gebaut'."
+    },
+    "sound_notes": {
+      "value": "Reviewers split. Praised: deep bassy rumble at low revs, turbo whistle at full boost, cracks and burbles on shifts, a natural rather than synthetic sound. Criticised: mellow, quiet for a Ferrari-built engine, less raucous than the old naturally aspirated Maserati V8s; the turbines take the dry edge off the bark.",
+      "unit": null,
+      "source": "https://www.goauto.com.au/car-reviews/maserati/quattroporte/gts/2014-01-29/28360.html",
+      "note": "Context only. GoAuto, 29 January 2014 (Daniel Gardner): 'the 90-degree V8 produces a deep satisfying bassy rumble'; at full boost 'the brace of turbochargers produced a fantastic whistle'; 'sometimes the exhaust would buzz and complain on downshifts, other times it would resonate and burble or crackle'; 'There is nothing synthetic about the way the new Quattroporte sounds'; 'placing the restriction of a turbine in an exhaust system removes the dry bark' of a naturally aspirated engine, which the reviewer says the car partly keeps. Car India, 13 October 2017 (Jim Gorde, https://carindia.in/maserati-quattroporte-gts-first-drive-review/2/): 'the V8 growls to life, but seems very mellow for a Ferrari motor'; Sport 'increased a few decibels'; 'The soundtrack? Not so much.' autoscout24.at, 25 May 2013: 'überaus saftigen V8-Sound'. Goodwood (Frankel, 2018, Levante Trofeo): 'it sounds like a traditional, thundering V8'. A Motor Report (now drive.com.au) review said to find the sound disappointing beside earlier Maserati V8s was not readable (403)."
+    }
+  },
+  "missing": [
+    "firing order (bank assignment found: cylinders 1-4 bank 1, 5-8 bank 2; which side bank 1 is on was not found)",
+    "a Maserati document stating the crank type (cross-plane rests on Motor Sport 2014 and Goodwood 2018)",
+    "rod length",
+    "valve diameters, cam lift, duration and timing; cam-phaser range in degrees",
+    "idle speed",
+    "boost pressure (absolute or gauge) at any rpm",
+    "turbocharger make from a Maserati or IHI source (IHI comes from an aftermarket supplier only); wheel sizes, A/R, how cylinders pair onto the two scrolls",
+    "compressor bypass (blow-off) valve type and routing",
+    "throttle count and diameter for the V8 specifically (single throttle inferred from a bulletin covering V6 and V8), plenum volume, runner dimensions, function of the 'central compensator'",
+    "exhaust pipe diameters, muffler layout, whether the banks join before the tailpipes, primary lengths within the integrated manifolds",
+    "the original 2013 Maserati press release (Stellantis media and maserati.com returned 403; supercars.net's reproduction is used instead)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "what": "Supercars.net '2013 Maserati Quattroporte' (Editorial Team, undated, footer 2021). Text closely follows the January 2013 NAIAS launch material (quotes Maserati's Centro Stile head; spec table noted 'released at 2013 NAIAS'). Main source for turbos, intercoolers, cam phasers, injection, exhaust valves and power/torque. Not confirmed as a verbatim press release."
+    },
+    {
+      "url": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "what": "Autoblog.it 2013 Quattroporte test drive with full Italian spec table: bore, stroke, compression, wet sump, five main bearings, chain drive, 200 bar injection, 7200 rpm, overboost range. Cited by Wikipedia."
+    },
+    {
+      "url": "https://samelet.com/ebooks/Maserati_Quattroporte_encarbook_290121.pdf",
+      "what": "Maserati Quattroporte Owner's Manual, publication no. 910042611, 1st edition 05/2019 (third-party host of Maserati's PDF; covers 3.8 V8, 3.0 V6 and diesel). Technical data table, fuel requirement, drive-mode table (boost and exhaust sound per mode). Later GTS, not the 2013 car."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/article/april-2014/63/ferrari-takes-turbo-route/",
+      "what": "Motor Sport magazine, April 2014, on the Ferrari California T engine: Ferrari's flat-plane crank against Maserati's '90-degree crank', and 3855 cc against Maserati's 3799 cc."
+    },
+    {
+      "url": "https://api.goodwood.com/grr/columnists/andrew-frankel/thank-frankel-its-friday-two-cars-that-have-better-ferrari-v8s-than-any-ferrari2",
+      "what": "Goodwood Road & Racing, Andrew Frankel column, 13 April 2018: the Levante Trofeo's Ferrari-built V8 has a cross-plane crank (90 degrees between throws) and sounds like a traditional V8."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1648416/000119312515346154/d61094dex101.htm",
+      "what": "SEC filing, Ferrari N.V. F-1 Exhibit 10.1: Executive Supply Agreement between Ferrari S.p.A. and Maserati S.p.A. (10 December 2014), naming the M156 V8 'F154AM', start of production November 2012."
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10182587-9999.pdf",
+      "what": "Maserati Aftersales Diagnostic Sheet MAS002310 (BOL 20-11), 5 October 2020, 'Turbocharger anomalies', M157/M156/M161 gasoline engines (filed with NHTSA). Vacuum wastegates via wastegate modulator, boost measured upstream of the throttle valve, two MAF sensors and air boxes, catalytic converter V-clamped to the turbo."
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/tsbs/2025/MC-11021165-0001.pdf",
+      "what": "Maserati Diagnostic Sheet MAS004832, 31 July 2025, 'Misfire Warning Light on Single Bank', M156/M157/M161 V6 and V8 (filed with NHTSA). Misfire-code table giving V8 cylinders 1-4 on bank 1 and 5-8 on bank 2; V8 labour operations naming RH and LH intake manifolds and a central compensator."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ferrari_F154_engine",
+      "what": "Wikipedia, Ferrari F154 engine. Used as a lead: F154 AM code, ratings of later Maserati versions, the uncited cross-plane and wet-sump statement, IHI for the Ferrari version."
+    },
+    {
+      "url": "https://muchboost.com/product/m161-3-8-v8-hybrid-twin-turbo-upgrade-maserati-levante-gts-levante-trofeo-quattroporte-gts/",
+      "what": "MuchBoost (aftermarket turbo upgrader) product page: stock turbos 'based on the original IHI Turbochargers', factory numbers IHI 818255 / 818254, fitment includes Quattroporte GTS 530HP. Commercial source, not Maserati."
+    },
+    {
+      "url": "https://www.goauto.com.au/car-reviews/maserati/quattroporte/gts/2014-01-29/28360.html",
+      "what": "GoAuto review, Quattroporte GTS, 29 January 2014 (Daniel Gardner): sound description, 7000 rpm red line as observed by the reviewer."
+    },
+    {
+      "url": "https://carindia.in/maserati-quattroporte-gts-first-drive-review/2/",
+      "what": "Car India first drive, Quattroporte GTS 3.8 V8, 13 October 2017 (Jim Gorde): critical sound description."
+    },
+    {
+      "url": "https://www.autoscout24.at/informieren/testberichte/maserati/quattroporte/erster-test-maserati-quattroporte-gts/",
+      "what": "AutoScout24 Austria first test, Quattroporte GTS, 25 May 2013 (Thomas Weiss): Ferrari-built, peak power 6,500-6,800 rpm, sound."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "Maserati Quattroporte GTS (VI, 2013)",
+      "unit": "",
+      "source": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "note": "The F154 AM 530 PS twin-turbo V8 of this def, Quattroporte VI GTS 2013-2016."
+    },
+    "curb_kg": {
+      "value": 1900,
+      "unit": "kg",
+      "source": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "note": "Convention not stated. Autoblog.it spec table: \"Peso 1900kg\"; Autozine (https://www.autozine.org/Archive/Maserati/old/Quattroporte_VI.html) \"1900 kg\"; supercars.net \"curb weight: 1900 kg\". The later facelift owner's manual gives 1,950 kg with tanks filled, but for the 2021 car."
+    },
+    "gear_count": {
+      "value": 8,
+      "unit": "",
+      "source": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "note": "Quote: \"cambio a otto rapporti ZF AT8 – HP70\"."
+    },
+    "gears": {
+      "value": [
+        4.71,
+        3.14,
+        2.11,
+        1.67,
+        1.28,
+        1.0,
+        0.84,
+        0.67
+      ],
+      "unit": "",
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "SECONDARY, read by a helper. Quote: \"gear ratios: 4.71:1, 3.14:1, 2.11:1, 1.67:1, 1.28:1, 1.0:1, 0.84:1, 0.67:1\". carspecs.us 2016 Quattroporte GTS (https://www.carspecs.us/cars/2016/maserati/quattroporte/96174) gives the same eight."
+    },
+    "final_drive": {
+      "value": 2.93,
+      "unit": "",
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "SECONDARY, DISPUTED. supercars.net: \"final drive: 2.93:1\"; carspecs.us 2016 GTS: \"4.10\". Check (ours): with 2.93, 307 km/h is about 4,600 rpm in 8th and 5,800 in 7th; with 4.10, 1st gear alone would be 19.3:1 overall. We judge 2.93 the more plausible; that is an inference."
+    },
+    "tyre": {
+      "value": "285/35 ZR 20",
+      "unit": "",
+      "source": "https://www.autozine.org/Archive/Maserati/old/Quattroporte_VI.html",
+      "note": "Rear. Quote: \"R: 285/35ZR20\". supercars.net: \"20-inch rims as standard equipment ... 245/40 front tyres and 285/35 rear tyres\"."
+    },
+    "wheel_radius_m": {
+      "value": 0.347,
+      "unit": "m",
+      "source": "https://www.supercars.net/blog/2013-maserati-quattroporte/",
+      "note": "Estimated (ours): rolling radius taken as 98% of the unloaded radius computed from the tyre size (rim diameter / 2 + section width x aspect ratio)."
+    },
+    "top_speed_kmh": {
+      "value": 307,
+      "unit": "km/h",
+      "source": "http://www.autoblog.it/post/114155/maserati-quattroporte-2013-test-drive-motore-e-caratteristiche",
+      "note": "Quote: \"Velocità massima 307km/h\"."
+    },
+    "driven": {
+      "value": "rear",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/Maserati_Quattroporte",
+      "note": "English Wikipedia, 'Maserati Quattroporte' (read 2026-11-17), infobox sixth generation (2013-2024) layout: Front-engine, rear-wheel-drive / four-wheel-drive. The infobox lists both; the GTS is taken as rear-wheel drive (four-wheel drive was the Q4 versions), our reading."
+    }
+  }
+}

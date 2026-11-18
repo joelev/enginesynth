@@ -1,0 +1,394 @@
+{
+  "id": "kawasaki_ex500",
+  "name": "Kawasaki EX500 / Ninja 500R / GPZ500S 498 cc liquid-cooled DOHC 8-valve parallel twin, 180-degree crank (1987-2009)",
+  "induction": "naturally aspirated",
+  "summary": "The 180-degree crank makes the two cylinders fire close together and then leave a long gap (180 then 540 crank degrees), giving a lumpy, off-beat idle that smooths into a hard-edged buzz as it revs to about 11,000 rpm. Two header pipes joined by a connecting pipe under the engine feed one silencer per side.",
+  "fields": {
+    "variant": {
+      "value": "Geometry and tuning data from the 2005 EX500-D12 (US Ninja 500) specification sheet; valve timing, cam lobe heights and exhaust layout from a German manual for the first-generation GPZ500S (EX500-A, 1986-on)",
+      "unit": null,
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "The two generations share the engine (74 x 58 mm, 10.8:1, CVK34) in both sources; cam data was only found for the first generation."
+    },
+    "cylinders": {
+      "value": 2,
+      "unit": null,
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. '4-stroke, Inline, 2-cylinder, DOHC, Liquid cooled, 8-Valve'."
+    },
+    "layout": {
+      "value": "inline (transverse parallel twin)",
+      "unit": null,
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Inline, 2-cylinder'."
+    },
+    "bank_angle_deg": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not applicable (inline)."
+    },
+    "bore_mm": {
+      "value": 74.0,
+      "unit": "mm",
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Bore x Stroke 74.0 x 58.0 mm'. Bucheli manual: 'Bohrung/Hub 74,0×58,0 mm'; cylinder bore 74.000-74.012 mm (p. 115)."
+    },
+    "stroke_mm": {
+      "value": 58.0,
+      "unit": "mm",
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Bore x Stroke 74.0 x 58.0 mm'."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. The Bucheli manual's tables (pp. 113-116) give big-end bore (41.000-41.016 mm), crank pin diameter and side clearance but no centre-to-centre length; no other opened page states it."
+    },
+    "compression_ratio": {
+      "value": 10.8,
+      "unit": null,
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Compression Ratio 10.8:1'. Bucheli: 'Verdichtung 10,8:1'."
+    },
+    "displacement_cc": {
+      "value": 498,
+      "unit": "cc",
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Displacement 498 cc'. The Bucheli manual prints 'Hubraum 495 cm3' (https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE); 74 x 58 mm x 2 computes to 498.9 cc, so 498 is taken."
+    },
+    "firing_order": {
+      "value": "1-2",
+      "unit": null,
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 'Kawasaki GPZ 500 S ab Baujahr 1986' (German workshop manual, first-generation GPZ500S/EX500-A), 'Technische Daten' p. 2. Verbatim: 'Zylindernummer: links 1, rechts 2' and 'Zündfolge: 1-2' (cylinder 1 is the left cylinder, 2 the right; firing order 1-2). The Kawasaki spec sheets (https://cyclechaos.com/images/0/0e/EX500D12.PDF, https://cyclechaos.com/images/f/f7/EX500D6F.PDF) agree: 'Cylinder Number Method: Left to Right: 1-2'. Reading 1-2 with a 180-degree crank: the left cylinder (1) fires first, the right (2) follows 180 degrees later, then the long gap; that sequencing is derived, see firing_intervals_deg."
+    },
+    "crank": {
+      "value": "180-degree crank: the two crank pins are 180 degrees apart (one piston at TDC when the other is at BDC); a balancer shaft is fitted",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Kawasaki_Ninja_500R",
+      "note": "Wikipedia infobox, verbatim: '498 cc (30.4 cu in) liquid-cooled 4-stroke 8-valve DOHC 180º parallel-twin'. CycleChaos (https://cyclechaos.com/wiki/Kawasaki_EX500D), verbatim: 'liquid-cooled four, counter-balanced, 8-valve, dual chin-driven overhead camshaft 180° parallel twin'. Both are wiki pages; no factory manual page stating the pin angle was opened. The Kawasaki spec sheets (https://cyclechaos.com/images/0/0e/EX500D12.PDF and https://cyclechaos.com/images/f/f7/EX500D6F.PDF) print 'Firing Interval/Order 188°', which is taken to be a misprint of 180° (188 is not a possible even or paired interval). Balancer: Bucheli manual p. 115 lists 'Ausgleichwelle' (balancer shaft) bearing dimensions. General 180-degree behaviour at https://en.wikipedia.org/wiki/Straight-twin_engine: 'In an engine with a 180 degree crankshaft, one piston rises as the other falls.'"
+    },
+    "firing_intervals_deg": {
+      "value": [
+        180,
+        540
+      ],
+      "unit": "crank degrees",
+      "source": "https://en.wikipedia.org/wiki/Straight-twin_engine",
+      "note": "DERIVED from the sourced 180-degree crank and firing order 1-2, not a figure quoted for this engine. General statement at the source, verbatim: 'the second cylinder firing 180 degrees after the first, followed by a gap of 540 degrees'. Sequence: cyl 1 (left) fires, cyl 2 (right) fires 180 degrees later, then 540 degrees to cyl 1 again. The only Kawasaki-document statement found is the spec sheets' 'Firing Interval/Order 188°' (https://cyclechaos.com/images/0/0e/EX500D12.PDF), an apparent misprint of 180°, which is consistent with a 180-degree first interval. No opened page states '180/540' specifically for the EX500, and none states explicitly that the left cylinder leads beyond the '1-2' firing order."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. '8-Valve' twin. Valves are opened through rocker arms with screw adjusters ('Valve Clearance ... Adjustment Method: Rocker arm screw'; Bucheli lists 'Schlepphebel'), so valve lift is not equal to cam lobe lift."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Valve head diameter not found. The Bucheli manual gives only valve SEAT outer diameters, recorded separately as intake_valve_seat_od_mm."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Valve head diameter not found; see exhaust_valve_seat_od_mm."
+    },
+    "intake_valve_seat_od_mm": {
+      "value": 28.4,
+      "unit": "mm",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 (GPZ 500 S ab 1986), 'Mass- und Einstelldaten' p. 116. 'Ventilsitz: Aussendurchmesser Einlass 28,30 - 28,50 mm' (valve seat outer diameter, intake; midpoint recorded). This is the seat contact OD, a lower bound on head diameter, not the head diameter itself."
+    },
+    "exhaust_valve_seat_od_mm": {
+      "value": 24.1,
+      "unit": "mm",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 (GPZ 500 S ab 1986), 'Mass- und Einstelldaten' p. 116. 'Aussendurchmesser Auslass 24,00 - 24,20 mm' (valve seat outer diameter, exhaust; midpoint recorded)."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "No source states valve lift. Only cam lobe height was found (intake_cam_lobe_height_mm); the valves are rocker-arm operated, so lift cannot be read off the lobe height without the base circle and rocker ratio."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found; see exhaust_cam_lobe_height_mm."
+    },
+    "intake_cam_lobe_height_mm": {
+      "value": 35.7,
+      "unit": "mm",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 (GPZ 500 S ab 1986), 'Mass- und Einstelldaten' p. 116. 'Nockenwellen: Nockenhöhe Einlass 35,635 - 35,761 mm' (cam height, intake; service limit 35,55 mm). Midpoint recorded. This is total lobe height (base circle plus lift), NOT valve lift."
+    },
+    "exhaust_cam_lobe_height_mm": {
+      "value": 35.7,
+      "unit": "mm",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 (GPZ 500 S ab 1986), 'Mass- und Einstelldaten' p. 116. 'Nockenhöhe Auslass 35,635 - 35,761 mm' (service limit 35,55 mm). Midpoint recorded. Lobe height, not valve lift."
+    },
+    "intake_duration_deg": {
+      "value": 290,
+      "unit": "crank degrees",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 'Kawasaki GPZ 500 S ab Baujahr 1986' (German workshop manual, first-generation GPZ500S/EX500-A), 'Technische Daten' p. 2. Verbatim: 'Ventilzeiten: Einlass öffnet 45° vor OT, Einlass schliesst 65° nach UT, Winkel 290°'. The lift at which this is measured is NOT stated; the very long duration suggests it is seat-to-seat or includes the ramps, so it is not comparable with timing quoted at 1 mm or 0.050 in. For scale, an aftermarket Web Cam grind for the GPZ 500 lists 272° advertised / 246° at 0.050 in (https://www.webcamshafts.com/pages_vehicles/motorcycle/kawasaki_install_data/tc_002918_000890.html)."
+    },
+    "exhaust_duration_deg": {
+      "value": 290,
+      "unit": "crank degrees",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 'Kawasaki GPZ 500 S ab Baujahr 1986' (German workshop manual, first-generation GPZ500S/EX500-A), 'Technische Daten' p. 2. Verbatim: 'Auslass öffnet 70° vor UT, Auslass schliesst 40° nach OT, Winkel 290°'. Measuring lift not stated."
+    },
+    "ivo_btdc": {
+      "value": 45,
+      "unit": "crank degrees",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 'Kawasaki GPZ 500 S ab Baujahr 1986' (German workshop manual, first-generation GPZ500S/EX500-A), 'Technische Daten' p. 2. Verbatim: 'Einlass öffnet 45° vor OT' (inlet opens 45° BTDC). Measuring lift unknown (not stated). Corroborated by a forum post quoting 'my Kawasaki manual for the early GPZ500': 'Inlet: Open 45° BTDC. Close 65° ABDC. Duration 290°' (https://www.bikechatforums.com/viewtopic.php?p=1236022)."
+    },
+    "ivc_abdc": {
+      "value": 65,
+      "unit": "crank degrees",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 'Kawasaki GPZ 500 S ab Baujahr 1986' (German workshop manual, first-generation GPZ500S/EX500-A), 'Technische Daten' p. 2. Verbatim: 'Einlass schliesst 65° nach UT' (inlet closes 65° ABDC). Measuring lift unknown."
+    },
+    "evo_bbdc": {
+      "value": 70,
+      "unit": "crank degrees",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 'Kawasaki GPZ 500 S ab Baujahr 1986' (German workshop manual, first-generation GPZ500S/EX500-A), 'Technische Daten' p. 2. Verbatim: 'Auslass öffnet 70° vor UT' (exhaust opens 70° BBDC). Measuring lift unknown. Forum corroboration (https://www.bikechatforums.com/viewtopic.php?p=1236022): 'Exhaust: Open 70° BBDC. Close 40° ATDC. Duration 290°'."
+    },
+    "evc_atdc": {
+      "value": 40,
+      "unit": "crank degrees",
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli Reparaturanleitung Band 5136 'Kawasaki GPZ 500 S ab Baujahr 1986' (German workshop manual, first-generation GPZ500S/EX500-A), 'Technische Daten' p. 2. Verbatim: 'Auslass schliesst 40° nach OT' (exhaust closes 40° ATDC). Measuring lift unknown. Whether the 1994-on (EX500-D) cams have the same timing was not confirmed."
+    },
+    "valve_clearance_mm": {
+      "value": {
+        "intake": "0.13-0.18",
+        "exhaust": "0.18-0.23"
+      },
+      "unit": "mm",
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Valve Clearance (Cold) Intake: 0.13-0.18 mm, Exhaust: 0.18-0.23 mm'."
+    },
+    "redline_rpm": {
+      "value": 11000,
+      "unit": "rpm",
+      "source": "https://cyclechaos.com/wiki/Kawasaki_EX500D",
+      "note": "CycleChaos wiki page for the EX500D: 'Redline: 11,000 rpm'. Wiki source, no manufacturer document found; consistent with the spec sheet's full ignition advance being quoted at 10,000 rpm."
+    },
+    "idle_rpm": {
+      "value": 1050,
+      "unit": "rpm",
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Idle Speed 1,050 ±50 rpm (US,CN), 1,250 ±50 rpm (CA)'. The same sheet quotes idle ignition timing 'at 1,200 rpm (US)'."
+    },
+    "peak_power_kw": {
+      "value": 44.1,
+      "unit": "kW",
+      "source": "https://en.enduro.team/Kawasaki_GPZ500",
+      "note": "Enduro.team wiki page for the GPZ500: '60.0 h.p. (44.1 kW) at 9800 rpm' (full-power version, crank figure; 60 PS). Weak source (wiki, no manufacturer document opened for power). Other figures seen: CycleChaos (https://cyclechaos.com/wiki/Kawasaki_EX500D) '52 bhp @ 9500 rpm'; Wikipedia (https://en.wikipedia.org/wiki/Kawasaki_Ninja_500R) '49.9 hp (37.2 kW) (rear wheel)'; the German-market Bucheli manual lists a restricted '20 kW (27 PS) bei 8500 U/min' version."
+    },
+    "peak_power_rpm": {
+      "value": 9800,
+      "unit": "rpm",
+      "source": "https://en.enduro.team/Kawasaki_GPZ500",
+      "note": "Same wiki line: '60.0 h.p. (44.1 kW) at 9800 rpm'."
+    },
+    "peak_torque_nm": {
+      "value": 46.1,
+      "unit": "Nm",
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Maximum Torque 4.7 kg-m at 8,500 rpm'; 4.7 kgf-m x 9.80665 = 46.1 Nm (converted). Same on the '06 EX500D6F sheet. Enduro.team: '46.0 Nm (4.7 kgf*m) @ 8500 rpm'. Other figures: CycleChaos '30.86 lb. ft. @ 8000 rpm' (41.8 Nm); Wikipedia '30.9 lb-ft (41.9 Nm) (rear wheel)'."
+    },
+    "peak_torque_rpm": {
+      "value": 8500,
+      "unit": "rpm",
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. '4.7 kg-m at 8,500 rpm'."
+    },
+    "ignition_timing": {
+      "value": "10° BTDC at 1,200 rpm (idle), 37.5° BTDC at 10,000 rpm (full advance)",
+      "unit": null,
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Ignition Timing - Idle 10° BTDC at 1,200 rpm (US) ... Full 37.5° BTDC at 10,000 rpm'."
+    },
+    "intake_type": {
+      "value": "one carburettor per cylinder: two Keihin CVK34 constant-velocity diaphragm carburettors",
+      "unit": null,
+      "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "note": "Kawasaki model specification sheet ''05 EX500-D12: Ninja 500' (General Specifications), hosted on CycleChaos. 'Carburetor: Keihin CVK34 (2) Constant velocity, Diaphragm-type'. Bucheli p. 116: 'Vergaser Fabrikat Keihin/CVK34', main jet 130, needle N36N."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "No stated bore measurement found. The designation 'CVK34' implies a nominal 34 mm bore; that is an inference from the name, not a quoted dimension."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": "2-into-2 with a connecting (crossover) pipe joining the two header pipes under the engine; one silencer per side",
+      "unit": null,
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli manual p. 48, '7.6 Auspuffanlage'. Verbatim: 'Die Klemmbride des Verbindungsrohrs unter dem Motor lösen' (loosen the clamp of the connecting pipe under the engine) and 'Die Auspuffrohre am Verbindungsrohr verbinden'; the parts drawing (Bild 126) shows two header pipes, a cross tube between them and two silencers. First-generation bike. CycleChaos (https://cyclechaos.com/wiki/Kawasaki_EX500D) lists the EX500D exhaust as '2-into-2'."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "Two separate header pipes linked by a connecting pipe under the engine, each feeding its own silencer (left and right). No dimensions found.",
+      "unit": null,
+      "source": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "note": "Bucheli manual p. 48 (text and Bild 126)."
+    }
+  },
+  "missing": [
+    "rod_length_mm",
+    "intake_valve_dia_mm and exhaust_valve_dia_mm (only valve seat outer diameters found)",
+    "intake_lift_mm and exhaust_lift_mm (only cam lobe heights found; rocker-arm valvetrain)",
+    "the lift at which the 45/65/70/40 valve timing is measured",
+    "an explicit manufacturer statement of the 180/540 firing intervals (derived; the Kawasaki sheet prints '188°')",
+    "manufacturer source for peak power and for the redline",
+    "cam timing for the 1994-on EX500-D",
+    "throttle_dia_mm (only the CVK34 designation)",
+    "runner_length_mm",
+    "runner_dia_mm",
+    "primary_dia_mm",
+    "primary_length_mm",
+    "exhaust_pipe_dia_mm",
+    "crossover pipe diameter",
+    "silencer dimensions"
+  ],
+  "sources": [
+    {
+      "url": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "what": "Scan of the Bucheli Verlag Reparaturanleitung Band 5136, 'Kawasaki GPZ 500 S ab Baujahr 1986' (German-language workshop manual, 120 pages, ISBN 3-7168-1839-9), linked from https://en.enduro.team/Kawasaki_GPZ500:_manuals as 'Service Manual - Kawasaki GPZ 500 (1986-1994)'. Not the Kawasaki factory manual but a reputable third-party workshop manual built on factory data. Pages read as images: 2-3 (Technische Daten), 48 (exhaust), 66 (crankshaft), 115-116 (Mass- und Einstelldaten). Covers the first-generation GPZ500S (EX500-A), German market (27 PS restricted power figure)."
+    },
+    {
+      "url": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "what": "Kawasaki one-page model specification sheet for the 2005 EX500-D12 Ninja 500 (General Specifications, Tuning Specifications, Model Identification with VIN range), hosted on CycleChaos. Text PDF, read directly. Appears to be Kawasaki dealer data; contains the '188°' firing-interval misprint."
+    },
+    {
+      "url": "https://cyclechaos.com/images/f/f7/EX500D6F.PDF",
+      "what": "Same Kawasaki specification sheet for the 2006 EX500D6F; identical engine figures including '188°'."
+    },
+    {
+      "url": "https://cyclechaos.com/wiki/Kawasaki_EX500D",
+      "what": "CycleChaos wiki page for the Kawasaki EX500D: 180° parallel twin, counter-balanced, redline 11,000 rpm, 2-into-2 exhaust, 52 bhp @ 9500 rpm. Wiki, unreferenced."
+    },
+    {
+      "url": "https://en.enduro.team/Kawasaki_GPZ500",
+      "what": "Enduro.team wiki page for the Kawasaki GPZ500: 60.0 hp (44.1 kW) at 9800 rpm, 46.0 Nm at 8500 rpm. Wiki, unreferenced."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ninja_500R",
+      "what": "Wikipedia, Kawasaki Ninja 500R: infobox '180º parallel-twin', 74 x 58 mm, rear-wheel power and torque."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Straight-twin_engine",
+      "what": "Wikipedia, Straight-twin engine: general statement that a 180-degree twin fires 180 degrees apart followed by a 540-degree gap."
+    },
+    {
+      "url": "https://www.bikechatforums.com/viewtopic.php?p=1236022",
+      "what": "Bike Chat Forums thread in which a poster quotes his 'Kawasaki manual for the early GPZ500' valve timing (45/65/290, 70/40/290), matching the Bucheli manual. Forum; corroboration only."
+    },
+    {
+      "url": "https://www.webcamshafts.com/pages_vehicles/motorcycle/kawasaki_install_data/tc_002918_000890.html",
+      "what": "Web Cam aftermarket GPZ 500 cam timing card (performance grind 245: 0.381 in lift, 246° at 0.050 in). Not stock; cited only for scale against the stock timing figures."
+    }
+  ],
+  "vehicle": {
+    "name": "Kawasaki Ninja 500R, EX500-D12 (2005 US model)",
+    "chosen_because": "The engine definition covers the EX500 / Ninja 500R / GPZ500S (1987-2009); the 2005 EX500-D12 has a complete Kawasaki model specification sheet.",
+    "fields": {
+      "curb_kg": {
+        "value": 197,
+        "unit": "kg",
+        "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+        "quote": "Curb Weight 197 kg (US) 197.5 kg (CA)",
+        "note": "Kawasaki model specification sheet, '05 EX500-D12, p1. The 2006 sheet (https://cyclechaos.com/images/f/f7/EX500D6F.PDF) is identical."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+        "quote": "Transmission 6-speed, Constant mesh, Return shift"
+      },
+      "gears": {
+        "value": [
+          2.5714,
+          1.7778,
+          1.381,
+          1.125,
+          0.9615,
+          0.8519
+        ],
+        "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+        "quote": "Gear Ratios —1st 2.57 (36/14) —2nd 1.78 (32/18) —3rd 1.38 (29/21) —4th 1.13 (27/24) —5th 0.96 (25/26) —6th 0.85 (23/27)",
+        "note": "Values here are the tooth-count quotients; each matches the printed decimal."
+      },
+      "final_drive": {
+        "value": 6.8674,
+        "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+        "quote": "Primary Ratio 2.65 (27/23 x 63/28) Final Ratio 2.63 (39/15) Overall Ratio (Top Gear) 5.93",
+        "note": "My calculation from the tooth counts: (27/23 x 63/28) x (39/15) = 2.641 x 2.600 = 6.867. CONFLICT inside the maker's sheet: the printed decimals (2.65 x 2.63 = 6.970) do not match their own tooth counts, and the printed top-gear overall 5.93 follows the decimals (tooth counts give 5.85). Unresolved; tooth counts used because every gear's tooth count matches its decimal."
+      },
+      "tyre": {
+        "value": "130/70-17",
+        "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+        "quote": "Tire Size —Front 110/70 17 —Rear 130/70 17"
+      },
+      "wheel_radius_m": {
+        "value": 0.3069,
+        "unit": "m",
+        "source": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+        "note": "My calculation, not published: unloaded geometric radius from the nominal size (rim diameter / 2 + section width x aspect ratio). The loaded rolling radius is a few percent smaller."
+      }
+    },
+    "missing": [
+      "top_speed_kmh: Kawasaki's sheet gives none. Second-hand only, not verified: CycleChaos (https://cyclechaos.com/wiki/Kawasaki_EX500D) cites a Motorcyclist test of 1994-on models at 118 mph; Wikipedia (https://en.wikipedia.org/wiki/Kawasaki_Ninja_500R) cites Motorcycle Consumer News at 110 mph (archive copy unreachable, HTTP 429)."
+    ],
+    "sources": [
+      {
+        "url": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+        "what": "Kawasaki one-page model specification sheet, '05 EX500-D12 Ninja 500 (hosted by CycleChaos): weights, gearing, tyres."
+      },
+      {
+        "url": "https://cyclechaos.com/images/f/f7/EX500D6F.PDF",
+        "what": "Same Kawasaki sheet for the 2006 EX500D6F: identical figures."
+      }
+    ]
+  }
+}

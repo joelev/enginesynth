@@ -1,0 +1,331 @@
+{
+  "id": "bmw_s85b50",
+  "name": "BMW S85B50 5.0 L V10 (E60 M5, 2005-2010)",
+  "induction": "naturally aspirated",
+  "summary": "BMW M's only production V10: 90-degree vee, five shared crank pins so it fires at uneven 90 and 54 degree intervals, ten individual throttles and a 5-into-1 manifold on each bank, revving to 8,250 rpm. Each bank fires evenly every 144 degrees; the two banks interleave unevenly, which gives the engine its rasp.",
+  "fields": {
+    "cylinders": {
+      "value": 10,
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "Technical data: 'Engine type V10, 90°'."
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "'Engine type V10, 90°'."
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "'Engine type V10, 90°'."
+    },
+    "bore_mm": {
+      "value": 92,
+      "unit": "mm",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "Technical data: 'Bore 92 mm'. Same in the E92 training table and BMW NA's M Engines document."
+    },
+    "stroke_mm": {
+      "value": 75.2,
+      "unit": "mm",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "Technical data: 'Stroke 75.2 mm'."
+    },
+    "displacement_cc": {
+      "value": 4999,
+      "unit": "cc",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "'Displacement 4,999 cm3'."
+    },
+    "compression_ratio": {
+      "value": 12.0,
+      "unit": ":1",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "E92 M3 training, Technical Data, E6x M5/M6 column: 'Compression ratio ... 12:1'. BMW NA M Complete Vehicles (https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf): 'Compression ratio 12 : 1'. The E92 PDF is a Wayback copy: the original drivingenthusiast.net host now serves a different site, so it is treated as offline."
+    },
+    "firing_order": {
+      "value": "1-6-5-10-2-7-3-8-4-9",
+      "unit": null,
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "E60 M5 training, Digital motor electronics: 'The firing order is: 1-6-5-10-2-7-3-8-4-9.' Same in the E92 training table ('firing order ... 1-6-5-10-2-7-3-8-4-9'). Numbering: cylinders 1-5 on one bank and 6-10 on the other; the E60 manual places cyclone separators 'in the area of the fifth and tenth cylinder' and condensate lines 'along the 6 - 10 side of the crankcase'. Which bank is left or right was not stated in the pages read; it does not change the modelled sound."
+    },
+    "firing_intervals_deg": {
+      "value": "90/54",
+      "unit": "deg",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "E92 training table, E6x M5/M6 column: 'firing interval [° KW] ... 90/54'. With the firing order this means five crank pins each shared by one cylinder of each bank (1/6, 2/7, 3/8, 4/9, 5/10), which is our inference from the numbers; `engsim pins` reproduces 90-54-90-54."
+    },
+    "crank": {
+      "value": "five shared crank pins, 72 degrees apart (inferred)",
+      "unit": null,
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "Inferred from the 90/54 intervals of a 90-degree V10; no page read describes the crank pins directly."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "Competitor table: 'Engine / Valves per cylinder V10 / 4'."
+    },
+    "intake_valve_dia_mm": {
+      "value": 35,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "E92 training, valve table, E6x M5/M6 column: 'Valve head ∅ E/A [mm] 35/30.5' (E = Einlass, intake; A = Auslass, exhaust)."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 30.5,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "As above."
+    },
+    "intake_lift_mm": {
+      "value": 11.7,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "'Valve lift [mm] ... 11.7 E; 11.5 A'."
+    },
+    "exhaust_lift_mm": {
+      "value": 11.5,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "As above."
+    },
+    "intake_duration_deg": {
+      "value": 268,
+      "unit": "deg crank",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "INTERPRETATION (ours). The VANOS table (E6x M5/M6 column) has a row printed 'Response time E/A [°KW] ... 268/260'. A response time cannot carry crank degrees; we read the row as a mistranslation of the German 'Öffnungsdauer' (opening duration), as the row above it, 'Kingpin inclination', is the other meaning of 'Spreizung'. The same table appears in BMW NA's S65B40 Engine document (https://archive.org/download/BMWTechnicalTrainingDocuments/ST709%204th%20Generation%20M3%20Complete%20Vehicle/03_S65B40%2520Engine.pdf). The lift at which the duration is measured is not stated; it is used here as seat to seat, which is an assumption. Treat the duration as unconfirmed."
+    },
+    "exhaust_duration_deg": {
+      "value": 260,
+      "unit": "deg crank",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "See intake_duration_deg."
+    },
+    "vanos_intake_centre_range_deg": {
+      "value": "79-145",
+      "unit": "deg crank after TDC (our reading)",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "'Adjustment range E/A [°KW] ... 79-145/91-128'. Read by us as the intake lobe centre range after TDC and the exhaust lobe centre range before TDC. CONFLICT: the span is 66 degrees here, but the E60 manual (https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf) says 'The intake camshafts have an adjustment range of 60° crankshaft angle and the exhaust camshafts 37° crankshaft angle', and its actuator section gives 'maximum 25.25 mm corresponds to 30° camshaft angle = 60° crankshaft angle'. The exhaust span (37) agrees."
+    },
+    "vanos_exhaust_centre_range_deg": {
+      "value": "91-128",
+      "unit": "deg crank before TDC (our reading)",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "See vanos_intake_centre_range_deg."
+    },
+    "ivo_btdc": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not published as a fixed value: double VANOS moves both cams continuously. See the definition's notes for the fixed estimate used."
+    },
+    "redline_rpm": {
+      "value": 8250,
+      "unit": "rpm",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "Technical data: 'Engine speed 8,250 rpm'; competitor table 'Governed engine speed (rpm) 8.250'."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found in the training documents read (they describe the two idle actuators but give no speed)."
+    },
+    "peak_power_kw": {
+      "value": 373,
+      "unit": "kW",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "'Power output 373 kW/507 bhp at 7,750 rpm'. BMW NA's US training gives '500 bhp at 7,750 rpm' for the same 373 kW."
+    },
+    "peak_power_rpm": {
+      "value": 7750,
+      "unit": "rpm",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf"
+    },
+    "peak_torque_nm": {
+      "value": 520,
+      "unit": "N·m",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "'Torque 520 Nm at 6,100 rpm'."
+    },
+    "peak_torque_rpm": {
+      "value": 6100,
+      "unit": "rpm",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. The E60 manual gives the rod's mass ('582 g') and material only."
+    },
+    "intake_type": {
+      "value": "individual throttles, five per bank, fed from one intake manifold (plenum) per bank",
+      "unit": null,
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "'10 individual throttle valves control the air supply for the S85. The individual throttle valves of each cylinder bank are operated separately by an actuator unit and operating shaft.' and 'The S85 is equipped with a separate intake air manifold for each cylinder bank. The intake air manifolds are connected via hoses to the throttle valve assemblies.'"
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": "5-into-1 per bank, equal-length primaries, near-engine catalyst on each bank",
+      "unit": null,
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "E60 manual: 'The S 85 is equipped with a 5-in-1 exhaust manifold with near-engine catalytic converter for each cylinder bank.' BMW NA M Engines (https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/03_M%20Engines.pdf): manifolds 'feature equal length tubes with a wall thickness of 0.8 mm. The tubes are configured as a 5-into-1 design'."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "engine_weight_kg": {
+      "value": 240,
+      "unit": "kg",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "'Weight 240 kg'."
+    },
+    "cylinder_spacing_mm": {
+      "value": 98,
+      "unit": "mm",
+      "source": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "note": "'Space between cylinders [mm] ... 98'."
+    }
+  },
+  "missing": [
+    "rod length",
+    "cam timing at a fixed point (the cams move continuously with double VANOS), and the lift at which the 268/260 duration is quoted",
+    "intake runner and throttle diameters and lengths",
+    "exhaust primary and pipe dimensions, and how the two banks' pipes are joined downstream of the catalysts",
+    "idle speed",
+    "factory gear ratios for the 2007-on US six-speed manual"
+  ],
+  "sources": [
+    {
+      "url": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "what": "BMW AG Aftersales Training, 'E60 M5 Complete vehicle' participant's manual (October 2004), uploaded to the Internet Archive in the 'BMW Technical Training Documents' item. Manufacturer document: S85B50 technical data, firing order, VANOS ranges, individual throttles, exhaust manifolds, SMG 3 ratios, vehicle data."
+    },
+    {
+      "url": "https://web.archive.org/web/2021id_/http://www.drivingenthusiast.net/sec-bmw/products/m3_e92/training/M3E92-dealer-training.pdf",
+      "what": "BMW AG Aftersales Training, 'E92 M3 Complete vehicle' product information (July 2007), with S65/S54/S85 comparison tables (firing interval, compression ratio, valve sizes and lifts, VANOS). Read from a Wayback Machine copy: the original drivingenthusiast.net host is offline in the sense that it now serves an unrelated site."
+    },
+    {
+      "url": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf",
+      "what": "BMW of North America technical training ST505, 'M Complete Vehicles' (Internet Archive): US E60 M5 technical data (unladen weight, compression ratio, tyres, 0-60 mph) and the E63 M6 final drive, stated to be the E60 M5's differential."
+    },
+    {
+      "url": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/03_M%20Engines.pdf",
+      "what": "BMW of North America technical training ST505, 'M Engines' (Internet Archive): S85 exhaust manifolds with equal-length primaries, 5-into-1."
+    },
+    {
+      "url": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST709%204th%20Generation%20M3%20Complete%20Vehicle/03_S65B40%2520Engine.pdf",
+      "what": "BMW of North America technical training ST709, 'S65B40 Engine' (Internet Archive): the same VANOS comparison table with the S85B50 column, corroborating the E92 manual's figures."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BMW_M5",
+      "what": "Wikipedia, BMW M5, E60 section: the US six-speed manual was announced in October 2006 (cites cars.com)."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "BMW M5 (E60, US, 2006)",
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf",
+      "note": "BMW NA training, E60 M5 technical data. The 2006 car had only the 7-speed SMG III. A six-speed manual was announced for North America in October 2006 (Wikipedia, https://en.wikipedia.org/wiki/BMW_M5, E60 section, citing cars.com, '2007 BMW M5 Gets Manual Transmission'), and no factory gear ratios for it were found, so the SMG car is used. SMG III is a single-clutch automated manual, which suits the simulator's clutch model."
+    },
+    "kind": {
+      "value": "car",
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf"
+    },
+    "curb_kg": {
+      "value": 1820,
+      "unit": "kg",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf",
+      "note": "BMW NA technical data: 'Unladen weight (lbs / kg) 4,012/ 1,820'. BMW AG's European manual (https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf) gives 'Unladen weight (kg) 1830'; Wikipedia gives 1855 kg (EU figure from a 2009 brochure)."
+    },
+    "gear_count": {
+      "value": 7,
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "'7-speed SMG gearbox'."
+    },
+    "gears": {
+      "value": [
+        3.985,
+        2.652,
+        1.806,
+        1.392,
+        1.159,
+        1.0,
+        0.833
+      ],
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "SMG 3 transmission ratio table: '1st gear 3.985 ... 2nd gear 2.652 ... 3rd gear 1.806 ... 4th gear 1.392 ... 5th gear 1.159 ... 6th gear 1.00 ... 7th gear 0.833'. BMW NA's M6 data rounds them to 3.99/2.65/1.81/1.39/1.16/1.00/0.83."
+    },
+    "final_drive": {
+      "value": 3.62,
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf",
+      "note": "BMW NA M Complete Vehicles, E63 M6 section: 'The final drive unit is the same as the M-limited slip differential of the E60 M5. Gear ratio E63 M6: I = 1:3.62 = 47:13 teeth', and the M6 data table 'Final Drive Ratio 3.62 : 1'. That the M5's ratio is the same 3.62 is our reading of 'the same as'."
+    },
+    "tyre": {
+      "value": "285/35 ZR19 (rear)",
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf",
+      "note": "'Rear: 285/35 Z R19 on 9.5 J x 19'; front 255/40 ZR19."
+    },
+    "wheel_radius_m": {
+      "value": 0.341,
+      "unit": "m",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf",
+      "note": "Our calculation from the rear tyre size: 19 x 25.4 / 2 + 285 x 0.35 = 341 mm, the unloaded radius; the loaded rolling radius is a few percent smaller."
+    },
+    "driven": {
+      "value": "rear",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/BMW_M5",
+      "note": "Wikipedia, BMW M5, E60/E61 infobox: 'layout = Front-engine, rear-wheel-drive'."
+    },
+    "top_speed_kmh": {
+      "value": null,
+      "unit": "km/h",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "250 km/h, electronically governed ('V max (km/h) 250 (governed)'); left out of the definition because it is a governed figure."
+    },
+    "acceleration": {
+      "value": "0-100 km/h 4.6 s; 0-60 mph 4.5 s",
+      "unit": "",
+      "source": "https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/E60_M5_Complete_Vehicle.pdf",
+      "note": "BMW AG: '0 - 100 km/h (s) 4.6'. BMW NA (https://archive.org/download/BMWTechnicalTrainingDocuments/ST505%20E60%20M5%20Complete%20Vehicle/02_M%20Complete%20Vehicles.pdf): '0 - 60 mph 4.5 seconds'."
+    }
+  }
+}

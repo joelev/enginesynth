@@ -1,0 +1,295 @@
+{
+  "id": "ford_voodoo_52",
+  "name": "Ford 5.2 L 'Voodoo' V8 (Shelby GT350, 2015-2020)",
+  "induction": "naturally aspirated",
+  "summary": "Flat-plane 90-degree V8 with an unusual up-down-up-down crank and firing order 1-5-4-8-3-7-2-6: banks alternate evenly, giving a hard-edged howl rather than a cross-plane burble, through 4-3-1 headers and an X-pipe.",
+  "fields": {
+    "cylinders": {
+      "value": 8,
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine"
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://www.streetmusclemag.com/?p=7978",
+      "note": "'the fact that it's a 90-degree V8'."
+    },
+    "bore_mm": {
+      "value": 94.0,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine",
+      "note": "Also Enginelabs/Ford release: 94 mm (3.700 in)."
+    },
+    "stroke_mm": {
+      "value": 93.0,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine",
+      "note": "Also Enginelabs/Ford release: 93 mm (3.661 in)."
+    },
+    "displacement_cc": {
+      "value": 5163,
+      "unit": "cc",
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine"
+    },
+    "compression_ratio": {
+      "value": 12.0,
+      "unit": ":1",
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Factory length not found on an opened page. A search-result summary showed an aftermarket Manley rod for this engine at 5.933 in centre-to-centre (page blocked); unverified lead."
+    },
+    "firing_order": {
+      "value": "1-5-4-8-3-7-2-6",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine",
+      "note": "Ford numbering: cylinders 1-4 on the right (passenger) bank front to rear, 5-8 on the left. The bank assignment is sourced from Street Muscle's article, which maps the Coyote's Ford-numbered order to R/L and calls 1 and 2 right-bank cylinders. With that numbering this order is R-L-R-L-R-L-R-L."
+    },
+    "crank": {
+      "value": "flat-plane (180-degree), throws arranged up-down-up-down front to rear, each pin shared by one cylinder from each bank",
+      "unit": null,
+      "source": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/",
+      "note": "MotorTrend: Ferrari and most inline fours use up-down-down-up; Ford chose up-down-up-down because it breathed best with a single shared intake plenum. Wikipedia repeats this and says the firing order is unique to the Voodoo as a result."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "unit": "deg",
+      "source": "https://www.streetmusclemag.com/?p=7978",
+      "note": "Even 90 degrees engine-wide with strict right-left alternation, so each bank fires evenly every 180 degrees. Within the right bank the sequence is 1, 4, 3, 2; within the left bank 5, 8, 7, 6 (my reading of the firing order with Ford numbering)."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://www.f150hub.com/specs/5.2-voodoo-flat-plane.html"
+    },
+    "intake_valve_dia_mm": {
+      "value": 38.4,
+      "unit": "mm",
+      "source": "https://www.streetmusclemag.com/?p=7978",
+      "note": "'two 1.51-inch hollow stem intakes'. Magazine article, not a Ford spec sheet."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 32.5,
+      "unit": "mm",
+      "source": "https://www.streetmusclemag.com/?p=7978",
+      "note": "'a pair of sodium-filled 1.28-inch exhaust valves'."
+    },
+    "intake_lift_mm": {
+      "value": 14.0,
+      "unit": "mm",
+      "source": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/",
+      "note": "0.551 in per Ford's release as reported by Enginelabs."
+    },
+    "exhaust_lift_mm": {
+      "value": 14.0,
+      "unit": "mm",
+      "source": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/",
+      "note": "'also opening fully 14 mm'."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found on an opened page. A search-result summary reported a forum post quoting 259 degrees intake duration from calibration data, lift basis unstated (not opened)."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "variable_valve_timing": {
+      "value": "variable cam timing fitted; which cams and what phasing range not stated",
+      "unit": null,
+      "source": "https://www.streetmusclemag.com/?p=7978",
+      "note": "Street Muscle: 'variable cam timing also plays a part'. Wikipedia mentions VCT mechanisms on the GT350R."
+    },
+    "redline_rpm": {
+      "value": 8250,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine",
+      "note": "MotorTrend says the valvetrain is designed to survive over-revs to 9,000 rpm."
+    },
+    "peak_power_kw": {
+      "value": 392,
+      "unit": "kW",
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine",
+      "note": "526 hp at 7,500 rpm; converted by me."
+    },
+    "peak_power_rpm": {
+      "value": 7500,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine"
+    },
+    "peak_torque_nm": {
+      "value": 582,
+      "unit": "Nm",
+      "source": "https://www.wardsauto.com/news/archive-wards-ford-s-5-2l-high-revving-masterpiece/788514/",
+      "note": "429 lb-ft at 4,750 rpm; 90 percent of peak torque from 3,450 to 7,000 rpm."
+    },
+    "peak_torque_rpm": {
+      "value": 4750,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/Ford_Modular_engine"
+    },
+    "intake_type": {
+      "value": "single plenum, scroll-type manifold with long large-section runners and charge-motion flaps",
+      "unit": null,
+      "source": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/",
+      "note": "Runners 'as long as those in the 5.0-liter V-8 but much bigger in cross-section'; no dimensions given."
+    },
+    "throttle_dia_mm": {
+      "value": 87,
+      "unit": "mm",
+      "source": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/"
+    },
+    "header_type": {
+      "value": "4-into-3-into-1 per bank, hand TIG-welded tubular manifold",
+      "unit": null,
+      "source": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/",
+      "note": "Ford's engineers said 4-2-1 was ideal but packaging around the steering forced 4-3-1."
+    },
+    "exhaust_notes": {
+      "value": "banks mix in an X-shaped crossover, then a two-stage muffler with valves that open under load or on demand",
+      "unit": null,
+      "source": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/"
+    }
+  },
+  "missing": [
+    "rod_length_mm (factory)",
+    "cam duration and timing events, phaser range",
+    "idle_rpm",
+    "runner_length_mm",
+    "runner_dia_mm",
+    "primary_dia_mm",
+    "primary_length_mm",
+    "exhaust_pipe_dia_mm"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ford_Modular_engine",
+      "what": "Wikipedia, Ford Modular engine, Voodoo section. Bore, stroke, CR, ratings, redline, firing order, crank layout (citing MotorTrend and Car and Driver)."
+    },
+    {
+      "url": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/",
+      "what": "MotorTrend (Frank Markus, 3 June 2015), technical briefing from Ford's engine team. Crank layout, lift, throttle, manifold and exhaust design."
+    },
+    {
+      "url": "https://www.streetmusclemag.com/?p=7978",
+      "what": "Street Muscle magazine, 'Inside Ford's New 5.2L Shelby GT350 Engine'. Valve diameters, R/L firing pattern and Ford bank numbering."
+    },
+    {
+      "url": "https://www.enginelabs.com/news/ford-releases-final-details-on-the-gt350s-insane-5-2-liter-engine/",
+      "what": "EngineLabs report of Ford's final spec release. Bore/stroke in inches, .551 in lift, 87 mm throttle."
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-wards-ford-s-5-2l-high-revving-masterpiece/788514/",
+      "what": "WardsAuto interview with chief engineer Eric Ladner. Ratings with Nm, development targets."
+    },
+    {
+      "url": "https://www.f150hub.com/specs/5.2-voodoo-flat-plane.html",
+      "what": "f150hub spec table. 32 valves, roller finger followers, max engine speed."
+    }
+  ],
+  "vehicle": {
+    "name": "Ford Mustang Shelby GT350 (2016)",
+    "fields": {
+      "curb_kg": {
+        "value": 1706,
+        "unit": "kg",
+        "source": "https://www.carspecs.us/cars/2016/ford/shelby-gt350",
+        "note": "'2016 Ford Shelby GT350 Base - Coupe 5.2L V8 Manual ... Curb weight 3,760 lbs.', converted by me. A search-engine excerpt of Ford's tech-spec sheet (https://media.ford.com/content/dam/fordmedia/North%20America/US/2015/08/24/gt350-gt350r-tech-specs.pdf, not read: it returned Access Denied) gives the same 3,760 lb for the GT350 and 3,791 lb with the Track Package."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://tremec.com/?p=662",
+        "note": "Tremec press release quoting Ford: 'the all-new 5.2-liter will be paired with a six-speed manual transmission as its only gearbox option. The TREMEC TR-3160 six-speed manual is specifically engineered for ... the new Shelby Mustangs.'"
+      },
+      "gears": {
+        "value": [
+          3.25,
+          2.23,
+          1.61,
+          1.24,
+          1.0,
+          0.63
+        ],
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Tremec_TR-3160_transmission",
+        "note": "Selected gear ratios table: 'Ford Mustang Shelby GT350 3.25 2.23 1.61 1.24 1.00 0.63 2.95' (reverse last), citing Tremec. Not cross-checked against a Ford document (Ford's PDF refused access). mustangspecs.com's spec table gives different, Mustang GT-like ratios with a 3.55 final drive that contradict its own text; not used."
+      },
+      "final_drive": {
+        "value": 3.73,
+        "unit": "",
+        "source": "https://www.mustangspecs.com/2016-ford-mustang-shelby-gt350/",
+        "note": "'The power train includes a 3.73:1 ratio, TORSEN helical differential to handle the 5.2 liter's power.'"
+      },
+      "wheel_radius_m": {
+        "value": 0.348,
+        "unit": "m",
+        "source": "https://www.mustangspecs.com/2016-ford-mustang-shelby-gt350/",
+        "note": "Calculated by me from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded geometric radius, not a published rolling radius; the loaded rolling radius is a few percent smaller."
+      },
+      "tyre": {
+        "value": "305/35ZR19",
+        "source": "https://www.mustangspecs.com/2016-ford-mustang-shelby-gt350/",
+        "note": "'19\"x10.5 front wheels and 19\"x11 ... rear wheels with 295/35ZR19 front and 305/35ZR19 rear tires. They are Michelin Pilot Super Sport'. Rear-wheel drive."
+      },
+      "top_speed_kmh": {
+        "value": null,
+        "unit": "km/h",
+        "source": null,
+        "note": "Not found."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Shelby_Mustang",
+        "note": "English Wikipedia, 'Shelby Mustang' (read 2026-11-17), infobox layout: FR layout."
+      }
+    },
+    "missing": [
+      "Ford's GT350 tech-spec sheet (refused automated access)",
+      "top speed"
+    ],
+    "blocked_or_unreachable": [
+      "https://media.ford.com/content/dam/fordmedia/North%20America/US/2015/08/24/gt350-gt350r-tech-specs.pdf"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tremec_TR-3160_transmission",
+        "what": "Wikipedia, Tremec TR-3160: gear-ratio table with a Shelby GT350 row, citing Tremec."
+      },
+      {
+        "url": "https://tremec.com/?p=662",
+        "what": "Tremec press release (June 2015) reproducing Ford's announcement: TR-3160 is the GT350's only gearbox."
+      },
+      {
+        "url": "https://www.mustangspecs.com/2016-ford-mustang-shelby-gt350/",
+        "what": "MustangSpecs 2016 Shelby GT350 page: text on the 3.73 Torsen axle, wheel and tyre sizes. Enthusiast reference; its spec table is unreliable and not used."
+      },
+      {
+        "url": "https://www.carspecs.us/cars/2016/ford/shelby-gt350",
+        "what": "carspecs.us '2016 Ford Shelby GT350 Base - Coupe 5.2L V8 Manual': curb weight. Spec database."
+      }
+    ]
+  }
+}

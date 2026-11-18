@@ -1,0 +1,278 @@
+{
+  "id": "buick_3800_l36",
+  "name": "Buick 3800 Series II L36 (naturally aspirated, 1995-2005)",
+  "induction": "naturally aspirated",
+  "summary": "90-degree pushrod V6 made even-firing by split crank pins offset 30 degrees, so it fires every 120 degrees despite the V8-derived bank angle; fitted with a balance shaft.",
+  "fields": {
+    "cylinders": {
+      "value": 6,
+      "unit": null,
+      "source": "https://3800wiki.com/engine_details/generalspecs"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://3800wiki.com/engine_details/generalspecs"
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://3800wiki.com/engine_details/generalspecs",
+      "note": "'Engine Type 90* V6' from a 1998 Camaro service manual as transcribed on 3800wiki."
+    },
+    "bore_mm": {
+      "value": 96.52,
+      "unit": "mm",
+      "source": "https://3800wiki.com/engine_details/generalspecs"
+    },
+    "stroke_mm": {
+      "value": 86.36,
+      "unit": "mm",
+      "source": "https://3800wiki.com/engine_details/generalspecs"
+    },
+    "displacement_cc": {
+      "value": 3791,
+      "unit": "cc",
+      "source": "https://en.wikipedia.org/wiki/Buick_V6_engine"
+    },
+    "compression_ratio": {
+      "value": 9.4,
+      "unit": ":1",
+      "source": "https://3800wiki.com/engine_details/generalspecs"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. Wikipedia says only that Series II rods were shortened 1 in versus Series I. 3800wiki notes L36/L26 rods are longer than supercharged L67/L32 rods."
+    },
+    "firing_order": {
+      "value": "1-6-5-4-3-2",
+      "unit": null,
+      "source": "https://3800wiki.com/engine_details/generalspecs",
+      "note": "Numbering (Wikipedia): cylinders 1-3-5 on the left-hand bank (front bank in transverse FWD cars), 2-4-6 on the right-hand bank, number 1 furthest from the flywheel. Firing therefore alternates banks every time."
+    },
+    "crank": {
+      "value": "split-pin: each of the three throws carries two crank pins offset 30 degrees from each other",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "note": "Wikipedia describes the 30-degree split-pin crank as introduced in 1977 and says the Series II crankshaft was 'redesigned' without giving a new offset; 30 degrees is what a 90-degree V6 needs for even firing. Balance shaft added from the 1988 LN3 onward."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "unit": "deg",
+      "source": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "note": "Even fire, per Wikipedia's description of the split-pin crank ('even-firing'). The 120 figure for a 30-degree split on a 90-degree V6 is also stated on Wikipedia's V6 engine page."
+    },
+    "valves_per_cylinder": {
+      "value": 2,
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Buick_V6_engine"
+    },
+    "intake_valve_dia_mm": {
+      "value": 45.7,
+      "unit": "mm",
+      "source": "https://s3-us-west-2.amazonaws.com/ejc-guidebook2/GM/3_8_L36.HTML",
+      "note": "Parts-catalogue valve table. Agrees with Wikipedia's 1.8 in for Series II."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 36.6,
+      "unit": "mm",
+      "source": "https://s3-us-west-2.amazonaws.com/ejc-guidebook2/GM/3_8_L36.HTML",
+      "note": "Parts-catalogue valve table covering 1996-2009 applications. Wikipedia says 1.52 in (38.6 mm) exhaust valves were introduced on 2003 engines, so 36.6 mm applies to earlier L36; the catalogue does not make that split."
+    },
+    "cam_lobe_lift_intake_mm": {
+      "value": 6.55,
+      "unit": "mm",
+      "source": "https://3800wiki.com/engine_details/generalspecs",
+      "note": "LOBE lift, not valve lift, from the 1998 Camaro service manual as transcribed. Rocker ratio was not found on an opened page, so valve lift is left null."
+    },
+    "cam_lobe_lift_exhaust_mm": {
+      "value": 6.48,
+      "unit": "mm",
+      "source": "https://3800wiki.com/engine_details/generalspecs",
+      "note": "Lobe lift."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Valve lift not found; needs rocker ratio times 6.55 mm lobe lift."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Valve lift not found; needs rocker ratio times 6.48 mm lobe lift."
+    },
+    "intake_duration_deg": {
+      "value": 182,
+      "unit": "deg",
+      "source": "https://3800wiki.com/performance/enginemods/valvetrain/camshafts",
+      "note": "At 0.050 in lifter rise. Enthusiast wiki cam comparison table, row 'Stock L36/L26'; no primary source cited there. LSA listed as N/A for the L36 (115 for the supercharged L67)."
+    },
+    "exhaust_duration_deg": {
+      "value": 192,
+      "unit": "deg",
+      "source": "https://3800wiki.com/performance/enginemods/valvetrain/camshafts",
+      "note": "At 0.050 in. Same enthusiast table."
+    },
+    "peak_power_kw": {
+      "value": 153,
+      "unit": "kW",
+      "source": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "note": "205 hp; converted by me. rpm not stated on the page. wbodytech.com says W-body calibrations were 200-205 hp."
+    },
+    "peak_power_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found on an opened page."
+    },
+    "peak_torque_nm": {
+      "value": 312,
+      "unit": "Nm",
+      "source": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "note": "230 lb-ft; rpm not stated."
+    },
+    "peak_torque_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found on an opened page."
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_type": {
+      "value": "plenum; composite upper intake manifold",
+      "unit": null,
+      "source": "https://wbodytech.com/wiki/engines/buick-3800-v6/"
+    }
+  },
+  "missing": [
+    "rod_length_mm",
+    "rocker ratio and valve lift",
+    "cam timing events and lobe separation",
+    "peak_power_rpm",
+    "peak_torque_rpm",
+    "redline_rpm",
+    "idle_rpm",
+    "runner_length_mm",
+    "runner_dia_mm",
+    "throttle_dia_mm",
+    "header_type (cast manifolds, undocumented)",
+    "primary_dia_mm",
+    "exhaust_pipe_dia_mm"
+  ],
+  "sources": [
+    {
+      "url": "https://3800wiki.com/engine_details/generalspecs",
+      "what": "3800wiki general mechanical specifications, stated as copied from a 1998 Camaro (L36) service manual. Bore, stroke, CR, firing order, lobe lift."
+    },
+    {
+      "url": "https://3800wiki.com/performance/enginemods/valvetrain/camshafts",
+      "what": "3800wiki camshaft comparison table (enthusiast-maintained). Stock duration at .050."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "what": "Wikipedia, Buick V6 engine. Split-pin crank, numbering, Series II changes, power."
+    },
+    {
+      "url": "https://s3-us-west-2.amazonaws.com/ejc-guidebook2/GM/3_8_L36.HTML",
+      "what": "EJC Performance parts guidebook page for the GM 3.8 Series II. Valve head diameters."
+    },
+    {
+      "url": "https://wbodytech.com/wiki/engines/buick-3800-v6/",
+      "what": "W-body enthusiast wiki; power range and intake description."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/V6_engine",
+      "what": "Wikipedia, V6 engine: 30-degree split pins give even 120-degree intervals on a 90-degree V6."
+    }
+  ],
+  "vehicle": {
+    "name": "Buick LeSabre Custom (2000)",
+    "fields": {
+      "curb_kg": {
+        "value": 1618,
+        "unit": "kg",
+        "source": "https://www.carspecs.us/cars/2000/buick/lesabre",
+        "note": "'Curb weight 3,567 lbs.' for the '2000 Buick LeSabre Custom - Sedan 3.8L V6 auto'; converted by me. A period review of a 2000 LeSabre Limited gives 'Curb Weight 3627 pounds' (https://www.theautochannel.com/vehicles/new/reviews/2000/solo0006.html)."
+      },
+      "gear_count": {
+        "value": 4,
+        "source": "https://www.theautochannel.com/vehicles/new/reviews/2000/solo0006.html",
+        "note": "'A smooth-shifting and seemingly bulletproof four-speed automatic transmission is the sole gearbox available'. The spec database calls it a '4-speed electronically-controlled automatic transmission w/OD'; that it is the 4T65-E is from Wikipedia's 4T65-E article and the spec database's matching ratios (inference)."
+      },
+      "gears": {
+        "value": [
+          2.921,
+          1.568,
+          1.0,
+          0.705
+        ],
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/GM_4T65_transmission",
+        "note": "Wikipedia 4T60-E/4T65-E article, 'Gear ratios: 1 2.921, 2 1.568, 3 1.000, 4 0.705, R 2.385'. The carspecs.us page for this car lists 'First Gear Ratio 2.92, Second 1.57, Third 1.00, Fourth 0.75, Reverse 2.39'; the fourth-gear figure disagrees (0.75 vs 0.705). The 1998 Regal GS page on the same database gives 0.71, so 0.75 looks like a database error (my judgement)."
+      },
+      "final_drive": {
+        "value": 2.86,
+        "unit": "",
+        "source": "https://www.carspecs.us/cars/2000/buick/lesabre",
+        "note": "'Final Drive Axle Ratio 2.86'. Wikipedia lists 4T65 'Diff Ratio 2.86, 3.05, 3.29'. The 2000 review says LeSabres with the 'optional Gran Touring package get a higher axle ratio'."
+      },
+      "wheel_radius_m": {
+        "value": 0.341,
+        "unit": "m",
+        "source": "https://www.carspecs.us/cars/2000/buick/lesabre",
+        "note": "Calculated by me from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded geometric radius, not a published rolling radius; the loaded rolling radius is a few percent smaller."
+      },
+      "tyre": {
+        "value": "P215/70R15",
+        "source": "https://www.carspecs.us/cars/2000/buick/lesabre",
+        "note": "'Front Tire Size P215/70R15 ... Rear Tire Size P215/70R15'. Front-wheel drive, so the front tyre is the driven one."
+      },
+      "top_speed_kmh": {
+        "value": null,
+        "unit": "km/h",
+        "source": "https://www.theautochannel.com/vehicles/new/reviews/2000/solo0006.html",
+        "note": "Omitted. The only figure found, 'Top-speed 105 mph', is from a review of a LeSabre Limited on 'P225/60R16 touring tires', not the Custom modelled here."
+      },
+      "driven": {
+        "value": "front",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Buick_LeSabre",
+        "note": "English Wikipedia, 'Buick LeSabre' (read 2026-11-17), infobox layout: FR layout (1959-1985), Front-engine, front-wheel drive (1986-2005)."
+      }
+    },
+    "missing": [
+      "a GM document for the 2000 LeSabre's axle ratio and curb weight (only a spec database found)",
+      "top speed of the Custom"
+    ],
+    "sources": [
+      {
+        "url": "https://www.carspecs.us/cars/2000/buick/lesabre",
+        "what": "carspecs.us page '2000 Buick LeSabre Custom - Sedan 3.8L V6 auto': gear ratios, final drive, tyres, curb weight. Spec database, no source given."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/GM_4T65_transmission",
+        "what": "Wikipedia article on the GM 4T60-E/4T65-E transaxle: gear ratios and available differential ratios."
+      },
+      {
+        "url": "https://www.theautochannel.com/vehicles/new/reviews/2000/solo0006.html",
+        "what": "The Auto Channel review 'Buick LeSabre Limited (2000)' by Tom Hagin, with a specification box: sole gearbox, Limited curb weight and top speed."
+      }
+    ]
+  }
+}

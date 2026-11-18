@@ -1,0 +1,267 @@
+{
+  "id": "porsche_carrera_gt_v10",
+  "name": "Porsche Carrera GT 5.7 L V10 (type 980/01, 2003-2006)",
+  "induction": "naturally aspirated",
+  "summary": "A 68-degree V10 derived from a Le Mans prototype engine. Because the bank angle is 68 rather than 72 degrees, firing alternates between 68 and 76 degrees: nearly even, with a slight irregularity under the 8,400 rpm shriek.",
+  "fields": {
+    "cylinders": {
+      "value": 10,
+      "unit": null,
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1"
+    },
+    "bank_angle_deg": {
+      "value": 68,
+      "unit": "deg",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1"
+    },
+    "bore_mm": {
+      "value": 98.0,
+      "unit": "mm",
+      "source": "https://www.excellence-mag.com/resources/specs/259",
+      "note": "Also en.wikipedia Porsche V10 engine page. Nikasil-coated bores."
+    },
+    "stroke_mm": {
+      "value": 76.0,
+      "unit": "mm",
+      "source": "https://www.excellence-mag.com/resources/specs/259"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. Rods are titanium (autozine, kfz-tech, en.wikipedia). supercarnostalgia says both 'hydroformed steel conrods' and 'forged titanium connecting rods' in one sentence, which is self-contradictory."
+    },
+    "compression_ratio": {
+      "value": 12.0,
+      "unit": ":1",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1"
+    },
+    "displacement_cc": {
+      "value": 5733,
+      "unit": "cc",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1"
+    },
+    "firing_order": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found on any page opened, nor the cylinder numbering."
+    },
+    "crank": {
+      "value": "Two connecting rods per crank pin (shared pins, no split), with different firing intervals for the two rods on a pin.",
+      "unit": null,
+      "source": "https://www.kfz-tech.de/Engl/Hersteller/Porsche/V10Porsche.htm",
+      "note": "kfz-tech: 'the different ignition intervals at each two connecting rods on a crank pin'. Pin spacing is not printed; 68/76 alternation implies five shared pins 72 degrees apart in firing sequence (my inference)."
+    },
+    "firing_intervals_deg": {
+      "value": "uneven, alternating 68 and 76",
+      "unit": null,
+      "source": "https://autozine.org/Archive/Porsche/classic/CarreraGT.html",
+      "note": "Autozine (enthusiast technical site): 'Its firing was uneven, alternating between 68 and 76 deg'. Consistent with a 68-degree bank and shared pins; 68+76 = 144 = 720/5. No Porsche document found stating it."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://de.wikipedia.org/wiki/Porsche_Carrera_GT",
+      "note": "DOHC per bank, chain driven, bucket tappets; VarioCam variable timing on the intake cams only; sodium-cooled exhaust valves (de.wikipedia, en.wikipedia)."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found. Porsche normally publishes timing at 1 mm lift, but I could not open a Carrera GT technical data page."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": 8400,
+      "unit": "rpm",
+      "source": "https://www.excellence-mag.com/resources/specs/259",
+      "note": "Excellence magazine spec table 'Max RPM 8400'; same figure on en.wikipedia and autozine."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "peak_power_kw": {
+      "value": 450,
+      "unit": "kW",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+      "note": "612 PS."
+    },
+    "peak_power_rpm": {
+      "value": 8000,
+      "unit": "rpm",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1"
+    },
+    "peak_torque_nm": {
+      "value": 590,
+      "unit": "N·m",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1"
+    },
+    "peak_torque_rpm": {
+      "value": 5750,
+      "unit": "rpm",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1"
+    },
+    "intake_type": {
+      "value": "fixed-length intake with individual inlet funnels (trumpets); no variable intake manifold",
+      "unit": null,
+      "source": "https://autozine.org/Archive/Porsche/classic/CarreraGT.html",
+      "note": "Autozine: 'no such things like variable intake manifolds or exhaust'; kfz-tech mentions the inlet funnels. Throttle arrangement not found."
+    },
+    "header_type": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "Fixed exhaust, no variable flap, per Autozine.",
+      "unit": null,
+      "source": "https://autozine.org/Archive/Porsche/classic/CarreraGT.html"
+    }
+  },
+  "missing": [
+    "firing_order and cylinder numbering",
+    "rod_length_mm",
+    "intake_valve_dia_mm",
+    "exhaust_valve_dia_mm",
+    "intake_lift_mm",
+    "exhaust_lift_mm",
+    "cam timing and durations",
+    "VarioCam range",
+    "idle_rpm",
+    "throttle count and size",
+    "runner dimensions",
+    "exhaust manifold layout and pipe sizes"
+  ],
+  "sources": [
+    {
+      "url": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+      "what": "Porsche Newsroom article (28 Sep 2025) with a technical data table for the Carrera GT. Manufacturer."
+    },
+    {
+      "url": "https://www.excellence-mag.com/resources/specs/259",
+      "what": "Excellence magazine (Porsche specialist) spec table: bore, stroke, max rpm."
+    },
+    {
+      "url": "https://autozine.org/Archive/Porsche/classic/CarreraGT.html",
+      "what": "Autozine technical review of the Carrera GT; single-author enthusiast site, source of the 68/76 firing statement."
+    },
+    {
+      "url": "https://www.kfz-tech.de/Engl/Hersteller/Porsche/V10Porsche.htm",
+      "what": "kfz-tech.de (German automotive engineering teaching site) note on the Carrera GT V10: shared crank pins with unequal intervals."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Porsche_V10_engine",
+      "what": "English Wikipedia Porsche V10 engine page; bore, stroke, redline."
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Porsche_Carrera_GT",
+      "what": "German Wikipedia Carrera GT page; valvetrain description."
+    },
+    {
+      "url": "https://supercarnostalgia.com/blog/porsche-carrera-gt",
+      "what": "Supercar Nostalgia guide; noted only for its contradictory rod-material sentence."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "Porsche Carrera GT (2004)",
+      "unit": "",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+      "note": "Porsche heritage release, \"Technical Data: Porsche Carrera GT\", built 2003-2006; the only car with this engine."
+    },
+    "curb_kg": {
+      "value": 1380,
+      "unit": "kg",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+      "note": "Quote: \"Kerb weight 1,380 kg\". ADAC (https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/carrera-gt/980/996732/): \"Leergewicht (EU) 1455 kg\", which is 1,380 + 75 kg, so 1,380 is most likely DIN (inference)."
+    },
+    "gear_count": {
+      "value": 6,
+      "unit": "",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+      "note": "Quote: \"6-speed manual gearbox with ceramic clutch\"."
+    },
+    "gears": {
+      "value": [
+        3.2,
+        1.87,
+        1.36,
+        1.07,
+        0.9,
+        0.75
+      ],
+      "unit": "",
+      "source": "https://www.auto-motor-und-sport.de/test/porsche-carrera-gt-im-test-supersportwagen-faehrt-rundenzeiten-rekorde/technische-daten/",
+      "note": "Read by a helper, not re-read by veh-d. Quote: \"I. 3,20 II. 1,87 III. 1,36 IV. 1,07 V. 0,90 VI. 0,75\". carspecs.us (https://www.carspecs.us/cars/2005/porsche/carrera-gt/61583) agrees: \"First Gear Ratio 3.20 ... Sixth Gear Ratio 0.75\"."
+    },
+    "final_drive": {
+      "value": 4.44,
+      "unit": "",
+      "source": "https://www.auto-motor-und-sport.de/test/porsche-carrera-gt-im-test-supersportwagen-faehrt-rundenzeiten-rekorde/technische-daten/",
+      "note": "Quote: \"Achsantrieb 4,44:1\"; carspecs.us agrees (\"Final Drive Axle Ratio 4.44\"). Check (ours): 4.44 x 0.75 on this tyre gives about 8,400 rpm at 330 km/h."
+    },
+    "tyre": {
+      "value": "335/30 ZR 20",
+      "unit": "",
+      "source": "https://www.auto-motor-und-sport.de/test/porsche-carrera-gt-im-test-supersportwagen-faehrt-rundenzeiten-rekorde/technische-daten/",
+      "note": "Rear. Quote: \"265/35 ZR 19 / 335/30 ZR 20\". Excellence (https://www.excellence-mag.com/resources/specs/259) and carspecs.us agree. ADAC lists 315/35 R20 rear, an outlier."
+    },
+    "wheel_radius_m": {
+      "value": 0.347,
+      "unit": "m",
+      "source": "https://www.auto-motor-und-sport.de/test/porsche-carrera-gt-im-test-supersportwagen-faehrt-rundenzeiten-rekorde/technische-daten/",
+      "note": "Estimated (ours): rolling radius taken as 98% of the unloaded radius computed from the tyre size (rim diameter / 2 + section width x aspect ratio)."
+    },
+    "top_speed_kmh": {
+      "value": 330,
+      "unit": "km/h",
+      "source": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+      "note": "Quote: \"Top speed 330 km/h\"."
+    },
+    "driven": {
+      "value": "rear",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/Porsche_Carrera_GT",
+      "note": "English Wikipedia, 'Porsche Carrera GT' (read 2026-11-17), infobox layout: rear mid-engine, rear-wheel drive."
+    }
+  }
+}

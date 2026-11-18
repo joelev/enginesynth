@@ -1,0 +1,132 @@
+{
+  "name": "honda_b18c5",
+  "label": "Honda B18C5 1.8 L inline-four (VTEC)",
+  "generic": false,
+  "family": "inline-four",
+  "based_on": "Honda B18C5, Acura Integra Type R (US), 1997-2001",
+  "layout": "inline",
+  "bore": 0.081,
+  "stroke": 0.0872,
+  "rod": 0.1379,
+  "cr": 10.6,
+  "firing": [
+    0,
+    540,
+    180,
+    360
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.033,
+  "ex_valve_d": 0.028,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": -10,
+    "ivc": 10,
+    "evo": 15,
+    "evc": -10,
+    "in_lift": 0.006,
+    "ex_lift": 0.006
+  },
+  "cam_high": {
+    "at_lift": 0.001,
+    "ivo": 15,
+    "ivc": 45,
+    "evo": 45,
+    "evc": 10,
+    "in_lift": 0.0115,
+    "ex_lift": 0.0105
+  },
+  "cam_switch_rpm": 5700,
+  "runner_len": 0.31,
+  "runner_d": 0.042,
+  "throttle_d": 0.062,
+  "snorkel_d": 0.07,
+  "primary_len": [
+    0.35,
+    0.35,
+    0.35,
+    0.35
+  ],
+  "primary_d": 0.04,
+  "groups": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "merge": "y",
+  "secondary_len": 0.3,
+  "secondary_d": 0.045,
+  "mid_d": 0.0572,
+  "tail_len": 0.15,
+  "tail_d": 0.076,
+  "redline": 8400,
+  "idle": 750,
+  "friction_scale": 0.8,
+  "heat_q": 2550000,
+  "published": {
+    "power_kw": 145.4,
+    "power_rpm": 8000,
+    "torque_nm": 176.3,
+    "torque_rpm": 7300
+  },
+  "sources": [
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html",
+      "what": "Honda Japan press information (factbook) for the August 1995 Integra Type R: comparison table of B18C vs B18C 96 spec.R with high-cam valve timing at 1 mm lift, valve lift, valve, throttle and exhaust diameters. Manufacturer document."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-003.html",
+      "what": "Same Honda factbook: maximum permissible rpm, power and torque of the 96 spec.R."
+    },
+    {
+      "url": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-004.html",
+      "what": "Same Honda factbook: intake, exhaust and valve gear changes."
+    },
+    {
+      "url": "https://www.honda.co.jp/sportscar/vtec_history/B18C/",
+      "what": "Honda Japan VTEC history page for the B18C 96 spec.R: basic specification table."
+    },
+    {
+      "url": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain",
+      "what": "American Honda press release, 2001 Acura Integra Type R powertrain: compression, power, torque, VTEC changeover rpm, throttle and runner diameters, exhaust description. Manufacturer document."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Honda_B_engine",
+      "what": "Wikipedia B-series article: rod length, redline and variant list. Used only where Honda pages were silent; several entries are uncited."
+    },
+    {
+      "url": "https://www.forum.civic-eg.com/viewtopic.php?f=9&t=2583",
+      "what": "Forum post listing B-series cam durations at 1 mm lift; used only as a cross-check on the durations computed from Honda's figures."
+    },
+    {
+      "url": "https://acura-specs.pages.dev/integra/1994-2001/1.8l-engine/specs",
+      "what": "Third-party spec aggregator for 1994-2001 Integra 1.8 L engines: firing order and idle speed. Low credibility; used because no better page was found."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, intake valve diameter, the high-speed cam (events at 1 mm lift and peak lifts), cam switch speed, intake runner diameter, throttle diameter, intake duct diameter (snorkel_d), exhaust pipe diameter (mid_d), 76 mm tail pipe (tail_d), redline, idle, 4-2-1 header layout. The high cam, redline, intake duct, exhaust pipe and tail pipe figures are Honda's for the Japanese B18C 96 spec.R, not confirmed for the US B18C5. Rod length is from Wikipedia without a citation. The firing order 1-3-4-2 and the 750 rpm idle are from a low-quality third-party page (not a Honda document; it covers all 1994-2001 Integra 1.8 L engines and does not state which end is cylinder 1); a flat-plane crank is assumed. Published output and the 5700 rpm switch speed are Honda's US figures for the B18C5. Estimated, not sourced: the whole low-speed cam (Honda does not publish it; a short, low-lift profile was chosen and tuned), exhaust valve diameter, intake runner length, header primary and secondary lengths and diameters, tail pipe length, friction_scale and heat_q (tuned). Everything else is left to the derived defaults (plenum, airbox, collector, muffler, flywheel). The 4-2-1 header is modelled as cylinders 1+4 and 2+3 paired, then one pipe.",
+  "vehicle": {
+    "name": "Acura Integra Type R (DC2, US, 1997)",
+    "kind": "car",
+    "curb_kg": 1170,
+    "gear_count": 5,
+    "gears": [
+      3.23,
+      2.105,
+      1.458,
+      1.107,
+      0.848
+    ],
+    "final_drive": 4.4,
+    "wheel_radius_m": 0.2978,
+    "tyre": "195/55 R15 84V",
+    "top_speed_kmh": 230,
+    "notes": "Weight, ratios, final drive and tyres are from American Honda's specification sheet for the 1998 model year (released April 1997); no Honda sheet with a Type R column was found for 1997 itself. Car and Driver weighed its March 1997 test car at 2560 lb (1161 kg). Top speed is Car and Driver's measured, drag-limited 143 mph, converted to km/h. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "front"
+  }
+}

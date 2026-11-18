@@ -1,0 +1,327 @@
+{
+  "id": "triumph_daytona_675",
+  "name": "Triumph Daytona 675 inline-triple (674.8 cc, 2006-2008 model years, up to VIN 381274)",
+  "induction": "naturally aspirated",
+  "summary": "A transverse 675 cc inline-three with a 120-degree crank, so it fires evenly every 240 degrees, in a supersport chassis: 74 x 52.3 mm, 12.65:1, twelve valves, one throttle body per cylinder, rev limiter at 14,000 rpm. The three headers join into one pipe under the engine (with a motor-driven exhaust butterfly in the header assembly and the catalyst in the down pipe) and run to a silencer under the seat. A balancer shaft cancels the triple's rocking couple; it moves no gas.",
+  "fields": {
+    "variant": {
+      "value": "Daytona 675 up to VIN 381274 (the 2006 to 2008 model years): 125 PS at 12,500 rpm, 72 N m at 11,750 rpm. The engine was revised for 2009 (from VIN 381275: 128 PS at 12,600 rpm, 73 N m at 11,900 rpm, different exhaust cam timing); the 2013 Daytona 675 has a different engine (76 x 49.6 mm, 13.1:1). Neither is modelled.",
+      "unit": null,
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "Triumph 'Service Manual - Daytona 675, Street Triple and Street Triple R', Full Specification pages 1.26 to 1.33, footnotes '1 For Daytona 675 up to VIN 381274. 2 For Daytona 675 from VIN 381275.' That the VIN break is the 2009 model change is my inference from Wikipedia (https://en.wikipedia.org/wiki/Triumph_Daytona_675): 'The 2009 model ... the ECU was remapped to increase the rev limit and produce a power increase of 3 hp'. The 2013 engine: Wikipedia spec table ('76.0 mm x 49.6 mm', '13.1:1'). Why this variant: the service manual gives its power, torque and full cam timing, and the 2006 launch press (Cycle World, Visordown) gives the same figures."
+    },
+    "cylinders": {
+      "value": 3,
+      "unit": "count",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Engine Configuration ... 3 Cylinder 12 valve DOHC'; 'Arrangement ... Transverse in-line'."
+    },
+    "layout": {
+      "value": "inline",
+      "unit": null,
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Transverse in-line'. 'Cylinder Numbering ... Left to Right (no.3 adjacent to camchain)', 'Cylinder Sequence ... Number 1 at left'."
+    },
+    "bore_mm": {
+      "value": 74.0,
+      "unit": "mm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Bore x Stroke ... 74x52.3 mm'. Cycle World, January 2006 (https://issues.cycleworld.com/article/2006/1/1/three-spirit): 'Bore and stroke are a not-too-extreme 74 x 52.3mm'. Visordown's spec table: Bore 74, Stroke 52.3 (https://www.visordown.com/reviews/motorbike/daytona-675-2006-2012-review). Wikipedia's spec table prints the 2006 and 2013 bore/stroke figures in an order that is easy to misread; some spec aggregators give 76 x 49.6 for the 2006-2012 bike, which is the 2013 engine."
+    },
+    "stroke_mm": {
+      "value": 52.3,
+      "unit": "mm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual"
+    },
+    "displacement_cc": {
+      "value": 674.8,
+      "unit": "cc",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Displacement ... 674.8 cc'. Bore and stroke give 674.8 cc (my calculation)."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. The service manual pages read give crankpin diameter (32.984-33.000 mm) and big-end bore (36.000 mm) but no centre distance; no aftermarket rod listing with a length was found."
+    },
+    "compression_ratio": {
+      "value": 12.65,
+      "unit": ":1",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Compression Ratio ... 12.65:1'. Visordown: '12.65:1'. Cycle World rounds it: 'a high, 12.7:1 compression ratio'."
+    },
+    "firing_order": {
+      "value": "1-2-3",
+      "unit": null,
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Firing Order ... 1-2-3', cylinder 1 at the left, number 3 next to the cam chain. Single bank."
+    },
+    "crank": {
+      "value": "Three-throw crankshaft with pins 120 degrees apart; one gear-driven balancer shaft",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Big-bang_firing_order",
+      "note": "Wikipedia's firing-order table lists the 'four stroke even firing I3, 120 deg, 240-240-240' and names 'Triumph Street Triple & Speed Triple' as examples. The Street Triple uses this engine (the service manual covers both, with the same 74 x 52.3 mm, 12.65:1, 'Firing Order 1-2-3'); applying it to the Daytona is my inference. The balancer shaft and its crank-driven gear: service manual section 6, 'Balancer'. The balancer moves no gas and is not modelled."
+    },
+    "firing_intervals_deg": {
+      "value": [240, 240, 240],
+      "unit": "crank deg",
+      "source": "https://en.wikipedia.org/wiki/Big-bang_firing_order",
+      "note": "'240-240-240' for the 120-degree four-stroke triple."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'3 Cylinder 12 valve DOHC'; bucket tappets with shims (valve bucket diameters and a shim-selection procedure are given)."
+    },
+    "intake_valve_dia_mm": {
+      "value": 30.5,
+      "unit": "mm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Valve Head Diameter ... In ... 30.50 mm'."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 25.5,
+      "unit": "mm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Ex ... 25.50 mm'."
+    },
+    "intake_lift_mm": {
+      "value": 9.25,
+      "unit": "mm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Valve Lift ... In ... 9.25 mm' (Daytona 675 column; the Street Triple's is 8.00 mm). No VIN footnote on this line."
+    },
+    "exhaust_lift_mm": {
+      "value": 8.5,
+      "unit": "mm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Ex ... 8.50 mm' (Street Triple 7.25 mm)."
+    },
+    "ivo_btdc": {
+      "value": 27.49,
+      "unit": "deg",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Cam Timing ... Inlet ... Open 27.49° BTDC @ 1.0 mm lift' (the text layer reads '2749°'; the printed duration 258.98 = 27.49 + 180 + 51.49 confirms 27.49). Daytona 675 column; no VIN footnote on the inlet events."
+    },
+    "ivc_abdc": {
+      "value": 51.49,
+      "unit": "deg",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Close 51.49° ABDC @ 1.0 mm lift'. 'Duration ... 258.98°'."
+    },
+    "evo_bbdc": {
+      "value": 43.09,
+      "unit": "deg",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Exhaust ... Open 43.09° BBDC @ 1.0 mm lift' with footnote 1 (up to VIN 381274); from VIN 381275: 'Open 43.54 BBDC'."
+    },
+    "evc_atdc": {
+      "value": 23.09,
+      "unit": "deg",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Close 23.09° ATDC @ 1.0 mm lift' (footnote 1); from VIN 381275 'Close 23.54 ATDC'. 'Duration ... 246.1°' (footnote 1), '247.08°' (footnote 2). Overlap at 1 mm lift: 50.6 degrees."
+    },
+    "intake_duration_deg": {
+      "value": 258.98,
+      "unit": "deg",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "Printed, at 1 mm lift."
+    },
+    "exhaust_duration_deg": {
+      "value": 246.18,
+      "unit": "deg",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "Printed as '246.1°'; 43.09 + 180 + 23.09 = 246.18 (my sum)."
+    },
+    "redline_rpm": {
+      "value": 14000,
+      "unit": "rpm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Electronic Rev Limiter ... 14,000 (rpm)' for the Daytona 675 (13,000 for the Street Triple); no VIN footnote. Period sources for the 2006 bike agree: Cycle World, 'the 675 revs \"only\" to 14,000 rpm'; Visordown, 'rev limiter, which kicks in just over 14,000rpm'. Wikipedia says the 2009 remap raised the rev limit; the manual pages read do not give a separate figure for it."
+    },
+    "idle_rpm": {
+      "value": 1200,
+      "unit": "rpm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Fuel Injection System ... Idle Speed ... 1200 RPM'."
+    },
+    "peak_power_kw": {
+      "value": 91.9,
+      "unit": "kW",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Maximum Power ... 125 PS (123 bhp) at 12,500 rpm' (footnote 1, up to VIN 381274); 125 PS = 91.9 kW (my conversion). Crank power: Cycle World calls it '123 crank horsepower'. Whether it was measured with ram-air pressure is not stated. A rear-wheel figure from a magazine test of a 2008 bike, '104.4 hp (77.9 kW) @ 12,100 rpm' (Wikipedia), is not used."
+    },
+    "peak_power_rpm": {
+      "value": 12500,
+      "unit": "rpm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual"
+    },
+    "peak_torque_nm": {
+      "value": 72,
+      "unit": "Nm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "'Maximum Torque ... 72 Nm (53.3 lbf ft) at 11,750 rpm' (footnote 1). Visordown: 53 ft-lb at 11,750 rpm. Cycle World quotes Triumph's product manager: 'the engine is said to make 44 foot-pounds of torque at 4000 rpm' (60 N m, my conversion), a second point on the curve."
+    },
+    "peak_torque_rpm": {
+      "value": 11750,
+      "unit": "rpm",
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual"
+    },
+    "intake_type": {
+      "value": "individual throttle bodies (one per cylinder) fed from an airbox with a trumpet on each throttle body; ram-air intake; twin injectors per cylinder; cable throttle",
+      "unit": null,
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "Service manual: 'Airbox trumpet to throttle body' (torque table), a throttle-body balancing procedure, 'Injector Type ... Twin jet', 'Throttle ... Cable/twist grip'. Ram air: Wikipedia, 'Multipoint sequential electronic fuel injection with twin injectors, forced air induction and SAI'. Throttle bore not found."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found (trumpet, throttle body and port lengths)."
+    },
+    "header_type": {
+      "value": "3-into-1: three header pipes joined in one header assembly with a motor-driven exhaust butterfly valve, catalyst and oxygen sensor in the down pipe, an intermediate pipe, and one silencer under the seat",
+      "unit": null,
+      "source": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "note": "Service manual: 'Header pipes', 'Exhaust clamp - header to intermediate pipe', 'Exhaust clamp - silencer to intermediate pipe (Daytona 675)', 'Catalysts ... 1, in down pipe', 'Oxygen sensor ... Heated, in down pipe', 'Exhaust Butterfly Valve (EXBV) ... Daytona 675 only', 'check that the exhaust valve in the header pipes is free to rotate'. Under-seat silencer: Wikipedia, 2013 section, 'a side-mounted exhaust instead of the underseat setup from previous models'. The butterfly's control schedule was not found."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "years": {
+      "value": "Daytona 675 sold 2006 to 2012 with this engine (this variant: up to VIN 381274, the 2006 to 2008 model years); a new 675 engine from 2013",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Triumph_Daytona_675",
+      "note": "Wikipedia: 2009 model with 'over 50 technical improvements', ECU remapped, '3 hp' more; 2011 675R with no engine changes; 2013 new engine with 'a bigger bore and shorter stroke'."
+    }
+  },
+  "missing": [
+    "connecting rod length",
+    "throttle body bore, trumpet and port lengths, airbox volume, ram-air pressure gain",
+    "exhaust header primary lengths and diameters, collector and silencer dimensions",
+    "exhaust butterfly valve schedule",
+    "flywheel or rotating inertia",
+    "a published full-throttle torque curve beyond the peak and Triumph's 44 lb-ft at 4000 rpm",
+    "a Triumph document stating the 120-degree crank (Wikipedia's table names the Street Triple, which shares this engine)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.scribd.com/document/515724231/Triumph-675-Service-Manual",
+      "what": "Triumph Motorcycles 'Service Manual - Daytona 675, Street Triple and Street Triple R' (an uploaded copy marked as downloaded from a manuals search engine), Full Specification pages 1.26-1.33 and sections 5, 6 and 10: bore, stroke, displacement, compression, cylinder numbering, firing order, power and torque by VIN range, valve head diameters, valve lift, cam timing at 1 mm lift, rev limiter, idle speed, throttle bodies, exhaust layout and butterfly valve, balancer shaft. Manufacturer document; read directly through the page's text layer."
+    },
+    {
+      "url": "https://issues.cycleworld.com/article/2006/1/1/three-spirit",
+      "what": "Cycle World, January 2006, 'Three Spirit' (Daytona 675 launch): 74 x 52.3 mm, 12.7:1, revs to 14,000 rpm, 123 crank horsepower, 53 lb-ft, 44 lb-ft at 4000 rpm. Period magazine; read directly."
+    },
+    {
+      "url": "https://www.visordown.com/reviews/motorbike/daytona-675-2006-2012-review",
+      "what": "Visordown review of the 2006-2012 Daytona 675 with spec table (74 x 52.3 mm, 12.65:1, 124 bhp at 12,500 rpm, 53 ft-lb at 11,750 rpm) and 'rev limiter, which kicks in just over 14,000rpm'. Read directly."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Big-bang_firing_order",
+      "what": "Wikipedia, firing-order table: four-stroke even-firing I3, 120-degree crank, 240-240-240, examples include the Triumph Street Triple and Speed Triple."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Triumph_Daytona_675",
+      "what": "Wikipedia, Triumph Daytona 675: model history (2009 remap and rev-limit increase, 2013 new engine), ram-air and twin-injector intake, under-seat exhaust before 2013."
+    }
+  ],
+  "vehicle": {
+    "name": "Triumph Daytona 675, 2006 (first model year, VIN up to 381274)",
+    "chosen_because": "The engine definition is the 2006-2008 Daytona 675 engine (up to VIN 381274); the 2006 Daytona 675 is the bike.",
+    "fields": {
+      "curb_kg": {
+        "value": 190,
+        "unit": "kg",
+        "source": "https://www.motorradonline.de/supersportler/top-test-triumph-daytona-675-die-rache-kommt-spaet-aber-gewaltig/",
+        "quote": "Maße und Gewichte ... Gewicht vollgetankt 190 kg ... Reifen 120/70 ZR 17; 180/55 ZR 17",
+        "note": "MOTORRAD Top-Test, 15.02.2006 (weight with a full tank, MOTORRAD's measurement). Triumph's handbook gives 'Dry Weight 363.7 lb (165 kg)', no wet weight."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://www.manualslib.com/manual/538498/Triumph-Daytona-675.html?page=124",
+        "quote": "6 Speed, Constant Mesh"
+      },
+      "gears": {
+        "value": [
+          2.6154,
+          1.8571,
+          1.5652,
+          1.35,
+          1.2381,
+          1.1364
+        ],
+        "source": "https://www.manualslib.com/manual/538498/Triumph-Daytona-675.html?page=124",
+        "quote": "1st 2.615:1 (13/34), 2nd 1.857:1 (21/39), 3rd 1.565:1 (23/36), 4th 1.350:1 (20/27), 5th 1.238:1 (21/26), 6th 1.136:1 (22/25)",
+        "note": "Triumph Daytona 675 / Street Triple owner's handbook, US edition, on ManualsLib; its supplement is dated 08/08, so this is the 2007-08 handbook, not a 2006 print. Read through a helper's text-extraction tool; ManualsLib refuses direct downloads. The Daytona 675 service manual (https://www.manualslib.com/manual/801932/Triumph-Daytona-675.html?page=37) gives 1st '2.615 (34/13)' 'For Daytona 675 up to VIN 381274', and a different 1st (2.313, 37/16) from VIN 381275 (the 2009 bike). Every ratio matches its tooth count."
+      },
+      "final_drive": {
+        "value": 5.428,
+        "source": "https://www.manualslib.com/manual/538498/Triumph-Daytona-675.html?page=124",
+        "quote": "Primary drive 1.848:1 (46/85); Final drive 2.937:1 (16/47)",
+        "note": "My calculation: (85/46) x (47/16). The service manual (https://www.manualslib.com/manual/801932/Triumph-Daytona-675.html?page=37) also gives final drive '2.937 (16/47)'."
+      },
+      "tyre": {
+        "value": "180/55 ZR17",
+        "source": "https://www.motorradonline.de/supersportler/top-test-triumph-daytona-675-die-rache-kommt-spaet-aber-gewaltig/",
+        "quote": "Reifen 120/70 ZR 17; 180/55 ZR 17",
+        "note": "MOTORRAD's 2006 test; the handbook (?page=125) gives 'Rear Size 180/55 ZR 17'."
+      },
+      "wheel_radius_m": {
+        "value": 0.3149,
+        "unit": "m",
+        "source": "https://www.motorradonline.de/supersportler/top-test-triumph-daytona-675-die-rache-kommt-spaet-aber-gewaltig/",
+        "note": "My calculation, not published: unloaded geometric radius from the nominal size (rim diameter / 2 + section width x aspect ratio). The loaded rolling radius is a few percent smaller."
+      },
+      "top_speed_kmh": {
+        "value": 249,
+        "unit": "km/h",
+        "source": "https://magazine.cycleworld.com/article/2006/7/1/middleweightgreats",
+        "quote": "Top speed.......155 mph",
+        "note": "Cycle World 'Middleweight Greats', July 2006, Daytona 675 data panel (155 mph = 249 km/h). The panel does not say whether this was measured. MOTORRAD's 2006 Top-Test gives 'Höchstgeschwindigkeit* 260 km/h' with the asterisk unexplained on the page (https://www.motorradonline.de/supersportler/top-test-triumph-daytona-675-die-rache-kommt-spaet-aber-gewaltig/). No Triumph figure found."
+      }
+    },
+    "missing": [],
+    "sources": [
+      {
+        "url": "https://www.manualslib.com/manual/538498/Triumph-Daytona-675.html",
+        "what": "Triumph Daytona 675 / Street Triple owner's handbook, US edition (2007-08), on ManualsLib (pp.123-125): gearing, tyre, dry weight, capacities."
+      },
+      {
+        "url": "https://www.manualslib.com/manual/801932/Triumph-Daytona-675.html?page=37",
+        "what": "Triumph Daytona 675 service manual on ManualsLib, p37: VIN split for 1st gear; final drive."
+      },
+      {
+        "url": "https://www.motorradonline.de/supersportler/top-test-triumph-daytona-675-die-rache-kommt-spaet-aber-gewaltig/",
+        "what": "MOTORRAD Top-Test of the Daytona 675, 15.02.2006: measured full-tank weight, tyre sizes."
+      },
+      {
+        "url": "https://magazine.cycleworld.com/article/2006/7/1/middleweightgreats",
+        "what": "Cycle World comparison 'Middleweight Greats', July 2006: data panel top speed."
+      }
+    ]
+  }
+}

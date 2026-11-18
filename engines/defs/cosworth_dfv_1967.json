@@ -1,0 +1,150 @@
+{
+  "name": "cosworth_dfv_1967",
+  "label": "Ford Cosworth DFV 3.0 L V8 (1967, flat-plane, Formula One)",
+  "generic": false,
+  "family": "V8",
+  "based_on": "Ford Cosworth DFV 3.0 L Formula One V8, 1967 specification (Lotus 49)",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.0856742,
+  "stroke": 0.06477,
+  "rod": 0.1328,
+  "cr": 11.0,
+  "firing": [
+    0,
+    540,
+    180,
+    360,
+    450,
+    270,
+    630,
+    90
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.03353,
+  "ex_valve_d": 0.02896,
+  "cam": {
+    "at_lift": 0.0,
+    "ivo": 58,
+    "ivc": 82,
+    "evo": 82,
+    "evc": 58,
+    "in_lift": 0.0102,
+    "ex_lift": 0.01
+  },
+  "itb": true,
+  "runner_len": 0.27,
+  "runner_d": 0.046,
+  "primary_len": [
+    0.762,
+    0.762,
+    0.762,
+    0.762,
+    0.762,
+    0.762,
+    0.762,
+    0.762
+  ],
+  "primary_d": 0.043,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.4,
+  "secondary_d": 0.065,
+  "muffler_len": 0,
+  "tail_len": 0.362,
+  "tail_d": 0.065,
+  "redline": 9000,
+  "idle": 3000,
+  "friction_scale": 0.6,
+  "heat_q": 2700000,
+  "burn_scale": 0.7,
+  "published": {
+    "power_kw": 302,
+    "power_rpm": 9000,
+    "torque_nm": 332,
+    "torque_rpm": 8500
+  },
+  "sources": [
+    {
+      "url": "https://www.grandprixengines.co.uk/cosworthstory.pdf",
+      "what": "Derek S. Taulbut, 'The Unique Cosworth Story' (Grand Prix Engine Development 1906-2000), with Michael Costin's help, citing Blunsden's 'Power to Win' (1983), Cosworth's 1979 data sheet and period Autocar and Motor articles: 11:1 compression, rod/stroke 2.05, flat crank, 32-degree valve angle, intake and exhaust valves 1.32 and 1.14 in until 1978, valve timing 58/82 // 82/58 and inlet lift 10.2 mm (as the FVA), 1967 exhaust per bank 4-2-1 of 15, 15 and 30 in, electronic governor at 9000 rpm in 1967, 405 hp at 9000 rpm."
+    },
+    {
+      "url": "https://www.grandprixengines.co.uk/Note_75B.pdf",
+      "what": "Taulbut, Note 75B: bore 3.373 in (85.6742 mm) and stroke 2.550 in (64.77 mm) from Cosworth's own data sheets."
+    },
+    {
+      "url": "https://www.grandprixengines.co.uk/Note_85.pdf",
+      "what": "Taulbut, Note 85: 1967 torque 245 lb-ft at 8500 rpm (released 1983, from Blunsden), not the 270 lb-ft at 7000 rpm of Ford's April 1967 announcement; 405 hp at 9000 rpm quoted by Cosworth."
+    },
+    {
+      "url": "https://www.grandprixengines.co.uk/Note_83.pdf",
+      "what": "Taulbut, Note 83: DFV exhaust open duration 320 degrees, port length 2.8 in, 1967 4-2-1 lengths 15 + 15 in."
+    },
+    {
+      "url": "https://www.enginelabs.com/engine-tech/engine/firing-order-swaps-whats-best-for-your-engine/",
+      "what": "EngineLabs (Mike Magda, 2017): DFV firing order 1-8-3-6-4-5-2-7; Cosworth's later V8 numbered like a Ford V8."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cosworth_DFV",
+      "what": "Wikipedia, Cosworth DFV: 90-degree V8, 32 valves, 408 bhp at 9000 rpm, years."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/articles/racing-tech/cosworth-dfv-the-greatest-racing-engine-ever-made",
+      "what": "Motor Sport: flat-plane crank for even firing and a simple exhaust; 32-degree included valve angle."
+    }
+  ],
+  "notes": "Modelled variant: the DFV as raced in 1967 (Lotus 49, from the Dutch Grand Prix of June 1967), rated 405 hp (302 kW) at 9000 rpm, its governed maximum, with peak torque 245 lb-ft (332 N m) at 8500 rpm. Most numbers come from Derek Taulbut's account on grandprixengines.co.uk, which cites Blunsden's 'Power to Win' (1983) and Cosworth's 1979 data sheet; it is a careful secondary source, not a Cosworth document. Sourced: bore 85.6742 mm and stroke 64.77 mm (Cosworth data sheet via Taulbut), compression 11.0, four valves per cylinder, valves 1.32 in (33.53 mm) intake and 1.14 in (28.96 mm) exhaust (the sizes until 1978), valve timing 58/82 // 82/58 (IVO 58 BTDC, IVC 82 ABDC, EVO 82 BBDC, EVC 58 ATDC) and 10.2 mm inlet lift (Taulbut says the DFV's valve sizes, lifts and timing were all as the FVA's, and gives these for the FVA), firing order 1-8-3-6-4-5-2-7 (EngineLabs), flat-plane crank, Lucas port injection with one inlet trumpet per cylinder in the vee (entered as individual throttles), exhaust per bank 4-into-2-into-1 with 15 in primaries, 15 in secondaries and a 30 in tail pipe (60 in overall), governor at 9000 rpm (used as redline and limit), published power and torque. Rod length 132.8 mm is my calculation from Taulbut's rod/stroke ratio of 2.05. Cylinder numbering (1-4 on one bank, 5-8 on the other, front to rear) is inferred: it is the only numbering under which this firing order alternates banks with a flat crank. Which bank is which in the definition was set so that engsim pins shows each pair on a shared pin; which physical side is cylinder 1's is not sourced and does not change the sound. Approximation in the exhaust: the simulator joins each exhaust group in one collector, so the 4-2-1 cannot be represented. Each bank is modelled as 4-into-1 with 0.762 m (30 in) primaries, the 15 + 15 in to the final merge, then 0.762 m (30 in) of open pipe in two pieces (secondary 0.4 m and tail 0.362 m, same diameter). Cosworth itself ran a 4-into-1 per bank (30.5 in primaries, 27 in tail) on fast circuits from Monza 1968 (Taulbut), so the layout is the engine's own alternative, but the 1967 pairing at 15 in is lost. Estimated, not sourced: the lift at which the timing is quoted (taken as seat to seat, at_lift 0), exhaust lift 10.0 mm, inlet trumpet and port length and diameter (0.27 m, 46 mm; Cosworth changed trumpet lengths by circuit), primary diameter 43 mm, secondary and tail diameter 65 mm, idle 3000 rpm, flywheel inertia (derived default). Tuned: friction_scale 0.6 (the bottom of the allowed range), heat_q 2.7e6 (the top), burn_scale 0.7 (a faster burn than any other engine here; Taulbut and Motor Sport describe the DFV's compact pent-roof chamber and tumble), with the runner length and diameter, primary diameter, pipe diameters and exhaust lift. Even so the model sits 3% under the published torque. No sourced number was changed. The model's torque curve is flat near 240 N m to 7000 rpm and rises steeply from 7000 to 8500 rpm; Taulbut says the real engine came 'on cam' with a sharp rise at about 6500 rpm, and no 1967 curve was published to check against. Not modelled: the governor's 160 rpm ignition fade (the simulator's own limiter is used), the injection's mixture metering.",
+  "vehicle": {
+    "name": "Lotus 49 (1967)",
+    "kind": "race car",
+    "curb_kg": 500,
+    "gear_count": 5,
+    "gears": [
+      2.15,
+      1.62,
+      1.31,
+      1.12,
+      1.0
+    ],
+    "final_drive": 4.15,
+    "wheel_radius_m": 0.325,
+    "tyre": "Firestone, 15-inch rim (rear; size unconfirmed)",
+    "notes": "ZF 5DS12 five-speed transaxle. Weight is the published DRY weight (1,102 lb); no with-fluids figure was found. ESTIMATED, not published: the gear ratios, final drive and wheel radius. Team Lotus swapped complete gearboxes with different ratios per circuit and no set was published. The estimate is a Zandvoort-style set: the overall top ratio (5th x final drive = 4.15) puts the 165 mph (266 km/h) speed-trap reading from the 1967 Dutch Grand Prix at the 9,000 rpm governor on an assumed 0.325 m rear rolling radius. The intermediate gears are spaced so each upshift at 9,000 rpm lands between 6,800 and 8,000 rpm. Only the overall ratios (gear x final drive) mean anything; the split between gearbox and final drive is arbitrary. Top speed omitted (the trap reading is not a maximum).",
+    "driven": "rear"
+  }
+}

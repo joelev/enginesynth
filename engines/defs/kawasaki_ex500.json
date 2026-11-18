@@ -1,0 +1,119 @@
+{
+  "name": "kawasaki_ex500",
+  "label": "Kawasaki EX500 / Ninja 500 498 cc 180° parallel twin",
+  "based_on": "Kawasaki EX500 (Ninja 500R / GPZ500S) 498 cc parallel twin, 1987-2009",
+  "family": "twin",
+  "layout": "inline",
+  "bore": 0.074,
+  "stroke": 0.058,
+  "rod": 0.11,
+  "cr": 10.8,
+  "firing": [
+    0.0,
+    180.0
+  ],
+  "in_valve_d": 0.029,
+  "ex_valve_d": 0.025,
+  "cam": {
+    "at_lift": 0.0,
+    "ivo": 45.0,
+    "ivc": 65.0,
+    "evo": 70.0,
+    "evc": 40.0,
+    "in_lift": 0.0087,
+    "ex_lift": 0.0068
+  },
+  "itb": true,
+  "runner_len": 0.26,
+  "runner_d": 0.036,
+  "primary_len": [
+    0.69,
+    0.69
+  ],
+  "primary_d": 0.032,
+  "groups": [
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.2,
+  "secondary_d": 0.035,
+  "muffler_len": 0.4,
+  "muffler_d": 0.09,
+  "tail_len": 0.1,
+  "tail_d": 0.028,
+  "inertia": 0.03,
+  "redline": 11000.0,
+  "idle": 1050.0,
+  "published": {
+    "power_kw": 44.1,
+    "power_rpm": 9800.0,
+    "torque_nm": 46.1,
+    "torque_rpm": 8500.0
+  },
+  "friction_scale": 0.6,
+  "heat_q": 2700000.0,
+  "burn_scale": 0.7,
+  "generic": false,
+  "sources": [
+    {
+      "url": "https://drive.google.com/open?id=0B28GkOK3QDM-c2ZURGgyMGYzVFE",
+      "what": "Scan of the Bucheli Verlag Reparaturanleitung Band 5136, 'Kawasaki GPZ 500 S ab Baujahr 1986' (German-language workshop manual, 120 pages, ISBN 3-7168-1839-9), linked from https://en.enduro.team/Kawasaki_GPZ500:_manuals as 'Service Manual - Kawasaki GPZ 500 (1986-1994)'. Not the Kawasaki factory manual but a reputable third-party workshop manual built on factory data. Pages read as images: 2-3 (Technische Daten), 48 (exhaust), 66 (crankshaft), 115-116 (Mass- und Einstelldaten). Covers the first-generation GPZ500S (EX500-A), German market (27 PS restricted power figure)."
+    },
+    {
+      "url": "https://cyclechaos.com/images/0/0e/EX500D12.PDF",
+      "what": "Kawasaki one-page model specification sheet for the 2005 EX500-D12 Ninja 500 (General Specifications, Tuning Specifications, Model Identification with VIN range), hosted on CycleChaos. Text PDF, read directly. Appears to be Kawasaki dealer data; contains the '188°' firing-interval misprint."
+    },
+    {
+      "url": "https://cyclechaos.com/images/f/f7/EX500D6F.PDF",
+      "what": "Same Kawasaki specification sheet for the 2006 EX500D6F; identical engine figures including '188°'."
+    },
+    {
+      "url": "https://cyclechaos.com/wiki/Kawasaki_EX500D",
+      "what": "CycleChaos wiki page for the Kawasaki EX500D: 180° parallel twin, counter-balanced, redline 11,000 rpm, 2-into-2 exhaust, 52 bhp @ 9500 rpm. Wiki, unreferenced."
+    },
+    {
+      "url": "https://en.enduro.team/Kawasaki_GPZ500",
+      "what": "Enduro.team wiki page for the Kawasaki GPZ500: 60.0 hp (44.1 kW) at 9800 rpm, 46.0 Nm at 8500 rpm. Wiki, unreferenced."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ninja_500R",
+      "what": "Wikipedia, Kawasaki Ninja 500R: infobox '180º parallel-twin', 74 x 58 mm, rear-wheel power and torque."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Straight-twin_engine",
+      "what": "Wikipedia, Straight-twin engine: general statement that a 180-degree twin fires 180 degrees apart followed by a 540-degree gap."
+    },
+    {
+      "url": "https://www.bikechatforums.com/viewtopic.php?p=1236022",
+      "what": "Bike Chat Forums thread in which a poster quotes his 'Kawasaki manual for the early GPZ500' valve timing (45/65/290, 70/40/290), matching the Bucheli manual. Forum; corroboration only."
+    },
+    {
+      "url": "https://www.webcamshafts.com/pages_vehicles/motorcycle/kawasaki_install_data/tc_002918_000890.html",
+      "what": "Web Cam aftermarket GPZ 500 cam timing card (performance grind 245: 0.381 in lift, 246° at 0.050 in). Not stock; cited only for scale against the stock timing figures."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, parallel twin with a 180-degree crank (wiki pages), firing order 1-2 (workshop manual), four valves per cylinder, valve timing 45/65/70/40 (first-generation engine; measuring lift not stated), idle 1050 rpm, redline 11,000 rpm (wiki), one carburettor per cylinder, one header and silencer per cylinder, published torque (Kawasaki sheet) and power (wiki page, weak). The 180/540 firing intervals follow from the sourced crank and firing order; they are not quoted for this engine. Estimated, not sourced: rod length (110 mm); valve head diameters (29 and 25 mm; only the seat diameters of 28.4 and 24.1 mm are sourced); valve lift (8.7 mm intake, 6.8 mm exhaust; only lobe heights are sourced and the valves are rocker-operated); that the valve timing is seat-to-seat; intake length (0.26 m) and diameter (36 mm; the carburettors are Keihin CVK34); header length (0.69 m) and diameter, silencer and tailpipe dimensions; flywheel inertia; friction_scale 0.6, heat_q 2.7e6 and burn_scale 0.7, the first two at the end of their allowed range. Not modelled: the connecting pipe between the two headers (the format has no cross-connection short of a full merge), so the two exhausts are fully separate.",
+  "vehicle": {
+    "name": "Kawasaki Ninja 500R (EX500-D, 2005)",
+    "kind": "motorcycle",
+    "curb_kg": 197,
+    "gear_count": 6,
+    "gears": [
+      2.5714,
+      1.7778,
+      1.381,
+      1.125,
+      0.9615,
+      0.8519
+    ],
+    "final_drive": 6.8674,
+    "wheel_radius_m": 0.3069,
+    "tyre": "130/70-17",
+    "notes": "Kawasaki's spec sheet prints the primary as 2.65 (27/23 x 63/28) and the final as 2.63 (39/15), but the tooth counts give 2.641 and 2.600; final_drive uses the tooth counts (6.867; the printed decimals give 6.970, 1.5% shorter). No top speed is published by Kawasaki; the magazine figures found are second-hand. wheel_radius_m is calculated from the tyre size."
+  }
+}

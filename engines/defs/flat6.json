@@ -1,0 +1,109 @@
+{
+  "name": "flat6",
+  "label": "3.4 L flat-six",
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.096,
+  "stroke": 0.078,
+  "rod": 0.142,
+  "cr": 11.1,
+  "firing": [
+    0.0,
+    240.0,
+    480.0,
+    360.0,
+    600.0,
+    120.0
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    2
+  ],
+  "ivo": 20.0,
+  "ivc": 60.0,
+  "evo": 56.0,
+  "evc": 16.0,
+  "in_valve_d": 0.03648,
+  "ex_valve_d": 0.03072,
+  "in_lift": 0.0116736,
+  "ex_lift": 0.0101376,
+  "itb": false,
+  "runner_len": 0.3,
+  "runner_d": 0.0432,
+  "plenum_vol": 0.004064989672525887,
+  "throttle_d": 0.07362055575744125,
+  "snorkel_len": 0.45,
+  "snorkel_d": 0.07730158354531332,
+  "airbox_vol": 0.006064989672525887,
+  "primary_len": [
+    0.42,
+    0.42,
+    0.42,
+    0.42,
+    0.42,
+    0.42
+  ],
+  "primary_d": 0.04128,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "collector_vol": 0.0004887491393771573,
+  "secondary_len": 0.55,
+  "secondary_d": 0.055,
+  "merge": "x",
+  "mid_len": 0.35,
+  "mid_d": 0.055,
+  "muffler_len": 0.4,
+  "muffler_d": 0.15,
+  "muffler_fric": 0.3,
+  "tail_len": 0.3,
+  "tail_d": 0.055,
+  "tail_flare_d": 0.0,
+  "inertia": 0.1816247418131472,
+  "redline": 7400.0,
+  "idle": 760.0,
+  "friction_scale": 1.0,
+  "heat_q": 2500000.0,
+  "kind": "piston",
+  "ecc": 0.0,
+  "rotor_r": 0.0,
+  "rotor_w": 0.0,
+  "rotor_phase": [],
+  "port_in": [
+    0.0,
+    0.0
+  ],
+  "port_ex": [
+    0.0,
+    0.0
+  ],
+  "port_in_area": 0.0,
+  "port_ex_area": 0.0,
+  "burn_scale": 1.0,
+  "generic": true,
+  "family": "flat",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for this layout, not measurements of a real one."
+}

@@ -1,0 +1,262 @@
+{
+  "id": "kawasaki_h2_750",
+  "name": "Kawasaki H2 Mach IV 750 two-stroke triple (1972 H2, 74 hp)",
+  "induction": "naturally aspirated",
+  "summary": "Air-cooled piston-port two-stroke triple with crankpins at 120 degrees, so three evenly spaced firings per turn through three separate pipes: a smoother, higher-pitched howl than a two-stroke twin, with heavy intake honk from three 30 mm carburettors.",
+  "fields": {
+    "cylinders": {
+      "value": 3,
+      "unit": "cylinders",
+      "source": "https://en.wikipedia.org/wiki/Kawasaki_H2_Mach_IV"
+    },
+    "layout": {
+      "value": "inline",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Kawasaki_H2_Mach_IV",
+      "note": "Transverse air-cooled three-cylinder two-stroke."
+    },
+    "bore_mm": {
+      "value": 71.0,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Kawasaki_H2_Mach_IV",
+      "note": "Same on mcnews.com.au."
+    },
+    "stroke_mm": {
+      "value": 63.0,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Kawasaki_H2_Mach_IV"
+    },
+    "displacement_cc": {
+      "value": 748,
+      "unit": "cc",
+      "source": "https://en.wikipedia.org/wiki/Kawasaki_H2_Mach_IV"
+    },
+    "compression_ratio": {
+      "value": 7.5,
+      "unit": ":1 (corrected)",
+      "source": "https://magazine.cycleworld.com/article/1972/2/1/kawasakis-750-cc-h2-r-road-racer",
+      "note": "Cycle World 1972: the H2-R 'runs on the standard 7.5:1 (corrected) compression ratio' with standard, unmodified heads; 'corrected' means measured from exhaust-port closing. Other pages disagree: Wikipedia 7.3:1, mcnews.com.au 7:1 in text and 7.1:1 in its table, none stating the convention."
+    },
+    "crank": {
+      "value": "three crankpins at 120-degree intervals",
+      "unit": null,
+      "source": "https://issues.cycleworld.com/article/1975/3/1/kawasaki-mach-iv-h2-750",
+      "note": "Cycle World, March 1975: 'a two-stroke Three, with the crankpins set at 120-degree intervals.'"
+    },
+    "firing_intervals_deg": {
+      "value": 120,
+      "unit": "deg crank",
+      "source": "https://issues.cycleworld.com/article/1975/3/1/kawasaki-mach-iv-h2-750",
+      "note": "Follows from the 120-degree crankpins on a two-stroke (my inference); even firing. The order in which the three cylinders fire was not found."
+    },
+    "induction_type": {
+      "value": "piston port",
+      "unit": null,
+      "source": "https://mcnews.com.au/?p=413195",
+      "note": "'the design of the piston-port triple'. Cyclechaos lists 'Piston Valve'."
+    },
+    "exhaust_open_atdc": {
+      "value": 93,
+      "unit": "deg ATDC",
+      "source": "https://magazine.cycleworld.com/article/1972/2/1/kawasakis-750-cc-h2-r-road-racer",
+      "note": "Cycle World, February 1972, on the H2-R racer: 'Both inlet and transfer port timing have been left standard at 75 and 58 degrees respectively. The exhaust port has been raised by only 4mm, from 93 to 89 degrees.' The article does not state the reference points. Reading 93 as exhaust opening in degrees after TDC is my interpretation; it gives a 174-degree exhaust duration, against 178 degrees quoted as stock on a Kawasaki triples forum."
+    },
+    "transfer_open_bbdc": {
+      "value": 58,
+      "unit": "deg BBDC",
+      "source": "https://magazine.cycleworld.com/article/1972/2/1/kawasakis-750-cc-h2-r-road-racer",
+      "note": "Cycle World, February 1972, on the H2-R racer: 'Both inlet and transfer port timing have been left standard at 75 and 58 degrees respectively. The exhaust port has been raised by only 4mm, from 93 to 89 degrees.' The article does not state the reference points. Reading 58 as transfer opening in degrees before BDC is my interpretation; it gives a 116-degree transfer duration, against 118 on the forum."
+    },
+    "intake_open_btdc": {
+      "value": 75,
+      "unit": "deg BTDC",
+      "source": "https://magazine.cycleworld.com/article/1972/2/1/kawasakis-750-cc-h2-r-road-racer",
+      "note": "Cycle World, February 1972, on the H2-R racer: 'Both inlet and transfer port timing have been left standard at 75 and 58 degrees respectively. The exhaust port has been raised by only 4mm, from 93 to 89 degrees.' The article does not state the reference points. Reading 75 as inlet opening in degrees before TDC is my interpretation; for a piston port it gives a 150-degree intake duration, which matches the forum's stock figure."
+    },
+    "exhaust_duration_deg": {
+      "value": 178,
+      "unit": "deg crank",
+      "source": "http://kawatriple.com/performance/discussion/h2_porting.html",
+      "note": "Forum post on kawatriple.com (a porter's advice: 'around 187 EX (stock 178), 126 Transfer (stock 118) ... Intake 145 (stock 150)'). Forum only; model year not stated. Wikipedia notes the 1973 H2A had changed port timing, so early and late cylinders differ."
+    },
+    "transfer_duration_deg": {
+      "value": 118,
+      "unit": "deg crank",
+      "source": "http://kawatriple.com/performance/discussion/h2_porting.html",
+      "note": "Forum; see exhaust_duration note."
+    },
+    "intake_duration_deg": {
+      "value": 150,
+      "unit": "deg crank",
+      "source": "http://kawatriple.com/performance/discussion/h2_porting.html",
+      "note": "Forum; see exhaust_duration note. Agrees with 75 deg either side of TDC from Cycle World."
+    },
+    "transfer_ports": {
+      "value": "main pair of transfer ports plus two smaller auxiliary transfers per cylinder",
+      "unit": null,
+      "source": "https://issues.cycleworld.com/article/1975/3/1/kawasaki-mach-iv-h2-750"
+    },
+    "carburettor": {
+      "value": "3 x Mikuni VM30SC, 30 mm slide type",
+      "unit": null,
+      "source": "https://mcnews.com.au/?p=413195",
+      "note": "Cycle World 1975: 'three, 30mm slide-type Mikunis'."
+    },
+    "throttle_dia_mm": {
+      "value": 30,
+      "unit": "mm",
+      "source": "https://mcnews.com.au/?p=413195",
+      "note": "Carburettor bore, one per cylinder."
+    },
+    "ignition": {
+      "value": "capacitor discharge ignition, one trigger, amplifier and coil per cylinder",
+      "unit": null,
+      "source": "https://mcnews.com.au/?p=413195"
+    },
+    "peak_power_kw": {
+      "value": 55,
+      "unit": "kW",
+      "source": "https://mcnews.com.au/?p=413195",
+      "note": "'74 hp (55 kW) @ 6800 rpm', claimed, 1972 H2. Wikipedia agrees (74 hp at 6800, claimed); the 1974-75 H2B/H2C were 71 hp at 6800. Cyclechaos lists 71 HP at 6,800 against the 1972 model."
+    },
+    "peak_power_rpm": {
+      "value": 6800,
+      "unit": "rpm",
+      "source": "https://mcnews.com.au/?p=413195"
+    },
+    "peak_torque_nm": {
+      "value": 77.4,
+      "unit": "N·m",
+      "source": "https://mcnews.com.au/?p=413195",
+      "note": "Claimed; same on Wikipedia."
+    },
+    "peak_torque_rpm": {
+      "value": 6500,
+      "unit": "rpm",
+      "source": "https://mcnews.com.au/?p=413195"
+    },
+    "exhaust_notes": {
+      "value": "Three separate pipes, one per cylinder; 1973-on mufflers were more restrictive to cut noise.",
+      "unit": null,
+      "source": "https://issues.cycleworld.com/article/1975/3/1/kawasaki-mach-iv-h2-750",
+      "note": "Cycle World 1975: 'Lower noise was achieved in '73 by fitting more restrictive mufflers and by redesigning the air intake system.' No dimensions found."
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found. The H2-R racer's recommended power band was 6000-9000 rpm (Cycle World 1972); that is the race engine."
+    }
+  },
+  "missing": [
+    "factory port timing table with stated reference points (the Kawasaki shop manual 89997-711 / 99997-711 was not found online)",
+    "port heights and widths",
+    "firing order of the three cylinders",
+    "rod_length_mm",
+    "redline_rpm",
+    "idle_rpm",
+    "expansion chamber / muffler dimensions",
+    "port timing differences between the 1972 H2 and the 1973-75 H2A/B/C"
+  ],
+  "sources": [
+    {
+      "url": "https://magazine.cycleworld.com/article/1972/2/1/kawasakis-750-cc-h2-r-road-racer",
+      "what": "Cycle World, February 1972, 'Kawasaki's 750-cc H2-R Road Racer': quotes the standard H2 inlet, transfer and exhaust timing and corrected compression ratio while describing the racer."
+    },
+    {
+      "url": "https://issues.cycleworld.com/article/1975/3/1/kawasaki-mach-iv-h2-750",
+      "what": "Cycle World, March 1975 road test, 'Kawasaki Mach IV H2 750': crank layout, transfer ports, carburettors, muffler changes."
+    },
+    {
+      "url": "https://mcnews.com.au/?p=413195",
+      "what": "MCNews.com.au feature with a 1972 H2 specification table: bore, stroke, carburettors, power, torque."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_H2_Mach_IV",
+      "what": "Wikipedia, Kawasaki H2 Mach IV: infobox figures and model-year changes."
+    },
+    {
+      "url": "http://kawatriple.com/performance/discussion/h2_porting.html",
+      "what": "kawatriple.com archived forum discussion on H2 porting: the only page found giving stock port durations in degrees. Forum."
+    },
+    {
+      "url": "https://cyclechaos.com/wiki/H2_SERIES",
+      "what": "CycleChaos H2 model history: shop manual numbers, 'piston valve' induction."
+    }
+  ],
+  "vehicle": {
+    "name": "Kawasaki H2 750 Mach IV, 1972 (first model year)",
+    "chosen_because": "The engine definition is the 1972 H2 Mach IV 750 two-stroke triple (74 hp).",
+    "fields": {
+      "curb_kg": {
+        "value": 217,
+        "unit": "kg",
+        "source": "https://773972854255-cycleworld.s3.us-east-1.amazonaws.com/cycleworld19720301thumbnails/Spreads/0x600/19.jpg",
+        "quote": "Curb weight (w/half-tank fuel), lb. ... 465; Fuel capacity, U.S. gal. ... 4.5; Oil capacity, pt. ... 4.2",
+        "note": "Cycle World road test, March 1972, data panel (magazine p37, page image; article text at https://magazine.cycleworld.com/article/1972/3/1/kawasaki-mach-iv). Estimate, my calculation: 465 lb = 210.9 kg, plus the other half tank, 2.25 US gal x 3.785 L x 0.74 kg/L = 6.3 kg, gives about 217 kg. The 4.2 pt oil is listed under 'oil injection', so presumably the two-stroke oil tank (inference); it is already in the curb figure."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://773972854255-cycleworld.s3.us-east-1.amazonaws.com/cycleworld19720301thumbnails/Spreads/0x600/19.jpg",
+        "quote": "Gear ratios, overall:1 5th 4.76 4th 5.42 3rd 6.53 2nd 8.64 1st 12.75"
+      },
+      "gears": {
+        "value": [
+          2.1667,
+          1.4737,
+          1.1111,
+          0.92,
+          0.8095
+        ],
+        "source": "https://motorbikespecs.net/index.php?flag=2&make=Kawasaki&model_id=5836476",
+        "quote": "1st: 2.17(26/12), 2nd: 1.47(28/19), 3rd: 1.11(20/18), 4th: 0.92(23/25), 5th: 0.81(17/21)",
+        "note": "Spec aggregator (MotorBikeSpecs), last resort: internal ratios were not found in any Kawasaki or period document (the 1972 transmission parts list https://www.kawasaki.com/en-us/ownercenter/downloaddiagrampdf/143321?modelcode=H2-750&modelyear=1972 gives no tooth counts). Checked against the period source, my calculation: with final_drive 5.875 these give overall 12.73, 8.66, 6.53, 5.41, 4.76 against Cycle World's measured 12.75, 8.64, 6.53, 5.42, 4.76 (1st to 5th)."
+      },
+      "final_drive": {
+        "value": 5.875,
+        "source": "https://www.kawasaki.com/en-us/ownercenter/downloaddiagrampdf/143321?modelcode=H2-750&modelyear=1972",
+        "quote": "ENGINE SPROCKET 15T (Ref # 44) 13144-030 [with 14T and 16T listed as options]",
+        "note": "Inference, my calculation: primary 60/32 = 1.875 x chain 47/15 = 3.133. Only the 15T front sprocket is from a Kawasaki document (1972 Mach IV parts list, p3). The 60/32 primary comes from a search-result snippet of a Kawasaki Triple owners' forum post ('H2 primary as 1.88 (60/32)'; the page refused automated access) and the 47T rear from the aggregator above (which gives a 14T front, conflicting with Kawasaki's 15T). The combination is kept because it reproduces Cycle World's published overall ratios; a 14T front would not."
+      },
+      "tyre": {
+        "value": "4.00-18",
+        "source": "https://773972854255-cycleworld.s3.us-east-1.amazonaws.com/cycleworld19720301thumbnails/Spreads/0x600/19.jpg",
+        "quote": "Tire, front ... 3.25-19 Tire, rear ... 4.00-18"
+      },
+      "wheel_radius_m": {
+        "value": 0.3302,
+        "unit": "m",
+        "source": "https://773972854255-cycleworld.s3.us-east-1.amazonaws.com/cycleworld19720301thumbnails/Spreads/0x600/19.jpg",
+        "note": "My calculation, not published: 18 in rim / 2 + 4.00 in section height (assumed equal to the section width for an inch-size bias tyre) = 0.330 m, unloaded. Cycle World's 'Mph/1000 rpm, top gear 15.9' with the 4.76 overall implies about 0.323 m in use."
+      },
+      "top_speed_kmh": {
+        "value": 193,
+        "unit": "km/h",
+        "source": "https://773972854255-cycleworld.s3.us-east-1.amazonaws.com/cycleworld19720301thumbnails/Spreads/0x600/19.jpg",
+        "quote": "Top speed (actual @ 7480 rpm), mph ... 119.72",
+        "note": "Measured by Cycle World, March 1972 (119.72 mph = 192.7 km/h). Kawasaki's 1972 brochure claims '126 mph' (https://www.cyclechaos.com/images/d/d8/Kaw_72_h2_broc.jpg)."
+      }
+    },
+    "missing": [
+      "Kawasaki's internal gear ratios, primary ratio and rear sprocket for the 1972 H2: not found in any maker document (parts lists give no tooth counts; the rear-hub parts list PDF came back empty)."
+    ],
+    "sources": [
+      {
+        "url": "https://773972854255-cycleworld.s3.us-east-1.amazonaws.com/cycleworld19720301thumbnails/Spreads/0x600/19.jpg",
+        "what": "Cycle World road test 'Kawasaki Mach IV', March 1972, data panel page image (magazine p37) on the magazine's own archive server: curb weight, tyres, overall ratios, measured top speed."
+      },
+      {
+        "url": "https://magazine.cycleworld.com/article/1972/3/1/kawasaki-mach-iv",
+        "what": "Same Cycle World road test, article text (no data panel)."
+      },
+      {
+        "url": "https://www.kawasaki.com/en-us/ownercenter/downloaddiagrampdf/143321?modelcode=H2-750&modelyear=1972",
+        "what": "Kawasaki 1972 H2-750 Mach IV parts list, transmission (Kawasaki owner center): stock 15T engine sprocket."
+      },
+      {
+        "url": "https://motorbikespecs.net/index.php?flag=2&make=Kawasaki&model_id=5836476",
+        "what": "MotorBikeSpecs, a spec aggregator: internal gear tooth counts and 47T rear sprocket. Last resort, checked against Cycle World's overall ratios."
+      }
+    ]
+  }
+}

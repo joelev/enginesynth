@@ -1,0 +1,256 @@
+{
+  "id": "nissan_vq35de",
+  "name": "Nissan VQ35DE (350Z, 2003-2005 base engine)",
+  "induction": "naturally aspirated",
+  "summary": "60-degree DOHC 24-valve V6, even-firing. No factory cam timing or cylinder-to-bank numbering was found on an openable page; the Nissan service manual (EM section) was blocked.",
+  "fields": {
+    "cylinders": {
+      "value": 6,
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine"
+    },
+    "bank_angle_deg": {
+      "value": 60,
+      "unit": "deg",
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine"
+    },
+    "bore_mm": {
+      "value": 95.5,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine"
+    },
+    "stroke_mm": {
+      "value": 81.4,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine"
+    },
+    "displacement_cc": {
+      "value": 3498,
+      "unit": "cc",
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine"
+    },
+    "rod_length_mm": {
+      "value": 144.2,
+      "unit": "mm",
+      "source": "https://engine-specs.net/?p=2852",
+      "note": "Page gives connecting rod center distance 144.15-144.25 mm; motorreviewer.com also says 144.2 mm. Both are third-party spec sites, not Nissan documents."
+    },
+    "compression_ratio": {
+      "value": 10.3,
+      "unit": ":1",
+      "source": "https://engine-specs.net/?p=2852",
+      "note": "Page lists 10.0:1, 10.3:1 or 10.6:1 depending on version without saying which car gets which. 10.3 is recorded as the middle/early-350Z figure; a search-result summary of a forum post claimed 10.0:1 is the true figure (not opened). Treat as uncertain +/-0.3."
+    },
+    "firing_order": {
+      "value": "1-2-3-4-5-6",
+      "unit": null,
+      "source": "https://engine-specs.net/?p=2852",
+      "note": "Numbering convention and which cylinders sit on which bank were NOT found on any opened page. (A 1-2-3-4-5-6 order on a V6 implies alternating banks, i.e. odd numbers on one bank and even on the other, but that is an inference, not a sourced fact.)"
+    },
+    "crank": {
+      "value": "60-degree V6; crank pin layout not documented on any opened page",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine",
+      "note": "Even 120-degree firing is the normal result for a 60-degree V6 with six offset throws, but no opened page states the VQ35DE pin arrangement. Inference only."
+    },
+    "firing_intervals_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not stated on any opened page. Expected even 120 (inference)."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine"
+    },
+    "intake_valve_dia_mm": {
+      "value": 37.15,
+      "unit": "mm",
+      "source": "https://engine-specs.net/?p=2852",
+      "note": "Page gives 37.0-37.3 mm for early versions (36.6-36.9 mm later versions); midpoint recorded."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 31.35,
+      "unit": "mm",
+      "source": "https://engine-specs.net/?p=2852",
+      "note": "Page gives 31.2-31.5 mm for early versions (30.2-30.5 mm later versions); midpoint recorded."
+    },
+    "intake_duration_deg": {
+      "value": 230,
+      "unit": "deg",
+      "source": "https://engine-specs.net/?p=2852",
+      "note": "Listed on the page as 'Intake valve timing (intake valve timing control OFF): 1: 230, 2: 238, 3: 240' for three engine versions. Lift at which it is measured is NOT stated. Same page says the Rev-up cam is 248 degrees. Third-party site."
+    },
+    "exhaust_duration_deg": {
+      "value": 232,
+      "unit": "deg",
+      "source": "https://engine-specs.net/?p=2852",
+      "note": "Listed as 'Exhaust valve timing: 1: 232, 2: 240, 3: 240'. Measuring lift NOT stated."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found on an opened page."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found on an opened page."
+    },
+    "variable_valve_timing": {
+      "value": "continuously variable intake cam phasing (CVTCS); exhaust fixed on this version",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine",
+      "note": "Rev-Up version (2005+) adds exhaust phasing."
+    },
+    "peak_power_kw": {
+      "value": 214,
+      "unit": "kW",
+      "source": "https://en.wikipedia.org/wiki/Nissan_350Z",
+      "note": "287 hp at 6,200 rpm in the 350Z specification table (US rating). kW converted by me. Japanese Type E listed on the same page as 213.99 kW at 6,200 rpm."
+    },
+    "peak_power_rpm": {
+      "value": 6200,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/Nissan_350Z"
+    },
+    "peak_torque_nm": {
+      "value": 371,
+      "unit": "Nm",
+      "source": "https://en.wikipedia.org/wiki/Nissan_350Z",
+      "note": "274 lb-ft at 4,800 rpm; Nm converted by me (engine-specs.net gives 371 Nm as the family maximum). Japanese Type E: 363 Nm at 4,800."
+    },
+    "peak_torque_rpm": {
+      "value": 4800,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/Nissan_350Z"
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Base-engine redline not found on an opened page. motorreviewer.com gives the Rev-up version's rev limit as 7000 rpm."
+    },
+    "intake_type": {
+      "value": "plenum (nylon intake manifold)",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Nissan_VQ_engine"
+    }
+  },
+  "missing": [
+    "cylinder numbering / bank assignment",
+    "crank pin layout (sourced)",
+    "firing_intervals_deg (sourced)",
+    "intake_lift_mm",
+    "exhaust_lift_mm",
+    "ivo_btdc / ivc_abdc / evo_bbdc / evc_atdc",
+    "lift at which the 230/232 degree durations are measured",
+    "redline_rpm (base engine)",
+    "idle_rpm",
+    "runner_length_mm",
+    "runner_dia_mm",
+    "throttle_dia_mm",
+    "header_type",
+    "primary_dia_mm",
+    "primary_length_mm",
+    "exhaust_pipe_dia_mm"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Nissan_VQ_engine",
+      "what": "Wikipedia, Nissan VQ engine. Bore, stroke, displacement, layout. Section is flagged as needing citations."
+    },
+    {
+      "url": "https://engine-specs.net/?p=2852",
+      "what": "engine-specs.net VQ35DE page. Third-party compilation that reads like service-manual data (tolerance ranges); source of rod length, valve diameters, firing order, durations."
+    },
+    {
+      "url": "https://www.motorreviewer.com/engine.php?engine_id=40",
+      "what": "motorreviewer.com VQ35DE page. Third-party; confirms rod length 144.2 mm and Rev-up 7000 rpm limit."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nissan_350Z",
+      "what": "Wikipedia, Nissan 350Z. Power and torque with rpm."
+    }
+  ],
+  "vehicle": {
+    "name": "Nissan 350Z base (Z33, US, 2003)",
+    "fields": {
+      "curb_kg": {
+        "value": 1446,
+        "unit": "kg",
+        "source": "https://350z-uk.com/topic/32082-specifications-for-newbies-20032006-models",
+        "note": "Forum transcription: 'Curb (pounds) MT 3,188 3,197 3,217 3,225 - 3,247' under Base / Enth / Perf / Track / Tour 5AT / Tour 6MT. carspecs.us Base manual (https://www.carspecs.us/cars/2003/nissan/350z/13216): 'Curb weight 3,188 lbs.' Converted by me (1446.0 kg). Standard not stated."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://www.carspecs.us/cars/2003/nissan/350z/13216",
+        "note": "'Transmission 6-speed manual'."
+      },
+      "gears": {
+        "value": [
+          3.794,
+          2.324,
+          1.624,
+          1.271,
+          1.0,
+          0.794
+        ],
+        "source": "https://350z-uk.com/topic/32082-specifications-for-newbies-20032006-models",
+        "note": "'Gear Ratio 1st ... Reverse M/T A/T 3.794 3.540 2.324 2.264 1.624 1.472 1.271 1.000 1.000 0.834 0.794 N/A 3.446 2.370' (manual first in each pair). carspecs.us Enthusiast manual (https://www.carspecs.us/cars/2003/nissan/350z/13214) rounds to 3.79 / 2.32 / 1.62 / 1.27 / 1.00 / 0.79."
+      },
+      "final_drive": {
+        "value": 3.538,
+        "source": "https://350z-uk.com/topic/32082-specifications-for-newbies-20032006-models",
+        "note": "'Final Drive Ratio 3.538 3.357' (manual / automatic). my350z (https://my350z.com/articles/2003-2009_nissan_350_z_spec_timeline_part_1/) gives 3.54 for the base."
+      },
+      "wheel_radius_m": {
+        "value": 0.3334,
+        "unit": "m",
+        "source": "https://350z-uk.com/topic/32082-specifications-for-newbies-20032006-models",
+        "note": "Calculated by me from the tyre size 235/50 R17 96W (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "235/50 R17 96W",
+        "source": "https://350z-uk.com/topic/32082-specifications-for-newbies-20032006-models",
+        "note": "'Bridgestone Summer tires - Front 225/50R17 94W, Rear 235/50R17 96W' marked standard on Base, Enthusiast and Touring 5AT. Nissan's 2004 US release (https://usa.nissannews.com/en-US/releases/2004-nissan-350z-coupe) gives the same 17-inch sizes for the 2004 car."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Nissan_350Z",
+        "note": "English Wikipedia, 'Nissan 350Z' (read 2026-11-17), infobox layout: Front mid-engine, rear-wheel-drive."
+      }
+    },
+    "missing": [
+      "a Nissan document for the 2003 base car's weight and ratios",
+      "top speed"
+    ],
+    "sources": [
+      {
+        "url": "https://350z-uk.com/topic/32082-specifications-for-newbies-20032006-models",
+        "what": "350z-uk.com forum post (2010) transcribing a US specification table for 2003-2006 350Z trims: weights, gear ratios, final drives, wheels and tyres. Appears to be Nissan's sheet; forum source."
+      },
+      {
+        "url": "https://www.carspecs.us/cars/2003/nissan/350z/13216",
+        "what": "carspecs.us, 2003 Nissan 350Z Base coup\u00e9, 6-speed manual: curb weight. Dealer-data aggregator."
+      },
+      {
+        "url": "https://www.carspecs.us/cars/2003/nissan/350z/13214",
+        "what": "carspecs.us, 2003 350Z Enthusiast manual: rounded gear ratios, 3.54 final drive, 225/50 and 235/50 R17 tyres. Aggregator cross-check."
+      },
+      {
+        "url": "https://usa.nissannews.com/en-US/releases/2004-nissan-350z-coupe",
+        "what": "Nissan US press kit for the 2004 350Z: 17-inch tyre sizes. Different model year; cross-check."
+      }
+    ]
+  }
+}

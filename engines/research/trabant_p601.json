@@ -1,0 +1,337 @@
+{
+  "id": "trabant_p601",
+  "name": "Trabant P 601 two-stroke twin, engine P 65 (594.5 cc, 26 DIN-PS), 1974-1985",
+  "induction": "naturally aspirated",
+  "summary": "Air-cooled, loop-scavenged two-stroke twin with a 180-degree crank, so two evenly spaced firings per turn, fed by one small carburettor through rotary disc valves and breathing out through one manifold and two silencers; a low-revving, mildly tuned car engine rather than a motorcycle one.",
+  "fields": {
+    "variant": {
+      "value": "Trabant P 601 with engine P 65 (P 66 with the Hycomat clutch), 26 DIN-PS, from 1974 (engine with needle-bearing small ends and 50:1 mixture) to March 1985 (compression raised to 7.8:1)",
+      "unit": null,
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "Factory repair manual 'Reparaturhandbuch Trabant 601', 12th edition, VEB Sachsenring Automobilwerke Zwickau, VEB Fachbuchverlag Leipzig, editorial close 15.11.1974 (reprint 2000, trabinet.de): engine 'Typ P 63/64 - 65/66'; mixture '33 1/3:1 (ab Motor-Nr. 65/66 50:1)'. German Wikipedia (https://de.wikipedia.org/wiki/Trabant_601) dates the P 65/66 to 1974 ('1974 ... der Motor P65 (bzw. P66 für Hycomat) mit nadelgelagerten Pleuelbuchsen ... von 1:33 auf 1:50') and gives 'Verdichtung 7,5 : 1; ab März 1985: 7,8 : 1'. The 1969-1974 P 63 is the same engine with 33:1 mixture. Chosen because the one factory document found with port timings is this manual, and its compression ratio, port timings and combustion-chamber volume all describe the same engine."
+    },
+    "cylinders": {
+      "value": 2,
+      "unit": "count",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Zylinder Anzahl 2'."
+    },
+    "layout": {
+      "value": "inline",
+      "unit": null,
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Anordnung stehend, in Reihe' (upright, in line). Mounted transversely at the front: 1987 owner's manual, 'quer zur Fahrzeuglängsachse' (https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf)."
+    },
+    "bore_mm": {
+      "value": 72.0,
+      "unit": "mm",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Zylinderbohrung 72 mm'. Same in the 1987 owner's manual (https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf) and the Zwickau university collection sheet (https://www.fh-zwickau.de/fileadmin/service/historische_sammlung/kraftfahrzeug/docs/trabant_p601.pdf)."
+    },
+    "stroke_mm": {
+      "value": 73.0,
+      "unit": "mm",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Kolbenhub 73 mm'; 'Hub-Bohrungs-Verhältnis 1,012'."
+    },
+    "displacement_cc": {
+      "value": 594.5,
+      "unit": "cc",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Hubraum 594,5 cm3'. The 1975 type approval gives 0.594 dm3 (https://dl.dropbox.com/s/vi3qznncvj8xge1/KTA_P_601_L.pdf?dl=1)."
+    },
+    "compression_ratio": {
+      "value": 7.5,
+      "unit": ":1 (geometric, full stroke)",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Verdichtungsverhältnis 7,5 ± 0,2'. The manual also gives the combustion chamber volume, 'Brennraumvolumen bei montiertem Zylinderkopf 45,7 ± 1,4 cm3'. My check: swept volume per cylinder 297.2 cm3, (297.2 + 45.7) / 45.7 = 7.50, so the 7.5 is the full-stroke (geometric) ratio, not a ratio from exhaust closing. The 1987 owner's manual gives 7,8 ± 0,2 for the later engine (https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf)."
+    },
+    "rod_length_mm": {
+      "value": 153.0,
+      "unit": "mm",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Mittenabstand Pleuel 153,0 - 0,15 mm', listed under 'Kurbeltrieb' directly after the small-end bush bore. I read it as the connecting rod's centre-to-centre length (eye to eye); the manual does not say so in other words and that reading is mine. It is long for a 73 mm stroke (rod/stroke 2.1)."
+    },
+    "crank": {
+      "value": "two crank throws at 180 degrees (pistons move in opposite directions), three main bearings",
+      "unit": null,
+      "source": "https://de.wikipedia.org/wiki/Parallel-Twin",
+      "note": "German Wikipedia, Parallel-Twin: 'Da beim Zweitaktprinzip bei jeder Kurbelwellenumdrehung gezündet wird, ist der Zündabstand beim Zweitakt-Gegenläufer symmetrisch. Bekanntestes Beispiel für einen solchen Motor ist der Trabant.' (Because a two-stroke fires every crankshaft revolution, a two-stroke opposed-piston-motion twin fires at even intervals; the best-known example is the Trabant.) Three main bearings: repair manual 'Kurbelwellenhauptlager 3 Rollenlager' (https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf). No factory text stating the crankpin angle was found."
+    },
+    "firing_order": {
+      "value": "1-2",
+      "unit": null,
+      "source": "https://dl.dropbox.com/s/vi3qznncvj8xge1/KTA_P_601_L.pdf?dl=1",
+      "note": "1975 type approval, 'Technische Kurzbeschreibung' (KTA, the GDR's motor vehicle authority), Trabant P 601 L: 'Zylinderzahl ... Zündfolge 1 — 2'. Cylinder 1 is at the flywheel end, cylinder 2 at the pulley end: repair manual, 'Die Markierung für Zylinder 1 ist in Richtung Schwungrad und die für Zylinder 2 in Richtung Riemenscheibe' (https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf)."
+    },
+    "firing_intervals_deg": {
+      "value": 180,
+      "unit": "deg crank",
+      "source": "https://de.wikipedia.org/wiki/Parallel-Twin",
+      "note": "Even firing every 180 degrees, from the 180-degree crank above (the Wikipedia statement 'Zündabstand ... symmetrisch'). The repair manual's ignition has one breaker per cylinder ('Unterbrecher 1. Zylinder', 'Unterbrecher 2. Zylinder'), each set to the same timing (https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf)."
+    },
+    "scavenging": {
+      "value": "loop scavenging (Umkehrspülung)",
+      "unit": null,
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Spülverfahren Umkehrspülung'. Number and size of transfer ports not given."
+    },
+    "induction_type": {
+      "value": "rotary disc valve (flat disc valves on the crankshaft, one per cylinder), one carburettor for both cylinders",
+      "unit": null,
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "Repair manual 'Einlaßdrehschieber' (inlet rotary valve); the 1987 owner's manual: 'Arbeitsverfahren Zweitakt mit Einlaßdrehschieber' (https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf). The manual's assembly notes mention 'Flachschieber ... für Zylinder 1 und 2'. A Trabant owners' forum says the discs are 1.2 mm sheet and that the disc valves let one carburettor feed both cylinders ('um mit einem Vergaser beide Zylinder zu versorgen', https://www.trabantforum.de/ubb/Forum1/HTML/003578.html; forum, not factory). Not piston-port."
+    },
+    "intake_open_btdc": {
+      "value": 135.0,
+      "unit": "deg BTDC",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Einlaßdrehschieber öffnet 45° n. UT' (opens 45 degrees after BDC = 135 before TDC). Measuring convention (gap or none) not stated."
+    },
+    "intake_close_atdc": {
+      "value": 45.0,
+      "unit": "deg ATDC",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Einlaßdrehschieber schließt 45° n. OT'. Inlet duration 180 degrees (my arithmetic)."
+    },
+    "exhaust_open_atdc": {
+      "value": 107.5,
+      "unit": "deg ATDC",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Auslaßkanal öffnet 72° 30' v. UT', closes '72° 30' n. UT' (the scan prints the minutes sign as a degree sign). 72.5 before BDC = 107.5 after TDC; duration 145 degrees (my arithmetic). Corroborated for the earlier P 60 by trabitechnik.com's transcription of the manual's timing diagram, 'Bei Typ P 60 AÖ = 72° 30' vor UT' (https://trabitechnik.com/index.php?lang=de&page=67&page_number=6), and by a search-result excerpt of a Simson forum post quoting a repair manual as 'A: 144° S: 110° E: 180°' (https://www.simsonforum.net/thread/9062-suche-auslassteuerzeit-vom-trabant-p601/; the page refuses automated fetches and was not opened)."
+    },
+    "transfer_open_atdc": {
+      "value": 125.0,
+      "unit": "deg ATDC",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Überströmkanal öffnet 55° v. UT', closes '55° n. UT'. 55 before BDC = 125 after TDC; duration 110 degrees (my arithmetic)."
+    },
+    "exhaust_duration_deg": {
+      "value": 145.0,
+      "unit": "deg",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "From the open and close angles above."
+    },
+    "transfer_duration_deg": {
+      "value": 110.0,
+      "unit": "deg",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "From the open and close angles above."
+    },
+    "intake_duration_deg": {
+      "value": 180.0,
+      "unit": "deg",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "From the open and close angles above; asymmetric about TDC, as a disc valve allows."
+    },
+    "carburettor": {
+      "value": "BVF 28 HB 2-7 horizontal block carburettor, nominal size 28 mm, venturi 23 mm, main jet 115",
+      "unit": "",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Vergaser Typ 28 HB 2-7', 'Horizontal-Blockvergaser, dessen Nenngröße 28 mm beträgt', 'Durchmesser des Lufttrichters 23 mm'. Later cars: 28 HB 4-1 from July 1982 and the two-stage 28 H 1-1 from 1984 (German Wikipedia, https://de.wikipedia.org/wiki/Trabant_601); the 1987 owner's manual lists the 28 H1-1 with 28 mm bore and 25 mm venturi (https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf). BVF = Berliner Vergaser-Fabrik."
+    },
+    "throttle_dia_mm": {
+      "value": 28.0,
+      "unit": "mm",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "Carburettor nominal size, one carburettor for both cylinders."
+    },
+    "ignition": {
+      "value": "battery coil ignition, two breakers with centrifugal advance, 24° 30' ± 1° 15' before TDC (4.0 ± 0.4 mm piston travel)",
+      "unit": null,
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Zündeinstellung 24° 30' ± 1° 15' KW v. OT = 4,0 ± 0,4 mm Kolbenweg'. From 1985 the electronic EBZA-2 H at 21° ± 1° before TDC (1987 owner's manual, https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf). Not used by the model, which places its own spark."
+    },
+    "peak_power_kw": {
+      "value": 19.1,
+      "unit": "kW (26 DIN-PS)",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Max. Leistung 26 DIN-PS bei 4200 U/min'. 26 PS = 19.1 kW; the 1975 type approval gives '19,1 kW (26 PS) bei 4 200 min-1' (https://dl.dropbox.com/s/vi3qznncvj8xge1/KTA_P_601_L.pdf?dl=1). DIN 70020 net rating per the manual's 'DIN-PS'."
+    },
+    "peak_power_rpm": {
+      "value": 4200,
+      "unit": "rpm",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'bei 4200 U/min'. The Zwickau collection sheet gives 4240 (https://www.fh-zwickau.de/fileadmin/service/historische_sammlung/kraftfahrzeug/docs/trabant_p601.pdf)."
+    },
+    "peak_torque_nm": {
+      "value": 53.95,
+      "unit": "N·m (5.5 kpm)",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Max. Drehmoment 5,5 kpm bei 3000 U/min'; 5.5 kpm = 53.95 N·m, the conversion printed in the 1987 owner's manual ('53,95 Nm (5,5kpm) bei 3 000 U/min', https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf)."
+    },
+    "peak_torque_rpm": {
+      "value": 3000,
+      "unit": "rpm",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'bei 3000 U/min'."
+    },
+    "idle_rpm": {
+      "value": 700,
+      "unit": "rpm",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "Exhaust test section: 'Leerlauf 700 U/min', CO 2.5 to 4.5 %. The 1987 owner's manual gives '600+100 U/min' (https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf)."
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": null,
+      "source": "https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf",
+      "note": "No maximum engine speed found. The 1987 owner's manual gives road speeds per gear (27, 47, 72, 100 km/h) and says these may be exceeded 'kurzzeitig um etwa 10%' (briefly by about 10%). My calculation from its gear ratios (4.08, 2.32, 1.52, 1.103; final drive 3.95) and an estimated rolling circumference of 1.73 m for 145 SR 13 tyres puts those speeds at about 4200 rpm in every gear, so the permitted brief overspeed is about 4600 rpm. That figure is mine, not the factory's."
+    },
+    "exhaust_notes": {
+      "value": "one exhaust manifold (Auspuffkrümmer) on both cylinders, then front silencer (Vorschalldämpfer), intermediate pipe (Zwischenrohr) and rear silencer (Nachschalldämpfer)",
+      "unit": null,
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "Manual section 4.7: 'Die Auspuffanlage besteht aus Vorschalldämpfer, Zwischenrohr und Nachschalldämpfer.' Engine removal: 'Flanschverbindung zwischen Auspuffkrümmer und Vorschalldämpfer lösen' (one flange), and on assembly the cylinders are aligned with a 'Kontrollplatte für Auspuffflansch' before the manifold is bolted on. That the manifold joins both cylinders into one pipe is my reading of these steps; no drawing was examined. A clogged front silencer reduces power 'bedingt durch schlechte Gasspülung' (through poor scavenging). From late 1976 the manifold was also used for the heater (German Wikipedia, https://de.wikipedia.org/wiki/Trabant_601). No pipe lengths or diameters found."
+    },
+    "fuel_oil_mix": {
+      "value": "50:1 (P 65/66); 33 1/3:1 on earlier engines",
+      "unit": null,
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Mischungsverhältnis Kraftstoff : Öl 33 1/3:1 (ab Motor-Nr. 65/66 50:1)'; oil 'MZ 22'; fuel 'Vergaserkraftstoff ROZ 88'. Has no physical effect in the model."
+    },
+    "cooling": {
+      "value": "air, axial fan driven by V-belt from the crankshaft",
+      "unit": null,
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Luftkühlung', 'Axialgebläse', 'über Keilriemen von der Kurbelwelle aus'."
+    },
+    "engine_mass_kg": {
+      "value": 54,
+      "unit": "kg",
+      "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "note": "'Masse des Motors 54 kg'."
+    },
+    "years": {
+      "value": "P 601 built 1964 to 1990; this engine (P 65/66) 1974 to 1985 at 7.5:1",
+      "unit": null,
+      "source": "https://de.wikipedia.org/wiki/Trabant_601",
+      "note": "German Wikipedia: P 601 'von 1964 bis 1990'; P 63 from 1969 with 26 PS; P 65 from 1974; 7.8:1 from March 1985. The Zwickau collection sheet gives production 1964 to 1990 (https://www.fh-zwickau.de/fileadmin/service/historische_sammlung/kraftfahrzeug/docs/trabant_p601.pdf)."
+    }
+  },
+  "missing": [
+    "port areas, heights and widths; number of transfer ports",
+    "crankcase volume or crankcase compression ratio",
+    "intake manifold length and passage diameter",
+    "exhaust manifold, pipe and silencer dimensions",
+    "flywheel inertia",
+    "maximum engine speed (only the owner's manual's gear speeds and 10% overspeed allowance)",
+    "factory full-load torque and power curve",
+    "a factory statement of the crankpin angle (Wikipedia's is the source used)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "what": "Reparaturhandbuch für Personenkraftwagen 'Trabant 601', 12th edition, by an author collective of VEB Sachsenring Automobilwerke Zwickau, VEB Fachbuchverlag Leipzig, editorial close 15 November 1974; reprint 2000 hosted by a Trabant club (trabant-pausa.de). Factory workshop manual: technical data, port timing, combustion chamber volume, exhaust system."
+    },
+    {
+      "url": "https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf",
+      "what": "Trabant owner's manual (Bedienungsanleitung), 1987 edition, scan: technical data of the later 7.8:1 engine (P 65/66, 28 H1-1 carburettor), idle speed, gear speeds."
+    },
+    {
+      "url": "https://dl.dropbox.com/s/vi3qznncvj8xge1/KTA_P_601_L.pdf?dl=1",
+      "what": "Scan of the GDR type approval 'Technische Kurzbeschreibung' for the Trabant P 601 L, approval dated 20.3.1975 (engine P 65-B / P 66-B, VEB Barkas-Werke): rated power and firing order."
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Trabant_601",
+      "what": "German Wikipedia, Trabant 601: engine versions and dates, citing the GDR journal Kraftfahrzeugtechnik."
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Parallel-Twin",
+      "what": "German Wikipedia, Parallel-Twin: the Trabant as the best-known two-stroke twin with opposed piston motion (180-degree crank) and even firing."
+    },
+    {
+      "url": "https://trabitechnik.com/index.php?lang=de&page=67&page_number=6",
+      "what": "trabitechnik.com, transcription of the manual's timing diagram section for the P 60 (exhaust opening 72° 30' before BDC). Enthusiast site."
+    },
+    {
+      "url": "https://www.trabantforum.de/ubb/Forum1/HTML/003578.html",
+      "what": "trabantforum.de archive thread on the disc valves (sheet thickness, one carburettor for both cylinders). Owners' forum."
+    },
+    {
+      "url": "https://www.fh-zwickau.de/fileadmin/service/historische_sammlung/kraftfahrzeug/docs/trabant_p601.pdf",
+      "what": "Westsächsische Hochschule Zwickau historical collection sheet, Trabant P 601: bore, stroke, power, production years."
+    },
+    {
+      "url": "https://www.simsonforum.net/thread/9062-suche-auslassteuerzeit-vom-trabant-p601/",
+      "what": "Simson forum thread quoting a repair manual's durations (A 144°, S 110°, E 180°); seen only as a search-result excerpt, because the site refuses automated fetches."
+    }
+  ],
+  "vehicle": {
+    "name": "Trabant 601 Limousine (1975)",
+    "fields": {
+      "curb_kg": {
+        "value": 615,
+        "unit": "kg",
+        "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+        "note": "Repair manual p. 7: 'Leermasse 615 kg' (Limousine; unladen mass). Type approval of 20.3.1975, PDF p. 2: 'b) Leermasse 615' (https://dl.dropbox.com/s/vi3qznncvj8xge1/KTA_P_601_L.pdf?dl=1). 1987 owner's manual: 'Eigenmasse, fahrfertig 615kg' (own mass, ready to drive) (https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf). German Wikipedia gives 620 kg (https://de.wikipedia.org/wiki/Trabant_601)."
+      },
+      "gear_count": {
+        "value": 4,
+        "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+        "note": "p. 9: 'Typ G 50 S / Art mechanisches Stufengetriebe, synchronisiert' (four-speed synchronised manual) with 'Freilauf im 4. Gang, nicht sperrbar' (freewheel in fourth, not lockable)."
+      },
+      "gears": {
+        "value": [
+          4.08,
+          2.32,
+          1.52,
+          1.103
+        ],
+        "unit": "",
+        "source": "https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf",
+        "note": "1987 owner's manual p. 62 (PDF p. 63): 'Übersetzungsverhältnis 4,08 2,32 1,52 1,103 3,83 / Geschwindigkeit in km/h 27 47 72 100' (ratios 1st-4th and reverse; speed in each gear). Repair manual p. 9 (https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf), retyped with its two columns merged: 'ab 1V/1974 ... 4. Gang 1,03 - 30/31 1,103 - 29/32', i.e. 1.03 before and 1.103 from IV/1974 (tooth counts 32/29 = 1.103, my check)."
+      },
+      "final_drive": {
+        "value": 3.95,
+        "unit": "",
+        "source": "https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf",
+        "note": "1987 owner's manual p. 63: 'Achsübersetzung 3,95'. Repair manual p. 9: 'Achsübersetzung 4,33 - 18/78 3.,95 - 19/75' (4.33 before IV/1974, 3.95 after; 75/19 = 3.947, my check)."
+      },
+      "wheel_radius_m": {
+        "value": null,
+        "unit": "m",
+        "source": null,
+        "note": "No published rolling radius. The owner's manual's 100 km/h in fourth would give about 0.275 m if it were meant at the 4200 rpm power peak, but the manual does not say at what speed, so this is not used."
+      },
+      "tyre": {
+        "value": "5.20-13",
+        "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+        "note": "p. 9: 'Felgengröße 4 J X 13 / Reifengröße 5,20 X 13 oder 145 SR 13'. Type approval: 'Bereifung 5.20 - 13 oder 145 SR 13'. Front-wheel drive."
+      },
+      "top_speed_kmh": {
+        "value": 100,
+        "unit": "km/h",
+        "source": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+        "note": "p. 7: 'Höchstgeschwindigkeit 100 km/h'; type approval and 1987 manual the same. German Wikipedia: 'ca. 100 km/h, ab 1974: 108 km/h', citing Kraftfahrzeugtechnik 1975 (not seen)."
+      },
+      "driven": {
+        "value": "front",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Trabant_601",
+        "note": "English Wikipedia, 'Trabant 601' (read 2026-11-17), infobox layout: FF layout."
+      }
+    },
+    "missing": [
+      "a published rolling radius for the 5.20-13 tyre"
+    ],
+    "sources": [
+      {
+        "url": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+        "what": "Reparaturhandbuch 'Trabant 601', VEB Sachsenring, 12th edition (editorial close 15.11.1974), retyped reprint: technical data pp. 7 and 9. Read by a helper from rendered pages."
+      },
+      {
+        "url": "https://dl.dropbox.com/s/vi3qznncvj8xge1/KTA_P_601_L.pdf?dl=1",
+        "what": "GDR type approval 'Technische Kurzbeschreibung' Trabant P 601 L, approval of 20.3.1975: masses, tyres, top speed. Read by a helper."
+      },
+      {
+        "url": "https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf",
+        "what": "Trabant owner's manual (Bedienungsanleitung) 1987, retyped transcription: gear ratios, speeds per gear, final drive, tyres, masses. Gear and final-drive lines checked by me in its text layer."
+      },
+      {
+        "url": "https://de.wikipedia.org/wiki/Trabant_601",
+        "what": "German Wikipedia, Trabant 601: 620 kg and the 108 km/h claim."
+      }
+    ]
+  }
+}

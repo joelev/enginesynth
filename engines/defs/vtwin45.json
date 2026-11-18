@@ -1,0 +1,89 @@
+{
+  "name": "vtwin45",
+  "label": "1450 cc 45\u00b0 V-twin, shared crank pin",
+  "layout": "v",
+  "bank_angle": 45.0,
+  "bore": 0.09525,
+  "stroke": 0.1016,
+  "rod": 0.19,
+  "cr": 9.0,
+  "firing": [
+    0.0,
+    315.0
+  ],
+  "bank": [
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0
+  ],
+  "ivo": 12.0,
+  "ivc": 48.0,
+  "evo": 52.0,
+  "evc": 12.0,
+  "in_valve_d": 0.036195,
+  "ex_valve_d": 0.03048,
+  "in_lift": 0.0115824,
+  "ex_lift": 0.0100584,
+  "itb": false,
+  "runner_len": 0.14,
+  "runner_d": 0.042862500000000005,
+  "plenum_vol": 0.0005,
+  "throttle_d": 0.048131762843612536,
+  "snorkel_len": 0.45,
+  "snorkel_d": 0.050538350985793165,
+  "airbox_vol": 0.0037374999458253196,
+  "primary_len": [
+    0.9,
+    0.75
+  ],
+  "primary_d": 0.044,
+  "groups": [
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ],
+  "collector_vol": 0.0005843749864563298,
+  "secondary_len": 0.25,
+  "secondary_d": 0.048,
+  "merge": "none",
+  "mid_len": 0.8,
+  "mid_d": 0.04749657462433475,
+  "muffler_len": 0.0,
+  "muffler_d": 0.17,
+  "muffler_fric": 0.3,
+  "tail_len": 0.3,
+  "tail_d": 0.05,
+  "tail_flare_d": 0.0,
+  "inertia": 0.11,
+  "redline": 5600.0,
+  "idle": 900.0,
+  "friction_scale": 1.0,
+  "heat_q": 2500000.0,
+  "kind": "piston",
+  "ecc": 0.0,
+  "rotor_r": 0.0,
+  "rotor_w": 0.0,
+  "rotor_phase": [],
+  "port_in": [
+    0.0,
+    0.0
+  ],
+  "port_ex": [
+    0.0,
+    0.0
+  ],
+  "port_in_area": 0.0,
+  "port_ex_area": 0.0,
+  "burn_scale": 1.0,
+  "generic": true,
+  "family": "twin",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for this layout, not measurements of a real one."
+}

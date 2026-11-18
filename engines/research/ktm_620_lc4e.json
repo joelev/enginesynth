@@ -1,0 +1,126 @@
+{
+  "id": "ktm_620_lc4e",
+  "name": "KTM 620 LC4-E (609 cc liquid-cooled single, as fitted to the 620 Duke, c. 1998) - chosen over the 690 LC4 and Honda XR650L because KTM publishes its cam timing",
+  "induction": "naturally aspirated",
+  "summary": "Large 609 cc four-valve SOHC single with a balancer shaft and a 40 mm slide carburettor; one big cylinder firing once every two revolutions gives widely spaced, hard exhaust pulses.",
+  "fields": {
+    "cylinders": {"value": 1, "unit": "count", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf"},
+    "layout": {"value": "single", "unit": null, "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "Liquid-cooled single-cylinder four-stroke with balancer shaft and electric starter."},
+    "bore_mm": {"value": 101, "unit": "mm", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf"},
+    "stroke_mm": {"value": 76, "unit": "mm", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf"},
+    "displacement_cc": {"value": 609, "unit": "cc", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf"},
+    "compression_ratio": {"value": 10.4, "unit": ":1", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "A second KTM technical data sheet for the same engine (https://www.ktmshop.se/documents/970061_TDE_EN.pdf) prints 10.5:1."},
+    "firing_intervals_deg": {"value": 720, "unit": "deg", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "Not printed as a number; follows from 'single cylinder 4-stroke'."},
+    "valves_per_cylinder": {"value": 4, "unit": "count", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "4 valves via rocker arms from one overhead camshaft, single-chain cam drive."},
+    "intake_valve_dia_mm": {"value": 36, "unit": "mm", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf"},
+    "exhaust_valve_dia_mm": {"value": 30, "unit": "mm", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf"},
+    "intake_duration_deg": {"value": 249, "unit": "deg", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "Printed as 'Camshaft 249 deg (249)'; at 1 mm valve lift (the sheet's wording is 'Valve timing by 1 mm valve clearence'). Equals 14 + 180 + 55."},
+    "exhaust_duration_deg": {"value": 249, "unit": "deg", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "At 1 mm. Equals 56 + 180 + 13."},
+    "ivo_btdc": {"value": 14, "unit": "deg", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "At 1 mm valve lift."},
+    "ivc_abdc": {"value": 55, "unit": "deg", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "At 1 mm valve lift."},
+    "evo_bbdc": {"value": 56, "unit": "deg", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "At 1 mm valve lift."},
+    "evc_atdc": {"value": 13, "unit": "deg", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "At 1 mm valve lift."},
+    "peak_power_kw": {"value": 40.1, "unit": "kW", "source": "https://moto-data.net/ktm/620-lc4-adventure-1997", "note": "55 hp, from a third-party spec database entry for the 1997 620 LC4 Adventure (same 609 cc engine family, Dell'Orto PHM 40 SD carburettor); not a KTM document and not confirmed for the Duke's state of tune."},
+    "peak_power_rpm": {"value": 7000, "unit": "rpm", "source": "https://moto-data.net/ktm/620-lc4-adventure-1997"},
+    "peak_torque_nm": {"value": 60, "unit": "Nm", "source": "https://moto-data.net/ktm/620-lc4-adventure-1997", "note": "Third-party database, as above."},
+    "peak_torque_rpm": {"value": 5500, "unit": "rpm", "source": "https://moto-data.net/ktm/620-lc4-adventure-1997"},
+    "intake_type": {"value": "single carburettor, Dell'Orto PHM 40 SD (620 Duke basic carburettor setting)", "unit": null, "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf"},
+    "throttle_dia_mm": {"value": 40, "unit": "mm", "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "note": "Inferred by the researcher from the carburettor type designation PHM 40; the sheet does not print a bore diameter (its 'Throttle valve 40' line is the slide code)."},
+    "ignition_note": {"value": "Ignition timing adjusts to a maximum of 38 deg BTDC at 6000 rpm", "unit": null, "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf"},
+    "related_690_lc4_data": {"value": "KTM 690 Supermoto (654 cc LC4): bore 102 mm, stroke 80 mm, compression 11.8:1, OHC 4 valves via rocker arm, intake valve 40 mm, exhaust valve 34 mm, electronic fuel injection", "unit": null, "source": "https://www.manualsdir.com/manuals/161826/ktm-supermoto-690.html?page=139", "note": "Recorded for reference from the KTM 690 Supermoto owner's manual technical data page. No cam timing, lift or rod length was found for the 690, which is why the 620 was chosen. A press review gives the 690 Duke a 46 mm throttle body and a claimed 65 hp (https://www.cycleonline.com.au/2009/07/24/quick-test-2009-ktm-690-duke/)."}
+  },
+  "missing": [
+    "rod_length_mm",
+    "intake_lift_mm and exhaust_lift_mm",
+    "redline_rpm and idle_rpm",
+    "peak power and torque from a KTM document for the 620 Duke",
+    "header and exhaust dimensions (primary diameter and length, silencer)",
+    "intake tract length",
+    "all cam data for the newer 690 LC4, if that engine is wanted instead"
+  ],
+  "sources": [
+    {"url": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf", "what": "KTM 'Technical Data - Engine KTM 620 LC4-E' sheet (PDF dated April 1998, includes 620 Duke carburettor settings), hosted by a KTM dealer shop. Manufacturer technical data: bore, stroke, compression, valve timing at 1 mm, valve diameters, carburettor."},
+    {"url": "https://www.ktmshop.se/documents/970061_TDE_EN.pdf", "what": "A second KTM technical data sheet for the 620 LC4-E with the same cam timing and valve sizes but 10.5:1 compression."},
+    {"url": "https://moto-data.net/ktm/620-lc4-adventure-1997", "what": "Third-party motorcycle spec database: power and torque for the 1997 620 LC4 Adventure. Unverified."},
+    {"url": "https://www.manualsdir.com/manuals/161826/ktm-supermoto-690.html?page=139", "what": "Online copy of the KTM 690 Supermoto owner's manual, technical data - engine page; used only for the related-engine note."},
+    {"url": "https://www.cycleonline.com.au/2009/07/24/quick-test-2009-ktm-690-duke/", "what": "Press test of the 2009 KTM 690 Duke; used only for the related-engine note."}
+  ],
+  "vehicle": {
+    "name": "KTM 620 Duke, 4th edition (1997), 609 cc LC4-E",
+    "chosen_because": "The engine definition uses KTM's sheet 972674 (620 LC4-E, 609 cm3, 10.4:1, carb setting 080197), which is the engine of the 620 Duke 4th edition. MOTORRAD dates the editions: 1998 'Last Edition' was enlarged to 625 cc, so 1997 is the last 609 cc Duke.",
+    "fields": {
+      "curb_kg": {
+        "value": 168,
+        "unit": "kg",
+        "source": "https://www.motorradonline.de/ratgeber/gebrauchtberatung-ktm-duke-620-e-asphalt-cowboy/",
+        "quote": "Tankinhalt/Reserve 11,3/1,8 Liter Gewicht vollgetankt 168 kg",
+        "note": "MOTORRAD used-bike guide, 18.06.1998, technical-data box (measured, full tank). The box describes an e-start, 860 mm-seat bike, so a 1996 or 1997 Duke; the 1.8 L reserve matches KTM's 1996 3rd-edition sheet (970061_TDC_EN.pdf), not the 1997 sheet (1.5 L). KTM's 1997 chassis sheet gives 'Dead weight without fuel 145 kg' and an 11.3 L tank, which would be about 153 kg with fuel (my calculation at 0.74 kg/L). The 15 kg gap is unexplained; the measured figure is used."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf",
+        "quote": "Transmission 5-speed claw shifted"
+      },
+      "gears": {
+        "value": [
+          2.5,
+          1.6,
+          1.1667,
+          0.95,
+          0.8182
+        ],
+        "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf",
+        "quote": "1st gear 14:35 / 2nd gear 15:24 / 3rd gear 18:21 / 4th gear 20:19 / 5th gear 22:18",
+        "note": "KTM engine sheet p2, 'GEAR RATIOS' table; ratios are my division of the tooth counts. The 1996 sheet (970061_TDE_EN.pdf) has 2nd 16:24; the 1994-95 sheet has 1st 15:33."
+      },
+      "final_drive": {
+        "value": 6.0353,
+        "source": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf ; https://www.ktmshop.se/documents/972674_TDC_EN.pdf",
+        "quote": "Primary ratio straight geared spur wheels 30 : 81 teeth (engine sheet p1); Final drive ratio 17 : 38 (chassis sheet p1)",
+        "note": "My calculation: (81/30) x (38/17)."
+      },
+      "tyre": {
+        "value": "150/60 R 17",
+        "source": "https://www.ktmshop.se/documents/972674_TDC_EN.pdf",
+        "quote": "Tyres front: 120/70 R 17 58H rear: 150/60 R 17 69H",
+        "note": "KTM 620 Duke 4th edition chassis sheet p1. MOTORRAD's approved-tyre list for type GS 620 RD gives 160/60-R17, and the 1994-95 and 1998 sheets give 160/60-17."
+      },
+      "wheel_radius_m": {
+        "value": 0.3059,
+        "unit": "m",
+        "source": "https://www.ktmshop.se/documents/972674_TDC_EN.pdf",
+        "note": "My calculation, not published: unloaded geometric radius from the nominal size (rim diameter / 2 + section width x aspect ratio). The loaded rolling radius is a few percent smaller."
+      },
+      "top_speed_kmh": {
+        "value": 170,
+        "unit": "km/h",
+        "source": "https://www.motorradonline.de/ratgeber/gebrauchtberatung-ktm-duke-620-e-asphalt-cowboy/",
+        "quote": "Testwerte Höchstgeschwindigkeit Solo/mit Sozius 170/ 159 km/h",
+        "note": "Measured by MOTORRAD (test values), on a 1996-97 bike; which test issue is not stated."
+      }
+    },
+    "missing": [],
+    "sources": [
+      {
+        "url": "https://www.ktmshop.se/documents/972674_TDC_EN.pdf",
+        "what": "KTM 'Technical data - chassis', Type 620 DUKE 4th edition (hosted by a KTM dealer): tyres, tank, final drive, dead weight."
+      },
+      {
+        "url": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf",
+        "what": "KTM 'Technical data - engine' 620 LC4-E, the sheet the engine definition is built on: gearbox, primary ratio, oil."
+      },
+      {
+        "url": "https://www.ktmshop.se/documents/970061_TDC_EN.pdf",
+        "what": "KTM chassis sheet, 1996 3rd edition: 149 kg dry, 1.8 L reserve; used to date the MOTORRAD box."
+      },
+      {
+        "url": "https://www.ktmshop.se/documents/972684_TDE_EN.pdf",
+        "what": "KTM engine sheet 640 LC4-E, 1998 Last Edition (625 cc, 101 x 78 mm): shows 1998 is not a 609 cc bike."
+      },
+      {
+        "url": "https://www.motorradonline.de/ratgeber/gebrauchtberatung-ktm-duke-620-e-asphalt-cowboy/",
+        "what": "MOTORRAD used-bike guide 'KTM Duke 620 E', 18.06.1998: edition history, measured weight and top speed."
+      }
+    ]
+  }
+}

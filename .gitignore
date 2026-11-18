@@ -1,0 +1,5 @@
+# build output, renders and vendored libraries: all regenerated (see README)
+*.nosync/
+videos/
+__pycache__/
+.DS_Store

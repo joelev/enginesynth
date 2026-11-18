@@ -1,0 +1,278 @@
+{
+  "id": "buick_231_oddfire",
+  "name": "Buick 231 V6, odd-fire (1975 to early 1977)",
+  "induction": "naturally aspirated",
+  "summary": "90-degree V6 on a three-throw crank with shared pins 120 degrees apart, so it fires at alternating 150 and 90 degree intervals: a syncopated lope at idle.",
+  "fields": {
+    "cylinders": {
+      "value": 6,
+      "unit": null,
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf"
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "note": "1975 Buick Chassis Service Manual, General Specifications: 'ENGINE TYPE 90 deg V-6'."
+    },
+    "bore_mm": {
+      "value": 96.52,
+      "unit": "mm",
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "note": "3.800 in."
+    },
+    "stroke_mm": {
+      "value": 86.36,
+      "unit": "mm",
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "note": "3.400 in."
+    },
+    "displacement_cc": {
+      "value": 3791,
+      "unit": "cc",
+      "source": "https://ateupwithmotor.com/model-histories/buick-special-skylark-rover-v8-3800-v6-history/",
+      "note": "231 cu in."
+    },
+    "compression_ratio": {
+      "value": 8.0,
+      "unit": ":1",
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not in the factory manual's specification pages that were read (only bearing length and clearances are given)."
+    },
+    "firing_order": {
+      "value": "1-6-5-4-3-2",
+      "unit": null,
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "note": "Factory manual: cylinder numbers front to rear, left bank 1-3-5, right bank 2-4-6; left bank set slightly forward so opposite rods share a crankpin."
+    },
+    "crank": {
+      "value": "three throws 120 degrees apart, each crank pin shared by the opposing pair (1-2, 3-4, 5-6); no split or offset pins",
+      "unit": null,
+      "source": "https://jeepster-commando.com/?p=317",
+      "note": "Factory manual confirms opposite rods connect to the same crankpin. Wikipedia: 'three crank pins set at 120 deg apart, with opposing cylinders (1-2, 3-4, and 5-6) sharing a crank pin'."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        150,
+        90,
+        150,
+        90,
+        150,
+        90
+      ],
+      "unit": "deg",
+      "source": "https://jeepster-commando.com/?p=317",
+      "note": "Interval after each cylinder in firing order 1-6-5-4-3-2, i.e. 1 to 6 = 150, 6 to 5 = 90, 5 to 4 = 150, 4 to 3 = 90, 3 to 2 = 150, 2 to 1 = 90. Read from the article's step table (1 fires at 90, 6 at 240, 5 at 330, 4 at 480, 3 at 570, 2 at 720 crank degrees). The 150/90 alternation is also stated by Ate Up With Motor and Wikipedia's V6 engine page. Rule: 90 degrees between the two cylinders on one pin, 150 between pins."
+    },
+    "valves_per_cylinder": {
+      "value": 2,
+      "unit": null,
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf"
+    },
+    "intake_valve_dia_mm": {
+      "value": 41.3,
+      "unit": "mm",
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "note": "Head diameter 1.620-1.630 in."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 36.2,
+      "unit": "mm",
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "note": "Head diameter 1.420-1.430 in."
+    },
+    "rocker_ratio": {
+      "value": 1.55,
+      "unit": ":1",
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf"
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found in the pages read."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found in the pages read."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "peak_power_kw": {
+      "value": 82,
+      "unit": "kW",
+      "source": "https://ateupwithmotor.com/model-histories/buick-special-skylark-rover-v8-3800-v6-history/",
+      "note": "110 hp SAE net for the 1975 engine; rpm not given. Wikipedia says 105 or 110 hp depending on fitment and year."
+    },
+    "peak_power_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "peak_torque_nm": {
+      "value": 237,
+      "unit": "Nm",
+      "source": "https://ateupwithmotor.com/model-histories/buick-special-skylark-rover-v8-3800-v6-history/",
+      "note": "175 lb-ft SAE net; rpm not given."
+    },
+    "peak_torque_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_type": {
+      "value": "plenum; cast-iron manifold with Rochester 2-barrel carburetor",
+      "unit": null,
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf"
+    },
+    "header_type": {
+      "value": "cast-iron log manifolds, one per bank, joined by a crossover pipe",
+      "unit": null,
+      "source": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "note": "Manual removal procedure refers to right and left exhaust manifolds and 'exhaust crossover pipe'. Single exhaust with catalytic converter per Ate Up With Motor."
+    }
+  },
+  "missing": [
+    "rod_length_mm",
+    "cam lift (intake and exhaust)",
+    "cam duration and timing events",
+    "peak_power_rpm",
+    "peak_torque_rpm",
+    "redline_rpm",
+    "idle_rpm",
+    "throttle_dia_mm",
+    "primary_dia_mm",
+    "exhaust_pipe_dia_mm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.teambuick.com/reference/library/75_chassis/files/6-a.pdf",
+      "what": "1975 Buick Chassis Service Manual, section 6A (engine), hosted by TeamBuick. Factory document: bore/stroke, CR, numbering, firing order, valve head diameters, rocker ratio."
+    },
+    {
+      "url": "https://jeepster-commando.com/?p=317",
+      "what": "jeepster-commando.com 'Understanding the odd-fire V6'. Enthusiast article with a step-by-step crank-angle table for the 225/231 odd-fire; source of the interval sequence and pin positions."
+    },
+    {
+      "url": "https://ateupwithmotor.com/model-histories/buick-special-skylark-rover-v8-3800-v6-history/",
+      "what": "Ate Up With Motor history of the Buick V6, with a bibliography. 150/90 intervals, 8.0:1, 110 hp / 175 lb-ft, even-fire arriving during 1977."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Buick_V6_engine",
+      "what": "Wikipedia: shared-pin description, 1977 split-pin change."
+    },
+    {
+      "url": "https://www.nmr.mgh.harvard.edu/~reese/BuickV6CastingNumbersandInternalSpecs.pdf",
+      "what": "Casting-number compilation: 1975-76 231 listed as odd-fire, straight rod pin crank; 1977 listed in both odd-fire and even-fire rows."
+    }
+  ],
+  "vehicle": {
+    "name": "Buick Skyhawk hatchback coupe (1975)",
+    "fields": {
+      "curb_kg": {
+        "value": 1270,
+        "unit": "kg",
+        "source": "https://en.wikipedia.org/wiki/Buick_Skyhawk",
+        "note": "Infobox for the 1975-1980 generation: 'Curb weight 2,800 lb (1,270 kg)'. Rounded, for the generation, not specific to 1975 or to a gearbox. No factory weight found (not in the 1975 chassis manual or brochure)."
+      },
+      "gear_count": {
+        "value": 3,
+        "source": "https://www.teambuick.com/reference/library/75_chassis/files/4-b.pdf",
+        "note": "1975 Buick Chassis Service Manual Fig. 4B-51 'Axle Assembly Ratio Usage H-X-A': 'H | 231 | 4-SPEED MANUAL | 2.56 ... THM 350 | 2.56' (checked by me on the page image). Brochure: 'Four-speed manual transmission is standard on Skyhawk and available on no other Buick ... Turbo Hydra-matic automatic transmission available' (https://www.lov2xlr8.no/brochures/buick/bilder/75_9.jpg). Choosing the automatic is my assumption."
+      },
+      "gears": {
+        "value": [
+          2.52,
+          1.52,
+          1.0
+        ],
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Turbo-Hydramatic",
+        "note": "Table 'Gear ratios: THM350, 250, 250C': '1 2.52:1, 2 1.52:1, 3 1.00:1'. The Buick manual gives no gear ratios."
+      },
+      "final_drive": {
+        "value": 2.56,
+        "unit": "",
+        "source": "https://www.teambuick.com/reference/library/75_chassis/files/4-b.pdf",
+        "note": "Fig. 4B-51, H series 231: standard ratio 2.56 with the four-speed manual and with the THM 350 (codes DB, limited slip EB)."
+      },
+      "wheel_radius_m": {
+        "value": null,
+        "unit": "m",
+        "source": null,
+        "note": "Not found."
+      },
+      "tyre": {
+        "value": "BR78-13",
+        "source": "https://www.lov2xlr8.no/brochures/buick/bilder/75_9.jpg",
+        "note": "1975 Buick brochure, Skyhawk page: 'Tires Standard: steel-belted radial-ply blackwall BR78-13'; 'Wheel size 13 x 5.00'. Rear-wheel drive."
+      },
+      "top_speed_kmh": {
+        "value": null,
+        "unit": "km/h",
+        "source": null,
+        "note": "Not found."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Buick_Skyhawk",
+        "note": "English Wikipedia, 'Buick Skyhawk' (read 2026-11-17), infobox layout: FR layout (first generation, 1975-1980; later generations front-wheel drive)."
+      }
+    },
+    "missing": [
+      "a factory curb weight",
+      "the manual/automatic split",
+      "four-speed manual ratios",
+      "top speed"
+    ],
+    "sources": [
+      {
+        "url": "https://www.teambuick.com/reference/library/75_chassis/files/4-b.pdf",
+        "what": "1975 Buick Chassis Service Manual section 4-B (rear axle), TeamBuick scan: axle ratios by series, engine and transmission (Fig. 4B-51)."
+      },
+      {
+        "url": "https://www.lov2xlr8.no/brochures/buick/bilder/75_9.jpg",
+        "what": "1975 Buick US sales brochure, Skyhawk specification page (lov2xlr8.no scan): tyres, wheel size, standard and optional gearboxes."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Buick_Skyhawk",
+        "what": "Wikipedia, Buick Skyhawk: 231 as the only engine, gearboxes, curb weight of the 1975-80 car."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Turbo-Hydramatic",
+        "what": "Wikipedia, Turbo-Hydramatic: THM 350 gear ratios."
+      }
+    ]
+  }
+}

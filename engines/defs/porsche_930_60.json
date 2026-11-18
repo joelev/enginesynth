@@ -1,0 +1,267 @@
+{
+  "name": "porsche_930_60",
+  "label": "Porsche 930/60 3.3 L air-cooled flat-six, turbocharged (911 Turbo)",
+  "generic": false,
+  "family": "flat",
+  "based_on": "Porsche 930/60 3.3 L turbocharged flat-six, 911 Turbo 3.3 (930), 1978 model year, rest of world",
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.097,
+  "stroke": 0.0744,
+  "rod": 0.127,
+  "cr": 7.0,
+  "firing": [
+    0.0,
+    240.0,
+    480.0,
+    360.0,
+    600.0,
+    120.0
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    2
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.049,
+  "ex_valve_d": 0.0415,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 20.0,
+    "ivc": 60.0,
+    "evo": 50.0,
+    "evc": 18.0,
+    "in_lift": 0.0105,
+    "ex_lift": 0.01
+  },
+  "itb": false,
+  "runner_len": 0.3,
+  "primary_len": [
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45
+  ],
+  "primary_d": 0.041,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "secondary_len": 0.55,
+  "redline": 6800.0,
+  "idle": 900.0,
+  "boost": {
+    "kind": "turbo",
+    "induction": "turbocharged (KKK 3LDZ), intercooled",
+    "boost_bar": 0.8,
+    "intercooler": {
+      "effectiveness": 0.5
+    },
+    "turbo": {
+      "match_rpm": 4500,
+      "scroll": "single",
+      "boost_control": false,
+      "wg_crack_bar": 0.85,
+      "wg_span_bar": 0.15,
+      "bov": "recirc",
+      "whistle": 1.0,
+      "charge_pipes": [
+        [
+          0.7,
+          0.055
+        ],
+        [
+          0.4,
+          0.055
+        ]
+      ],
+      "surge_ratio": 2.0
+    }
+  },
+  "published": {
+    "power_kw": 221,
+    "power_rpm": 5500,
+    "torque_nm": 412,
+    "torque_rpm": 4000
+  },
+  "mid_len": 0.3,
+  "mid_d": 0.06,
+  "muffler_d": 0.09,
+  "muffler_zeta": 0.3,
+  "tail_len": 0.25,
+  "tail_d": 0.055,
+  "heat_q": 2500000,
+  "friction_scale": 1.1,
+  "sources": [
+    {
+      "url": "https://newsroom.porsche.com/pdf/b7791969-f13c-4e88-86db-d19c0439fee5",
+      "what": "Porsche newsroom PDF 'Die 911 Turbo Generationen' (Porsche AG press text, German, dated 24/07/2026): model year 1978 3.3 litres, intercooler under the rear spoiler, 221 kW (300 PS) at 5,500/min, 412 Nm, 260 km/h, boost gauge from MY1977. Manufacturer source; text extracted from the PDF with pdftotext."
+    },
+    {
+      "url": "https://christophorus.porsche.com/en/2020/394/turbo-engines.html",
+      "what": "Porsche Christophorus magazine 'Under Pressure' (01/2020): 930 spec box (3,299 cm3, max. charge pressure 0.8 bar, 300 hp, 412-430 Nm), wastegate from 1974, larger compressor wheel and intercooler for the 300 hp car, 3.0's thrust arriving abruptly at 3,500 rpm. Manufacturer magazine."
+    },
+    {
+      "url": "https://www.porsche.com/australia/accessoriesandservice/classic/models/911-g/911-turbo",
+      "what": "Porsche Classic model page '911 Turbo': twin tailpipes, the left one passing gas only when the boost-pressure control valve (wastegate) is open; 3.3 litres 300 PS from MY1978. Manufacturer source."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Porsche_930",
+      "what": "English Wikipedia, Porsche 911 (930): 930/60 engine code, 3,299 cc from 1978 with a 2 mm larger bore, air-to-air intercooler, 300 PS at 5,500, 412 Nm at 4,000, performance tables (Auto Motor und Sport 0-100 km/h 5.4 s, top speed), infobox weights and gearboxes."
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Porsche_930",
+      "what": "German Wikipedia, Porsche 930: technical table 3.3 column (97.0 x 74.4 mm, 3299 cm3, 7.0:1, 300 PS at 5500, 430 Nm, OHC with two roller chains, 4-speed, 1335 kg, 260 km/h, 5.2 s, tyres), exhaust change to twin pipes in 1979."
+    },
+    {
+      "url": "https://supercarnostalgia.com/blog/porsche-930-33",
+      "what": "Supercar Nostalgia, 'Guide: Porsche 911 3.3 Turbo (930) - a Historical & Technical Appraisal' (Ben Tyer, 4 May 2020): 930/60 engine, bore, stroke, 7.0:1, K27 claim, air-to-air intercooler, K-Jetronic, bearings, 930/34 gearbox, 1300 kg, 1983 wastegate to atmosphere. Enthusiast article."
+    },
+    {
+      "url": "https://www.turbosition.com/porsche-930/technical-specifications",
+      "what": "Turbosition (930 enthusiast/specialist site) technical specification table for the Turbo 3.3: bore, stroke, 7.0:1, 296 hp (221 kW) at 5500, 412 Nm at 4000, K-Jetronic, four-speed ratios and axle ratio, tyres, 1380 kg curb, 260 km/h, 0-100 5.5 s. Operator not named on the page."
+    },
+    {
+      "url": "https://www.allcarcentral.com/Porsche_pdf/porsche_911_engine_spec_65-89.pdf",
+      "what": "'Porsche 911 Technical Information, Engine 1965 through 1989' table (US-market figures): 1978 3.3L 97X74.4mm, 7.0:1, 265/5500, transmission type 930/34, CIS. Secondary compilation; source not stated."
+    },
+    {
+      "url": "https://www.excellence-mag.com/resources/specs/373",
+      "what": "Excellence magazine spec page, 1978 911 Turbo Carrera Coupe (930), US market: 97 x 74.4 mm, 7.0:1, 265 hp, tyres 205/55VR-16 and 225/50VR-16, 2,866 lb, 162 mph."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/article/february-1982/60/porsche-911-33-litre-turbo/",
+      "what": "Motor Sport magazine, February 1982, 'Porsche 911 3.3-litre Turbo' (Alan Henry): KKK turbo and intercooler, 'flat bark', boost above 2,000 rpm, four forward ratios, Pirelli P7 tyres, acceleration. Period road test of a UK car."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/article/september-1977/32/around-and-about-september-1977/",
+      "what": "Motor Sport, September 1977, 'Around and About': announcement of the 1978 model 3.3 Turbo, 300 bhp, 303 lb ft, intercooler in the bigger rear wing, 0-60 in 5.1 s claimed. Period news item."
+    },
+    {
+      "url": "https://www.goodwood.com/grr/columnists/andrew-frankel/a-fond-look-back-at-the-porsche-930-turbo--thank-frankel-its-friday-monday-special/",
+      "what": "Goodwood Road & Racing, Andrew Frankel, 9 March 2020: driving character of the 3.3 (savage on boost, 3,500 rpm), compression raised to 7.0:1, four-speed gearbox. Experienced road tester's retrospective."
+    },
+    {
+      "url": "https://automotivetechinfo.com/wp-content/uploads/2019/08/Turbocharging-Porsches-When-Why.pdf",
+      "what": "derFix magazine (technician trade magazine), 'Turbocharging Porsches - When and Why', February 2018: 930 wastegate diaphragm, fully mechanical boost control, over-boost fuel-pump cut-out at about 14 psi."
+    },
+    {
+      "url": "https://fvd.net/ch-en/930123003AX/turbocharger-930-33-l-78-89-k-26-3ldz-exchange.html",
+      "what": "FVD (Porsche parts specialist) product page: 930 3.3 1978-89 turbocharger, KKK 3LDZ ('K 26 (3LDZ)'), badge size, BorgWarner and Porsche part numbers."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-turbo-930-forum/334098-was-the-k27-7006-stock-on-some-of-the-930-s.html",
+      "what": "Rennlist 930 forum thread (2007) on which turbo was stock: owners say 3LDZ; K27-7006 only on S/LE versions. Forum."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-turbo-930-forum/769631-930-waste-gate-plumbing-2.html",
+      "what": "Rennlist 930 forum thread (2016) on wastegate plumbing: spring-only boost control, signal line from the intake plenum/intercooler, 'OE was a KKK 3LDZ'. Forum."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-turbo-930-forum/259339-965-style-blow-off-valve.html",
+      "what": "Rennlist 930 forum thread (2006), page 1: the factory bypass valve housing between the intercooler and throttle housing, about 10 lb, with the overboost switch. Forum."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-turbo-930-forum/259339-965-style-blow-off-valve-3.html",
+      "what": "Same thread, page 3: how the factory 930 bypass works (vacuum-opened, spring piston, recirculates in front of the turbo). Forum."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-turbo-930-forum/536210-all-911-turbo-valve-size-specs.html",
+      "what": "Rennlist 930 forum thread (2009): 930 valve sizes 49 / 41.5 mm quoted from Porsche's 78-81 Tech Spec booklet. Forum quoting a Porsche document."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-turbo-930-forum/7794-930-cam-timing.html",
+      "what": "Rennlist 930 forum (2001): Steve Weiner (Rennsport Systems) says to time a 3.3 to the early SC cam timing spec. No figures."
+    },
+    {
+      "url": "https://www.porscheclubgb.com/forum/threads/porsche-turbo-valve-timing.116829/page-2",
+      "what": "Porsche Club GB forum (2011): valve timing for the 1974-75 930/50 3.0 engine only, no source named. Used only to say what was not found."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-turbo-930-forum/502888-maximum-rpm-for-early-930s.html",
+      "what": "Rennlist 930 forum (2009): owner's belief that 6,800 rpm was the factory maximum for the 3.3. Weak."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-turbo-930-forum/189894-930-stock-ratios.html",
+      "what": "Rennlist 930 forum (Sameer, 7 March 2005): 930 four-speed ratios 2.2500, 1.3043, 0.8928, 0.6250, final drive 4.2220. Forum, agrees with Turbosition."
+    },
+    {
+      "url": "https://rennlist.com/forums/911-forum/131265-firing-order.html",
+      "what": "Rennlist 911 forum (2004): firing order '1 6 2 4 3 5' for a 2.4 911E. Family-level corroboration only."
+    },
+    {
+      "url": "https://gtsparkplugs.com/porsche-911-firing-order",
+      "what": "GT Spark Plugs reference page: 911 firing order 1-6-2-4-3-5 'in all cases', with Turbo distributor rotation listed. Aggregated from the web by its own account; weak."
+    },
+    {
+      "url": "https://custom-concepts.nl/en/product/pauter-connecting-rods-porsche-911-3-2-3-3-3-6-964-set-of-6/",
+      "what": "Custom Concepts listing of Pauter aftermarket rods for the 930 3.3 Turbo and 964 3.6: 127.00 mm centre to centre. Weak source for rod length."
+    },
+    {
+      "url": "https://www.heritagepartscentre.com/us/porsche/930/exhaust.html",
+      "what": "Heritage Parts Centre 930 exhaust parts list: heat exchangers, crossover pipe, intermediate turbo bypass pipe, wastegate dump pipe (1978-1982), rear mufflers by year. Parts catalogue, used for the component list."
+    },
+    {
+      "url": "https://excellence-mag.com/issues/265/articles/addicted-to-the-rush",
+      "what": "Excellence magazine, 'Addicted to the Rush' (Jay Heath, 16 May 2019): 1986 930 power delivery, lag then a rush once boost comes on."
+    },
+    {
+      "url": "https://www.autoexpress.co.uk/car-reviews/38635/porsche-911-turbo-martini",
+      "what": "Auto Express (12 Dec 2008), drive of a 1978 3.3 Turbo Martini: 'extreme turbo lag', 300 bhp."
+    },
+    {
+      "url": "https://www.uniquecarsandparts.com/car_info_porsche_930.htm",
+      "what": "Unique Cars and Parts 930 page: 3.3 bore/stroke, intercooler under the rear spoiler, enlargement to overcome lag. Enthusiast page with errors (6.5:1 for the 3.3); corroboration only."
+    },
+    {
+      "url": "https://stuttcars.com/porsche-911-turbo-3-3-930/",
+      "what": "Stuttcars 911 Turbo 3.3 (930) overview: 930/60, bore, stroke, 7.0:1, 930/34 gearbox, 16 x 7 and 16 x 8 Fuchs wheels, 1300 kg. Enthusiast reference; corroboration only."
+    },
+    {
+      "url": "https://gtsparkplugs.com/porsche-911sc-turbo-firing-order/",
+      "what": "GT Spark Plugs, 'Porsche 911SC Turbo Firing Order': the firing order 1-6-2-4-3-5 for 911 SC and Turbo models, with the distributor rotation as the difference from other 911s. A parts seller's reference page, aggregated from the web; family-level."
+    }
+  ],
+  "notes": "Modelled variant: the 930/60 engine of the 1978 model-year 911 Turbo 3.3 (rest of world, 221 kW / 300 PS), the first 3.3 with the intercooler; see engines/research/porsche_930_60.json. Sourced: 221 kW (300 PS) at 5500 rpm and 412 N m, the intercooler under the rear spoiler from model year 1978 (Porsche newsroom PDF), 412 N m at 4000 rpm (English Wikipedia), maximum charge pressure 0.8 bar (Christophorus spec table for the 930), 3299 cc from bore 97.0 and stroke 74.4 mm and compression 7.0 (German Wikipedia, Supercar Nostalgia, Turbosition; no Porsche document gives them), two valves per cylinder with 49 and 41.5 mm valves (Porsche's 1978-81 technical specification booklet as quoted on Rennlist), a wastegate held by its spring alone with no electronic control (derFix magazine), a bypass valve that recirculates to the compressor inlet and is held open by manifold vacuum (Rennlist owners; no Porsche source). Firing order 1-6-2-4-3-5, sourced at family level only: a spark-plug maker's page for 911 SC and Turbo models says the 911 order is 1-6-2-4-3-5 'in all cases', the difference for those models being the distributor's rotation, and mentions the 930 Turbo; no Porsche document was found. Assumed: Porsche's numbering (1-3 on one bank, 4-6 on the other, 1 opposite 4) and the boxer crank with opposed cylinders on pins 180 degrees apart; engsim pins gives even 120-degree firing. Weak: rod 127.0 mm (aftermarket rods for the 3.3); redline 6800 rpm (an owner's recollection on Rennlist; used as redline and limiter). Turbocharger: KKK 3LDZ per a Porsche parts specialist (FVD) and owners; Supercar Nostalgia says K27; no wheel sizes or maps found. Estimated, not sourced: cam timing (the forum figures for the 930/50 3.0, 20/60/50/18, taken at 1 mm lift) and lifts (10.5 and 10.0 mm), intake runners 0.30 m and the derived plenum, throttle and airbox; heat-exchanger primaries 0.45 m at 41 mm (a parts listing's size), one collector per bank and both banks' pipes 0.55 m into one turbine inlet (the real crossover makes one bank's run longer; the format has one secondary length), idle 900 rpm; turbo sizes derived from match_rpm 4500 (compressor wheel 72.6 mm, turbine nozzle 8.5 cm^2, inertia 1.44e-4 kg m^2), compressor map width with surge at 1/2.0 of design flow (the default 1/1.25 surged at 3500 rpm), wastegate spring cracking at 0.85 bar at the compressor outlet and fully open 0.15 bar above (so manifold boost settles at about 0.78 bar), intercooler effectiveness 0.5, charge pipes 0.7 m (from the compressor low at the tail up to the intercooler) and 0.4 m (down to the throttle) at 55 mm; after the turbine 60 mm pipes, a 90 mm silencer with muffler_zeta 0.3 and a 55 mm tail; heat_q 2.5e6 (mid-range) and friction_scale 1.1 (tuned). The turbine outlet sits at about +46 kPa at 5500 rpm, twice the 20 kPa guidance used for the Audi RR: 70 mm pipes and a 110 mm silencer brought it to +32 kPa but made the turbo spool sooner and moved the torque peak to 3500 rpm, away from Porsche's 4000, so the smaller pipes were kept. Whistle stand-in at the default 1.0 (no road test read describes a 930 whistle). Not modelled: the separate wastegate pipe to its own left-hand tailpipe (Porsche Classic: exhaust 'only came through the left-hand pipe when the turbocharger's boost-pressure control valve was open'); here wastegate gas rejoins the turbine outlet as on an internal gate. Also the overboost fuel-pump cut-out at about 14 psi, K-Jetronic metering and the heat exchangers' heater jackets. Fit (engsim validate, live96): 409 against 412 N m at 4000 rpm (-1%) and 228 against 221 kW at 5500 rpm (+3%). Boost settles at 78 kPa from 4000 rpm and falls to 69 kPa by 6500; 25 kPa at 3000 rpm and 60 at 3500. Power keeps rising past 5500 rpm (260 kW at 6500); no published curve was found to check the shape. Spool: a full-throttle step at 4000 rpm on the dyno reaches 90% of its boost in 2.47 s.",
+  "vehicle": {
+    "name": "Porsche 911 Turbo 3.3 (1978)",
+    "kind": "car",
+    "curb_kg": 1300,
+    "gear_count": 4,
+    "gears": [
+      2.25,
+      1.304,
+      0.893,
+      0.625
+    ],
+    "final_drive": 4.222,
+    "wheel_radius_m": 0.316,
+    "tyre": "225/50 VR 16 (rear)",
+    "top_speed_kmh": 260,
+    "driven": "rear",
+    "notes": "Four-speed manual. Gear ratios 2.250, 1.304, 0.893, 0.625 and final drive 4.222 from Turbosition (a 930 specialist's specification page) and a Rennlist owner's table that agree; no Porsche table was found and no market difference was found. Curb weight 1300 kg (Supercar Nostalgia and Stuttcars, tied to the 1978 change; convention not stated; German Wikipedia gives 1335 kg). Tyres from German Wikipedia: front 205/55 VR 16, rear 225/50 VR 16 (the rear is driven). Top speed 260 km/h (Porsche). Published 0-100 km/h: 5.4 s (Auto Motor und Sport, via English Wikipedia). wheel_radius_m is my calculation from the rear tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius."
+  }
+}

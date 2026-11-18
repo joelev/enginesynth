@@ -1,0 +1,150 @@
+{
+  "name": "porsche_m96_76",
+  "label": "Porsche M96/76 3.6 L \"Mezger\" flat-six (996 GT3)",
+  "generic": false,
+  "family": "flat",
+  "based_on": "Porsche M96/76 3.6 L flat-six, 996 GT3 Mk I, 1999-2001",
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.1,
+  "stroke": 0.0764,
+  "rod": 0.1278,
+  "cr": 11.7,
+  "firing": [
+    0.0,
+    240.0,
+    480.0,
+    360.0,
+    600.0,
+    120.0
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    2
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.041,
+  "ex_valve_d": 0.0355,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 1.0,
+    "ivc": 61.0,
+    "evo": 47.0,
+    "evc": 7.0,
+    "in_lift": 0.0123,
+    "ex_lift": 0.0111
+  },
+  "itb": false,
+  "runner_len": 0.42,
+  "primary_len": [
+    0.65,
+    0.65,
+    0.65,
+    0.65,
+    0.65,
+    0.65
+  ],
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "merge": "x",
+  "redline": 7800.0,
+  "idle": 850.0,
+  "friction_scale": 0.9,
+  "heat_q": 2500000.0,
+  "published": {
+    "power_kw": 265.0,
+    "power_rpm": 7200.0,
+    "torque_nm": 370.0,
+    "torque_rpm": 5000.0
+  },
+  "sources": [
+    {
+      "url": "https://albertweb.de/forum/thread/1606-technical-spezifikations-of-the-porsche-996-gt3/",
+      "what": "Albert Motorsport (Porsche specialist workshop) forum post, 'The Technical specifications of the Porsche 996 GT3', March 2023: a full technical data sheet for the Mk I (engine type M 96/76, 3600 cc, 100 x 76.4 mm, 265 kW / 360 PS DIN at 7200 rpm, 370 N m at 5000 rpm, 11.7:1, VarioCam 25 degrees, dry sump, Motronic M 5.5.5, firing order 1-6-2-4-3-5). Its origin is not named; the figures match Porsche's published data. Read directly."
+    },
+    {
+      "url": "https://rennlist.com/forums/996-gt2-gt3-forum/654860-gt3-mk1-need-original-valve-cam-timing-specifications.html",
+      "what": "Rennlist thread on the 2000 Mk I GT3, September 2011: an administrator's reply quoting technical data in Porsche's wording, valve timing at 1 mm valve travel and zero clearance, cam drive, 25-degree camshaft adjustment, firing order. Document of origin not named. Read directly (the thread page loaded; Rennlist attachments were not used)."
+    },
+    {
+      "url": "https://rennlist.com/forums/4323481-post16.html",
+      "what": "Rennlist post (June 2007) quoting the Porsche 911 GT3 launch brochure text: two-stage resonance induction with a butterfly closed between 2,700 and 5,100 rpm, dry-sump details, rev counter to over 8,000 rpm. Read directly."
+    },
+    {
+      "url": "https://autozine.org/Archive/Porsche/old/996_GT3_original.htm",
+      "what": "Autozine archive review of the original 996 GT3: 100 x 76.4 mm, 360 hp at 7200 rpm, 273 lb ft at 5000 rpm, 11.7:1, titanium rods, '7,800 rpm cut-off', variable inlet timing and two-stage induction. Enthusiast site; read directly."
+    },
+    {
+      "url": "https://rennlist.com/forums/996-gt2-gt3-forum/624869-996-gt3-cylinder-head-difference-and-pictures.html",
+      "what": "Rennlist thread on 996 GT3 heads (2011): administrator quoting what reads as Porsche technical text on the standard GT3 head: 41 mm intake and 35.5 mm exhaust valves, 27.4-degree included angle, 28 mm tappets, 6 mm stems. Mk II era; read directly."
+    },
+    {
+      "url": "https://rennlist.com/forums/996-gt2-gt3-forum/634372-fs-2005-996-gt3-white-black-2.html",
+      "what": "Rennlist sale thread for a 2005 GT3: 'The intake valve lift is 12.3 mm The exhaust valve lift is 11.1 mm', continuously variable inlet timing. Unsourced seller post about the Mk II; read directly."
+    },
+    {
+      "url": "https://www.design911.co.uk/p/forged-steel-conrod-set-of-6-porsche-996-gt3/",
+      "what": "Aftermarket forged rod set for the 996 GT3 Mk I, Mk II and RS: 127.80 mm between centres. Read directly; weak source for the original rod length."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Porsche_996",
+      "what": "Wikipedia, Porsche 996: Mk I GT3 introduced 1999 in all markets except North America, 265 kW; Mk II 280 kW; Mezger crankcase."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_GT3",
+      "what": "Wikipedia, Porsche 911 GT3: the Mezger crankcase (air-cooled 911 dry-sump case with added water jackets, from the 962 and GT1), Mk II 385 N m."
+    },
+    {
+      "url": "https://www.stuttcars.com/porsche-911-gt3-2000-2001/",
+      "what": "Stuttcars Mk I GT3 page: model years 2000-2001, M96/76, 360 bhp at 7200 rpm, 273 lb ft at 5000 rpm, titanium rods. Enthusiast reference with errors elsewhere on the page (brake calipers); used only for years."
+    },
+    {
+      "url": "https://teile.com/pdf/teilecom_en_Catalytic-converter-GT3-MK1-265KW-cyl-1-3-L_996113021EX.pdf",
+      "what": "Parts listing 'Catalytic converter, GT3 MK1 265KW, cyl. 1-3, L': one converter per bank. Search-result title only."
+    }
+  ],
+  "notes": "Modelled variant: the 996 GT3 Mk I engine, type M 96/76, 1999-2001 (not sold in North America). It is chosen because it is the only Mezger GT3 engine for which valve timing in Porsche's own format was found; the later 996 Mk II (381 PS) and the 997 GT3s are not modelled, and none of the 987 Cayman S M97.21 figures are used. Sourced (a Porsche specialist's reproduction of the Mk I technical data sheet): flat-six layout, bore 100 mm, stroke 76.4 mm, 3600 cc, compression 11.7:1, firing order 1-6-2-4-3-5, four valves per cylinder, VarioCam intake cam adjustment of 25 degrees, published 265 kW (360 PS DIN) at 7200 rpm and 370 N m at 5000 rpm. Sourced from a Rennlist post quoting Mk I technical data in Porsche's wording (its document of origin not named): valve timing at 1 mm valve lift, intake opens 1 deg before TDC and closes 61 deg after BDC (quoted as 119 deg before TDC), exhaust opens 47 deg before BDC (quoted as 133 deg after TDC) and closes 7 deg after TDC. Sourced from Porsche's launch brochure text (quoted on Rennlist): a two-stage resonance intake whose butterfly is closed between 2700 and 5100 rpm. Sourced from Autozine's period review: the 7800 rpm cut-off (used as redline and limiter). Not this exact variant, used as stand-ins: valve diameters 41 mm intake and 35.5 mm exhaust (Porsche-style text about the standard 996 GT3 head of the Mk II era) and valve lift 12.3 mm intake and 11.1 mm exhaust (an unsourced post about a 2005 car). Weak: rod length 127.8 mm (an aftermarket replacement rod listed for the Mk I). Assumed: Porsche's usual cylinder numbering (1-3 on one bank, 4-6 on the other, 1 opposite 4) and the usual boxer crank with opposed cylinders on pins 180 deg apart, which gives the sourced order with even 120-degree firing; `engsim pins` confirms that. One exhaust group per bank is from a parts listing of a catalytic converter for cylinders 1-3. Estimated, not sourced: idle 850 rpm (owners report 800 to 900; no Porsche figure found), intake runner length (0.42 m, fitted), runner and throttle diameters, plenum, airbox and snorkel (derived defaults), exhaust primary length (0.65 m, fitted) and diameter, how the two bank pipes join (an X merge, as for the M97.21; not sourced), silencer and tail-pipe dimensions, flywheel inertia, friction_scale 0.9 and heat_q 2.5e6 (mid-range, not pushed). Fit: runner and primary lengths were set so that full-throttle torque at 5000 rpm and power at 7200 rpm sit within 4 percent of published (386 N m and 259 kW at live96). The simulated torque curve is flat from about 5000 to 6000 rpm (about 385 N m) rather than peaking at 5000; Porsche's own curve was not found to check the shape. Not modelled: VarioCam (the format has a two-profile cam switch but no phasing; the sources do not say whether the Mk I system is continuous or two-step, whether the 25 degrees are crank or camshaft degrees, or when it moves, so one fixed profile is used, the published timing in whatever position it was quoted); the resonance flap (one fixed runner length, so one intake resonance instead of two; the format has no variable intake); the catalytic converters separately from the silencer; dry-sump scavenging, which moves no gas.",
+  "vehicle": {
+    "name": "Porsche 911 GT3 (996 Mk I, 1999)",
+    "kind": "car",
+    "curb_kg": 1350,
+    "gear_count": 6,
+    "gears": [
+      3.82,
+      2.15,
+      1.56,
+      1.21,
+      0.97,
+      0.82
+    ],
+    "final_drive": 3.44,
+    "wheel_radius_m": 0.308,
+    "tyre": "285/30 ZR 18 (rear)",
+    "top_speed_kmh": 302,
+    "notes": "Six-speed manual (G96/90). Top speed from Porsche. Curb weight, gear ratios, final drive and tyre from secondary sources only (Stuttcars, a specialist's forum post); no Porsche table was reachable. Sources disagree on 6th (0.82 or 0.83). Estimated: rolling radius from the tyre size.",
+    "driven": "rear"
+  }
+}

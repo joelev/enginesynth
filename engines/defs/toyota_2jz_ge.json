@@ -1,0 +1,106 @@
+{
+  "name": "toyota_2jz_ge",
+  "label": "Toyota 2JZ-GE 3.0 L straight-six",
+  "generic": false,
+  "family": "six",
+  "based_on": "Toyota 2JZ-GE without VVT-i, 1991-1997 (Supra, Aristo/GS 300, SC 300)",
+  "layout": "inline",
+  "bore": 0.086,
+  "stroke": 0.086,
+  "rod": 0.142,
+  "cr": 10.0,
+  "firing": [
+    0,
+    480,
+    240,
+    600,
+    120,
+    360
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.0335,
+  "ex_valve_d": 0.029,
+  "cam": {
+    "at_lift": 0,
+    "ivo": 3,
+    "ivc": 50,
+    "evo": 53,
+    "evc": 3,
+    "in_lift": 0.00826,
+    "ex_lift": 0.00841
+  },
+  "runner_len": 0.38,
+  "primary_len": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "merge": "x",
+  "redline": 6800,
+  "idle": 700,
+  "friction_scale": 1.1,
+  "heat_q": 2400000,
+  "published": {
+    "power_kw": 162,
+    "power_rpm": 5800,
+    "torque_nm": 279,
+    "torque_rpm": 4800
+  },
+  "sources": [
+    {
+      "url": "https://australiancar.reviews/?p=52383",
+      "what": "Australian Car Reviews technical article on the 2JZ-GE: block, head, valve sizes and lift, valve timing tables for non-VVT-i and VVT-i, intake (ACIS), exhaust, firing order. Detailed secondary source that reads like a digest of Toyota's new-car features documents; no primary citation given."
+    },
+    {
+      "url": "https://www.toyota-supra.de/repair-manual/a80/service-specifications/engine-mechanical-2jz-ge",
+      "what": "Online copy of the Toyota Supra (A80) repair manual service specifications for the 2JZ-GE: idle speed, cam lobe height, bore, journal diameters."
+    },
+    {
+      "url": "https://personal.tcu.edu/blucas/carstuff/supra/misc/Supra1997Manual/Torque%20&%20Service%20Specifications.pdf",
+      "what": "PDF copy of the 1997 Toyota Supra repair manual torque and service specifications; cross-check for idle speed."
+    },
+    {
+      "url": "https://tractortechspecs.com/toyota_2jz_ge_specs.html",
+      "what": "Third-party spec page: power and torque ratings by version, firing order, valve and cam lobe dimensions. Secondary; figures agree with the two sources above where they overlap."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Toyota_JZ_engine",
+      "what": "Wikipedia JZ article: variant overview and output range."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, firing order, valve diameters, valve lifts, valve events (3/50/53/3), idle, published output (lowest of the non-VVT-i ratings), two three-cylinder exhaust manifolds. The source does not say at what lift the valve events are measured; they are used as seat-to-seat figures (at_lift 0), which is an assumption. The firing order source does not say which end is cylinder 1; a 120-degree crank and manifolds for cylinders 1-3 and 4-6 are assumed. Estimated, not sourced: rod length (142 mm, seen only on aftermarket listings), redline, intake runner length, exhaust primary length, friction_scale and heat_q (tuned). Everything else is left to the derived defaults (runner and throttle diameters, plenum, pipes, mufflers, flywheel). Not modelled: the two-stage ACIS intake (one fixed runner length is used).",
+  "vehicle": {
+    "name": "Toyota Supra non-turbo five-speed (JZA80, US, 1993)",
+    "kind": "car",
+    "curb_kg": 1479,
+    "gear_count": 5,
+    "gears": [
+      3.285,
+      1.894,
+      1.275,
+      1.0,
+      0.783
+    ],
+    "final_drive": 4.272,
+    "wheel_radius_m": 0.3257,
+    "tyre": "245/50 ZR16",
+    "notes": "Curb weight (3260 lb, converted) and tyres are from The Auto Channel's period review of a 1993 non-turbo five-speed (220 hp at 5800 rpm). No Toyota source was found for the gear ratios (W58 box; Wikipedia) or the final drive (4.272 for 1993-96 US cars; a Supra tuner's differential table). No top speed found. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "rear"
+  }
+}

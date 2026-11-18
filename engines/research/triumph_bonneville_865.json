@@ -1,0 +1,398 @@
+{
+  "id": "triumph_bonneville_865",
+  "name": "Triumph Bonneville 865 air-cooled DOHC parallel twin, 360-degree crank (Bonneville T100 / Thruxton, 2005-2015; main figures are the carburetted T100)",
+  "induction": "naturally aspirated",
+  "summary": "Both pistons rise and fall together and the cylinders fire alternately one crank revolution apart, so the exhaust pulses are evenly spaced at 360 degrees: the classic smooth British-twin drone rather than the loping beat of the 270-degree versions. Each cylinder has its own header and silencer, joined by a balance pipe between the headers.",
+  "fields": {
+    "variant": {
+      "value": "carburetted Bonneville T100 865 (twin Keihin CVK 36); Thruxton and EFI figures given as *_thruxton / *_efi fields",
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "The cam timing, valve and limiter data are from the carburetted-model service manual. Carburettors were used through 2007, EFI from 2008 (UK) / 2009 (US) per https://en.wikipedia.org/wiki/Triumph_Bonneville ('Through 2007, all engines had carburettors'). No EFI-era service manual was opened, so cam data for EFI engines is not confirmed."
+    },
+    "cylinders": {
+      "value": 2,
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Twin Cylinder 8 Valve DOHC'."
+    },
+    "layout": {
+      "value": "inline (transverse parallel twin)",
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Arrangement ... Transverse In-line'."
+    },
+    "bank_angle_deg": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not applicable (inline)."
+    },
+    "bore_mm": {
+      "value": 90.0,
+      "unit": "mm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Bore x Stroke ... 90mm x 68mm'. Cylinder bore dia. on p. 1.27: 89.991 to 90.009 mm (std). Same 90 x 68 mm in the 2013 owner's handbook (https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf)."
+    },
+    "stroke_mm": {
+      "value": 68.0,
+      "unit": "mm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Bore x Stroke ... 90mm x 68mm'."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not in the service manual spec tables (pp. 1.26-1.27 list journal and small-end diameters only). A search snippet for an aftermarket rod (Spool Imports PSR5523, 'Bonneville Twin 2000 and up') showed 121.51 mm centre-to-centre, but the page (https://www.spoolimports.com/psr5523) returned errors and was never opened, so it is NOT recorded as a value."
+    },
+    "compression_ratio": {
+      "value": 9.2,
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Compression Ratio ... 9.2 : 1' (same for Thruxton, p. 1.31). DISAGREEMENT: the 2013 owner's handbook for EFI models (https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf, p. 109/111) prints '10.2:1' for Bonneville, T100 and Thruxton and '9.2:1' only for the Scrambler. The carb-era owner's handbook on ManualsLib (https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=93) gives 9.2:1. Unknown whether EFI engines really differ or the handbook is in error."
+    },
+    "displacement_cc": {
+      "value": 865,
+      "unit": "cc",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Displacement ... 865cc'."
+    },
+    "firing_order": {
+      "value": "1-2",
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. Verbatim: 'Cylinder Numbering ... Left to Right', 'Firing Order ... 1-2', 'Firing Angle ... 360°'. So cylinder 1 is the left cylinder (rider's left), cylinder 2 the right. Same wording in the 2013 owner's handbook (https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf)."
+    },
+    "crank": {
+      "value": "360-degree crank: both crank pins in line (0 degrees apart), pistons move together; balance shafts fitted",
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. Verbatim: 'Firing Angle ... 360°' for the Bonneville T100 (the Speedmaster column on the same page reads '270°'; p. 1.31 gives Thruxton '360°', Scrambler '270°'). Manual section 6 is titled 'Crankshaft/Rods/Balancers'. The manual states the firing angle, not the pin angle; pins-in-line is the standard meaning of a 360-degree twin, described at https://en.wikipedia.org/wiki/Straight-twin_engine: 'In an engine with a 360 degree crankshaft, both pistons move up and down at the same time.' Also https://en.wikipedia.org/wiki/Triumph_Bonneville_T100: '865 cc ... air-cooled, DOHC, parallel-twin, 360°'. NOTE: the 2013 owner's handbook (https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf, p. 109) prints '360° firing angle' for Bonneville/SE but '270° firing angle' in the T100 column, which contradicts the service manual, Triumph's own press specs (https://www.totalmotorcycle.com/motorcycles/2012models/2012-Triumph-Bonneville.htm: 'Air-cooled, DOHC, parallel-twin, 360º firing interval') and Wikipedia; treated as a handbook table error."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        360,
+        360
+      ],
+      "unit": "crank degrees",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. Verbatim: 'Firing Angle ... 360°' with 'Firing Order ... 1-2'. Even spacing: cyl 1 (left), 360 degrees later cyl 2 (right), 360 degrees later cyl 1. Corroborated by https://en.wikipedia.org/wiki/Straight-twin_engine: 'This set up results an even 360 degree firing interval'."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Twin Cylinder 8 Valve DOHC'. Bucket tappets ('Tappet Bucket Dia.')."
+    },
+    "intake_valve_dia_mm": {
+      "value": 31.0,
+      "unit": "mm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Valve Head Dia. In. 31.0 mm'. Same for Thruxton (p. 1.31)."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 26.0,
+      "unit": "mm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Valve Head Dia. Ex. 26.0 mm'."
+    },
+    "intake_lift_mm": {
+      "value": 9.5,
+      "unit": "mm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Valve Lift In. 9.5 mm'. Stated as valve lift (direct-acting buckets). Same for Thruxton."
+    },
+    "exhaust_lift_mm": {
+      "value": 9.4,
+      "unit": "mm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Valve Lift Ex. 9.4 mm'."
+    },
+    "intake_duration_deg": {
+      "value": 232,
+      "unit": "crank degrees",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Duration 232°', measured at 1.0 mm lift (4 + 180 + 48 = 232)."
+    },
+    "exhaust_duration_deg": {
+      "value": 220,
+      "unit": "crank degrees",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Duration 220°', measured at 1.0 mm lift (33 + 180 + 7 = 220)."
+    },
+    "ivo_btdc": {
+      "value": 4,
+      "unit": "crank degrees",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. Verbatim: 'Valve Timing Inlet ... Open 4° BTDC (@ 1.0 mm Lift)'."
+    },
+    "ivc_abdc": {
+      "value": 48,
+      "unit": "crank degrees",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. Verbatim: 'Close 48° ABDC (@ 1.0 mm Lift)'."
+    },
+    "evo_bbdc": {
+      "value": 33,
+      "unit": "crank degrees",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. Verbatim: 'Exhaust Open 33° BBDC (@ 1.0 mm Lift)'."
+    },
+    "evc_atdc": {
+      "value": 7,
+      "unit": "crank degrees",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. Verbatim: 'Close 7° ATDC (@ 1.0 mm Lift)'."
+    },
+    "cam_timing_thruxton": {
+      "value": {
+        "ivo_btdc": 6,
+        "ivc_abdc": 50,
+        "intake_duration_deg": 235,
+        "evo_bbdc": 33,
+        "evc_atdc": 8,
+        "exhaust_duration_deg": 221
+      },
+      "unit": "crank degrees at 1.0 mm lift",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Same manual p. 1.31, column 'Thruxton' (360°). Verbatim: 'Inlet ... Open 6° BTDC (@ 1.0 mm Lift) Close 50° ABDC (@ 1.0 mm Lift) Duration 235°; Exhaust Open 33° BBDC (@ 1.0 mm Lift) Close 8° ATDC (@ 1.0 mm Lift) Duration 221°'. Lift and valve sizes are the same as the T100 (9.5/9.4 mm, 31.0/26.0 mm). 6+180+50 = 236, so the printed 235 is off by one."
+    },
+    "valve_clearance_mm": {
+      "value": {
+        "intake": "0.15-0.20",
+        "exhaust": "0.25-0.30"
+      },
+      "unit": "mm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Valve Clearance In. 0.15 to 0.20 mm, Ex. 0.25 to 0.30 mm'."
+    },
+    "redline_rpm": {
+      "value": 8000,
+      "unit": "rpm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Same manual p. 1.28: 'Electronic Rev-Limiter ... 8000 rpm'. This is the ignition limiter, not a tachometer red-zone figure; the owner's handbook mentions a red zone without giving a number."
+    },
+    "idle_rpm": {
+      "value": 1000,
+      "unit": "rpm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Same manual p. 1.28: 'Idle Speed ... 1000 ±50 rpm'."
+    },
+    "peak_power_kw": {
+      "value": 47.1,
+      "unit": "kW",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Max. Power (DIN 70020) ... 64PS @ 7250 RPM'; 64 PS x 0.7355 = 47.1 kW (converted). Carburetted T100."
+    },
+    "peak_power_rpm": {
+      "value": 7250,
+      "unit": "rpm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. '64PS @ 7250 RPM'."
+    },
+    "peak_torque_nm": {
+      "value": 68,
+      "unit": "Nm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. 'Max. Torque ... 68Nm @ 6000 RPM'."
+    },
+    "peak_torque_rpm": {
+      "value": 6000,
+      "unit": "rpm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Triumph factory service manual (carburetted models, 2006 scan), General Information p. 1.26, column '865 cc Bonneville T100'. '68Nm @ 6000 RPM'."
+    },
+    "peak_power_kw_thruxton": {
+      "value": 51.5,
+      "unit": "kW",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Same manual p. 1.31, carburetted Thruxton: 'Max. Power (DIN 70020) ... 70PS @ 7250 RPM' (70 x 0.7355 = 51.5 kW, converted); 'Max. Torque ... 72Nm @ 5750 RPM'."
+    },
+    "peak_torque_nm_thruxton": {
+      "value": 72,
+      "unit": "Nm",
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Same manual p. 1.31: '72Nm @ 5750 RPM'."
+    },
+    "peak_power_kw_efi": {
+      "value": 50.0,
+      "unit": "kW",
+      "source": "https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf",
+      "note": "2013 Triumph owner's handbook (publication 3851479 issue 1, EFI models), p. 109: Bonneville/SE and T100 'Maximum Power (95/1/EC) 68 PS @ 7,400 rpm' (68 x 0.7355 = 50.0 kW, converted); Thruxton '69 PS @ 7,400 rpm'. Triumph 2012 press specs at https://www.totalmotorcycle.com/motorcycles/2012models/2012-Triumph-Bonneville.htm give '68PS / 67bhp / 50 kW @ 7500rpm' (100 rpm different)."
+    },
+    "peak_torque_nm_efi": {
+      "value": 68,
+      "unit": "Nm",
+      "source": "https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf",
+      "note": "Same handbook p. 109: '68 Nm @ 5,800 rpm' (Thruxton '69 Nm @ 5,800 rpm')."
+    },
+    "intake_type": {
+      "value": "one carburettor per cylinder: twin Keihin CVK 36 constant-velocity carburettors (2005-2007); sequential electronic fuel injection with throttle bodies on 2008-on",
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Service manual p. 1.29: 'Carburettors Type ... Keihin CVK 36', main jet 110, pilot jet 40, needle NBZT (T100). EFI: 2013 handbook (https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf) p. 113 'Sequential electronic fuel injection'."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "No stated bore measurement found. The carburettor designation 'Keihin CVK 36' implies a nominal 36 mm bore, but that is an inference from the name, not a quoted dimension. EFI throttle body bore not found."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": "2-into-2: one header pipe and one silencer per cylinder (one each side), with a balance pipe clamped between the two headers",
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Service manual p. 9.46, 'Header pipes - Bonneville, Bonneville T100 & Thruxton'. Verbatim: 'Slacken the clamp securing the header balance pipes together' and 'Fit both header pipes, joining the balance pipe whilst locating both headers correctly in the cylinder head ports'."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not in the manual. A vendor page (Norman Hyde, https://normanhyde.co.uk/?p=6144) says its 42 mm OD pipes fit 'earlier pre-injection Bonnevilles fitted with 38mm headers', which suggests 38 mm carb-era headers; parts-vendor statement, not recorded as a value."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "Separate header and silencer each side, balance pipe between headers near the engine. T100: 'peashooter' silencers; base Bonneville 2009-on: upswept megaphones; Thruxton: reverse-cone megaphones. EFI models add catalysts and secondary air injection.",
+      "unit": null,
+      "source": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "note": "Balance pipe: service manual p. 9.46. Silencer styles: https://en.wikipedia.org/wiki/Triumph_Bonneville ('twin \"peashooter\" exhausts'; 'up-swept megaphone exhaust silencers'). Catalysts: 2013 handbook (https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf) p. 113 'Twin oxidation catalysts and pre-catalysts, with secondary air injection'. Silencer internal dimensions not found."
+    }
+  },
+  "missing": [
+    "rod_length_mm (only an unopened aftermarket listing suggests ~121.5 mm)",
+    "throttle_dia_mm (only the CVK 36 designation)",
+    "runner_length_mm",
+    "runner_dia_mm",
+    "primary_dia_mm",
+    "primary_length_mm",
+    "exhaust_pipe_dia_mm",
+    "balance pipe diameter and position",
+    "silencer dimensions",
+    "tachometer redline (only the 8000 rpm rev limiter was found)",
+    "cam timing and compression ratio confirmed for EFI (2008-on) engines",
+    "balance shaft details"
+  ],
+  "sources": [
+    {
+      "url": "https://www.motorcyclemanuals.info/files/Motocycles%20%26%20ATVs/Triumph/Triumph%20America_Bonneville_Bonneville%20T100_Speedmaster_Thruxton_Scrambler%202006%20Service%20Manual.rar",
+      "what": "Scan of the Triumph factory service manual for carburetted Bonneville, T100, America, Speedmaster, Thruxton and Scrambler (listed by the host as the 2006 service manual; 482 pages, RAR containing one PDF). Hosted on a third-party manuals mirror, but it is Triumph's own document. Pages read as images: 1.26-1.29 (865 cc T100/Speedmaster full specification), 1.31 (Scrambler/Thruxton), 9.46 (header pipes). Primary source for geometry, valves, cam timing, limiter, carburettors, balance pipe."
+    },
+    {
+      "url": "https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf",
+      "what": "Triumph owner's handbook for Bonneville, Bonneville SE, T100, Thruxton, Scrambler (EFI models), publication 3851479 issue 1, copyright 06.2013, hosted on triumphmotorcycles.co.uk. Specifications pp. 109-113. Manufacturer document, but its T100 column prints a 270° firing angle and it gives 10.2:1 compression, both at odds with other sources."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=93",
+      "what": "Carburettor-era Triumph Bonneville owner's handbook on ManualsLib (104 pages), page 93: T100 865 cc, 64 PS @ 7,250 rpm, 68 Nm @ 6,000 rpm, 9.2:1, left to right, firing order 1-2. Read through a text extraction; used only as corroboration."
+    },
+    {
+      "url": "https://www.totalmotorcycle.com/motorcycles/2012models/2012-Triumph-Bonneville.htm",
+      "what": "Total Motorcycle reprint of Triumph's 2012 Bonneville press specifications: '360º firing interval', 90 x 68 mm, 68PS/50 kW @ 7500 rpm, 68 Nm @ 5800 rpm."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Triumph_Bonneville_T100",
+      "what": "Wikipedia, Triumph Bonneville T100: infobox lists the 865 cc engine as a 360° parallel twin, 90 x 68 mm."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Triumph_Bonneville",
+      "what": "Wikipedia, Triumph Bonneville: carburettor/EFI changeover years and silencer styles."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Straight-twin_engine",
+      "what": "Wikipedia, Straight-twin engine: general description of 360-degree and 180-degree crank behaviour and firing intervals."
+    },
+    {
+      "url": "https://www.webcamshafts.com/pages_vehicles/motorcycle/triumph/2653.html",
+      "what": "Web Cam aftermarket cam listing titled 'Triumph Bonneville 865 (T 100) (360°) DOHC 8v'. Performance grinds only, no stock data; used only as another '360°' label, no values taken."
+    }
+  ],
+  "vehicle": {
+    "name": "Triumph Bonneville T100, carburetted 865 cc (2005)",
+    "chosen_because": "The engine definition is the carburetted T100 865 cc (2005-2007); 2005 is the first year of the 865 cc T100.",
+    "fields": {
+      "curb_kg": {
+        "value": 216,
+        "unit": "kg",
+        "source": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=93",
+        "quote": "Dry weight [T100] 200 kg; Dry Fill 4.5 litres; Tank Capacity 16.6 Litres (?page=96)",
+        "note": "Estimate, my calculation: 200 + 16.6 x 0.74 + 4.5 x 0.88 = about 216 kg. Carburettor-era owner's handbook on ManualsLib (covers 790 cc Bonneville/America and 865 cc T100/Thruxton/Speedmaster, no year printed; fits 2005-06). Read through a helper's text-extraction tool, not page images; ManualsLib refuses direct downloads. Conflicts: Triumph's 2005 press spec says 'Weight (Dry) 205kg (451lbs)' (https://www.totalmotorcycle.com/photos/2005models/2005models-Triumph-BonnevilleT100); the 2013 EFI T100 handbook says 'Wet Weight ... 230 kg' (https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf, p109)."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=97",
+        "quote": "5 Speed, Constant Mesh"
+      },
+      "gears": {
+        "value": [
+          2.7333,
+          1.9474,
+          1.5455,
+          1.2917,
+          1.0741
+        ],
+        "source": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=97",
+        "quote": "1st 2.73:1 (41/15), 2nd 1.95:1 (37/19), 3rd 1.55:1 (34/22), 4th 1.29:1 (31/24), 5th 1.07:1 (29/27)",
+        "note": "T100 column, printed p96. Cross-checked exactly against Triumph's own later EFI T100 handbook (https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf, PDF p114: '1st ... 2.73:1 (41/15)' ... '5th ... 1.07:1 (29/27)')."
+      },
+      "final_drive": {
+        "value": 4.1613,
+        "source": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=97",
+        "quote": "Primary Drive Ratio 1.74:1 (62/108); Final Drive Ratio 2.39:1 (18/43)",
+        "note": "T100 column (the 790 cc Bonneville has 17/43). My calculation: (108/62) x (43/18). Identical in the EFI handbook, PDF p114 ('1.74:1 (62/108)', '2.39:1 (18/43)')."
+      },
+      "tyre": {
+        "value": "130/80-17",
+        "source": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=97",
+        "quote": "Rear Metzeler ME Z2 130/80-R17",
+        "note": "Rider's 2005 T100 road test agrees: '130/80R-17 MEZ2 in the rear' (https://ridermagazine.com/2005-triumph-bonneville-t100-road-test/)."
+      },
+      "wheel_radius_m": {
+        "value": 0.3199,
+        "unit": "m",
+        "source": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html?page=97",
+        "note": "My calculation, not published: unloaded geometric radius from the nominal size (rim diameter / 2 + section width x aspect ratio). The loaded rolling radius is a few percent smaller."
+      }
+    },
+    "missing": [
+      "top_speed_kmh: no Triumph figure and no period measured figure found. Looked in Rider's 2005 road test, Ultimate Motorcycling's 2005 review and Motorcyclist's 2005 review; MCN (HTTP 402) and bikesales (403) refused automated access. Wikipedia's '115 mph (est.)' and Motoplanete's 'environ 180 km/h' are estimates, not used."
+    ],
+    "sources": [
+      {
+        "url": "https://www.manualslib.com/manual/538503/Triumph-Bonneville.html",
+        "what": "Triumph Bonneville / T100 / Thruxton / Speedmaster owner's handbook, carburettor era, on ManualsLib (pp.93-97): weights, capacities, gearing, tyres."
+      },
+      {
+        "url": "https://www.triumphmotorcycles.co.uk/media-library/BC89FF86FC554E9A96862EBF62A748BC.pdf",
+        "what": "Triumph's own owner's handbook for the later fuel-injected Bonneville / T100 (2013 print): cross-check only; gearing identical."
+      },
+      {
+        "url": "https://www.totalmotorcycle.com/photos/2005models/2005models-Triumph-BonnevilleT100",
+        "what": "Totalmotorcycle reprint of Triumph's 2005 T100 press specification: dry weight conflict (205 kg)."
+      }
+    ]
+  }
+}

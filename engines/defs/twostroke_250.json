@@ -1,0 +1,57 @@
+{
+  "name": "twostroke_250",
+  "label": "250 cc two-stroke single, expansion chamber",
+  "kind": "two_stroke",
+  "layout": "inline",
+  "bore": 0.0664,
+  "stroke": 0.072,
+  "rod": 0.125,
+  "cr": 12.5,
+  "firing": [
+    0.0
+  ],
+  "generic": true,
+  "family": "two-stroke",
+  "notes": "Invented motocross-style single. Port timings, port areas, crankcase ratio and pipe dimensions are typical values chosen by Claude, not taken from any engine.",
+  "itb": true,
+  "runner_len": 0.12,
+  "runner_d": 0.038,
+  "ex_port_open": 84.0,
+  "tr_port_open": 116.0,
+  "port_ex_area": 0.0014,
+  "tr_port_area": 0.0016,
+  "port_in_area": 0.0014,
+  "induction": "reed",
+  "crankcase_cr": 1.5,
+  "chamber": [
+    [
+      0.13,
+      0.044,
+      0.046
+    ],
+    [
+      0.5,
+      0.046,
+      0.125
+    ],
+    [
+      0.16,
+      0.125,
+      0.125
+    ],
+    [
+      0.22,
+      0.125,
+      0.027
+    ],
+    [
+      0.22,
+      0.027,
+      0.027
+    ]
+  ],
+  "redline": 9200.0,
+  "idle": 1500.0,
+  "inertia": 0.012,
+  "friction_scale": 0.6
+}

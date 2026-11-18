@@ -1,0 +1,170 @@
+{
+  "name": "gm_ls9",
+  "label": "GM LS9 6.2 L V8, supercharged (Corvette ZR1, Eaton R2300)",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.10325000000000001,
+  "stroke": 0.092,
+  "rod": 0.1549,
+  "cr": 9.1,
+  "firing": [
+    0.0,
+    270.0,
+    630.0,
+    540.0,
+    450.0,
+    360.0,
+    180.0,
+    90.0
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.055,
+  "ex_valve_d": 0.0404,
+  "cam": {
+    "at_lift": 0.002159,
+    "ivo": -17.0,
+    "ivc": 48.0,
+    "evo": 57.5,
+    "evc": -7.5,
+    "in_lift": 0.0141,
+    "ex_lift": 0.0141
+  },
+  "itb": false,
+  "throttle_d": 0.087,
+  "runner_len": 0.2,
+  "runner_d": 0.052,
+  "plenum_vol": 0.0025,
+  "primary_len": [
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "primary_d": 0.045,
+  "groups": [
+    [
+      0,
+      2,
+      4,
+      6
+    ],
+    [
+      1,
+      3,
+      5,
+      7
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 0.9,
+  "secondary_d": 0.076,
+  "mid_len": 0.9,
+  "mid_d": 0.076,
+  "tail_d": 0.076,
+  "snorkel_d": 0.11,
+  "redline": 6600.0,
+  "idle": 650.0,
+  "generic": false,
+  "family": "V8",
+  "based_on": "GM LS9 6.2 L supercharged V8, Chevrolet Corvette ZR1 (C6, 2009-2013)",
+  "boost": {
+    "kind": "roots",
+    "induction": "supercharged (Eaton R2300 Roots blower, intercooled)",
+    "displacement": 0.002296,
+    "drive_ratio": 2.32,
+    "rotors": 2,
+    "lobes": 4,
+    "helix": 160,
+    "throttle": "before",
+    "port_area": 0.0039,
+    "bypass": {},
+    "intercooler": {
+      "d": 0.1
+    }
+  },
+  "published": {
+    "power_kw": 476,
+    "power_rpm": 6500,
+    "torque_nm": 819,
+    "torque_rpm": 3800
+  },
+  "sources": [
+    {
+      "url": "https://www.conceptcarz.com/w14765/chevrolet-corvette-zr1.aspx",
+      "what": "GM's 2008 LS9 engine release reposted on conceptcarz.com: bore, stroke, compression, valves, lift, throttle, supercharger, charge cooler, preliminary torque curve, gearbox."
+    },
+    {
+      "url": "https://corvettestory.com/2009-Corvette-C6-ZR1-LS9-Engine-Supercharger-Four-Lobbed-Rotor-Horsepower-Torque-Curves-Gas-Guzzler-Tax-Specifications-Performance-Pricing-2.php",
+      "what": "Corvette: Year by Year (corvettestory.com) ZR1 LS9 page with GM's specification table: final ratings and their speeds, fuel shut-off, boost, pulley ratio, rotor speed."
+    },
+    {
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/compact-powerhouse-inside-corvette-z06-lt4-engine.html",
+      "what": "GM's 2015 LT4 release reposted on Corvette Action Center, with a table comparing the LT4 and LS9 superchargers (type, displacement, helix, rotor size, drive ratio, maximum speed and boost)."
+    },
+    {
+      "url": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+      "what": "GM's preliminary 2009 ZR1 specification table (Corvette Action Center): gear ratios, final drive, tyres, curb weight (est)."
+    },
+    {
+      "url": "https://corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press5.html",
+      "what": "GM's 2009 ZR1 press kit, LS9 page (Corvette Action Center): ZR1-specific gearing, charge cooler, air inlet at the front of the supercharger."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/General_Motors_LS-based_small-block_engine",
+      "what": "Wikipedia, GM LS-based small-block engine: family firing order."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Crossplane",
+      "what": "Wikipedia, Crossplane: per-bank interval pattern."
+    },
+    {
+      "url": "https://xlr-net.com/knowledgebase/print.php?id=62",
+      "what": "GM TechLink 'Supercharging Explained' reposted: upstream throttle body in GM's North American supercharger applications (generic)."
+    }
+  ],
+  "notes": "Supercharged (Eaton R2300 TVS Roots blower, throttle before it, liquid-to-air charge cooler); see engines/research/gm_ls9.json. Sourced (GM's LS9 release, GM's spec table on corvettestory.com, and the LS9 column of GM's LT4 release): bore 103.25 mm, stroke 92 mm, compression 9.1, one 55 mm intake and one 40.4 mm exhaust valve, 14.1 mm lift on both, 87 mm throttle, 6,600 rpm fuel shut-off (the limiter), 638 hp at 6,500 rpm and 604 lb-ft at 3,800; blower 2,296 cc per revolution, two four-lobe rotors with a 160 degree helix, drive ratio 2.32; two charge-cooler bricks. Shared with the LS3 (same bore and stroke, L92-type heads, LS3 rockers per GM): layout, cross-plane crank, family firing order 1-8-7-2-6-5-4-3 (Wikipedia gives it for the LS family; no LS9-specific statement found) and bank numbering, rocker ratio 1.7. Conflicts: boost 10.5 psi in the LS9 release against 9.7 psi in the LT4 release's table (10.5 used as the check; the model peaks at about 11 psi near 3,800 rpm and falls to about 8.7 at 6,500); the preliminary release's torque of 585 lb-ft at about 4,000 rpm against the final 604 at 3,800 (final used). Inferred: throttle before the blower (the release says only that the air inlet is at the front of the supercharger; GM TechLink says GM's North American supercharger applications use an upstream throttle body); no variable valve timing (the LT4 release calls its VVT new). Estimated, not sourced: cam durations and centrelines (211/230 degrees at 0.050 in lifter rise, 122.5 degree lobe separation, centred, taken from search excerpts of a Chevrolet Performance part listing that was not opened), rod length (the LS3's 154.9 mm; the LS9's are titanium, length not found), idle 650, intake runner length 0.2 m (from the blower-and-cooler case down to the ports; no figure found), plenum under the bricks 2.5 L, snorkel diameter 0.11 m, exhaust primaries as the LS3's estimate, 76 mm pipes after the merge, and everything left to the derived defaults. Blower internals estimated: port area 39 cm^2 per pocket (1.5 times the derived default; tuned, together with the snorkel, intercooler and pipe diameters, to bring power at 6,500 rpm from -15% to within a few percent), clearance leakage, carry-back, mechanical efficiency and shaft drag left to the derived defaults, a bypass valve with derived settings (none is mentioned in the LS9 pages read), charge cooler with derived volume and effectiveness and an equivalent pressure-loss diameter of 0.1 m. friction_scale and heat_q are at their defaults (1.0, 2.5e6). Not modelled: knock-limited spark retard, heating of the charge by the blower case, sound radiated by the blower housing, the dry sump.",
+  "vehicle": {
+    "name": "Chevrolet Corvette ZR1 (C6, 2009)",
+    "kind": "car",
+    "curb_kg": 1519,
+    "gear_count": 6,
+    "gears": [
+      2.29,
+      1.61,
+      1.21,
+      1.0,
+      0.81,
+      0.67
+    ],
+    "final_drive": 3.42,
+    "wheel_radius_m": 0.3378,
+    "tyre": "P335/25ZR20",
+    "notes": "Tremec TR6060 six-speed manual with ZR1-specific ratios and a 3.42 final drive, from GM's preliminary 2009 ZR1 specification table (manual only). Curb weight 3,350 lb is that table's estimate. wheel_radius_m is my calculation from the rear tyre size (unloaded radius). Top speed (205 mph) omitted: the final drive is sourced.",
+    "driven": "rear"
+  }
+}

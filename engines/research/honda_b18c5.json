@@ -1,0 +1,132 @@
+{
+  "id": "honda_b18c5",
+  "name": "Honda B18C5 (Acura Integra Type R, US, 1997-2001), with cam timing taken from Honda's data for the JDM B18C 96 spec.R (Integra Type R, 1995)",
+  "induction": "naturally aspirated",
+  "summary": "High-revving 1.8 L DOHC VTEC inline-four that switches from mild low-speed cam lobes to a long-duration, high-lift lobe at about 5700 rpm, giving an abrupt change in intake and exhaust note, and then runs on to an 8400 rpm redline through a single-runner intake and a 4-2-1 header.",
+  "fields": {
+    "cylinders": {"value": 4, "unit": "count", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain"},
+    "layout": {"value": "inline", "unit": null, "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "Transverse inline-four, DOHC, belt-driven cams (belt drive per https://www.honda.co.jp/sportscar/vtec_history/B18C/)."},
+    "bore_mm": {"value": 81.0, "unit": "mm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "Honda Japan press information, same bore and stroke for B18C and B18C 96 spec.R."},
+    "stroke_mm": {"value": 87.2, "unit": "mm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html"},
+    "displacement_cc": {"value": 1797, "unit": "cc", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html"},
+    "rod_length_mm": {"value": 137.9, "unit": "mm", "source": "https://en.wikipedia.org/wiki/Honda_B_engine", "note": "Wikipedia B18C5 entry (rod/stroke 1.58); the figure carries no citation there. Not found in a Honda document."},
+    "compression_ratio": {"value": 10.6, "unit": ":1", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "US B18C5 per Honda's 2001 press release. The JDM B18C 96 spec.R is 11.1 (https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html)."},
+    "firing_order": {"value": "1-3-4-2", "unit": null, "source": "https://acura-specs.pages.dev/integra/1994-2001/1.8l-engine/specs", "note": "Third-party spec aggregator covering the 1994-2001 Integra 1.8 L engines generally, not a Honda document. The page does not state the cylinder numbering convention (which end is No. 1); that is unconfirmed. Single bank."},
+    "valves_per_cylinder": {"value": 4, "unit": "count", "source": "https://www.honda.co.jp/sportscar/vtec_history/B18C/", "note": "2 intake, 2 exhaust."},
+    "intake_valve_dia_mm": {"value": 33.0, "unit": "mm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "33 mm x 2, same diameter as base B18C; Type R valve has a thinner stem and 0.5 mm less margin thickness."},
+    "intake_lift_mm_high": {"value": 11.5, "unit": "mm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "Valve lift on the high-speed (VTEC) cam, JDM B18C 96 spec.R. Honda's US release says the US Type R high cam has 0.9 mm more intake lift than the GS-R, consistent with base B18C 10.6 mm -> 11.5 mm."},
+    "exhaust_lift_mm_high": {"value": 10.5, "unit": "mm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "High-speed cam, JDM B18C 96 spec.R. US release says +1.1 mm over GS-R, consistent with base B18C 9.4 mm -> 10.5 mm."},
+    "ivo_btdc_high": {"value": 15, "unit": "deg", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "High cam, measured at 1 mm lift. Base B18C high cam: 10 deg BTDC."},
+    "ivc_abdc_high": {"value": 45, "unit": "deg", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "High cam, at 1 mm lift. Base B18C high cam: 40 deg ABDC."},
+    "evo_bbdc_high": {"value": 45, "unit": "deg", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "High cam, at 1 mm lift. Base B18C high cam: 40 deg BBDC."},
+    "evc_atdc_high": {"value": 10, "unit": "deg", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "High cam, at 1 mm lift. Base B18C high cam: 7 deg ATDC."},
+    "intake_duration_deg_high": {"value": 240, "unit": "deg", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "Researcher's sum of Honda's events at 1 mm lift (15 + 180 + 45). A forum cam list gives the same 240 deg at 1 mm for the Type R through 1999 and 243 deg for the 2000/01 spec (https://www.forum.civic-eg.com/viewtopic.php?f=9&t=2583, forum post, unverified)."},
+    "exhaust_duration_deg_high": {"value": 235, "unit": "deg", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "Researcher's sum of Honda's events at 1 mm lift (45 + 180 + 10). Same forum list gives 235 deg."},
+    "cam_switch_rpm": {"value": 5700, "unit": "rpm", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "Low-lift to high-lift changeover on the US Type R (GS-R: 4400 rpm). Wikipedia lists 5800 rpm (96 spec) and 6000 rpm (98 spec) for the JDM engine."},
+    "redline_rpm": {"value": 8400, "unit": "rpm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-003.html", "note": "Honda's stated maximum permissible engine speed for the JDM B18C 96 spec.R. Wikipedia gives the same 8400 rpm redline for the B18C5, with fuel cut at 9000 rpm (uncited)."},
+    "idle_rpm": {"value": 750, "unit": "rpm", "source": "https://acura-specs.pages.dev/integra/1994-2001/1.8l-engine/specs", "note": "750 +/- 50 rpm on a third-party aggregator page for 1994-2001 Integra 1.8 L engines generally; not confirmed for the Type R specifically."},
+    "peak_power_kw": {"value": 145.4, "unit": "kW", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "195 hp (SAE net) converted by the researcher. JDM 96 spec.R: 200 PS at 8000 rpm."},
+    "peak_power_rpm": {"value": 8000, "unit": "rpm", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "Wikipedia's B18C5 entry says 7800 rpm; Honda's own release is used here."},
+    "peak_torque_nm": {"value": 176.3, "unit": "Nm", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "130 lb-ft converted by the researcher. JDM 96 spec.R: 18.5 kgm at 7500 rpm."},
+    "peak_torque_rpm": {"value": 7300, "unit": "rpm", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "Wikipedia's B18C5 entry says 7500 rpm; Honda's own release is used here."},
+    "intake_type": {"value": "plenum, single throttle body, single-port (one runner per cylinder) cast aluminium manifold", "unit": null, "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "The GS-R's dual-runner variable manifold is replaced by short, direct single runners."},
+    "runner_dia_mm": {"value": 42, "unit": "mm", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "Intake runners enlarged from 35 mm (GS-R) to 42 mm."},
+    "throttle_dia_mm": {"value": 62, "unit": "mm", "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "note": "Also 62 mm in Honda Japan's factbook (base B18C: 60 mm). Air intake duct 70 mm (base 65 mm) per the factbook."},
+    "header_type": {"value": "4-2-1 (Honda calls it a large-diameter Tri-Y header with a tapered collector), stainless steel", "unit": null, "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain"},
+    "exhaust_pipe_dia_mm": {"value": 57.2, "unit": "mm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "note": "JDM 96 spec.R exhaust pipe diameter (base B18C: 48.6-50.8 mm). Tail pipe 76 mm (base 50.8 mm)."},
+    "exhaust_notes": {"value": "All-stainless system, sharper merge angle at the collector, larger pipes, a third chamber and a high-flow silencer; Honda's US release claims 30 percent more exhaust flow than the GS-R.", "unit": null, "source": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain"}
+  },
+  "missing": [
+    "low-speed (non-VTEC) cam profile: lift, duration and timing for the primary and secondary lobes; not published in any Honda page found, and forum threads say the same",
+    "exhaust_valve_dia_mm",
+    "cam timing confirmed for the US B18C5 specifically (JDM 96 spec.R figures used; a forum list says the 2000/01 intake cam is 243 deg at 1 mm rather than 240)",
+    "rod_length_mm from a Honda source (Wikipedia value is uncited)",
+    "firing order with numbering convention from a Honda source",
+    "runner_length_mm",
+    "primary_dia_mm and primary_length_mm of the header",
+    "crank layout (flat-plane inline-four assumed by convention but not stated on any page opened)",
+    "idle_rpm for the Type R specifically"
+  ],
+  "sources": [
+    {"url": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-005.html", "what": "Honda Japan press information (factbook) for the August 1995 Integra Type R: comparison table of B18C vs B18C 96 spec.R with high-cam valve timing at 1 mm lift, valve lift, valve, throttle and exhaust diameters. Manufacturer document."},
+    {"url": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-003.html", "what": "Same Honda factbook: maximum permissible rpm, power and torque of the 96 spec.R."},
+    {"url": "https://www.honda.co.jp/factbook/auto/INTEGRA/19950824/in95-004.html", "what": "Same Honda factbook: intake, exhaust and valve gear changes."},
+    {"url": "https://www.honda.co.jp/sportscar/vtec_history/B18C/", "what": "Honda Japan VTEC history page for the B18C 96 spec.R: basic specification table."},
+    {"url": "https://hondanews.com/en-US/releases/release-7676f9f45bf46cc47fdf2a004c34c87e-2001-acura-integra-type-r-powertrain", "what": "American Honda press release, 2001 Acura Integra Type R powertrain: compression, power, torque, VTEC changeover rpm, throttle and runner diameters, exhaust description. Manufacturer document."},
+    {"url": "https://en.wikipedia.org/wiki/Honda_B_engine", "what": "Wikipedia B-series article: rod length, redline and variant list. Used only where Honda pages were silent; several entries are uncited."},
+    {"url": "https://www.forum.civic-eg.com/viewtopic.php?f=9&t=2583", "what": "Forum post listing B-series cam durations at 1 mm lift; used only as a cross-check on the durations computed from Honda's figures."},
+    {"url": "https://acura-specs.pages.dev/integra/1994-2001/1.8l-engine/specs", "what": "Third-party spec aggregator for 1994-2001 Integra 1.8 L engines: firing order and idle speed. Low credibility; used because no better page was found."}
+  ],
+  "vehicle": {
+    "name": "Acura Integra Type R (DC2, US, 1997)",
+    "fields": {
+      "curb_kg": {
+        "value": 1170,
+        "unit": "kg",
+        "source": "https://hondanews.com/en-US/releases/release-4daa514515b060f1fb5e0e004c34c986-1998-acura-integra-type-r-specifications",
+        "note": "'Curb Weight 2577 lbs (1170 kg)'. 1998 model year; standard not stated. Car and Driver, March 1997 (https://web.archive.org/web/20150710092135/http://www.caranddriver.com/reviews/1997-acura-integra-type-r-archived-test-review): 'Curb weight: 2560 lb'. The 2001 sheet (https://acuranews.com/en-US/releases/release-038578562975f17ab17410004c34c8a5-2001-acura-integra-type-r-specifications) gives 2639 lb (1197 kg)."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://hondanews.com/en-US/releases/release-4daa514515b060f1fb5e0e004c34c986-1998-acura-integra-type-r-specifications"
+      },
+      "gears": {
+        "value": [
+          3.23,
+          2.105,
+          1.458,
+          1.107,
+          0.848
+        ],
+        "source": "https://hondanews.com/en-US/releases/release-4daa514515b060f1fb5e0e004c34c986-1998-acura-integra-type-r-specifications",
+        "note": "'Ratios (:1) 1st 3.230 2nd 2.105 3rd 1.458 4th 1.107 5th 0.848 Reverse 3.000'. The 2001 sheet gives the same ratios."
+      },
+      "final_drive": {
+        "value": 4.4,
+        "source": "https://hondanews.com/en-US/releases/release-4daa514515b060f1fb5e0e004c34c986-1998-acura-integra-type-r-specifications",
+        "note": "'Final Drive 4.400'."
+      },
+      "wheel_radius_m": {
+        "value": 0.2978,
+        "unit": "m",
+        "source": "https://hondanews.com/en-US/releases/release-4daa514515b060f1fb5e0e004c34c986-1998-acura-integra-type-r-specifications",
+        "note": "Calculated by me from the tyre size 195/55 R15 84V (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "195/55 R15 84V",
+        "source": "https://hondanews.com/en-US/releases/release-4daa514515b060f1fb5e0e004c34c986-1998-acura-integra-type-r-specifications",
+        "note": "'Tires Bridgestone RE010 195/55 R15 84V' on '6.0 JJ x 15' wheels."
+      },
+      "top_speed_kmh": {
+        "value": 230,
+        "unit": "km/h",
+        "source": "https://web.archive.org/web/20150710092135/http://www.caranddriver.com/reviews/1997-acura-integra-type-r-archived-test-review",
+        "note": "Car and Driver test data: 'Top speed (drag limited): 143 mph'. Converted by me (230.1 km/h). A measured figure, not a maker's claim."
+      },
+      "driven": {
+        "value": "front",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Honda_Integra",
+        "note": "English Wikipedia, 'Honda Integra' (read 2026-11-17), infobox layout: Front-engine, front-wheel drive (all-wheel drive on the Japanese DB9 only)."
+      }
+    },
+    "missing": [
+      "a Honda specification sheet dated for the 1997 model year with a Type R column",
+      "weighing standard"
+    ],
+    "sources": [
+      {
+        "url": "https://hondanews.com/en-US/releases/release-4daa514515b060f1fb5e0e004c34c986-1998-acura-integra-type-r-specifications",
+        "what": "American Honda press release '1998 Acura Integra Type R Specifications', 23 April 1997: maker's specification table for the US Type R with the B18C5."
+      },
+      {
+        "url": "https://web.archive.org/web/20150710092135/http://www.caranddriver.com/reviews/1997-acura-integra-type-r-archived-test-review",
+        "what": "Car and Driver road test of the 1997 Acura Integra Type R (Barry Winfield, March 1997), archived copy: test weight and drag-limited top speed."
+      },
+      {
+        "url": "https://acuranews.com/en-US/releases/release-038578562975f17ab17410004c34c8a5-2001-acura-integra-type-r-specifications",
+        "what": "Acura '2001 Acura Integra Type R Specifications', 3 January 2001: same ratios and tyres, heavier curb weight. Cross-check."
+      }
+    ]
+  }
+}

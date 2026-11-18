@@ -1,0 +1,138 @@
+{
+  "name": "ducati_1098_testastretta",
+  "label": "Ducati 1098 Testastretta Evoluzione 1099 cc 90° L-twin",
+  "based_on": "Ducati Testastretta Evoluzione 1099 cc L-twin, Ducati 1098 / 1098 S, 2007-2008",
+  "family": "twin",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.104,
+  "stroke": 0.0647,
+  "rod": 0.124,
+  "cr": 12.5,
+  "firing": [
+    0.0,
+    270.0
+  ],
+  "bank": [
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0
+  ],
+  "in_valve_d": 0.042,
+  "ex_valve_d": 0.034,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 15.0,
+    "ivc": 58.0,
+    "evo": 60.0,
+    "evc": 20.0,
+    "in_lift": 0.0118,
+    "ex_lift": 0.0106
+  },
+  "itb": true,
+  "throttle_d": 0.06,
+  "runner_len": 0.32,
+  "runner_d": 0.058,
+  "primary_len": [
+    0.878,
+    0.878
+  ],
+  "primary_d": 0.052,
+  "groups": [
+    [
+      0,
+      1
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 0.35,
+  "secondary_d": 0.057,
+  "mid_len": 0.15,
+  "mid_d": 0.05,
+  "muffler_len": 0.35,
+  "muffler_d": 0.12,
+  "tail_len": 0.1,
+  "tail_d": 0.045,
+  "inertia": 0.05,
+  "redline": 10700.0,
+  "idle": 1250.0,
+  "published": {
+    "power_kw": 119.3,
+    "power_rpm": 9750.0,
+    "torque_nm": 123.0,
+    "torque_rpm": 8000.0
+  },
+  "friction_scale": 0.6,
+  "heat_q": 2700000.0,
+  "burn_scale": 0.7,
+  "generic": false,
+  "sources": [
+    {
+      "url": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-data.pdf",
+      "what": "Ducati's own 2008 Superbike technical specification sheet (848, 1098, 1098 S, 1098 R), PDF titled SBK08_TechSpec.xls, hosted by a German motorcycle news site. Manufacturer document."
+    },
+    {
+      "url": "https://www.motorrad-news.com/wp-content/uploads/2007/11/ducati-848-1098-press.pdf",
+      "what": "Ducati's 2008 Superbike press kit text (same host). Manufacturer document: valve diameters, throttle bodies, exhaust layout and tube diameters."
+    },
+    {
+      "url": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=101",
+      "what": "Ducati 1098 owner's manual, page 101 (engine and performance data), as transcribed by a manuals site. Manufacturer document; read through a page summary, so quotes are as the summary returned them."
+    },
+    {
+      "url": "https://auto.manualsonline.com/manuals/mfg/ducati/1098.html?p=102",
+      "what": "Ducati 1098 owner's manual, page 102 (spark plugs, fuel system, throttle body diameter)."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/617307/Ducati.html?page=100",
+      "what": "Ducati 1098 Tricolore use and maintenance manual, page 100; cross-check of bore, stroke, compression, 113 kW, 116 Nm and 10,700 rpm. Not used as a primary source."
+    },
+    {
+      "url": "https://bikeboy.org/1098withtermi70mm.html",
+      "what": "bikeboy.org (Brad Black, Australian Ducati tuner): table of 998 / 998S / 999R / 1098 cam specs and measured as-delivered timing. Third party, well regarded among Ducati tuners, not a factory document."
+    },
+    {
+      "url": "https://bikeboy.org/camtime4v.html",
+      "what": "Same author's four-valve cam timing article; source for the statement that Ducati cam specs are given at 1.00 mm lift."
+    },
+    {
+      "url": "https://www.ducatiforum.co.uk/goto/post?id=1159147",
+      "what": "ducatiforum.co.uk thread on finding firing TDC on an 848; quotes the workshop manual and gives vertical cylinder firing 270 crank degrees after horizontal. Forum."
+    },
+    {
+      "url": "https://www.ducatiforum.co.uk/goto/post?id=1605728",
+      "what": "ducatiforum.co.uk thread identifying Ducati rods by eye-to-eye length. Forum; only source found for rod length."
+    },
+    {
+      "url": "https://motorcyclemojo.com/2014/09/crankshafts-and-firing-orders/",
+      "what": "Motorcycle Mojo magazine technical column on crankshafts and firing orders; states the 270/450 spacing of a 90-degree V-twin such as a Ducati."
+    },
+    {
+      "url": "https://www.slashgear.com/2290714/l-twin-vs-other-v-twin-motorcycle-engine-cylinder-layout-differences/",
+      "what": "SlashGear explainer on the L-twin; states shared crank pin and 270/450 intervals. General-interest, weak but explicit."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, 90-degree L-twin on a shared crank pin, horizontal cylinder firing first and the vertical one 270 degrees later (intervals 270/450; the order is from a forum quoting the workshop manual), rod length 124 mm (forum, weak), four valves per cylinder, valve diameters 42/34 mm, cam timing and lift (a tuner's table of factory figures, presumed at 1 mm lift), 60 mm throttle bodies, 2-1-2 exhaust in 52 and 57 mm tubing, 10,700 rpm maximum speed, published power and torque (Ducati's spec sheet; the owner's manual gives lower figures, 113 kW and 116 Nm). Estimated, not sourced: that the cam table is at 1 mm lift; that 52 mm is the header and 57 mm the later pipe (both taken as given, though they are probably outside diameters); intake length (0.32 m) and diameter (58 mm at the valve end; the model uses the runner's area as the throttle area, so the sourced 60 mm throttle figure is recorded but not used); header length (0.88 m), the single pipe and silencer dimensions; idle speed (1250 rpm); flywheel inertia; friction_scale 0.6, heat_q 2.7e6 and burn_scale 0.7, the first two at the end of their allowed range.",
+  "vehicle": {
+    "name": "Ducati 1098 (2007)",
+    "kind": "motorcycle",
+    "curb_kg": 199,
+    "gear_count": 6,
+    "gears": [
+      2.4667,
+      1.7647,
+      1.4,
+      1.1818,
+      1.0435,
+      0.9583
+    ],
+    "final_drive": 4.6708,
+    "wheel_radius_m": 0.3204,
+    "tyre": "190/55 ZR17",
+    "top_speed_kmh": 280,
+    "notes": "curb_kg is estimated: the owner's manual's 188 kg 'running order without fuel' plus a full 15.5 L tank. final_drive is primary 59:32 (1.84) x chain 38:15. top_speed_kmh is Cycle World's radar figure (174 mph) for the 1098 S, which has the same engine and gearing and was on the rev limiter in sixth; no figure was found for the base bike. wheel_radius_m is calculated from the tyre size."
+  }
+}

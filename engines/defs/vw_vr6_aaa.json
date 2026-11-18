@@ -1,0 +1,122 @@
+{
+  "name": "vw_vr6_aaa",
+  "label": "Volkswagen VR6 2.8 L 12-valve (AAA)",
+  "generic": false,
+  "family": "V6",
+  "based_on": "Volkswagen VR6 2.8 L 12-valve, engine code AAA, 1991-1999",
+  "layout": "vr",
+  "bank_dirs": [
+    -7.5,
+    7.5
+  ],
+  "bore": 0.081,
+  "stroke": 0.0903,
+  "rod": 0.164,
+  "cr": 10.0,
+  "firing": [
+    0,
+    480,
+    240,
+    600,
+    120,
+    360
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.039,
+  "ex_valve_d": 0.0343,
+  "cam": {
+    "at_lift": 0,
+    "ivo": 14,
+    "ivc": 58,
+    "evo": 54,
+    "evc": 14,
+    "in_lift": 0.01,
+    "ex_lift": 0.01
+  },
+  "runner_len": 0.34,
+  "runner_len_cyl": [
+    0.3,
+    0.38,
+    0.3,
+    0.38,
+    0.3,
+    0.38
+  ],
+  "primary_len": [
+    0.36,
+    0.28,
+    0.36,
+    0.28,
+    0.36,
+    0.28
+  ],
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "merge": "y",
+  "redline": 6500,
+  "idle": 700,
+  "heat_q": 2300000,
+  "published": {
+    "power_kw": 128,
+    "power_rpm": 5800,
+    "torque_nm": 235,
+    "torque_rpm": 4200
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/VR6_engine",
+      "what": "Wikipedia, VR6 engine. Bore, stroke, V angle, CR, valve sizes, 22-degree journal offset, port-length asymmetry (uncited)."
+    },
+    {
+      "url": "https://www.vwmanual.ru/en/golf/3/power-petrol/repair/tehnicheskie-parametry-dvigatelya",
+      "what": "vwmanual.ru English translation of a Golf Mk3 repair manual specification page for the AAA. Rod length, firing order, valve head diameters, idle speed. Not a VW document."
+    },
+    {
+      "url": "https://www.motor-car.net/vw-engines/item/13797-vw-vr6-engine",
+      "what": "motor-car.net VR6 page (text derived from an older Wikipedia revision plus a data table). 120-degree interval, 12.5 mm cylinder offset, firing order."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines",
+      "what": "Wikipedia list of discontinued VW Group petrol engines. Displacement, power, torque."
+    }
+  ],
+  "notes": "Sourced: 15 degree angle between the cylinder rows, bore, stroke, rod length (third-party), compression ratio, firing order 1-5-3-6-2-4, even 120 degree firing, one intake and one exhaust valve per cylinder with their diameters, idle, published output. ASSUMED, not sourced: which cylinders are in which row (1-3-5 in one, 2-4-6 in the other), and which row has the long intake ports. Estimated, not sourced: the two intake lengths (0.30 m and 0.38 m, in runner_len_cyl) and the two exhaust lengths (0.36 m and 0.28 m, the row with the short intake getting the long exhaust). The real port lengths are not published; only the fact that they differ between rows is. Also estimated: valve lifts, all cam timing, the exhaust manifold grouping (cylinders 1-3 and 4-6), redline, heat_q (tuned). Everything else is left to the derived defaults (runner and throttle diameters, plenum, pipes, muffler, flywheel). Not modelled: the 12.5 mm offset of the cylinder centrelines from the crankshaft and the resulting 22 degree crank journal offset. The definition places the pins as if both rows pointed at the crank centre, so `engsim pins` shows pins 15 degrees off a plain inline-six layout rather than the real 22.",
+  "vehicle": {
+    "name": "Volkswagen Golf VR6 (Mk3, Europe, 1992)",
+    "kind": "car",
+    "curb_kg": 1155,
+    "gear_count": 5,
+    "wheel_radius_m": 0.293,
+    "tyre": "205/50 R15",
+    "top_speed_kmh": 225,
+    "notes": "Weight (VW's claimed 1155 kg at the launch, standard not stated), tyres and the 140 mph top speed (converted) are from Motor Sport's 1991 launch report and 1992 road test of the 174 bhp European car. Gear ratios and final drive were not found in any source and are omitted; the gearbox is a five-speed manual. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "front"
+  }
+}

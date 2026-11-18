@@ -1,0 +1,112 @@
+{
+  "name": "yamaha_cp2_689",
+  "label": "Yamaha CP2 689 cc 270° parallel twin (MT-07)",
+  "based_on": "Yamaha CP2 689 cc parallel twin, MT-07 / FZ-07, 2014 on",
+  "family": "twin",
+  "layout": "inline",
+  "bore": 0.08,
+  "stroke": 0.0686,
+  "rod": 0.124,
+  "cr": 11.5,
+  "firing": [
+    0.0,
+    270.0
+  ],
+  "in_valve_d": 0.0315,
+  "ex_valve_d": 0.0265,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": -6.0,
+    "ivc": 37.0,
+    "evo": 38.0,
+    "evc": -6.0,
+    "in_lift": 0.0076,
+    "ex_lift": 0.0076
+  },
+  "itb": true,
+  "throttle_d": 0.038,
+  "runner_len": 0.17,
+  "runner_d": 0.038,
+  "primary_len": [
+    0.632,
+    0.632
+  ],
+  "groups": [
+    [
+      0,
+      1
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.3,
+  "muffler_len": 0.35,
+  "muffler_d": 0.14,
+  "tail_len": 0.15,
+  "inertia": 0.025,
+  "redline": 10000.0,
+  "idle": 1350.0,
+  "published": {
+    "power_kw": 55.0,
+    "power_rpm": 9000.0,
+    "torque_nm": 68.0,
+    "torque_rpm": 6500.0
+  },
+  "friction_scale": 0.6,
+  "heat_q": 2700000.0,
+  "burn_scale": 0.7,
+  "generic": false,
+  "sources": [
+    {
+      "url": "https://www.fia.com/sites/default/files/2023-06_homologation_form_mt07_update_01.12.2023_0.pdf",
+      "what": "FIA homologation form 2023-06-XCAR-MT07, 'XC Engine YAMAHA MT07 2016-2023' (36 pages, valid from 23/06/2023): measured dimensions of the stock engine for cross-car racing: rod length, valve sizes, cam lobe dimensions, cam lift table, lobe centres, max valve lift, throttle bore. Regulator document; the best public geometry source found."
+    },
+    {
+      "url": "https://maintenanceschedule.com/wp-content/uploads/2023/01/2015-Yamaha-FZ-07-MT-07-manual.pdf",
+      "what": "Yamaha FZ-07 (FZ07F / FZ07FC, 2015 US model) owner's manual LIT-11626-28-55 / 2RC-28199-1R, PDF mirrored on maintenanceschedule.com: bore x stroke, displacement, compression ratio, tachometer red zone."
+    },
+    {
+      "url": "https://cdn2.yamaha-motor.eu/prod/product-assets/2020/MT07/Factsheets/2020-MT07_en.pdf",
+      "what": "Yamaha Motor Europe 2020 MT-07 factsheet PDF (yamaha-motor.eu CDN): power, torque, bore x stroke, compression, 270-degree crank with uneven firing interval. Manufacturer primary source."
+    },
+    {
+      "url": "https://www.totalmotorcycle.com/motorcycles/2015/2015-Yamaha-FZ07",
+      "what": "totalmotorcycle.com 2015 FZ-07 page reproducing Yamaha's feature copy and spec tables: valve sizes and angles, 38 mm throttle body, 2-into-1 exhaust, balancer, 7 mm cylinder offset. Manufacturer text on a third-party page."
+    },
+    {
+      "url": "https://global.yamaha-motor.com/about/technology/power_source/003/",
+      "what": "Yamaha Motor global technology page on the 270-degree crank: origin of the layout and confirmation that the MT-07 uses it. No numbers beyond 270 degrees."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Straight-twin_engine",
+      "what": "Wikipedia, Straight-twin engine: definition of the 270-degree crank and its 270/450 firing intervals, naming the MT-07 as an example."
+    },
+    {
+      "url": "https://motofomo.com/yamaha-cp2-motor-sweet-spot/",
+      "what": "motofomo.com article on the CP2 engine: states 270/450 intervals for the CP2 specifically. Enthusiast site, cites Yamaha material loosely; used only as a second voice for the intervals."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yamaha_MT-07",
+      "what": "Wikipedia, Yamaha MT-07: cross-check of bore, stroke, compression, power and a rear-wheel dyno figure."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, parallel twin with a 270-degree crank (Yamaha's factsheet), firing intervals 270/450 (Wikipedia's straight-twin article, which names this engine), rod length 124 mm (FIA homologation form), four valves per cylinder, valve diameters 31.5/26.5 mm, valve lift 7.6 mm, lobe centres 111 (intake) and 112 (exhaust) degrees, cam lift table, 38 mm throttle bodies, 2-into-1 exhaust, red zone 10,000 rpm, published power and torque. Assumed: which cylinder fires 270 degrees after the other. The research file's firing order '1-2' has no source and no page says which cylinder leads; cylinder 1 is taken to fire first. It changes nothing in the sound of a 2-into-1 exhaust with equal pipes. Derived by calculation, not published: valve timing at 1 mm lift (intake opens 6 after TDC, closes 37 after BDC; exhaust opens 38 before BDC, closes 6 before TDC). It comes from the FIA cam lift table (measured with a 3 mm ball on the bare camshaft), converted to flat-tappet lift assuming bucket tappets and that the table is in camshaft degrees, less the minimum valve clearance, and placed on the sourced lobe centres. Estimated, not sourced: idle speed (1350 rpm); intake length (0.17 m) and diameter; exhaust primary length (0.63 m) and diameter, collector, silencer and tailpipe dimensions; flywheel inertia; friction_scale 0.6, heat_q 2.7e6 and burn_scale 0.7, the first two at the end of their allowed range.",
+  "vehicle": {
+    "name": "Yamaha MT-07 (2014)",
+    "kind": "motorcycle",
+    "curb_kg": 179,
+    "gear_count": 6,
+    "gears": [
+      2.8462,
+      2.125,
+      1.6316,
+      1.3,
+      1.0909,
+      0.9643
+    ],
+    "final_drive": 5.1734,
+    "wheel_radius_m": 0.3149,
+    "tyre": "180/55 ZR17",
+    "top_speed_kmh": 207,
+    "notes": "curb_kg is Yamaha Europe's wet weight for the non-ABS MT-07 (182 kg with ABS). gears and final_drive come from the 2015 US FZ-07 owner's manual, the same bike sold under its US name; the EU secondary ratio (2.688) is confirmed by MOTORRAD, the EU internal and primary ratios are assumed identical. final_drive is primary 77:40 x chain 43:16. top_speed_kmh is Yamaha's claim as quoted by MOTORRAD. wheel_radius_m is calculated from the tyre size."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": "citroen_2cv_375",
+  "label": "Citroën 2CV 375 cc air-cooled flat-twin (9 ch)",
+  "based_on": "Citroën 2CV flat-twin, type A, 375 cc (62 x 62 mm, 6.2:1, 9 ch at 3500 rpm), 2CV A and AU, 1949-1955",
+  "family": "flat",
+  "generic": false,
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.062,
+  "stroke": 0.062,
+  "rod": 0.115,
+  "cr": 6.2,
+  "firing": [
+    0.0,
+    360.0
+  ],
+  "bank": [
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.03,
+  "ex_valve_d": 0.027,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 0.0,
+    "ivc": 60.0,
+    "evo": 40.0,
+    "evc": 0.0,
+    "in_lift": 0.0065,
+    "ex_lift": 0.0065
+  },
+  "itb": false,
+  "groups": [
+    [
+      0,
+      1
+    ]
+  ],
+  "merge": "none",
+  "throttle_d": 0.015,
+  "runner_len": 0.35,
+  "runner_d": 0.02,
+  "plenum_vol": 0.0001,
+  "primary_len": [
+    0.4,
+    0.4
+  ],
+  "primary_d": 0.022,
+  "collector_vol": 0.0012,
+  "secondary_len": 0.15,
+  "secondary_d": 0.022,
+  "mid_len": 0.0,
+  "mid_d": 0.03,
+  "muffler_len": 0.0,
+  "muffler_d": 0.1,
+  "muffler_fric": 0.3,
+  "tail_len": 0.1,
+  "tail_d": 0.018,
+  "inertia": 0.06,
+  "redline": 4000.0,
+  "idle": 700.0,
+  "friction_scale": 1.2,
+  "heat_q": 2200000.0,
+  "burn_scale": 1.0,
+  "published": {
+    "power_kw": 6.62,
+    "power_rpm": 3500.0,
+    "torque_nm": 19.6,
+    "torque_rpm": 2000.0
+  },
+  "sources": [
+    {
+      "url": "https://infos-club.mehariclub.com/?p=3949",
+      "what": "Méhari Club Cassis (2CV and Méhari parts supplier and engine rebuilder, which runs one of the historic 2CV engine-renovation lines), article 'Evolution : depuis la 2 CV A jusqu'à la 2 CV 6, tous les moteurs bicylindres de 1949 à 1990', 25 May 2020: every engine type with dates, bore and stroke, compression and ratings. Club history, no factory document cited."
+    },
+    {
+      "url": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "what": "French Wikipedia, 'Moteur bicylindre boxer Citroën' (formerly 'Moteur de Citroën 2CV'), revision 241039053: construction (two-bearing built-up crankshaft, gear-driven central camshaft, pushrods, hemispherical heads), wasted-spark ignition, exhaust layouts and a table of every engine type. Its table cites no sources."
+    },
+    {
+      "url": "https://www.retro-design.fr/en/content/10-data-sheet-2cv-before-1970",
+      "what": "Retro-Design (French 2CV parts retailer), data sheet '2CV before 1970': engine table with DIN power and torque per period. Retailer, not a factory document."
+    },
+    {
+      "url": "https://www.kfz-tech.de/Engl/Hersteller/Citroen/Citroen2CVM.htm",
+      "what": "kfz-tech.de, 'Citroën 2 CV (engine)': description of the engine (central camshaft under the crank, pushrods, common intake tube with the carburettor in the middle, needle-bearing rods on a crankshaft supplied complete, large flywheel). Reference site."
+    },
+    {
+      "url": "http://cms.ice.be/files/76/multitool-en-f.pdf",
+      "what": "ICE (Belgian 2CV specialist), 'Multi-tool 2CV / Visa' instructions: camshaft timing check, quoting Citroën's recommended lobe centre of 108 degrees for a standard camshaft."
+    },
+    {
+      "url": "https://www.citroenet.org.uk/passenger-cars/michelin/2cv/history/1949.html",
+      "what": "Citroënët (citroenet.org.uk), 1949 2CV page: rating, torque and carburettor of the first 2CV. Seen only as a search-result excerpt; the site refused the automated fetch (HTTP 406) and was not opened."
+    }
+  ],
+  "notes": "Sourced: bore 62 mm, stroke 62 mm, compression 6.2:1, Solex 22 ZACI single carburettor, 9 ch at 3500 rpm (6.62 kW; whether gross or net is not settled: French Wikipedia says SAE, Retro-Design gives 8 ch DIN), 19.6 N·m (2 m.kg) at 2000 rpm (Retro-Design; Citroënët seen as a search excerpt only), very short exhaust ending in a transverse two-into-one silencer under the gearbox (modelled as the collector volume). Layout (sourced, French Wikipedia and Méhari Club Cassis): air-cooled boxer flat-twin, crankshaft with two throws at 180 degrees so both pistons reach top dead centre together and move in and out together, even firing every 360 degrees (wasted-spark ignition fires both plugs every turn; the cylinder on its exhaust stroke wastes its spark), one valve each side in hemispherical heads, central gear-driven camshaft with pushrods, one carburettor in the middle of a common intake tube. Not modelled: the wasted spark itself (the model fires only the cylinder on compression; the other spark has no effect on a real engine either), the carburettor venturi as a separate restriction, the fan, the heater ducting. Estimated, not sourced: rod length (115 mm), valve diameters (30/27 mm), cam timing and lift (inlet closing 60 degrees after BDC, 6.5 mm lift), intake tube length (0.35 m) and bore (20 mm), throttle diameter 15 mm (a fitted restriction standing in for the carburettor's unknown venturi; the carburettor's nominal size is 22 mm), all exhaust dimensions (head pipes 0.40 m x 22 mm, silencer box 1.2 L, outlet 18 mm), flywheel inertia, idle 700 rpm, redline 4000 rpm. friction_scale 1.2 and heat_q 2.2e6 are both at the ends of their allowed range: without them, and without the narrow throttle and late inlet closing, the model made 14 to 37% too much torque and power. Simulated (live96): 20 N·m at 2000 rpm (+2%), 6.9 kW at 3500 rpm (+4%); simulated power is nearly flat from there to 7.0 kW at 4000 rpm.",
+  "vehicle": {
+    "name": "Citroën 2CV A (1953)",
+    "kind": "car",
+    "curb_kg": 495,
+    "gear_count": 4,
+    "gears": [
+      6.757,
+      3.247,
+      1.923,
+      1.475
+    ],
+    "final_drive": 3.875,
+    "wheel_radius_m": 0.2938,
+    "tyre": "125 x 400",
+    "top_speed_kmh": 65,
+    "notes": "Gear ratios are the reciprocals (my conversion) of French Wikipedia's output/input ratios for the 2CV A, with its 8/31 final drive; a 1954 Motor Sport road test's overall ratios (25.9, 12.55, 7.5, 5.7 to 1) agree within 1 percent. Fourth was called the overdrive ('S', surmultipliée) but is a gearbox ratio above 1; on these early cars it could only be selected from third. wheel_radius_m is my calculation from the same Wikipedia table's 19.4 km/h per 1000 rpm in fourth and 5.71 overall ratio, not a published tyre figure. Curb weight is citroenet's unladen weight (Motor Sport gives 10 cwt, about 508 kg, ready for the road with two gallons of fuel).",
+    "driven": "front"
+  }
+}

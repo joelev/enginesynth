@@ -1,0 +1,154 @@
+{
+  "name": "lamborghini_l539_v12",
+  "label": "Lamborghini L539 6.5 L V12 (Aventador LP 700-4)",
+  "generic": false,
+  "family": "V12",
+  "based_on": "Lamborghini L539 6.5 L V12, Aventador LP 700-4 (2011 specification)",
+  "layout": "v",
+  "bank_angle": 60,
+  "bore": 0.095,
+  "stroke": 0.0764,
+  "rod": 0.145,
+  "cr": 11.8,
+  "firing": [
+    0,
+    240,
+    480,
+    120,
+    600,
+    360,
+    420,
+    660,
+    180,
+    540,
+    300,
+    60
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.038,
+  "ex_valve_d": 0.032,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 20,
+    "ivc": 60,
+    "evo": 60,
+    "evc": 20,
+    "in_lift": 0.0115,
+    "ex_lift": 0.0105
+  },
+  "itb": false,
+  "runner_len": 0.3,
+  "primary_len": [
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45,
+    0.45
+  ],
+  "primary_d": 0.042,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10,
+      11
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 1.6,
+  "redline": 8350,
+  "idle": 950,
+  "friction_scale": 0.85,
+  "heat_q": 2550000,
+  "published": {
+    "power_kw": 515,
+    "power_rpm": 8250,
+    "torque_nm": 690,
+    "torque_rpm": 5500
+  },
+  "sources": [
+    {
+      "url": "https://preview.thenewsmarket.com/Previews/lamb/DocumentAssets/200081.pdf",
+      "what": "Automobili Lamborghini press kit 'Lamborghini Aventador LP 700-4' (launch, 2011), 28-page PDF on Lamborghini's newsmarket press site: engine chapter (L539, 60-degree V12, bore, stroke, displacement, compression, valve timing control, dry sump, intake with four throttle valves and two flaps, three-into-one exhaust with four pre-catalysts, power and torque) and technical data table. Manufacturer document."
+    },
+    {
+      "url": "https://gtspirit.com/2016/12/19/official-2017-lamborghini-aventador-s/",
+      "what": "GTspirit report of Lamborghini's Aventador S release, 19 December 2016: maximum engine revs raised from 8350 to 8500 rpm, VVT and VIS modified. Motoring press; quotes the release."
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-wards-lamborghini-soon-to-unleash-updated-aventador-s/789702/",
+      "what": "Ward's Auto on the Aventador S: 'maximum safe engine revs from 8,350 to 8,500 rpm'. Trade press."
+    },
+    {
+      "url": "https://kfz-tech.de/Engl/Buchprojekte/Lamborghini/LamborghiniV121.htm",
+      "what": "kfz-tech.de Lamborghini V12 page: Aventador firing order 1-12-4-9-2-11-6-7-3-10-5-8. Technical encyclopedia, no source given."
+    },
+    {
+      "url": "https://supersportiva.com/?p=397",
+      "what": "Supersportiva: Lamborghini V12 firing order 1-12-4-9-2-11-6-7-3-10-5-8 and the practice of printing it on the engine. Enthusiast site."
+    }
+  ],
+  "notes": "Modelled variant: the L539 as launched in the Aventador LP 700-4 in 2011, rated 515 kW (700 hp) at 8250 rpm and 690 N m at 5500 rpm. Sourced from Lamborghini's launch press kit: 60-degree V12, bore 95 mm, stroke 76.4 mm, 6498 cc, compression 11.8, four valves per cylinder, electronically controlled inlet and exhaust valve timing, an intake with four throttle valves and a variable path ('two flaps, several channels and one bypass'), four three-into-one exhaust manifolds each with a pre-catalyst, two main catalysts and a two-muffler casing switched by valves, published power and torque. The 8350 rpm maximum (used as limiter and redline) is from two press reports of the 2016 Aventador S release, which raised it to 8500. The firing order 1-12-4-9-2-11-6-7-3-10-5-8 is from two enthusiast pages (kfz-tech.de, Supersportiva), not a Lamborghini document. ASSUMED: cylinders 1-6 on one bank and 7-12 on the other, both numbered from the front, and a conventional six-throw crank with opposite cylinders sharing pins; with that numbering the order fires evenly every 60 degrees (engsim pins confirms the shared pins and even intervals). Also assumed: each three-into-one collects three adjacent cylinders of one bank (front three and rear three), which puts cylinders 240 degrees apart on each manifold. Estimated, not sourced: rod length (145 mm), valve diameters (38 and 32 mm) and lifts (11.5 and 10.5 mm), one fixed cam timing (inlet 20/60, exhaust 60/20 degrees at 1 mm lift) standing in for the variable timing, intake runner length (300 mm, diameter derived), plenum and throttle sizes (derived defaults; one throttle of the default size stands in for four), header primary length and diameter (450 mm, 42 mm), the length from the manifolds to the cross-over (secondary_len 1.6 m), idle 950 rpm, everything else left to derived defaults (cross-over, pipes, muffler, flywheel inertia). friction_scale 0.85 and heat_q 2.55e6 were set inside their ranges, away from the limits. Valve sizes, runner length and secondary length were fitted to the published figures. Not modelled: the variable intake (one fixed runner length, so one set of intake resonances; the real flaps exist to smooth the torque curve, and the model's curve is weaker below 4500 rpm, about 425 N m at 3000 and 550 at 4000), the cam phasing, the exhaust valves that switch between the two mufflers (one muffler path is modelled), the catalysts as separate elements, the dry-sump system and the cylinder-by-cylinder ion-current combustion monitoring.",
+  "vehicle": {
+    "name": "Lamborghini Aventador LP 700-4 coupe (2011)",
+    "kind": "car",
+    "curb_kg": 1853,
+    "gear_count": 7,
+    "final_drive": 2.86,
+    "wheel_radius_m": 0.347,
+    "tyre": "335/30 ZR 20 (rear; four-wheel drive)",
+    "top_speed_kmh": 350,
+    "notes": "Seven-speed ISR robotised gearbox. Gear ratios omitted: no readable source (Lamborghini's press kit has none; listings with ratios refused automated access). Tyre, top speed and gear count from Lamborghini; curb weight (US, with fluids; Lamborghini quotes 1,575 kg dry) and final drive from a US spec database. Four-wheel drive is not modelled here. Estimated: rolling radius from the tyre size.",
+    "driven": "all"
+  }
+}

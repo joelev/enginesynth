@@ -1,0 +1,103 @@
+{
+  "name": "bmw_s54b32",
+  "label": "BMW S54 3.2 L straight-six (E46 M3)",
+  "generic": false,
+  "family": "six",
+  "based_on": "BMW S54B32, E46 M3, 2000-2006",
+  "layout": "inline",
+  "bore": 0.087,
+  "stroke": 0.091,
+  "rod": 0.139,
+  "cr": 11.5,
+  "firing": [
+    0,
+    480,
+    240,
+    600,
+    120,
+    360
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.035,
+  "ex_valve_d": 0.0305,
+  "cam": {
+    "at_lift": 0,
+    "ivo": 30,
+    "ivc": 60,
+    "evo": 60,
+    "evc": 30,
+    "in_lift": 0.012,
+    "ex_lift": 0.012
+  },
+  "itb": true,
+  "runner_len": 0.3,
+  "runner_d": 0.046,
+  "primary_len": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "primary_d": 0.04,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "merge": "x",
+  "redline": 8000,
+  "idle": 850,
+  "friction_scale": 0.7,
+  "heat_q": 2650000,
+  "published": {
+    "power_kw": 252,
+    "power_rpm": 7900,
+    "torque_nm": 365,
+    "torque_rpm": 4900
+  },
+  "sources": [
+    {
+      "url": "https://ia801005.us.archive.org/11/items/BMWTechnicalTrainingDocuments/ST041%20M3%20Complete%20Vehicle/2%20M3%20DriveLine.pdf",
+      "what": "BMW of North America technical training document 'M Engines - S54B32' (ST041 M3 Complete Vehicle, driveline section), hosted on the Internet Archive. Manufacturer training material: technical data table, rods, valves, cams, VANOS, intake and exhaust description."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BMW_M54#S54",
+      "what": "Wikipedia S54 section: market-specific power and torque figures and redline."
+    },
+    {
+      "url": "https://bmwtuning.co/bmw-s54-engine/",
+      "what": "Tuning-site overview; consulted only for the disagreeing 7900 rpm redline figure."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, rod length, compression ratio, valve diameters, 12 mm lift on both cams, individual throttles, two exhaust manifolds, redline, published output (European rating). ASSUMED, not sourced: the firing order. No page stating it for the S54 was found; 1-5-3-6-2-4 on a 120-degree crank, the usual straight-six arrangement, is used. Also assumed: cylinders 1-3 on one exhaust manifold and 4-6 on the other. Estimated, not sourced: cam duration and timing (BMW publishes only lift and the VANOS lobe-centre ranges; a fixed 270 degree seat-to-seat profile centred at 105 degrees, inside both published ranges, stands in for the variable timing), intake runner length and diameter, header primary length and diameter, idle speed, friction_scale and heat_q (tuned). Everything else is left to the derived defaults. Not modelled: double VANOS (the cams are fixed), and the common airbox ahead of the six throttles (each throttle draws from open air). Idle settles about 100 rpm above target, the known small-throttle idle limit.",
+  "vehicle": {
+    "name": "BMW M3 coup\u00e9 (E46, Europe, 2001)",
+    "kind": "car",
+    "curb_kg": 1495,
+    "gear_count": 6,
+    "gears": [
+      4.227,
+      2.528,
+      1.669,
+      1.226,
+      1.0,
+      0.828
+    ],
+    "final_drive": 3.62,
+    "wheel_radius_m": 0.3306,
+    "tyre": "255/40 ZR18",
+    "top_speed_kmh": 250,
+    "notes": "Curb weight (DIN), final drive and top speed (electronically limited) are from BMW AG's international E46 M3 CSL training manual, M3 coup\u00e9 column. Gear ratios and tyre size are from BMW of North America's E46 M3 training documents; that European cars used the same six-speed (Getrag 420G) and tyres is my inference. Final drive: BMW AG gives 3.620 in a table whose M3 transmission entry is the SMG; the US document gives 3.64 for the US car. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "rear"
+  }
+}

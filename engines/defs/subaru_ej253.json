@@ -1,0 +1,143 @@
+{
+  "name": "subaru_ej253",
+  "label": "Subaru EJ253 2.5 L flat-four (i-AVLS, unequal-length manifold)",
+  "based_on": "Subaru EJ253 2.5 L SOHC flat-four with i-AVLS, US 2006 Legacy / Outback 2.5i",
+  "family": "flat",
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.0995,
+  "stroke": 0.079,
+  "rod": 0.1305,
+  "cr": 10.0,
+  "firing": [
+    0.0,
+    360.0,
+    180.0,
+    540.0
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "cam": {
+    "at_lift": 0.0,
+    "ivo": 0.0,
+    "ivc": 58.0,
+    "evo": 46.0,
+    "evc": 14.0,
+    "in_lift": 0.005,
+    "ex_lift": 0.00835
+  },
+  "cam_high": {
+    "at_lift": 0.0,
+    "ivo": 7.0,
+    "ivc": 60.0,
+    "evo": 46.0,
+    "evc": 14.0,
+    "in_lift": 0.0085,
+    "ex_lift": 0.00835
+  },
+  "cam_switch_rpm": 2400.0,
+  "itb": false,
+  "runner_len": 0.35,
+  "primary_len": [
+    0.21,
+    0.665,
+    0.266,
+    0.721
+  ],
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "merge": "none",
+  "redline": 6200.0,
+  "idle": 650.0,
+  "published": {
+    "power_kw": 130.5,
+    "power_rpm": 6000.0,
+    "torque_nm": 229.0,
+    "torque_rpm": 4400.0
+  },
+  "friction_scale": 1.05,
+  "heat_q": 2400000.0,
+  "secondary_len": 1.1,
+  "generic": false,
+  "sources": [
+    {
+      "url": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/1%20General%20Description.pdf",
+      "what": "Subaru factory service manual, 2006 USDM Legacy, section ME(H4SO) General Description (hosted copy of the Subaru PDF). Specification table: bore, stroke, displacement, compression, valve timing for the three intake profiles and exhaust, idle speed, ignition order, cam lobe heights. Manufacturer document; most trusted source here."
+    },
+    {
+      "url": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/8%20Valve%20Clearance.pdf",
+      "what": "Same factory manual, Valve Clearance section. States which cylinders are on the RH and LH sides and that successive cylinders reach compression TDC every 180 degrees of crank rotation in the order 1, 3, 2, 4."
+    },
+    {
+      "url": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/MECHANICAL%20MEH4SO/19%20Camshaft.pdf",
+      "what": "Same factory manual, Camshaft section. Cam base circle diameter and lobe heights."
+    },
+    {
+      "url": "https://raig0.planet.ee/subaru/Manuals/Legacy%202006/USDM%20Legacy%20FSM%202006%20(BP-BL)/2006%20USDM/2%20ENGINE%20SECTION%201/EXHAUST%20EXH4SO/1%20General%20Description.pdf",
+      "what": "Same factory manual, Exhaust section EX(H4SO). Exploded drawing and parts list of the stock exhaust; no dimensions."
+    },
+    {
+      "url": "https://pictures.dealer.com/subarucarnettc/8aa6dd4d0a0e0ca22537e820ca55b339.pdf",
+      "what": "Printout of service-data specifications for the 2010 Subaru Forester 2.5 L (Mitchell ProDemand reproduction of Subaru data, hosted by a dealer). Used to show how a later EJ253 differs (exhaust opening, low-speed intake lobe) and for Subaru's kW and N.m ratings of the i-AVLS engine."
+    },
+    {
+      "url": "https://www.cars101.com/subaru/legacy/legacy2006.html",
+      "what": "Dealer-run archive of Subaru US model-year specifications, 2006 Legacy page. Source for 175 hp at 6000 rpm, 169 lb-ft at 4400 rpm and 6200 rpm redline. Not a Subaru document."
+    },
+    {
+      "url": "https://www.australiancar.reviews/?p=52486",
+      "what": "Australian Car Reviews technical article on the EJ253 (Australian-delivered engines). Description of i-AVLS, tumble generator valves, five main bearings; gives 10.1:1 compression and firing order 1-3-2-4."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Subaru_EJ_engine",
+      "what": "Wikipedia article on the EJ family. Used to tie the EJ253 code to the North American Legacy/Outback and for the alternative power and compression figures."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flat-four_engine",
+      "what": "Wikipedia article on flat-four engines; referenced explanation of the burble from merging each bank's exhaust and of Subaru's later 360-degree pairing."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flat_engine",
+      "what": "Wikipedia article on flat engines; general definition that a boxer gives each piston its own crankpin."
+    },
+    {
+      "url": "https://web.archive.org/web/20160515173706/http://www.fhi.co.jp/news/03_04_06/03_05_23b.htm",
+      "what": "Archived Fuji Heavy Industries (Subaru) press release of 2003-05-23 for the new Japanese-market Legacy, in Japanese; announces the equal-length, equal-interval exhaust system."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, flat-four layout, firing order 1-3-2-4 with cylinders 1 and 3 on the right bank, even 180-degree firing, four valves per cylinder, valve timing for both i-AVLS states and the exhaust, cam lobe heights, 6200 rpm redline (dealer archive), 650 rpm idle, published power and torque. Estimated, not sourced: rod length (130.5 mm, an unverified vendor lead); valve diameters (derived defaults); valve lifts, which are the sourced cam lobe lifts times an assumed rocker ratio of 1.36; the lift at which the factory timing is measured (not stated; the angles are used as seat-to-seat); the i-AVLS switch speed (2400 rpm; the real system switches on load as well as speed); intake runner, plenum, throttle and airbox dimensions; every exhaust dimension; flywheel inertia; friction_scale 1.05; heat_q 2.4e6. Intake cam approximation: the format has one intake profile per cylinder, but this engine's two intake valves differ. Low speed uses the fixed valve's events (0 BTDC, 58 ABDC) with the lift reduced to the mean of the two valves' lifts (5.0 mm); high speed uses the mean of the two valves' quoted events (7 BTDC, 60 ABDC) and lifts (8.5 mm). Exhaust: the research could not confirm whether the stock US 2.5i front pipe is equal or unequal length, nor which bank has the shorter path. It is modelled as unequal-length, which is the usual account of the Subaru rumble: all four primaries meet at one collector, the right bank (cylinders 1 and 3) short at 0.21 and 0.27 m and the left bank (2 and 4) long at 0.67 and 0.72 m. Those lengths and the choice of short side are assumptions.",
+  "vehicle": {
+    "name": "Subaru Legacy 2.5i sedan (US, 2006)",
+    "kind": "car",
+    "curb_kg": 1474,
+    "gear_count": 5,
+    "gears": [
+      3.45,
+      2.06,
+      1.45,
+      1.09,
+      0.78
+    ],
+    "final_drive": 3.9,
+    "wheel_radius_m": 0.3184,
+    "tyre": "205/50 R17 89H",
+    "notes": "Curb weight (3250 lb, manual, converted) and tyres are from Subaru of America's 2006 Legacy brochure. Gear ratios and final drive are from a dealer-data aggregator (two decimals); cars101.com, a dealer-run archive, is reported to list 3.454 / 2.062 / 1.448 / 1.088 / 0.780 and 3.90, but it refused automated access and was not read directly. All-wheel drive. No top speed found. wheel_radius_m is my calculation from the tyre size (half the rim diameter plus section width times aspect ratio): the unloaded radius; the loaded rolling radius is a few percent smaller.",
+    "driven": "all"
+  }
+}

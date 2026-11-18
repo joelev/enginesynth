@@ -1,0 +1,118 @@
+{
+  "name": "trabant_p601",
+  "label": "Trabant 601 594 cc two-stroke twin (26 PS)",
+  "kind": "two_stroke",
+  "layout": "inline",
+  "bore": 0.072,
+  "stroke": 0.073,
+  "rod": 0.153,
+  "cr": 7.5,
+  "firing": [
+    0.0,
+    180.0
+  ],
+  "generic": false,
+  "family": "two-stroke",
+  "based_on": "Trabant P 601, engine P 65/66 (594.5 cc, 26 DIN-PS, 7.5:1), 1974-1985",
+  "itb": true,
+  "runner_len": 0.2,
+  "runner_d": 0.028,
+  "ex_port_open": 107.5,
+  "tr_port_open": 125.0,
+  "port_ex_area": 0.001,
+  "tr_port_area": 0.0007,
+  "port_in_area": 0.0007,
+  "induction": "disc",
+  "in_window": [
+    135.0,
+    45.0
+  ],
+  "crankcase_cr": 1.5,
+  "primary_len": [
+    0.7,
+    0.7
+  ],
+  "primary_d": 0.035,
+  "groups": [
+    [
+      0,
+      1
+    ]
+  ],
+  "collector_vol": 0.0003,
+  "merge": "none",
+  "muffler_len": 0.3,
+  "muffler_d": 0.09,
+  "muffler_fric": 0.1,
+  "tail_len": 0.4,
+  "tail_d": 0.04,
+  "redline": 4600.0,
+  "idle": 700.0,
+  "inertia": 0.07,
+  "friction_scale": 0.65,
+  "published": {
+    "power_kw": 19.1,
+    "power_rpm": 4200.0,
+    "torque_nm": 53.95,
+    "torque_rpm": 3000.0
+  },
+  "secondary_len": 0.2,
+  "secondary_d": 0.045,
+  "heat_q": 2700000.0,
+  "sources": [
+    {
+      "url": "https://www.trabant-pausa.de/downloads/publikationen/trabrep_601.pdf",
+      "what": "Reparaturhandbuch für Personenkraftwagen 'Trabant 601', 12th edition, by an author collective of VEB Sachsenring Automobilwerke Zwickau, VEB Fachbuchverlag Leipzig, editorial close 15 November 1974; reprint 2000 hosted by a Trabant club (trabant-pausa.de). Factory workshop manual: technical data, port timing, combustion chamber volume, exhaust system."
+    },
+    {
+      "url": "https://strab312.lima-city.de/media/files/trabant-bedienungsanleitung-1987.pdf",
+      "what": "Trabant owner's manual (Bedienungsanleitung), 1987 edition, scan: technical data of the later 7.8:1 engine (P 65/66, 28 H1-1 carburettor), idle speed, gear speeds."
+    },
+    {
+      "url": "https://dl.dropbox.com/s/vi3qznncvj8xge1/KTA_P_601_L.pdf?dl=1",
+      "what": "Scan of the GDR type approval 'Technische Kurzbeschreibung' for the Trabant P 601 L, approval dated 20.3.1975 (engine P 65-B / P 66-B, VEB Barkas-Werke): rated power and firing order."
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Trabant_601",
+      "what": "German Wikipedia, Trabant 601: engine versions and dates, citing the GDR journal Kraftfahrzeugtechnik."
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Parallel-Twin",
+      "what": "German Wikipedia, Parallel-Twin: the Trabant as the best-known two-stroke twin with opposed piston motion (180-degree crank) and even firing."
+    },
+    {
+      "url": "https://trabitechnik.com/index.php?lang=de&page=67&page_number=6",
+      "what": "trabitechnik.com, transcription of the manual's timing diagram section for the P 60 (exhaust opening 72° 30' before BDC). Enthusiast site."
+    },
+    {
+      "url": "https://www.trabantforum.de/ubb/Forum1/HTML/003578.html",
+      "what": "trabantforum.de archive thread on the disc valves (sheet thickness, one carburettor for both cylinders). Owners' forum."
+    },
+    {
+      "url": "https://www.fh-zwickau.de/fileadmin/service/historische_sammlung/kraftfahrzeug/docs/trabant_p601.pdf",
+      "what": "Westsächsische Hochschule Zwickau historical collection sheet, Trabant P 601: bore, stroke, power, production years."
+    },
+    {
+      "url": "https://www.simsonforum.net/thread/9062-suche-auslassteuerzeit-vom-trabant-p601/",
+      "what": "Simson forum thread quoting a repair manual's durations (A 144°, S 110°, E 180°); seen only as a search-result excerpt, because the site refuses automated fetches."
+    }
+  ],
+  "notes": "Sourced (factory repair manual, 12th edition 1974, unless stated): bore 72 mm, stroke 73 mm, two cylinders in line, compression 7.5:1 (geometric; the manual's 45.7 cm3 combustion chamber gives the same figure), exhaust port open 72.5 degrees before BDC (107.5 after TDC), transfer ports 55 degrees before BDC (125 after TDC), rotary disc inlet valve open from 45 degrees after BDC to 45 degrees after TDC (135 before to 45 after TDC), one 28 mm carburettor (used as each cylinder's intake runner diameter, since each disc valve draws through it for half a turn), one exhaust manifold on both cylinders into silencers, idle 700 rpm, 26 DIN-PS (19.1 kW) at 4200 rpm and 5.5 kpm (53.95 N·m) at 3000 rpm. Rod length 153 mm is the manual's 'Mittenabstand Pleuel', read by Claude as the rod's centre-to-centre length. Firing: 180-degree crank with even firing (German Wikipedia, Parallel-Twin) and firing order 1-2 (1975 type approval). Redline 4600 rpm is Claude's calculation: the owner's manual's gear speeds fall at about 4200 rpm and may be exceeded briefly by about 10%. Estimated, not sourced: exhaust, transfer and inlet port areas, crankcase compression ratio, intake runner length, flywheel inertia, and every exhaust dimension (manifold pipe length and diameter, collector volume, pipe to the silencer, silencer size, tailpipe). The real car has two silencers (front and rear) with an intermediate pipe; the model has one silencer section. The real intake is one carburettor and a shared manifold feeding two disc valves; the model gives each cylinder its own runner and throttle, and the carburettor venturi (23 mm) is not modelled. The exhaust lengths were fitted, not sourced: the manifold pipes (0.7 m) were chosen so the simulated output lands near the published torque at 3000 rpm and power at 4200 rpm. friction_scale 0.65 is near its lower limit (0.6) and heat_q 2.7e6 is at its upper limit: with the model's low two-stroke trapping (README) the engine does not reach its published output otherwise. Simulated (live96): 49 N·m at 3000 rpm (-10%) and 20 kW at 4200 rpm (+5%); the simulated torque curve is flat from 1500 to 3600 rpm and peaks near 1500 rpm rather than at 3000. Fuel mixture 50:1 (33:1 on earlier engines) has no effect in the model.",
+  "vehicle": {
+    "name": "Trabant 601 Limousine (1975)",
+    "kind": "car",
+    "curb_kg": 615,
+    "gear_count": 4,
+    "gears": [
+      4.08,
+      2.32,
+      1.52,
+      1.103
+    ],
+    "final_drive": 3.95,
+    "tyre": "5.20-13",
+    "top_speed_kmh": 100,
+    "notes": "Gear ratios, final drive, unladen mass, tyre and top speed are from the factory repair manual (editorial close November 1974) and agree with the 1975 type approval and the 1987 owner's manual. The ratios from IV/1974 are used (fourth 1.103, final drive 3.95; earlier cars had 1.03 and 4.33). Fourth gear had a freewheel, not modelled. None of the documents defines what the 615 kg includes. wheel_radius_m omitted: no published rolling radius for the 5.20-13 tyre was found. German Wikipedia gives 108 km/h from 1974; the factory documents give 100 km/h.",
+    "driven": "front"
+  }
+}

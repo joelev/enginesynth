@@ -1,0 +1,510 @@
+{
+  "id": "audi_rr_20v_turbo",
+  "name": "Audi RR 2.2 L DOHC 20-valve turbocharged inline-five (Audi quattro 20V, the last Ur-quattro, 1989-1991)",
+  "induction": "turbocharged (single KKK K24, liquid-cooled), air-to-air intercooled, electronic boost control through a wastegate frequency valve",
+  "status_note": "Researched by Claude (Opus 5.5), 2026-11-16. Definition engines/defs/audi_rr_20v_turbo.json written 2026-11-16 once turbochargers were simulated; its notes list what is estimated.",
+  "summary": "A 2,226 cc (81 x 86.4 mm) inline five firing 1-2-4-5-3, so one cylinder fires every 144 crank degrees (two and a half pulses per revolution), with all five exhaust pulses collected into one KKK K24 turbine. The 20-valve head (32 mm intake and 28 mm exhaust valves, hydraulic tappets) and 9.3:1 compression with about 0.84 bar of boost give 309 Nm at only 1950 rpm and 220 PS at 5900 rpm. Testers describe a smooth, burbly idle, the five-cylinder warble at speed (quieter than people expect from the rally cars), and in one test a distinctive turbo whistle above 3000 rpm; the turbine and two catalytic converters sit between the cylinders and the tailpipes.",
+  "owner_figures_check": {
+    "2226 cc": "Confirmed. UK quattro Network spec table, Motor Sport (January 1990), Auto Zeitung, German Wikipedia and Audi's own photo caption all give 2,226 cc; bore and stroke give 2226.1 cc (my arithmetic).",
+    "DOHC 20-valve": "Confirmed. Two camshafts and 20 valves (UK quattro Network table); 'camshafts ... linked by a short single roller chain ... exhaust camshafts are driven from the crankshaft by means of a toothed belt' (Motor Sport, January 1990).",
+    "turbocharged inline-5": "Confirmed. KKK K24 turbocharger with intercooler (UK quattro Network table; Auto Zeitung; Motor Sport, January 1990).",
+    "220 PS (217 hp)": "Confirmed: 162 kW / 220 PS (Auto Zeitung; Audi MediaCenter caption; German Wikipedia). 217 hp is the conversion of 220 PS (220 x 0.7355 / 0.7457 = 217.0 hp, my arithmetic); CAR magazine (2025) quotes '217bhp'. British period tests printed '220 bhp' (Motor Sport, January 1990), which is the PS figure under a bhp label. The speed for peak power is disputed: 5900 rpm (period tests, UK quattro Network table, Auto Zeitung) against 5700 rpm (Audi's 2016 caption for the engine family and the UK quattro Network RR page); see peak_power_rpm.",
+    "the final evolution of the Ur-Quattro": "Confirmed. RR production began in August 1989 and the quattro ended in May 1991 (German Wikipedia: 'MKB RR (08/1989-05/1991)'; Supercar Nostalgia: last car 17 May 1991). The UK quattro Network's RR page gives '09/89 to 06/91'."
+  },
+  "fields": {
+    "engine_code": {
+      "value": "RR",
+      "unit": null,
+      "source": "https://de.wikipedia.org/wiki/Audi_quattro",
+      "note": "German Wikipedia: 'Audi quattro 20V: 2,2-Liter-Motor (2226 cm3) mit 162 kW/220 PS, vier Ventile pro Zylinder (daher \"20V\"), MKB RR (08/1989-05/1991)' (MKB = Motorkennbuchstabe, engine code). The UK quattro Network spec table lists the quattro engines as WR, WX, GV, MB, RR and KW (https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html). The same 20V turbo family appears in the Audi 200 quattro 20V as code 3B, which is a different code and is used below only where labelled."
+    },
+    "variant": {
+      "value": "RR, Audi quattro (Typ 85) coupe 20V, European and UK markets, built from August or September 1989 to May or June 1991",
+      "unit": null,
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "UK quattro Network RR page: 'Production 09/89 to 06/91'. German Wikipedia: 08/1989 to 05/1991. Supercar Nostalgia (https://supercarnostalgia.com/blog/audi-quattro-rr): 'Production of the new Quattro RR began in August 1989', last car 'May 17th 1991'. Motor Sport (January 1990) reports the UK launch with a UK price. Whether any RR cars were sold in North America was not established; no source read mentions a US version (the US 'Coupe Quattro 20V' on 20v.org is a different, naturally aspirated 2.3 L car)."
+    },
+    "cylinders": {
+      "value": 5,
+      "unit": "count",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "RR page: 'Cylinders 5'."
+    },
+    "layout": {
+      "value": "inline",
+      "unit": null,
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "'the 2226cc five-cylinder unit'. Longitudinal, ahead of the front axle in the quattro (general knowledge of the car, not checked against a source in this session). Iron block, aluminium head: UK quattro Network table ('Block: Cast Iron', 'Cylinder Head: Aluminium Alloy' for the RR column)."
+    },
+    "bore_mm": {
+      "value": 81.0,
+      "unit": "mm",
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "'with a bore and stroke of 81.0mm x 86.4mm'. UK quattro Network table: 'Bore (mm) 81.0' (MB and RR). Auto Zeitung: 'eine um 1,5 auf 81 Millimeter vergrösserte Zylinderbohrung' (bore enlarged by 1.5 to 81 mm, compared with the original 2144 cc engine). The UK quattro Network RR page prints 'Bore 51mm', an obvious typing error."
+    },
+    "stroke_mm": {
+      "value": 86.4,
+      "unit": "mm",
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "Same in the UK quattro Network table and RR page and in Auto Zeitung ('Kolbenhub mit 86,4 Millimeter unverändert vom Vorgänger')."
+    },
+    "displacement_cc": {
+      "value": 2226,
+      "unit": "cc",
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "'the 2226cc five-cylinder unit'. Also Auto Zeitung ('2226 Kubikzentimeter'), German Wikipedia, Audi MediaCenter caption ('a displacement of 2,226 cc'). The UK quattro Network RR page prints '2222cc' (typing error); Motor Sport's S2 test (May 1991) prints '2262cc (81x86.4mm)' for the related 3B engine, also a typing error. 81 x 81 x 86.4 x pi/4 x 5 = 2226.1 cc (my arithmetic)."
+    },
+    "rod_length_mm": {
+      "value": 144,
+      "unit": "mm",
+      "source": "https://fcp-engineering.com/en/audi-22-23-25-20v/2363-audi-s2-rs2-22t-20v-3b-aan-fcp-h-beam-steel-connecting-rods-144mm-10v-46mm-crankshaft.html",
+      "note": "Weak, and not about the RR by name. An aftermarket rod set listed for the 2.2 20V turbo engines 3B and AAN at 144 mm centre to centre; several other aftermarket 'Audi 5-cylinder 144 x 20 mm' rods were seen in search excerpts only. Motor Sport (January 1990) says the RR's 'rigid cylinder block, crankshaft and connecting rods ... are taken from the 165 bhp five-cylinder turbocharged engine' (the MC engine of the Audi 200 Turbo), so a shared rod length across the 86.4 mm-stroke turbo fives is likely; that is my inference. No Audi document giving the rod length was found."
+    },
+    "compression_ratio": {
+      "value": 9.3,
+      "unit": ":1",
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "'At 9.3:1, which is surprisingly high for a turbocharged unit, the compression ratio is higher than the older unit at 8.6:1.' Same in the UK quattro Network table and RR page, Auto Zeitung ('Grundverdichtung auf nun üppige 9,3:1') and Supercar Nostalgia. Earlier quattro engines: WR and GV 7.0:1, MB 8.6:1 (UK quattro Network 10V page)."
+    },
+    "firing_order": {
+      "value": "1-2-4-5-3",
+      "unit": null,
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+      "note": "UK quattro Network table: 'Firing order 1-2-4-5-3', one value spanning all quattro engine codes including RR. The RR Motronic test procedure on the same site pulses the injectors in that order ('#1 injector pulses 5 times. Repeat for #2, #4, #5, #3 injectors', https://audifans.com/mirror/www.isham-research.co.uk/quattro/tests_rr.html). Audi's 2026 five-cylinder anniversary release names 1-2-4-5-3 as the five-cylinder's order (for the current 2.5 TFSI). Cylinder numbering: cylinder 1 at the timing-belt (front) end is the usual Audi convention but no source read states it for the RR [NO CITATION FOUND]. Single bank."
+    },
+    "crank": {
+      "value": "Five-throw crankshaft with throws 72 degrees apart, six main bearings, taken from the MC (165 bhp 10-valve) turbo engine",
+      "unit": null,
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "Sourced: the crankshaft is 'taken from the 165 bhp five-cylinder turbocharged engine' (Motor Sport, January 1990), with 'special surface material on the bearing shells'. Six main bearings is stated for the 10-valve Ur-quattro engine in a UK owner's transcription of Audi technical data ('5-cylinder inline engine mounted at front, with 6 main bearings', https://www.qsl.net/g8aso/technical_data.htm); applying it to the RR is my inference from the shared block and crank. The 72-degree throw spacing is not stated anywhere read; it is the only spacing that gives even 144-degree firing on a four-stroke five and is my inference."
+    },
+    "firing_intervals_deg": {
+      "value": [
+        144,
+        144,
+        144,
+        144,
+        144
+      ],
+      "unit": "crank deg",
+      "source": "https://www.audi-mediacenter.com/en/press-releases/50-years-of-the-audi-five-cylinder-16921",
+      "note": "Audi: 'the unique firing sequence 1-2-4-5-3, which alternates between cylinder pairs adjacent to each other and further away at an interval of 144 degrees of crankshaft rotation'. That release describes the current 2.5 TFSI; for the RR, even 144-degree intervals follow from 720/5 on a conventional five-cylinder crank (my inference), with the firing order sourced above."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+      "note": "UK quattro Network table: 'Valves 20', 'Camshafts 2', 'Valve lifters: Hydraulic; self-adjusting' for RR and KW (Sport quattro). Motor Sport (January 1990): the head is the 'aluminium Sport quattro head', the camshafts 'linked by a short single roller chain running in oil', the exhaust camshaft 'driven from the crankshaft by means of a toothed belt', valves 'sodium-cooled' with 'a small valve angle of just 25 degrees'. Motor Sport (May 1991, S2 test) adds that for production the Sport head 'gained roller chain camshaft drive and the solid valve lifters were replaced by hydraulic tappets'."
+    },
+    "intake_valve_dia_mm": {
+      "value": 32.0,
+      "unit": "mm",
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "'The centrally located valves, 32mm intake and 28mm exhaust and sodium-cooled, are smaller than usual'. UK quattro Network table: 'Inlet valve diameter (mm) 32' for RR and KW (10-valve engines 38)."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 28.0,
+      "unit": "mm",
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "28 mm (Motor Sport); UK quattro Network table 'Exhaust valve diameter (mm) 28' for RR and KW (10-valve engines 33)."
+    },
+    "ivo_btdc": {
+      "value": -3,
+      "unit": "deg",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "Disputed sign. The UK quattro Network RR page: 'Timings with 1mm valve gap and zero valve guide play: Inlet opens after top centre 3' (so -3 BTDC; '1mm valve gap' presumably means 1 mm valve lift, my reading). The same site's spec table (https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html) puts 3 in a row headed 'Inlet opens before TDC', but that row has one fixed heading for every engine and cannot show a sign, so I take the RR page's explicit wording; this is my judgment. An unsourced enthusiast table gives the 3B engine as '3 BT' (https://audi.humanspeakers.com/engines.htm). If the table's reading is right, the value is +3."
+    },
+    "ivc_abdc": {
+      "value": 25,
+      "unit": "deg",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "'Inlet closes after bottom centre 25', at 1 mm lift. Same number in the spec table and the enthusiast 3B row."
+    },
+    "evo_bbdc": {
+      "value": 42,
+      "unit": "deg",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "'Exhaust opens before bottom centre 42', at 1 mm lift. Same number in the spec table and the enthusiast 3B row."
+    },
+    "evc_atdc": {
+      "value": -9,
+      "unit": "deg",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "'Exhaust closes before top centre 9' (so -9 ATDC), at 1 mm lift. The spec table's fixed row heading reads 'Exhaust closes after TDC' (+9); the enthusiast 3B row says '9 BT', agreeing with the RR page. With the RR page's signs, neither valve is open past 1 mm at TDC (no overlap at that lift)."
+    },
+    "intake_duration_deg": {
+      "value": 202,
+      "unit": "deg",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "My sum at 1 mm lift with the RR page's signs: -3 + 180 + 25. With the spec table's signs it would be 208."
+    },
+    "exhaust_duration_deg": {
+      "value": 213,
+      "unit": "deg",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "My sum at 1 mm lift: 42 + 180 - 9. With the spec table's signs it would be 231."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. The UK quattro Network's RR workshop-manual index lists a camshaft page (15-19), but that page was never put online (the mirror returns 404 and the Wayback Machine holds only 404 captures from 2007)."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": 7000,
+      "unit": "rpm",
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "This is the electronic limit, not a printed red line: 'the power delivered in one continuous punch up to the electronic 7000 rpm'. The instruments are liquid-crystal and the tachometer 'quasi-analog' (same article). No Audi figure found. The related S2 (3B engine) has 'a 7200 rpm limit' on its gauges (Motor Sport, May 1991); that is a different car and is not used here."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found for the RR. Idle is held by the Motronic through an idle stabiliser valve (the RR Motronic test includes 'Test switches to idle stabiliser valve - 4431', https://audifans.com/mirror/www.isham-research.co.uk/quattro/tests_rr.html). The 800 +/- 50 rpm on 20v.org is for the US naturally aspirated 7A engine and is not used."
+    },
+    "peak_power_kw": {
+      "value": 162,
+      "unit": "kW",
+      "source": "https://www.autozeitung.de/audi-quattro-20v-fuenfzylinder-motoren-technik-88608.html",
+      "note": "Auto Zeitung: 'satte 220 PS (162 kW) in Verbindung mit einem geregelten Katalysator'. Audi MediaCenter caption (https://www.audi-mediacenter.com/en/photos/detail/audi-200-quattro-20v-c3-model-year-1990-37227): '162 kW (220 hp)'. Rating standard: not stated in any source read; metric PS as used for German type approval at the time (DIN 70020) is my assumption. Motor Sport (January 1990): '220 bhp at 5900 rpm'."
+    },
+    "peak_power_rpm": {
+      "value": 5900,
+      "unit": "rpm",
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "Disputed. 5900 rpm: Motor Sport launch report (January 1990), UK quattro Network table ('220/5900' in the RR column), Auto Zeitung ('220 PS bei 5900 Touren'), Car Enthusiast's key facts, and Motor Sport's 1991 S2 data sheet for the 3B. 5700 rpm: Audi's own 2016 caption for the 20V turbo engine family ('162 kW (220 hp) at 5,700 revolutions per minute', describing the engine as first in the 200 quattro 20V, then the quattro 20V, then the S2) and the UK quattro Network's RR page ('162kW at 5700rpm', a page with other typing errors). Motor Sport's only other figure, 'the old 200 bhp car', refers to the earlier 10-valve quattro, not the RR. The period RR-specific sources agree on 5900, so it is used; Audi's 5700 may describe the 200 20V (3B). Unresolved."
+    },
+    "peak_torque_nm": {
+      "value": 309,
+      "unit": "Nm",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+      "note": "UK quattro Network table, RR column: '309/1950'. Also Auto Zeitung ('309 Newtonmetern bei moderaten 1950 Touren'), Audi MediaCenter caption ('309 newton meters ... at 1,950 rpm'), Motor Sport January 1990 ('228 lb ft at an engine speed of only 1950 rpm'). Supercar Nostalgia's '309lb-ft' is a unit error."
+    },
+    "peak_torque_rpm": {
+      "value": 1950,
+      "unit": "rpm",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+      "note": "All sources read agree on 1950 rpm. A search excerpt of an auction listing (Broad Arrow, via supercars.net) gave 3000 rpm; not opened and not used. No torque curve was found. Peak torque at 1950 rpm implies the turbo reaches most of its boost by about 2000 rpm under full load (my inference)."
+    },
+    "fuel_octane": {
+      "value": "95 RON unleaded minimum; runs on 91 RON",
+      "unit": null,
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "'designed to run exclusively on ordinary unleaded premium grade 95 octane fuel, and even on 91 octane unleaded fuel'. UK quattro Network table: 'Minimum ROZ/RON 95' (10-valve engines 98)."
+    },
+    "intake_type": {
+      "value": "turbocharger, air-to-air charge intercooler, single throttle, intake manifold with sequential port injection; plenum and runner geometry not found",
+      "unit": null,
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "'charge air intercooler, which reduces the air temperature from the turbocharger to around 60 degrees centigrade, electronic boost pressure control and sequential fuel injection into the intake pipes'; 'lower pressures ahead of the throttle butterfly'. The RR workshop index lists 'Checking and Adjusting the Throttle Body Dashpot' and 'Intercooler and crankcase breather removal' (https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/index.html), pages that were never online."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "runner_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found for the RR: no source read describes the RR's exhaust manifold (all five cylinders into one turbine entry is the norm for a single-turbo five, but the runner layout and whether it is single- or divided-entry were not established). Audi's 2026 release says that on the current 2.5 TFSI 'the geometry of the exhaust manifold contributes to this unique sound ... with different exhaust gas flow times between the exhaust valves and the turbocharger'; that is a different engine. Motor Sport (May 1991) says the production 20V engine has 'replacement manifolding' compared with the Sport quattro. An aftermarket cast manifold is sold as fitting 'S2, S4, S6, RS2, Urquattro 20V and Sportquattro 20V' (turbozentrum.de, search excerpt only), which suggests a common head flange, not a common stock manifold."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "primary_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_pipe_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found for the RR. SJM Autotechnik gives a turbine exhaust outlet of '~1.80 in' (about 46 mm) for the K24-7000 on the US 200 20V (3B), a sibling turbo variant (http://www.sjmautotechnik.com/trouble_shooting/turboparts.htm); not used."
+    },
+    "exhaust_notes": {
+      "value": "Two catalytic converters with lambda (oxygen sensor) control; regulated catalyst standard on the RR",
+      "unit": null,
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "note": "RR page: 'Catalytic converter 2', 'Lambda control Yes'. Audi MediaCenter caption for the 20V turbo engine family: 'With two catalytic converters, four-valve technology, a closed tank venting system and a diagnostic system'. Auto Zeitung: 'mit einem geregelten Katalysator'. Where the two converters sit (a Y-split downpipe, as on the later AAN per an AudiWorld thread seen only in a search excerpt) was not established for the RR."
+    },
+    "turbocharger": {
+      "value": "KKK K24, liquid-cooled; KKK part number 5324 970 7002, Audi part number 034 145 703A (Ur-quattro 20V, 1989 on)",
+      "unit": null,
+      "source": "http://www.sjmautotechnik.com/trouble_shooting/turboparts.htm",
+      "note": "SJM Autotechnik (a US Audi turbo specialist) table of European Audi turbochargers: 'Ur-Q 20V | 1989- | 2.22 | 034 145 703A | 5324 970 7002 | K24'. It is a separate variant from the 200 quattro 20V's '5324 970 7000' (Audi 034 145 703B) and the 10-valve 100/200 Turbo's '5324 970 7001'. The K24 model is confirmed by the UK quattro Network table ('Turbo ... K24' for MB and RR), Auto Zeitung ('von einem K24-Turbo von KKK aufgeladenen Vierventil-Aggregats') and Supercar Nostalgia ('A KKK K24 turbo as fitted to the outgoing MB Quattro was retained'). Motor Sport (January 1990): 'the newly developed low-inertia, liquid-cooled, exhaust-driven turbocharger'. A Broad Arrow auction listing seen only in a search excerpt says K26; that contradicts every source read and is not used. The original 10-valve WR used a K26 (UK quattro Network; Auto Zeitung)."
+    },
+    "turbo_compressor_trim": {
+      "value": null,
+      "unit": null,
+      "source": "http://www.sjmautotechnik.com/trouble_shooting/turboparts.htm",
+      "note": "Not found for the RR's 7002 variant; SJM leaves its compressor and turbine columns blank. For the sibling K24-7000 (3B and AAN engines) and K24-7001 (MC-2 engine) SJM gives a 'K24- 2470 GGA' compressor and a 'K24-6.13' turbine. Whether the 7002 shares these trims is unknown."
+    },
+    "turbo_compressor_map": {
+      "value": "KKK compressor map for the 2470 GGA wheel (the sibling K24-7000's compressor): corrected speed lines 40,000 to 140,000 rpm; pressure ratio about 1.1 at 40,000, 1.45 at 80,000, 1.75 at 100,000 and 2.1 at 120,000 rpm; peak efficiency island 0.76 at pressure ratio about 1.55 to 1.8 and corrected volume flow about 0.09 to 0.14 m3/s; surge line from about 0.01 m3/s at ratio 1.05 to about 0.07 m3/s at ratio 2.1; choke from about 0.16 to 0.21 m3/s. Reference inlet 981 mbar, 293 K.",
+      "unit": null,
+      "source": "http://www.sjmautotechnik.com/parts_products/turbo/k24.html",
+      "note": "SJM: 'the Audi K24 Turbo Map, as used in the Dual Knock sensor MC designated 10V Five Cylinder Turbo Engine, the 3B designated 20V Five Cylinder Turbo engine and in the AAN ... with the 2470 GGA Compressor, and 6.13 exhaust Turbine'. The image (http://www.sjmautotechnik.com/parts_products/turbo/24.jpg) is a scanned KKK 'Verdichterkennfeld 2470 GGA'. Every number in the value is my reading of a blurry scan, good to perhaps +/-0.05 in pressure ratio and +/-0.01 m3/s. The RR is not named on the page; using this map for the RR assumes its 7002 variant has the same compressor (not established). No turbine map was found."
+    },
+    "boost_bar": {
+      "value": 0.84,
+      "unit": "bar gauge",
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+      "note": "UK quattro Network table: 'Relative boost at 20 deg C (bar)': RR 0.84 (MB 0.56, WR and GV 0.68, Sport quattro KW 1.2). Supercar Nostalgia repeats it ('boost pressure was upped from 0.56 bar to 0.84 bar'), apparently from the same table, so it is not independent. Independent period figure: Motor Sport's S2 test (May 1991) says 'the maximum boost pressure of the 200/quattro specification 20v was dropped from 0.85 bar to 0.75 bar' for the S2 because of a gearbox torque limit, which puts the quattro 20V at 0.85 bar maximum. For the US 200 quattro 20V (3B), SJM Autotechnik gives 'a maximum of 1.825 bar boost (absolute) or ~12 psi gauge pressure, as set by the Motronic' (https://audifans.com/mirror/sjmautotechnik.com/trouble_shooting/20vboost.html). The speed at which this boost is reached was not found."
+    },
+    "overboost": {
+      "value": "none found",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Motronic",
+      "note": "No source read gives the RR an overboost function. Wikipedia (uncited section on Motronic 2.3/2.3.2) says the 20V turbo ECU 'was first seen when the 20V turbo 5-cylinder engine (RR Code) was installed into the Audi Quattro' and gained 'an added overboost function' only when the S4 arrived in 1991. That the RR has no overboost is my inference from that sentence."
+    },
+    "wastegate": {
+      "value": "separate poppet-valve wastegate with a boost-fed diaphragm, its pressure modulated by an ECU-driven wastegate frequency (solenoid) valve; discharge path not established",
+      "unit": null,
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/tests_rr.html",
+      "note": "RR Motronic output test sequence includes '4442 Wastegate Frequency Valve'. Motor Sport (January 1990): 'electronic boost pressure control'. Auto Zeitung photo caption: 'Äusserst kompakt gelang den Audi-Ingenieur:innen die Anordnung von Lader und Wastegate' (the turbo and wastegate are packaged very compactly), which shows a wastegate separate from the turbo. Mechanism, from SJM Autotechnik on the US 200 20V (3B) and 'stock 20V engines', not the RR by name: the unpowered solenoid sends boost to the lower diaphragm chamber so the gate opens at the spring setting, 'about 1.4-1.5 bar of boost' absolute; a high duty cycle blocks that pressure and lets boost climb to the ECU target; the wastegate cap is open to atmosphere; 'The waste gate valve normally moves about 15mm when it is fully open'; the ECU trims boost above about 3900 ft altitude (https://audifans.com/mirror/sjmautotechnik.com/trouble_shooting/20vboost.html). Whether the RR's wastegate pipe rejoins the downpipe before or after the catalysts was not found."
+    },
+    "bypass_valve": {
+      "value": "overrun shut-off (bypass) valve present; whether it vents or recirculates was not established",
+      "unit": null,
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/index.html",
+      "note": "The RR workshop index lists 'Checking the overrun shutoff valve with a vacuum pump' under Turbocharger. SJM describes a 'turbo bypass valve' on the 3B with a small hose to the back of the intake manifold. Its outlet routing on the RR was not found."
+    },
+    "intercooler": {
+      "value": "air-to-air charge-air intercooler; charge temperature after it about 60 degrees C",
+      "unit": null,
+      "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "note": "'charge air intercooler, which reduces the air temperature from the turbocharger to around 60 degrees centigrade'. Air-to-air (as opposed to water) is my reading of 'charge air intercooler' and of the original quattro's 'Ladeluftkühlung' (German Wikipedia), not stated as such. Volume, core size and pressure drop not found."
+    },
+    "engine_management": {
+      "value": "Bosch Motronic (sequential multipoint injection, mapped ignition, knock control and boost control in one unit), first used on the RR",
+      "unit": null,
+      "source": "https://www.autozeitung.de/audi-quattro-20v-fuenfzylinder-motoren-technik-88608.html",
+      "note": "Auto Zeitung: 'die bis dahin verwendete mechanische Steuerung der Einspritzanlage von einer vollelektronischen Bosch Motronic abgelöst wurde' (the earlier mechanical injection control was replaced by a fully electronic Bosch Motronic). UK quattro Network RR page: 'Injection system Motronic'. Motor Sport (January 1990): 'A Motronic control unit controls all the engine management functions, such as the fuel injection, ignition, pinking, turbo boost, lambda-probe mixture control, tank venting, diagnosis and emergency operation' (sentence read from the page's raw HTML; the archive's plain text cuts it off). Wikipedia (uncited) names it Motronic 2.3.2, two processors in one box ('One side of the ECU controlled the timing and fueling while the other side controlled the boost and knock control'), and says it was first fitted to the RR. Motor Sport's 1991 S2 data sheet calls the 3B's system 'Bosch MH Motronic'. Earlier quattro engines used K-Jetronic (UK quattro Network 10V page); the original 200 PS engine had a Hitachi electronic control unit according to auto motor und sport (https://www.auto-motor-und-sport.de/oldtimer/audi-quattro-1980-1991-1/)."
+    },
+    "knock_control": {
+      "value": "two knock sensors, knock control by the Motronic; retard amounts not found",
+      "unit": null,
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+      "note": "UK quattro Network table, 'Knock sensors': WR/WX/GV none, MB 1, RR 2, KW none. Supercar Nostalgia: 'To keep the engine optimised, a second knock sensor was added'. Motor Sport (January 1990) lists 'pinking' (knock) among the functions the Motronic controls. How much spark the system retards under boost, and whether it is cylinder-selective on the RR, was not found."
+    },
+    "differences_from_10v": {
+      "value": "WR (1980-87): 2144 cc, 79.5 x 86.4 mm, 7.0:1, SOHC 10 valves (38/33 mm), K26 turbo, 0.68 bar, K-Jetronic, no knock sensor, 200 PS at 5500, 285 Nm at 3500. MB (1987-89): 2226 cc, 81 x 86.4, 8.6:1, SOHC 10 valves, K24, 0.56 bar, K-Jetronic with knock control (1 sensor), 200 PS at 5800, 270 Nm at 3000. RR (1989-91): 2226 cc, 81 x 86.4, 9.3:1, DOHC 20 valves (32/28 mm, hydraulic tappets), K24 (variant 7002), 0.84 bar, Bosch Motronic, 2 knock sensors, 2 catalysts, 220 PS at 5900, 309 Nm at 1950.",
+      "unit": null,
+      "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/10v_engine/00-1.html",
+      "note": "10-valve figures from the UK quattro Network 10V page (production dates, power 147 kW at 5500 (WR) and 5800 (MB), torque, compression, valve timing, K-Jetronic, knock control) and spec table (bore, valve sizes, turbo, boost; it lists the MB at 200 PS at 5500, against 5800 on the 10V page). Auto Zeitung gives the WR as 'Grundverdichtung von 7,0 und von einem K26-Turbolader von KKK', 200 PS at 5500 and 285 Nm. auto motor und sport gives the original quattro's boost as 0,85 bar ('Im Quattro steigern 0,85 statt 0,83 bar Ladedruck'), which disagrees with the UK quattro Network's 0.68; unresolved, and not about the RR."
+    },
+    "sound_notes": {
+      "value": "Smooth, burbly idle; the five-cylinder warble at speed, livelier above 5000 rpm but quieter than the rally cars; one tester heard a distinctive turbo whistle above 3000 rpm; another found it mechanically quiet below 5500 rpm",
+      "unit": null,
+      "source": "https://carmagazine.co.uk/car-reviews/audi/quattro",
+      "note": "CAR magazine (28 July 2025, Audi UK heritage-fleet 20-valve car): 'settling to a smooth, burbly idle'; 'Past five on the digital rev counter and the character changes ... the trademark warbling soundtrack fizzing with energy, although it's never quite as loud as your Group B memories may imagine'. Car Enthusiast (2001 test of a 1990 quattro 20V, https://www.carenthusiast.com/20011116_audiquattro20v1990_test.html): 'there is a certain amount of lag, but to be honest, a distinctive whistle and a very acceptable surge accompany any engine speed higher than 3000 rpm'. Motor Sport (January 1990): 'Turbo lag is non-existent ... the lumpy fivecylinder engine smoothed out to feel as if there were six pistons at work. It is only above 5500 rpm that there is any sort of mechanical noise'. Car Enthusiast retro drive (https://www.carenthusiast.com/reviews/article/9067/-/1990-Audi-Quattro/Retro+drive+-+20v.html): 'the 2.2-litre turbocharged unit surprisingly free of lag'. Audi attributes the five-cylinder's signature sound to the odd cylinder count and the 1-2-4-5-3 order (anniversary release, about the 2.5 TFSI). No source describes wastegate or bypass-valve sounds on the RR."
+    }
+  },
+  "missing": [
+    "cam lift, intake and exhaust (timing at 1 mm lift found, with a sign conflict on intake opening and exhaust closing)",
+    "an Audi document for rod length (144 mm from aftermarket rods for the 3B/AAN only) and for the crank throw layout",
+    "idle speed",
+    "a printed tachometer red line (only the 7000 rpm electronic limit, from Motor Sport)",
+    "the rating standard for 220 PS, and a resolution of 5900 against 5700 rpm for peak power",
+    "torque curve and the speed at which full boost is reached",
+    "intake: throttle diameter, plenum volume, runner length and diameter, intercooler volume and pressure drop",
+    "exhaust: manifold runner layout and lengths, turbine entry (single or divided), downpipe and pipe diameters, catalyst positions, muffler layout, wastegate discharge point",
+    "turbocharger: compressor and turbine trims for the RR's K24-7002, wheel diameters, blade counts, turbine A/R and any turbine map; shaft inertia",
+    "wastegate spring (crack) pressure and full-open pressure for the RR specifically (1.4-1.5 bar absolute spring and 15 mm travel are SJM figures for the 3B / '20V engines')",
+    "knock retard strategy and amounts",
+    "bypass valve type (vent or recirculating)",
+    "cylinder numbering convention from a source (cylinder 1 at the belt end assumed)",
+    "Audi's own 1989 press release or the RR workshop manual technical data (the UK quattro Network transcribed only an overview page; its other RR manual pages were never online)"
+  ],
+  "sources": [
+    {
+      "url": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+      "what": "The UK quattro Network (Kerbside Motors, an Ur-quattro specialist; mirror of isham-research.co.uk), 'Audi ur-quattro Specifications', last updated 23 September 2006. Per-engine-code table for WR, WX, GV, MB, RR and KW: power, torque, bore, stroke, compression, firing order, valve sizes and timing, knock sensors, turbo model, relative boost at 20 degrees C, fuel grade. Column alignment read from the raw HTML (colspans). Specialist reference, not an Audi document."
+    },
+    {
+      "url": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/00-2.html",
+      "what": "The UK quattro Network, 'ur-quattro 20V Engine - Specifications' (RR overview page of its maintenance database): production dates, compression, valve timing at 1 mm lift, Motronic, two catalysts, lambda control. Contains typing errors (2222cc, bore 51mm)."
+    },
+    {
+      "url": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/20v_engine_mechanical/index.html",
+      "what": "The UK quattro Network RR 'Injection Engine (4 valve) Mechanical' index: section titles show an overrun shut-off valve, wastegate check, intercooler and turbo after-run pump. The linked pages were never published (mirror 404; Wayback CDX shows only 404 captures)."
+    },
+    {
+      "url": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/tests_rr.html",
+      "what": "The UK quattro Network, 'Audi ur-quattro RR (20V) Engine Motronic Tests': output-test sequence naming the injectors in firing order, idle stabiliser valve, carbon canister and 'Wastegate Frequency Valve'."
+    },
+    {
+      "url": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/ur_quattro/10v_engine/00-1.html",
+      "what": "The UK quattro Network 10-valve WR, GV and MB engine data: production dates, output, torque, compression, valve timing, K-Jetronic, knock control. Used only for the 10-valve comparison."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+      "what": "Motor Sport magazine, January 1990, 'Evergreen Giant' (initialled WPK), UK launch drive of the quattro 20V: bore and stroke, 2226 cc, block/crank/rods from the 165 bhp turbo engine, Sport quattro head, valve sizes and angle, cam drive, 9.3:1, 220 bhp at 5900, 228 lb ft at 1950, low-inertia liquid-cooled turbo, intercooler to about 60 degrees C, electronic boost control, sequential injection, 95 RON, 'electronic 7000 rpm', noise above 5500 rpm. Period road test; text read in full from the archive page (one sentence on the Motronic is cut off in the archive text)."
+    },
+    {
+      "url": "https://www.motorsportmagazine.com/archive/article/may-1991/41/the-motor-sport-road-test-audi-coupe-s2/",
+      "what": "Motor Sport, May 1991, road test of the Audi Coupe S2 (3B engine): 'the maximum boost pressure of the 200/quattro specification 20v was dropped from 0.85 bar to 0.75 bar'; production 20V head history; Bosch MH Motronic; K24. Period source; about a sibling car, used only for the quattro 20V boost figure and as context."
+    },
+    {
+      "url": "https://www.autozeitung.de/audi-quattro-20v-fuenfzylinder-motoren-technik-88608.html",
+      "what": "Auto Zeitung (German magazine), 'Fünfzylinder Audi quattro 20V: Classic Cars': 2226 cc, 81 mm bore, 86.4 mm stroke, 9.3:1, smaller K24 turbo from KKK, Bosch Motronic replacing mechanical injection control, 220 PS at 5900, 309 Nm at 1950, regulated catalyst; WR comparison (7.0:1, K26). Modern retrospective."
+    },
+    {
+      "url": "https://www.audi-mediacenter.com/en/photos/detail/audi-200-quattro-20v-c3-model-year-1990-37227",
+      "what": "Audi MediaCenter (Audi AG) photo caption, 2016: the 20V turbo five ('S engine') with two catalytic converters, first in the 200 quattro 20V, then the quattro 20V, then the S2; 2,226 cc, 162 kW (220 hp) at 5,700 rpm, 309 Nm at 1,950 rpm. Manufacturer material, but about the engine family."
+    },
+    {
+      "url": "https://www.audi-mediacenter.com/en/press-releases/50-years-of-the-audi-five-cylinder-16921",
+      "what": "Audi MediaCenter press release '50 years of the Audi five-cylinder' (2026): firing order 1-2-4-5-3 at 144-degree intervals and its role in the sound, stated for the current 2.5 TFSI; history of the five-cylinder."
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Audi_quattro",
+      "what": "German Wikipedia, Audi quattro: engine codes and production dates by version, including 'MKB RR (08/1989-05/1991)'."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Motronic",
+      "what": "Wikipedia, Motronic: the uncited 2.3/2.3.2 section saying the 20V turbo five's two-processor ECU (knock and boost control) was first used on the RR and gained overboost with the 1991 S4. Weak (no citation)."
+    },
+    {
+      "url": "http://www.sjmautotechnik.com/trouble_shooting/turboparts.htm",
+      "what": "SJM Autotechnik (US Audi turbo specialist), 'Audi Turbocharger Part Numbers For USA and European Audis': Ur-Q 20V K24, KKK 5324 970 7002, Audi 034 145 703A; sibling variants with compressor and turbine trims. Specialist reference."
+    },
+    {
+      "url": "http://www.sjmautotechnik.com/parts_products/turbo/k24.html",
+      "what": "SJM Autotechnik 'Audi K24 Turbo Map': scanned KKK compressor map 'Verdichterkennfeld 2470 GGA' (image 24.jpg) for the K24 used on the MC, 3B and AAN engines. The RR is not named."
+    },
+    {
+      "url": "https://audifans.com/mirror/sjmautotechnik.com/trouble_shooting/20vboost.html",
+      "what": "SJM Autotechnik, 'The ABC's of Running High Boost for the 1991 200TQ 20V Turbo and the 1992-96 Audi S4/S6': stock boost 1.825 bar absolute on the 3B, wastegate solenoid logic, spring about 1.4-1.5 bar absolute, 15 mm valve travel, altitude trim, overboost fuel cut. About the 3B/AAN, applied to the RR only as labelled."
+    },
+    {
+      "url": "https://carmagazine.co.uk/car-reviews/audi/quattro",
+      "what": "CAR magazine, 'Audi Quattro (1980-1991) review and buying guide', Tim Pollard and Keith Adams, 28 July 2025, drive of an Audi UK heritage-fleet 20-valve quattro: idle and sound descriptions, 217bhp, 228 lb ft at 1950 rpm."
+    },
+    {
+      "url": "https://www.carenthusiast.com/20011116_audiquattro20v1990_test.html",
+      "what": "Car Enthusiast, 2001 test of a 1990 Audi quattro 20V: 'a distinctive whistle and a very acceptable surge ... higher than 3000 rpm', some lag."
+    },
+    {
+      "url": "https://www.carenthusiast.com/reviews/article/9067/-/1990-Audi-Quattro/Retro+drive+-+20v.html",
+      "what": "Car Enthusiast 'Retro drive: Audi Quattro 20V': 'surprisingly free of lag'; key facts give 5,900 rpm for peak power."
+    },
+    {
+      "url": "https://supercarnostalgia.com/blog/audi-quattro-rr",
+      "what": "Supercar Nostalgia, 'Guide: Audi Quattro RR - a Historical & Technical Appraisal' (7 February 2020): production start and end, K24 retained from the MB, 0.56 to 0.84 bar, 8.6 to 9.3:1, second knock sensor, twin catalysts. Enthusiast article; appears to draw on the UK quattro Network table and contains a unit error (309 lb-ft), so used only as corroboration."
+    },
+    {
+      "url": "https://www.auto-motor-und-sport.de/oldtimer/audi-quattro-1980-1991-1/",
+      "what": "auto motor und sport, Audi Quattro history: original quattro boost 0.85 bar against 0.83 in the 200 Turbo, Hitachi electronic control, 20-valve from August 1989. Used only for the 10-valve comparison."
+    },
+    {
+      "url": "https://www.qsl.net/g8aso/technical_data.htm",
+      "what": "UK owner's site, transcribed Audi technical data for the 10-valve Ur-quattro: 'with 6 main bearings'. Used, by inference, for the RR's shared block."
+    },
+    {
+      "url": "https://fcp-engineering.com/en/audi-22-23-25-20v/2363-audi-s2-rs2-22t-20v-3b-aan-fcp-h-beam-steel-connecting-rods-144mm-10v-46mm-crankshaft.html",
+      "what": "FCP Engineering aftermarket rod listing, 144 mm, for 2.2 20V turbo engines 3B and AAN. Weak source for rod length."
+    },
+    {
+      "url": "https://audi.humanspeakers.com/engines.htm",
+      "what": "Enthusiast engine-code table ('Not responsible for accuracy of content'): 3B valve timing '3 BT 25 AB 42 BB 9 BT'. Used only as a cross-check on the timing signs."
+    }
+  ],
+  "vehicle": {
+    "name": "Audi quattro 20V (1990)",
+    "fields": {
+      "curb_kg": {
+        "value": 1380,
+        "unit": "kg",
+        "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+        "note": "'Weight unladen (kg)': RR column 1380 (GV/MB 1335). Standard not stated."
+      },
+      "gear_count": {
+        "value": 5,
+        "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+        "note": "'Transmission type Synchromesh 5-speed manual'."
+      },
+      "gears": {
+        "value": [
+          3.6,
+          2.13,
+          1.46,
+          1.07,
+          0.78
+        ],
+        "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+        "note": "'1st gear ratio 3.60:1 ... 2nd 2.13:1 ... 3rd 1.36:1 to 7/83, 1.46:1 afterwards ... 4th 0.97:1 to 7/83, 1.07:1 afterwards ... 5th gear ratio 0.78:1 ... Reverse 3.50:1'. One cell spans the WR to RR columns (the KW Sport quattro has its own); the RR (built from 1989) takes the 'afterwards' values. Inference from the table layout."
+      },
+      "final_drive": {
+        "value": 3.89,
+        "source": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+        "note": "'Final drive ratio 3.89:1' (same spanning cell). Enthusiast mailing list (https://audifans.com/archives-2k/urq/2011-May/017600.html): 'ALL ur quattros had 3.89 final drive, including the 20V'."
+      },
+      "wheel_radius_m": {
+        "value": 0.298,
+        "unit": "m",
+        "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+        "note": "Calculated by me from the tyre size 215/50 R15 (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "215/50 R15",
+        "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+        "note": "'the 215/50 R15 Pirelli P700s'. Driven wheels: all four."
+      },
+      "top_speed_kmh": {
+        "value": 230,
+        "unit": "km/h",
+        "source": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+        "note": "'its top speed is 143 mph'; converted by me (230.1 km/h). The quattro Network table gives '146/233' (mph/kph) for the RR."
+      },
+      "driven": {
+        "value": "all",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Audi_Quattro",
+        "note": "English Wikipedia, 'Audi Quattro' (read 2026-11-17), infobox layout: longitudinal front engine, all-wheel drive."
+      }
+    },
+    "missing": [
+      "an Audi factory specification sheet or brochure for the quattro 20V"
+    ],
+    "sources": [
+      {
+        "url": "https://audifans.com/mirror/www.isham-research.co.uk/quattro/specifications.html",
+        "what": "The UK quattro Network (Kerbside Motors, Ur-quattro specialist; mirror of isham-research.co.uk), 'Audi ur-quattro Specifications', columns by engine code including RR: weight, gearbox and final drive. Same site the engine research uses."
+      },
+      {
+        "url": "https://www.motorsportmagazine.com/archive/article/january-1990/24/evergreen-giant/",
+        "what": "Motor Sport magazine, January 1990, 'Evergreen Giant', UK launch drive of the quattro 20V: tyres and top speed."
+      },
+      {
+        "url": "https://audifans.com/archives-2k/urq/2011-May/017600.html",
+        "what": "urq mailing list post on Ur-quattro final drives. Enthusiast cross-check."
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "yamaha_r1_crossplane",
+  "label": "Yamaha YZF-R1 998 cc cross-plane inline-four (2009)",
+  "based_on": "Yamaha YZF-R1 cross-plane inline-four (model code 14B), 2009-2014; 2009 data",
+  "family": "inline-four",
+  "layout": "inline",
+  "bore": 0.078,
+  "stroke": 0.0522,
+  "rod": 0.1105,
+  "cr": 12.7,
+  "firing": [
+    0.0,
+    450.0,
+    270.0,
+    540.0
+  ],
+  "in_valve_d": 0.031,
+  "ex_valve_d": 0.025,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 19.0,
+    "ivc": 49.0,
+    "evo": 49.0,
+    "evc": 19.0,
+    "in_lift": 0.00916,
+    "ex_lift": 0.00819
+  },
+  "itb": true,
+  "throttle_d": 0.045,
+  "runner_len": 0.22,
+  "runner_d": 0.042,
+  "primary_len": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "groups": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 0.4,
+  "mid_len": 0.4,
+  "muffler_len": 0.3,
+  "muffler_d": 0.13,
+  "tail_len": 0.1,
+  "inertia": 0.035,
+  "redline": 13750.0,
+  "idle": 1200.0,
+  "friction_scale": 0.6,
+  "published": {
+    "power_kw": 133.9,
+    "power_rpm": 12500.0,
+    "torque_nm": 115.5,
+    "torque_rpm": 10000.0
+  },
+  "heat_q": 2700000.0,
+  "burn_scale": 0.7,
+  "generic": false,
+  "sources": [
+    {
+      "url": "https://global.yamaha-motor.com/news/2008/0909/yzf-r1.html",
+      "what": "Yamaha Motor Co. news release of 2008-09-09 for the 2009 European YZF-R1: crossplane description, bore and stroke, compression, power, torque, 4-2-1-2 exhaust. Manufacturer primary source."
+    },
+    {
+      "url": "https://www.totalmotorcycle.com/photos/2009models/2009-Yamaha-YZFR1/",
+      "what": "totalmotorcycle.com 2009 YZF-R1 page reproducing Yamaha's model feature copy and US/Canada/UK spec tables: firing order 1,3,2,4, intervals, valve sizes, 45 mm throttles, YCC-I switch rpm, exhaust and EXUP. Manufacturer text on a third-party page."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1080239/Yamaha-2009-Yzf-R1-Y.html",
+      "what": "Yamaha 2009 YZF-R1 (Y) service manual on ManualsLib (547 pages): engine specifications pages 39-45, camshaft check page 263, YCC-I feature pages 13-16. Read page by page through text extraction."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/805484/Yamaha-Yzf-R1.html?page=5",
+      "what": "Yamaha YZF-R1 racing kit manual on ManualsLib (92 pages, published by Yamaha Motor Engineering, parts prefixed 14B, so the 2009 kit): engine specification table with SBK/STK/STD columns (rev limit, compression, valve timing event angle)."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/612261/Yamaha-Yzf-R1.html",
+      "what": "Yamaha YZF-R1 2010 owner's manual (14B-28199-E2) on ManualsLib: tachometer red zone (page 25) and specifications (page 105)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Crossplane",
+      "what": "Wikipedia, Crossplane: inline-four crossplane throw sequence and the R1's firing-interval cycle. Encyclopedia page; used only for the explicit pin sequence."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yamaha_YZF-R1",
+      "what": "Wikipedia, Yamaha YZF-R1: generation table (alternative 191 hp power figure, 13,750 rpm rev limiter). Used for cross-checking only."
+    },
+    {
+      "url": "https://cdn.yamaha-motor.eu/local_assets/eu/binary/hq/racing/gytr/2020_YZF_R1_Kit%20manual_EN.pdf",
+      "what": "Yamaha 2020 YZF-R1 kit manual (the later 79.0 x 50.9 mm generation, NOT this engine): STD limiter 14500 rpm, compression 13.0, valve timing event angle INT 108 / EXT 110. Read for comparison when choosing the generation; no value above comes from it."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, inline-four with crank pins at 0, 90, 270 and 180 degrees, firing order 1-3-2-4 at intervals of 270-180-90-180 degrees, four valves per cylinder, valve diameters 31/25 mm, cam lobe heights and base circles, lobe centres of 105 degrees (a weak reading of the kit manual), 45 mm throttle bodies, 4-2-1-2 exhaust, red zone 13,750 rpm, idle 1200 rpm, published power and torque. Derived from sourced figures, not published as such: valve lift (9.16 mm intake, 8.19 mm exhaust), which is lobe height minus base circle minus mid-range valve clearance. Estimated, not sourced: rod length (110.5 mm); cam duration (248 degrees at 1 mm lift, both cams, centred on the sourced 105 degrees); intake length (0.22 m; the real engine switches between two funnel lengths at about 9400 rpm and the format has one fixed length) and diameter; exhaust primary lengths and diameters, which primaries pair at the 4-2 junction (1 with 4 and 2 with 3 assumed), secondary, silencer and tailpipe dimensions; flywheel inertia; friction_scale 0.6, heat_q 2.7e6 and burn_scale 0.7, the first two at the end of their allowed range. Known gap: about 12% low on torque and 16% low on power. The model's friction rises with the square of engine speed regardless of stroke, which costs a short-stroke engine about 4 bar at 12,500 rpm even at the lowest allowed friction_scale. Not modelled: ram air, the EXUP exhaust valve, the variable intake funnels.",
+  "vehicle": {
+    "name": "Yamaha YZF-R1 (2009)",
+    "kind": "motorcycle",
+    "curb_kg": 206,
+    "gear_count": 6,
+    "gears": [
+      2.5333,
+      2.0625,
+      1.7619,
+      1.5217,
+      1.3636,
+      1.2692
+    ],
+    "final_drive": 4.1792,
+    "wheel_radius_m": 0.3204,
+    "tyre": "190/55 ZR17",
+    "top_speed_kmh": 285,
+    "notes": "European 14B model. curb_kg is Yamaha's wet weight with oil and a full tank (MOTORRAD measured 214 kg; the US bike is listed at 474 lb). final_drive is primary 65:43 x chain 47:17. top_speed_kmh is Yamaha's claim as printed by MOTORRAD. wheel_radius_m is calculated from the tyre size."
+  }
+}

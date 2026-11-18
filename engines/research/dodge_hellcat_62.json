@@ -1,0 +1,333 @@
+{
+  "id": "dodge_hellcat_62",
+  "name": "Chrysler/SRT 6.2 L supercharged Hemi 'Hellcat' V8 (2015 Dodge Challenger and Charger SRT Hellcat)",
+  "induction": "supercharged (IHI twin-screw, 3-lobe and 5-lobe rotors, two liquid-to-air charge coolers)",
+  "summary": "A Gen III Hemi cross-plane V8 (big two-valve hemispherical chambers, pushrods) with an IHI twin-screw blower on top and the throttle at the blower's inlet. Cross-plane V8 burble with a screw-blower whine at about 11.8 crank orders.",
+  "fields": {
+    "cylinders": {
+      "value": 8,
+      "unit": null,
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "V8."
+    },
+    "layout": {
+      "value": "V, 90 degrees",
+      "unit": null,
+      "source": null,
+      "note": "Not stated on a page read; the Gen III Hemi's 90-degree bank angle is from memory. 'engsim pins' with the sourced firing order gives shared pins and even 90-degree intervals only at 90 degrees for a cross-plane crank."
+    },
+    "bore_mm": {
+      "value": 103.9,
+      "unit": "mm",
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "SAE Mobility Engineering: 103.9 x 90.9 mm. EngineLabs (chief engineer interview): 4.09 in bore, 3.58 in stroke, 6,166 cc; Wards' Challenger spec box: 103.9 x 90.9 mm. 4.09 in = 103.886 mm is used."
+    },
+    "stroke_mm": {
+      "value": 90.9,
+      "unit": "mm",
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "EngineLabs: 3.58 in (90.93 mm, used; it gives 6,166 cc with the 4.09 in bore). Wards' engine article says 3.57 in; Muscle Car Club 3.578 in."
+    },
+    "displacement_cc": {
+      "value": 6166,
+      "unit": "cc",
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs: 6,166 cc."
+    },
+    "compression_ratio": {
+      "value": 9.5,
+      "unit": ":1",
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs: 9.5:1. Wards' Challenger spec box and Muscle Car Club agree."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. Estimate 158.6 mm (6.243 in), the Gen III Hemi rod length from memory, not checked against a source."
+    },
+    "firing_order": {
+      "value": "1-8-4-3-6-5-7-2",
+      "unit": null,
+      "source": "https://www.slashgear.com/1648396/5-7-hemi-cylinder-numbers-firing-order-about-what-need-know",
+      "note": "SlashGear (Joe Capraro, 22 Aug 2024), secondary: 'The firing order ... goes in the sequence 1-8-4-3-6-5-7-2', 'the same for all third-generation HEMI engines', and the list includes 'the supercharged 6.2-liter — which goes by Demon, Hellcat, and Redeye'. Numbering from the same page: odd cylinders 1, 3, 5, 7 on the driver's side front to back, even 2, 4, 6, 8 on the passenger side. No Chrysler document found (sdparts.com PDF 404; dodgegarage.com redirected to dodge.com, which refuses bots, not followed; rerev.com 403)."
+    },
+    "crank": {
+      "value": "cross-plane, four throws at 90 degrees, each pin shared by one cylinder from each bank",
+      "unit": null,
+      "source": null,
+      "note": "Not stated on a page read; every Gen III Hemi is a cross-plane V8 with an even 90-degree firing (from memory). 'engsim pins' confirms that this firing order on that crank gives shared pins 1-2, 3-4, 5-6, 7-8 and even 90-degree intervals."
+    },
+    "valves_per_cylinder": {
+      "value": 2,
+      "unit": null,
+      "source": "https://www.wardsauto.com/news/archive-wards-hemi-hellcat-engine-fully-loaded/785679/",
+      "note": "Two valves: Wards: hollow intake valves, sodium-filled exhaust valves."
+    },
+    "intake_valve_dia_mm": {
+      "value": 54.4,
+      "unit": "mm",
+      "source": "https://musclecarclub.com/6-2-hemi-hellcat-engine/",
+      "note": "Muscle Car Club (Austin Parsons, 9 Dec 2023), secondary: intake 2.14 in (54.36 mm, my conversion)."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": 41.9,
+      "unit": "mm",
+      "source": "https://musclecarclub.com/6-2-hemi-hellcat-engine/",
+      "note": "Muscle Car Club: exhaust 1.65 in (41.91 mm), sodium-filled."
+    },
+    "intake_lift_mm": {
+      "value": 14.25,
+      "unit": "mm",
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs (chief engineer interview): 14.25 mm intake, 14.0 mm exhaust. Muscle Car Club gives 0.571 / 0.536 in (14.5 / 13.6 mm); the interview is used."
+    },
+    "exhaust_lift_mm": {
+      "value": 14.0,
+      "unit": "mm",
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/"
+    },
+    "intake_duration_deg": {
+      "value": 278,
+      "unit": "deg, advertised",
+      "source": "https://musclecarclub.com/6-2-hemi-hellcat-engine/",
+      "note": "Muscle Car Club, secondary: intake duration 278, exhaust 304, overlap 51, centreline 109. The lift these are measured at is not stated (advertised durations); they are entered as seat to seat. Events derived by me: intake opens 30 BTDC, closes 68 ABDC (centre 109 ATDC); exhaust closes 21 ATDC (overlap 51 = 30 + 21), opens 103 BBDC; lobe separation 120."
+    },
+    "exhaust_duration_deg": {
+      "value": 304,
+      "unit": "deg, advertised",
+      "source": "https://musclecarclub.com/6-2-hemi-hellcat-engine/"
+    },
+    "variable_valve_timing": {
+      "value": "cam phasing (single cam)",
+      "unit": null,
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs mentions cam phasing; Wards: variable valve timing. Not modelled: the fixed cam above is used."
+    },
+    "redline_rpm": {
+      "value": 6200,
+      "unit": "rpm",
+      "source": "https://www.supercars.net/blog/2015-dodge-charger-srt-hellcat/",
+      "note": "supercars.net (2015 Charger SRT Hellcat): redline 6,200; motortopia: 6,200 rpm. Used as the limiter."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found; 650 estimate."
+    },
+    "peak_power_kw": {
+      "value": 527,
+      "unit": "kW",
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "SAE Mobility Engineering: 'SAE J1349-rated at 707 hp (527 kW) and 650 lb·ft (881 N·m)'. PR Newswire (Chrysler release): 707 hp and 650 lb-ft."
+    },
+    "peak_power_rpm": {
+      "value": 6000,
+      "unit": "rpm",
+      "source": "https://www.wardsauto.com/news/archive-wards-dodge-challenger-srt-hellcat-heck-of-a-car/785272/",
+      "note": "Wards' Challenger spec box: 707 hp @ 6,000 rpm; supercars.net and motortopia (Charger): 6,000. Muscle Car Club: 'between 6,000 and 6,400 rpm'."
+    },
+    "peak_torque_nm": {
+      "value": 881,
+      "unit": "Nm",
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "650 lb-ft."
+    },
+    "peak_torque_rpm": {
+      "value": 4800,
+      "unit": "rpm",
+      "source": "https://www.supercars.net/blog/2015-dodge-charger-srt-hellcat/",
+      "note": "Conflict: supercars.net and motortopia (Charger) give 4,800 rpm; Wards' Challenger spec box gives 4,000 rpm. 4,800 is used (two pages, and the Charger is the vehicle modelled); the fit at 4,000 is reported too."
+    },
+    "intake_type": {
+      "value": "supercharger on top with integrated charge coolers; single throttle",
+      "unit": null,
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs: one intercooler on each side; Muscle Car Club: two air-to-water intercoolers built into the blower housing; SAE: integral charge coolers."
+    },
+    "throttle_dia_mm": {
+      "value": 92,
+      "unit": "mm",
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "92 mm throttle body (SAE; EngineLabs agrees)."
+    },
+    "throttle_position": {
+      "value": "before the supercharger (not stated on a page read)",
+      "unit": null,
+      "source": null,
+      "note": "None of the pages read says where the throttle sits. Before the blower, at its inlet, is the usual Hemi Hellcat layout from memory, unverified. Modelled that way."
+    },
+    "supercharger": {
+      "value": "IHI twin-screw (Lysholm), 3-lobe male and 5-lobe female rotors",
+      "unit": null,
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs: IHI twin-screw, 3-lobe male and 5-lobe female rotors. SAE: IHI Lysholm twin-screw."
+    },
+    "blower_displacement_l": {
+      "value": 2.38,
+      "unit": "L per revolution (of the rotor the drive ratio refers to; my reading)",
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "SAE: 'Displacing 2380 cm³'. Conflict: Wards: 2.04 L per revolution; 2,380 is used (SAE, and the boost check below). The simulator counts displacement per male-rotor revolution; my conversion: 2.38 L per revolution of the 2.36:1 rotor, which is the 5-lobe rotor (below), is 2.38 x 3/5 = 1.428 L per male revolution. Either way the swept volume per crank revolution is 2.38 x 2.36 = 5.62 L."
+    },
+    "drive_ratio": {
+      "value": 2.36,
+      "unit": "rotor / crank",
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "SAE: drive ratio '2.36:1', '14,600-rpm maximum operating speed'; EngineLabs: 'Drive 2.36:1 over crank', low rotor maximum 14,500 rpm, high rotor up to 24,000 rpm. My reasoning: 2.36 x 6,200 rpm (redline) = 14,630, the low rotor's maximum, so 2.36 belongs to the slower rotor; in a 3+5 screw the 3-lobe male turns 5/3 as fast as the 5-lobe female, 3.93 x crank, 24,400 rpm at 6,200, which matches EngineLabs' 24,000. The simulator's ratio is the male rotor's: 3.933. Conflict: Wards gives the blower 14,600 rpm at 6,000 engine rpm and the secondary rotor 'just under 20,000', which fits neither reading."
+    },
+    "boost_psi": {
+      "value": 11.6,
+      "unit": "psi",
+      "source": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "note": "SAE: 'up to 11.6 psi (80 kPa)', controlled by the bypass valve; Wards: 11.6 psi (80 kPa); EngineLabs: 'nearly 12 pounds', 'up to 11.6 psi'. No rpm given. Used as the check."
+    },
+    "bypass_valve": {
+      "value": "electrically actuated",
+      "unit": null,
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs: electric bypass using a throttle body; Wards: bypass when cruising. Its control law is not published; modelled as the simulator's vacuum bypass with derived settings (estimate), which does not limit boost."
+    },
+    "overrun_clutch": {
+      "value": "one-way clutch (decoupler) on the blower pulley",
+      "unit": null,
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs: one-way decoupler; Wards: one-way clutch. Not modelled: the simulator's blower is locked to the crank."
+    },
+    "exhaust_notes": {
+      "value": "double-wall manifolds; active exhaust",
+      "unit": null,
+      "source": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "note": "EngineLabs: double-wall manifolds; SAE: active exhaust. Sizes not found."
+    }
+  },
+  "missing": [
+    "a Chrysler document for the firing order",
+    "rod length",
+    "where the throttle sits",
+    "cam timing at a stated lift",
+    "bypass control law",
+    "charge cooler size",
+    "runner length and plenum volume",
+    "exhaust sizes",
+    "idle speed"
+  ],
+  "blocked_or_unreachable": "Stellantis media, dodge.com and dodgegarage.com (redirects to dodge.com) refuse automated fetches and were left alone; sdparts.com PDF 404; rerev.com 403; enginelabs.com/?p=97954 410; hagerty.com 403.",
+  "sources": [
+    {
+      "url": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+      "what": "SAE Mobility Engineering, Lindsay Brooke, 21 May 2014: SAE rating, bore and stroke, IHI blower displacement, drive ratio and speed, boost, throttle, charge coolers, final drives."
+    },
+    {
+      "url": "http://www.enginelabs.com/news/hellcat-hemi-chief-engineer-provides-engine-details/",
+      "what": "EngineLabs, Mike Magda, 24 July 2014: interview with the Hellcat engine's chief engineer (bore, stroke, compression, rotors, drive ratio, rotor speeds, boost, throttle, bypass, decoupler, cam lift and phasing)."
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-wards-hemi-hellcat-engine-fully-loaded/785679/",
+      "what": "WardsAuto, 6 Oct 2014, Hemi Hellcat engine: stroke, blower displacement and rotor speeds (conflicting), boost, bypass, one-way clutch, valves."
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-wards-dodge-challenger-srt-hellcat-heck-of-a-car/785272/",
+      "what": "WardsAuto Challenger SRT Hellcat review with a specification box: power and torque speeds, bore and stroke, compression, gearboxes, curb weight."
+    },
+    {
+      "url": "https://musclecarclub.com/6-2-hemi-hellcat-engine/",
+      "what": "Muscle Car Club, Austin Parsons, 9 Dec 2023 (enthusiast, secondary): valve sizes, cam durations and centreline, peak power speed range."
+    },
+    {
+      "url": "https://www.slashgear.com/1648396/5-7-hemi-cylinder-numbers-firing-order-about-what-need-know",
+      "what": "SlashGear, Joe Capraro, 22 Aug 2024 (secondary): Gen III Hemi firing order and numbering, including the supercharged 6.2."
+    },
+    {
+      "url": "https://prnewswire.com/news-releases/dodge-challenger-srt-hellcat-is-the-most-powerful-muscle-car-ever----707-hp-265427501.html",
+      "what": "Chrysler's release on PR Newswire: 707 hp and 650 lb-ft."
+    },
+    {
+      "url": "https://www.supercars.net/blog/2015-dodge-charger-srt-hellcat/",
+      "what": "supercars.net, 2015 Dodge Charger SRT Hellcat: power and torque speeds, redline, eight-speed ratios, final drive."
+    },
+    {
+      "url": "https://www.motortopia.com/vehicle/2015-dodge-charger-srt-hellcat/",
+      "what": "motortopia, 2015 Dodge Charger SRT Hellcat: power and torque speeds, curb weight, final drive."
+    }
+  ],
+  "vehicle": {
+    "name": "Dodge Charger SRT Hellcat (2015)",
+    "fields": {
+      "curb_kg": {
+        "value": 2075,
+        "unit": "kg",
+        "source": "https://www.motortopia.com/vehicle/2015-dodge-charger-srt-hellcat/",
+        "note": "motortopia: 4,575 lb (2,075 kg, my conversion). The Challenger, which had the manual, weighs 4,439 lb in Wards' spec box."
+      },
+      "gear_count": {
+        "value": 8,
+        "unit": null,
+        "source": "https://www.supercars.net/blog/2015-dodge-charger-srt-hellcat/",
+        "note": "Eight-speed automatic only on the 2015 Charger SRT Hellcat."
+      },
+      "gears": {
+        "value": [
+          4.71,
+          3.14,
+          2.1,
+          1.67,
+          1.29,
+          1.0,
+          0.84,
+          0.67
+        ],
+        "unit": "",
+        "source": "https://www.supercars.net/blog/2015-dodge-charger-srt-hellcat/",
+        "note": "supercars.net: 4.71 / 3.14 / 2.10 / 1.67 / 1.29 / 1.00 / 0.84 / 0.67."
+      },
+      "final_drive": {
+        "value": 2.62,
+        "unit": "",
+        "source": "https://www.supercars.net/blog/2015-dodge-charger-srt-hellcat/",
+        "note": "supercars.net and motortopia: 2.62. SAE: 2.62 with the automatic, 3.70 with the manual."
+      },
+      "tyre": {
+        "value": null,
+        "unit": null,
+        "source": null,
+        "note": "Not found on a page read; the wheel radius is left to the default."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Dodge_Challenger_(2008)",
+        "note": "English Wikipedia, 'Dodge Challenger (2008)': front engine, rear-wheel drive; the Charger shares the platform (my inference; Charger article pending)."
+      },
+      "top_speed_kmh": {
+        "value": null,
+        "unit": "km/h",
+        "source": null,
+        "note": "Not used: the final drive is sourced."
+      }
+    },
+    "alternative_manual": "2015 Challenger SRT Hellcat with the Tremec TR-6060 six-speed manual and a 3.70 final drive (SAE); its gear ratios were not found on any page read, so the Charger with the automatic is modelled.",
+    "missing": [
+      "tyre size",
+      "a Chrysler document for the weight"
+    ],
+    "sources": [
+      {
+        "url": "https://www.supercars.net/blog/2015-dodge-charger-srt-hellcat/",
+        "what": "supercars.net 2015 Charger SRT Hellcat."
+      },
+      {
+        "url": "https://www.motortopia.com/vehicle/2015-dodge-charger-srt-hellcat/",
+        "what": "motortopia 2015 Charger SRT Hellcat."
+      },
+      {
+        "url": "https://www.mobilityengineeringtech.com/component/content/article/41373",
+        "what": "SAE Mobility Engineering: final drives."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Dodge_Challenger_(2008)",
+        "what": "Wikipedia, Dodge Challenger (2008): layout."
+      }
+    ]
+  }
+}

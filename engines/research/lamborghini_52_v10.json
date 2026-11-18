@@ -1,0 +1,282 @@
+{
+  "id": "lamborghini_52_v10",
+  "name": "Lamborghini 5.2 L V10 (Gallardo LP560-4, 2008-2013; same Audi/Lamborghini engine family as the Huracan and Audi R8 V10)",
+  "induction": "naturally aspirated",
+  "summary": "A 90-degree V10 that fires unevenly on purpose. The earlier 5.0 L Gallardo used split crank pins for even 72-degree firing; the 5.2 went to stiffer shared pins, so the intervals alternate 90 and 54 degrees, which with unequal exhaust manifold grouping gives the harder, raspier Huracan/R8 note.",
+  "fields": {
+    "cylinders": {
+      "value": 10,
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10"
+    },
+    "bank_angle_deg": {
+      "value": 90,
+      "unit": "deg",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10",
+      "note": "Audi MediaCenter also states 90 degrees for the R8 version."
+    },
+    "bore_mm": {
+      "value": 84.5,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10",
+      "note": "Same in the Audi 5.2 V10 FSI self-study programme."
+    },
+    "stroke_mm": {
+      "value": 92.8,
+      "unit": "mm",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10"
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "compression_ratio": {
+      "value": 12.5,
+      "unit": ":1",
+      "source": "https://www.evo.co.uk/lamborghini/gallardo/8876/lamborghini-gallardo-lp560-4-new-gallardo-v10-bends-design-rules",
+      "note": "Lamborghini technical director Reggiani quoted by evo: up from 11.5 to 12.5. Audi quotes 12.7:1 for the later second-generation R8 version."
+    },
+    "displacement_cc": {
+      "value": 5204,
+      "unit": "cc",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10"
+    },
+    "firing_order": {
+      "value": "1-6-5-10-2-7-3-8-4-9",
+      "unit": null,
+      "source": "https://www.audi-mediacenter.com/en/the-new-audi-r8-updated-dynamics-for-the-high-performance-sports-car-11734/engine-11738",
+      "note": "Audi MediaCenter, for the R8's version of this engine. Numbering from Audi's self-study programme for the related S6/S8 5.2 V10 (https://www.vaglinks.com/Docs/SSP/VWUSA.COM_SSP_923603_5.2lL_V10_FSI_Engine.pdf): cylinders 1-5 on the right bank, 6-10 on the left bank; that programme prints the same firing order. No Lamborghini-published firing order was found."
+    },
+    "crank": {
+      "value": "Common-pin crankshaft: the two opposite cylinders share one unsplit crank pin (five pins). Forged steel. The earlier 5.0 L Gallardo crank had split pins (18-degree offset) for even 72-degree firing; it was dropped because it was not rigid enough.",
+      "unit": null,
+      "source": "https://www.evo.co.uk/lamborghini/gallardo/8876/lamborghini-gallardo-lp560-4-new-gallardo-v10-bends-design-rules",
+      "note": "evo, quoting Reggiani at the LP560-4 launch. Audi MediaCenter: 'designed as a common pin shaft: the rods of the pistons on the opposite side engage with a shared crank pin'. The 18-degree figure is from Audi's programme for the wet-sump S6/S8 V10, which kept split pins and fires evenly at 72 degrees."
+    },
+    "firing_intervals_deg": {
+      "value": "uneven, alternating 90 and 54",
+      "unit": null,
+      "source": "https://www.audi-mediacenter.com/en/the-new-audi-r8-updated-dynamics-for-the-high-performance-sports-car-11734/engine-11738",
+      "note": "Audi: 'alternating firing intervals of 54 and 90 degrees'. evo prints '90deg or 58deg', which does not add up (5 x (90+58) = 740) and is evidently a misprint for 54. Wikipedia and Jalopnik both give 54/90 for the 5.2 Gallardo. Why uneven: 90-degree bank with shared pins; an even V10 needs 72 degrees between firings. With the order above, the two cylinders on one pin fire 90 degrees apart (1->6, 5->10, 2->7, 3->8, 4->9) and the step to the next pin is 54 degrees (my derivation, consistent with Audi's figures)."
+    },
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10",
+      "note": "DOHC per bank, chain driven, roller finger followers with hydraulic lash adjustment, continuously variable timing on intake and exhaust cams."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found. Audi says all four camshafts adjust through 42 degrees of crank angle on the R8 version."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found on a page opened for the LP560-4. Peak power is at 8,000 rpm."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "peak_power_kw": {
+      "value": 412,
+      "unit": "kW",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10",
+      "note": "560 PS, Gallardo LP560-4. Huracan LP610-4: 449 kW at 8,250 rpm and 560 N·m at 6,500 rpm (same page)."
+    },
+    "peak_power_rpm": {
+      "value": 8000,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10"
+    },
+    "peak_torque_nm": {
+      "value": 540,
+      "unit": "N·m",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10"
+    },
+    "peak_torque_rpm": {
+      "value": 6500,
+      "unit": "rpm",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_V10"
+    },
+    "intake_type": {
+      "value": "plenum: two throttle bodies, cast magnesium variable-geometry resonance intake manifold; direct injection (FSI)",
+      "unit": null,
+      "source": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines",
+      "note": "Wikipedia's Volkswagen Group engine list, V10 section. Later Huracan/R8 engines add port injection."
+    },
+    "runner_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "header_type": {
+      "value": "per bank: one three-into-one, one two-into-one, then a single pipe joining the two downstream (unequal grouping)",
+      "unit": null,
+      "source": "https://www.evo.co.uk/lamborghini/gallardo/8876/lamborghini-gallardo-lp560-4-new-gallardo-v10-bends-design-rules",
+      "note": "evo: 'exhaust manifolds which, on each bank, have three-into-one, two-into-one and a single pipe joining the two-into-one downstream'. Wikipedia describes it as a '2-1-2 branch' manifold per bank."
+    },
+    "primary_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_notes": {
+      "value": "Exhaust flaps open with load and rpm (Audi, R8 version).",
+      "unit": null,
+      "source": "https://www.audi-mediacenter.com/en/the-new-audi-r8-updated-dynamics-for-the-high-performance-sports-car-11734/engine-11738"
+    }
+  },
+  "missing": [
+    "rod_length_mm",
+    "intake_valve_dia_mm",
+    "exhaust_valve_dia_mm",
+    "intake_lift_mm",
+    "exhaust_lift_mm",
+    "cam durations and timing",
+    "redline_rpm",
+    "idle_rpm",
+    "intake runner and throttle dimensions",
+    "exhaust pipe dimensions",
+    "a Lamborghini-published firing order (Audi's is used)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.evo.co.uk/lamborghini/gallardo/8876/lamborghini-gallardo-lp560-4-new-gallardo-v10-bends-design-rules",
+      "what": "evo magazine, March 2008, reporting Lamborghini technical director Maurizio Reggiani on the LP560-4 engine: crank change, firing intervals, compression, exhaust manifolds."
+    },
+    {
+      "url": "https://www.audi-mediacenter.com/en/the-new-audi-r8-updated-dynamics-for-the-high-performance-sports-car-11734/engine-11738",
+      "what": "Audi MediaCenter press text on the R8 V10 (same 5.2 FSI engine family built for Lamborghini and Audi): common-pin crank, 54/90 intervals, firing order. Manufacturer."
+    },
+    {
+      "url": "https://www.vaglinks.com/Docs/SSP/VWUSA.COM_SSP_923603_5.2lL_V10_FSI_Engine.pdf",
+      "what": "Audi of America self-study programme 923603 for the 5.2 V10 FSI in the S6/S8 (split-pin, even-firing sister engine): cylinder numbering, 18-degree split pin, bore and stroke. Manufacturer training document on a third-party host."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_V10",
+      "what": "English Wikipedia Lamborghini V10 page: dimensions and outputs by model."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines",
+      "what": "English Wikipedia list of Volkswagen Group petrol engines, V10 section: intake, valvetrain, outputs."
+    },
+    {
+      "url": "https://jalopnik.com/2097604/difference-between-even-firing-odd-firing-engines/",
+      "what": "Jalopnik explainer on even and odd firing; states the 5.2 Gallardo is 54/90 and the 5.0 was even 72."
+    }
+  ],
+  "vehicle": {
+    "name": {
+      "value": "Lamborghini Gallardo LP560-4 coupe (2008)",
+      "unit": "",
+      "source": "https://www.lamborghini.com/en-en/history/gallardo-lp-560-4-coupe",
+      "note": "Lamborghini heritage page for the LP 560-4 Coupé, the 5.2 V10 car this def is based on."
+    },
+    "curb_kg": {
+      "value": 1500,
+      "unit": "kg",
+      "source": "https://carspecs.us/cars/2011/lamborghini/gallardo/28110",
+      "note": "SECONDARY. carspecs.us LP560-4 manual coupe: \"3,307 lbs.\" (1,500 kg); supercars.net 2008 page: \"curb weight\" \"1500 kg / 3307 lbs\". Lamborghini gives only dry weight, page structured data: \"Dry Weight\",\"value\":\"1410 kg\"."
+    },
+    "gear_count": {
+      "value": 6,
+      "unit": "",
+      "source": "https://www.lamborghini.com/en-en/history/gallardo-lp-560-4-coupe",
+      "note": "Quote: \"Transmission\",\"value\":\"6-speed e-gear / manual\"."
+    },
+    "gears": {
+      "value": [
+        3.31,
+        2.05,
+        1.46,
+        1.14,
+        0.94,
+        0.78
+      ],
+      "unit": "",
+      "source": "https://carspecs.us/cars/2011/lamborghini/gallardo/28110",
+      "note": "SECONDARY, read by a helper. Trim \"LP560-4 2dr All-wheel Drive Coupe 6-spd manual w/OD\": First \"3.31\", Second \"2.05\", Third \"1.46\", Fourth \"1.14\", Fifth \"0.94\", Sixth \"0.78\". CONFLICT: supercars.net (https://www.supercars.net/blog/2008-lamborghini-gallardo-lp560-4/) lists only five, \"2.563:1, 1.850:1, 1.423:1, 1.138:1, 0.939:1\". No maker ratio table found."
+    },
+    "final_drive": {
+      "value": 3.08,
+      "unit": "",
+      "source": "https://carspecs.us/cars/2011/lamborghini/gallardo/28110",
+      "note": "SECONDARY, DISPUTED. carspecs.us: \"3.08\"; supercars.net \"3.077:1\". Search summaries (pages not read) give 3.6 for MotorMatchup and 4.62 for Lambocars. Check (ours): with 3.31 x 3.08, 1st reaches about 96 km/h at 8,000 rpm, against a Lambocars snippet's \"Max speed 80 Km/h\" for 1st; 3.6 would fit that and put 325 km/h near 7,500 rpm in 6th, against about 6,400 with 3.08. Unresolved."
+    },
+    "tyre": {
+      "value": "295/30 ZR 19",
+      "unit": "",
+      "source": "https://www.lamborghini.com/en-en/history/gallardo-lp-560-4-coupe",
+      "note": "Rear. Quote: \"Rear Tires\",\"value\":\"295/30 ZR19\"."
+    },
+    "wheel_radius_m": {
+      "value": 0.323,
+      "unit": "m",
+      "source": "https://www.lamborghini.com/en-en/history/gallardo-lp-560-4-coupe",
+      "note": "Estimated (ours): rolling radius taken as 98% of the unloaded radius computed from the tyre size (rim diameter / 2 + section width x aspect ratio)."
+    },
+    "top_speed_kmh": {
+      "value": 325,
+      "unit": "km/h",
+      "source": "https://www.lamborghini.com/en-en/history/gallardo-lp-560-4-coupe",
+      "note": "Quote: \"speed\":{\"@type\":\"QuantitativeValue\",\"value\":325,\"unitCode\":\"KMH\"}."
+    },
+    "driven": {
+      "value": "all",
+      "unit": "",
+      "source": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+      "note": "English Wikipedia, 'Lamborghini Gallardo' (read 2026-11-17), infobox layout: Longitudinal, mid-engine, all-wheel-drive (Gallardo 5.0, LP 560-4 and LP 570-4)."
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "id": "cadillac_v16_452",
+  "name": "Cadillac Series 452 V-16, 7.4 L OHV (1930-1937)",
+  "induction": "naturally aspirated",
+  "summary": "A 45-degree, long-stroke, low-compression V-16 on an eight-throw crank that fires evenly every 45 degrees. It was built to be nearly silent: at idle the loudest sound was meant to be the ignition points, and at speed the intake roar of two updraft carburettors.",
+  "fields": {
+    "cylinders": {
+      "value": 16,
+      "unit": null,
+      "source": "https://www.hagerty.com/media/?p=6145"
+    },
+    "layout": {
+      "value": "V",
+      "unit": null,
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "Two separate cast-iron eight-cylinder blocks on an aluminium crankcase; pushrod overhead valves."
+    },
+    "bank_angle_deg": {
+      "value": 45,
+      "unit": "deg",
+      "source": "https://www.hagerty.com/media/?p=6145"
+    },
+    "bore_mm": {
+      "value": 76.2,
+      "unit": "mm",
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "3.0 in, converted by me."
+    },
+    "stroke_mm": {
+      "value": 101.6,
+      "unit": "mm",
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "4.0 in, converted by me."
+    },
+    "rod_length_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found. Hagerty says only that the rods were 2.2 in shorter than those of Cadillac's V-8."
+    },
+    "compression_ratio": {
+      "value": 5.5,
+      "unit": ":1",
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "Hagerty, drawing on chief engineer Strickland's 1930 technical paper: raised from the V-8's 5.05 to 5.50. Wikipedia's infobox says 5.3:1."
+    },
+    "displacement_cc": {
+      "value": 7407,
+      "unit": "cc",
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "452 cu in, converted by me. Wikipedia rounds to 7,410 cc."
+    },
+    "firing_order": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found on any page opened; cylinder numbering not found either. A search snippet quoted a forum post giving an order attributed to Wikipedia, but the Wikipedia pages I opened (Cadillac V16 engine, Cadillac V-16, V16 engine) do not contain one."
+    },
+    "crank": {
+      "value": "Forged steel, eight throws (so the two rods of each opposed pair share a pin), fully counterweighted, 130 lb, five main bearings, harmonic damper.",
+      "unit": null,
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "Throw phase angles not printed. Even 45-degree firing with a 45-degree bank and shared pins implies throws arranged like a straight-eight's, 90 degrees apart in firing sequence (my inference)."
+    },
+    "firing_intervals_deg": {
+      "value": "even, 45",
+      "unit": null,
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "Hagerty: the 45-degree angle gave 'even 45-degree firing intervals' and 'one power pulse every 45 degrees of crankshaft rotation'."
+    },
+    "valves_per_cylinder": {
+      "value": 2,
+      "unit": null,
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "One intake and one exhaust, single camshaft in the vee, roller followers, pushrods, rocker arms on eccentric pivots with hydraulic lash take-up."
+    },
+    "intake_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_valve_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_lift_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found."
+    },
+    "intake_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "exhaust_duration_deg": {
+      "value": null,
+      "unit": "deg",
+      "source": null,
+      "note": "Not found."
+    },
+    "redline_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "No redline published. Strickland said the valvetrain and ignition still worked 'considerably exceeding 4000 rpm' (Hagerty)."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found."
+    },
+    "peak_power_kw": {
+      "value": 123,
+      "unit": "kW",
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "165 hp, converted by me. Wikipedia gives 165 hp 'between 3200 and 3400 rpm' for 1930. The 185 hp figure sometimes quoted belongs to the later 1938-1940 135-degree side-valve V-16, a different engine."
+    },
+    "peak_power_rpm": {
+      "value": 3400,
+      "unit": "rpm",
+      "source": "https://www.hagerty.com/media/?p=6145"
+    },
+    "peak_torque_nm": {
+      "value": 434,
+      "unit": "N·m",
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "320 lb-ft, converted by me; 300 lb-ft or more from 500 to 1,900 rpm."
+    },
+    "peak_torque_rpm": {
+      "value": 1400,
+      "unit": "rpm",
+      "source": "https://www.hagerty.com/media/?p=6145"
+    },
+    "intake_type": {
+      "value": "carburettors: one Cadillac single-throat updraft carburettor per bank, each feeding a log-type intake manifold bolted to the exhaust manifold for heat",
+      "unit": null,
+      "source": "https://www.hagerty.com/media/?p=6145"
+    },
+    "header_type": {
+      "value": "log manifold on the outside of each bank, into dual exhaust pipes (one per bank)",
+      "unit": null,
+      "source": "https://www.hagerty.com/media/?p=6145",
+      "note": "Hagerty: 'Exhaust manifolds bolted to the flanks'; 'Dual exhaust pipes were standard equipment'."
+    },
+    "exhaust_notes": {
+      "value": "Tuned for silence: Cadillac's own listening test allowed nothing louder at idle than the click of the ignition points.",
+      "unit": null,
+      "source": "https://www.hagerty.com/media/?p=6145"
+    }
+  },
+  "missing": [
+    "firing_order and cylinder numbering",
+    "crank throw angles",
+    "rod_length_mm",
+    "valve diameters",
+    "valve lift",
+    "cam timing and durations",
+    "idle_rpm",
+    "carburettor venturi size",
+    "manifold and exhaust pipe dimensions",
+    "silencer details"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hagerty.com/media/?p=6145",
+      "what": "Hagerty feature 'Sweet V-16: Cadillac's most exotic engine' by Don Sherman, built on William Strickland's 1930 engineering paper; the best technical account I could open."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cadillac_V16_engine",
+      "what": "English Wikipedia Cadillac V16 engine page; infobox figures citing period sources."
+    }
+  ],
+  "vehicle": {
+    "name": "Cadillac V-16 Fleetwood Imperial sedan, style 4375 (1930)",
+    "fields": {
+      "curb_kg": {
+        "value": 2731,
+        "unit": "kg",
+        "source": "https://www.conceptcarz.com/s11275/cadillac-series-452a-v16.aspx",
+        "note": "'Imperial by Fleetwood ... Price : $6,525 ... Weight : 6020 lbs | 2730.626 kg ... Seating Capacity : 7'. Identified as style 4375 by its price: Cadillac Database, 'Style 4375 [438 units] : The second most popular selling V16 body style ... cost $6525' (https://www.newcadillacdatabase.org/static/CDB/Dbas_txt/v6fl4300.htm). Weight convention not stated."
+      },
+      "gear_count": {
+        "value": 3,
+        "source": "https://www.oldcarsweekly.com/features/car-of-the-week-1930-cadillac-v16-fleetwood",
+        "note": "'Selective, synchromesh transmission. Speeds: 3F/1R.'"
+      },
+      "gears": {
+        "value": null,
+        "unit": "",
+        "source": null,
+        "note": "Not found. supercars.net lists '3.47:1, 1.48:1, 1.10:1' with a 3.47 final drive, which looks garbled (first gear equals its final drive) and is not used."
+      },
+      "final_drive": {
+        "value": 4.39,
+        "unit": "",
+        "source": "https://www.oldcarsweekly.com/features/car-of-the-week-1930-cadillac-v16-fleetwood",
+        "note": "'Overall ratio: 4.39:1 standard, (3.47:1), 4.07:1, 4.75:1 optional'; 'A 3.47:1 optional final drive ratio was dropped in mid-model year.'"
+      },
+      "wheel_radius_m": {
+        "value": null,
+        "unit": "m",
+        "source": null,
+        "note": "Not found."
+      },
+      "tyre": {
+        "value": "7.00-19",
+        "source": "https://www.oldcarsweekly.com/features/car-of-the-week-1930-cadillac-v16-fleetwood",
+        "note": "'Tires: 7-19 early, 7.50-19 mid-model.' conceptcarz: 'Tires : 7-19' (https://www.conceptcarz.com/s11275/cadillac-series-452a-v16.aspx)."
+      },
+      "top_speed_kmh": {
+        "value": null,
+        "unit": "km/h",
+        "source": "https://www.oldcarsweekly.com/features/car-of-the-week-1930-cadillac-v16-fleetwood",
+        "note": "Only a range: 'capable of propelling these very heavy cars at speeds ranging from 80-100 mph'. conceptcarz gives 90 mph without a source."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Cadillac_V-16",
+        "note": "English Wikipedia, 'Cadillac V-16' (read 2026-11-17), infobox layout: FR layout."
+      }
+    },
+    "missing": [
+      "gearbox ratios",
+      "weight convention",
+      "top speed for this body"
+    ],
+    "sources": [
+      {
+        "url": "https://www.oldcarsweekly.com/features/car-of-the-week-1930-cadillac-v16-fleetwood",
+        "what": "Old Cars Weekly 'Car of the Week: 1930 Cadillac V-16 Fleetwood': specification paragraph with transmission, axle ratios, tyres."
+      },
+      {
+        "url": "https://www.conceptcarz.com/s11275/cadillac-series-452a-v16.aspx",
+        "what": "conceptcarz 1930 Cadillac Series 452 page: prices and weights by body, tyres. Reference site."
+      },
+      {
+        "url": "https://www.newcadillacdatabase.org/static/CDB/Dbas_txt/v6fl4300.htm",
+        "what": "Cadillac Database (Cadillac & LaSalle Club volunteers), 1930 V-16 Fleetwood 4300-series bodies: production and prices by style."
+      }
+    ]
+  }
+}

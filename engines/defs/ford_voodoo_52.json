@@ -1,0 +1,143 @@
+{
+  "name": "ford_voodoo_52",
+  "label": "Ford 5.2 L \"Voodoo\" V8 (Shelby GT350, flat-plane crank)",
+  "layout": "v",
+  "bank_angle": 90.0,
+  "bore": 0.094,
+  "stroke": 0.093,
+  "rod": 0.1507,
+  "cr": 12.0,
+  "firing": [
+    0.0,
+    540.0,
+    360.0,
+    180.0,
+    90.0,
+    630.0,
+    450.0,
+    270.0
+  ],
+  "bank": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3
+  ],
+  "in_valve_d": 0.0384,
+  "ex_valve_d": 0.0325,
+  "in_lift": 0.014,
+  "ex_lift": 0.014,
+  "ivo": 31.0,
+  "ivc": 69.0,
+  "evo": 59.0,
+  "evc": 19.0,
+  "itb": false,
+  "throttle_d": 0.08700000000000001,
+  "runner_len": 0.37,
+  "runner_d": 0.047,
+  "primary_len": [
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68,
+    0.68
+  ],
+  "primary_d": 0.0425,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "merge": "x",
+  "secondary_len": 0.7,
+  "secondary_d": 0.07,
+  "mid_len": 0.9,
+  "mid_d": 0.07,
+  "tail_d": 0.07,
+  "redline": 8250.0,
+  "idle": 800.0,
+  "generic": false,
+  "family": "V8",
+  "based_on": "Ford 5.2 L \"Voodoo\" V8, Shelby GT350 (2015-2020)",
+  "published": {
+    "power_kw": 392,
+    "power_rpm": 7500,
+    "torque_nm": 582,
+    "torque_rpm": 4750
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ford_Modular_engine",
+      "what": "Wikipedia, Ford Modular engine, Voodoo section. Bore, stroke, CR, ratings, redline, firing order, crank layout (citing MotorTrend and Car and Driver)."
+    },
+    {
+      "url": "https://www.motortrend.com/news/flat-out-an-in-depth-look-at-the-ford-shelby-gt350-mustang-engine/",
+      "what": "MotorTrend (Frank Markus, 3 June 2015), technical briefing from Ford's engine team. Crank layout, lift, throttle, manifold and exhaust design."
+    },
+    {
+      "url": "https://www.streetmusclemag.com/?p=7978",
+      "what": "Street Muscle magazine, 'Inside Ford's New 5.2L Shelby GT350 Engine'. Valve diameters, R/L firing pattern and Ford bank numbering."
+    },
+    {
+      "url": "https://www.enginelabs.com/news/ford-releases-final-details-on-the-gt350s-insane-5-2-liter-engine/",
+      "what": "EngineLabs report of Ford's final spec release. Bore/stroke in inches, .551 in lift, 87 mm throttle."
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-wards-ford-s-5-2l-high-revving-masterpiece/788514/",
+      "what": "WardsAuto interview with chief engineer Eric Ladner. Ratings with Nm, development targets."
+    },
+    {
+      "url": "https://www.f150hub.com/specs/5.2-voodoo-flat-plane.html",
+      "what": "f150hub spec table. 32 valves, roller finger followers, max engine speed."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression, firing order 1-5-4-8-3-7-2-6 with Ford numbering (1-4 right bank, 5-8 left), flat-plane crank with throws up-down-up-down, four valves per cylinder and their diameters, 14 mm peak lift on both cams, 87 mm throttle, 8250 rpm redline, X-shaped cross-over. Estimated, not sourced: rod length (150.7 mm is an aftermarket rod's quoted length seen only in a search summary), cam timing and duration (the engine has variable cam timing; one fixed timing is used), intake runner length and diameter, exhaust primary length and diameter, pipe sizes, idle speed. The real headers are 4-into-3-into-1 per bank; the definition format has one collector per group, so they are entered as 4-into-1 per bank. Left to the simulator's defaults: plenum and airbox volumes, collector volume, muffler, flywheel inertia. Also estimates: friction_scale, heat_q, burn_scale (the simulator's friction, heat-release and burn-rate scales), set with the other estimated fields so that simulated torque and power come near the published figures; no sourced number was changed.",
+  "friction_scale": 0.83,
+  "heat_q": 2640000.0,
+  "burn_scale": 0.92,
+  "vehicle": {
+    "name": "Ford Mustang Shelby GT350 (2016)",
+    "kind": "car",
+    "curb_kg": 1706,
+    "gear_count": 6,
+    "gears": [
+      3.25,
+      2.23,
+      1.61,
+      1.24,
+      1.0,
+      0.63
+    ],
+    "final_drive": 3.73,
+    "wheel_radius_m": 0.348,
+    "tyre": "305/35ZR19",
+    "notes": "Tremec TR-3160 six-speed manual, the only gearbox. Gear ratios from Wikipedia's TR-3160 table (citing Tremec); final drive and tyres from an enthusiast reference quoting Ford's launch material; curb weight from a spec database. Ford's own tech-spec sheet refused automated access, so it was not read. wheel_radius_m is my calculation from the rear tyre size (unloaded radius). Top speed omitted (not found).",
+    "driven": "rear"
+  }
+}

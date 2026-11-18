@@ -1,0 +1,138 @@
+{
+  "id": "buick_320_straight8",
+  "name": "Buick 320 cu in 'Fireball' straight-eight, Series 70 Roadmaster (1948-1950 specification; Dynaflow rating)",
+  "induction": "naturally aspirated",
+  "summary": "Big, slow-revving 5.2 L overhead-valve straight-eight with a very long stroke, siamesed intake ports and a single exhaust outlet; peak power arrives at only 3600 rpm, so the sound is a smooth, low, even eight-cylinder hum rather than a V8 burble.",
+  "fields": {
+    "cylinders": {"value": 8, "unit": "count", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "'8 in Line', valve in head (pushrod OHV)."},
+    "layout": {"value": "inline", "unit": null, "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf"},
+    "bore_mm": {"value": 87.31, "unit": "mm", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "3 7/16 in, converted by the researcher. Standard bore size 3.436-3.439 in."},
+    "stroke_mm": {"value": 109.54, "unit": "mm", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "4 5/16 in, converted by the researcher."},
+    "displacement_cc": {"value": 5247, "unit": "cc", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "320.2 cu in, converted by the researcher."},
+    "rod_length_mm": {"value": 209.55, "unit": "mm", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "8 1/4 in centre to centre (Series 70), read from the page image; converted by the researcher. Team Buick's summary table also lists 8.250 in."},
+    "compression_ratio": {"value": 7.2, "unit": ":1", "source": "https://www.hometownbuick.com/?p=25468", "note": "1950 Roadmaster with Dynaflow. The 1948-49 shop manual gives 6.6 (Syncro-Mesh) and 6.9 (Dynaflow); the 1952 manual as transcribed by Team Buick gives 7.5 for the Series 70."},
+    "firing_order": {"value": "1-6-2-5-8-3-7-4", "unit": null, "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "Single bank. The pages read do not state which end is No. 1."},
+    "crank": {"value": "Five main bearings, 114 lb crankshaft, laminated-steel flywheel-type balancer on leaf springs at the front; crankpin 2.248-2.249 in", "unit": null, "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "Pin angles are not stated."},
+    "bore_spacing": {"value": "4.075 in between cylinders 1-2, 3-4, 5-6, 7-8; 4.290 in between 2-3 and 6-7; 4.545 in between 4-5", "unit": "in", "source": "https://teambuick.com/reference/buick_8_engine_specs.php", "note": "Contributor-supplied 'blue print' figures on Team Buick, not from the shop manual."},
+    "valves_per_cylinder": {"value": 2, "unit": "count", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "Not stated as a number; the rocker arm table lists one inlet and one exhaust rocker per cylinder (valves 1-8 inlet, 1-8 exhaust)."},
+    "intake_valve_dia_mm": {"value": 45.24, "unit": "mm", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "1 25/32 in head diameter (Series 70), read from the page image; same figure in the 1950 specifications."},
+    "exhaust_valve_dia_mm": {"value": 36.51, "unit": "mm", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "1 7/16 in head diameter (Series 70); same in the 1950 specifications."},
+    "intake_lift_mm": {"value": 8.81, "unit": "mm", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "0.347 in valve lift (Series 70)."},
+    "exhaust_lift_mm": {"value": 8.84, "unit": "mm", "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "0.348 in valve lift (Series 70)."},
+    "cam_timing_check_point": {"value": "With No. 2 or No. 7 exhaust valve opened exactly 0.155 in (Series 70), the flywheel 'U.D.C. 1-8' mark should be at the timing hole", "unit": null, "source": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "note": "The only cam timing reference found: the shop manual's valve timing check (par. 2-18). It fixes one point on the exhaust lobe relative to top dead centre of cylinders 1 and 8; open and close angles are not given."},
+    "idle_rpm": {"value": 450, "unit": "rpm", "source": "https://teambuick.com/reference/tune_up_specs.php", "note": "Team Buick tune-up table, 1946-49 all models; the page notes Dynaflow cars need a higher idle."},
+    "peak_power_kw": {"value": 113.3, "unit": "kW", "source": "https://www.hometownbuick.com/?p=25468", "note": "152 bhp bare engine, 1950 Roadmaster with Dynaflow, converted by the researcher. 1948-49 shop manual: 144 bhp (Syncro-Mesh) and 150 bhp (Dynaflow) at 3600 rpm. Wikipedia quotes 168-170 hp at 3800 rpm for 1952. These are gross (bare engine) ratings."},
+    "peak_power_rpm": {"value": 3600, "unit": "rpm", "source": "https://www.hometownbuick.com/?p=25468"},
+    "peak_torque_nm": {"value": 379.6, "unit": "Nm", "source": "https://www.hometownbuick.com/?p=25468", "note": "280 ft-lb bare engine, converted by the researcher."},
+    "peak_torque_rpm": {"value": 2000, "unit": "rpm", "source": "https://www.hometownbuick.com/?p=25468"},
+    "intake_type": {"value": "single carburettor on a cast-iron manifold feeding 4 intake ports (ports shared between cylinder pairs); intake manifold diameter 1 3/8 in, minimum intake port diameter 1 3/8 in", "unit": null, "source": "https://www.hometownbuick.com/?p=25468", "note": "1950 specification table. Carburettor type and venturi size were not read."},
+    "runner_dia_mm": {"value": 34.9, "unit": "mm", "source": "https://www.hometownbuick.com/?p=25468", "note": "'Intake Manifold Diameter' 1 3/8 in, Roadmaster, converted by the researcher."},
+    "header_type": {"value": "cast-iron manifold with a single outlet (heat-control valve at the manifold outlet); straight-through resonance-type muffler", "unit": null, "source": "https://www.hometownbuick.com/?p=25468", "note": "Single outlet inferred from 'Heat Control Location: At Exhaust Manifold Outlet' and a single tail pipe entry; the table does not say 'single exhaust' in words."},
+    "exhaust_pipe_dia_mm": {"value": 50.8, "unit": "mm", "source": "https://www.hometownbuick.com/?p=25468", "note": "Tail pipe 2 in outside diameter. Minimum exhaust port diameter 1 1/16 in."}
+  },
+  "missing": [
+    "cam timing: intake and exhaust open/close angles and duration (only a single check point on the exhaust lobe is published in the shop manual pages read)",
+    "redline_rpm (no stated limit; power peaks at 3600 rpm)",
+    "which end of the block is cylinder No. 1",
+    "crank pin angles (pin layout of the straight-eight crank)",
+    "carburettor type and throttle bore",
+    "exhaust manifold branch dimensions and exhaust pipe (not tail pipe) diameter",
+    "runner_length_mm"
+  ],
+  "sources": [
+    {"url": "https://oldcarmanualproject.com/manuals/Buick/1948-49/Group%202/Group2.pdf", "what": "Scan of the 1948-49 Buick Shop Manual, Group 2 (Engine), on the Old Car Manual Project. Manufacturer service manual: general specifications, dimensions and fits tables for Series 40-50 and Series 70, valve timing check. Fractions were read from the page images because the PDF's text layer garbles them."},
+    {"url": "https://www.hometownbuick.com/?p=25468", "what": "Hometown Buick '1950 Buick Specifications' page, a transcription of Buick's 1950 specification tables by series: horsepower, torque, compression, valves, manifold and exhaust data."},
+    {"url": "https://teambuick.com/reference/buick_8_engine_specs.php", "what": "Team Buick reference page, 'directly compiled from the original 1952 Buick service manual' for the 263 and 320, plus contributor-supplied blueprint figures (rod length, bore pitch)."},
+    {"url": "https://teambuick.com/reference/tune_up_specs.php", "what": "Team Buick tune-up table by year: idle speed, firing order."},
+    {"url": "https://en.wikipedia.org/wiki/Buick_straight-8_engine", "what": "Wikipedia overview: displacement table by year, 1952 ratings."}
+  ],
+  "vehicle": {
+    "name": "Buick Roadmaster Riviera sedan, Model 72R (1950)",
+    "fields": {
+      "curb_kg": {
+        "value": 1914,
+        "unit": "kg",
+        "source": "https://www.conceptcarz.com/vehicle/s25422/view/eras.aspx?eraID=4",
+        "note": "'LWB Riviera Sedan ... Price : $2,740 ... Weight : 4220 lbs | 1914.16 kg'. The Henry Ford: '1950 Buick Roadmaster Sedan ... Weight: 4220 lbs' (https://www.thehenryford.org/collections/explore/artifact/163196). Neither says shipping or curb; the factory shop manual gives no weights. Model 72R chosen because it was the most built 1950 Roadmaster: 'LWB Riviera Sedan 4 dr. 6 P : 51,212' of 'Total 1950 Series 70 Roadmaster production : 75,034' (conceptcarz)."
+      },
+      "gear_count": {
+        "value": 2,
+        "source": "https://www.teambuick.com/reference/library/51_shop/files/4-c.pdf",
+        "note": "Dynaflow: torque converter plus a planetary Low/Reverse; Drive is direct through the converter. 1950 manual p. 4-26 refers to a separate Dynaflow manual not online (https://www.teambuick.com/reference/library/50_shop/files/4-c.pdf)."
+      },
+      "gears": {
+        "value": [
+          1.82,
+          1.0
+        ],
+        "unit": "",
+        "source": "https://www.teambuick.com/reference/library/51_shop/files/4-c.pdf",
+        "note": "1951 Buick Shop Manual p. 4-27: 'Torque Multiplication— Converter at Stall ... 2.25 to 1; Planetary Gears, Low and Reverse (ratio) .. 1.82 to 1; Converter at Stall and Gears in Low or Reverse ... 4.07 to 1' (read by a helper from the page image; the text layer confirms 4.07). Same figures in the TeamBuick Dynaflow manual, which says they 'can be generally used for all models' (https://www.teambuick.com/reference/library/dynaflow_napa/files/dynaflow_napa.pdf; 2.25 / 1.82 / 4.07 checked by me in its OCR). The 1951 unit is the same single-turbine Dynaflow as 1950 (helper's reading; twin-turbine came in 1953)."
+      },
+      "final_drive": {
+        "value": 3.909,
+        "unit": "",
+        "source": "https://www.teambuick.com/reference/library/50_shop/files/5-a.pdf",
+        "note": "1950 Shop Manual p. 5-2, 'c. Rear Axle Ratios': '72, 76C, 76R ... Dynaflow ... 3.9 to 1 (43-11) [standard] ... 3.6 to 1 (47-13) [optional]' (checked by me on the page image). 43/11 = 3.909."
+      },
+      "wheel_radius_m": {
+        "value": null,
+        "unit": "m",
+        "source": null,
+        "note": "No published rolling radius for the 8.00-15 tyre found."
+      },
+      "tyre": {
+        "value": "8.00-15",
+        "source": "https://www.teambuick.com/reference/library/50_shop/files/6-a.pdf",
+        "note": "1950 Shop Manual p. 6-2: 'Tire Size (Except Mod. 79) ... [Series 70] 8.00\"—15\"'; rim 15\" x 6.50\"L (checked by me on the page image)."
+      },
+      "top_speed_kmh": {
+        "value": null,
+        "unit": "km/h",
+        "source": null,
+        "note": "No period road test found."
+      },
+      "driven": {
+        "value": "rear",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Buick_Roadmaster",
+        "note": "English Wikipedia, 'Buick Roadmaster' (read 2026-11-17), infobox layout: Front-engine, rear-wheel-drive."
+      }
+    },
+    "missing": [
+      "weight convention (shipping or curb)",
+      "top speed",
+      "a 1950-specific Dynaflow ratio document"
+    ],
+    "sources": [
+      {
+        "url": "https://www.teambuick.com/reference/library/50_shop/files/5-a.pdf",
+        "what": "1950 Buick Shop Manual section 5-A (rear axle), TeamBuick scan: axle ratios by model and transmission."
+      },
+      {
+        "url": "https://www.teambuick.com/reference/library/50_shop/files/6-a.pdf",
+        "what": "1950 Buick Shop Manual section 6-A (chassis), TeamBuick scan: wheels and tyres."
+      },
+      {
+        "url": "https://www.teambuick.com/reference/library/50_shop/files/0-a.pdf",
+        "what": "1950 Buick Shop Manual section 0-A: model list ('ROADMASTER—SERIES 70 (Dynaflow Drive standard)')."
+      },
+      {
+        "url": "https://www.teambuick.com/reference/library/51_shop/files/4-c.pdf",
+        "what": "1951 Buick Shop Manual section 4-C (Dynaflow), TeamBuick scan: converter and planetary ratios."
+      },
+      {
+        "url": "https://www.teambuick.com/reference/library/dynaflow_napa/files/dynaflow_napa.pdf",
+        "what": "'Dynaflow and Powerglide Transmissions' manual hosted by TeamBuick: the same Dynaflow ratios."
+      },
+      {
+        "url": "https://www.conceptcarz.com/vehicle/s25422/view/eras.aspx?eraID=4",
+        "what": "conceptcarz 1950 Buick Series 70 Roadmaster page: production and weights by body. Reference site."
+      },
+      {
+        "url": "https://www.thehenryford.org/collections/explore/artifact/163196",
+        "what": "The Henry Ford museum collection record for a 1950 Roadmaster sedan: weight."
+      }
+    ]
+  }
+}

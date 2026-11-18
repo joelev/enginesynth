@@ -1,0 +1,83 @@
+{
+  "name": "i4_crossplane",
+  "label": "1.0 L inline-four, cross-plane crank",
+  "layout": "inline",
+  "bank_angle": 0.0,
+  "bore": 0.078,
+  "stroke": 0.0522,
+  "rod": 0.11,
+  "cr": 12.5,
+  "firing": [
+    0.0,
+    450.0,
+    270.0,
+    540.0
+  ],
+  "bank": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "ivo": 30.0,
+  "ivc": 68.0,
+  "evo": 64.0,
+  "evc": 28.0,
+  "itb": true,
+  "runner_len": 0.16,
+  "snorkel_len": 0.45,
+  "primary_len": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "secondary_len": 0.5,
+  "merge": "none",
+  "mid_len": 0.8,
+  "muffler_len": 0.35,
+  "muffler_d": 0.13,
+  "muffler_fric": 0.3,
+  "tail_len": 0.3,
+  "tail_flare_d": 0.0,
+  "redline": 13500.0,
+  "idle": 1300.0,
+  "friction_scale": 0.6,
+  "heat_q": 2500000.0,
+  "kind": "piston",
+  "ecc": 0.0,
+  "rotor_r": 0.0,
+  "rotor_w": 0.0,
+  "rotor_phase": [],
+  "port_in": [
+    0.0,
+    0.0
+  ],
+  "port_ex": [
+    0.0,
+    0.0
+  ],
+  "port_in_area": 0.0,
+  "port_ex_area": 0.0,
+  "burn_scale": 1.0,
+  "generic": true,
+  "family": "inline-four",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for this layout, not measurements of a real one. Crank pins at 0, 90, 270 and 180 degrees, so the cylinders fire at intervals of 270, 180, 90 and 180 degrees.",
+  "inertia": 0.02
+}

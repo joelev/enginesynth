@@ -1,0 +1,97 @@
+{
+  "name": "boxer4_el",
+  "label": "2.5 L flat-four, equal-length headers",
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.0995,
+  "stroke": 0.079,
+  "rod": 0.1305,
+  "cr": 10.0,
+  "firing": [
+    0.0,
+    360.0,
+    180.0,
+    540.0
+  ],
+  "bank": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "ivo": 16.0,
+  "ivc": 56.0,
+  "evo": 54.0,
+  "evc": 14.0,
+  "in_valve_d": 0.03781,
+  "ex_valve_d": 0.03184,
+  "in_lift": 0.012099200000000001,
+  "ex_lift": 0.010507200000000001,
+  "itb": false,
+  "runner_len": 0.3,
+  "runner_d": 0.044775,
+  "plenum_vol": 0.0029485219929929834,
+  "throttle_d": 0.06270057940182035,
+  "snorkel_len": 0.45,
+  "snorkel_d": 0.06583560837191137,
+  "airbox_vol": 0.004948521992992984,
+  "primary_len": [
+    0.65,
+    0.65,
+    0.65,
+    0.65
+  ],
+  "primary_d": 0.042785000000000004,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "collector_vol": 0.0005185652491241229,
+  "secondary_len": 1.2,
+  "secondary_d": 0.0701674,
+  "merge": "none",
+  "mid_len": 0.8,
+  "mid_d": 0.0701674,
+  "muffler_len": 0.5,
+  "muffler_d": 0.17,
+  "muffler_fric": 0.3,
+  "tail_len": 0.5,
+  "tail_d": 0.0641775,
+  "tail_flare_d": 0.0,
+  "inertia": 0.1537130498248246,
+  "redline": 6800.0,
+  "idle": 800.0,
+  "friction_scale": 1.0,
+  "heat_q": 2500000.0,
+  "kind": "piston",
+  "ecc": 0.0,
+  "rotor_r": 0.0,
+  "rotor_w": 0.0,
+  "rotor_phase": [],
+  "port_in": [
+    0.0,
+    0.0
+  ],
+  "port_ex": [
+    0.0,
+    0.0
+  ],
+  "port_in_area": 0.0,
+  "port_ex_area": 0.0,
+  "burn_scale": 1.0,
+  "generic": true,
+  "family": "flat",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for this layout, not measurements of a real one."
+}

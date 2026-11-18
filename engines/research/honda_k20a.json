@@ -1,0 +1,238 @@
+{
+  "id": "honda_k20a",
+  "name": "Honda K20A 2.0 L DOHC i-VTEC inline-four, Integra TYPE R (DC5, Japan, 11.5:1), July 2001 to 2004",
+  "induction": "naturally aspirated",
+  "summary": "A square (86 x 86 mm) 2.0 L four with roller-rocker i-VTEC: VTEC switches both the intake and the exhaust cams to high-lift lobes at 6000 rpm, and VTC continuously varies the intake cam's phase with speed and load. It breathes through a single-runner, equal-length short intake manifold and a stainless dual (two-into-one, paired) exhaust manifold with a pressure-opened valve in the silencer, and is allowed to 8400 rpm. Honda's net torque curve is flat around 185-190 N m from 3000 to 5300 rpm and climbs to its peak at 7000 rpm, so most of its output and noise comes above 6000 rpm.",
+  "fields": {
+    "variant": {
+      "value": "K20A as fitted to the Japanese Integra TYPE R (LA-DC5), on sale from July 2001: compression 11.5:1, 162 kW [220 PS] net at 8000 rpm, 206 N m [21.0 kg m] net at 7000 rpm, VTEC changeover 6000 rpm, maximum permissible 8400 rpm",
+      "unit": null,
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/07.html",
+      "note": "Honda's 2001 press fact book for the new Integra. Chosen because the same Honda document gives every rating and control figure for this exact engine and prints its full-throttle net curve (page 06), so the fit can be checked across the speed range. Not the later version: Honda's VTEC-history page describes the K20A after the 2004 update as 11.7:1, 225 PS at 8000 rpm, 21.9 kg m at 6100 rpm, with the high cam from 5800 rpm (https://www.honda.co.jp/sportscar/vtec_history/K20A/); that is not modelled. The EP3 Civic TYPE R's K20A (215 PS) is also not modelled."
+    },
+    "cylinders": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+      "note": "Spec table: '水冷直列4気筒横置' (water-cooled inline four, transverse)."
+    },
+    "layout": {"value": "inline", "unit": null, "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html"},
+    "bore_mm": {
+      "value": 86.0,
+      "unit": "mm",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+      "note": "'内径×行程（mm） 86.0×86.0'. Same in the comparison table on page 07 and in Honda R&D Technical Review Vol. 12 No. 2 Table 1 (https://global.honda/en/technical-review/PDF/012-2/012-2_45e.pdf)."
+    },
+    "stroke_mm": {"value": 86.0, "unit": "mm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html"},
+    "displacement_cc": {
+      "value": 1998,
+      "unit": "cc",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+      "note": "'総排気量 1,998'. 86 x 86 x 86 x pi/4 x 4 = 1998.3 cc (my calculation)."
+    },
+    "rod_length_mm": {
+      "value": 139,
+      "unit": "mm",
+      "source": "https://www.hybrid-racing.com/products/manley-h-beam-connecting-rods-k20a-k20z",
+      "note": "Weak: aftermarket replacement H-beam rods for the K20A2/K20Z, listed at 139 mm (5.472 in) centre to centre; seen only as a search excerpt, not opened. Not found in a Honda document. Honda says only that the TYPE R has new high-strength rods for high revs (factbook page 06 figure)."
+    },
+    "compression_ratio": {
+      "value": 11.5,
+      "unit": ":1",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+      "note": "'圧縮比 11.5' (TYPE R column; the iS is 9.8)."
+    },
+    "firing_order": {
+      "value": "1-3-4-2",
+      "unit": null,
+      "source": "https://workshop-manuals.com/acura/rsx/l4-2.0l_(vtec)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/",
+      "note": "'Firing Order 1 - 3 - 4 - 2', third-party reproduction of 2002 Acura RSX (K20A3, same K20A block family) service data. Not a Honda page and not the TYPE R engine; the firing order is assumed to be the same."
+    },
+    "crank": {
+      "value": "Flat-plane four-throw crankshaft assumed (pins 1 and 4 together, 2 and 3 together); TYPE R crank with 3 mm larger pins",
+      "unit": null,
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/06.html",
+      "note": "Factbook figure: 'ピン径を3mm拡大、高強度材採用の高剛性クランクシャフト' (pin diameter enlarged 3 mm, high-strength, high-rigidity crankshaft). The pin layout is not stated; flat-plane is the only layout that gives the order with even firing, and is assumed."
+    },
+    "firing_intervals_deg": {"value": [180, 180, 180, 180], "unit": "crank deg", "source": "https://workshop-manuals.com/acura/rsx/l4-2.0l_(vtec)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/", "note": "Derived (my reasoning) from the firing order on a flat-plane four."},
+    "valves_per_cylinder": {
+      "value": 4,
+      "unit": "count",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+      "note": "'DOHC チェーン駆動 吸気2 排気2' (DOHC, chain drive, 2 intake, 2 exhaust)."
+    },
+    "intake_valve_dia_mm": {
+      "value": 35,
+      "unit": "mm",
+      "source": "https://global.honda/en/technical-review/PDF/012-2/012-2_45e.pdf",
+      "note": "Honda R&D Technical Review Vol. 12 No. 2 (2000), 'Development of New 2.0L Lean-burn Engine', Table 1: K20A valve diameter inlet 35, exhaust 30 mm. That paper is about the base (9.8:1) K20A. The TYPE R factbook lists the TYPE R's own head parts (finer-sand cast ports, a 20-degree taper cut on the intake valve seats) but no larger valves; that the TYPE R keeps 35/30 mm valves is my inference."
+    },
+    "exhaust_valve_dia_mm": {"value": 30, "unit": "mm", "source": "https://global.honda/en/technical-review/PDF/012-2/012-2_45e.pdf", "note": "As above; inference that the TYPE R shares it."},
+    "vtec": {
+      "value": "TYPE R: VTEC on both intake and exhaust, switching valve timing and lift at high speed; iS: intake-side VTEC that nearly idles one intake valve at low speed",
+      "unit": null,
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/07.html",
+      "note": "'TYPE Rでは、高回転時に吸・排気バルブタイミング・リフト量を切り替えるVTECとVTCを組み合わせました' and 'TYPE Rは、新たに出力重視のVTECを組み合わせ 排気側のバルブタイミング・リフトも制御'."
+    },
+    "cam_switch_rpm": {
+      "value": 6000,
+      "unit": "rpm",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/07.html",
+      "note": "Comparison table: 'VTEC切替回転数 2,200rpm (iS) / 6,000rpm (TYPE R)'. Wikipedia gives 6000 rpm for this engine too. The later (2004) engine switches at 5800 (Honda VTEC-history page)."
+    },
+    "vtc": {
+      "value": "Continuously variable intake camshaft phase (hydraulic actuator on the intake cam sprocket), controlled with engine speed and load; range up to 50 degrees of advance on the K20A2/A3 per Hondata",
+      "unit": null,
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/07.html",
+      "note": "Honda: VTC controls valve overlap and intake closing angle according to speed and load, for idle stability at low speed, economy and emissions in the mid range, and best output and torque at high speed ('VTC（連続可変バルブタイミング・コントロール機構）によるバルブオーバーラップ／閉じ角を回転数と負荷に応じて制御'). Range: 'The intake cam can be advanced by as much as 50 degrees' (Hondata, about the US RSX K20A2/K20A3, https://www.hondata.com/tech-rsx-vtec-vtc). The TYPE R's range and its full-load phase map were not found."
+    },
+    "cam_high": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "note": "Not found in a Honda document. Leads only (forum pages that block automated reading, seen as search excerpts): high-cam lift 12.0 mm intake / 10.5 mm exhaust and low-cam 6.9 / 6.5 mm (clubrsx.com, citing a 'DC5 Type R spec sheet', https://www.clubrsx.com/threads/does-anyone-really-know-type-r-cam-specs.162263/); 244 deg intake and 238 deg exhaust at 0.050 in, gross lift 0.479 / 0.416 in (k20a.org, https://www.k20a.org/threads/stock-cam-specs.76662/). Not recorded as values; the definition's cams are estimates."
+    },
+    "cam_low": {"value": null, "unit": null, "source": null, "note": "Not found; see cam_high."},
+    "redline_rpm": {
+      "value": 8400,
+      "unit": "rpm",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/07.html",
+      "note": "'最大許容回転数 8,400rpm' (maximum permissible engine speed; iS 6800). Page 06: '許容回転数8,400rpmの高回転'. Wikipedia gives an 8400 rpm redline and an 8600 rpm rev limiter for the DC5 TYPE R, uncited; the fuel-cut speed was not found in a Honda document."
+    },
+    "idle_rpm": {
+      "value": null,
+      "unit": "rpm",
+      "source": null,
+      "note": "Not found for the TYPE R. The 2002 RSX (K20A3) is 650 +/- 50 rpm in neutral (https://workshop-manuals.com/acura/rsx/l4-2.0l_(vtec)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/idle_speed/system_information/specifications/), a different engine."
+    },
+    "peak_power_kw": {
+      "value": 162,
+      "unit": "kW",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+      "note": "'162［220］/8,000', marked '＊ネット値' (net: measured with the engine in near in-vehicle condition, per the footnote on page 06)."
+    },
+    "peak_power_rpm": {"value": 8000, "unit": "rpm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html"},
+    "peak_torque_nm": {"value": 206, "unit": "Nm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html", "note": "'206［21.0］/7,000', net."},
+    "peak_torque_rpm": {"value": 7000, "unit": "rpm", "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html"},
+    "torque_curve_nm": {
+      "value": {"1150": 150, "2100": 177, "2700": 189, "2900": 191, "3700": 185, "4500": 185, "4900": 187, "5300": 189, "5700": 194, "6100": 200, "6500": 204, "6900": 204, "7300": 202, "7700": 199, "8100": 193, "8250": 184},
+      "unit": "Nm",
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/06.html",
+      "note": "My reading, by pixel position against the printed axes, of the TYPE R net torque curve ('エンジン性能曲線図（TYPE R）', image img/06_p04.gif, 240 x 254 px; reading error about +/-3 N m). The same reading gives 161 kW at 8000 rpm (stated 162) and a torque peak of 204 N m near 6500-7000 (stated 206 at 7000), so the read values are about 1 percent low. The curve shows a local peak near 2900 rpm, a dip to 185 at 3700-4500, and a steady rise from about 5000 rpm without a sharp step at the 6000 rpm changeover."
+    },
+    "intake_type": {
+      "value": "single throttle, plenum, single-runner equal-length short intake manifold (no variable length on the TYPE R; the iS has a rotary-valve variable-length manifold)",
+      "unit": null,
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/06.html",
+      "note": "'吸気系は、スロットルバルブなど全体を径アップしながら高回転域での吸気慣性を重視した単管等長ショートインテークマニホールドを採用' (throttle valve and the whole system enlarged; single-pipe, equal-length short manifold for high-speed inertia effect)."
+    },
+    "throttle_dia_mm": {
+      "value": null,
+      "unit": "mm",
+      "source": null,
+      "note": "Not found for the TYPE R. Honda says only that it is enlarged over the iS. The US K20A3 throttle body is 60 mm and its short runners 40 x 270 mm (Hondata, https://www.hondata.com/tech-rsx-vtec-vtc), a different manifold."
+    },
+    "runner_length_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found for the TYPE R."},
+    "runner_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found for the TYPE R."},
+    "header_type": {
+      "value": "stainless dual exhaust manifold (two pairs of cylinders joined, then merged with a partition plate), rear-exhaust layout with close-coupled catalyst",
+      "unit": null,
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/06.html",
+      "note": "Factbook: 'ステンレス製デュアルエキゾーストマニホールドで排気抵抗を低減'. Honda R&D Technical Review Vol. 12 No. 2: 'A dual system for the exhaust manifold and exhaust pipe is used to reduce exhaust interference', 'the split cross-section produced at the center of the pipe by a partition plate in the confluence area'. Which cylinders pair is not stated; 1+4 and 2+3 (360 degrees apart with this firing order) is assumed."
+    },
+    "exhaust_notes": {
+      "value": "Larger-bore exhaust throughout and a silencer with a valve opened by exhaust pressure at mid and high speed",
+      "unit": null,
+      "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/06.html",
+      "note": "'全体の管径アップ、排気圧により開閉する可変バルブ付サイレンサーの採用'. Figure: valve closed '低回転時', open '中・高回転時 排気圧によりバルブ開'."
+    },
+    "primary_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "primary_length_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."},
+    "exhaust_pipe_dia_mm": {"value": null, "unit": "mm", "source": null, "note": "Not found."}
+  },
+  "missing": [
+    "low and high cam timing, duration and lift from a Honda source (forum leads only)",
+    "VTC phase range and full-load phase map for the TYPE R",
+    "throttle diameter, intake runner length and diameter",
+    "header primary and secondary dimensions, exhaust pipe diameters",
+    "idle speed for the TYPE R",
+    "fuel-cut speed (8400 rpm is Honda's permissible maximum; Wikipedia's 8600 is uncited)",
+    "rod length from a Honda source (aftermarket listing only)",
+    "valve sizes for the TYPE R specifically (base K20A figures from Honda R&D)",
+    "firing order from a TYPE R document (RSX K20A3 service data used)"
+  ],
+  "sources": [
+    {"url": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/06.html", "what": "Honda press fact book, Integra (July 2001), engine page: TYPE R engine description (ports, 20-degree seat cut, single-runner equal-length short intake manifold, enlarged throttle, stainless dual exhaust manifold, valve silencer, 11.5 compression, 8400 rpm permissible), net power and torque curve figure, parts figure (rods, crank with 3 mm larger pins). Manufacturer document."},
+    {"url": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/07.html", "what": "Same fact book, i-VTEC page: TYPE R VTEC on intake and exhaust, VTC continuous intake phase control, and the iS / TYPE R comparison table (8400 rpm, 220 PS at 8000, 21.0 kg m at 7000, VTEC changeover 6000 rpm, 86 x 86 mm, 1998 cc, 11.5)."},
+    {"url": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html", "what": "Same fact book, specification table (LA-DC5): K20A, water-cooled inline four transverse, DOHC chain drive 2 intake 2 exhaust, 1998 cc, 86.0 x 86.0, 11.5, 162 kW [220 PS] / 8000 and 206 N m [21.0 kg m] / 7000 net, premium unleaded."},
+    {"url": "https://global.honda/en/technical-review/PDF/012-2/012-2_45e.pdf", "what": "Honda R&D Technical Review Vol. 12 No. 2 (October 2000), 'Development of New 2.0L Lean-burn Engine' (Niizato, Hayashi): base K20A specification incl. 35 / 30 mm valves, i-VTEC and VTC description, dual exhaust manifold with partition plate. About the base engine, not the TYPE R."},
+    {"url": "https://www.honda.co.jp/sportscar/vtec_history/K20A/", "what": "Honda Japan VTEC-history page for the K20A: the post-2004 TYPE R engine (11.7, 225 PS / 8000, 21.9 kg m / 6100, high cam from 5800). Used only to separate it from the modelled 2001 engine."},
+    {"url": "https://www.hondata.com/tech-rsx-vtec-vtc", "what": "Hondata (engine-management tuner) technical note on the US RSX K20A2/K20A3: VTC advance up to 50 degrees, K20A2 three-lobe VTEC on intake and exhaust switching at 5800 up / 5600 down, K20A3 60 mm throttle and runner sizes. Different variants; context only."},
+    {"url": "https://workshop-manuals.com/acura/rsx/l4-2.0l_(vtec)/engine_cooling_and_exhaust/engine/tune-up_and_engine_performance_checks/firing_order/component_information/specifications/", "what": "Third-party reproduction of 2002 Acura RSX (K20A3) service data: firing order 1-3-4-2; same site gives RSX idle 650 rpm. Not a Honda page; not the TYPE R engine."},
+    {"url": "https://en.wikipedia.org/wiki/Honda_K_engine", "what": "Wikipedia, Honda K engine: application table (DC5 TYPE R 11.5:1, 162 kW / 8000, 206 N m / 7000, redline 8400, limiter 8600, VTEC 6000), uncited. Cross-check only."},
+    {"url": "https://www.hybrid-racing.com/products/manley-h-beam-connecting-rods-k20a-k20z", "what": "Aftermarket rod listing, 139 mm centre to centre for K20A2/K20Z. Search excerpt only; weak source for rod length."}
+  ],
+  "vehicle": {
+    "name": "Honda Integra Type R (DC5, Japan, 2001)",
+    "fields": {
+      "curb_kg": {
+        "value": 1170,
+        "unit": "kg",
+        "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+        "note": "'車両重量（kg） エアコン非装着車 1,170 ... エアコン装着車 1,180'. Japanese type-approval vehicle weight. webCG's test (https://www.webcg.net/articles/-/22303) agrees: '車重＝1180kg（エアコン装着車）'."
+      },
+      "gear_count": {
+        "value": 6,
+        "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+        "note": "'6速マニュアル' column."
+      },
+      "gears": {
+        "value": [
+          3.266,
+          2.13,
+          1.517,
+          1.212,
+          0.972,
+          0.78
+        ],
+        "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+        "note": "'変速比 1速 3.266 2速 2.130 3速 1.517 4速 1.212 5速 0.972 6速 0.780 後退 3.583'."
+      },
+      "final_drive": {
+        "value": 4.764,
+        "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+        "note": "'減速比 4.764' (6-speed column)."
+      },
+      "wheel_radius_m": {
+        "value": 0.3126,
+        "unit": "m",
+        "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+        "note": "Calculated by me from the tyre size 215/45 ZR17 (rim diameter / 2 + section width x aspect ratio): unloaded geometric radius, not a published rolling radius."
+      },
+      "tyre": {
+        "value": "215/45 ZR17",
+        "source": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+        "note": "'タイヤ（前/後） 215/45ZR17'."
+      },
+      "driven": {
+        "value": "front",
+        "unit": "",
+        "source": "https://en.wikipedia.org/wiki/Honda_Integra",
+        "note": "English Wikipedia, 'Honda Integra' (read 2026-11-17), infobox layout: Front-engine, front-wheel drive (all-wheel drive on the Japanese DB9 only); the infobox pictures a DC5."
+      }
+    },
+    "missing": [
+      "top speed (only unsourced secondary figures of 148-150 mph and a user-edited 225 km/h were found)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.honda.co.jp/factbook/auto/INTEGRA/200107/13.html",
+        "what": "Honda press fact book, Integra, July 2001, specification table (LA-DC5, K20A 162 kW [220 PS] at 8000 rpm), the variant the engine definition models; type-approval values."
+      },
+      {
+        "url": "https://www.webcg.net/articles/-/22303",
+        "what": "webCG test of the 2001 Integra TYPE R: weight with air conditioning, about 3000 rpm at 100 km/h in sixth. Cross-check."
+      }
+    ]
+  }
+}

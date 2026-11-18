@@ -1,0 +1,92 @@
+{
+  "name": "i3",
+  "label": "1.0 L inline-three",
+  "layout": "inline",
+  "bank_angle": 0.0,
+  "bore": 0.0719,
+  "stroke": 0.082,
+  "rod": 0.137,
+  "cr": 10.5,
+  "firing": [
+    0.0,
+    240.0,
+    480.0
+  ],
+  "bank": [
+    0,
+    0,
+    0
+  ],
+  "slot": [
+    0,
+    1,
+    2
+  ],
+  "ivo": 16.0,
+  "ivc": 56.0,
+  "evo": 54.0,
+  "evc": 14.0,
+  "in_valve_d": 0.027322000000000003,
+  "ex_valve_d": 0.023008,
+  "in_lift": 0.00874304,
+  "ex_lift": 0.00759264,
+  "itb": false,
+  "runner_len": 0.3,
+  "runner_d": 0.032355,
+  "plenum_vol": 0.0011985716892868158,
+  "throttle_d": 0.03997618773364657,
+  "snorkel_len": 0.45,
+  "snorkel_d": 0.0419749971203289,
+  "airbox_vol": 0.003198571689286816,
+  "primary_len": [
+    0.45,
+    0.45,
+    0.45
+  ],
+  "primary_d": 0.030917000000000004,
+  "groups": [
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "collector_vol": 0.00034976194821446926,
+  "secondary_len": 1.2,
+  "secondary_d": 0.04391084815043773,
+  "merge": "none",
+  "mid_len": 0.8,
+  "mid_d": 0.04391084815043773,
+  "muffler_len": 0.5,
+  "muffler_d": 0.17,
+  "muffler_fric": 0.3,
+  "tail_len": 0.5,
+  "tail_d": 0.04016236111320524,
+  "tail_flare_d": 0.0,
+  "inertia": 0.1099642922321704,
+  "redline": 6800.0,
+  "idle": 900.0,
+  "friction_scale": 1.0,
+  "heat_q": 2500000.0,
+  "kind": "piston",
+  "ecc": 0.0,
+  "rotor_r": 0.0,
+  "rotor_w": 0.0,
+  "rotor_phase": [],
+  "port_in": [
+    0.0,
+    0.0
+  ],
+  "port_ex": [
+    0.0,
+    0.0
+  ],
+  "port_in_area": 0.0,
+  "port_ex_area": 0.0,
+  "burn_scale": 1.0,
+  "generic": true,
+  "family": "triple",
+  "based_on": "",
+  "sources": [],
+  "notes": "Invented, typical engine: dimensions are round numbers for this layout, not measurements of a real one."
+}

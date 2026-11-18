@@ -1,0 +1,142 @@
+{
+  "name": "harley_twin_cam_88",
+  "label": "Harley-Davidson Twin Cam 88 1450 cc 45° V-twin",
+  "based_on": "Harley-Davidson Twin Cam 88 (1450 cc), carburetted, 1999-2006",
+  "family": "twin",
+  "layout": "v",
+  "bank_angle": 45.0,
+  "bore": 0.09525,
+  "stroke": 0.1016,
+  "rod": 0.19474,
+  "cr": 8.9,
+  "firing": [
+    0.0,
+    315.0
+  ],
+  "bank": [
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.04585,
+  "ex_valve_d": 0.04001,
+  "cam": {
+    "at_lift": 0.00219,
+    "ivo": -2.0,
+    "ivc": 38.0,
+    "evo": 42.0,
+    "evc": -3.0,
+    "in_lift": 0.01201,
+    "ex_lift": 0.01201
+  },
+  "itb": false,
+  "throttle_d": 0.04,
+  "runner_len": 0.1,
+  "runner_d": 0.044,
+  "plenum_vol": 0.0005,
+  "primary_len": [
+    1.08,
+    0.9
+  ],
+  "primary_d": 0.041,
+  "groups": [
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ],
+  "merge": "none",
+  "secondary_len": 0.1,
+  "secondary_d": 0.041,
+  "muffler_len": 0.4,
+  "muffler_d": 0.09,
+  "tail_len": 0.1,
+  "tail_d": 0.038,
+  "inertia": 0.11,
+  "redline": 5500.0,
+  "idle": 1000.0,
+  "published": {
+    "power_kw": 48.8,
+    "power_rpm": 5200.0,
+    "torque_nm": 116.6,
+    "torque_rpm": 3500.0
+  },
+  "friction_scale": 0.9,
+  "heat_q": 2500000.0,
+  "generic": false,
+  "sources": [
+    {
+      "url": "https://fortnine.ca/assets/pdf/andrews/TwinCamChain-1999-2006.pdf",
+      "what": "Andrews Products installation sheet for 1999-2006 Twin Cam chain-drive cams (PDF hosted by a retailer); table includes the two stock H-D grinds with timing, duration and lift at .053 in cam lift. Cam maker, long-established."
+    },
+    {
+      "url": "https://magazine.cycleworld.com/article/1998/8/1/twin-cam-88",
+      "what": "Cycle World, August 1998, 'Twin Cam 88' launch feature: bore, stroke, displacement, compression, redline, crank and rod design, carburettor, mufflers."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Harley-Davidson_Twin_Cam_engine",
+      "what": "Wikipedia, Harley-Davidson Twin Cam engine: bore, stroke, single crankpin with knife-and-fork rods, cam layout and drive."
+    },
+    {
+      "url": "https://www.revzilla.com/common-tread/wtatwta-what-is-wasted-spark-ignition-and-do-i-want-it",
+      "what": "RevZilla Common Tread technical article on wasted-spark ignition: states the 315/405 intervals and that the front cylinder leads."
+    },
+    {
+      "url": "https://ridermagazine.com/american-rider/?p=20763",
+      "what": "Rider Magazine / American Rider 'Motorhead Memo: V-twin vibe angles' (Kip Woodring, 2014): 315 and 405 degree intervals."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Big-bang_firing_order",
+      "what": "Wikipedia, Big-bang firing order: table row for the 45-degree V-twin, 315-405."
+    },
+    {
+      "url": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_fxst_softail_sta.htm",
+      "what": "motorcyclespecs.co.za page for the 1999-2000 FXST/I Softail Standard: compression, induction, exhaust, power and torque. Spec-aggregator, unsourced; weak."
+    },
+    {
+      "url": "https://www.gutschrome.jp/template/gctheme/img/pdf/2017SS_pdf/2017SS_1999-2006_bt.pdf",
+      "what": "S&S Cycle 2017 catalogue, 1999-2006 big twin section (PDF hosted by a Japanese dealer): rod length of S&S flywheel assemblies, 'Stock' head valve sizes in a porting comparison table."
+    },
+    {
+      "url": "https://www.sscycle.com/content/document_center/Instruction_Sheets/106-5893%20Early%20Gear%20Drive%20Cams.pdf",
+      "what": "S&S Cycle instruction sheet for early Twin Cam gear-drive cams: 475G stock-replacement cam (2/34, 216; 36/4, 220; 0.475 in), used only as a cross-check of the Andrews stock figures."
+    },
+    {
+      "url": "https://ridermagazine.com/motorhead-memo-lobe-separation-anxiety/",
+      "what": "Rider Magazine 'Motorhead Memo' giving the stock grind of the later 96-inch Twin Cam (not the 88); cross-check only."
+    },
+    {
+      "url": "https://hotbike.com/?p=2193",
+      "what": "Hot Bike 'Exhaust System Basics': general statements about stock H-D exhausts and crossover pipes."
+    },
+    {
+      "url": "https://serviceinfo.harley-davidson.com/sip/service/document/1874960824819385729",
+      "what": "Harley-Davidson instruction sheet for Screamin' Eagle Twin Cam performance heads: compression with those heads on a TC 1450 (not stock)."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio 8.9 (spec aggregator), 45-degree V-twin on a single shared crank pin, firing front then rear 315 degrees later (intervals 315/405), rod length 194.74 mm (S&S catalogue, taken to equal stock), two valves per cylinder, valve diameters (S&S 'stock' row, doubtful), valve lift and timing for the 1999 carburetted stock cam (Andrews Products table), 40 mm carburettor, 5500 rpm redline (magazine test), two separate exhaust pipes, published torque and power (spec aggregator; Harley published no power figure). Estimated, not sourced: the valve lift at which the cam timing applies. The table quotes timing at 0.053 in of tappet lift; it is converted to 2.19 mm of valve lift with an unverified rocker ratio of 1.625. Also estimated: idle speed (1000 rpm), manifold runner length and diameter, manifold volume, air cleaner, exhaust pipe lengths (1.08 m front, 0.90 m rear) and diameter, muffler dimensions, flywheel inertia, friction_scale 0.9.",
+  "vehicle": {
+    "name": "Harley-Davidson FXD Dyna Super Glide (1999)",
+    "kind": "motorcycle",
+    "curb_kg": 295,
+    "gear_count": 5,
+    "gears": [
+      3.2095,
+      2.2089,
+      1.5724,
+      1.226,
+      1.0
+    ],
+    "final_drive": 3.15,
+    "wheel_radius_m": 0.3202,
+    "tyre": "130/90-16",
+    "notes": "Carburetted, rubber-mounted TC88A (1999 Softails still used the Evolution engine). curb_kg is estimated: H-D's 612 lb (277.6 kg) dry weight plus 18.5 L of fuel, 2.84 L of oil and the gearbox and primary oil. H-D publishes overall ratios only; gears are those divided by final_drive (primary chain 36:25 x belt 70:32 = 3.150, which equals the published 5th-gear overall ratio). The tyre size is not in the H-D manual (MOTORRAD and CycleChaos agree on it). No top speed was found for the FXD. wheel_radius_m is calculated from the tyre size."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "ktm_620_lc4e",
+  "label": "KTM 620 LC4 609 cc single",
+  "generic": false,
+  "family": "single",
+  "based_on": "KTM 620 LC4-E, 609 cc (620 Duke), c. 1998",
+  "layout": "inline",
+  "bore": 0.101,
+  "stroke": 0.076,
+  "rod": 0.13,
+  "cr": 10.4,
+  "firing": [
+    0
+  ],
+  "in_valves": 2,
+  "ex_valves": 2,
+  "in_valve_d": 0.036,
+  "ex_valve_d": 0.03,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 14,
+    "ivc": 55,
+    "evo": 56,
+    "evc": 13,
+    "in_lift": 0.011,
+    "ex_lift": 0.0105
+  },
+  "itb": true,
+  "runner_len": 0.26,
+  "runner_d": 0.04,
+  "primary_len": [
+    0.65
+  ],
+  "primary_d": 0.042,
+  "groups": [
+    [
+      0
+    ]
+  ],
+  "merge": "none",
+  "inertia": 0.035,
+  "redline": 8000,
+  "idle": 1400,
+  "friction_scale": 0.7,
+  "heat_q": 2650000,
+  "secondary_d": 0.048,
+  "tail_d": 0.044,
+  "secondary_len": 0.5,
+  "published": {
+    "power_kw": 40.1,
+    "power_rpm": 7000,
+    "torque_nm": 60,
+    "torque_rpm": 5500
+  },
+  "sources": [
+    {
+      "url": "https://www.ktmshop.se/documents/972674_TDE_EN.pdf",
+      "what": "KTM 'Technical Data - Engine KTM 620 LC4-E' sheet (PDF dated April 1998, includes 620 Duke carburettor settings), hosted by a KTM dealer shop. Manufacturer technical data: bore, stroke, compression, valve timing at 1 mm, valve diameters, carburettor."
+    },
+    {
+      "url": "https://www.ktmshop.se/documents/970061_TDE_EN.pdf",
+      "what": "A second KTM technical data sheet for the 620 LC4-E with the same cam timing and valve sizes but 10.5:1 compression."
+    },
+    {
+      "url": "https://moto-data.net/ktm/620-lc4-adventure-1997",
+      "what": "Third-party motorcycle spec database: power and torque for the 1997 620 LC4 Adventure. Unverified."
+    },
+    {
+      "url": "https://www.manualsdir.com/manuals/161826/ktm-supermoto-690.html?page=139",
+      "what": "Online copy of the KTM 690 Supermoto owner's manual, technical data - engine page; used only for the related-engine note."
+    },
+    {
+      "url": "https://www.cycleonline.com.au/2009/07/24/quick-test-2009-ktm-690-duke/",
+      "what": "Press test of the 2009 KTM 690 Duke; used only for the related-engine note."
+    }
+  ],
+  "notes": "Sourced: bore, stroke, compression ratio, four valves and their diameters, valve events at 1 mm lift (14/55/56/13), 40 mm carburettor (runner_d, inferred by the researcher from the PHM 40 type name). Published output is from a third-party database for the 620 LC4 Adventure, not a KTM figure for the Duke. Estimated, not sourced: rod length, valve lifts, intake tract length, all exhaust dimensions (header length and diameter, pipe, silencer and tail pipe), flywheel inertia, redline, idle, friction_scale and heat_q (tuned). The single carburettor is modelled as an individual throttle. Not modelled: the balancer shaft.",
+  "vehicle": {
+    "name": "KTM 620 Duke (1997)",
+    "kind": "motorcycle",
+    "curb_kg": 168,
+    "gear_count": 5,
+    "gears": [
+      2.5,
+      1.6,
+      1.1667,
+      0.95,
+      0.8182
+    ],
+    "final_drive": 6.0353,
+    "wheel_radius_m": 0.3059,
+    "tyre": "150/60 R 17",
+    "top_speed_kmh": 170,
+    "notes": "1997 '4th edition', the last 609 cc Duke (the 1998 Last Edition is 625 cc). curb_kg is MOTORRAD's measured full-tank weight for a 1996-97 e-start Duke; KTM's own figure is 145 kg without fuel, about 153 kg with it. top_speed_kmh is MOTORRAD's measured figure for the same bike; its data box gives a 1.8 L reserve, which matches the 1996 3rd edition, whose only gearing difference is 2nd gear 24:16. final_drive is primary 81:30 x chain 38:17. wheel_radius_m is calculated from the tyre size."
+  }
+}

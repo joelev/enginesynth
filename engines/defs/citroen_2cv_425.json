@@ -1,0 +1,134 @@
+{
+  "name": "citroen_2cv_425",
+  "label": "Citroën 2CV 425 cc air-cooled flat-twin (A 53, 16 PS)",
+  "based_on": "Citroën 2CV flat-twin, type A 53, 425 cc (66 x 62 mm, 7.5:1, 16 DIN-PS / 18 ch SAE at 5000 rpm), 2CV AZ / AZAM, February 1963 to February 1970",
+  "family": "flat",
+  "generic": false,
+  "layout": "flat",
+  "bank_angle": 180.0,
+  "bore": 0.066,
+  "stroke": 0.062,
+  "rod": 0.115,
+  "cr": 7.5,
+  "firing": [
+    0.0,
+    360.0
+  ],
+  "bank": [
+    0,
+    1
+  ],
+  "slot": [
+    0,
+    0
+  ],
+  "in_valves": 1,
+  "ex_valves": 1,
+  "in_valve_d": 0.032,
+  "ex_valve_d": 0.029,
+  "cam": {
+    "at_lift": 0.001,
+    "ivo": 2.0,
+    "ivc": 45.0,
+    "evo": 45.0,
+    "evc": 2.0,
+    "in_lift": 0.007,
+    "ex_lift": 0.007
+  },
+  "itb": false,
+  "groups": [
+    [
+      0,
+      1
+    ]
+  ],
+  "merge": "none",
+  "throttle_d": 0.022,
+  "runner_len": 0.35,
+  "runner_d": 0.026,
+  "plenum_vol": 0.0001,
+  "primary_len": [
+    0.4,
+    0.4
+  ],
+  "primary_d": 0.028,
+  "collector_vol": 0.0012,
+  "secondary_len": 1.0,
+  "secondary_d": 0.03,
+  "mid_len": 0.0,
+  "mid_d": 0.032,
+  "muffler_len": 0.77,
+  "muffler_d": 0.1,
+  "muffler_fric": 0.3,
+  "tail_len": 0.2,
+  "tail_d": 0.028,
+  "inertia": 0.05,
+  "redline": 5500.0,
+  "idle": 700.0,
+  "friction_scale": 1.2,
+  "heat_q": 2200000.0,
+  "burn_scale": 1.0,
+  "published": {
+    "power_kw": 11.8,
+    "power_rpm": 5000.0,
+    "torque_nm": 25.0,
+    "torque_rpm": 3500.0
+  },
+  "sources": [
+    {
+      "url": "https://infos-club.mehariclub.com/?p=3949",
+      "what": "Méhari Club Cassis (2CV and Méhari parts supplier and engine rebuilder, which runs one of the historic 2CV engine-renovation lines), article 'Evolution : depuis la 2 CV A jusqu'à la 2 CV 6, tous les moteurs bicylindres de 1949 à 1990', 25 May 2020: every engine type with dates, bore and stroke, compression and ratings. Club history, no factory document cited."
+    },
+    {
+      "url": "https://fr.wikipedia.org/w/index.php?title=Moteur_bicylindre_boxer_Citro%C3%ABn&oldid=241039053",
+      "what": "French Wikipedia, 'Moteur bicylindre boxer Citroën' (formerly 'Moteur de Citroën 2CV'), revision 241039053: construction (two-bearing built-up crankshaft, gear-driven central camshaft, pushrods, hemispherical heads), wasted-spark ignition, exhaust layouts and a table of every engine type. Its table cites no sources."
+    },
+    {
+      "url": "https://www.retro-design.fr/en/content/10-data-sheet-2cv-before-1970",
+      "what": "Retro-Design (French 2CV parts retailer), data sheet '2CV before 1970': engine table with DIN power and torque per period. Retailer, not a factory document."
+    },
+    {
+      "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/2cv/1generation/350117/",
+      "what": "ADAC (German automobile club) Autokatalog, Citroën 2CV 03/63 to 09/71: power, torque and their speeds."
+    },
+    {
+      "url": "https://www.autotitre.com/fiche-technique/Citro%C3%ABn/2CV/AZL/1962-1967",
+      "what": "Autotitre fiche technique, Citroën 2CV AZL 1962-1967: bore, stroke, compression. Database, no source given."
+    },
+    {
+      "url": "https://www.kfz-tech.de/Engl/Hersteller/Citroen/Citroen2CVM.htm",
+      "what": "kfz-tech.de, 'Citroën 2 CV (engine)': description of the engine (central camshaft under the crank, pushrods, common intake tube with the carburettor in the middle, needle-bearing rods on a crankshaft supplied complete, large flywheel). Reference site."
+    },
+    {
+      "url": "http://cms.ice.be/files/76/multitool-en-f.pdf",
+      "what": "ICE (Belgian 2CV specialist), 'Multi-tool 2CV / Visa' instructions: camshaft timing check, quoting Citroën's recommended lobe centre of 108 degrees for a standard camshaft."
+    },
+    {
+      "url": "https://www.mecatechnic.com/en-GB/secondary-under-body-silencer-for-citroen-2cv-azam_CV11453.htm",
+      "what": "Mecatechnic, secondary under-body silencer for the 2CV AZAM, September 1966 to September 1967, 77 cm long. Vendor."
+    },
+    {
+      "url": "https://www.mehariclub.com/en/2cv/engine/exhaust/?page=1",
+      "what": "Méhari Club Cassis exhaust parts list: clamp for the secondary exhaust pipe 2CV 01/1950 to 07/1972, 32 mm. Vendor."
+    }
+  ],
+  "notes": "Sourced: bore 66 mm, stroke 62 mm, compression 7.5:1 (type A 53, February 1963 to February 1970), Solex 28 CBI/IBC with a 22 mm venturi (used as the throttle diameter, since the venturi is the narrowest section at full throttle), 16 DIN-PS (11.8 kW) at 5000 rpm and 25 N·m at 3500 rpm (ADAC; Méhari Club Cassis gives 18 ch SAE at 5000 rpm), silencer under the gearbox then a secondary pipe (32 mm clamp) to a second silencer under the body, 77 cm long (1966-67 AZAM part). Layout (sourced, French Wikipedia and Méhari Club Cassis): air-cooled boxer flat-twin, crankshaft with two throws at 180 degrees so both pistons reach top dead centre together and move in and out together, even firing every 360 degrees (wasted-spark ignition fires both plugs every turn; the cylinder on its exhaust stroke wastes its spark), one valve each side in hemispherical heads, central gear-driven camshaft with pushrods, one carburettor in the middle of a common intake tube. Not modelled: the wasted spark itself (the model fires only the cylinder on compression; the other spark has no effect on a real engine either), the carburettor venturi as a separate restriction, the fan, the heater ducting. Estimated, not sourced: rod length (115 mm, assumed the same as the 375, whose stroke it shares), valve diameters (32/29 mm), cam timing and lift, intake tube length (0.35 m) and bore (26 mm), head pipes (0.40 m x 28 mm), first silencer volume (1.2 L, modelled as the collector), secondary pipe length (1.0 m) and bore (30 mm), second silencer diameter, tailpipe, flywheel inertia, idle 700 rpm, redline 5500 rpm. friction_scale 1.2 and heat_q 2.2e6 are at the ends of their allowed range; at default values the model made about 19% too much torque. Simulated (live96): 26 N·m at 3500 rpm (+3%), 12.3 kW at 5000 rpm (+4%).",
+  "vehicle": {
+    "name": "Citroën 2CV AZAM (1966)",
+    "kind": "car",
+    "curb_kg": 535,
+    "gear_count": 4,
+    "gears": [
+      7.41,
+      3.572,
+      2.133,
+      1.473
+    ],
+    "final_drive": 3.625,
+    "wheel_radius_m": 0.2865,
+    "tyre": "125 x 380",
+    "top_speed_kmh": 95,
+    "notes": "Gear ratios, final drive (8:29), kerb weight and rolling circumference are from Citroën's factory workshop manual (gearbox table for the 2CV from November 1964 to February 1970). The factory table is computed for 125 SR 15 tyres of 1800 mm rolling circumference; the AZAM's 125 x 380 tyre is the same nominal size, which is my reading. Fourth could only be selected from third on cars of this period. Top speed is citroenet's figure for the AZA/AZAM.",
+    "driven": "front"
+  }
+}
